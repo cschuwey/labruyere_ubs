@@ -5,17 +5,15 @@
          <titleStmt>
              <title></title>
          </titleStmt>
-         <publicationStmt> <authority></authority></publicationStmt>
+         <publicationStmt>
+          <authority></authority>
+         </publicationStmt>
          <sourceDesc> <bibl></bibl></sourceDesc>
      </fileDesc>
-    </teiHeader>   
+  </teiHeader>   
  <text> 
      <body>
-         <p>
-(40)
-Je voudrais qu’il me fût permis de crier de toute ma force à ces hommes saints qui ont été autrefois blessés des femmes : "Fuyez les femmes, ne les dirigez point, laissez à d’autres le soin de leur salut."
-
-
+         <p>(40) Je voudrais qu’il me fût permis de crier de toute ma force à ces hommes saints qui ont été autrefois blessés des femmes : "Fuyez les femmes, ne les dirigez point, laissez à d’autres le soin de leur salut."
 (41)
 C’est trop contre un mari d’être coquette et dévote ; une femme devrait opter.
 
@@ -102,15 +100,6 @@ Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel
 (60)
 Il y a un temps où les filles les plus riches doivent prendre parti ; elles n’en laissent guère échapper les premières occasions sans se préparer un long repentir : il semble que la réputation des biens diminue en elles avec celle de leur beauté. Tout favorise au contraire une jeune personne, jusques à l’opinion des hommes, qui aiment à lui accorder tous les avantages qui peuvent la rendre plus souhaitable.
     
- 
-    
-    
-</TEI>
-
-         </body> 
- </text>
-    
- 
-    
-    
+     </body> 
+   </text>
 </TEI>
