@@ -3,14 +3,64 @@
  <teiHeader>
      <fileDesc>
          <titleStmt>
-             <title></title>
+             <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
          </titleStmt>
-         <publicationStmt><authority>autheur ? source du document</authority></publicationStmt>
-         <sourceDesc><bibl>bibliographie</bibl></sourceDesc>
+         <publicationStmt><authority>La Bruyère source du document</authority></publicationStmt>
+         <sourceDesc>
+             <bibl>bibliographie</bibl>
+             <biblStruct xml:id="Paris_1688_1_1">
+                 <monogr>
+                     <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                     <author>la Bruyère</author>
+                     <editor>Etienne Michallet</editor>
+                     <edition>1ère édition</edition>
+                     <idno>https://gallica.bnf.fr/ark:/12148/bpt6k105077m</idno>
+                     <imprint>
+                         <date>1688</date>
+                         <distributor>l'imprimeur l'Image Saint Paul</distributor>
+                         <pubPlace>Paris</pubPlace>
+                     </imprint>
+                 </monogr>
+             </biblStruct>
+         </sourceDesc>
      </fileDesc>
+     <encodingDesc>
+         <editorialDecl>
+             <interpretation>
+                 <p></p>
+             </interpretation>
+         </editorialDecl>
+         <projectDesc>
+             <p>Projet de numérisation de ce texte en classe sous forme de TP.</p>
+         </projectDesc>
+     </encodingDesc>
+     <profileDesc>
+         <textDesc>
+             <channel></channel>
+             <constitution></constitution>
+             <derivation></derivation>
+             <domain></domain>
+             <factuality type="mixed"></factuality>
+             <interaction></interaction>
+             <preparedness></preparedness>
+             <purpose></purpose>
+         </textDesc>
+         <langUsage>
+             <language ident="fra">français du 17ème siècle</language>
+             <language ident="lat">latin</language>
+         </langUsage>
+     </profileDesc>
+     <revisionDesc>
+         <change>
+             
+         </change>
+     </revisionDesc>
  </teiHeader>  
     
     <text>
+        <front>
+            
+        </front>
         <body>
             
             <p>
