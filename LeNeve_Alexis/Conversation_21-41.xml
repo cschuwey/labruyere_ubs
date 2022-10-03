@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
+            <sourceDesc>
+                <biblStruct xml:id="Paris_1878_3_1">
+                    <monogr> <title> "Les caracères de La Bruyère"</title> <author> La Bruyère, Jean de (1645-1696)</author> <editor> A. Mame</editor> <edition> Bibliothèque Nationale de France </edition>
+                        <idno> ark:/12148/bpt6k5599000g </idno>
+                        <imprint> <date> 1878 </date> </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+            <encodingDesc></encodingDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="fra">
+                    <language ident="lat"></language>
+                    </language>
+                </langUsage>
+                <textDesc>
+                    <channel></channel>
+                    <constitution></constitution>
+                    <derivation></derivation>
+                    <domain></domain>
+                    <factuality type=""></factuality>
+                    <interaction></interaction>
+                    <preparedness></preparedness>
+                    <purpose></purpose>
+                </textDesc>
+            </profileDesc>
             <titleStmt>
-                <title></title>
+                <title> "Les Caractères de la Bruyère"</title>
             </titleStmt>
             <publicationStmt><authority></authority></publicationStmt>
             <sourceDesc><bibl></bibl></sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text><body><p>(21)
+    <text>
+        <front></front><body><p>(21)
         Celui qui dit incessamment qu’il a de l’honneur et de la probité, qu’il ne nuit à personne, qu’il consent que le mal qu’il fait aux autres lui arrive, et qui jure pour le faire croire, ne sait pas même contrefaire l’homme de bien.
         Un homme de bien ne saurait empêcher par toute sa modestie qu’on ne dise de lui ce qu’un malhonnête homme sait dire de soi.
         
@@ -72,6 +99,7 @@
         (40)
         L’intérieur des familles est souvent troublé par les défiances, par les jalousies et par l’antipathie, pendant que des dehors contents, paisibles et enjoués nous trompent, et nous y font supposer une paix qui n’y est point : il y en a peu qui gagnent à être approfondies. Cette visite que vous rendez vient de suspendre une querelle domestique, qui n’attend que votre retraite pour recommencer.
         
-         </p></body></text>
+    </p></body></text>
     
 </TEI>   
+
