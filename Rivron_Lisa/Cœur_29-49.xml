@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
+    
     <teiHeader>
-       
+        
         <fileDesc>
             <titleStmt>
                 <title></title>
@@ -11,12 +11,30 @@
                 <authority> Lisa </authority>
             </publicationStmt>
             <sourceDesc>
+                <biblStruct xml:id="Paris_1889_editionclassique_un">
+                    <monogr> <title> Les Caractères </title><author> La Bruyère </author><edition> édition classique </edition><editor> Frédéric Godefroy</editor><idno></idno><imprint><date> 1889 </date><pubPlace> Paris </pubPlace></imprint>
+                        <imprint></imprint>
+                    </monogr>
+                </biblStruct>
                 <bibl> bibliothèque </bibl>
             </sourceDesc>
-        </fileDesc>
+        </fileDesc> 
+        <profileDesc> <langUsage
+            <language ident="fra"> français du dix-septième siècle </language><language ident="lat"></language>
+        </langUsage><textDesc>
+            <channel></channel>
+            <constitution></constitution>
+            <derivation></derivation>
+            <domain></domain>
+            <factuality></factuality>
+            <interaction></interaction>
+            <preparedness></preparedness>
+            <purpose></purpose>
+        </textDesc></profileDesc>
+        <encodingDesc></encodingDesc>
     </teiHeader> 
- 
- 
+    
+    
     <text>
         <body>
             <p>(29)
@@ -93,4 +111,5 @@
     </text>
     
 </TEI>
+
 
