@@ -3,11 +3,38 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
+            <encodingDesc></encodingDesc>
+            <profileDesc><langUsage>
+                <language ident="fra">Français du XVIIème siècle</language>
+                <language ident="lat">Latin</language>
+            </langUsage><textDesc>
+                <channel></channel>
+                <constitution></constitution>
+                <derivation></derivation>
+                <domain></domain>
+                <factuality></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc></profileDesc>
             <titleStmt>
-                <title>Aujourd'hui</title>
+                <title></title>
             </titleStmt>
             <publicationStmt><authority></authority></publicationStmt>
-            <sourceDesc><bibl></bibl></sourceDesc>
+            <sourceDesc><biblStruct xml:id="Paris_1688_3_1">
+                <monogr><title>Les Caractères de Téophraste, traduit du grec, avec les caractères ou les moeurs de ce siècle</title>
+                    <author>La Bruyère, Jean de</author>
+                    <edition>Troisième édition</edition>
+                    <editor>(Paris)</editor>
+                    <idno>ark:/12148/bpt6k105077m</idno>
+                    <imprint><date>1688</date></imprint>
+                </monogr>
+            </biblStruct>
+                <biblStruct>
+                <monogr>
+                    <imprint><date></date></imprint>
+                </monogr>
+            </biblStruct></sourceDesc>
         </fileDesc>
     </teiHeader>
     <text><body><p>(20)
@@ -76,6 +103,7 @@
         (40)
         Ménippe est l’oiseau paré de divers plumages qui ne sont pas à lui. Il ne parle pas, il ne sent pas ; il répète des sentiments et des discours, se sert même si naturellement de l’esprit des autres qu’il y est le premier trompé, et qu’il croit souvent dire son goût ou expliquer sa pensée, lorsqu’il n’est que l’écho de quelqu’un qu’il vient de quitter. C’est un homme qui est de mise un quart d’heure de suite, qui le moment d’après baisse, dégénère, perd le peu de lustre qu’un peu de mémoire lui donnait, et montre la corde. Lui seul ignore combien il est au-dessous du sublime et de l’héroïque ; et, incapable de savoir jusqu’où l’on peut avoir de l’esprit, il croit naïvement que ce qu’il en a est tout ce que les hommes en sauraient avoir : aussi a-t-il l’air et le maintien de celui qui n’a rien à désirer sur ce chapitre, et qui ne porte envie à personne. Il se parle souvent à soi-même, et il ne s’en cache pas, ceux qui passent le voient, et qu’il semble toujours prendre un parti, ou décider qu’une telle chose est sans réplique. Si vous le saluez quelquefois, c’est le jeter dans l’embarras de savoir s’il doit rendre le salut ou non ; et pendant qu’il délibère, vous êtes déjà hors de portée. Sa vanité l’a fait honnête homme, l’a mis au-dessus de lui-même, l’a fait devenir ce qu’il n’était pas. L’on juge, en le voyant, qu’il n’est occupé que de sa personne ; qu’il sait que tout lui sied bien, et que sa parure est assortie ; qu’il croit que tous les yeux sont ouverts sur lui, et que les hommes se relayent pour le contempler.
     </p></body></text>
-
-       
+    
+    
 </TEI>
+
