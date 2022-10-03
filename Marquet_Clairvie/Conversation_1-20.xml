@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
+    
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,8 +11,37 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl/>
+                <biblStruct xml:id="Paris_1701_1_1">
+                    <monogr>
+                        <title>Sentimens critiques sur les Caracteres de Monsieur de La Bruyere</title>
+                        <author>Argonne, Bonaventure d' (1640-1704).</author>
+                        <edition>1ère édition de 1701</edition>
+                        <idno>ark:/12148/bpt6k9648199b</idno>
+                        <imprint>
+                            <date>1701</date>
+                            <publisher>A Paris, chez Michel Brunet. M.DCCI</publisher>
+                            <pubPlace>Paris</pubPlace>                
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <textDesc>
+                <channel></channel>
+                <constitution></constitution>
+                <derivation></derivation>
+                <domain></domain>
+                <factuality></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc>
+            <langUsage>
+                <language ident="fra">Français du XVIIe siècle</language>
+                <language ident="lat">Latin du XVIIe siècle</language>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
@@ -78,6 +107,6 @@
                 Rien n’est moins selon Dieu et selon le monde que d’appuyer tout ce que l’on dit dans la conversation, jusques aux choses les plus indifférentes, par de longs et de fastidieux serments. Un honnête homme qui dit oui et non mérite d’être cru : son caractère jure pour lui, donne créance à ses paroles, et lui attire toute sorte de confiance.</p>
         </body>
     </text>
-
-
+    
+    
 </TEI>
