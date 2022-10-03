@@ -3,16 +3,50 @@
 
 <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title></title>
+        <titleStmt> 
+            <title> Les caractères de la Bruyère </title>
         </titleStmt>
         <publicationStmt>
-            <authority> Chloé </authority>
+            <authority> Chloé Mébirouk </authority>
         </publicationStmt>
         <sourceDesc>
-            <bibl> </bibl>
+            <biblStruct xml:id="Paris_1699_10_1">
+            <monogr> 
+                <title> Les caractères ou Les moeurs de ce siècle. précédé de Les caractères de Théophraste </title>
+                <author> Jean de la Bruyère </author>
+                <editor> chez Estienne Michallet </editor>
+                <textLang> Français </textLang>
+                <edition> Dixième édition </edition>
+                <idno> ark:/12148/bpt6k57580j </idno>
+                <imprint>
+                <date> 1699 </date>
+                <pubPlace> Paris </pubPlace>
+            </imprint>
+            </monogr>
+            </biblStruct>
         </sourceDesc>
     </fileDesc>
+    <profileDesc> 
+        <textDesc>
+            <channel> </channel>
+            <constitution></constitution>
+            <derivation></derivation>
+            <domain></domain>
+            <factuality type="fiction"></factuality> 
+            <interaction></interaction>
+            <preparedness></preparedness>
+            <purpose></purpose>
+        </textDesc>
+        <langUsage>
+            <language ident="fra"> Français du XVIIème siècle</language>
+            <language ident="lat"></language>
+        </langUsage>
+    </profileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <punctuation> </punctuation>
+        </editorialDecl>
+    </encodingDesc>
 </teiHeader>
 
 <text>
