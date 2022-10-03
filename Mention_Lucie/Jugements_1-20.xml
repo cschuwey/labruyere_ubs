@@ -3,15 +3,45 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Les Caractères de La Bruyère</title>
             </titleStmt>
             <publicationStmt>
                 <authority>Lucie</authority>
             </publicationStmt>
             <sourceDesc>
                 <bibl>bibliothèque ubs</bibl>
+                <biblStruct xml:id="PARIS_1688_3_1">
+                    <monogr>
+                        <title>Les caractères de Theophraste traduits du Grec avec Les caractères ou les moeurs de ce siècle</title>
+                        <author>Jean de la Bruyère</author>
+                        <edition>Troisième édition</edition>
+                        <editor>Estienne Michalet</editor>
+                        <idno>https://gallica.bnf.fr/ark:/12148/bpt6k57572x/f1.item</idno>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <date>1688</date>
+                            <distributor>Rue S. Jacques</distributor>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <textDesc>
+                <channel></channel>
+                <constitution></constitution>
+                <derivation></derivation>
+                <domain></domain>
+                <factuality></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc>
+            <langUsage>
+                <language ident="fra">Français du XVIIème siècle</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
@@ -47,8 +77,7 @@
                 Les hommes ne se goûtent qu’à peine les uns les autres, n’ont qu’une faible pente à s’approuver réciproquement : action, conduite, pensée, expression, rien ne plaît, rien ne contente ; ils substituent à la place de ce qu’on leur récite, de ce qu’on leur dit ou de ce qu’on leur lit, ce qu’ils auraient fait eux-mêmes en pareille conjoncture, ce qu’ils penseraient ou ce qu’ils écriraient sur un tel sujet, et ils sont si pleins de leurs idées, qu’il n’y a plus de place pour celles d’autrui.
                 
                 (10)
-                Le commun des hommes est si enclin au dérèglement et à la bagatelle, et le monde est si plein d’exemples ou pernicieux ou ridicules, que je croirais assez que l’esprit de singularité, s’il pouvait avoir ses bornes et ne pas aller trop loin, approcherait fort de la droite raison et d’une conduite régulière. 
-                «Il faut faire comme les autres » : maxime suspecte, qui signifie presque toujours : « il faut mal faire » dès qu’on l’étend au delà de ces choses purement extérieures, qui n’ont point de suite, qui dépendent de l’usage, de la mode ou des bienséances.
+                Le commun des hommes est si enclin au dérèglement et à la bagatelle, et le monde est si plein d’exemples ou pernicieux ou ridicules, que je croirais assez que l’esprit de singularité, s’il pouvait avoir ses bornes et ne pas aller trop loin, approcherait fort de la droite raison et d’une conduite régulière. «Il faut faire comme les autres » : maxime suspecte, qui signifie presque toujours : « il faut mal faire » dès qu’on l’étend au delà de ces choses purement extérieures, qui n’ont point de suite, qui dépendent de l’usage, de la mode ou des bienséances.
                 
                 (11)
                 Si les hommes sont hommes plutôt qu’ours et panthères, s’ils sont équitables, s’ils se font justice à eux-mêmes, et qu’ils la rendent aux autres, que deviennent les lois, leur texte et le prodigieux accablement de leurs commentaires ? que devient le pétitoire et le possessoire, et tout ce qu’on appelle jurisprudence ? Où se réduisent même ceux qui doivent tout leur relief et toute leur enflure à l’autorité où ils sont établis de faire valoir ces mêmes lois ? Si ces mêmes hommes ont de la droiture et de la sincérité, s’ils sont guéris de la prévention, où sont évanouies les disputes de l’école, la scolastique et les controverses ? S’ils sont tempérants, chastes et modérés, que leur sert le mystérieux jargon de la médecine, et qui est une mine d’or pour ceux qui s’avisent de le parler ? Légistes, docteurs, médecins, quelle chute pour vous, si nous pouvions tous nous donner le mot de devenir sages !
@@ -81,7 +110,9 @@
                 Les langues sont la clef ou l’entrée des sciences, et rien davantage ; le mépris des unes tombe sur les autres. Il ne s’agit point si les langues sont anciennes ou nouvelles, mortes ou vivantes, mais si elles sont grossières ou polies, si les livres qu’elles ont formés sont d’un bon ou d’un mauvais goût. Supposons que notre langue pût un jour avoir le sort de la grecque et de la latine, serait-on pédant, quelques siècles après qu’on ne la parlerait plus, pour lire Molière ou La Fontaine ?
                 
                 (20)
-                Je nomme Eurypyle, et vous dites : « C’est un bel esprit. » Vous dites aussi de celui qui travaille une poutre : « Il est charpentier » ; et de celui qui refait un mur : « Il est maçon. » Je vous demande quel est l’atelier où travaille cet homme de métier, ce bel esprit ? quelle est son enseigne ? à quel habit le reconnaît-on ? quels sont ses outils ? est-ce le coin ? sont-ce le marteau ou l’enclume ? où fend-il, où cogne-t-il son ouvrage ? où l’expose-t-il en vente ? Un ouvrier se pique d’être ouvrier. Eurypyle se pique-t-il d’être bel esprit ? S’il est tel, vous me peignez un fat, qui met l’esprit en roture, une âme vile et mécanique, à qui ni ce qui est beau ni ce qui est esprit ne sauraient s’appliquer sérieusement ; et s’il est vrai qu’il ne se pique de rien, je vous entends, c’est un homme sage et qui a de l’esprit. Ne dites-vous pas encore du savantasse : « Il est bel esprit », et ainsi du mauvais poète ? Mais vous-même, vous croyez-vous sans aucun esprit ? et si vous en avez, c’est sans doute de celui qui est beau et convenable : vous voilà donc un bel esprit ; ou s’il s’en faut peu que vous ne preniez ce nom pour une injure, continuez, j’y consens, de le donner à Eurypyle, et d’employer cette ironie comme les sots, sans le moindre discernement, ou comme les ignorants, qu’elle console d’une certaine culture qui leur manque, et qu’ils ne voient que dans les autres.</p>
+                Je nomme Eurypyle, et vous dites : « C’est un bel esprit. » Vous dites aussi de celui qui travaille une poutre : « Il est charpentier » ; et de celui qui refait un mur : « Il est maçon. » Je vous demande quel est l’atelier où travaille cet homme de métier, ce bel esprit ? quelle est son enseigne ? à quel habit le reconnaît-on ? quels sont ses outils ? est-ce le coin ? sont-ce le marteau ou l’enclume ? où fend-il, où cogne-t-il son ouvrage ? où l’expose-t-il en vente ? Un ouvrier se pique d’être ouvrier.
+                Eurypyle se pique-t-il d’être bel esprit ? S’il est tel, vous me peignez un fat, qui met l’esprit en roture, une âme vile et mécanique, à qui ni ce qui est beau ni ce qui est esprit ne sauraient s’appliquer sérieusement ; et s’il est vrai qu’il ne se pique de rien, je vous entends, c’est un homme sage et qui a de l’esprit.
+                Ne dites-vous pas encore du savantasse : « Il est bel esprit », et ainsi du mauvais poète ? Mais vous-même, vous croyez-vous sans aucun esprit ? et si vous en avez, c’est sans doute de celui qui est beau et convenable : vous voilà donc un bel esprit ; ou s’il s’en faut peu que vous ne preniez ce nom pour une injure, continuez, j’y consens, de le donner à Eurypyle, et d’employer cette ironie comme les sots, sans le moindre discernement, ou comme les ignorants, qu’elle console d’une certaine culture qui leur manque, et qu’ils ne voient que dans les autres.</p>
         </body>
     </text>
 </TEI>
