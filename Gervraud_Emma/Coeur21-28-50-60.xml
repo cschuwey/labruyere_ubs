@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-    <fileDesc>
-        <titleStmt>
-            <title></title>
-        </titleStmt>
-        <publicationStmt>
-            <authority></authority>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl></bibl>
-        </sourceDesc>
-    </fileDesc>
-</teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de la Bruyère</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr xml:id="Tours_1879_edition_classique">
+                        <author ref="https://data.bnf.fr/11910249">Jean de la bruyère</author>
+                        <author>Théophraste</author>
+                        <title>Les Caratères de la Bruyère</title>
+                        <editor>A. Mame à Tour</editor>
+                        <edition>Edition classique</edition>
+                        <imprint xml:id="Tours_1879_édition_classique_1">
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k5493831p</pubPlace>
+                            <publisher>Edition classique</publisher>
+                            <date>1879</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">français classique</language>
+            </langUsage>
+            <textDesc>
+                <channel></channel>
+                <constitution></constitution>
+                <derivation></derivation>
+                <domain></domain>
+                <factuality type="fact"></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc>
+        </profileDesc>
+    </teiHeader>
     <text>
         <body> 
             <p>Du Coeur
