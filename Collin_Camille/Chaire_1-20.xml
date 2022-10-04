@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-     <fileDesc>
-         <titleStmt>
-             <title></title>
-         </titleStmt>
-         <publicationStmt><authority></authority></publicationStmt>
-         <sourceDesc><bibl></bibl></sourceDesc>
-     </fileDesc>
- </teiHeader>  
-    <text><body><p>(1)
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><authority></authority></publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> De La Bruyère, Jean </author>                 
+                    <title> Les Caractères</title>
+                    <edition> Edition Classique</edition>
+                    <monogr xml:id="paris_1876">
+                        <imprint xml:id="paris_1876_1">
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k5493831p.texteImage </pubPlace>
+                        <publisher> A. Mame (Tours) </publisher>
+                        <date> 1876 </date>
+        
+                    </imprint>
+                </monogr>
+            </biblStruct>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <langUsage> 
+                <language ident="fra">français classique</language>
+            </langUsage>
+                   </profileDesc>
+       
+      
+    </teiHeader>  
+    <text><body><p>
+        (1)
         Le discours chrétien est devenu un spectacle. Cette tristesse évangélique qui en est l’âme ne s’y remarque plus : elle est suppléée par les avantages de la mine, par les inflexions de la voix, par la régularité du geste, par le choix des mots, et par les longues énumérations. On n’écoute plus sérieusement la parole sainte : c’est une sorte d’amusement entre mille autres ; c’est un jeu où il y a de l’émulation et des parieurs.
         
         (2)
@@ -71,5 +93,4 @@
         Devrait-il suffire d’avoir été grand et puissant dans le monde pour être louable ou non, et, devant le saint autel et dans la chaire de la vérité, loué et célébré à ses funérailles ? N’y a-t-il point d’autre grandeur que celle qui vient de l’autorité et de la naissance ? Pourquoi n’est-il pas établi de faire publiquement le panégyrique d’un homme qui a excellé pendant sa vie dans la bonté, dans l’équité, dans la douceur, dans la fidélité, dans la piété ? Ce qu’on appelle une oraison funèbre n’est aujourd’hui bien reçue du plus grand nombre des auditeurs, qu’à mesure qu’elle s’éloigne davantage du discours chrétien, ou si vous l’aimez mieux ainsi, qu’elle approche de plus près d’un éloge profane.</p></body></text>
     
     
-</TEI> 
-
+</TEI>
