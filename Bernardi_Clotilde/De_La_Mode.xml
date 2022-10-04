@@ -8,8 +8,27 @@
             <publicationStmt>
                 <authority></authority>
             </publicationStmt>
-            <sourceDesc><bibl></bibl></sourceDesc>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr xml:id="Paris_1696_Dixieme">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce siècle</title>
+                        <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
+                        <author>Théophrastre</author>
+                        <edition>Dixième édition</edition>           
+                     <imprint xml:id="Paris_1696_N1">
+                         <date>1696</date>
+                         <publisher>chez Estienne Michallet</publisher>
+                         <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57579b/f3.item</pubPlace>
+                     </imprint>
+                    </monogr>
+                </biblStruct></sourceDesc>
         </fileDesc>
+        <profileDesc>
+<langUsage>
+    <language ident="fra">Français du XVIIe siècle</language>
+    <language ident="latin"></language>
+</langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
