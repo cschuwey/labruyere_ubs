@@ -6,8 +6,28 @@
                 <title></title>
             </titleStmt>
             <publicationStmt><authority></authority></publicationStmt>
-            <sourceDesc><bibl></bibl></sourceDesc>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author ref="https://data.bnf.fr/11910249">la Bruyère, Jean de</author>
+                        <title>Oeuvres de La Bruyère : Les caractères / oeuvres de La Bruyère</title>
+                        <editor>Alfred Cattier</editor>
+                        <date when="1886"></date>
+                    </analytic>
+                    <monogr xml:id="TOURS_1886">
+                        <imprint xml:id="TOURS_1886_1">
+                            <pubPlace>Tours</pubPlace>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k5499861p?rk=42918;4</pubPlace>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">français</language>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
