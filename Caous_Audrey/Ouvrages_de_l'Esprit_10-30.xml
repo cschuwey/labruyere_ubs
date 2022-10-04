@@ -1,17 +1,49 @@
+</TEI>
+
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Les Caractères de la Bruyère</title>
             </titleStmt>
             <publicationStmt>
                 <authority></authority>
             </publicationStmt>
             <sourceDesc>
                 <bibl></bibl>
+                <biblStruct>
+                    <monogr xml:id="Amsterdam_1760">
+                        <title>Les Caractères</title>
+                        <author ref="https://data.bnf.fr/11910249">Jean de la Bruyère</author>
+                        <author>Théophraste</author>
+                        <editor>Aux dépens de la Compagnie</editor>
+                        <textLang>Français</textLang>
+                        <availability> <licence>Université de Harvard</licence></availability>
+                        <imprint xml:id="Amsterdam_1760_1">
+                            <publisher>Aux dépens de la Compagnie</publisher>
+                            <date>1760</date>
+                            <pubPlace>https://www.google.fr/books/edition/Les_caracteres_de_La_Bruyere</pubPlace>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+            <textDesc>
+                <channel></channel>
+                <constitution></constitution>
+                <derivation></derivation>
+                <domain></domain>
+                <factuality></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
@@ -90,3 +122,4 @@
         </body>
     </text>
 </TEI>
+
