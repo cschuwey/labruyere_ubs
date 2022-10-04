@@ -6,8 +6,37 @@
                 <title></title>
             </titleStmt>
             <publicationStmt><authority></authority></publicationStmt>
-            <sourceDesc><bibl></bibl></sourceDesc>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr xml:id="Paris_1895">
+                        <author ref="https://data.bnf.fr/11910249/">Jean de La Bruyère</author>
+                        <author>Théophraste</author>
+                        <title>Les Caractères</title>
+                        <edition>1895</edition> 
+                        <imprint xml:id="Paris_1865_N1">
+                            <date>1895</date>
+                            <publisher>Garnier Frères</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k5516042p.r=caract%C3%A8res%20la%20bruy%C3%A8re?rk=21459;2</pubPlace>
+                        </imprint>
+                    </monogr>   
+                </biblStruct>
+            </sourceDesc>
         </fileDesc>
+        <profileDesc> 
+        <langUsage>
+            <language ident="fra">Français classique</language>
+        </langUsage>
+            <textDesc>
+                <channel></channel>
+                <constitution></constitution>
+                <derivation></derivation>
+                <domain></domain>
+                <factuality></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
