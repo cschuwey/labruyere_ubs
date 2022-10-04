@@ -5,8 +5,29 @@
             <title></title>
         </titleStmt>
         <publicationStmt><authority></authority></publicationStmt>
-        <sourceDesc><bibl></bibl></sourceDesc>
-    </fileDesc>
+        <sourceDesc>
+            <biblStruct>
+                <monogr xml:id="paris_1920_6_1"><author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/">De La Bruyère, Jean</author><author>théophraste</author>
+                <title>Les caractères ou les moeurs de ce siècle</title>
+                <edition>1876</edition>
+                <editor>garnier frères</editor>
+                    <imprint xml:id="paris_1920_6_1"> <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k3045520q</pubPlace>
+                </imprint>
+            </monogr>
+        </biblStruct>
+            <bibl></bibl></sourceDesc>
+    </fileDesc> <profileDesc><langUsage>
+        <language ident="fra">français classique</language>
+    </langUsage><textDesc>
+        <channel></channel>
+        <constitution></constitution>
+        <derivation></derivation>
+        <domain></domain>
+        <factuality type="fact"></factuality>
+        <interaction></interaction>
+        <preparedness></preparedness>
+        <purpose></purpose>
+    </textDesc></profileDesc>
 </teiHeader>
     <text><body><p>L’on se donne à Paris, sans se parler, comme un rendez-vous public, mais fort exact, tous les soirs au Cours ou aux Tuileries, pour se regarder au visage et se désapprouver les uns les autres.
         L’on ne peut se passer de ce même monde que l’on n’aime point, et dont l’on se moque.
@@ -71,7 +92,7 @@
         
         (20)
         Pénible coutume, asservissement incommode ! se chercher incessamment les unes les autres avec l’impatience de ne se point rencontrer ; ne se rencontrer que pour se dire des riens, que pour s’apprendre réciproquement des choses dont on est également instruite, et dont il importe peu que l’on soit instruite ; n’entrer dans une chambre précisément que pour en sortir ; ne sortir de chez soi l’après-dînée que pour y rentrer le soir, fort satisfaite d’avoir vu en cinq petites heures trois suisses, une femme que l’on connaît à peine, et une autre que l’on n’aime guère ! Qui considérerait bien le prix du temps, et combien sa perte est irréparable, pleurerait amèrement sur de si grandes misères.</p></body></text>
-
+    
     
     
     
