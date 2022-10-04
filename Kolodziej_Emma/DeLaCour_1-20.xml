@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
-        <titleStmt>
-            <title></title>
-        </titleStmt>
-        <publicationStmt><authority></authority></publicationStmt>
-        <sourceDesc><bibl></bibl></sourceDesc>
-    </fileDesc>
-</teiHeader>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><authority></authority></publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr xml:id="PARIS_1876">
+                        <title>Oeuvres complètes de J. de La Bruyère. Les Caractères : I-XII / de J. de La Bruyère</title>
+                        <author ref="https://data.bnf.fr/11910249"> La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11887698"> Théophraste</author>
+                        <editor>Garnier frères</editor>
+                        <imprint xml:id="PARIS_1876_1">
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Garnier frères</publisher>
+                            <date>1876</date>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k6465111h/f79</pubPlace>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français du XVIIe siècle</language>
+                <language ident="latin">Latin</language>
+            </langUsage>
+            <textDesc>
+                <channel></channel>
+                <constitution></constitution>
+                <derivation></derivation>
+                <domain></domain>
+                <factuality></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc>
+        </profileDesc>
+    </teiHeader>
     <text>
         <body>
             <p>De la Cour
