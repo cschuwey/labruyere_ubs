@@ -9,9 +9,37 @@
                 <authority></authority>
             </publicationStmt>
             <sourceDesc>
-                <bibl></bibl>
+                <biblStruct>
+                    <monogr xml:id="Paris_1864">
+                        <author ref="https://data.bnf.fr/11910249/">Jean de La Bruyère</author>
+                        <author> Théophraste</author>
+                        <title> Les caractères ou Les moeurs de ce siècle : suivis du Discours à l'Académie et de la traduction de Théophraste / par La Bruyère ; précédé d'une introduction par Sainte-Beuve ; illustrations de MM. Penguilly, Grandville et Jules David </title>
+                        <edition>1864</edition>
+                        <imprint xml:id="Paris_1864_N1">
+                            <date>1864</date>
+                            <publisher>Morizot, Libraire-Editeur</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k34139263/f11.item.zoom</pubPlace>
+                        </imprint>       
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français classique</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textDesc>
+                <channel></channel>
+                <constitution></constitution>
+                <derivation></derivation>
+                <domain></domain>
+                <factuality></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
@@ -117,3 +145,4 @@
         </body>
     </text>
 </TEI>
+
