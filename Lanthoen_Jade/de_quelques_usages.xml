@@ -3,11 +3,39 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Les Caractère de la Bruyère</title>
             </titleStmt>
-            <publicationStmt><authority></authority></publicationStmt>
-            <sourceDesc><bibl></bibl></sourceDesc>
+            <publicationStmt><authority></authority>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr xml:id= "Tours_1876">
+                        <title>Les Caractères</title>
+                        <author>Jean de La Bruyère</author>
+                        <author> ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/" </author>
+                        <edition>Edition classique</edition>
+                        <imprint xml:id="Tours_1876_1">
+                            <date>1876</date>
+                            <biblScope></biblScope>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k5493831p?rk=42918;4</pubPlace>
+                        </imprint>
+                       
+                    </monogr>
+                   
+                </biblStruct>
+            </sourceDesc>
         </fileDesc>
+        <profileDesc> 
+            <langUsage resp="iso639-3"
+        </langUsage>
+            <textDesc>
+            <factuality type=""></factuality>
+        </textDesc>
+        </profileDesc>
+        <encodingDesc>
+            <ab></ab>
+        </encodingDesc>
+        
     </teiHeader>
     <text>
         <body>
@@ -74,3 +102,4 @@
         </body>
     </text>
 </TEI>
+
