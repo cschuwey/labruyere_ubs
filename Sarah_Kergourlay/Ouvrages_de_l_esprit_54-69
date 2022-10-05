@@ -3,15 +3,45 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Les Caractères de la Bruyère</title>
             </titleStmt>
             <publicationStmt>
                 <authority></authority>
             </publicationStmt>
             <sourceDesc>
                 <bibl></bibl>
+                 <biblStruct>
+                    <monogr xml:id="">
+                        <title></title>
+                        <author ref=""></author>
+                        <author></author>
+                        <editor></editor>
+                        <textLang></textLang>
+                        <availability> <licence></licence></availability>
+                        <imprint xml:id="">
+                            <publisher></publisher>
+                            <date></date>
+                            <pubPlace></pubPlace>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+          <profileDesc>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+            <textDesc>
+                <channel></channel>
+                <constitution></constitution>
+                <derivation></derivation>
+                <domain></domain>
+                <factuality></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
