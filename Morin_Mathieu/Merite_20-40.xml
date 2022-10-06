@@ -30,11 +30,35 @@
                     <imprint><date>1688</date></imprint>
                 </monogr>
             </biblStruct>
-                <biblStruct>
-                <monogr>
-                    <imprint><date></date></imprint>
+                <biblStruct xml:id="Paris_1699_10_2">
+                <monogr><title>Les caractères de Téophraste, traduit du grec, avec Les caractères ou Les moeurs de ce siècle.</title>
+                    <author>La Bruyère, Jean de</author>
+                    <author>Téophraste</author>
+                    <edition>Dixième édition</edition>
+                    <editor>chez Estienne Michallet (A Paris)</editor>
+                    <idno>ark:/12148/bpt6k57580j</idno>
+                    <imprint><date>1699</date></imprint>
                 </monogr>
-            </biblStruct></sourceDesc>
+                </biblStruct>
+                <biblStruct xml:id="Paris_1689_4_3">
+                <monogr><title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
+                    <author>La Bruyère, Jean de</author>
+                    <edition>Quatrième édition</edition>
+                    <editor>chez Estienne Michallet (A Paris)</editor>
+                    <idno>ark:/12148/bpt6k575649</idno>
+                    <imprint><date>1689</date></imprint>
+                </monogr>
+                </biblStruct>
+                <biblStruct xml:id="Paris_1692_7_4">
+                <monogr><title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou les moeurs de ce siècle</title>
+                    <author>La Bruyère, Jean de</author>
+                    <edition>Septième édition</edition>
+                    <editor>chez Estienne Michallet (A Paris)</editor>
+                    <idno>ark:/12148/bpt6k57575z</idno>
+                    <imprint><date>1692</date></imprint>
+                </monogr>
+                </biblStruct>
+            </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text><body><p>(20)
@@ -106,4 +130,3 @@
     
     
 </TEI>
-
