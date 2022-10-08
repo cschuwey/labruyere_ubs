@@ -23,6 +23,32 @@
                         </imprint>                       
                     </monogr>
                 </biblStruct>
+                 <biblStruct xml:id="Tours_1876_AM_1">
+                    <monogr>
+                        <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>                     
+                        <edition></edition>
+                        <idno>ark:/12148/cb11942641d</idno>
+                        <imprint>
+                            <publisher>A. Mame</publisher>
+                            <pubPlace>Tours</pubPlace>
+                            <date>1876</date>
+                        </imprint>                       
+                    </monogr>
+                </biblStruct>
+                 <biblStruct xml:id="Paris_1688_1_1">
+                    <monogr>
+                        <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>                     
+                        <edition></edition>
+                        <idno>ark:/12148/cb120117553</idno>
+                        <imprint>
+                            <publisher>Estienne Michallet</publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date>1688</date>
+                        </imprint>                       
+                    </monogr>
+                </biblStruct>
                 
             </sourceDesc>            
         </fileDesc>
