@@ -11,25 +11,59 @@
             <sourceDesc>
                 <bibl></bibl>
                  <biblStruct>
-                    <monogr xml:id="">
-                        <title></title>
-                        <author ref=""></author>
-                        <author></author>
-                        <editor></editor>
-                        <textLang></textLang>
-                        <availability> <licence></licence></availability>
-                        <imprint xml:id="">
-                            <publisher></publisher>
-                            <date></date>
-                            <pubPlace></pubPlace>
+                 <monogr xml:id="Paris_1688">
+                     <title> Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
+                        <author ref="https://data.bnf.fr/fr/11910249">Jean de la Bruyère</author>
+                        <author ref="https://data.bnf.fr/11887698">Théophraste</author>
+                        <editor>Estienne Michallet</editor>
+                        <textLang>Français</textLang>
+                        <imprint xml:id="Paris_1688_1">
+                            <publisher>Chez Estienne Michallet</publisher>
+                            <date>1688</date>
+                            <pubPlace>Paris, rue S. Jacques, à l'Image S. Paul</pubPlace>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57572x/f1.item</pubPlace>
+                        </imprint>
+                    </monogr>
+                     <monogr xml:id="Paris_1689">
+                     <title> Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle - Quatrième édition corrigée et augmentée</title>
+                        <author ref="https://data.bnf.fr/fr/11910249">Jean de la Bruyère</author>
+                        <author ref="https://data.bnf.fr/11887698">Théophraste</author>
+                        <editor>Estienne Michallet</editor>
+                        <textLang>Français</textLang>
+                        <imprint xml:id="Paris_1689_1">
+                            <publisher>Chez Estienne Michallet</publisher>
+                            <date>1689</date>
+                            <pubPlace>Paris, rue S. Jacques, à l'Image S. Paul</pubPlace>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575649.r=La%20Bruy%C3%A8re%2C%20Jean%20de?rk=4012895;2</pubPlace>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="La_Haye_1696">
+                        <title>Les Caractères de Theophraste traduits du grec: avec les caractères ou les moeurs de ce siècle. Neuviéme édition</title>
+                        <author ref="https://data.bnf.fr/fr/11910249">Jean de la Bruyère</author>
+                        <author ref="https://data.bnf.fr/11887698">Théophraste</author>
+                        <editor>Adrian Moetjens</editor>
+                        <textLang>Français</textLang>
+                        <imprint xml:id="La_Haye_1696_1">
+                            <publisher>Adrian Moetjens</publisher>
+                            <date>1696</date>
+                            <pubPlace>A La Haye</pubPlace>
+                            <pubPlace>https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100959720/IMG00000007</pubPlace>
                         </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
+              <revisionDesc>
+                <listChange>
+                    <change when="2022-09-10">Première version complète</change>
+                     <change when="2022-09-10">Ajout d'une deuxième version corrigée et augmentée pour comparaison.</change>
+                     <change when="2022-09-10">Ajout d'une troisième version du texte pour me baser sur plusieurs versions d'époques et lieux de publication différents.</change>
+                 </listChange>
+            </revisionDesc>
         </fileDesc>
           <profileDesc>
             <langUsage>
                 <language ident="fr">français classique</language>
+                <language indent="lat">latin du XVIIème siècle </language>
             </langUsage>
             <textDesc>
                 <channel></channel>
