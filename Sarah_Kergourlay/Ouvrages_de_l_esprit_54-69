@@ -62,7 +62,7 @@
         </fileDesc>
           <profileDesc>
             <langUsage>
-                <language ident="fr">français classique</language>
+                <language ident="fr">français du XVIIème siècle</language>
                 <language indent="lat">latin du XVIIème siècle </language>
             </langUsage>
             <textDesc>
@@ -76,6 +76,10 @@
                 <purpose></purpose>
             </textDesc>
         </profileDesc>
+        <encodingDesc>
+         <editorialDecl>
+            </editorialDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
