@@ -8,13 +8,13 @@
         <sourceDesc>
             <biblStruct>
                 <monogr xml:id="paris_1920_6_1"><author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/">De La Bruyère, Jean</author><author>théophraste</author>
-                <title>Les caractères ou les moeurs de ce siècle</title>
-                <edition>1876</edition>
-                <editor>garnier frères</editor>
+                    <title>Les caractères ou les moeurs de ce siècle</title>
+                    <edition>1876</edition>
+                    <editor>garnier frères</editor>
                     <imprint xml:id="paris_1920_6_1"> <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k3045520q</pubPlace>
-                </imprint>
-            </monogr>
-        </biblStruct>
+                    </imprint>
+                </monogr><monogr xml:id="paris_1688_1"></monogr>
+            </biblStruct>
             <bibl></bibl></sourceDesc>
     </fileDesc> <profileDesc><langUsage>
         <language ident="fra">français classique</language>
@@ -29,15 +29,20 @@
         <purpose></purpose>
     </textDesc></profileDesc>
 </teiHeader>
-    <text><body><p>L’on se donne à Paris, sans se parler, comme un rendez-vous public, mais fort exact, tous les soirs au Cours ou aux Tuileries, pour se regarder au visage et se désapprouver les uns les autres.
-        L’on ne peut se passer de ce même monde que l’on n’aime point, et dont l’on se moque.
-        L’on s’attend au passage réciproquement dans une promenade publique ; l’on y passe en revue l’un devant l’autre : carrosse, chevaux, livrées, armoiries, rien n’échappe aux yeux, tout est curieusement ou malignement observé ; et selon le plus ou le moins de l’équipage, ou l’on respecte les personnes, ou on les dédaigne.
+    <text><front><titlepage><docTitle><titlePart>Les</titlePart><titlePart>caractères</titlePart><titlePart>de Theophraste</titlePart><titlePart>traduit du grec.</titlePart><titlePart>avec</titlePart><titlePart>les caractères</titlePart><titlePart>ou</titlePart>les moeurs de ce siecle.
+        <docDate when="1688">MCLXXVIII</docDate>    
+    </titlePart></docTitle>
+    </titlepage></front>
+        <body><div1><head>de la ville</head>
+            <div2 source="#paris_1688_1"><p>L’on se donne à Paris, sans se parler, comme un rendez-vous public, mais fort exact, tous les soirs au Cours ou aux Tuileries, pour se regarder au visage et se désapprouver les uns les autres.
+        </p><p>L’on ne peut se passer de ce même monde que l’on n’aime point, et dont l’on se moque.
+        L’on s’attend au passage réciproquement dans une promenade publique ; l’on y passe en revue l’un devant l’autre : carrosse, chevaux, livrées, armoiries, rien n’échappe aux yeux, tout est curieusement ou malignement observé ; et selon le plus ou le moins de l’équipage, ou l’on respecte les personnes, ou on les dédaigne.</p></div2>
         
-        (2)
-        Tout le monde connaît cette longue levée qui borne et qui resserre le lit de la Seine, du côté où elle entre à Paris avec la Marne, qu’elle vient de recevoir : les hommes s’y baignent au pied pendant les chaleurs de la canicule ; on les voit de fort près se jeter dans l’eau ; on les en voit sortir : c’est un amusement. Quand cette saison n’est pas venue, les femmes de la ville ne s’y promènent pas encore ; et quand elle est passée, elles ne s’y promènent plus.
+       <div2>(2)
+           Tout le monde connaît cette longue levée qui borne et qui resserre le lit de la Seine, du côté où elle entre à Paris avec la Marne, qu’elle vient de recevoir : les hommes s’y baignent au pied pendant les chaleurs de la canicule ; on les voit de fort près se jeter dans l’eau ; on les en voit sortir : c’est un amusement. Quand cette saison n’est pas venue, les femmes de la ville ne s’y promènent pas encore ; et quand elle est passée, elles ne s’y promènent plus.</div2>
         
-        (3)
-        Dans ces lieux d’un concours général, où les femmes se rassemblent pour montrer une belle étoffe, et pour recueillir le fruit de leur toilette, on ne se promène pas avec une compagne par la nécessité de la conversation ; on se joint ensemble pour, se rassurer sur le théâtre, s’apprivoiser avec le public, et se raffermir contre la critique : c’est là précisément qu’on se parle sans se rien dire, ou plutôt qu’on parle pour les passants, pour ceux même en faveur de qui l’on hausse sa voix, l’on gesticule et l’on badine, l’on penche négligemment la tête, l’on passe et l’on repasse.
+        <div2>(3)
+            Dans ces lieux d’un concours général, où les femmes se rassemblent pour montrer une belle étoffe, et pour recueillir le fruit de leur toilette, on ne se promène pas avec une compagne par la nécessité de la conversation ; on se joint ensemble pour, se rassurer sur le théâtre, s’apprivoiser avec le public, et se raffermir contre la critique : c’est là précisément qu’on se parle sans se rien dire, ou plutôt qu’on parle pour les passants, pour ceux même en faveur de qui l’on hausse sa voix, l’on gesticule et l’on badine, l’on penche négligemment la tête, l’on passe et l’on repasse.</div2>
         
         (4)
         La ville est partagée en diverses sociétés, qui sont comme autant de petites républiques, qui ont leurs lois, leurs usages, leur jargon, et leurs mots pour rire. Tant que cet assemblage est dans sa force, et que l’entêtement subsiste, l’on ne trouve rien de bien dit ou de bien fait que ce qui part des siens, et l’on est incapable de goûter ce qui vient d’ailleurs : cela va jusques au mépris pour les gens qui ne sont pas initiés dans leurs mystères. L’homme du monde d’un meilleur esprit, que le hasard a porté au milieu d’eux, leur est étranger : il se trouve là comme dans un pays lointain, dont il ne connaît ni les routes, ni la langue ni les mœurs, ni la coutume ; il voit un peuple qui cause, bourdonne, parle à l’oreille, éclate de rire, et qui retombe ensuite dans un morne silence ; il y perd son maintien, ne trouve pas où placer un seul mot, et n’a pas même de quoi écouter. Il ne manque jamais là un mauvais plaisant qui domine, et qui est comme le héros de la société : celui-ci s’est chargé de la joie des autres, et fait toujours rire avant que d’avoir parlé. Si quelquefois une femme survient qui n’est point de leurs plaisirs, la bande joyeuse ne peut comprendre qu’elle ne sache point rire des choses qu’elle n’entend point, et paraisse insensible à des fadaises qu’ils n’entendent eux-mêmes que parce qu’ils les ont faites : ils ne lui pardonnent ni son ton de voix, ni son silence, ni sa taille, ni son visage, ni son habillement, ni son entrée, ni la manière dont elle est sortie. Deux années cependant ne passent point sur une même coterie : il y a toujours, dès la première année, des semences de division pour rompre dans celle qui doit suivre ; l’intérêt de la beauté, les incidents du jeu, l’extravagance des repas, qui, modestes au commencement, dégénèrent bientôt en pyramides de viandes et en banquets somptueux, dérangent la république, et lui portent enfin le coup mortel : il n’est en fort peu de temps non plus parlé de cette nation que des mouches de l’année passée.
@@ -91,9 +96,9 @@
         Le bel et le judicieux usage que celui qui, préférant une sorte d’effronterie aux bienséances et à la pudeur, expose une femme d’une seule nuit sur un lit comme sur un théâtre, pour y faire pendant quelques jours un ridicule personnage, et la livre en cet état à la curiosité des gens de l’un et de l’autre sexe, qui, connus ou inconnus, accourent de toute une ville à ce spectacle pendant qu’il dure ! Que manque-t-il à une telle coutume, pour être entièrement bizarre et incompréhensible, que d’être lue dans quelque relation de la Mingrélie ?
         
         (20)
-        Pénible coutume, asservissement incommode ! se chercher incessamment les unes les autres avec l’impatience de ne se point rencontrer ; ne se rencontrer que pour se dire des riens, que pour s’apprendre réciproquement des choses dont on est également instruite, et dont il importe peu que l’on soit instruite ; n’entrer dans une chambre précisément que pour en sortir ; ne sortir de chez soi l’après-dînée que pour y rentrer le soir, fort satisfaite d’avoir vu en cinq petites heures trois suisses, une femme que l’on connaît à peine, et une autre que l’on n’aime guère ! Qui considérerait bien le prix du temps, et combien sa perte est irréparable, pleurerait amèrement sur de si grandes misères.</p></body></text>
+        Pénible coutume, asservissement incommode ! se chercher incessamment les unes les autres avec l’impatience de ne se point rencontrer ; ne se rencontrer que pour se dire des riens, que pour s’apprendre réciproquement des choses dont on est également instruite, et dont il importe peu que l’on soit instruite ; n’entrer dans une chambre précisément que pour en sortir ; ne sortir de chez soi l’après-dînée que pour y rentrer le soir, fort satisfaite d’avoir vu en cinq petites heures trois suisses, une femme que l’on connaît à peine, et une autre que l’on n’aime guère ! Qui considérerait bien le prix du temps, et combien sa perte est irréparable, pleurerait amèrement sur de si grandes misères.</p></div1></body></text>
     
     
     
     
-</TEI>
+</TEI
