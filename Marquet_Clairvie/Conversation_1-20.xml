@@ -4,44 +4,153 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Les caractères de Théophraste, traduits du grec, avec Les caractères oules moeurs de ce siècle<title/>
             </titleStmt>
             <publicationStmt>
-                <authority/>
+                <authority></authority>
+                <publisher>Etienne Michallet, premier imprimeur du roi</publisher>
+                <pubPlace>Paris, rue Saint-Jacques</pubPlace>
+                <availability status="free">
+                    <p>Dans un cadre de travail : cours TEI Master 1</p>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <bibl/>
-                <biblStruct xml:id="Paris_1701_1_1">
+                <biblStruct xml:id="Paris_1689_4_4">
                     <monogr>
-                        <title>Sentimens critiques sur les Caracteres de Monsieur de La Bruyere</title>
-                        <author>Argonne, Bonaventure d' (1640-1704).</author>
-                        <edition>1ère édition de 1701</edition>
-                        <idno>ark:/12148/bpt6k9648199b</idno>
+                        <title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
+                        <author>Jean de la Bruyère</author>
+                        <edition>Le Quatrième édition</edition>
+                        <idno>ark:/12148/bpt6k575649</idno>
                         <imprint>
-                            <date>1701</date>
-                            <publisher>A Paris, chez Michel Brunet. M.DCCI</publisher>
+                            <date>1689</date>
+                            <publisher>Etienne Michallet</publisher>
                             <pubPlace>Paris</pubPlace>                
                         </imprint>
                     </monogr>
                 </biblStruct>
+                <msDesc xml:id="Paris_1689_4_4">
+                    <msIdentifier>
+                        <collection>Collection : French books 1601-1700 ; 35.2</collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>1 microfilm ; 35 mm ; 444 pages</p>
+                    </physDesc>
+                </msDesc>
+                <biblStruct xml:id="Paris_1690_5_5">
+                    <monogr>
+                        <title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
+                        <author>Jean de la Bruyère</author>
+                        <edition>Le Cinquième édition</edition>
+                        <idno> ark:/12148/bpt6k575660</idno>
+                        <imprint>
+                            <date>1689</date>
+                            <publisher>Etienne Michallet</publisher>
+                            <pubPlace>Paris</pubPlace>                
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc xml:id="Paris_1690_5_5">
+                    <msIdentifier>
+                        <collection>Collection : French books 1601-1700 ; 66.8</collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>  1 microfilm ; 35 mm ; 554 pages</p>
+                    </physDesc>
+                </msDesc>
+                <biblStruct xml:id="Paris_1694_8_8">
+                    <monogr>
+                        <title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
+                        <author>Jean de la Bruyère</author>
+                        <edition>La Huitième édition</edition>
+                        <idno>ark:/12148/bpt6k57577n</idno>
+                        <imprint>
+                            <date>1694</date>
+                            <publisher>Etienne Michallet</publisher>
+                            <pubPlace>Paris</pubPlace>                
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc xml:id="Paris_1694_8_8">
+                    <msIdentifier>
+                        <collection>Collection : French books 1601-1700 ; 68.3</collection>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>1 microfilm ; 35 mm ; 800 pages</p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Travailler sur au moins 10 exemplaires des Caractère de la Bruyère : voir les changements entre ces différents exemplaires</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                     <p>Les remarques sont toujours distinguées par des étoiles, astérisques</p>
+                </normalization>
+                <quotation marks="all" form="std">
+                    <p><Les guillemets sont toujours présents pour les mêmes passages</p>
+                </quotation>
+            </editorialDecl>
+            <charDecl>
+                <glyph xml:id="Scaro">
+                    <glyphName>CONSERVATION DES S CAROLINGIENS</glyphName>
+                </glyph>
+            </charDecl>
+        </encodingDesc>
         <profileDesc>
-            <textDesc>
-                <channel></channel>
-                <constitution></constitution>
-                <derivation></derivation>
-                <domain></domain>
-                <factuality></factuality>
-                <interaction></interaction>
-                <preparedness></preparedness>
-                <purpose></purpose>
+            <textDesc n="essai">
+                <channel mode="w">Ces textes étaient destinés à être imprimés</channel>
+                <constitution type="single"/>
+                <derivation type="revision"/>
+                <domain type="domestic"/>
+                <factuality type="mixed"/>
+                <interaction type="partial"/>
+                <preparedness type="prepared"/>
+                <purpose type="entertain" degree="medium"/>
+                <purpose type="inform" degree="high"/>
             </textDesc>
+            <settingDesc>
+                <setting>
+                    <name>Paris, France</name>
+                    <time>Fin 17e</time>
+                </setting>
+            </settingDesc>
             <langUsage>
                 <language ident="fra">Français du XVIIe siècle</language>
                 <language ident="lat">Latin du XVIIe siècle</language>
             </langUsage>
         </profileDesc>
+        <profileDesc>
+            <textDesc n="essai">
+                <channel mode="w">Ces textes sont destinés à être lus sur internet</channel>
+                <constitution type="single"/>
+                <derivation type="revision"/>
+                <domain type="education"/>
+                <factuality type="mixed"/>
+                <interaction type="partial"/>
+                <preparedness type="revised"/>
+                <purpose type="inform" degree="high"/>
+                <purpose type="expres" degree="medium"/>
+            </textDesc>
+            <settingDesc>
+                <setting>
+                    <name>Paris, France</name>
+                    <time>Fin 17e</time>
+                </setting>
+            </settingDesc>
+            <langUsage>
+                <language ident="fra">Français du XVIIe siècle</language>
+                <language ident="lat">Latin du XVIIe siècle</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-10-08">1er essai : création de 3 exemplaires dans sourceDesc</change>
+                <change when="2022-10-08">1er essai : commencement du fileDesc</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -110,3 +219,5 @@
     
     
 </TEI>
+
+
