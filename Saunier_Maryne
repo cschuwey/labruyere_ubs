@@ -29,13 +29,80 @@
                         
                     </monogr>
                 </biblStruct>
+                <biblStruct xml:id="Paris__1688_3_2">
+                    <monogr>
+                        <title>Les caractères de Théophraste traduits du grec,/
+                            avec les caractères ou les moeurs de ce siècle</title>
+                        <author>Jean de la Bruyère</author>
+                        <editor>Estienne Michallet, premier imprimeur du Roi</editor>
+                        <edition>
+                            Troisième édition
+                        </edition>
+                        <idno>https://gallica.bnf.fr/ark:/12148/bpt6k57572x</idno>
+                        <imprint>
+                            <date>1688</date>
+                            <pubPlace>Paris</pubPlace>
+                            <distributor>rue Saint Jacques, à l'Image Saint Paul</distributor>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                
+                <biblStruct xml:id="Paris__1689_4_3">
+                    <monogr>
+                        <title>Les caractères de Théophraste traduits du grec,/
+                            avec les caractères ou les moeurs de ce siècle</title>
+                        <author>Jean de la Bruyère</author>
+                        <editor>Estienne Michallet, premier imprimeur du roi</editor>
+                        <edition>
+                            Quatrième édition
+                        </edition>
+                        <idno>https://gallica.bnf.fr/ark:/12148/bpt6k575649</idno>
+                        <imprint>
+                            <date>1689</date>
+                            <pubPlace>Paris</pubPlace>
+                            <distributor>rue Saint Jacques, à l'Image Saint Paul</distributor>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                
+                <biblStruct xml:id="Paris__1688_1_4">
+                    <monogr>
+                        <title>Les caractères de Théophraste traduits du grec,/
+                            avec les caractères ou les moeurs de ce siècle</title>
+                        <author>Jean de la Bruyère</author>
+                        <editor>Estienne Michallet, premier imprimeur du roi</editor>
+                        <edition>
+                            Première édition
+                        </edition>
+                        <idno>https://gallica.bnf.fr/ark:/12148/bpt6k105077m</idno>
+                        <imprint>
+                            <date>1688</date>
+                            <pubPlace>Paris</pubPlace>
+                            <distributor>rue Saint Jacques, à l'Image Saint Paul</distributor>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
                 
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction>
+                    <p>
+                       Le texte a été corrigé à de nombreuses reprises au fur et à mesure des avancées de La Bruyère, puis ensuite à titre posthume. 
+                    </p>
+                </correction>
+                <punctuation>
+                    <p>
+                        Présence de pieds de mouche et de notes.
+                    </p>
+                </punctuation>
+            </editorialDecl>
+        </encodingDesc>
         <profileDesc>
-            <textDesc>
+            <textDesc n="ouvrage de remarques moralisatrices">
                 <channel></channel>
-                <constitution></constitution>
+                <constitution>Rédaction de l'ouvrage vers 1670.</constitution>
                 <derivation></derivation>
                 <domain></domain>
                 <factuality type="fact"></factuality>
@@ -43,11 +110,28 @@
                 <preparedness></preparedness>
                 <purpose></purpose>
             </textDesc>
-          <langUsage>
-              <language ident="fra">Français du XVIIème siècle</language>
-              <language ident="lat">Latin du XVIIème siècle</language>
-          </langUsage>
+            <langUsage>
+                <language ident="fra">Français du XVIIème siècle</language>
+                <language ident="lat">Latin du XVIIème siècle</language>
+            </langUsage>
         </profileDesc>
+        
+        <revisionDesc>
+            <change>
+                <date>
+                    3.10.2022
+                </date>
+                    <p>
+                    Rajout d'une BibleStruct : Première édition de 1688 à Lyon.
+                    </p>
+                <date>
+                   10.10.2022
+                </date>
+                    <p>
+                    Rajout de deux BibliStruct : troisième édition de 1688 à Paris et quatrième édition de 1689 à Paris.
+                    </p>
+            </change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
