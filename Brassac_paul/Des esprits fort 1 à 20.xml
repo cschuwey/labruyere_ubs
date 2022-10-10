@@ -21,28 +21,6 @@
                             <pubPlace>https://drive.google.com/drive/folders/1jz_ryWvsCi2rAf6EwcSkDqxlcqJDthXA</pubPlace>
                         </imprint>
                     </monogr>
-                    <monogr xml:id="Paris_1688_Cinquième_Edition">
-                        <title>Les Caractères de Théophraste traduits du grec; avec les caractères ou les moeurs de ce siècle</title>
-                        <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
-                        <author>Théophrastre</author>
-                        <edition>Cinquième édition</edition>           
-                        <imprint xml:id="Paris_1690_N1">
-                            <date>1690</date>
-                            <publisher>chez Estienne Michallet</publisher>
-                            <pubPlace>https://drive.google.com/drive/folders/1jz_ryWvsCi2rAf6EwcSkDqxlcqJDthXA</pubPlace>
-                        </imprint>
-                    </monogr>
-                    <monogr xml:id="Paris_1699_Dixième_Edition">
-                        <title>Les Caractères de Théophraste traduits du grec; avec les caractères ou les moeurs de ce siècle</title>
-                        <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
-                        <author>Théophrastre</author>
-                        <edition>Dième édition</edition>           
-                        <imprint xml:id="Paris_1699_N1">
-                            <date>1699</date>
-                            <publisher>chez Estienne Michallet</publisher>
-                            <pubPlace>https://drive.google.com/drive/folders/1jz_ryWvsCi2rAf6EwcSkDqxlcqJDthXA</pubPlace>
-                        </imprint>
-                    </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
