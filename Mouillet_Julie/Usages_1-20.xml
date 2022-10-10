@@ -21,21 +21,122 @@
                          <pubPlace>Paris</pubPlace>
                      </imprint>
                  </monogr>
-             </biblStruct>
+                 </biblStruct>
+                 <biblStruct xml:id="Paris_1688_3_3">
+                 <monogr>
+                     <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                     <author>Jean de la Bruyère</author>
+                     <editor>Etienne Michallet</editor>
+                     <edition>3ème édition</edition>
+                     <idno>http://catalogue.bnf.fr/ark:/12148/cb372427436</idno>
+                     <imprint>
+                         <date>1688</date>
+                         <distributor>l'imprimeur l'Image Saint Paul</distributor>
+                         <pubPlace>Paris</pubPlace>
+                     </imprint>
+                 </monogr>
+                    </biblStruct>
+                 <biblStruct xml:id="Lyon_1694_8_8">
+                 <monogr>
+                     <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                     <author>Jean de la Bruyère</author>
+                     <editor>Thomas Amaulry</editor>
+                     <edition>8ème édition</edition>
+                     <idno>http://catalogue.bnf.fr/ark:/12148/cb372432312</idno>
+                     <imprint>
+                         <date>1694</date>
+                         <distributor>Mercure Galant</distributor>
+                         <pubPlace>Lyon</pubPlace>
+                     </imprint>
+                 </monogr>
+                 </biblStruct>
+                 <biblStruct xml:id="La_Haye_1696_9_9">
+                 <monogr>
+                     <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                     <author>Jean de la Bruyère</author>
+                     <editor>Adrian Moetjens</editor>
+                     <edition>9ème édition</edition>
+                     <idno>http://numelyo.bm-lyon.fr/BML:BML_00GOO0100137001100959720</idno>
+                     <imprint>
+                         <date>1696</date>
+                         <distributor>Adrian Moetjens, marchand Libraire prés la Cour</distributor>
+                         <pubPlace>La Haye</pubPlace>
+                     </imprint>
+                 </monogr>
+                 </biblStruct>
          </sourceDesc>
      </fileDesc>
      <encodingDesc>
          <editorialDecl>
-             <interpretation>
-                 <p></p>
-             </interpretation>
+            <correction>
+                <p>Dans le texte original est utilisé très fréquemment le "s long" que l'on va corriger, dans un soucis de facilitation de la lecture du texte, en "s" comme nous avons l'habitude de l'utiliser.</p>
+             </correction>
+             <normalization>
+                 <p>Nous avons régularisé et corrigé les formes alphabétiques et orthographiques apparaissant dans le texte puisqu'elle sont inconnues de tous à l'heure actuelle, mais utilisées dans le texte originale.</p>
+             </normalization>
+             <punctuation>
+                <p>Marquage des emplacements de pieds de mouche et autre typographie spécifique des ouvrages anciens sans les faire apparaître mais simplement signaler leur présence.</p>
+             </punctuation>
+             <segmentation>
+                <p>Caractères segmentés par numérotation.</p>
+             </segmentation>
          </editorialDecl>
          <projectDesc>
              <p>Projet de numérisation de ce texte en classe sous forme de TP.</p>
          </projectDesc>
      </encodingDesc>
      <profileDesc>
-         <textDesc>
+         <creation>
+            <time> Publié en 1687 pour la première fois mais en préparation depuis 1685 au moins puisqu'il en avait parlé à Boileau quelques temps avant la première publication de l'ouvrage.</time>
+            <addName>Paris</addName>
+         </creation>
+         <textClass>
+             <catRef>
+                 <list rend="inline numbered">
+                 <label>(1)</label>
+                 <item>caractère 1</item>
+                 <label>(2)</label>
+                 <item>caractère 2</item>
+                 <label>(3)</label>
+                 <item>caractère 3</item>
+                 <label>(4)</label>
+                 <item>caractère 4</item>
+                 <label>(5)</label>
+                 <item>caractère 5</item>
+                 <label>(6)</label>
+                 <item>caractère 6</item>
+                 <label>(7)</label>
+                 <item>caractère 7</item>
+                 <label>(8)</label>
+                 <item>caractère 8</item>
+                 <label>(9)</label>
+                 <item>caractère 9</item>
+                 <label>(10)</label>
+                 <item>caractère 10</item>
+                 <label>(11)</label>
+                 <item>caractère 11</item>
+                 <label>(12)</label>
+                 <item>caractère 12</item>
+                 <label>(13)</label>
+                 <item>caractère 13</item>
+                 <label>(14)</label>
+                 <item>caractère 14</item>
+                 <label>(15)</label>
+                 <item>caractère 15</item>
+                 <label>(16)</label>
+                 <item>caractère 16</item>
+                 <label>(17)</label>
+                 <item>caractère 17</item>
+                 <label>(18)</label>
+                 <item>caractère 18</item>
+                 <label>(19)</label>
+                 <item>caractère 19</item>
+                 <label>(20)</label>
+                 <item>caractère 20</item>
+             </list>
+             </catRef>
+         </textClass>
+             <textDesc>
              <channel></channel>
              <constitution></constitution>
              <derivation></derivation>
@@ -45,14 +146,33 @@
              <preparedness></preparedness>
              <purpose></purpose>
          </textDesc>
+         <particDesc>
+            <p>Caractère numéro 7, mention D'Hozier qui est un nom de famille célèbre de généalogistes. Le chef de cette famille a d'ailleurs écrit un ouvrage de 150 volumes manuscrits et conservés dans la Bibliothèque impériale.</p>
+            <p>Caractère numéro 14, mention de Geoffreoy de La Bruyère qui était effectivement un personnage connu de l'Histoire de France comme le dit La Bruyère et il semblerait qu'ils ne sont pas apparentés. Cependant, l'auteur utilise l'ironie pour dire que s'il devient connu lui-aussi, alors ils deviendront forcément décrits comme apparentés. </p>
+            <p>Caractère numéro 14, mention de Godefroy de Bouillon qui était chevalier franc à qui on va proposer de devenir le premier souverain de Jérusalem à la suite de la Première Croisade, il va cependant refuser ce titre.</p>
+         </particDesc>
          <langUsage>
              <language ident="fra">français du 17ème siècle</language>
              <language ident="lat">latin</language>
          </langUsage>
      </profileDesc>
      <revisionDesc>
+           <change>
+             <date>2022.10.03</date> 
+             <p>Ajout de la section "bibliStruct", dans "fileDesc" et remplissage de quelques-uns de ses éléments à propos de "xml:id="Paris_1688_1_1""</p>
+             <p>Ajout de la section "encodingDesc" et remplissage de quelques-uns de ses éléments comme "projectDesc"</p>
+             <p>Ajout de la section "profileDesc" et remplissage de quelques-uns de ses éléments comme "langUsage" vu en cours ou "textDesc"</p>
+         </change>
          <change>
-             
+             <date>2022.10.05</date> 
+             <p>Recensement de quelques éditions de plus dans "fileDesc" et "sourceDesc" ("xml:id="Paris_1688_3_3""; "xml:id="Lyon_1694_8_8"" ; "xml:id="La_Haye_1696_9_9"") de plus de l'oeuvre dans la section la section "bibliStruct"</p>
+             <p>Proposition de deux règles dans "editorialDesc"</p>
+             <p>Proposition de deux interprétations dans "profileDesc"</p>
+             <p>Remplissage de toute la section "revisionDesc" pour la première fois</p>
+         </change>
+         <change>
+             <date>2022.10.06 ou 07</date> 
+             <p>Vérification de ce qui a été fait la veille sur Visual Studio Code avec Oxygen et correction si besoin.</p>
          </change>
      </revisionDesc>
  </teiHeader>  
@@ -126,7 +246,7 @@
                 (20)
                 
                L’on ne voit point faire de vœux ni de pèlerinages pour obtenir d’un saint d’avoir l’esprit plus doux, l’âme plus reconnaissante, d’être plus équitable et moins malfaisant, d’être guéri de la vanité, de l’inquiétude et de la mauvaise raillerie. 
-                </p>
+            </p>
         </body>
     </text>
 </TEI>
