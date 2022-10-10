@@ -93,47 +93,47 @@
          <textClass>
              <catRef>
                  <list rend="inline numbered">
-                 <label>(1)</label>
-                 <item>caractère 1</item>
-                 <label>(2)</label>
-                 <item>caractère 2</item>
-                 <label>(3)</label>
-                 <item>caractère 3</item>
-                 <label>(4)</label>
-                 <item>caractère 4</item>
-                 <label>(5)</label>
-                 <item>caractère 5</item>
-                 <label>(6)</label>
-                 <item>caractère 6</item>
-                 <label>(7)</label>
-                 <item>caractère 7</item>
-                 <label>(8)</label>
-                 <item>caractère 8</item>
-                 <label>(9)</label>
-                 <item>caractère 9</item>
-                 <label>(10)</label>
-                 <item>caractère 10</item>
-                 <label>(11)</label>
-                 <item>caractère 11</item>
-                 <label>(12)</label>
-                 <item>caractère 12</item>
-                 <label>(13)</label>
-                 <item>caractère 13</item>
-                 <label>(14)</label>
-                 <item>caractère 14</item>
-                 <label>(15)</label>
-                 <item>caractère 15</item>
-                 <label>(16)</label>
-                 <item>caractère 16</item>
-                 <label>(17)</label>
-                 <item>caractère 17</item>
-                 <label>(18)</label>
-                 <item>caractère 18</item>
-                 <label>(19)</label>
-                 <item>caractère 19</item>
-                 <label>(20)</label>
-                 <item>caractère 20</item>
-             </list>
+                     <label>(1)</label>
+                     <item>caractère 1</item>
+                     <label>(2)</label>
+                     <item>caractère 2</item>
+                     <label>(3)</label>
+                     <item>caractère 3</item>
+                     <label>(4)</label>
+                     <item>caractère 4</item>
+                     <label>(5)</label>
+                     <item>caractère 5</item>
+                     <label>(6)</label>
+                     <item>caractère 6</item>
+                     <label>(7)</label>
+                     <item>caractère 7</item>
+                     <label>(8)</label>
+                     <item>caractère 8</item>
+                     <label>(9)</label>
+                     <item>caractère 9</item>
+                     <label>(10)</label>
+                     <item>caractère 10</item>
+                     <label>(11)</label>
+                     <item>caractère 11</item>
+                     <label>(12)</label>
+                     <item>caractère 12</item>
+                     <label>(13)</label>
+                     <item>caractère 13</item>
+                     <label>(14)</label>
+                     <item>caractère 14</item>
+                     <label>(15)</label>
+                     <item>caractère 15</item>
+                     <label>(16)</label>
+                     <item>caractère 16</item>
+                     <label>(17)</label>
+                     <item>caractère 17</item>
+                     <label>(18)</label>
+                     <item>caractère 18</item>
+                     <label>(19)</label>
+                     <item>caractère 19</item>
+                     <label>(20)</label>
+                     <item>caractère 20</item>
+                 </list>
              </catRef>
          </textClass>
              <textDesc>
@@ -171,7 +171,7 @@
              <p>Remplissage de toute la section "revisionDesc" pour la première fois</p>
          </change>
          <change>
-             <date>2022.10.06 ou 07</date> 
+             <date>2022.10.10</date> 
              <p>Vérification de ce qui a été fait la veille sur Visual Studio Code avec Oxygen et correction si besoin.</p>
          </change>
      </revisionDesc>
