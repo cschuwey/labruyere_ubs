@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    
+    <teiHeader>
+        
+        
+        <fileDesc>
+            
+            
+            <titleStmt>
+                
+                <title>Les caractères de La Bruyère</title>
+                
+            </titleStmt>
+            
+            
+            <publicationStmt>
+                
+                <authority> </authority>
+                
+            </publicationStmt>
+            
+            
+            <sourceDesc>
+                
+                
+                <biblStruct xml:id="Paris_1689_4_1">
+                    
+                    
+                    <monogr>
+                        
+                        <title> Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
+                        
+                        <author>Jean de La Bruyère</author>
+                        
+                        <editor>Etienne Michallet</editor>
+                        
+                        <edition>Quatrième édition</edition>
+                        
+                        <idno>ark:/12148/bpt6k575649</idno>
+                        
+                        
+                        <imprint>
+                            
+                            <date>1689</date>
+                            
+                            <pubPlace>Paris, France</pubPlace>
+                            
+                            <publisher/>
+                            
+                        </imprint>
+                        
+                    </monogr>
+                    
+                </biblStruct>
+                
+                
+                <biblStruct xml:id="Paris_1688_1_1">
+                    
+                    
+                    <monogr>
+                        
+                        <title> Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
+                        
+                        <author>Jean de La Bruyère</author>
+                        
+                        <editor>Etienne Michallet</editor>
+                        
+                        <edition>Première édition</edition>
+                        
+                        <idno>ark:/12148/bpt6k57574m</idno>
+                        
+                        
+                        <imprint>
+                            
+                            <date>1688</date>
+                            
+                            <pubPlace>Paris, France</pubPlace>
+                            
+                            <publisher/>
+                            
+                        </imprint>
+                        
+                    </monogr>
+                    
+                </biblStruct>
+                
+                
+                <biblStruct xml:id="Paris_1688_3_1">
+                    
+                    
+                    <monogr>
+                        
+                        <title> Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
+                        
+                        <author>Jean de La Bruyère</author>
+                        
+                        <editor>Etienne Michallet</editor>
+                        
+                        <edition>troisième édition</edition>
+                        
+                        <idno>ark:/12148/bpt6k57572x</idno>
+                        
+                        
+                        <imprint>
+                            
+                            <date>1688</date>
+                            
+                            <pubPlace>Paris, France</pubPlace>
+                            
+                        </imprint>
+                        
+                    </monogr>
+                    
+                </biblStruct>
+                
+                <bibl/>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        
+        <profileDesc>
+            
+            <textDesc n= "receuil">
+                
+                <channel mode="w"> livre </channel>
+                
+                <constitution type= "single"/>
+                
+                <derivation type="original"/>
+                
+                <domain type="art"/>
+                
+                <factuality type="fiction">fiction</factuality>
+                
+                <interaction/>
+                
+                <preparedness/>
+                
+                <purpose/>
+                
+                
+            </textDesc>
+            
+            <settingDesc>
+                
+                <setting>
+                    
+                <name> Paris, France </name>    
+                <time> Fin 17ème siècle</time>
+                    
+                </setting>    
+                
+            </settingDesc>
+                
+            
+            <langUsage>
+                
+                <language ident="fra">Français du 17ème siècle</language>
+                
+                <language ident="lat">Latin</language>
+                
+            </langUsage>
+            
+        </profileDesc>
+        
+        
+        <encodingDesc>
+            
+            
+            <editorialDecl>
+                
+                <normalization> 
+                    <ab>ʃ devient un s </ab>
+                </normalization>
+                
+                <normalization> 
+                    <ab>ajout de deux pages blanche au début de l'ouvrage </ab>
+                </normalization>
+                
+            </editorialDecl>
+            
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            
+            <change/>
+            
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    
+    <text>
+        
+        
+        <body>
+            
+            <p>bonjour</p>
+            
+        </body>
+        
+    </text>
+    
+</TEI>
