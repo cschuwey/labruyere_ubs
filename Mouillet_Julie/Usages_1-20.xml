@@ -84,14 +84,8 @@
          <projectDesc>
              <p>Projet de numérisation de ce texte en classe sous forme de TP.</p>
          </projectDesc>
-     </encodingDesc>
-     <profileDesc>
-         <creation>
-            <time> Publié en 1687 pour la première fois mais en préparation depuis 1685 au moins puisqu'il en avait parlé à Boileau quelques temps avant la première publication de l'ouvrage.</time>
-            <addName>Paris</addName>
-         </creation>
-         <textClass>
-             <catRef>
+         <tagsDecl>
+             <rendition>
                  <list rend="inline numbered">
                      <label>(1)</label>
                      <item>caractère 1</item>
@@ -134,18 +128,29 @@
                      <label>(20)</label>
                      <item>caractère 20</item>
                  </list>
-             </catRef>
-         </textClass>
-             <textDesc>
-             <channel></channel>
-             <constitution></constitution>
-             <derivation></derivation>
-             <domain></domain>
+             </rendition>
+         </tagsDecl>
+     </encodingDesc>
+     <profileDesc>
+         <creation>
+            <time> Publié en 1687 pour la première fois mais en préparation depuis 1685 au moins puisqu'il en avait parlé à Boileau quelques temps avant la première publication de l'ouvrage.</time>
+         </creation>
+             <textDesc n="recueil de remarques">
+             <channel mode="w">copie</channel>
+             <constitution type="single"></constitution>
+             <derivation type="original"/>
+             <domain type="art"/>
              <factuality type="mixed"></factuality>
-             <interaction></interaction>
-             <preparedness></preparedness>
-             <purpose></purpose>
+             <interaction type="none"/>
+             <preparedness type="prepare"/>
+             <purpose type="information" degree="medium"/>
          </textDesc>
+         <settingDesc>
+             <setting>
+                 <name>Paris, France</name>
+                 <time>Fin 17e</time>
+             </setting>
+         </settingDesc>
          <particDesc>
             <p>Caractère numéro 7, mention D'Hozier qui est un nom de famille célèbre de généalogistes. Le chef de cette famille a d'ailleurs écrit un ouvrage de 150 volumes manuscrits et conservés dans la Bibliothèque impériale.</p>
             <p>Caractère numéro 14, mention de Geoffreoy de La Bruyère qui était effectivement un personnage connu de l'Histoire de France comme le dit La Bruyère et il semblerait qu'ils ne sont pas apparentés. Cependant, l'auteur utilise l'ironie pour dire que s'il devient connu lui-aussi, alors ils deviendront forcément décrits comme apparentés. </p>
