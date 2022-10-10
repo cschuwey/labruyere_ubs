@@ -2,26 +2,19 @@
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+        
         <fileDesc>
-            <encodingDesc></encodingDesc>
-            <profileDesc><langUsage>
-                <language ident="fra">Français du XVIIème siècle</language>
-                <language ident="lat">Latin</language>
-            </langUsage><textDesc>
-                <channel></channel>
-                <constitution></constitution>
-                <derivation></derivation>
-                <domain></domain>
-                <factuality></factuality>
-                <interaction></interaction>
-                <preparedness></preparedness>
-                <purpose></purpose>
-            </textDesc></profileDesc>
             <titleStmt>
-                <title></title>
+                <title>Les caractères de Théophraste, traduits du grec, avec les caractères ou les moeurs de ce siècle</title>
             </titleStmt>
-            <publicationStmt><authority></authority></publicationStmt>
-            <sourceDesc><biblStruct xml:id="Paris_1688_3_1">
+            
+            <publicationStmt>
+                <authority>Mathieu MORIN</authority>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <biblStruct xml:id="Paris_1688_3_1">
                 <monogr><title>Les Caractères de Téophraste, traduit du grec, avec les caractères ou les moeurs de ce siècle</title>
                     <author>La Bruyère, Jean de</author>
                     <edition>Troisième édition</edition>
@@ -30,6 +23,7 @@
                     <imprint><date>1688</date></imprint>
                 </monogr>
             </biblStruct>
+                
                 <biblStruct xml:id="Paris_1699_10_2">
                 <monogr><title>Les caractères de Téophraste, traduit du grec, avec Les caractères ou Les moeurs de ce siècle.</title>
                     <author>La Bruyère, Jean de</author>
@@ -40,6 +34,7 @@
                     <imprint><date>1699</date></imprint>
                 </monogr>
                 </biblStruct>
+                
                 <biblStruct xml:id="Paris_1689_4_3">
                 <monogr><title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
                     <author>La Bruyère, Jean de</author>
@@ -49,6 +44,7 @@
                     <imprint><date>1689</date></imprint>
                 </monogr>
                 </biblStruct>
+                
                 <biblStruct xml:id="Paris_1692_7_4">
                 <monogr><title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou les moeurs de ce siècle</title>
                     <author>La Bruyère, Jean de</author>
@@ -58,8 +54,56 @@
                     <imprint><date>1692</date></imprint>
                 </monogr>
                 </biblStruct>
+                
             </sourceDesc>
         </fileDesc>
+        
+        <profileDesc>
+            
+            <creation>
+                <date>1670</date>Du Mérite Personnel est le deuxième chapitre de l'ouvrage
+            </creation>
+            
+        <langUsage>
+            <language ident="fra">Français du XVIIème siècle</language>
+            <language ident="lat">Latin</language>
+        </langUsage>
+            
+       <textDesc n="recueil de remarques">
+            <channel></channel>
+            <constitution type="unknown"></constitution>
+            <derivation></derivation>
+            <domain></domain>
+            <factuality type="mixed"></factuality>
+            <interaction></interaction>
+            <preparedness></preparedness>
+            <purpose></purpose>
+        </textDesc>
+            
+        </profileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Remplacement des s long par des s normaux</p>
+                </correction>
+                <punctuation>
+                    <p>Annoncer les emplacements des pieds de mouche</p>
+                </punctuation>
+            </editorialDecl>
+        </encodingDesc>
+        
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2022-10-10">10 octobre 2022</date>Ajout d'une deuxième source, la dixième édition, pour comparaison avec une version corrigée et augmentée
+                </item>
+                <item>
+                    <date when="2022-10-10">10 octobre 2022</date>Ajout d'une troisième et d'une quatrième source, la quatrième et septième édition, pour comparaison de plusieurs versions
+                </item>
+            </list>
+         </revisionDesc>
+        
     </teiHeader>
     <text><body><p>(20)
         S’il est ordinaire d’être vivement touché des choses rares, pourquoi le sommes-nous si peu de la vertu ?
