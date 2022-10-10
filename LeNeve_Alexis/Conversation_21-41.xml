@@ -2,6 +2,11 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
+            <titleStmt>
+                <title> "Les Caractères de la Bruyère"</title>
+            </titleStmt>
+            <publicationStmt><authority></authority></publicationStmt>
+            
             <sourceDesc>
                 <biblStruct xml:id="Paris_1878_3_1">
                     <monogr> <title> "Les caracères de La Bruyère"</title> <author> La Bruyère, Jean de (1645-1696)</author> <editor> A. Mame</editor> <edition> Bibliothèque Nationale de France </edition>
@@ -9,8 +14,32 @@
                         <imprint> <date> 1878 </date> </imprint>
                     </monogr>
                 </biblStruct>
+            
+            <biblStruct xml:id="Paris_1688_3_2">
+                <monogr> <title> "Les caractères de la Bruyère"</title> <author> La Bruyère, Jean de (1645-1696)</author> <editor>A. Mame</editor> <edition> Bibliothèque Nationale de France </edition>
+                    <imprint> <date>1688</date></imprint>
+                </monogr>
+            </biblStruct>
+            
+            <biblStruct xml:id="Paris_1690_3_3">
+                <monogr> <title> "Les caractères de la Bruyère"</title> <author> La Bruyère, Jean de (1645-1696)</author> <editor>A. Mame</editor> <edition> Bibliothèque Nationale de France</edition>
+                    <imprint> <date>1690</date></imprint>
+                </monogr>
+            </biblStruct>
+            
+            <biblStruct xml:id="Paris_1696_3_4">
+                <monogr> <title> "Les caractères de la Bruyère"</title> <author> La Bruyère, Jean de (1645-1696)</author> <editor>A. Mame</editor> <edition> Bibliothèque Nationale de France</edition>
+                    <imprint><date>1696</date></imprint>
+                </monogr>
+            </biblStruct>
+            
             </sourceDesc>
-            <encodingDesc></encodingDesc>
+             <encodingDesc> 
+             <editorialDecl> <punctuation> <p> présence multiple de points virgule </p></punctuation></editorialDecl>
+             </encodingDesc>
+            
+             <editorialDecl> <correction> <p> "s" formés comme des "f"</p></correction></editorialDecl>
+            
             <profileDesc>
                 <langUsage>
                     <language ident="fra">
@@ -21,17 +50,18 @@
                     <channel></channel>
                     <constitution></constitution>
                     <derivation></derivation>
-                    <domain></domain>
-                    <factuality type=""></factuality>
+                    <domain> Histoire Moderne (XVII ème siècle)</domain>
+                    <factuality fact="description des moeurs de l'époque"></factuality>
                     <interaction></interaction>
                     <preparedness></preparedness>
                     <purpose></purpose>
-                </textDesc>
+                </textDesc> 
+            
             </profileDesc>
-            <titleStmt>
-                <title> "Les Caractères de la Bruyère"</title>
-            </titleStmt>
-            <publicationStmt><authority></authority></publicationStmt>
+         
+                <revisionDesc> La Bruyère y dénonce l'hypocrisie, les abus de pouvoir, et la fausse dévotion du peuple envers son roi. </revisionDesc>
+               
+           
             <sourceDesc><bibl></bibl></sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -102,4 +132,3 @@
     </p></body></text>
     
 </TEI>   
-
