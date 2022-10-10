@@ -11,27 +11,33 @@
             <sourceDesc>
                 <bibl></bibl> 
                 <biblStruct>
-         
-            <monogr xml:id="Tours_1876_Edition_Classique"> 
-                <author> Jean de la Bruyère </author>
-                <author ref="https://data.bnf.fr/11910249"> Théophraste</author>
-                <title> Les Caractères </title>
-                <imprint xml:id="Tours_1876_Edition_Classique_1"> 
-                    <publisher> Edition Classique </publisher>
-                    <date>1876</date>
-                    <pubplace>https://gallica.bnf.fr/ark:/12148/bpt6k5493831p?rk=42918;4</pubplace>
-                </imprint>
-            </monogr>
-                
-        </biblStruct>
+                    
+                    <monogr xml:id="Tours_1876_Edition_Classique"> 
+                        <author> Jean de la Bruyère </author>
+                        <author ref="https://data.bnf.fr/11910249"> Théophraste</author>
+                        <title> Les Caractères </title>
+                        <imprint xml:id="Tours_1876_Edition_Classique_1"> 
+                            <publisher> Edition Classique </publisher>
+                            <date>1876</date>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k5493831p?rk=42918;4 </pubPlace>
+                        </imprint>
+                        
+                    </monogr>
+                    
+                    <monogr xml:id="Paris_1684_edition_4"> 
+                    <imprint xml:id="Paris_1684_4">
+                        <date>1684</date>
+                    </imprint>
+                    </monogr>
+                </biblStruct>
                 
             </sourceDesc>
-        
+            
         </fileDesc>
         <profileDesc>
             <langUsage> 
-            <language ident="fra">français classique </language>
-        </langUsage>
+                <language ident="fra">français classique </language>
+            </langUsage>
             <textDesc>
                 <channel></channel>
                 <constitution></constitution>
@@ -44,17 +50,46 @@
             </textDesc>
             
         </profileDesc> 
-       
-      
+        
+        
     </teiHeader>
     <text>
+        <front>
+            <titlePage>
+                <docAuthor> <note style="written"></note>  La Bruyère, Jean de </docAuthor>
+                <docTitle>
+                    <titlePart style="big"> Les </titlePart>
+                    <titlePart> Caractères </titlePart>
+                    <titlePart> de Théophraste </titlePart>
+                    <titlePart> traduit du grec : </titlePart>
+                    <titlePart style="italics"> avec </titlePart>
+                    
+                </docTitle>
+     
+                <docEdition> Quatrième édition <figure></figure></docEdition>
+                <docImprint> A Paris, Chez Estienne Michaliet, premier imprimeur du Roy, ruë Saint Jacques, à l'Image S.Paul.</docImprint>
+                <docDate when="1689" style="big"> M. D C. L X X X I X.</docDate>
+                <imprimatur>Avec Privilège de sa majesté</imprimatur>
+            </titlePage>
+        </front>
         <body>
-            <p>(61)
-                Il y a de certaines gens qui veulent si ardemment et si déterminément une certaine chose, que de peur de la manquer, ils n’oublient rien de ce qu’il faut faire pour la manquer.
+            <div1> 
+      <head> Du Coeur  </head> 
+            
+            
+            
+                <div2 n="61"  <p>Il y a de certaines gens qui veulent si ardemment et si déterminément une certaine chose, que de peur de la manquer, ils n’oublient rien de ce qu’il faut faire pour la manquer.>
                 
-                (62)
-                Les choses les plus souhaitées n’arrivent point ; ou si elles arrivent, ce n’est ni dans le temps ni dans les circonstances où elles auraient fait un extrême plaisir.
-                
+                </p>
+                    
+            </div2>
+                <div2 n="62" source="#Paris_1684_edition_4"> <p> Les choses les plus souhaitées n’arrivent point ; ou si elles arrivent, ce n’est ni dans le temps ni dans les circonstances où elles auraient fait un extrême plaisir. </p></div2>
+            
+            
+            </div1>
+            <div1>
+          
+           <p>     
                 (63)
                 Il faut rire avant que d’être heureux, de peur de mourir sans avoir ri.
                 
@@ -119,6 +154,7 @@
                 
                 (81)
                 Il faut être bien dénué d’esprit, si l’amour, la malignité, la nécessité n’en font pas trouver.</p>
+            </div1>
         </body>
     </text>
 </TEI>
