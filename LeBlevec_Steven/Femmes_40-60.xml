@@ -129,3 +129,43 @@
         </body> 
     </text>
 </TEI>
+
+
+<text> 
+    <front>
+        <titlePage>
+            <docTitle>
+                <titlePart type="main">Les caractères de Theophraste traduits du grec : avec les caractères ou les moeurs de ce siècle</titlePart>
+                <docedition m="5">Cinquième édition augmentée de plusieurs remarques </docedition>
+            </docTitle>
+            <docAuthor source=#"Paris_1691_1_1">Jean de la Bruyère</docAuthor>
+            <docImprint>
+                <name>PARIS</name>, <name>Estienne Michallet</name>premier imprimeur du roy
+                <name> rue Saint Jacques, à l'image S.Paul</name>
+            </docImprint>
+            <docDate when="1690">MDCXC</docDate>
+            <imprimature>Avec privilège de sa majesté</imprimature>
+        </titlePage>
+     </front>
+    
+    
+    <body>
+            <div1 n="1" type="chapitre">
+                <head>Les femmes</head>
+                
+                <div2>
+                    <p>(40) Je voudrais qu’il me fût permis de crier de toute ma force à ces hommes saints qui ont été autrefois blessés des femmes : "Fuyez les femmes, ne les dirigez point, laissez à d’autres le soin de leur salut."</p>
+                </div2>
+               
+                <div2> 
+                    <p>(41)C’est trop contre un mari d’être coquette et dévote ; une femme devrait opter.</p>
+                <div2>
+                 
+                <div2>
+                    <p>(42)J’ai différé à le dire, et j’en ai souffert ; mais enfin il m’échappe, et j’espère même que ma franchise sera utile à celles qui n’ayant pas assez d’un confesseur pour leur conduite, n’usent d’aucun discernement dans le choix de leurs directeurs. Je ne sors pas d’admiration et d’étonnement à la vue de certains personnages que je ne nomme point ; j’ouvre de fort grands yeux sur eux ; je les contemple : ils parlent, je prête l’oreille ; je m’informe, on me dit des faits, je les recueille ; et je ne comprends pas comment des gens en qui je crois voir toutes choses diamétralement opposées au bon esprit, au sens droit, à l’expérience des affaires du monde, à la connaissance de l’homme, à la science de la religion et des mœurs, présument que Dieu doive renouveler en nos jours la merveille de l’apostolat, et faire un miracle en leurs personnes, en les rendant capables, tout simples et petits esprits qu’ils sont, du ministère des âmes, celui de tous le plus délicat et le plus sublime ; et si au contraire ils se croient nés pour un emploi si relevé, si difficile, et accordé à si peu de personnes, et qu’ils se persuadent de ne faire en cela qu’exercer leurs talents naturels et suivre une vocation ordinaire, je le comprends encore moins. </p>
+                </div2>
+                    
+                    <div2>
+                        <p>(43) La dévotion vient à quelques-uns, et surtout aux femmes, comme une passion, ou comme le faible d’un certain âge, ou comme un mode qu’il faut suivre. Elles comptaient autrefois une semaine par les jours de jeu, de spectacle, de concert, de mascarade, ou d’un joli sermon : elles allaient le lundi perdre leur argent chez Ismène, le mardi leur temps chez Climène, et le mercredi leur réputation chez Célimène ; elles savaient dès la veille toute la joie qu’elles devaient avoir le jour d’après et le lendemain ; elles jouissaient tout à la fois du plaisir présent et de celui qui ne leur pouvait manquer ; elles auraient souhaité de les pouvoir rassembler tous en un seul jour : c’était alors leur unique inquiétude et tout le sujet de leurs distractions ; et si elles se trouvaient quelquefois à l’Opéra, elles y regrettaient la comédie. Autres temps, autres mœurs : elles outrent l’austérité et la retraite ; elles n’ouvrent plus les yeux qui leur sont donnés pour voir ; elles ne mettent plus leurs sens à aucun usage ; et chose incroyable ! elles parlent peu ; elles pensent encore et assez bien d’elles-mêmes, comme assez mal des autres ; il y a chez elles une émulation de vertu et de réforme qui tient quelque chose de la jalousie ; elles ne haïssent pas de primer dans ce nouveau genre de vie, comme elles faisaient dans celui qu’elles viennent de quitter par politique ou par dégoût. Elles se perdaient gaiement par la galanterie, par la bonne chère et par l’oisiveté ; et elles se perdent tristement par la présomption et par l’envie. </p>
+                        </p>
+                    </div2>
