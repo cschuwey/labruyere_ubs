@@ -1,96 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <TEI xmlns="http://www.tei-c.org/ns/1.0">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Les Caractères de la Bruyère</title>
-                </titleStmt>
-                <publicationStmt>
-                    <authority></authority>
-                </publicationStmt>
-                <sourceDesc>
-                    <bibl></bibl>
-                    <biblStruct>
-                        <monogr xml:id="Amsterdam_1760">
-                            <title>Les Caractères</title>
-                            <author ref="https://data.bnf.fr/11910249">Jean de la Bruyère</author>
-                            <author>Théophraste</author>
-                            <editor>Aux dépens de la Compagnie</editor>
-                            <textLang>Français</textLang>
-                            <availability> <licence>Université de Harvard</licence></availability>
-                            <imprint xml:id="Amsterdam_1760_1">
-                                <publisher>Aux dépens de la Compagnie</publisher>
-                                <date>1760</date>
-                                <pubPlace>https://www.google.fr/books/edition/Les_caracteres_de_La_Bruyere</pubPlace>
-                            </imprint>
-                        </monogr>
-                        
-                        <monogr xml:id="Paris_1694">
-                            <edition>8eme edition</edition>
-                            <imprint xml:id="Paris_1694_8">
-                                <publisher></publisher>
-                                <date></date>
-                            </imprint>
-                        </monogr>
-                        
-                    </biblStruct>
-                </sourceDesc>
-            </fileDesc>
-            <profileDesc>
-                <langUsage>
-                    <language ident="fr">français classique</language>
-                </langUsage>
-                <textDesc>
-                    <channel></channel>
-                    <constitution></constitution>
-                    <derivation></derivation>
-                    <domain></domain>
-                    <factuality></factuality>
-                    <interaction></interaction>
-                    <preparedness></preparedness>
-                    <purpose></purpose>
-                </textDesc>
-            </profileDesc>
-        </teiHeader>
-        <text>
-            <front>
-                <titlePage> 
-                    <docAuthor style="writtennote">La Bruyère, Jean de</docAuthor>
-                    <docTitle>
-                        <titlePart style="bold big">Les Caractères de Théophraste</titlePart>
-                        <titlePart>traduits du Grec</titlePart>
-                        <titlePart style="bold big">avec les Caractères ou les Moeurs de ce siècle</titlePart>
-                    </docTitle>
-                    <docEdition>huitième édition, revue, corrigée et augmentée</docEdition>
-                    <docImprint>A Paris, Estienne Michallet, Imprimeur du Roy, rue saint Jacques, à l'Image de saint Paul</docImprint>
-                    <docDate when="1694" style="big">M DC XCIV</docDate>
-                    <imprimatur style="italics big">avec privilège de sa majesté</imprimatur>  
-                    <figure></figure>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de la Bruyère</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl></bibl>
+                <biblStruct>
+                    <monogr xml:id="Amsterdam_1760">
+                        <title>Les Caractères</title>
+                        <author ref="https://data.bnf.fr/11910249">Jean de la Bruyère</author>
+                        <author>Théophraste</author>
+                        <editor>Aux dépens de la Compagnie</editor>
+                        <textLang>Français</textLang>
+                        <availability> <licence>Université de Harvard</licence></availability>
+                        <imprint xml:id="Amsterdam_1760_2">
+                            <publisher>Aux dépens de la Compagnie</publisher>
+                            <date>1760</date>
+                            <pubPlace>https://www.google.fr/books/edition/Les_caracteres_de_La_Bruyere</pubPlace>
+                        </imprint>
+                    </monogr>
                     
-                </titlePage>
-            </front>
-            <body>
-                <div1>
-                    <head>Les Ouvrages de l'Esprit</head>
                     
-                    <div2 n="10" source="#Paris_1694">
-                        <p> Il y a dans l’art un point de perfection, comme de bonté ou de maturité dans la nature. Celui qui le sent et qui l’aime a le goût parfait ; celui qui ne le sent pas, et qui aime en deçà ou au delà, a le goût défectueux. Il y a donc un bon et un mauvais goût, et l’on dispute des goûts avec fondement.</p>
-                    </div2>
+                    <monogr xml:id="Paris_1688">
+                        <edition>1ère edition</edition>
+                        <imprint xml:id="Paris_1688_1">
+                            <publisher>Estienne Michallet</publisher>
+                            <date>1688</date>
+                        </imprint>
+                    </monogr>
                     
-                    <div2 n="11" source="#Paris_1694">
-                     <p>Il y a beaucoup plus de vivacité que de goût parmi les hommes ; ou pour mieux dire, il y a peu d’hommes dont l’esprit soit accompagné d’un goût sûr et d’une critique judicieuse.</p>
-                    </div2>
-             
-                    <div2 n="12" source="#Paris_1694">
-                        <p>La vie des héros a enrichi l’histoire, et l’histoire a embelli les actions des héros : ainsi je ne sais qui sont plus redevables, ou ceux qui ont écrit l’histoire à ceux qui leur en ont fourni une si noble matière, ou ces grands hommes à leurs historiens.</p>  
-                    </div2>
+                    <monogr xml:id="Paris_1692">
+                        <edition>7eme edition</edition>
+                        <imprint xml:id="Paris_1692_7">
+                            <publisher>Estienne Michallet</publisher>
+                            <date>1692</date>
+                        </imprint>
+                    </monogr>
                     
-                </div1>
+                    
+                    <monogr xml:id="Paris_1694">
+                        <edition>8eme edition</edition>
+                        <imprint xml:id="Paris_1694_8">
+                            <publisher>Estienne Michallet</publisher>
+                            <date>1694</date>
+                        </imprint>
+                    </monogr>
+                    
+                    
+                    <monogr xml:id="Paris_1696">
+                        <edition>9eme edition</edition>
+                        <imprint xml:id="Paris_1696_9">
+                            <publisher>Estienne Michallet</publisher>
+                            <date>1696</date>
+                        </imprint>
+                    </monogr>
+                    
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <appInfo><application version="21" ident="OxygenXML"><desc>Document traité et codé avec Oxygen Xml Editor</desc></application></appInfo>
+            <projectDesc><p>Encoder les Caractères de la Bruyère sous format xml pour le mettre en forme en ligne</p></projectDesc>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">français classique</language>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"> J'ai choisi le w pour written car le texte a été délivré en texte imprimé</channel>
+                <constitution></constitution>
+                <derivation> nouvelle édition, tome second, ce n'est pas l'original </derivation>
+                <domain></domain>
+                <factuality></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change>Tout au long de l'ouvrage, il faudra apporter une correction au ''s'' long, qui se traduit avec notre s de maintenant</change>
+            <change> Attention aux ç qui complètent le son s mais qui ne nous est pas utile de nous jours quand nous le lisons </change>
+        </revisionDesc>
+        
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage> 
+                <docAuthor style="writtennote">La Bruyère, Jean de</docAuthor>
+                <docTitle>
+                    <titlePart style="bold big">Les Caractères de Théophraste</titlePart>
+                    <titlePart>traduits du Grec</titlePart>
+                    <titlePart style="bold big">avec les Caractères ou les Moeurs de ce siècle</titlePart>
+                </docTitle>
+                <docEdition>huitième édition, revue, corrigée et augmentée</docEdition>
+                <docImprint>A Paris, Estienne Michallet, Imprimeur du Roy, rue saint Jacques, à l'Image de saint Paul</docImprint>
+                <docDate when="1694" style="big">M DC XCIV</docDate>
+                <imprimatur style="italics big">avec privilège de sa majesté</imprimatur>  
                 
-                    <div1>
-                    <p>
-                    (12)
-                    
+            </titlePage>
+        </front>
+        <body>
+            <div1>
+                <head>Les Ouvrages de l'Esprit</head>
+                
+                <div2 n="10" source="#Paris_1694">
+                    <p> Il y a dans l’art un point de perfection, comme de bonté ou de maturité dans la nature. Celui qui le sent et qui l’aime a le goût parfait ; celui qui ne le sent pas, et qui aime en deçà ou au delà, a le goût défectueux. Il y a donc un bon et un mauvais goût, et l’on dispute des goûts avec fondement.</p>
+                </div2>
+                
+                <div2 n="11" source="#Paris_1694">
+                    <p>Il y a beaucoup plus de vivacité que de goût parmi les hommes ; ou pour mieux dire, il y a peu d’hommes dont l’esprit soit accompagné d’un goût sûr et d’une critique judicieuse.</p>
+                </div2>
+                
+                <div2 n="12" source="#Paris_1694">
+                    <p>La vie des héros a enrichi l’histoire, et l’histoire a embelli les actions des héros : ainsi je ne sais qui sont plus redevables, ou ceux qui ont écrit l’histoire à ceux qui leur en ont fourni une si noble matière, ou ces grands hommes à leurs historiens.</p>  
+                </div2>
+                
+            </div1>
+            
+            <div1>
+                <p>
                     
                     (13)
                     Amas d’épithètes, mauvaises louanges : ce sont les faits qui louent, et la manière de les raconter.
@@ -153,12 +189,10 @@
                     
                     (30)
                     Quelle prodigieuse distance entre un bel ouvrage et un ouvrage parfait ou régulier ! Je ne sais s’il s’en est encore trouvé de ce dernier genre. Il est peut-être moins difficile aux rares génies de rencontrer le grand et le sublime que d’éviter toute sorte de fautes. Le Cid n’a eu qu’une voix pour lui à sa naissance, qui a été celle de l’admiration ; il s’est vu plus fort que l’autorité et la politique, qui ont tenté vainement de le détruire ; il a réuni en sa faveur des esprits toujours partagés d’opinions et de sentiments : les grands et le peuple ; ils s’accordent tous à le savoir de mémoire et à prévenir au théâtre les acteurs qui le récitent. Le Cid, enfin, est l’un des plus beaux poèmes que l’on puisse faire, et l’une des meilleures critiques qui ait été faite sur aucun sujet est celle du Cid.
-                    </p>
-                     
-                    </div1> 
-
-            </body>
-        </text>
-    </TEI>
-
-
+                </p>
+                
+            </div1> 
+            
+        </body>
+    </text>
+</TEI>
