@@ -8,8 +8,8 @@
             <publicationStmt><authority></authority></publicationStmt>
             
             <sourceDesc>
-                <biblStruct xml:id="Paris_1878_3_1">
-                    <monogr> <title> "Les caracères de La Bruyère"</title> <author> La Bruyère, Jean de (1645-1696)</author> <editor> A. Mame</editor> <edition> Bibliothèque Nationale de France </edition>
+                <biblStruct>
+                    <monogr xml:id="Paris-1699-10"><title> "Les caracères de La Bruyère"</title> <author> La Bruyère, Jean de (1645-1696)</author> <editor> A. Mame</editor> <edition> Bibliothèque Nationale de France </edition>
                         <idno> ark:/12148/bpt6k5599000g </idno>
                         <imprint> <date> 1878 </date> </imprint>
                     </monogr>
@@ -17,7 +17,7 @@
             
             <biblStruct xml:id="Paris_1688_3_2">
                 <monogr> <title> "Les caractères de la Bruyère"</title> <author> La Bruyère, Jean de (1645-1696)</author> <editor>A. Mame</editor> <edition> Bibliothèque Nationale de France </edition>
-                    <imprint> <date>1688</date></imprint>
+                    <imprint date="1688">1688 <date>1688</date></imprint>
                 </monogr>
             </biblStruct>
             
@@ -65,8 +65,53 @@
             <sourceDesc><bibl></bibl></sourceDesc>
         </fileDesc>
     </teiHeader>
+    
     <text>
-        <front></front><body><p>(21)
+        <front>
+          <titlePage>
+              <docTitle>
+                  <titlePart type="Les caractères de Théophraste">Les caractères de Théophraste traduits du grec avec les caractères ou les moeurs de ce siècle</titlePart>
+              </docTitle>
+              <docAuthor source= "#Paris_1699_1_1"> La Bruyère, Jean de </docAuthor>
+              <docDate when="1699">MDXCII</docDate>
+              <docEdition n="10">Dixième Édition</docEdition>
+              <docImprint></docImprint>
+          </titlePage>
+            
+            
+        </front>
+        
+        <body>
+            <div1>
+                <head>Les Conventions</head>
+                <div2> 
+                <p> (21) Celui qui dit incessament qu'il a de l'honneur et de la probité, qu'il ne nuit à personne, qu'il consent que le mal qu'il fait aux autres lui arrive, et qui jure pour le faire froire, ne sait pas même contrefaire de bien.
+                Un homme de bien ne saurait empêcher par toute sa modestie qu'on ne dise de lui ce qu'un malhonnête homme sait dire de soi.</p></div2>
+                
+                <div2>
+                <p> (22) Cléon parle peu obligeammant ou peu juste, c'est l'un ou l'autre; mais il ajoute qu'il est fait ainsi, et qu'il dit ce qu'il pense.(</p>
+                </div2>
+                
+                <div2>
+                <p> (23) Il y a parler bien, parler aisément, parler juste, parler à propos. C'est pécher contre ce dernier genre que de s'étendre sur un repas magnifique que l'on vient de faire, devant des gens qui sont réduits à épargner leur pain ; de dire merveilles de sa santé devant des infirmes ; d'entretenir de ses richesses, de ses revenus et de ses ameublements un homme qui n'a ni rentes ni domicile ; en un mot, de parler de son bonheur devant des misérables : cette conversation est trop forte pour eux, et la comparaison qu'ils font alors leur état au vôtre est odieuse.</p>
+                </div2>
+            </div1>
+            
+            
+            
+            
+            
+          
+                </body>
+                
+                
+                
+                
+                
+                
+                
+            </div2>
+        <p>(21)
         Celui qui dit incessamment qu’il a de l’honneur et de la probité, qu’il ne nuit à personne, qu’il consent que le mal qu’il fait aux autres lui arrive, et qui jure pour le faire croire, ne sait pas même contrefaire l’homme de bien.
         Un homme de bien ne saurait empêcher par toute sa modestie qu’on ne dise de lui ce qu’un malhonnête homme sait dire de soi.
         
