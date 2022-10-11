@@ -11,8 +11,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl>BNF</bibl>
-                <biblStruct xml:id="Lyon__1688_1_1">
-                    <monogr>
+                <biblStruct>
+                    <monogr xml:id="Lyon__1688_1">
                         <title>Les caractères de Théophraste traduits du grec,/
                             avec les caractères ou les moeurs de ce siècle</title>
                         <author>Jean de la Bruyère</author>
@@ -21,16 +21,14 @@
                             Première édition
                         </edition>
                         <idno>ark:/12148/bpt6k575738</idno>
-                        <imprint>
+                        <imprint xml:id="Lyon__1688_1_1">
                             <date>1688</date>
                             <pubPlace>Lyon</pubPlace>
                             <distributor>rue Merciere, au Mercure Galant</distributor>
                         </imprint>
-                        
                     </monogr>
-                </biblStruct>
-                <biblStruct xml:id="Paris__1688_3_2">
-                    <monogr>
+                        
+                    <monogr xml:id="Paris__1688_3">
                         <title>Les caractères de Théophraste traduits du grec,/
                             avec les caractères ou les moeurs de ce siècle</title>
                         <author>Jean de la Bruyère</author>
@@ -39,16 +37,13 @@
                             Troisième édition
                         </edition>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k57572x</idno>
-                        <imprint>
+                        <imprint xml:id="Paris__1688_3_1">
                             <date>1688</date>
                             <pubPlace>Paris</pubPlace>
                             <distributor>rue Saint Jacques, à l'Image Saint Paul</distributor>
                         </imprint>
                     </monogr>
-                </biblStruct>
-                
-                <biblStruct xml:id="Paris__1689_4_3">
-                    <monogr>
+                    <monogr xml:id="Paris__1689_4">
                         <title>Les caractères de Théophraste traduits du grec,/
                             avec les caractères ou les moeurs de ce siècle</title>
                         <author>Jean de la Bruyère</author>
@@ -57,16 +52,14 @@
                             Quatrième édition
                         </edition>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k575649</idno>
-                        <imprint>
+                        <imprint xml:id="Paris__1689_4_1">
                             <date>1689</date>
                             <pubPlace>Paris</pubPlace>
                             <distributor>rue Saint Jacques, à l'Image Saint Paul</distributor>
                         </imprint>
                     </monogr>
-                </biblStruct>
-                
-                <biblStruct xml:id="Paris__1688_1_4">
-                    <monogr>
+                    
+                    <monogr xml:id="Paris__1688_1">
                         <title>Les caractères de Théophraste traduits du grec,/
                             avec les caractères ou les moeurs de ce siècle</title>
                         <author>Jean de la Bruyère</author>
@@ -75,14 +68,29 @@
                             Première édition
                         </edition>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k105077m</idno>
-                        <imprint>
+                        <imprint xml:id="Paris__1688_1_1">
                             <date>1688</date>
                             <pubPlace>Paris</pubPlace>
                             <distributor>rue Saint Jacques, à l'Image Saint Paul</distributor>
                         </imprint>
                     </monogr>
-                </biblStruct>
-                
+                    
+                    <monogr xml:id="Paris__1692_7">
+                        <title>Les caractères de Théophraste traduits du grec,/
+                            avec les caractères ou les moeurs de ce siècle</title>
+                        <author>Jean de la Bruyère</author>
+                        <editor>Estienne Michallet, premier imprimeur du roi</editor>
+                        <edition>
+                            Septième édition
+                        </edition>
+                        <idno></idno>
+                        <imprint xml:id="Paris__1692_7_1">
+                            <date>1692</date>
+                            <pubPlace>Paris</pubPlace>
+                            <distributor>rue Saint Jacques, à l'Image Saint Paul</distributor>
+                        </imprint>
+                    </monogr>
+            </biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -134,20 +142,54 @@
         </revisionDesc>
     </teiHeader>
     <text>
+        <front>
+            <titlePage>
+                <docAuthor source="#Paris_1692_7_1">La Bruyère Jean de</docAuthor>
+                <docTitle>
+                <titlePart style="big black">Les</titlePart>
+                    <titlePart style="big black">Caractères</titlePart>
+                        <titlePart style="big black"> de Théophraste</titlePart>
+                    <titlePart style="small black">traduits du grec</titlePart>
+                    <titlePart style="small black italic" >avec</titlePart>
+                    <titlePart style="big black">Les caractères</titlePart>
+                    <titlePart style="small black">ou</titlePart>
+                    <titlePart style="big black">les Moeurs</titlePart>
+                    <titlePart style="small black">de ce siècle</titlePart>
+                </docTitle>
+               <docEdition n="7">
+                    SEPTIEME EDITION/
+                    Revue et corrigée/
+                </docEdition>
+                <docImprint>
+                    <pubPlace>
+                        A Paris
+                    </pubPlace>
+                    <name>Chez Estienne Michallet</name>
+                    premier Imprimeur du Roi
+                    <name>rue S. Hacques, à l'Image S. Paul</name>
+                </docImprint>
+                <docDate when="1692">
+                    M. DC. XCII.
+                </docDate>
+                <imprimatur style="italic">Avec privilège de sa Majesté</imprimatur>
+            </titlePage>
+        </front>
         <body>
-            <head>
-                <title>De l'Ouvrage et de l'Esprit</title>
-            </head>
-            <p>(33)Le devoir du nouvelliste est de dire :/
+            <div1>
+                <head>De l'Ouvrage et de l'Esprit</head>
+            </div1>
+            <div1>
+                <div2 source="#Paris__1692_7"><p>
+                (33)Le devoir du nouvelliste est de dire :/
                 « Il y a un tel livre qui court, et qui est imprimé chez Cramoisy en tel caractère,/
                 il est bien relié et en beau papier, il se vend tant » ;/
                 il doit savoir jusques à l’enseigne du libraire qui le débite :/
                 sa folie est d’en vouloir faire la critique./
                 Le sublime du nouvelliste est le raisonnement creux sur la politique./
                 Le nouvelliste se couche le soir tranquillement sur une nouvelle qui se corrompt la nuit,/
-                et qu’il est obligé d’abandonner le matin à son réveil.
+                et qu’il est obligé d’abandonner le matin à son réveil.</p></div2>
                 
-                (34)
+                <div2 source="#Paris__1692_7"><p>(34)
                 Le philosophe consume sa vie à observer les hommes,/
                 et il use ses esprits à en démêler les vices et le ridicule ;/
                 s’il donne quelque tour à ses pensées, c’est moins par une vanité d’auteur,/
@@ -158,20 +200,20 @@
                 mais il leur renvoie tous leurs éloges, qu’il n’a pas cherchés par son travail et par ses veilles./
                 Il porte plus haut ses projets et agit pour une fin plus relevée :/
                 il demande des hommes un plus grand et un plus rare succès que les louanges,/
-                et même que les récompenses, qui est de les rendre meilleurs.
+                et même que les récompenses, qui est de les rendre meilleurs.</p></div2>
                 
-                (35)Les sots lisent un livre, et ne l’entendent point ; les esprits médiocres croient l’entendre parfaitement ;/
+                <div2 source="#Paris__1692_7"><p>(35)Les sots lisent un livre, et ne l’entendent point ; les esprits médiocres croient l’entendre parfaitement ;/
                 les grands esprits ne l’entendent quelquefois pas tout entier :/
                 ils trouvent obscur ce qui est obscur, comme ils trouvent clair ce qui est clair ;/
                 les beaux esprits veulent trouver obscur ce qui ne l’est point,/
-                et ne pas entendre ce qui est fort intelligible.
+                et ne pas entendre ce qui est fort intelligible.</p></div2>
                 
-                (36)Un auteur cherche vainement à se faire admirer par son ouvrage./
+                <div2 source="#Paris__1692_7"><p>(36)Un auteur cherche vainement à se faire admirer par son ouvrage./
                 Les sots admirent quelquefois, mais ce sont des sots./
                 Les personnes d’esprit ont en eux les semences de toutes les vérités et de tous les sentiments,/
-                rien ne leur est nouveau ; ils admirent peu, ils approuvent.
+                rien ne leur est nouveau ; ils admirent peu, ils approuvent.</p></div2>
                 
-                (37)Je ne sais si l’on pourra jamais mettre dans des lettres plus d’esprit,/
+                <div2 source="#Paris__1692_7"><p>(37)Je ne sais si l’on pourra jamais mettre dans des lettres plus d’esprit,/
                 plus de tour, plus d’agrément et plus de style que l’on en voit dans celles de Balzac et de Voiture ;/
                 elles sont vides de sentiments qui n’ont régné que depuis leur temps,/
                 et qui doivent aux femmes leur naissance. /
@@ -184,66 +226,73 @@
                 et de rendre délicatement une pensée qui est délicate ; elles ont un enchaînement de discours inimitable,/
                 qui se suit naturellement, et qui n’est lié que par le sens. Si les femmes étaient toujours correctes,/
                 j’oserais dire que les lettres de quelques-unes d’entre elles seraient peut-être/
-                ce que nous avons dans notre langue de mieux écrit.
+                ce que nous avons dans notre langue de mieux écrit.</p></div2>
                 
-                (38)Il n’a manqué à Térence que d’être moins froid :/
+                <div2 source="#Paris__1692_7"><p>(38)Il n’a manqué à Térence que d’être moins froid :/
                 quelle pureté, quelle exactitude, quelle politesse, quelle élégance, quels caractères !/
                 Il n’a manqué à Molière que d’éviter le jargon et le barbarisme, et d’écrire purement :/
                 quel feu, quelle naïveté, quelle source de la bonne plaisanterie, quelle imitation des mœurs,/
-                quelles images, et quel fléau du ridicule ! Mais quel homme on aurait pu faire de ces deux comiques !
+                quelles images, et quel fléau du ridicule !/
+                Mais quel homme on aurait pu faire de ces deux comiques !</p></div2>
                 
-                (39)J’ai lu Malherbe et Théophile./
-                Ils ont tous deux connu la nature, avec cette différence que le premier d’un style plein et uniforme,/
-                montre tout à la fois ce qu’elle a de plus beau et de plus noble, de plus naïf et de plus simple ;/
+                <div2 source="#Paris__1692_7"><p>(39)J’ai lu Malherbe et Théophile./
+                Ils ont tous deux connu la nature, avec cette différence que le premier d’un style plein et/
+                uniforme,/
+                montre tout à la fois ce qu’elle a de plus beau et de plus noble,/
+                de plus naïf et de plus simple ;/
                 il en fait la peinture ou l’histoire. L’autre, sans choix, sans exactitude, d’une plume libre et inégale,/
                 tantôt charge ses descriptions, s’appesantit sur les détails : il fait une anatomie ;/
-                tantôt il feint, il exagère, il passe le vrai dans la nature : il en fait le roman.
+                tantôt il feint, il exagère, il passe le vrai dans la nature : il en fait le roman.</p></div2>
                 
-                (40)Ronsard et Balzac ont eu, chacun dans leur genre,/
-                assez de bon et de mauvais pour former après eux de très grands hommes en vers et en prose.
+                <div2 source="#Paris__1692_7"><p>(40)Ronsard et Balzac ont eu, chacun dans leur genre,/
+                    assez de bon et de mauvais pour former après eux de très grands hommes en vers et en prose.</p></div2>
                 
-                (41)Marot, par son tour et par son style, semble avoir écrit depuis Ronsard :/
-                il n’y a guère, entre ce premier et nous, que la différence de quelques mots.
+                <div2 source="#Paris__1692_7"><p>(41)Marot, par son tour et par son style, semble avoir écrit depuis Ronsard :/
+                    il n’y a guère, entre ce premier et nous, que la différence de quelques mots.</p></div2>
                 
-                (42)Ronsard et les auteurs ses contemporains ont plus nui au style qu’ils ne lui ont servi :/
+                <div2 source="#Paris__1692_7"><p>(42)Ronsard et les auteurs ses contemporains ont plus nui au style qu’ils ne lui ont servi :/
                 ils l’ont retardé dans le chemin de la perfection ;/
                 ils l’ont exposé à la manquer pour toujours et n’y plus revenir./
                 Il est étonnant que les ouvrages de Marot, si naturels et si faciles, n’aient su faire de Ronsard,/
                 d’ailleurs plein de verve et d’enthousiasme, un plus grand poète que Ronsard et que Marot ;/
                 et, au contraire, que Belleau, Jodelle, et du Bartas, aient été sitôt suivis d’un Racan et d’un Malherbe,/
-                et que notre langue, à peine corrompue, se soit vue réparée.
+                et que notre langue, à peine corrompue, se soit vue réparée.</p></div2>
                 
-                (43)Marot et Rabelais sont inexcusables d’avoir semé l’ordure dans leurs écrits :/
+                <div2 source="#Paris__1692_7"><p>(43)Marot et Rabelais sont inexcusables d’avoir semé l’ordure dans leurs écrits :/
                 tous deux avaient assez de génie et de naturel pour pouvoir s’en passer,/
                 même à l’égard de ceux qui cherchent moins à admirer qu’à rire dans un auteur./
                 Rabelais surtout est incompréhensible : son livre est une énigme, quoi qu’on veuille dire, inexplicable ;/
                 c’est une chimère, c’est le visage d’une belle femme avec des pieds et une queue de serpent,/
                 ou de quelque autre bête plus difforme ; c’est un monstrueux assemblage d’une morale fine et ingénieuse,/
                 et d’une sale corruption. Où il est mauvais, il passe bien loin au delà du pire, c’est le charme de la canaille ;/
-                où il est bon, il va jusques à l’exquis et à l’excellent, il peut être le mets des plus délicats.
+                où il est bon, il va jusques à l’exquis et à l’excellent, il peut être le mets des plus délicats.</p></div2>
                 
-                (44)Deux écrivains dans leurs ouvrages ont blâmé Montaigne, que je ne crois pas, aussi bien qu’eux,/
+                <div2 source="#Paris__1692_7"><p>(44)Deux écrivains dans leurs ouvrages ont blâmé Montaigne, que je ne crois pas, aussi bien qu’eux,/
                 exempt de toute sorte de blâme : il paraît que tous deux ne l’ont estimé en nulle manière./
                 L’un ne pensait pas assez pour goûter un auteur qui pense beaucoup ;/
-                l’autre pense trop subtilement pour s’accommoder de pensées qui sont naturelles.
+                l’autre pense trop subtilement pour s’accommoder de pensées qui sont naturelles.</p></div2>
                 
-                (45)Un style grave, sérieux, scrupuleux, va fort loin : on lit Amyot et Coeffeteau ;/
+                <div2 source="#Paris__1692_7"><p>(45)Un style grave, sérieux, scrupuleux, va fort loin : on lit Amyot et Coeffeteau ;/
                 lequel lit-on de leurs contemporains ? Balzac, pour les termes et pour l’expression,/
                 est moins vieux que Voiture, mais si ce dernier, pour le tour, pour l’esprit et pour le naturel ;/
                 n’est pas moderne, et ne ressemble en rien à nos écrivains,/
                 c’est qu’il leur a été plus facile de le négliger que de l’imiter ;/
-                et que le petit nombre de ceux qui courent après lui ne peut l’atteindre.
+                et que le petit nombre de ceux qui courent après lui ne peut l’atteindre.</p></div2>
                 
-                (46)Le H** G** est immédiatement au-dessous de rien./
+                <div2 source="#Paris__1692_7"><p>(46)Le H** G** est immédiatement au-dessous de rien./
                 Il y a bien d’autres ouvrages qui lui ressemblent./
                 Il y a autant d’invention à s’enrichir par un sot livre qu’il y a de sottise à l’acheter :/
-                c’est ignorer le goût du peuple que de ne pas hasarder quelquefois de grandes fadaises.
+                c’est ignorer le goût du peuple que de ne pas hasarder quelquefois de grandes fadaises.</p></div2>
                 
-                (47)L’on voit bien que l’Opéra est l’ébauche d’un grand spectacle ;il en donne l’idée./
+                <div2 source="#Paris__1692_7"><p>(47)L’on voit bien que l’Opéra est l’ébauche d’un grand spectacle ;il en donne l’idée./
+                
                 Je ne sais pas comment l’Opéra, avec une musique si parfaite et une dépense toute royale,/
-                a pu réussir à m’ennuyer. Il y a des endroits dans l’Opéra qui laissent en désirer d’autres ;/
+                a pu réussir à m’ennuyer.
+                
+                Il y a des endroits dans l’Opéra qui laissent en désirer d’autres ;/
                 il échappe quelquefois de souhaiter la fin de tout le spectacle :/
                 c’est faute de théâtre, d’action, et de choses qui intéressent./
+                
                 L’Opéra jusques à ce jour n’est pas un poème, ce sont des vers ;/
                 ni un spectacle, depuis que les machines ont disparu par le bon ménage d’Amphion et de sa race :/
                 c’est un concert, ou ce sont des voix soutenues par des instruments./
@@ -253,18 +302,19 @@
                 soutient dans les spectateurs cette douce illusion qui est tout le plaisir du théâtre ;/
                 où elle jette encore le merveilleux. Il ne faut point de vols, ni de chars, ni de changements,/
                 aux Bérénices et à Pénélope : il en faut aux Opéras, et le propre de ce spectacle est de tenir les esprits,/
-                les yeux et les oreilles dans un égal enchantement.
+                les yeux et les oreilles dans un égal enchantement.</p></div2>
                 
-                (48)Ils ont fait le théâtre, ces empressés, les machines, les ballets, les vers, la musique, tout le spectacle,/
+                <div2 source="#Paris__1692_7"><p>(48)Ils ont fait le théâtre, ces empressés, les machines, les ballets, les vers, la musique, tout le spectacle,/
                 jusqu’à la salle où s’est donné le spectacle, j’entends le toit et les quatre murs dès leurs fondements./
                 Qui doute que la chasse sur l’eau, l’enchantement de la Table,/
                 la merveille du Labyrinthe ne soient encore de leur invention ?/
                 J’en juge par le mouvement qu’ils se donnent, et par l’air content dont ils s’applaudissent sur tout le succès./
                 Si je me trompe, et qu’ils n’aient contribué en rien à cette fête si superbe, si galante, si longtemps soutenue,/
                 et où un seul a suffi pour le projet et pour la dépense, j’admire deux choses :/
-                la tranquillité et le flegme de celui qui a tout remué, comme l’embarras et l’action de ceux qui n’ont rien fait.
+                la tranquillité et le flegme de celui qui a tout remué,/
+                comme l’embarras et l’action de ceux qui n’ont rien fait.</p></div2>
                 
-                (49)Les connaisseurs, ou ceux qui se croient tels, se donnent voix délibérative et décisive sur les spectacles,/
+                <div2 source="#Paris__1692_7"><p>(49)Les connaisseurs, ou ceux qui se croient tels, se donnent voix délibérative et décisive sur les spectacles,/
                 se cantonnent aussi, et se divisent en des partis contraires, dont chacun,/
                 poussé par un tout autre intérêt que par celui du public ou de l’équité,/
                 admire un certain poème ou une certaine musique, et siffle tout autre./
@@ -274,9 +324,9 @@
                 retardent les progrès des sciences et des arts,/
                 en leur ôtant le fruit qu’ils pourraient tirer de l’émulation et de la liberté/
                 qu’auraient plusieurs excellents maîtres de faire, chacun dans leur genre et selon leur génie,/
-                de très bons ouvrages.
+                de très bons ouvrages.</p></div2>
                 
-                (50)D’où vient que l’on rit si librement au théâtre, et que l’on a honte d’y pleurer ?/
+                <div2 source="#Paris__1692_7"><p>(50)D’où vient que l’on rit si librement au théâtre, et que l’on a honte d’y pleurer ?/
                 Est-il moins dans la nature de s’attendrir sur le pitoyable que d’éclater sur le ridicule ?/
                 Est-ce l’altération des traits qui nous retient ?/
                 Elle est plus grande dans un ris immodéré que dans la plus amère douleur,/
@@ -294,9 +344,10 @@
                 et le mauvais ris dont on veut les couvrir prouvent clairement que l’effet naturel du grand tragique serait/
                 de pleurer tous franchement et de concert à la vue l’un de l’autre,/
                 et sans autre embarras que d’essuyer ses larmes, outre qu’après être convenu de s’y abandonner,/
-                on éprouverait encore qu’il y a souvent moins lieu de craindre de pleurer au théâtre que de s’y morfondre.
+                on éprouverait encore qu’il y a souvent moins lieu de craindre de pleurer au théâtre/
+                que de s’y morfondre.</p></div2>
                 
-                (51)Le poème tragique vous serre le cœur dès son commencement,/
+                <div2 source="#Paris__1692_7"><p>(51)Le poème tragique vous serre le cœur dès son commencement,/
                 vous laisse à peine dans tout son progrès la liberté de respirer et le temps de vous remettre,/
                 ou s’il vous donne quelque relâche, c’est pour vous replonger dans de nouveaux abîmes et/
                 dans de nouvelles alarmes. Il vous conduit à la terreur par la pitié, ou réciproquement à la pitié par/
@@ -305,9 +356,9 @@
                 de déclarations tendres, d’entretiens galants, de portraits agréables, de mots doucereux,/
                 ou quelquefois assez plaisants pour faire rire, suivi à la vérité d’une dernière scène où/
                 les mutins n’entendent aucune raison, et où, pour la bienséance, il y a enfin du sang répandu,/
-                et quelque malheureux à qui il en coûte la vie.
+                et quelque malheureux à qui il en coûte la vie.</p></div2>
                 
-                (52)Ce n’est point assez que les mœurs du théâtre ne soient point mauvaises,/
+                <div2 source="#Paris__1692_7"><p>(52)Ce n’est point assez que les mœurs du théâtre ne soient point mauvaises,/
                 il faut encore qu’elles soient décentes et instructives./
                 Il peut y avoir un ridicule si bas et si grossier, ou même si fade et si indifférent,/
                 qu’il n’est ni permis au poète d’y faire attention, ni possible aux spectateurs de s’en divertir./
@@ -319,14 +370,15 @@
                 C’est le propre d’un efféminé de se lever tard, de passer une partie du jour à sa toilette,/
                 de se voir au miroir, de se parfumer, de se mettre des mouches, de recevoir des billets et d’y faire réponse./
                 Mettez ce rôle sur la scène. Plus longtemps vous le ferez durer, un acte, deux actes,/
-                plus il sera naturel et conforme à son original ; mais plus aussi il sera froid et insipide.
+                plus il sera naturel et conforme à son original ; mais plus aussi il sera froid et insipide.</p></div2>
                 
-                (53)Il semble que le roman et la comédie pourraient être aussi utiles qu’ils sont nuisibles./
+                <div2 source="#Paris__1692_7"><p>(53)Il semble que le roman et la comédie pourraient être aussi utiles qu’ils sont nuisibles./
                 L’on y voit de si grands exemples de constance, de vertu, de tendresse et de désintéressement,/
                 de si beaux et de si parfaits caractères, que quand une jeune personne jette de là sa vue sur tout ce qui/
                 l’entoure, ne trouvant que des sujets indignes et fort au-dessous de ce qu’elle vient d’admirer,/
-                je m’étonne qu’elle soit capable pour eux de la moindre faiblesse.</p>
+                je m’étonne qu’elle soit capable pour eux de la moindre faiblesse.</p></div2>
+            </div1>
         </body>
+        <back></back>
     </text>
 </TEI>
-
