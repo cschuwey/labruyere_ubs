@@ -1,0 +1,145 @@
+?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    
+    <teiHeader>
+        
+        
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+                            <author> Lisa </author>
+                <publicationStmt>
+                <sourceDesc>
+                    <biblStruct>
+                        <monogr> <title> Les Caractères </title><author> La Bruyère </author><edition> édition classique </edition><editor> Frédéric Godefroy</editor><idno></idno><imprint><date> 1889 </date><pubPlace> Paris </pubPlace></imprint>
+                            <imprint xml:id="Paris_1889_editionclassique-un"></imprint>
+                        </monogr>
+                        <monogr xml:id="Paris_1889_editionclassique_un"> 
+                    </biblStruct>
+                    <bibl> bibliothèque </bibl>
+                </sourceDesc>
+                </publicationStmt>    
+        </fileDesc>
+        </fileDesc> 
+        <profileDesc> <langUsage
+            <language ident="fra"> français du dix-septième siècle </language><language ident="lat"></language>
+        </langUsage><textDesc>
+            <channel></channel>
+            <constitution></constitution>
+            <derivation></derivation>
+            <domain></domain>
+            <factuality></factuality>
+            <interaction></interaction>
+            <preparedness></preparedness>
+            <purpose></purpose>
+        </textDesc></profileDesc>
+        <encodingDesc></encodingDesc>
+    </teiHeader> 
+    
+    
+    
+    
+    <text>
+        <titlePage></titlePage>
+            <docTitle></docTitle>
+                <main></main>
+                <sub></sub>
+                <titlePart style="=bold_back"></titlePart>
+                <titlePart style="sub"></titlePart>
+                <docEdition n="9"> neuvieme edition </docEdition>
+                <docDate when="=1692"></docDate>
+                <imprimatur> avec privilège de sa Majesté </imprimatur>
+        <docAutor source="Paris_1889_editionclassique_un#"></docAutor>
+        
+        <text>
+            <body>
+                <div1>Du Coeur</div1>
+                    <p>
+        
+        (29)
+        Il semble que, s’il y a un soupçon injuste, bizarre et sans fondement, qu’on ait une fois appelé jalousie, cette autre jalousie qui est un sentiment juste, naturel, fondé en raison et sur l’expérience, mériterait un autre nom.
+        Le tempérament a beaucoup de part à la jalousie, et elle ne suppose pas toujours une grande passion. C’est cependant un paradoxe qu’un violent amour sans délicatesse.
+        Il arrive souvent que l’on souffre tout seul de la délicatesse. L’on souffre de la jalousie, et l’on fait souffrir les autres.
+        Celles qui ne nous ménagent sur rien, et ne nous épargnent nulles occasion de jalousie, ne mériteraient de nous aucune jalousie, si l’on se réglait plus par leurs sentiments et leur conduite que par son cœur.
+        
+        (30)
+        Les froideurs et les relâchements dans l’amitié ont leurs causes. En amour, il n’y a guerre d’autre raison de ne s’aimer plus que de s’être trop aimés.
+        
+        (31)
+        L’on n’est pas plus maître de toujours aimer qu’on l’a été de ne pas aimer.
+        
+        (32)
+        Les amours meurent par le dégoût, et l’oubli les enterre.
+        
+        (33)
+        Le commencement et le déclin de l’amour se font sentir par l’embarras où l’on est de se trouver seuls.
+        
+        (34)
+        Cesser d’aimer, preuve sensible que l’homme est borné, et que le cœur a ses limites.
+        C’est faiblesse que d’aimer ; c’est souvent une autre faiblesse que de guérir.
+        On guérit comme on se console : on n’a pas dans le cœur de quoi toujours pleurer et toujours aimer.
+        
+        (35)
+        Il devrait y avoir dans le cœur des sources inépuisables de douleur pour de certaines pertes. Ce n’est guère par vertu ou par force d’esprit que l’on sort d’une grande affliction : l’on pleure amèrement, et l’on est sensiblement touché ; mais l’on est ensuite si faible ou si léger que l’on se console.
+        
+        (36)
+        Si une laide se fait aimer, ce ne peut être qu’éperdument ; car il faut que ce soit ou par une étrange faiblesse de son amant, ou par de plus secrets et de plus invincibles charmes que ceux de la beauté.
+        
+        (37)
+        L’on est encore longtemps à se voir par habitude, et à se dire de bouche que l’on s’aime, après que les manières disent qu’on ne s’aime plus.
+        
+        (38)
+        Vouloir oublier quelqu’un, c’est y penser. L’amour a cela de commun avec les scrupules, qu’il s’aigrit par les réflexions et les retours que l’on fait pour s’en délivrer. Il faut, s’il se peut, ne point songer sa passion pour l’affaiblir.
+        
+        (39)
+        L’on veut faire tout le bonheur, ou si cela ne se peut ainsi, tout le malheur de ce qu’on aime.
+        
+        (40)
+        Regretter ce que l’on aime est un bien, en comparaison de vivre avec ce que l’on hait.
+        
+        (41)
+        Quelque désintéressement qu’on ait à l’égard de ceux qu’on aime, il faut quelquefois se contraindre pour eux, et avoir la générosité de recevoir.
+        Celui-là peut prendre, qui goûte un plaisir aussi délicat à recevoir que son ami en sent à lui donner.
+        
+        (42)
+        Donner c’est agir : ce n’est pas souffrir de ses bienfaits, ni céder à l’importunité ou à la nécessité de ceux qui nous demandent.
+        
+        (43)
+        Si l’on a donné à ceux que l’on aimait, quelque chose qu’il arrive, il n’y a plus d’occasions où l’on doive songer à ses bienfaits.
+        
+        (44)
+        On a dit en latin qu’il coûte moins cher de haïr que d’aimer, ou si l’on veut, que l’amitié est plus à charge que la haine. Il est vrai qu’on est dispensé de donner à ses ennemis ; mais ne coûte-t-il rien de s’en venger ? Ou s’il est doux et naturel de faire du mal à ce que l’on hait, l’est-il moins de faire du bien à ce qu’on aime ? Ne serait-il pas dur et pénible de ne lui en point faire ?
+        
+        (45)
+        Il y a du plaisir à rencontrer les yeux de celui à qui l’on vient de donner.
+        
+        (46)
+        Je ne sais si un bienfait qui tombe sur un ingrat, et ainsi sur un indigne, ne change pas de nom, et s’il méritait plus de reconnaissance.
+        
+        (47)
+        La libéralité consiste moins à donner beaucoup qu’à donner à propos.
+        
+        (48)
+        S’il est vrai que la pitié ou la compassion soit un retour vers nous-mêmes qui nous met en la place des malheureux, pourquoi tirent-ils de nous si peu de soulagement dans leurs misères ?
+        Il vaut mieux s’exposer à l’ingratitude que de manquer aux misérables.
+        (49)
+        L’expérience confirme que la mollesse ou l’indulgence pour soi et la dureté pour les autres n’est qu’un seul et même vice.
+        
+        </p>
+        </body>
+    </text>
+    
+</TEI>
+
+        <front>
+            <body>
+                
+                
+                
+            </body>
+            <chapitre></chapitre>
+            <remarque></remarque>
+            <p>(29)
+               
+</TEI>
