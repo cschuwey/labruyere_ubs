@@ -10,14 +10,14 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl>bibliothèque ubs</bibl>
-                <biblStruct xml:id="PARIS_1688_3_1">
-                    <monogr>
-                        <title>Les caractères de Theophraste traduits du Grec avec Les caractères ou les moeurs de ce siècle</title>
+                <biblStruct>
+                    <monogr xml:id="PARIS_1688_3">
                         <author>Jean de la Bruyère</author>
+                        <title>Les caractères de Theophraste traduits du Grec avec Les caractères ou les moeurs de ce siècle</title>
                         <edition>Troisième édition</edition>
                         <editor>Estienne Michalet</editor>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k57572x/f1.item</idno>
-                        <imprint>
+                        <imprint xml:id="PARIS_1688_3_1">
                             <pubPlace>Paris</pubPlace>
                             <date>1688</date>
                             <distributor>Rue S. Jacques</distributor>
@@ -27,14 +27,14 @@
             </sourceDesc>
             <sourceDesc>
                 <bibl>bibliothèque ubs</bibl>
-                <biblStruct xml:id="PARIS_1691_6_1">
-                    <monogr>
-                        <title>Les caractères de Theophraste traduits du Grec: avec Les caractères ou les moeurs de ce siècle</title>
+                <biblStruct>
+                    <monogr xml:id="PARIS_1691_6">
                         <author>Jean de la Bruyère</author>
+                        <title>Les caractères de Theophraste traduits du Grec: avec Les caractères ou les moeurs de ce siècle</title>
                         <edition>Sixième édition</edition>
                         <editor>Estienne Michalet</editor>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=321890;0</idno>
-                        <imprint>
+                        <imprint xml:id="PARIS_1691_6_1">
                             <pubPlace>Paris</pubPlace>
                             <date>1691</date>
                             <distributor>Rue S. Jacques</distributor>
@@ -44,14 +44,14 @@
             </sourceDesc>
             <sourceDesc>
                 <bibl>bibliothèque ubs</bibl>
-                <biblStruct xml:id="PARIS_1694_8_1">
-                    <monogr>
-                        <title>Les caractères de Theophraste traduits du Grec: avec Les caractères ou les moeurs de ce siècle</title>
+                <biblStruct>
+                    <monogr  xml:id="PARIS_1694_8">
                         <author>Jean de la Bruyère</author>
+                        <title>Les caractères de Theophraste traduits du Grec: avec Les caractères ou les moeurs de ce siècle</title>
                         <edition>Huitième édition</edition>
                         <editor>Estienne Michalet</editor>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k575780?rk=450646;0</idno>
-                        <imprint>
+                        <imprint  xml:id="PARIS_1694_8_1">
                             <pubPlace>Paris</pubPlace>
                             <date>1694</date>
                             <distributor>Rue S. Jacques</distributor>
@@ -61,14 +61,14 @@
             </sourceDesc>
             <sourceDesc>
                 <bibl>bibliothèque ubs</bibl>
-                <biblStruct xml:id="PARIS_1688_1_1">
-                    <monogr>
-                        <title>Les caractères de Theophraste traduits du Grec: avec Les caractères ou les moeurs de ce siècle</title>
+                <biblStruct>
+                    <monogr xml:id="PARIS_1688_1">
                         <author>Jean de la Bruyère</author>
+                        <title>Les caractères de Theophraste traduits du Grec: avec Les caractères ou les moeurs de ce siècle</title>
                         <edition>Première édition</edition>
                         <editor>Estienne Michalet</editor>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k575780?rk=450646;0</idno>
-                        <imprint>
+                        <imprint xml:id="PARIS_1688_1_1">
                             <pubPlace>Paris</pubPlace>
                             <date>1688</date>
                             <distributor>Rue S. Jacques</distributor>
@@ -111,84 +111,130 @@
                 <date>03.10.2022</date>
                 <p>Création de sourceDesc sur une troisième édition</p>
                 <date> 10.10.2022</date>
-                <p>Création de sourceDesc sur une sixième édition, une huitième édition, et une première édition</p>
-                
+                <p>Création de sourceDesc sur une sixième édition, une huitième édition, et une première édition</p>              
             </change>
         </revisionDesc>
-
-        
     </teiHeader>
-    <text>
+    
+    <text>      
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart>Les Caractères de Theophraste traduits du grec : avec les Caractères ou les Moeurs de ce siècle</titlePart>
+                    <titlePart type="main">Les Caractères de Theophraste traduits du grec : </titlePart>
+                    <titlePart type="sub">avec les Caractères ou les Moeurs de ce siècle.</titlePart>
+                    <titlePart style="big black">Les</titlePart>
+                    <titlePart style="big red">Caractères</titlePart>
+                    <titlePart style="big black">de Theophraste</titlePart>
+                    <titlePart style="big red">traduits du grec :</titlePart>
+                    <titlePart style="italic black">avec</titlePart>
+                    <titlePart style="big red">les Caractères</titlePart>
+                    <titlePart style="big black">ou</titlePart>
+                    <titlePart style="big red">les Moeurs</titlePart>
+                    <titlePart style="big black">de ce siècle.</titlePart>
+                </docTitle>
+                <docEdition n="6" style="black color">sixième édition</docEdition>
+                <docImprint>
+                    <pubPlace style="big black">à Paris</pubPlace>
+                    <publisher style="red color">Estienne Michallet</publisher>
+                </docImprint>
+                <docDate when="1691" style="red color">MDCXCI</docDate>
+                <imprimatur style="italic black">Avec privilège de sa Majesté</imprimatur>
+                <docAuthor source="#PARIS_1691_6_1"></docAuthor>
+            </titlePage>
+        </front>
         <body>
-            <head>
-                <title>Lucie</title>
-            </head>
-            <p>Des Jugements
-                (1)
-                Rien ne ressemble plus à la vive persuasion que le mauvais entêtement : de là les partis, les cabales, les hérésies.
+            <div1>
+                <head source="#PARIS_1691_6_1">Des Jugements</head>
+                <div2 source="#PARIS_1691_6_1">
+                    <p>
+                        (1)
+                        Rien ne ressemble plus à la vive persuasion que le mauvais entêtement : de là les partis, les cabales, les hérésies.
+                    </p>
+                </div2>
+                <div2 source="#PARIS_1691_6_1">
+                    <p>
+                        (2)
+                        L’on ne pense pas toujours constamment d’un même sujet : l’entêtement et le dégoût se suivent de près.
+                    </p>
+                </div2>
+                <div2 source="#PARIS_1691_6_1">
+                    <p>
+                        (3)
+                        Les grandes choses étonnent, et les petites rebutent ; nous nous apprivoisons avec les unes et les autres par l’habitude.
+                    </p>
+                </div2>
+                <div2 source="#PARIS_1691_6_1">
+                    <p>
+                        (4)
+                        Deux choses toutes contraires nous préviennent également, l’habitude et la nouveauté.
+                    </p>
+                </div2>
+                <div2 source="#PARIS_1691_6_1">
+                    <p>
+                        (5)
+                        Il n’y a rien de plus bas, et qui convienne mieux au peuple, que de parler en des termes magnifiques de ceux mêmes dont l’on pensait très modestement avant leur élévation.
+                    </p>
+                </div2>
+                <div2 source="#PARIS_1691_6_1">
+                    <p>
+                        (6)
+                        La faveur des princes n’exclut pas le mérite, et ne le suppose pas aussi.
+                    </p>
+                </div2>
                 
-                (2)
-                L’on ne pense pas toujours constamment d’un même sujet : l’entêtement et le dégoût se suivent de près.
-                
-                (3)
-                Les grandes choses étonnent, et les petites rebutent ; nous nous apprivoisons avec les unes et les autres par l’habitude.
-                
-                (4)
-                Deux choses toutes contraires nous préviennent également, l’habitude et la nouveauté.
-                
-                (5)
-                Il n’y a rien de plus bas, et qui convienne mieux au peuple, que de parler en des termes magnifiques de ceux mêmes dont l’on pensait très modestement avant leur élévation.
-                
-                (6)
-                La faveur des princes n’exclut pas le mérite, et ne le suppose pas aussi.
-                
-                (7)
-                Il est étonnant qu’avec tout l’orgueil dont nous sommes gonflés, et la haute opinion que nous avons de nous-mêmes et de la bonté de notre jugement, nous négligions de nous en servir pour prononcer sur le mérite des autres. La vogue, la faveur populaire, celle du Prince, nous entraînent comme un torrent : nous louons ce qui est loué, bien plus que ce qui est louable.
-                
-                (8)
-                Je ne sais s’il y a rien au monde qui coûte davantage à approuver et à louer que ce qui est plus digne d’approbation et de louange, et si la vertu, le mérite, la beauté, les bonnes actions, les beaux ouvrages, ont un effet plus naturel et plus sûr que envie, la jalousie, et l’antipathie. Ce n’est pas d’un saint dont un dévot sait dire du bien, mais d’un autre dévot. Si une belle femme approuve la beauté d’une autre femme, on peut conclure qu’elle a mieux que ce qu’elle approuve. Si un poète loue les vers d’un autre poète, il y a à parier qu’ils sont mauvais et sans conséquence.
-                
-                (9)
-                Les hommes ne se goûtent qu’à peine les uns les autres, n’ont qu’une faible pente à s’approuver réciproquement : action, conduite, pensée, expression, rien ne plaît, rien ne contente ; ils substituent à la place de ce qu’on leur récite, de ce qu’on leur dit ou de ce qu’on leur lit, ce qu’ils auraient fait eux-mêmes en pareille conjoncture, ce qu’ils penseraient ou ce qu’ils écriraient sur un tel sujet, et ils sont si pleins de leurs idées, qu’il n’y a plus de place pour celles d’autrui.
-                
-                (10)
-                Le commun des hommes est si enclin au dérèglement et à la bagatelle, et le monde est si plein d’exemples ou pernicieux ou ridicules, que je croirais assez que l’esprit de singularité, s’il pouvait avoir ses bornes et ne pas aller trop loin, approcherait fort de la droite raison et d’une conduite régulière. 
-                «Il faut faire comme les autres » : maxime suspecte, qui signifie presque toujours : « il faut mal faire » dès qu’on l’étend au delà de ces choses purement extérieures, qui n’ont point de suite, qui dépendent de l’usage, de la mode ou des bienséances.
-                Le commun des hommes est si enclin au dérèglement et à la bagatelle, et le monde est si plein d’exemples ou pernicieux ou ridicules, que je croirais assez que l’esprit de singularité, s’il pouvait avoir ses bornes et ne pas aller trop loin, approcherait fort de la droite raison et d’une conduite régulière. «Il faut faire comme les autres » : maxime suspecte, qui signifie presque toujours : « il faut mal faire » dès qu’on l’étend au delà de ces choses purement extérieures, qui n’ont point de suite, qui dépendent de l’usage, de la mode ou des bienséances.
-                
-                (11)
-                Si les hommes sont hommes plutôt qu’ours et panthères, s’ils sont équitables, s’ils se font justice à eux-mêmes, et qu’ils la rendent aux autres, que deviennent les lois, leur texte et le prodigieux accablement de leurs commentaires ? que devient le pétitoire et le possessoire, et tout ce qu’on appelle jurisprudence ? Où se réduisent même ceux qui doivent tout leur relief et toute leur enflure à l’autorité où ils sont établis de faire valoir ces mêmes lois ? Si ces mêmes hommes ont de la droiture et de la sincérité, s’ils sont guéris de la prévention, où sont évanouies les disputes de l’école, la scolastique et les controverses ? S’ils sont tempérants, chastes et modérés, que leur sert le mystérieux jargon de la médecine, et qui est une mine d’or pour ceux qui s’avisent de le parler ? Légistes, docteurs, médecins, quelle chute pour vous, si nous pouvions tous nous donner le mot de devenir sages !
-                De combien de grands hommes dans les différents exercices de la paix et de la guerre aurait-on dû se passer ! À quel point de perfection et de raffinement n’a-t-on pas porté de certains arts et de certaines sciences qui ne devaient point être nécessaires, et qui sont dans le monde comme des remèdes à tous les maux dont notre malice est l’unique source ! Que de choses depuis Varron, que Varron a ignorées ! Ne nous suffirait-il pas même de n’être savant que comme Platon ou comme Socrate ?
-                
-                (12)
-                I2 (I) Tel à un sermon, à une musique, ou dans une galerie de peintures, a entendu à sa droite et à sa gauche, sur une chose précisément la même, des sentiments précisément opposés. Cela me ferait dire volontiers que l’on peut hasarder, dans tout genre d’ouvrages, d’y mettre le bon et le mauvais : le bon plaît aux uns, et le mauvais aux autres. L’on ne risque guère davantage d’y mettre le pire : il a ses partisans.
-                
-                (13)
-                Le phénix de la poésie chantante renaît de ses cendres ; il a vu mourir et revivre sa réputation en un même jour. Ce juge même si infaillible et si ferme dans ses jugements, le public, a varié sur son sujet : ou il se trompe, ou il s’est trompé. Celui qui prononcerait aujourd’hui que Q** en un certain genre est mauvais poète, parlerait presque aussi mal que s’il eût dit il y a quelque temps : Il est bon poète.
-                
-                (14)
-                C. P. était fort riche, et C. N. ne l’était pas : la Pucelle et Rodogune méritaient chacune une autre aventure. Ainsi l’on a toujours demandé pourquoi, dans telle ou telle profession, celui-ci avait fait sa fortune, et cet autre l’avait manquée ; et en cela les hommes cherchent la raison de leurs propres caprices, qui dans les conjonctures pressantes de leurs affaires, de leurs plaisirs, de leur santé et de leur vie, leur font souvent laisser les meilleurs et prendre les pires.
-                
-                (15)
-                La condition des comédiens était infâme chez les Romains et honorable chez les Grecs : qu’est-elle chez nous ? On pense d’eux comme les Romains, on vit avec eux comme les Grecs.
-                
-                (16)
-                Il suffisait à Bathylle d’être pantomime pour être couru des dames romaines ; à Rhoé de danser au théâtre ; à Roscie et à Nérine de représenter dans les chœurs, pour s’attirer une foule d’amants. La vanité et l’audace, suites d’une trop grande puissance, avaient ôté aux Romains le goût du secret et du mystère ; ils se plaisaient à faire du théâtre public celui de leurs amours ; ils n’étaient point jaloux de l’amphithéâtre, et partageaient avec la multitude les charmes de leurs maîtresses. Leur goût n’allait qu’à laisser voir qu’ils aimaient, non pas une belle personne ou une excellente comédienne, mais une comédienne.
-                
-                (17)
-                Rien ne découvre mieux dans quelle disposition sont les hommes à l’égard des sciences et des belles-lettres, et de quelle utilité ils les croient dans la république, que le prix qu’ils y ont mis, et l’idée qu’ils se forment de ceux qui ont pris le parti de les cultiver. Il n’y a point d’art si mécanique ni de si vile condition où les avantages ne soient plus sûrs, plus prompts et plus solides. Le comédien, couché dans son carrosse, jette de la boue au visage de Corneille, qui est à pied. Chez plusieurs, savant et pédant sont synonymes. Souvent où le riche parle, et parle de doctrine, c’est aux doctes à se taire, à écouter, à applaudir, s’ils veulent du moins ne passer que pour doctes.
-                
-                (18)
-                Il y a une sorte de hardiesse à soutenir devant certains esprits la honte de l’érudition : l’on trouve chez eux une prévention tout établie contre les savants, à qui ils ôtent les manières du monde, le savoir-vivre, l’esprit de société, et qu’ils renvoient ainsi dépouillés à leur cabinet et à leurs livres. Comme l’ignorance est un état paisible et qui ne coûte aucune peine, l’on s’y range en foule, et elle forme à la cour et à la ville un nombreux parti, qui l’emporte sur celui des savants. S’ils allèguent en leur faveur les noms d’Estrées, de Harlay, Bossuet, Seguier, Montausier, Wardes, Chevreuse, Novion, Lamoignon, Scudéry, Pélisson, et de tant d’autres personnages également doctes et polis ; s’ils osent même citer les grands noms de Chartres, de Condé, de Conti, de Bourbon, du Maine, de Vendome, comme de princes qui ont su joindre aux plus belles et aux plus hautes connaissances et l’atticisme des Grecs et l’urbanité des Romains, l’on ne feint point de leur dire que ce sont des exemples singuliers ; et s’ils ont recours à de solides raisons, elles sont faibles contre la voix de la multitude. Il semble néanmoins que l’on devrait décider sur cela avec plus de précaution, et se donner seulement la peine de douter si ce même esprit qui fait faire de si grands progrès dans les sciences, qui fait bien penser, bien juger, bien parler et bien écrire, ne pourrait point encore servir à être poli.
-                Il faut très peu de fonds pour la politesse dans les manières ; il en faut beaucoup pour celle de l’esprit.
-                
-                (19)
-                I9 (V) « Il est savant, dit un politique, il est donc incapable d’affaires ; je ne lui confierais l’état de ma garde-robe » ; et il a raison. Ossat, Ximénès, Richelieu étaient savants : étaient-ils habiles ? ont-ils passé pour de bons ministres ? « Il sait le grec, continue l’homme d’État, c’est un grimaud, c’est un philosophe. » Et en effet, une fruitière à Athènes, selon les apparences, parlait grec, et par cette raison était philosophe. Les Bignons, les Lamoignons étaient de purs grimauds : qui en peut douter ? ils savaient le grec. Quelle vision, quel délire au grand, au sage, au judicieux Antonin, de dire qu’alors les peuples seraient heureux, si l’empereur philosophait, ou si le philosophe ou le grimaud venait à l’empire ! 
-                Les langues sont la clef ou l’entrée des sciences, et rien davantage ; le mépris des unes tombe sur les autres. Il ne s’agit point si les langues sont anciennes ou nouvelles, mortes ou vivantes, mais si elles sont grossières ou polies, si les livres qu’elles ont formés sont d’un bon ou d’un mauvais goût. Supposons que notre langue pût un jour avoir le sort de la grecque et de la latine, serait-on pédant, quelques siècles après qu’on ne la parlerait plus, pour lire Molière ou La Fontaine ?
-                
-                (20)
-                Je nomme Eurypyle, et vous dites : « C’est un bel esprit. » Vous dites aussi de celui qui travaille une poutre : « Il est charpentier » ; et de celui qui refait un mur : « Il est maçon. » Je vous demande quel est l’atelier où travaille cet homme de métier, ce bel esprit ? quelle est son enseigne ? à quel habit le reconnaît-on ? quels sont ses outils ? est-ce le coin ? sont-ce le marteau ou l’enclume ? où fend-il, où cogne-t-il son ouvrage ? où l’expose-t-il en vente ? Un ouvrier se pique d’être ouvrier. Eurypyle se pique-t-il d’être bel esprit ? S’il est tel, vous me peignez un fat, qui met l’esprit en roture, une âme vile et mécanique, à qui ni ce qui est beau ni ce qui est esprit ne sauraient s’appliquer sérieusement ; et s’il est vrai qu’il ne se pique de rien, je vous entends, c’est un homme sage et qui a de l’esprit. Ne dites-vous pas encore du savantasse : « Il est bel esprit », et ainsi du mauvais poète ? Mais vous-même, vous croyez-vous sans aucun esprit ? et si vous en avez, c’est sans doute de celui qui est beau et convenable : vous voilà donc un bel esprit ; ou s’il s’en faut peu que vous ne preniez ce nom pour une injure, continuez, j’y consens, de le donner à Eurypyle, et d’employer cette ironie comme les sots, sans le moindre discernement, ou comme les ignorants, qu’elle console d’une certaine culture qui leur manque, et qu’ils ne voient que dans les autres.</p>
-
-        </body>
+            </div1>
+            <div1>
+                <p>     
+                    (7)
+                    Il est étonnant qu’avec tout l’orgueil dont nous sommes gonflés, et la haute opinion que nous avons de nous-mêmes et de la bonté de notre jugement, nous négligions de nous en servir pour prononcer sur le mérite des autres. La vogue, la faveur populaire, celle du Prince, nous entraînent comme un torrent : nous louons ce qui est loué, bien plus que ce qui est louable.
+                    
+                    (8)
+                    Je ne sais s’il y a rien au monde qui coûte davantage à approuver et à louer que ce qui est plus digne d’approbation et de louange, et si la vertu, le mérite, la beauté, les bonnes actions, les beaux ouvrages, ont un effet plus naturel et plus sûr que envie, la jalousie, et l’antipathie. Ce n’est pas d’un saint dont un dévot sait dire du bien, mais d’un autre dévot. Si une belle femme approuve la beauté d’une autre femme, on peut conclure qu’elle a mieux que ce qu’elle approuve. Si un poète loue les vers d’un autre poète, il y a à parier qu’ils sont mauvais et sans conséquence.
+                    
+                    (9)
+                    Les hommes ne se goûtent qu’à peine les uns les autres, n’ont qu’une faible pente à s’approuver réciproquement : action, conduite, pensée, expression, rien ne plaît, rien ne contente ; ils substituent à la place de ce qu’on leur récite, de ce qu’on leur dit ou de ce qu’on leur lit, ce qu’ils auraient fait eux-mêmes en pareille conjoncture, ce qu’ils penseraient ou ce qu’ils écriraient sur un tel sujet, et ils sont si pleins de leurs idées, qu’il n’y a plus de place pour celles d’autrui.
+                    
+                    (10)
+                    Le commun des hommes est si enclin au dérèglement et à la bagatelle, et le monde est si plein d’exemples ou pernicieux ou ridicules, que je croirais assez que l’esprit de singularité, s’il pouvait avoir ses bornes et ne pas aller trop loin, approcherait fort de la droite raison et d’une conduite régulière. 
+                    «Il faut faire comme les autres » : maxime suspecte, qui signifie presque toujours : « il faut mal faire » dès qu’on l’étend au delà de ces choses purement extérieures, qui n’ont point de suite, qui dépendent de l’usage, de la mode ou des bienséances.
+                    Le commun des hommes est si enclin au dérèglement et à la bagatelle, et le monde est si plein d’exemples ou pernicieux ou ridicules, que je croirais assez que l’esprit de singularité, s’il pouvait avoir ses bornes et ne pas aller trop loin, approcherait fort de la droite raison et d’une conduite régulière. «Il faut faire comme les autres » : maxime suspecte, qui signifie presque toujours : « il faut mal faire » dès qu’on l’étend au delà de ces choses purement extérieures, qui n’ont point de suite, qui dépendent de l’usage, de la mode ou des bienséances.
+                    
+                    (11)
+                    Si les hommes sont hommes plutôt qu’ours et panthères, s’ils sont équitables, s’ils se font justice à eux-mêmes, et qu’ils la rendent aux autres, que deviennent les lois, leur texte et le prodigieux accablement de leurs commentaires ? que devient le pétitoire et le possessoire, et tout ce qu’on appelle jurisprudence ? Où se réduisent même ceux qui doivent tout leur relief et toute leur enflure à l’autorité où ils sont établis de faire valoir ces mêmes lois ? Si ces mêmes hommes ont de la droiture et de la sincérité, s’ils sont guéris de la prévention, où sont évanouies les disputes de l’école, la scolastique et les controverses ? S’ils sont tempérants, chastes et modérés, que leur sert le mystérieux jargon de la médecine, et qui est une mine d’or pour ceux qui s’avisent de le parler ? Légistes, docteurs, médecins, quelle chute pour vous, si nous pouvions tous nous donner le mot de devenir sages !
+                    De combien de grands hommes dans les différents exercices de la paix et de la guerre aurait-on dû se passer ! À quel point de perfection et de raffinement n’a-t-on pas porté de certains arts et de certaines sciences qui ne devaient point être nécessaires, et qui sont dans le monde comme des remèdes à tous les maux dont notre malice est l’unique source ! Que de choses depuis Varron, que Varron a ignorées ! Ne nous suffirait-il pas même de n’être savant que comme Platon ou comme Socrate ?
+                    
+                    (12)
+                    I2 (I) Tel à un sermon, à une musique, ou dans une galerie de peintures, a entendu à sa droite et à sa gauche, sur une chose précisément la même, des sentiments précisément opposés. Cela me ferait dire volontiers que l’on peut hasarder, dans tout genre d’ouvrages, d’y mettre le bon et le mauvais : le bon plaît aux uns, et le mauvais aux autres. L’on ne risque guère davantage d’y mettre le pire : il a ses partisans.
+                    
+                    (13)
+                    Le phénix de la poésie chantante renaît de ses cendres ; il a vu mourir et revivre sa réputation en un même jour. Ce juge même si infaillible et si ferme dans ses jugements, le public, a varié sur son sujet : ou il se trompe, ou il s’est trompé. Celui qui prononcerait aujourd’hui que Q** en un certain genre est mauvais poète, parlerait presque aussi mal que s’il eût dit il y a quelque temps : Il est bon poète.
+                    
+                    (14)
+                    C. P. était fort riche, et C. N. ne l’était pas : la Pucelle et Rodogune méritaient chacune une autre aventure. Ainsi l’on a toujours demandé pourquoi, dans telle ou telle profession, celui-ci avait fait sa fortune, et cet autre l’avait manquée ; et en cela les hommes cherchent la raison de leurs propres caprices, qui dans les conjonctures pressantes de leurs affaires, de leurs plaisirs, de leur santé et de leur vie, leur font souvent laisser les meilleurs et prendre les pires.
+                    
+                    (15)
+                    La condition des comédiens était infâme chez les Romains et honorable chez les Grecs : qu’est-elle chez nous ? On pense d’eux comme les Romains, on vit avec eux comme les Grecs.
+                    
+                    (16)
+                    Il suffisait à Bathylle d’être pantomime pour être couru des dames romaines ; à Rhoé de danser au théâtre ; à Roscie et à Nérine de représenter dans les chœurs, pour s’attirer une foule d’amants. La vanité et l’audace, suites d’une trop grande puissance, avaient ôté aux Romains le goût du secret et du mystère ; ils se plaisaient à faire du théâtre public celui de leurs amours ; ils n’étaient point jaloux de l’amphithéâtre, et partageaient avec la multitude les charmes de leurs maîtresses. Leur goût n’allait qu’à laisser voir qu’ils aimaient, non pas une belle personne ou une excellente comédienne, mais une comédienne.
+                    
+                    (17)
+                    Rien ne découvre mieux dans quelle disposition sont les hommes à l’égard des sciences et des belles-lettres, et de quelle utilité ils les croient dans la république, que le prix qu’ils y ont mis, et l’idée qu’ils se forment de ceux qui ont pris le parti de les cultiver. Il n’y a point d’art si mécanique ni de si vile condition où les avantages ne soient plus sûrs, plus prompts et plus solides. Le comédien, couché dans son carrosse, jette de la boue au visage de Corneille, qui est à pied. Chez plusieurs, savant et pédant sont synonymes. Souvent où le riche parle, et parle de doctrine, c’est aux doctes à se taire, à écouter, à applaudir, s’ils veulent du moins ne passer que pour doctes.
+                    
+                    (18)
+                    Il y a une sorte de hardiesse à soutenir devant certains esprits la honte de l’érudition : l’on trouve chez eux une prévention tout établie contre les savants, à qui ils ôtent les manières du monde, le savoir-vivre, l’esprit de société, et qu’ils renvoient ainsi dépouillés à leur cabinet et à leurs livres. Comme l’ignorance est un état paisible et qui ne coûte aucune peine, l’on s’y range en foule, et elle forme à la cour et à la ville un nombreux parti, qui l’emporte sur celui des savants. S’ils allèguent en leur faveur les noms d’Estrées, de Harlay, Bossuet, Seguier, Montausier, Wardes, Chevreuse, Novion, Lamoignon, Scudéry, Pélisson, et de tant d’autres personnages également doctes et polis ; s’ils osent même citer les grands noms de Chartres, de Condé, de Conti, de Bourbon, du Maine, de Vendome, comme de princes qui ont su joindre aux plus belles et aux plus hautes connaissances et l’atticisme des Grecs et l’urbanité des Romains, l’on ne feint point de leur dire que ce sont des exemples singuliers ; et s’ils ont recours à de solides raisons, elles sont faibles contre la voix de la multitude. Il semble néanmoins que l’on devrait décider sur cela avec plus de précaution, et se donner seulement la peine de douter si ce même esprit qui fait faire de si grands progrès dans les sciences, qui fait bien penser, bien juger, bien parler et bien écrire, ne pourrait point encore servir à être poli.
+                    Il faut très peu de fonds pour la politesse dans les manières ; il en faut beaucoup pour celle de l’esprit.
+                    
+                    (19)
+                    I9 (V) « Il est savant, dit un politique, il est donc incapable d’affaires ; je ne lui confierais l’état de ma garde-robe » ; et il a raison. Ossat, Ximénès, Richelieu étaient savants : étaient-ils habiles ? ont-ils passé pour de bons ministres ? « Il sait le grec, continue l’homme d’État, c’est un grimaud, c’est un philosophe. » Et en effet, une fruitière à Athènes, selon les apparences, parlait grec, et par cette raison était philosophe. Les Bignons, les Lamoignons étaient de purs grimauds : qui en peut douter ? ils savaient le grec. Quelle vision, quel délire au grand, au sage, au judicieux Antonin, de dire qu’alors les peuples seraient heureux, si l’empereur philosophait, ou si le philosophe ou le grimaud venait à l’empire ! 
+                    Les langues sont la clef ou l’entrée des sciences, et rien davantage ; le mépris des unes tombe sur les autres. Il ne s’agit point si les langues sont anciennes ou nouvelles, mortes ou vivantes, mais si elles sont grossières ou polies, si les livres qu’elles ont formés sont d’un bon ou d’un mauvais goût. Supposons que notre langue pût un jour avoir le sort de la grecque et de la latine, serait-on pédant, quelques siècles après qu’on ne la parlerait plus, pour lire Molière ou La Fontaine ?
+                    
+                    (20)
+                    Je nomme Eurypyle, et vous dites : « C’est un bel esprit. » Vous dites aussi de celui qui travaille une poutre : « Il est charpentier » ; et de celui qui refait un mur : « Il est maçon. » Je vous demande quel est l’atelier où travaille cet homme de métier, ce bel esprit ? quelle est son enseigne ? à quel habit le reconnaît-on ? quels sont ses outils ? est-ce le coin ? sont-ce le marteau ou l’enclume ? où fend-il, où cogne-t-il son ouvrage ? où l’expose-t-il en vente ? Un ouvrier se pique d’être ouvrier. Eurypyle se pique-t-il d’être bel esprit ? S’il est tel, vous me peignez un fat, qui met l’esprit en roture, une âme vile et mécanique, à qui ni ce qui est beau ni ce qui est esprit ne sauraient s’appliquer sérieusement ; et s’il est vrai qu’il ne se pique de rien, je vous entends, c’est un homme sage et qui a de l’esprit. Ne dites-vous pas encore du savantasse : « Il est bel esprit », et ainsi du mauvais poète ? Mais vous-même, vous croyez-vous sans aucun esprit ? et si vous en avez, c’est sans doute de celui qui est beau et convenable : vous voilà donc un bel esprit ; ou s’il s’en faut peu que vous ne preniez ce nom pour une injure, continuez, j’y consens, de le donner à Eurypyle, et d’employer cette ironie comme les sots, sans le moindre discernement, ou comme les ignorants, qu’elle console d’une certaine culture qui leur manque, et qu’ils ne voient que dans les autres.
+                </p>             
+            </div1>
+       </body>
+       <back></back>
     </text>
 </TEI>
