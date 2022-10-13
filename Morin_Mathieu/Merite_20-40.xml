@@ -82,7 +82,7 @@
                     <p>Remplacement des s long par des s normaux</p>
                 </correction>
                 <punctuation>
-                    <p>Annoncer les emplacements des pieds de mouche</p>
+                    <p>Annoncer les emplacements des pieds de mouche par le signe * ou (*)</p>
                 </punctuation>
             </editorialDecl>
         </encodingDesc>
@@ -94,6 +94,12 @@
                 </item>
                 <item>
                     <date when="2022-10-10">10 octobre 2022</date>Ajout d'une troisième et d'une quatrième source, la quatrième et septième édition, pour comparaison de plusieurs versions
+                </item>
+                <item>
+                    <date when="2022-10-13">13 octobre 2022</date>Perfectionnement de l'encodage des remarques
+                </item>
+                <item>
+                    <date when="2022-10-13">13 octobre 2022</date>Ajout des éditions présentant les remarques dans l'élément "source"
                 </item>
             </list>
         </revisionDesc>
@@ -126,42 +132,74 @@
             <div1>
                 <head>du mérite personnel</head>
                 
-                <div2 source="">
-                    <p source="" n="20">S’il est ordinaire d’être vivement touché des choses rares, 
+                <div2 source="#Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="20">S’il est ordinaire d’être vivement touché des choses rares, 
                         pourquoi le sommes-nous si peu de la vertu ?</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="21">S’il est heureux d’avoir de la naissance, 
+                <div2 source="#Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="21">S’il est heureux d’avoir de la naissance, 
                         il ne l’est pas moins d’être tel qu’on ne s’informe plus si vous en avez.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="22"></p>
+                <div2 source="#Paris_1692_7, #Paris_1699_10">
+                    <p source="" n="22">Il apparaît de temps en temps sur la surface de la terre des hommes rares, exquis, 
+                        qui brillent par leur vertu, et dont les qualités éminentes jettent un éclat prodigieux. 
+                        Semblables à ces étoiles extraordinaires dont on ignore les causes, 
+                        et dont on sait encore moins ce qu’elles deviennent après avoir disparu, ils n’ont ni aïeuls, 
+                        ni descendants : ils composent seuls toute leur race.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="23"></p>
+                <div2 source="#Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="23">Le bon esprit nous découvre notre devoir, notre engagement à le faire, 
+                        et s’il y a du péril, avec péril : il inspire le courage, ou il y supplée.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="24"></p>
+                <div2 source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="24">Quand on excelle dans son art, et qu’on lui donne toute la perfection dont il est capable, 
+                        l’on en sort en quelque manière, et l’on s’égale à ce qu’il y a de plus noble et de plus relevé. 
+                        V** est un peintre, C** un musicien, et l’auteur de Pyrame est un poète ; mais Mignard est Mignard, 
+                        Lulli est Lulli, et Corneille est Corneille.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="25"></p>
+                <div2 source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="25">Un homme libre, et qui n’a point de femme, s’il a quelque esprit ; 
+                        peut s’élever au-dessus de sa fortune, se mêler dans le monde, 
+                        et aller de pair avec les plus honnêtes gens. Cela est moins facile à celui qui est engagé : 
+                        il semble que le mariage met tout le monde dans son ordre.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="26"></p>
+                <div2 source="#Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="26">Après le mérite personnel, il faut l’avouer, 
+                        ce sont les éminentes dignité et les grands titres dont les hommes tirent plus de distinction et plus 
+                        d’éclat ; et qui ne sait être un Erasme doit penser à être évêque. Quelques-uns, 
+                        pour étendre leur renommée, entassent sur leurs personnes des pairies, des colliers d’ordre, 
+                        des primaties, la pourpre, et ils auraient besoin d’une tiare ; 
+                        mais quel besoin a Trophime d’être cardinal ?</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="27"></p>
+                <div2 source="#Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1692_7, #Paris_1699_10" n="27">L’or éclate, dites-vous, sur les habits de Philémon. 
+                        — Il éclate de même chez les marchands. — Il est habillé des plus belles étoffes. 
+                        — Le sont-elles moins toutes déployées dans les boutiques et à la pièce ? 
+                        — Mais la broderie et les ornements y ajoutent encore la magnificence. 
+                        — Je loue donc le travail de l’ouvrier. — Si on lui demande quelle heure il est, 
+                        il tire une montre qui est un chef-d’œuvre ; la garde de son épée est un onyx ; 
+                        il a au doigt un gros diamant qu’il fait briller aux yeux, et qui est parfait ; 
+                        il ne lui manque aucune de ces curieuses bagatelles que l’on porte sur soi autant pour la vanité que 
+                        pour l’usage, et il ne se plaint non plus toute sorte de parure qu’un jeune homme qui a épousé une riche 
+                        vieille. — Vous m’inspirez enfin de la curiosité ; il faut voir du moins des choses si précieuses : 
+                        envoyez-moi cet habit et ces bijoux de Philémon ; je vous quitte de la personne.
+                        Tu te trompes, Philémon, si avec ce carrosse brillant, ce grand nombre de coquins qui te suivent, 
+                        et ces six bêtes qui te traînent, tu penses que l’on t’en estime davantage : 
+                        l’on écarte tout cet attirail qui t’est étranger, pour pénétrer jusques à toi, qui n’es qu’un fat.
+                        Ce n’est pas qu’il ne faut quelquefois pardonner à celui qui, avec un grand cortège, 
+                        un habit riche et un magnifique équipage, s’en croit plus de naissance et plus d’esprit : 
+                        il lit cela dans la contenance et dans les yeux de ceux qui lui parlent.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="28">Un homme à la cour, et souvent à la ville, 
+                <div2 source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="28">Un homme à la cour, et souvent à la ville, 
                         qui a un long manteau de soie ou de drap de Hollande, une ceinture large et placée haut sur l’estomac, 
                         le soulier de maroquin, la calotte de même, d’un beau grain, un collet bien fait et bien empesé, 
                         les cheveux arrangés et le teint vermeil, 
@@ -171,20 +209,20 @@
                         cherché, consulté, confronté, lu ou écrit pendant toute sa vie, est un homme docte.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="29">Chez nous le soldat est brave, et l’homme de robe est savant ; 
+                <div2 source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="29">Chez nous le soldat est brave, et l’homme de robe est savant ; 
                         nous n’allons pas plus loin. Chez les Romains l’homme de robe était brave, et le soldat était savant : 
                         un Romain était tout ensemble et le soldat et l’homme de robe.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="30">l semble que le héros est d’un seul métier, qui est celui de la guerre, 
+                <div2 source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="30">Il semble que le héros est d’un seul métier, qui est celui de la guerre, 
                         et que le grand homme est de tous les métiers, ou de la robe, ou de l’épée, ou du cabinet, ou de la cour : 
                         l’un et l’autre mis ensemble ne pèsent pas un homme de bien.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="31">Dans la guerre, la distinction entre le héros et le grand homme est délicate : 
+                <div2 source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="31">Dans la guerre, la distinction entre le héros et le grand homme est délicate : 
                         toutes les vertus militaires font l’un et l’autre. Il semble néanmoins que le premier soit jeune, 
                         entreprenant, d’une haute valeur, ferme dans les périls, intrépide ; 
                         que l’autre excelle par un grand sens, par une vaste prévoyance, par une haute capacité, 
@@ -192,8 +230,8 @@
                         et que César était un grand homme.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="32">Aemile était né ce que les plus grands hommes ne deviennent qu’à force de règles, 
+                <div2 source="#Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1692_7, #Paris_1699_10" n="32">Aemile était né ce que les plus grands hommes ne deviennent qu’à force de règles, 
                         de méditation et d’exercice. 
                         Il n’a eu dans ses premières années qu’à remplir des talents qui étaient naturels, 
                         et qu’à se livrer à son génie. Il a fait, il a agi, avant que de savoir, 
@@ -217,28 +255,28 @@
                         magnanime, à qui il n’a manqué que les moindres vertus.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="33">Les enfants des Dieux, pour ainsi dire, se tirent des règles de la nature, 
+                <div2 source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="33">Les enfants des Dieux, pour ainsi dire, se tirent des règles de la nature, 
                         et en sont comme l’exception. Ils n’attendent presque rien du temps et des années. 
                         Le mérite chez eux devance l’âge. Ils naissent instruits, 
                         et ils sont plus tôt des hommes parfaits que le commun des hommes ne sort de l’enfance.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="34">Les vues courtes, je veux dire les esprits bornés et resserrés dans leur petite sphère, 
+                <div2 source="#Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1692_7, #Paris_1699_10" n="34">Les vues courtes, je veux dire les esprits bornés et resserrés dans leur petite sphère, 
                         ne peuvent comprendre cette universalité de talents que l’on remarque quelquefois dans un même sujet : 
                         où ils voient l’agréable, ils en excluent le solide ; où ils croient découvrir les grâces du corps, 
                         l’agilité, la souplesse, la dextérité, ils ne veulent plus y admettre les dons de l’âme, la profondeur, 
                         la réflexion, la sagesse : ils ôtent de l’histoire de Socrate qu’il ait dansé.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="35">Il n’y a guère d’homme si accompli et si nécessaire aux siens, 
+                <div2 source="#Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1692_7, #Paris_1699_10" n="35">Il n’y a guère d’homme si accompli et si nécessaire aux siens, 
                         qu’il n’ait de quoi se faire moins regretter.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="36">Un homme d’esprit et d’un caractère simple et droit peut tomber dans quelque pièce ; 
+                <div2 source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="36">Un homme d’esprit et d’un caractère simple et droit peut tomber dans quelque pièce ; 
                         il ne pense pas que personne veuille lui en dresser, et le choisir pour être sa dupe : 
                         cette confiance le rend moins précautionné, et les mauvais plaisants l’entament par cet endroit. 
                         Il n’y a qu’à perdre pour ceux qui en viendraient à une seconde charge : il n’est trompé qu’une fois.
@@ -246,14 +284,14 @@
                         si j’aime le moins du monde mes intérêts.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="37">Il n’y a rien de si délié, de si simple et de si imperceptible, 
+                <div2 source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1688_3, #Paris_1689_4, #Paris_1692_7, #Paris_1699_10" n="37">Il n’y a rien de si délié, de si simple et de si imperceptible, 
                         où il n’entre des manières qui nous décèlent. Un sot ni n’entre, ni ne sort, ni ne s’assied, 
                         ni ne se lève, ni ne se tait, ni n’est sur ses jambes, comme un homme d’esprit.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="38">Je connais Mopse d’une visite qu’il m’a rendue sans me connaître ; 
+                <div2 source="#Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1692_7, #Paris_1699_10" n="38">Je connais Mopse d’une visite qu’il m’a rendue sans me connaître ; 
                         il prie des gens qu’il ne connaît point de le mener chez d’autres dont il n’est pas connu ; 
                         il écrit à des femmes qu’il connaît de vue. Il s’insinue dans un cercle de personnes respectables, 
                         et qui ne savent quel il est, et là, sans attendre qu’on l’interroge, ni sans sentir qu’il interrompt, 
@@ -266,8 +304,8 @@
                         de quoi rougir.</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="39">Celse est d’un rang médiocre, mais des grands le souffrent ; il n’est pas savant, 
+                <div2 source="#Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1692_7, #Paris_1699_10" n="39">Celse est d’un rang médiocre, mais des grands le souffrent ; il n’est pas savant, 
                         il a relation avec des savants ; il a peu de mérite, mais il connaît des gens qui en ont beaucoup ; 
                         il n’est pas habile, mais il a une langue qui peut servir de truchement, 
                         et des pieds qui peuvent le porter d’un lieu à un autre. C’est un homme né pour les allées et venues, 
@@ -290,8 +328,8 @@
                         aurait-il l’air important et mystérieux d’un homme revenu d’une ambassade ?</p>
                 </div2>
                 
-                <div2 source="">
-                    <p source="" n="40">Ménippe est l’oiseau paré de divers plumages qui ne sont pas à lui. 
+                <div2 source="#Paris_1692_7, #Paris_1699_10">
+                    <p source="#Paris_1692_7, #Paris_1699_10" n="40">Ménippe est l’oiseau paré de divers plumages qui ne sont pas à lui. 
                         Il ne parle pas, il ne sent pas ; il répète des sentiments et des discours, 
                         se sert même si naturellement de l’esprit des autres qu’il y est le premier trompé, 
                         et qu’il croit souvent dire son goût ou expliquer sa pensée, 
@@ -311,32 +349,8 @@
                         qu’il sait que tout lui sied bien, et que sa parure est assortie ; 
                         qu’il croit que tous les yeux sont ouverts sur lui, et que les hommes se relayent pour le contempler.</p>
                 </div2>
+                
             </div1>
-            
-            <div1><p source="" n="20">
-  
-        
-        (22)
-        Il apparaît de temps en temps sur la surface de la terre des hommes rares, exquis, qui brillent par leur vertu, et dont les qualités éminentes jettent un éclat prodigieux. Semblables à ces étoiles extraordinaires dont on ignore les causes, et dont on sait encore moins ce qu’elles deviennent après avoir disparu, ils n’ont ni aïeuls, ni descendants : ils composent seuls toute leur race.
-        
-        (23)
-        Le bon esprit nous découvre notre devoir, notre engagement à le faire, et s’il y a du péril, avec péril : il inspire le courage, ou il y supplée.
-        
-        (24)
-        Quand on excelle dans son art, et qu’on lui donne toute la perfection dont il est capable, l’on en sort en quelque manière, et l’on s’égale à ce qu’il y a de plus noble et de plus relevé. V** est un peintre, C** un musicien, et l’auteur de Pyrame est un poète ; mais Mignard est Mignard, Lulli est Lulli, et Corneille est Corneille.
-        
-        (25)
-        Un homme libre, et qui n’a point de femme, s’il a quelque esprit ; peut s’élever au-dessus de sa fortune, se mêler dans le monde, et aller de pair avec les plus honnêtes gens. Cela est moins facile à celui qui est engagé : il semble que le mariage met tout le monde dans son ordre.
-        
-        (26)
-        Après le mérite personnel, il faut l’avouer, ce sont les éminentes dignité et les grands titres dont les hommes tirent plus de distinction et plus d’éclat ; et qui ne sait être un Erasme doit penser à être évêque. Quelques-uns, pour étendre leur renommée, entassent sur leurs personnes des pairies, des colliers d’ordre, des primaties, la pourpre, et ils auraient besoin d’une tiare ; mais quel besoin a Trophime d’être cardinal ?
-        
-        (27)
-        L’or éclate, dites-vous, sur les habits de Philémon. — Il éclate de même chez les marchands. — Il est habillé des plus belles étoffes. — Le sont-elles moins toutes déployées dans les boutiques et à la pièce ? — Mais la broderie et les ornements y ajoutent encore la magnificence. — Je loue donc le travail de l’ouvrier. — Si on lui demande quelle heure il est, il tire une montre qui est un chef-d’œuvre ; la garde de son épée est un onyx ; il a au doigt un gros diamant qu’il fait briller aux yeux, et qui est parfait ; il ne lui manque aucune de ces curieuses bagatelles que l’on porte sur soi autant pour la vanité que pour l’usage, et il ne se plaint non plus toute sorte de parure qu’un jeune homme qui a épousé une riche vieille. — Vous m’inspirez enfin de la curiosité ; il faut voir du moins des choses si précieuses : envoyez-moi cet habit et ces bijoux de Philémon ; je vous quitte de la personne.
-        Tu te trompes, Philémon, si avec ce carrosse brillant, ce grand nombre de coquins qui te suivent, et ces six bêtes qui te traînent, tu penses que l’on t’en estime davantage : l’on écarte tout cet attirail qui t’est étranger, pour pénétrer jusques à toi, qui n’es qu’un fat.
-        Ce n’est pas qu’il ne faut quelquefois pardonner à celui qui, avec un grand cortège, un habit riche et un magnifique équipage, s’en croit plus de naissance et plus d’esprit : il lit cela dans la contenance et dans les yeux de ceux qui lui parlent.
-        
-    </p></div1>
         
         </body>
     
