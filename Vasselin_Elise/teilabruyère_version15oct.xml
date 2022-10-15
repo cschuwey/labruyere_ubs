@@ -124,7 +124,8 @@
     </revisionDesc>
     
     <encodingDesc>
-        
+        J'ai trouvé une balise de contenu manuscript "MsContents", utilisé la balise "objet" à l'intérieur de cette balise et écrit "flyfoot" qui signifie pied-de-mouche. 
+        J'ai copié-collé ces balises à chaque nouvelle remarque.
     </encodingDesc>
     
     <editorialDesc>
