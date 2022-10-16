@@ -27,7 +27,10 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc> 
-            <langUsage resp="iso639-3"</langUsage>
+            <langUsage> 
+                <language ident="fra"> Français classique </language>
+                <language ident="lat"> Latin </language>
+            </langUsage>
             <textDesc>
                 <factuality type=""></factuality>
             </textDesc>
