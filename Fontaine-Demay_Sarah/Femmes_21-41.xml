@@ -66,8 +66,8 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <p>Il est précisé dans les différents balises div les éditions dans lesquelles on peut trouver les différentes remarques<p>
-            <samplingDecl>Les textes ont été choisi car se sont différentes éditions afin de faire apparaitre les changements textuels entre elles</samplingDecl>
+            <p>Il est précisé dans les différents balises div les éditions dans lesquelles on peut trouver les différentes remarques</p>
+            <samplingDecl><p>Les textes ont été choisi car se sont différentes éditions afin de faire apparaitre les changements textuels entre elles</p></samplingDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -91,7 +91,7 @@
             </settingDesc>
         </profileDesc>
         <revisionDesc>
-            <item><date when="2022-10-16">Ajout de sources et ressencement sources des différentes remarques</date></item>
+            <change><date when="2022-10-16">Ajout de sources et ressencement sources des différentes remarques</date></change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -121,7 +121,7 @@
                 <head>
                     <title>Des femmes</title>
                 </head>
-                <div2 n="21" source="#Paris_1694_ed8" source="#Paris_1688_ed1">
+                <div2 n="21" source="#Paris_1694_ed8 #Paris_1688_ed1">
                     <p>Il y a peu de galanteries secrètes. Bien des femmes ne sont pas mieux désignées par le nom de leurs maris que par celui de leurs amants.</p>
                 </div2>
                 <div2 n="22" source="#Paris_1694_ed8">
@@ -138,25 +138,25 @@
                     <p>Une femme infidèle, si elle est connue pour telle de la personne intéressée, n’est qu’infidèle : s’il la croit fidèle, elle est perfide.</p>
                     <p>On tire ce bien de la perfidie des femmes, qu’elle guérit de la jalousie.</p>
                 </div2>
-                <div2 n="26" source="#Paris_1694_ed8" source="#Paris_1688_ed1">
+                <div2 n="26" source="#Paris_1694_ed8 #Paris_1688_ed1">
                     <p>Quelques femmes ont dans le cours de leur vie un double engagement à soutenir, également difficile à rompre et à dissimuler ; il ne manque à l’un que le contrat, et à l’autre que le cœur.</p>
                 </div2>
-                <div2 n="27" source="#Paris_1694_ed8" source="#Paris_1688_ed1">
+                <div2 n="27" source="#Paris_1694_ed8 #Paris_1688_ed1">
                     <p>A juger de cette femme par sa beauté, sa jeunesse, sa fierté et ses dédains, il n’y a personne qui doute que ce ne soit un héros qui doive un jour la charmer. Son choix est fait : c’est un petit monstre qui manque d’esprit.</p>
                 </div2>
-                <div2 n="28" source="#Paris_1694_ed8" source="#Paris_1688_ed1">
+                <div2 n="28" source="#Paris_1694_ed8 #Paris_1688_ed1">
                     <p>Il y a des femmes déjà flétries, qui par leur complexion ou par leur mauvais caractère sont naturellement la ressource des jeunes gens qui n’ont pas assez de bien. Je ne sais qui est plus à plaindre, ou d’une femme avancée en âge qui a besoin d’un cavalier, ou d’un cavalier qui a besoin d’une vieille.</p>
                 </div2>
                 <div2 n="29" source="#Paris_1694_ed8">
                     <p>Le rebut de la cour est reçu à la ville dans une ruelle, où il défait le magistrat même en cravate et en habit gris, ainsi que le bourgeois en baudrier, les écarte et devient maître de la place : il est écouté, il est aimé ; on ne tient guère plus d’un moment contre une écharpe d’or et une plume blanche, contre un homme qui parle au Roi et voit les ministres. Il fait des jaloux et des jalouses : on l’admire, il fait envie : à quatre lieues de là, il fait pitié. </p>
                 </div2>
-                <div2 n="30" source="#Paris_1694_ed8" source="#Paris_1688_ed1">
+                <div2 n="30" source="#Paris_1694_ed8 #Paris_1688_ed1">
                     <p>Un homme de la ville est pour une femme de province ce qu’est pour une femme de ville un homme de la cour.</p>
                 </div2>
                 <div2 n="31" source="#Paris_1694_ed8">
                     <p>A un homme vain, indiscret, qui est grand parleur et mauvais plaisant, qui parle de soi avec confiance et des autres avec mépris, impétueux, altier, entreprenant, sans mœurs ni probité, de nul jugement et d’une imagination très libre, il ne lui manque plus, pour être adoré de bien des femmes, que de beaux traits et la taille belle.</p>
                 </div2>
-                <div2 n="32" source="#Paris_1694_ed8" source="#Paris_1688_ed1">
+                <div2 n="32" source="#Paris_1694_ed8 #Paris_1688_ed1">
                     <p>Est-ce en vue du secret, ou par un goût hypocondre, que cette femme aime un valet, cette autre un moine, et Dorinne son médecin ?</p>
                 </div2>
                 <div2 n="33" source="#Paris_1694_ed8">
@@ -165,19 +165,19 @@
                 <div2 n="34" source="#Paris_1694_ed8">
                     <p>Pour les femmes du monde, un jardinier est un jardinier, et un maçon est un maçon ; pour quelques autres plus retirées, un maçon est un homme, un jardinier est un homme. Tout est tentation à qui la craint.</p>
                 </div2>
-                <div2 n="35" source="#Paris_1694_ed8" source="#Paris_1688_ed1">
+                <div2 n="35" source="#Paris_1694_ed8 #Paris_1688_ed1">
                     <p>Quelques femmes donnent aux couvents et à leurs amants : galantes et bienfactrices, elles ont jusque dans l’enceinte de l’autel des tribunes et des oratoires où elles lisent des billets tendres, et où personne ne voit qu’elles ne prient point Dieu.</p>
                 </div2>
                 <div2 n="36" source="#Paris_1694_ed8">
                     <p>Qu’est-ce qu’une femme que l’on dirige ? Est-ce une femme plus complaisante pour son mari, plus douce pour ses domestiques, plus appliquée à sa famille et à ses affaires, plus ardente et plus sincère pour ses amis ; qui soit moins esclave de son humeur, moins attachée à ses intérêts ; qui aime moins les commodités de la vie ; je ne dis pas qui fasse des largesses à ses enfants qui sont déjà riches, mais qui, opulente elle-même et accablée du superflu, leur fournisse le nécessaire, et leur rende au moins la justice qu’elle leur doit ; qui soit plus exempte d’amour de soi-même et d’éloignement pour les autres ; qui soit plus libre de tous attachements humains ? "Non, dites-vous, ce n’est rien de toutes ces choses." J’insiste, et je vous demande : "Qu’est-ce donc qu’une femme que l’on dirige ? " Je vous entends, c’est une femme qui a un directeur.</p>
                 </div2>
-                <div2 n="37" source="#Paris_1694_ed8" source="#Paris_1688_ed1">
+                <div2 n="37" source="#Paris_1694_ed8 #Paris_1688_ed1">
                     <p>Si le confesseur et le directeur ne conviennent point sur une règle de conduite, qui sera le tiers qu’une femme prendra pour sur-arbitre ?</p>
                 </div2>
-                <div2 n="38" source="#Paris_1694_ed8" source="#Paris_1688_ed1">
+                <div2 n="38" source="#Paris_1694_ed8 #Paris_1688_ed1">
                     <p>Le capital pour une femme n’est pas d’avoir un directeur, mais de vivre si uniment qu’elle s’en puisse passer.</p>
                 </div2>
-                <div2 n="39" source="#Paris_1694_ed8" source="#Paris_1688_ed1">
+                <div2 n="39" source="#Paris_1694_ed8 #Paris_1688_ed1">
                     <p>Si une femme pouvait dire à son confesseur, avec ses autres faiblesses, celles qu’elle a pour son directeur ; et le temps qu’elle perd dans son entretien, peut-être lui serait-il donné pour pénitence d’y renoncer.</p>
                 </div2>
                 <div2 n="40" source="#Paris_1694_ed8">
