@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-     <fileDesc>
-         <titleStmt>
-            <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title> 
-            <author>La Bruyère, Jean</author>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>Estienne Michallet</publisher>
-            <pubPlace>Paris</pubPlace>
-            <date>1691</date>
-            <monogr xml:id="Paris_1691_1"><note>CONTENU??</note></monogr>
-                 </publicationStmt>
-         <sourceDesc>
-             <p>Gallica est la bibliothèque numérique de la Bibliothèque nationale de France, en libre accès depuis 1997</p>
-              <bibl>
-         <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
-         <author>La Bruyère, Jean</author>
-     <!-- Ce texte n'est dans aucun élément! -->    Available from <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k57567b/f2.item.r=Les%20Caract%C3%A8res%20de%20Th%C3%A9ophraste,%20traduits%20du%20grec,%20avec%20les%20Caract%C3%A8res%20ou%20moeurs%20de%20ce%20si%C3%A8cle"></​ref>
-            <publisher>Estienne Michallet</publisher>
-            <pubPlace>Paris</pubPlace>
-            <date>1691</date>
-     </bibl>
-         </sourceDesc>
-     </fileDesc>
-     <encodingDesc></encodingDesc>
-     <profileDesc></profileDesc>
-     <revisionDesc></revisionDesc>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title> 
+                <author>La Bruyère, Jean</author>
+            </titleStmt>
+            <publicationStmt>
+                
+            </publicationStmt>
+            <sourceDesc>
+                <p>Gallica est la bibliothèque numérique de la Bibliothèque nationale de France, en libre accès depuis 1997</p>
+                <biblStruct>
+                    
+                    <monogr xml:id="Paris_1691_1"><note>CONTENU??</note>
+                        <imprint> 
+                            <publisher>Estienne Michallet</publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date>1691</date>
+                            <date>1691</date> </imprint>
+                    </monogr>
+                    
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
+                    <author>La Bruyère, Jean</author>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k57567b/f2.item.r=Les%20Caract%C3%A8res%20de%20Th%C3%A9ophraste,%20traduits%20du%20grec,%20avec%20les%20Caract%C3%A8res%20ou%20moeurs%20de%20ce%20si%C3%A8cle"></​ref>
+                        <publisher>Estienne Michallet</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1691</date>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc></encodingDesc>
+        <profileDesc></profileDesc>
+        <revisionDesc></revisionDesc>
     </teiHeader>
     <titlepage>
         <doctitle><titlePart>Les Caractères de Théophraste,</titlepart>
@@ -36,20 +42,20 @@
             <docDate when= "1691"></docDate>
             <docImprint></docImprint>
             #<docauthor source="Paris_1691_1"></docauthor>
-            </doctitle>
+        </doctitle>
         <docEdition>n="6"</docEdition>
     </titlepage>
     
     <body>
         <div1> <head>Les esprits forts</head>
-           
+            
         </div1>
         <div1> 
             <div2><p>(1) esprits forts savent-ils qu’on les appelle ainsi par ironie ? Quelle plus grande faiblesse que d’être incertains quel est le principe de son être, de sa vie, de ses sens, de ses connaissances, et quelle en doit être la fin ? Quel découragement plus grand que de douter si son âme n’est point matière comme la pierre et le reptile, et si elle n’est point corruptible comme ces viles créatures ? N’y a-t-il pas plus de force et de grandeur à recevoir dans notre esprit l’idée d’un être supérieur à tous les êtres, qui les a tous faits, et à qui tous se doivent rapporter ; d’un être souverainement parfait, qui est pur, qui n’a point commencé et qui ne peut finir, dont notre âme est l’image, et si j’ose dire, une portion, comme esprit et comme immortelle ?
             </p>
             </div2> 
             
-            <div2><p> (2)
+            <div2 source="#Paris_1691_1"><p> (2)
                 Le docile et le faible sont susceptibles d’impressions : l’un en reçoit de bonnes, l’autre de mauvaises ; c’est-à-dire que le premier est persuadé et fidèle, et que le second est entêté et corrompu. Ainsi l’esprit docile admet la vraie religion ; et l’esprit faible, ou n’en admet aucune, ou en admet une fausse. Or l’esprit fort ou n’a point de religion, ou se fait une religion ; donc l’esprit fort, c’est l’esprit faible.</p>
             </div2>  
             
@@ -127,8 +133,11 @@
             
             div2><p> (19)
                 Les hommes sont-ils assez bons, assez fidèles, assez équitables, pour mériter toute notre confiance, et ne nous pas faire désirer du moins que Dieu existât, à qui nous pussions appeler de leurs jugements et avoir recours quand nous en sommes persécutés ou trahis ?
-   
+                
                 <div2><p> 
-                    </p>
+                </p>
                 </div2>  
     </body>
+    
+    
+   
