@@ -182,7 +182,8 @@
                     <titlePart>de ce siecle</titlePart>
                 </docTitle>
                 <docEdition>quatrième édition</docEdition>
-                <figure> <desc>marque du libraire</desc></figure>
+                <figure> <desc>marque du libraire</desc>
+                </figure>
                 <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë Saint Jacques, à l'image S.Paul</docImprint>
                 <docDate when="1689" style="big">M. DC. LXXXIX.</docDate> 
                 <note>avec provilège de sa majesté</note>
