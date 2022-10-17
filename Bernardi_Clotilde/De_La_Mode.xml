@@ -10,35 +10,24 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
-                    <monogr xml:id="Paris_1696_Neuvième">
+                 
+                   <monogr xml:id="Paris_1688_Premiere">
                         <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
                             siècle</title>
                         <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
-                        <author>Théophrastre</author>
+                        <author ref="11887698/theophraste/">Théophrastre</author>
                         <edition>Neuvième édition</edition>
-                        <imprint xml:id="Paris_1696_N1">
+                        <imprint xml:id="Paris_1688_N2">
                             <date>1696</date>
                             <publisher>chez Estienne Michallet</publisher>
-                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57579b/f3.item</pubPlace>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k105077m.item </pubPlace>
                         </imprint>
                     </monogr>
-                    <monogr xml:id="Paris_1692_Septième">
+                    <monogr xml:id="Paris_1688_Troisieme">
                         <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
                             siècle</title>
                         <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
-                        <author>Théophrastre</author>
-                        <edition>Première édition</edition>
-                        <imprint xml:id="Paris_1692_N1">
-                            <date>1692</date>
-                            <publisher>chez Estienne Michallet</publisher>
-                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57575z.item</pubPlace>
-                        </imprint>
-                    </monogr>
-                    <monogr xml:id="Paris_1688_Troisième">
-                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
-                            siècle</title>
-                        <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
-                        <author>Théophrastre</author>
+                        <author ref="11887698/theophraste/">Théophrastre</author>
                         <edition>Première édition</edition>
                         <imprint xml:id="Paris_1688_N1">
                             <date>1688</date>
@@ -46,7 +35,96 @@
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57572x.item</pubPlace>
                         </imprint>
                     </monogr>
-
+                    
+                    <monogr xml:id="Paris_1689_Quatrieme">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
+                        <author ref="11887698/theophraste/">Théophrastre</author>
+                        <edition>Neuvième édition</edition>
+                        <imprint xml:id="Paris_1689_N1">
+                            <date>1696</date>
+                            <publisher>chez Estienne Michallet</publisher>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k575649.item</pubPlace>
+                        </imprint>
+                    </monogr>
+                    
+                    <monogr xml:id="Paris_1690_Cinquieme">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
+                        <author ref="11887698/theophraste/">Théophrastre</author>
+                        <edition>Neuvième édition</edition>
+                        <imprint xml:id="Paris_1690_N1">
+                            <date>1696</date>
+                            <publisher>chez Estienne Michallet</publisher>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k575660.item </pubPlace>
+                        </imprint>
+                    </monogr>
+                    
+                    <monogr xml:id="Paris_1691_Sixieme">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
+                        <author ref="11887698/theophraste/">Théophrastre</author>
+                        <edition>Neuvième édition</edition>
+                        <imprint xml:id="Paris_1691_N1">
+                            <date>1696</date>
+                            <publisher>chez Estienne Michallet</publisher>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k8712342k.item</pubPlace>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="Paris_1692_Septieme">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
+                        <author ref ="11887698/theophraste/">Théophrastre</author>
+                        <edition>Première édition</edition>
+                        <imprint xml:id="Paris_1692_N1">
+                            <date>1692</date>
+                            <publisher>chez Estienne Michallet</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57575z.item</pubPlace>
+                        </imprint>
+                    </monogr>
+                    
+                    <monogr xml:id="Paris_1694_Huitieme">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
+                        <author ref ="11887698/theophraste/">Théophrastre</author>
+                        <edition>Première édition</edition>
+                        <imprint xml:id="Paris_1694_N1">
+                            <date>1692</date>
+                            <publisher>chez Estienne Michallet</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57577n.item</pubPlace>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="Paris_1696_Neuvieme">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
+                        <author ref="11887698/theophraste/">Théophrastre</author>
+                        <edition>Neuvième édition</edition>
+                        <imprint xml:id="Paris_1696_N1">
+                            <date>1696</date>
+                            <publisher>chez Estienne Michallet</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57579b.item</pubPlace>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="Paris_1699_Dixieme">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author ref="11910249/jean_de_la_bruyere/">Jean de La Bruyère</author>
+                        <author ref="11887698/theophraste/">Théophrastre</author>
+                        <edition>Neuvième édition</edition>
+                        <imprint xml:id="Paris_1699_N1">
+                            <date>1696</date>
+                            <publisher>chez Estienne Michallet</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57580j.item</pubPlace>
+                        </imprint>
+                    </monogr>
+                    
+                    
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
@@ -61,8 +139,11 @@
                 <p>Encoder les Caractères de la Bruyère sous format xml pour le mettre en forme en
                     ligne</p>
             </projectDesc>
-            <refsDecl>Le texte "lem" est basé sur la dixième édition des Caractères dans sa forme de français moderne.</refsDecl>
-
+        <refsDecl>
+            <p>
+                Le texte "lem" est basé sur la dixième édition des Caractères dans sa forme de français moderne. 
+            </p>
+        </refsDecl>
         </encodingDesc>
 
         <profileDesc>
