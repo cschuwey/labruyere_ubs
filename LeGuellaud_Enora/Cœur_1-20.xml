@@ -1,320 +1,419 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    
-    
+
+
     <teiHeader>
-        
-        
+
+
         <fileDesc>
-            
-            
+
+
             <titleStmt>
-                
+
                 <title>Les caractères de La Bruyère</title>
-                
+
             </titleStmt>
-            
-            
+
+
             <publicationStmt>
-                
+
                 <authority> </authority>
-                
+
             </publicationStmt>
-            
-            
+
+
             <sourceDesc>
-                
-                
+
+
                 <biblStruct>
-                    
-                    
+
+
                     <monogr xml:id="Paris_1689_4">
-                        
-                        <title> Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
-                        
+
+                        <title> Les caractères de Théophraste traduits du grec ; avec Les caractères
+                            ou Les moeurs de ce siècle</title>
+
                         <author>Jean de La Bruyère</author>
-                        
+
                         <editor>Etienne Michallet</editor>
-                        
+
                         <edition n="4">Quatrième édition</edition>
-                        
+
                         <idno>ark:/12148/bpt6k575649</idno>
-                        
-                        
+
+
                         <imprint xml:id="Paris_1689_4_1">
-                            
+
                             <date>1689</date>
-                            
+
                             <pubPlace>Paris, France</pubPlace>
-                            
+
                             <publisher/>
-                            
+
                         </imprint>
-                        
+
                     </monogr>
-                    
+
                 </biblStruct>
-                
-                
+
+
                 <biblStruct>
-                    
-                    
+
+
                     <monogr xml:id="Paris_1688_1">
-                        
-                        <title> Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
-                        
+
+                        <title> Les caractères de Théophraste traduits du grec ; avec Les caractères
+                            ou Les moeurs de ce siècle</title>
+
                         <author>Jean de La Bruyère</author>
-                        
+
                         <editor>Etienne Michallet</editor>
-                        
+
                         <edition n="1">Première édition</edition>
-                        
+
                         <idno>ark:/12148/bpt6k57574m</idno>
-                        
-                        
+
+
                         <imprint xml:id="Paris_1688_1_1">
-                            
+
                             <date>1688</date>
-                            
+
                             <pubPlace>Paris, France</pubPlace>
-                            
+
                             <publisher/>
-                            
+
                         </imprint>
-                        
+
                     </monogr>
-                    
+
                 </biblStruct>
-                
-                
+
+
                 <biblStruct>
-                    
-                    
+
+
                     <monogr xml:id="Paris_1688_3">
-                        
-                        <title> Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
-                        
+
+                        <title> Les caractères de Théophraste traduits du grec ; avec les caractères
+                            ou les moeurs de ce siècle</title>
+
                         <author>Jean de La Bruyère</author>
-                        
+
                         <editor>Etienne Michallet</editor>
-                        
+
                         <edition n="3">troisième édition</edition>
-                        
+
                         <idno>ark:/12148/bpt6k57572x</idno>
-                        
-                        
+
+
                         <imprint xml:id="Paris_1688_3_1">
-                            
+
                             <date>1688</date>
-                            
+
                             <pubPlace>Paris, France</pubPlace>
-                            
+
                         </imprint>
-                        
+
                     </monogr>
-                    
+
                 </biblStruct>
-                
+
+                <biblStruct>
+
+
+                    <monogr xml:id="Paris_1691_6">
+
+                        <title> Les caractères de Théophraste traduits du grec ; avec les caractères
+                            ou les moeurs de ce siècle</title>
+
+                        <author>Jean de La Bruyère</author>
+
+                        <editor>Etienne Michallet</editor>
+
+                        <edition n="6">Sixième édition</edition>
+
+                        <idno>ark:/12148/bpt6k57567b</idno>
+
+
+                        <imprint xml:id="Paris_1691_6_1">
+
+                            <date>1688</date>
+
+                            <pubPlace>Paris, France</pubPlace>
+
+                        </imprint>
+
+                    </monogr>
+
+                </biblStruct>
+
                 <bibl/>
-                
+
             </sourceDesc>
-            
+
         </fileDesc>
-        
-        
+
+
         <profileDesc>
-            
-            <textDesc n= "receuil">
-                
+
+            <textDesc n="receuil">
+
                 <channel mode="w"> livre </channel>
-                
-                <constitution type= "single"/>
-                
+
+                <constitution type="single"/>
+
                 <derivation type="original"/>
-                
+
                 <domain type="art"/>
-                
+
                 <factuality type="fiction">fiction</factuality>
-                
+
                 <interaction/>
-                
+
                 <preparedness/>
-                
+
                 <purpose/>
-                
-                
+
+
             </textDesc>
-            
+
             <settingDesc>
-                
+
                 <setting>
-                    
-                <name> Paris, France </name>    
-                <time> Fin 17ème siècle</time>
-                    
-                </setting>    
-                
+
+                    <name> Paris, France </name>
+                    <time> Fin 17ème siècle</time>
+
+                </setting>
+
             </settingDesc>
-                
-            
+
+
             <langUsage>
-                
+
                 <language ident="fra">Français du 17ème siècle</language>
-                
+
                 <language ident="lat">Latin</language>
-                
+
             </langUsage>
-            
+
         </profileDesc>
-        
-        
+
+
         <encodingDesc>
-            
-            
+
+
             <editorialDecl>
-                
-                <normalization> 
+
+                <normalization>
                     <ab>ʃ devient un s </ab>
                 </normalization>
-                
-                <normalization> 
+
+                <normalization>
                     <ab>ajout de deux pages blanche au début de l'ouvrage </ab>
                 </normalization>
-                
+
             </editorialDecl>
-            
+
+            <charDecl>
+
+                <glyph xml:id="fr_pieddemouche">
+                    <desc>¶</desc>
+                </glyph>
+            </charDecl>
         </encodingDesc>
-        
-        
+
+
         <revisionDesc>
-            
+
             <change/>
-            
+
         </revisionDesc>
-        
+
     </teiHeader>
-    
-    
+
+
     <text>
-        
-       <front>
-            
-        <titlePage>
-            <docAuthor source="#Paris_1689_4_1">La Bruyère, Jean de</docAuthor>
-          
-            <titlePart>Les</titlePart>
-            <titlePart style="big">caractères</titlePart>
-            <titlePart style="big">de Théophraste</titlePart>
-            <titlePart>traduits du grec ;</titlePart>
-            <titlePart>avec</titlePart>
-            <titlePart>les caractères</titlePart>
-            <titlePart>ou</titlePart>
-            <titlePart style="big">les moeurs</titlePart>
-            <titlePart>de ce siècle.</titlePart>
-            
-            <docEdition n="4">Quatrième édition</docEdition>
-            <docEdition>corrigée et augmentée</docEdition>
-            <docImprint>Chez Etienne Michalet, premier imprimeur du roy, rue Saint Jacques à l'image de S. Paul</docImprint>
-            <docDate when="1689">M. DC. LXXXIX.</docDate>
-            <imprimatur>AVEC PRIVILEGE DE SA MAJESTE</imprimatur>
-        </titlePage>
-            
-      </front>
-        
-        
-     <body>
-            
-         <div1>
-             
-             <head> Du Coeur</head>
-             
-                <div2>
-                    <p>(1)Il y a un goût dans la pure amitié où ne peuvent atteindre ceux qui sont nés médiocres.</p>
-                 </div2>
-             
-                <div2>
-                    <p>(2)L’amitié peut subsister entre des gens de différents sexes, exempte même de toute grossièreté. Une femme cependant regarde toujours un homme comme un homme ; et réciproquement un homme regarde une femme comme une femme. Cette liaison n’est ni passion ni amitié pure : elle fait une classe à part.</p>
+
+        <front>
+
+            <titlePage>
+                <docAuthor source="#Paris_1689_4_1">La Bruyère, Jean de</docAuthor>
+
+                <titlePart>Les</titlePart>
+                <titlePart style="big">caractères</titlePart>
+                <titlePart style="big">de Théophraste</titlePart>
+                <titlePart>traduits du grec ;</titlePart>
+                <titlePart>avec</titlePart>
+                <titlePart>les caractères</titlePart>
+                <titlePart>ou</titlePart>
+                <titlePart style="big">les moeurs</titlePart>
+                <titlePart>de ce siècle.</titlePart>
+
+                <docEdition n="4">Quatrième édition</docEdition>
+                <docEdition>corrigée et augmentée</docEdition>
+                <docImprint>Chez Etienne Michalet, premier imprimeur du roy, rue Saint Jacques à
+                    l'image de S. Paul</docImprint>
+                <docDate when="1689">M. DC. LXXXIX.</docDate>
+                <imprimatur>AVEC PRIVILEGE DE SA MAJESTE</imprimatur>
+            </titlePage>
+
+        </front>
+
+
+        <body>
+
+            <div1>
+
+                <head> Du Coeur</head>
+
+                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
+                    <p>Il y a un goût dans la pure amitié où ne peuvent atteindre ceux qui sont <app>
+                            <lem>nés</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1691_6">nez</rdg>
+                        </app> médiocres.</p>
                 </div2>
-             
-                <div2>
-                    <p>(3)L’amour naît brusquement, sans autre réflexion, par tempérament ou par faiblesse : un trait de beauté nous fixe, nous détermine. L’amitié au contraire se forme peu à peu, avec le temps, par la pratique, par un long commerce. Combien d’esprit, de bonté de cœur, d’attachement, de services et de complaisance dans les amis, pour faire en plusieurs années bien moins que ne fait quelquefois en un moment un beau visage ou une belle main !</p>
+
+                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
+                    <p><g ref="#fr_pieddemouche"/>(2)L’amitié peut subsister entre des gens de <app>
+                            <lem>différents</lem>
+                            <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">differens</rdg>
+                        </app> sexes, exempte même de toute grossièreté. Une femme cependant regarde <app>
+                            <lem>toujours</lem>
+                            <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">toûjours</rdg>
+                        </app> un homme comme un homme ; <app>
+                            <lem>et</lem>
+                            <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
+                        </app> réciproquement un homme regarde une femme comme une femme. Cette
+                        liaison n’est <app>
+                            <lem>ni</lem>
+                            <rdg wit="#Paris_1691_6">ny</rdg>
+                        </app> passion <app>
+                            <lem>ni</lem>
+                            <rdg wit="#Paris_1691_6">ny</rdg>
+                        </app> amitié pure : elle <app>
+                            <lem>fait</lem>
+                            <rdg wit="#Paris_1691_6">ait</rdg>
+                        </app> une classe à part.</p>
                 </div2>
-             
-                <div2>
-                    <p>(4)Le temps, qui fortifie les amitiés, affaiblit l’amour.</p>
+
+                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
+                    <p><g ref="#fr_pieddemouche"/>(3)L’amour naît brusquement<app>
+                            <rdg wit="#Paris_1689_4_1">,</rdg>
+                        </app> sans autre réflexion, par tempérament ou par faiblesse : un trait de
+                        beauté nous fixe, nous détermine. L’amitié au contraire se forme peu à peu,
+                        avec le temps, par la pratique, par un long commerce. Combien d’esprit, de
+                        bonté de cœur, d’attachement, de services et de complaisance dans les amis,
+                        pour faire en plusieurs années bien moins que ne fait quelquefois en un
+                        moment un beau visage ou une belle main !</p>
                 </div2>
-             
-                <div2>
-                    <p>(5) Tant que l’amour dure, il subsiste de soi-même, et quelquefois par les choses qui semblent le devoir éteindre, par les caprices, par les rigueurs, par l’éloignement, par la jalousie. L’amitié au contraire a besoin de secours : elle périt faute de soins, de confiance et de complaisance.</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(4)Le temps, qui fortifie les amitiés, affaiblit
+                        l’amour.</p>
                 </div2>
-             
-                <div2>
-                    <p>(6) Il est plus ordinaire de voir un amour extrême qu’une parfaite amitié.</p>
+
+                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
+                    <p><g ref="#fr_pieddemouche"/>(5) Tant que l’amour dure, il subsiste de
+                        soi-même, et quelquefois par les choses qui semblent le devoir éteindre, par
+                        les caprices, par les rigueurs, par l’éloignement, par la jalousie. L’amitié
+                        au contraire a besoin de secours : elle périt faute de soins, de confiance
+                        et de complaisance.</p>
                 </div2>
-             
-                <div2>
-                    <p>(7) L’amour et l’amitié s’excluent l’un l’autre.</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(6) Il est plus ordinaire de voir un amour extrême
+                        qu’une parfaite amitié.</p>
                 </div2>
-             
-                <div2>
-                    <p>(8)Celui qui a eu l’expérience d’un grand amour néglige l’amitié ; et celui qui est épuisé sur l’amitié n’a encore rien fait pour l’amour.</p>
+
+                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
+                    <p><g ref="#fr_pieddemouche"/>(7) L’amour et l’amitié s’excluent l’un
+                        l’autre.</p>
                 </div2>
-             
-                <div2>
-                    <p>(9)L’amour commence par l’amour ; et l’on ne saurait passer de la plus forte amitié qu’à un amour faible.</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(8)Celui qui a eu l’expérience d’un grand amour
+                        néglige l’amitié ; et celui qui est épuisé sur l’amitié n’a encore rien fait
+                        pour l’amour.</p>
                 </div2>
-             
-                <div2>
-                    <p>(10)Rien ne ressemble mieux à une vive amitié, que ces liaisons que l’intérêt de notre amour nous fait cultiver.</p>
+
+                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
+                    <p><g ref="#fr_pieddemouche"/>(9)L’amour commence par l’amour ; et l’on ne
+                        saurait passer de la plus forte amitié qu’à un amour faible.</p>
                 </div2>
-             
-                <div2>
-                    <p>(11)L’on n’aime bien qu’une seule fois : c’est la première ; les amours qui suivent sont moins involontaires.</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(10)Rien ne ressemble mieux à une vive amitié, que
+                        ces liaisons que l’intérêt de notre amour nous fait cultiver.</p>
                 </div2>
-             
-                <div2>
-                    <p>(12)L’amour qui naît subitement est le plus long à guérir.</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(11)L’on n’aime bien qu’une seule fois : c’est la
+                        première ; les amours qui suivent sont moins involontaires.</p>
                 </div2>
-             
-                <div2>
-                    <p>(13)L’amour qui croît peu à peu et par degrés ressemble trop à l’amitié pour être une passion violente.</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><app>
+                            <rdg wit="#Paris_1691_6_1"><g ref="#fr_pieddemouche"/></rdg>
+                        </app>(12)L’amour qui naît subitement est le plus long à guérir.</p>
                 </div2>
-             
-                <div2>
-                    <p>(14)Celui qui aime assez pour vouloir aimer un million de fois plus qu’il ne fait, ne cède en amour qu’à celui qui aime plus qu’il ne voudrait.</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(13)L’amour qui croît peu à peu et par degrés
+                        ressemble trop à l’amitié pour être une passion violente.</p>
                 </div2>
-             
-                <div2>
-                    <p>(15)Si j’accorde que dans la violence d’une grande passion on peut aimer quelqu’un plus que soi-même, à qui ferai-je plus de plaisir, ou à ceux qui aiment, ou à ceux qui sont aimés ?</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(14)Celui qui aime assez pour vouloir aimer un
+                        million de fois plus qu’il ne fait, ne cède en amour qu’à celui qui aime
+                        plus qu’il ne voudrait.</p>
                 </div2>
-             
-                <div2>
-                    <p>(16)Les hommes souvent veulent aimer, et ne sauraient y réussir : ils cherchent leur défaite sans pouvoir la rencontrer, et, si j’ose ainsi parler, ils sont contraints de demeurer libres.</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(15)Si j’accorde que dans la violence d’une grande
+                        passion on peut aimer quelqu’un plus que soi-même, à qui ferai-je plus de
+                        plaisir, ou à ceux qui aiment, ou à ceux qui sont aimés ?</p>
                 </div2>
-             
-                <div2>
-                    <p>(17) Ceux qui s’aiment d’abord avec la plus violente passion contribuent bientôt chacun de leur part à s’aimer moins, et ensuite à ne s’aimer plus. Qui, d’un homme ou d’une femme, met davantage du sien dans cette rupture, il n’est pas aisé de le décider. Les femmes accusent les hommes d’être volages, et les homme disent qu’elles sont légères.</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(16)Les hommes souvent veulent aimer, et ne
+                        sauraient y réussir : ils cherchent leur défaite sans pouvoir la rencontrer,
+                        et, si j’ose ainsi parler, ils sont contraints de demeurer libres.</p>
                 </div2>
-             
-                <div2>
-                    <p>(18) Quelque délicat que l’on soit en amour, on pardonne plus de fautes que dans l’amitié.</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(17) Ceux qui s’aiment d’abord avec la plus
+                        violente passion contribuent bientôt chacun de leur part à s’aimer moins, et
+                        ensuite à ne s’aimer plus. Qui, d’un homme ou d’une femme, met davantage du
+                        sien dans cette rupture, il n’est pas aisé de le décider. Les femmes
+                        accusent les hommes d’être volages, et les homme disent qu’elles sont
+                        légères.</p>
                 </div2>
-             
-                <div2>
-                    <p>(19)C’est une vengeance douce à celui qui aime beaucoup de faire, par tout son procédé, d’une personne ingrate une très ingrate.</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(18) Quelque délicat que l’on soit en amour, on
+                        pardonne plus de fautes que dans l’amitié.</p>
                 </div2>
-             
-                <div2>
-                    <p>(20)Il est triste d’aimer sans une grande fortune, et qui nous donne les moyens de combler ce que l’on aime, et le rendre si heureux qu’il n’ait plus de souhaits à faire.</p>
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(19)C’est une vengeance douce à celui qui aime
+                        beaucoup de faire, par tout son procédé, d’une personne ingrate une très
+                        ingrate.</p>
                 </div2>
-             
-         </div1>
-         
-     </body>
-        
-        
+
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                    <p><g ref="#fr_pieddemouche"/>(20)Il est triste d’aimer sans une grande fortune,
+                        et qui nous donne les moyens de combler ce que l’on aime, et le rendre si
+                        heureux qu’il n’ait plus de souhaits à faire.</p>
+                </div2>
+
+            </div1>
+
+        </body>
+
+
     </text>
-    
-    
+
+
 </TEI>
