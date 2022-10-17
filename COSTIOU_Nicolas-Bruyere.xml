@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,22 +23,34 @@
                     </monogr>
                 </biblStruct>
             </sourceDesc>
-        </fileDesc>
-        <profileDesc >
-            
+     
             <sourceDesc>
                 <biblStruct>              
-                    <monogr xml:id="Paris-1690">
+                    <monogr xml:id="Paris-1690">                   
                         <title>Les Caractères</title>
                         <author ref="https://data.bnf.fr/11910249">Jean de La Bruyère</author>  
                         <edition>Cinquième édition</edition>                      
                         <editor></editor> 
-                        <imprint></imprint>
+                        <imprint>
+                        
+                        <publisher></publisher>
+                            
+                        </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
+     
+     
+        </fileDesc>
+        
+                
+       
+        
+        
+        
+        <profileDesc >
             
-            
+      
             
             
             <langUsage>
@@ -48,7 +61,7 @@
                 <constitution></constitution>
                 <derivation></derivation>
                 <domain></domain>
-                <factuality type=""></factuality>
+                <factuality type="mixed"></factuality>
                 <interaction></interaction>
                 <preparedness></preparedness>
                 <purpose></purpose>
@@ -56,7 +69,20 @@
             
         </profileDesc>
         
-        <encodingDesc></encodingDesc>   
+        <encodingDesc>
+            
+            <editorialDecl>
+                
+                <p>
+                    
+                    
+                    
+                </p>
+                
+                
+            </editorialDecl>
+            
+        </encodingDesc>   
         
         
     </teiHeader>
@@ -86,7 +112,7 @@
                     
                 </note>
                 
-                <docAuthor style="writtennote" source=""></docAuthor>
+                <docAuthor style="writtennote" source="#Paris-1690"></docAuthor>
                     
                 </titlePage>
                     
@@ -101,7 +127,6 @@
                     
                     <p>
                            
-                        (21)
                         Quelle idée plus bizarre que de se représenter une foule de chrétiens de l’un et de l’autre sexe, qui se rassemblent à certains jours dans une salle pour y applaudir à une troupe d’excommuniés, qui ne le sont que par le plaisir qu’ils leur donnent, et qui est déjà payé d’avance ? Il me semble qu’il faudrait ou fermer les théâtres, ou prononcer moins sévèrement sur l’état des comédiens.
                                  
                         </p>
@@ -112,7 +137,6 @@
       
                     <p>
       
-                        (22)
                          Dans ces jours qu’on appelle saints le moine confesse, pendant que le curé tonne en chaire contre le moine et ses adhérents ; telle femme pieuse sort de l’autel, qui entend au prône qu’elle vient de faire un sacrilège. N’y a-t-il point dans l’Eglise une puissance à qui il appartienne ou de faire taire le pasteur, ou de suspendre pour un temps le pouvoir du barnabite ?
       
                     </p>
@@ -123,9 +147,7 @@
                     
                     <p>
                         
-                        (23)
                         Il y a plus de rétribution dans les paroisses pour un mariage que pour un baptême, et plus pour un baptême que pour la confession : l’on dirait que ce soit un taux sur les sacrements, qui semblent par là être appréciés. Ce n’est rien au fond que cet usage ; et ceux qui reçoivent pour les choses saintes ne croient point les vendre, comme ceux qui donnent ne pensent point à les acheter : ce sont peut-être des apparences qu’on pourrait épargner aux simples et aux indévots.
-                        
                         
                     </p>
                     
@@ -135,10 +157,8 @@
                     
                     <p>
                         
-                        (24)
                         Un pasteur frais et en parfaite santé, en ligne fin et en point de Venise, a sa place dans l’œuvre auprès les pourpres et les fourrures ; il y achève sa digestion, pendant que le Feuillant ou le Récollet quitte sa cellule et son désert, où il est lié par ses vœux et par la bienséance, pour venir le prêcher, lui et ses ouailles, et en recevoir le salaire, comme d’une pièce d’étoffe. Vous m’interrompez, et vous dites : « Quelle censure ! et combien elle est nouvelle et peu attendue ! Ne voudriez-vous point interdire à ce pasteur et à son troupeau la parole divine et le pain de l’Evangile ? » — Au contraire, je voudrais qu’il le distribuât lui-même le matin, le soir, dans les temples, dans les maisons, dans les places, sur les toits, et que nul ne prétendît à un emploi si grand, si laborieux, qu’avec des intentions, des talents et des poumons capables de lui mériter les belles offrandes et les riches rétributions qui y sont attachées. Je suis forcé, il est vrai, d’excuser un curé sur cette conduite par un usage reçu, qu’il trouve établi, et qu’il laissera à son successeur ; mais c’est cet usage bizarre et dénué de fondement et d’apparence que je ne puis approuver, et que je goûte encore moins que celui de se faire payer quatre fois des mêmes obsèques, pour soi, pour ses droits, pour sa présence, pour son assistance.
-                        
-                       
+                                              
                     </p>
                     
                 </div2>
@@ -147,9 +167,7 @@
                     
                     <p>
                         
-                        (25)
                         Tite, par vingt années de service dans une seconde place, n’est pas encore digne de la première, qui est vacante : ni ses talents, ni sa doctrine, ni une vie exemplaire, ni les vœux des paroissiens ne sauraient l’y faire asseoir. Il naît de dessous terre un autre clerc pour la remplir. Tite est reculé ou congédié : il ne se plaint pas ; c’est l’usage.
-                        
                         
                     </p>
                     
@@ -159,9 +177,7 @@
                     
                     <p>
                         
-                        (26)
                         « Moi, dit le cheffecier, je suis maître du chœur ; qui me forcera d’aller à matines ? mon prédécesseur n’y allait point : suis-je de pire condition ? dois-je laisser avilir ma dignité entre mes mains, ou la laisser telle que je l’ai reçue ? » — « Ce n’est point, dit l’écolâtre, mon intérêt qui me mène, mais celui de la prébende : il serait bien dur qu’un grand chanoine fût sujet au chœur, pendant que le trésorier, l’archidiacre, le pénitencier et le grand vicaire s’en croient exempts. » — « Je suis bien fondé, dit le prévôt, à demander la rétribution sans me trouver à l’office : il y a vingt années entières que je suis en possession de dormir les nuits ; je veux finir comme j’ai commencé, et l’on ne me verra point déroger à mon titre : que me servirait d’être à la tête d’un chapitre ? mon exemple ne tire point à conséquence. » Enfin c’est entre eux tous à qui ne louera point Dieu, à qui fera voir par un long usage qu’il n’est point obligé de le faire : l’émulation de ne se point rendre aux offices divins ne saurait être plus vive ni plus ardente. Les cloches sonnent dans une nuit tranquille ; et leur mélodie, qui réveille les chantres et les enfants de chœur, endort les chanoines, les plonge dans un sommeil doux et facile, et qui ne leur procure que de beaux songes : ils se lèvent tard, et vont à l’église se faire payer d’avoir dormi.
-                        
                         
                     </p>
                     
@@ -171,9 +187,7 @@
                     
                     <p>
                         
-                        (27)
                         Qui pourrait s’imaginer, si l’expérience ne nous le mettait devant les yeux, quelle peine ont les hommes à se résoudre d’eux-mêmes à leur propre félicité, et qu’on ait besoin de gens d’un certain habit, qui par un discours préparé, tendre et pathétique, par de certaines inflexions de voix, par des larmes, par des mouvements qui les mettent en sueur et qui les jettent dans l’épuisement, fassent enfin consentir un homme chrétien et raisonnable, dont la maladie est sans ressource, à ne se point perdre et à faire son salut ?
-                        
                         
                     </p>
                     
@@ -183,9 +197,7 @@
                     
                     <p>
                         
-                        (28)
                         La fille d’Aristippe est malade et en péril ; elle envoie vers son père, veut se réconcilier avec lui et mourir dans ses bonnes grâces. Cet homme si sage, le conseil de toute une ville, fera-t-il de lui-même cette démarche si raisonnable ? y entraînera-t-il sa femme ? ne faudra-t-il point pour les remuer tous deux la machine du directeur ?
-                        
                         
                     </p>
                     
@@ -195,167 +207,473 @@
                     
                     <p>
                         
-                        (29)
                         Une mère, je ne dis pas qui cède et qui se rend à la vocation de sa fille, mais qui la fait religieuse, se charge d’une âme avec la sienne, en répond à Dieu même, en est la caution. Afin qu’une telle mère ne se perde pas, il faut que sa fille se sauve.
-                        
                         
                     </p>
                     
                 </div2>
-      
-            </div1>
-            
+                 
             <div2 n="30">
                 
                 <p>
                     
-                    
-                    (30)
-                    Un homme joue et se ruine : il marie néanmoins l’aînée de ses deux filles de ce qu’il a pu sauver des mains d’un Ambreville ; la cadette est sur le point de faire ses vœux, qui n’a point d’autre vocation que le jeu de son père.
-                    
-                    
+                  Un homme joue et se ruine : il marie néanmoins l’aînée de ses deux filles de ce qu’il a pu sauver des mains d’un Ambreville ; la cadette est sur le point de faire ses vœux, qui n’a point d’autre vocation que le jeu de son père.
+                     
                 </p>
                 
             </div2>
+                             
+                <div2 n="31">
+                    
+                    <p>
+                                   
+                    Il s’est trouvé des filles qui avaient de la vertu, de la santé, de la ferveur et une bonne vocation, mais qui n’étaient pas assez riches pour faire dans une riche abbaye vœu de pauvreté.
+                    
+                        </p>
+                    
+                    </div2>
       
-      
-            <p>
+                <div2 n="32">
+                    
+                    <p>
+                        
+                        Celle qui délibère sur le choix d’une abbaye ou d’un simple monastère pour s’y enfermer agite l’ancienne question de l’état populaire et du despotique.
+                        
+                    </p>
+                    
+                </div2>
             
+                <div2 n="33">
+                    
+                    <p>
+                        
+                        Faire une folie et se marier par amourette, c’est épouser Mélite, qui est jeune, belle, sage, économe, qui plaît, qui vous aime, qui a moins de bien qu’Aegine qu’on vous propose, et qui avec une riche dot apporte de riches dispositions à la consumer, et tout votre fonds avec sa dot.
+                        
+                    </p>
+                    
+                </div2>
+            
+                <div2 n="34">
+                    
+                    <p>
+                        
+                        Il était délicat autrefois de se marier ; c’était un long établissement, une affaire sérieuse, et qui méritait qu’on y pensât ; l’on était pendant toute sa vie le mari de sa femme, bonne ou mauvaise : même table, même demeure, même lit ; l’on n’en était point quitte pour une pension ; avec des enfants et un ménage complet, l’on n’avait pas les apparences et les délices du célibat.
+                        
+                    </p>
+                    
+                </div2>
            
-            
-            (31)
-            Il s’est trouvé des filles qui avaient de la vertu, de la santé, de la ferveur et une bonne vocation, mais qui n’étaient pas assez riches pour faire dans une riche abbaye vœu de pauvreté.
-            
-            (32)
-            Celle qui délibère sur le choix d’une abbaye ou d’un simple monastère pour s’y enfermer agite l’ancienne question de l’état populaire et du despotique.
-            
-            (33)
-            Faire une folie et se marier par amourette, c’est épouser Mélite, qui est jeune, belle, sage, économe, qui plaît, qui vous aime, qui a moins de bien qu’Aegine qu’on vous propose, et qui avec une riche dot apporte de riches dispositions à la consumer, et tout votre fonds avec sa dot.
-            
-            (34)
-            Il était délicat autrefois de se marier ; c’était un long établissement, une affaire sérieuse, et qui méritait qu’on y pensât ; l’on était pendant toute sa vie le mari de sa femme, bonne ou mauvaise : même table, même demeure, même lit ; l’on n’en était point quitte pour une pension ; avec des enfants et un ménage complet, l’on n’avait pas les apparences et les délices du célibat.
-            
-            (35)
-            Qu’on évite d’être vu seul avec une femme qui n’est point la sienne, voilà une pudeur qui est bien placée : qu’on sente quelque peine à se trouver dans le monde avec des personnes dont la réputation est attaquée, cela n’est pas incompréhensible. Mais quelle mauvaise honte fait rougir un homme de sa propre femme, et l’empêche de paraître dans le public avec celle qu’il s’est choisie pour sa compagne inséparable, qui doit faire sa joie, ses délices et toute sa société ; avec celle qu’il aime et qu’il estime, qui est son ornement, dont l’esprit, le mérite, la vertu, l’alliance lui font honneur ? Que ne commence-t-il par rougir de son mariage ? Je connais la force de la coutume, et jusqu’où elle maîtrise les esprits et contraint les mœurs, dans les choses même les plus dénuées de raison et de fondement ; je sens néanmoins que j’aurais l’impudence de me promener au Cours, et d’y passer en revue avec une personne qui serait ma femme.
-            
-            (36)
-            Ce n’est pas une honte ni une faute à un jeune homme que d’épouser une femme avancée en âge ; c’est quelquefois prudence, c’est précaution. L’infamie est de se jouer de sa bienfactrice par des traitements indignes, et qui lui découvrent qu’elle est la dupe d’un hypocrite et d’un ingrat. Si la fiction est excusable, c’est où il faut feindre de l’amitié ; s’il est permis de tromper, c’est dans une occasion où il y aurait de la dureté à être sincère. — Mais elle vit longtemps. — Aviez-vous stipulé qu’elle mourût après avoir signé votre fortune et l’acquit de toutes vos dettes ? N’a-t-elle plus après ce grand ouvrage qu’à retenir son haleine, qu’à prendre de l’opium ou de la ciguë ? A-t-elle tort de vivre ? Si même vous mourez avant celle dont vous aviez déjà réglé les funérailles, à qui vous destiniez la grosse sonnerie et les beaux ornements, en est-elle responsable ? 
-            
-            (37)
-            Il y a depuis longtemps dans le monde une manière de faire valoir son bien, qui continue toujours d’être pratiquée par d’honnêtes gens, et d’être condamnée par d’habiles docteurs. 
-            
-            (38)
-            On a toujours vu dans la république de certaines charges qui semblent n’avoir été imaginées la première fois que pour enrichir un seul aux dépens de plusieurs ; les fonds ou l’argent des particuliers y coule sans fin et sans interruption. Dirai-je qu’il n’en revient plus ou qu’il n’en revient que tard ? C’est un gouffre, c’est une mer qui reçoit les eaux des fleuves ; et qui ne les rend pas ; ou si elles les rend, c’est par des conduits secrets et souterrains, sans qu’il y paraisse, ou qu’elle en soit moins grosse et moins enflée ; ce n’est qu’après en avoir joui longtemps, et qu’elle ne peut plus les retenir.
-            
-            (39)
-            Le fonds perdu, autrefois si sûr, si religieux et si inviolable, est devenu avec le temps, et par les soins de ceux qui en étaient chargés, un bien perdu. Quel autre secret de doubler mes revenus et de thésauriser ? Entrerai-je dans le huitième denier, ou dans les aides ? serai-je avare, partisan, ou administrateur ?
-            
-            (40)
-            Vous avez une pièce d’argent, ou même une pièce d’or ; ce n’est pas assez, c’est le nombre qui opère : faites-en, si vous pouvez, un amas considérable et qui s’élève en pyramide, et je me charge du reste. Vous n’avez ni naissance, ni esprit, ni talents, ni expérience, qu’importe ? ne diminuez rien de votre monceau, et je vous placerai si haut que vous vous couvrirez devant votre maître, si vous en avez ; il sera même fort éminent, si avec votre métal, qui de jour à autre se multiplie, je ne fais en sorte qu’il se découvre devant vous.
-            
-            (41)
-            Orante plaide depuis dix ans entiers en règlement de juges pour une affaire juste, capitale, et où il y va de toute sa fortune : elle saura peut-être dans cinq années quels seront ses juges, et dans quel tribunal elle doit plaider le reste de sa vie.
-            
-            (42)
-            L’on applaudit à la coutume qui s’est introduite dans les tribunaux d’interrompre les avocats au milieu de leur action, de les empêcher d’être éloquents et d’avoir de l’esprit, de les ramener au fait et aux preuves toutes sèches qui établissent leurs causes et le droit de leurs parties ; et cette pratique si sévère, qui laisse aux orateurs le regret de n’avoir pas prononcé les plus beaux traits de leurs discours, qui bannit l’éloquence du seul endroit où elle est en sa place, et va faire du Parlement une muette juridiction, on l’autorise par une raison solide et sans réplique, qui est celle de l’expédition : il est seulement à désirer qu’elle fût moins oubliée en toute autre rencontre, qu’elle réglât au contraire les bureaux comme les audiences, et qu’on cherchât une fin aux écritures, comme on a fait aux plaidoyers.
-            
-            (43)
-            Le devoir des juges est de rendre la justice ; leur métier, de la différer. Quelques-uns savent leur devoir, et font leur métier.
-            
-            (44)
-            Celui qui sollicite son juge ne lui fait pas honneur ; car ou il se défie de ses lumières et même de sa probité, ou il cherche à le prévenir, ou il lui demande une injustice.
-            
-            (45)
-            Il se trouve des juges auprès de qui la faveur, l’autorité, les droits de l’amitié et de l’alliance nuisent à une bonne cause, et qu’une trop grande affectation de passer pour incorruptibles expose à être injustes.
-            
-            (46)
-            Le magistrat coquet ou galant est pire dans les conséquences que le dissolu : celui-ci cache son commerce et ses liaisons, et l’on ne sait souvent par où aller jusqu’à lui ; celui-là est ouvert par mille faibles qui sont connus, et l’on y arrive par toutes les femmes à qui il veut plaire.
-            
-            (47)
-            Il s’en faut peu que la religion et la justice n’aillent de pair dans la république, et que la magistrature ne consacre les hommes comme la prêtrise. L’homme de robe ne saurait guère danser au bal, paraître aux théâtres, renoncer aux habits simples et modestes, sans consentir à son propre avilissement ; et il est étrange qu’il ait fallu une loi pour régler son extérieur, et le contraindre ainsi à être grave et plus respecté.
-            
-            (48)
-            Il n’y a aucun métier qui n’ait son apprentissage, et en montant des moindres conditions jusques aux plus grandes, on remarque dans toutes un temps de pratique et d’exercice qui prépare aux emplois, où les fautes sont sans conséquence, et mènent au contraire à la perfection. La guerre même, qui ne semble naître et durer que par la confusion et le désordre, a ses préceptes ; on ne se massacre pas par pelotons et par troupes en rase campagne sans l’avoir appris, et l’on s’y tue méthodiquement. Il y a l’école de la guerre : où est l’école du magistrat ? Il y a un usage, des lois, des coutumes : où est le temps, et le temps assez long que l’on emploie à les digérer et à s’en instruire ? L’essai et l’apprentissage d’un jeune adolescent qui passe de la férule à la pourpre, et dont la consignation a fait un juge, est de décider souverainement des vies et des fortunes des hommes.
-            
-            (49)
-            La principale partie de l’orateur, c’est la probité : sans elle il dégénère en déclamateur, il déguise ou il exagère les faits, il cite faux, il calomnie, il épouse la passion et les haines de ceux pour qui il parle ; et il est de la classe de ces avocats dont le proverbe dit qu’ils sont payés pour dire des injures.
-            
-            (50)
-            « Il est vrai, dit-on, cette somme lui est due, et ce droit lui est acquis. Mais je l’attends à cette petite formalité ; s’il l’oublie, il n’y revient plus, et conséquemment il perd sa somme, ou il est incontestablement déchu de son droit ; or il oubliera cette formalité. » Voilà ce que j’appelle une conscience de praticien. 
-            Une belle maxime pour le palais, utile au public, remplie de raison, de sagesse et d’équité, ce serait précisément la contradictoire de celle qui dit que la forme emporte le fond.
-            
-            (51)
-            La question est une invention merveilleuse et tout à fait sûre pour perdre un innocent qui a la complexion faible, et sauver un coupable qui est né robuste.
-            
-            (52)
-            Un coupable puni est un exemple pour la canaille ; un innocent condamné est l’affaire de tous les honnêtes gens. Je dirai presque de moi : « Je ne serai pas voleur ou meurtrier. » — « Je ne serai pas un jour puni comme tel », c’est parler bien hardiment. Une condition lamentable est celle d’un homme innocent à qui la précipitation et la procédure ont trouvé un crime ; celle même de son juge peut-elle l’être davantage ?
-            
-            (53)
-            Si l’on me racontait qu’il s’est trouvé autrefois un prévôt ; ou l’un de ces magistrats créés pour poursuivre les voleurs et les exterminer, qui les connaissait tous depuis longtemps de nom et de visage ; savait leurs vols, j’entends l’espèce, le nombre et la quantité, pénétrait si avant dans toutes ces profondeurs, et était si initié dans tous ces affreux mystères qu’il sut rendre à un homme de crédit un bijou qu’on lui avait pris dans la foule au sortir d’une assemblée, et dont il était sur le point de faire de l’éclat, que le Parlement intervint dans cette affaire, et fit le procès à cet officier : je regarderais cet événement comme l’une de ces choses dont l’histoire se charge, et à qui le temps ô te la croyance : comment donc pourrais-je croire qu’on doive présumer par des faits récents, connus et circonstanciés, qu’une connivence si pernicieuse dure encore, qu’elle ait même tourné en jeu et passé en coutume ?
-            
-            (54)
-            Combien d’hommes qui sont forts contre les faibles, fermes et inflexibles aux sollicitations du simple peuple, sans nuls égards pour les petits, rigides et sévères dans les minutes, qui refusent les petits présents, qui n’écoutent ni leurs parents ni leurs amis, et que les femmes seules peuvent corrompre !
-            
-            (55)
-            Il n’est pas absolument impossible qu’une personne qui se trouve dans une grande faveur perde un procès.
-            
-            (56)
-            Les mourants qui parlent dans leurs testaments peuvent s’attendre à être écoutés comme des oracles ; chacun les tire de son côté et les interprète à sa manière, je veux dire selon ses désirs ou ses intérêts.
-            
-            (57)
-            Il est vrai qu’il y a des hommes dont on peut dire que la mort fixe moins la dernière volonté qu’elle ne leur ôte avec la vie l’irrésolution et l’inquiétude. Un dépit, pendant qu’ils vivent, les fait tester ; ils s’apaisent et déchirent leur minute, la voilà en cendre. Ils n’ont pas moins de testaments dans leur cassette que d’almanachs sur leur table ; ils les comptent par les années. Un second se trouve détruit par un troisième, qui est anéanti lui-même par un autre mieux digéré, et celui-ci encore par un cinquième olographe. Mais si le moment, ou la malice, ou l’autorité manque à celui qui a intérêt de le supprimer, il faut qu’il en essuie les clauses et les conditions ; car appert-il mieux des dispositions des hommes les plus inconstants que par un dernier acte, signé de leur main, et après lequel ils n’ont pas du moins eu le loisir de vouloir tout le contraire ?
-            
-            (58)
-            S’il n’y avait point de testaments pour régler le droit des héritiers, je ne sais si l’on aurait besoin de tribunaux pour régler les différends des hommes : les juges seraient presque réduits à la triste fonction d’envoyer au gibet les voleurs et les incendiaires. Qui voit-on dans les lanternes des chambres, au parquet, à la porte ou dans la salle du magistrat ? des héritiers ab intestat ? Non, les lois ont pourvu à leurs partages. On y voit les testamentaires qui plaident en explication d’une clause ou d’un article, les personnes exhérédées, ceux qui se plaignent d’un testament fait avec loisir, avec maturité, par un homme grave, habile, consciencieux, et qui a été aidé d’un bon conseil : d’un acte où le praticien n’a rien obmis de son jargon et de ses finesses ordinaires ; il est signé du testateur et des témoins publics, il est parafé : et c’est en cet état qu’il est cassé et déclaré nul.
-            
-            (59)
-            Titius assiste à la lecture d’un testament avec des yeux rouges et humides, et le cœur serré de la perte de celui dont il espère recueillir la succession. Un article lui donne la charge, un autre les rentes de la ville, un troisième le rend maître d’une terre à la campagne ; il y a une clause qui, bien entendue, lui accorde une maison située au milieu de Paris, comme elle se trouve, et avec les meubles : son affliction augmente, les larmes lui coulent des yeux. Le moyen de les contenir ? Il se voit officier, logé aux champs et à la ville, meublé de même ; il se voit une bonne table et un carrosse : Y avait-il au monde un plus honnête homme que le défunt, un meilleur homme ? Il y a un codicille, il faut le lire : il fait Maevius légataire universel, et il renvoie Titius dans son faubourg, sans rentes, sans titres, et le met à pied. Il essuie ses larmes : c’est à Maevius à s’affliger.
-            
-            (60)
-            La loi qui défend de tuer un homme n’embrasse-t-elle pas dans cette défense le fer, le poison, le feu, l’eau, les embûches, la force ouverte, tous les moyens enfin qui peuvent servir à l’homicide ? La loi qui ôte aux maris et aux femmes le pouvoir de se donner réciproquement, n’a-t-elle connu que les voies directes et immédiates de donner ? a-t-elle manqué de prévoir les indirectes ? a-t-elle introduit les fidéicommis, ou si même elle les tolère ? Avec une femme qui nous est chère et qui nous survit, lègue-t-on son bien à un ami fidèle par un sentiment de reconnaissance pour lui, ou plutôt par une extrême confiance, et par la certitude qu’on a du bon usage qu’il saura faire de ce qu’on lui lègue ? Donne-t-on à celui que l’on peut soupçonner de ne devoir pas rendre à la personne à qui en effet l’on veut donner ? Faut-il se parler, faut-il s’écrire, est-il besoin de pacte ou de serments pour former cette collusion ? Les hommes ne sentent-ils pas en ce rencontre ce qu’ils peuvent espérer les uns des autres ? Et si au contraire la propriété d’un tel bien est dévolue au fidéicommissaire, pourquoi perd-il sa réputation à le retenir ? Sur quoi fonde-t-on la satire et les vaudevilles ? Voudrait-on le comparer au dépositaire qui trahit le dépôt, à un domestique qui vole l’argent que son maître lui envoie porter ? On aurait tort : y a-t-il de l’infamie à ne pas faire une libéralité, et à conserver pour soi ce qui est à soi ? Etrange embarras, horrible poids que le fidéicommis ! Si par la révérence des lois on se l’approprie, il ne faut plus passer pour homme de bien ; si par le respect d’un ami mort l’on suit ses intentions en le rendant à sa veuve, on est confidentiaire, on blesse la loi. — Elle cadre donc bien mal avec l’opinion des hommes ? — Cela peut être ; et il ne me convient pas de dire ici : « La loi pèche », ni : « Les hommes se trompent. »
-            
-            (61)
-            J’entends dire de quelques particuliers ou de quelques compagnies : « Tel et tel corps se contestent l’un à l’autre la préséance ; le mortier et la pairie se disputent le pas. » Il me paraît que celui des deux qui évite de se rencontrer aux assemblées est celui qui cède, et qui sentant son faible, juge lui-même en faveur de son concurrent.
-            
-            (62)
-            Typhon fournit un grand de chiens et de chevaux ; que ne lui fournit-il point ? Sa protection le rend audacieux ; il est impunément dans sa province tout ce qui lui plaît d’être, assassin, parjure ; il brûle ses voisins, et il n’a pas besoin d’asile. Il faut enfin que le Prince se mêle lui-même de sa punition.
-            
-            (63)
-            Ragoûts, liqueurs, entrées, entremets, tous mots qui devraient être barbares et inintelligibles en notre langue ; et s’il est vrai qu’ils ne devraient pas être d’usage en pleine paix, où ils ne servent qu’à entretenir le luxe et la gourmandise, comment peuvent-ils être entendus dans le temps de la guerre et d’une misère publique, à la vue de l’ennemi, à la veille d’un combat, pendant un siège ? Où est-il parlé de la table de Scipion ou de celle de Marius ? Ai-je lu quelque part que Miltiade, qu’Epaminondas, qu’Agésilas aient fait une chère délicate ? Je voudrais qu’on ne fît mention de la délicatesse, de la propreté et de la somptuosité des généraux, qu’après n’avoir plus rien à dire sur leur sujet, et s’être épuisé sur les circonstances d’une bataille gagnée et d’une ville prise ; j’aimerais même qu’ils voulussent se priver de cet éloge.
-            
-            (64)
-            Hermippe est l’esclave de ce qu’il appelle ses petites commodités ; il leur sacrifie l’usage reçu, la coutume, les modes, la bienséance. Il les cherche en toutes choses, il quitte une moindre pour une plus grande, il ne néglige aucune de celles qui sont praticables, il s’en fait une étude, et il ne se passe aucun jour qu’il ne fasse en ce genre une découverte. Il laisse aux autres hommes le dîner et le souper, à peine en admet-il les termes ; il mange quand il a faim, et les mets seulement où son appétit le porte. Il voit faire sont lit : quelle main assez adroite ou assez heureuse pourrait le faire dormir comme il veut dormir ? Il sort rarement de chez soi ; il aime la chambre, où il n’est ni oisif ni laborieux, où il n’agit point, où il tracasse, et dans l’équipage d’un homme qui a pris médecine. On dépend servilement d’un serrurier et d’un menuisier, selon ses besoins : pour lui, s’il faut limer, il a une lime ; une scie, s’il faut scier, et des tenailles, s’il faut arracher. Imaginez, s’il est possible, quelques outils qu’il n’ait pas, et meilleurs et plus commodes à son gré que ceux mêmes dont les ouvriers se servent : il en a de nouveaux et d’inconnus, qui n’ont point de nom, productions de son esprit, et dont il a presque oublié l’usage. Nul ne se peut comparer à lui pour faire en peu de temps et sans peine un travail fort inutile. Il faisait dix pas pour aller de son lit dans sa garde-robe, il n’en fait plus que neuf par la manière dont il a su tourner sa chambre : combien de pas épargnés dans le cours d’une vie ! Ailleurs l’on tourne la clef, l’on pousse contre, ou l’on tire à soi, et une porte s’ouvre : quelle fatigue ! voilà un mouvement de trop, qu’il sait s’épargner, et comment ? c’est un mystère qu’il ne révèle point. Il est, à la vérité, un grand maître pour le ressort et pour la mécanique, pour celle du moins dont tout le monde se passe. Hermippe tire le jour de son appartement d’ailleurs que de la fenêtre ; il a trouvé le secret de monter et de descendre autrement que par l’escalier, et il cherche celui d’entrer et de sortir plus commodément que par la porte.
-            
-            (65)
-            Il y a déjà longtemps que l’on improuve les médecins, et que l’on s’en sert ; le théâtre et la satire ne touchent point à leurs pensions ; ils dotent leurs filles, placent leurs fils aux parlements et dans la prélature, et les railleurs eux-mêmes fournissent l’argent. Ceux qui se portent bien deviennent malades ; il leur faut des gens dont le métier soit de les assurer qu’ils ne mourront point. Tant que les hommes pourront mourir, et qu’ils aimeront à vivre, le médecin sera raillé, et bien payé.
-            
-            (66)
-            Un bon médecin est celui qui a des remèdes spécifiques, ou s’il en manque, qui permet à ceux qui les ont de guérir son malade.
-            
-            (67)
-            La témérité des charlatans, et leurs tristes succès, qui en sont les suites, font valoir la médecine et les médecins : si ceux-ci laissent mourir, les autres tuent.
-            
-            (68)
-            Carro Carri débarque avec une recette qu’il appelle un prompt remède, et qui quelquefois est un poison lent ; c’est un bien de famille, mais amélioré en ses mains : de spécifique qu’il était contre la colique, il guérit de la fièvre quarte, de la pleurésie, de l’hydropisie, de l’apoplexie, de l’épilepsie. Forcez un peu votre mémoire, nommez une maladie, la première qui vous viendra en l’esprit : l’hémorragie, dites-vous ? il la guérit. Il ne ressuscite personne, il est vrai ; il ne rend pas la vie aux hommes ; mais il les conduit nécessairement jusqu’à la décrépitude, et ce n’est que par hasard que son père et son aïeul, qui avaient ce secret, sont morts fort jeunes. Les médecins reçoivent pour leurs visites ce qu’on leur donne ; quelques-uns se contentent d’un remerciement : Carro Carri est si sûr de son remède, et de l’effet qui en doit suivre, qu’il n’hésite pas de s’en faire payer d’avance, et de recevoir avant que de donner. Si le mal est incurable, tant mieux, il n’en est que plus digne de son application et de son remède. Commencez par lui livrer quelques sacs de mille francs, passez-lui un contrat de constitution, donnez-lui une de vos terres, la plus petite, et ne soyez pas ensuite plus inquiet que lui de votre guérison. L’émulation de cet homme a peuplé le monde de noms en Ô et en I, noms vénérables, qui imposent aux malades et aux maladies. Vos médecins, Fagon, et de toutes les facultés, avouez-le, ne guérissent pas toujours, ni sûrement ; ceux au contraire qui ont hérité de leurs pères la médecine pratique, et à qui l’expérience est échue par succession, promettent toujours, et avec serments, qu’on guérira. Qu’il est doux aux hommes de tout espérer d’une maladie mortelle, et de se porter encore passablement bien à l’agonie ! La mort surprend agréablement et sans s’être fait craindre ; on la sent plus tôt qu’on n’a songé à s’y préparer et à s’y résoudre. Ô Fagon Esculape ! faites régner sur toute la terre le quinquina et l’émétique ; conduisez à sa perfection la science des simples, qui sont donnés aux hommes pour prolonger leur vie ; observez dans les cures, avec plus de précision et de sagesse que personne n’a encore fait, le climat, les temps, les symptômes et les complexions ; guérissez de la manière seule qu’il convient à chacun d’être guéri ; chassez des corps, où rien ne vous est caché de leur économie, les maladies les plus obscures et les plus invétérées ; n’attentez pas sur celles de l’esprit, elles sont incurables ; laissez à Corinne, à Lesbie, à Canidie, à Trimalcion et à Carpus la passion ou la fureur des charlatans.
-            
-            (69)
-            L’on souffre dans la république les chiromanciens et les devins, ceux qui font l’horoscope et qui tirent la figure, ceux qui connaissent le passé par le mouvement du sas, ceux qui font voir dans un miroir ou dans un vase d’eau la claire vérité ; et ces gens sont en effet de quelque usage : ils prédisent aux hommes qu’ils feront fortune, aux filles qu’elles épouseront leurs amants, consolent les enfants dont les pères ne meurent point, et charment l’inquiétude des jeunes femmes qui ont de vieux maris ; ils trompent enfin à très vil prix ceux qui cherchent à être trompés.
-            
-            (70)
-            Que penser de la magie et du sortilège ? La théorie en est obscure, les principes vagues, incertains, et qui approchent du visionnaire ; mais il y a des faits embarrassants, affirmés par des hommes graves qui les ont vus, ou qui les ont appris de personnes qui leur ressemblent : les admettre tous ou les nier tous paraît un égal inconvénient ; et j’ose dire qu’en cela, comme dans toutes les choses extraordinaires et qui sortent des communes règles, il y a un parti à trouver entre les âmes crédules et les esprits forts.
-            
-            (71)
-            L’on ne peut guère charger l’enfance de la connaissance de trop de langues, et il me semble que l’on devrait mettre toute son application à l’en instruire ; elles sont utiles à toutes les conditions des hommes, et elles leur ouvrent également l’entrée ou à une profonde ou à une facile et agréable érudition. Si l’on remet cette étude si pénible à un âge un peu plus avancé, et qu’on appelle la jeunesse, ou l’on n’a pas la force de l’embrasser par choix, ou l’on n’a pas celle d’y persévérer ; et si l’on y persévère, c’est consumer à la recherche des langues le même temps qui est consacré à l’usage que l’on en doit faire ; c’est borner à la science des mots un âge qui veut déjà aller plus loin ; et qui demande des choses ; c’est au moins avoir perdu les premières et les plus belles années de sa vie. Un si grand fonds ne se peut bien faire que lorsque tout s’imprime dans l’âme naturellement et profondément ; que la mémoire est neuve, prompte et fidèle ; que l’esprit et le cœur sont encore vides de passions, de soins et de désirs, et que l’on est déterminé à de longs travaux par ceux de qui l’on dépend. Je suis persuadé que le petit nombre d’habiles, ou le grand nombre de gens superficiels, vient de l’oubli de cette pratique.
-            
-            (72)
-            L’étude des textes ne peut jamais être assez recommandée ; c’est le chemin le plus court, le plus sûr et le plus agréable pour tout genre d’érudition. Ayez les choses de la première main ; puisez à la source ; maniez, remaniez le texte ; apprenez-le de mémoire ; citez-le dans les occasions ; songez surtout à en pénétrer le sens dans toute son étendue et dans ses circonstances ; conciliez un auteur original, ajustez ses principes, tirez vous-même les conclusions. Les premiers commentateurs se sont trouvés dans le cas où je désire que vous soyez : n’empruntez leurs lumières et ne suivez leurs vues qu’où les vôtres seraient trop courtes ; leurs explications ne sont pas à vous, et peuvent aisément vous échapper ; vos observations au contraire naissent de votre esprit et y demeurent : vous les retrouvez plus ordinairement dans la conversation, dans la consultation et dans la dispute. Ayez le plaisir de voir que vous n’ê tes arrêté dans la lecture que par les difficultés qui sont invincibles, où les commentateurs et les scoliastes eux-mêmes demeurent court, si fertiles d’ailleurs, si abondants et si chargés d’une vaine et fastueuse érudition dans les endroits clairs, et qui ne font de peine ni à eux ni aux autres. Achevez ainsi de vous convaincre par cette méthode d’étudier, que c’est la paresse des hommes qui a encouragé le pédantisme à grossir plutôt qu’à enrichir les bibliothèques, à faire périr le texte sous le poids des commentaires ; et qu’elle a en cela agi contre soi-même et contre ses plus chers intérêts, en multipliant les lectures, les recherches et le travail, qu’elle cherchait à éviter.
-            
-            (73)
-            Qui règle les hommes dans leur manière de vivre et d’user des aliments ? La santé et le régime ? Cela est douteux. Une nation entière mange les viandes après les fruits, une autre fait tout le contraire ; quelques-uns commencent leurs repas par de certains fruits, et les finissent par d’autres : est-ce raison ? est-ce usage ? Est-ce par un soin de leur santé que les hommes s’habillent jusqu’au menton, portent des fraises et des collets, eux qui ont eu si longtemps la poitrine découverte ? Est-ce par bienséance, surtout dans un temps où ils avaient trouvé le secret de paraître nus tout habillés ? Et d’ailleurs les femmes, qui montrent leur gorge et leurs épaules, sont-elles d’une complexion moins délicate que les hommes, ou moins sujettes qu’eux aux bienséances ? Quelle est la pudeur qui engage celles-ci à couvrir leurs jambes et presque leurs pieds, et qui leur permet d’avoir les bras nus au-dessus du coude ? Qui avait mis autrefois dans l’esprit des hommes qu’on était à la guerre ou pour se défendre ou pour attaquer, et qui leur avait insinué l’usage des armes offensives et des défensives ? Qui les oblige aujourd’hui de renoncer à celles-ci, et pendant qu’ils se bottent pour aller au bal, de soutenir sans armes et en pourpoint des travailleurs exposés à tout le feu d’une contrescarpe ? Nos pères, qui ne jugeaient pas une telle conduite utile au Prince et à la patrie, étaient-ils sages ou insensés ? Et nous-mêmes, quels héros célébrons-nous dans notre histoire ? Un Guesclin, un Clisson, un Foix, un Boucicaut, qui tous ont porté l’armet et endossé une cuirasse. Qui pourrait rendre raison de la fortune de certains mots et de la proscription de quelques autres ? Ains a péri : la voyelle qui le commence, et si propre pour l’élision, n’a pu le sauver ; il a cédé à un autre monosyllabe, et qui n’est au plus que son anagramme. Certes est beau dans sa vieillesse, et a encore de la force sur son déclin : la poésie le réclame, et notre langue doit beaucoup aux écrivains qui le disent en prose, et qui se commettent pour lui dans leurs ouvrages. Maint est un mot qu’on ne devait jamais abandonner, et par la facilité qu’il y avait à le couler dans le style, et par son origine, qui est française. Moult, quoique latin, était dans son temps d’un même mérite, et je ne vois pas par où beaucoup l’emporte sur lui. Quelle persécution le car n’a-t-il pas essuyée ! et s’il n’eût trouvé de la protection parmi les gens polis, n’était-il pas banni honteusement d’une langue à qui il a rendu de si longs services, sans qu’on sût quel mot lui substituer ? Cil a été dans ses beaux jours le plus joli mot de la langue française ; il est douloureux pour les poètes qu’il ait vieilli. Douloureux ne vient pas plus naturellement de douleur, que de chaleur vient chaleureux ou chaloureux : celui-ci se passe, bien que ce fût une richesse pour la langue, et qu’il se dise fort juste où chaud ne s’emploie qu’improprement. Valeur devait aussi nous conserver valeureux ; haine, haineux ; peine, peineux, fruit, fructueux ; pitié, piteux ; joie, jovial ; foi, féal ; cour, courtois ; gîte, gisant ; baleine, balené ; vanterie, vantard ; mensonge, mensonger ; coutume, coutumier : comme part maintient partial ; point, pointu et pointilleux ; ton, tonnant ; son, sonore ; frein, effréné ; front, effronté ; ris, ridicule ; loi, loyal ; cœur, cordial ; bien, benin ; mal, malicieux. Heur se plaçait où bonheur ne saurait entrer ; il a fait heureux, qui est si français, et il a cessé de l’être : si quelques poètes s’en sont servis, c’est moins par choix que par la contrainte de la mesure. Issue propère, et vient d’issir, qui est aboli. Fin subsiste sans conséquence pour finer, qui vient de lui, pendant que cesse et cesser règnent également. Verd ne fait plus verdoyer, ni fête, fétoyer, ni larme, larmoyer, ni deuil, se douloir, se condouloir, ni joie, s’éjouir, bien qu’il fasse toujours se réjouir, se conjouir, ainsi qu’orgueil, s’enorgueillir. On a dit gent, le corps gent : ce mot si facile non seulement est tombé, l’on voit même qu’il a entraîné gentil dans sa chute. On dit diffamé, qui dérive de fame, qui ne s’entend plus : On dit curieux, dérivé de cure, qui est hors d’usage. Il y avait à gagner de dire si que pour de sorte que ou de manière que, de moi au lieu de pour moi ou de quant à moi, de dire je sais que c’est qu’un mal, plutôt que je sais ce que c’est qu’un mal, soit par l’analogie latine, soit par l’avantage qu’il y a souvent à avoir un mot de moins à placer dans l’oraison. L’usage a préféré par conséquent à par conséquence, et en conséquence à en conséquent, façons de faire à manières de faire, et manières d’agir à façons d’agir… ; dans les verbes, travailler à ouvrer, être accoutumé à souloir, convenir à duire, faire du bruit à bruire, injurier à vilainer, piquer à poindre, faire ressouvenir à ramentevoir… ; et dans les noms, pensées à pensers, un si beau mot, et dont le vers se trouvait si bien, grandes actions à prouesses, louanges à loz, méchanceté à mauvaistié, porte à buis, navire à nef, armée à ost, monastère à monstier, prairies à prées…, tous mots qui pouvaient durer ensemble d’une égale beauté, et rendre une langue plus abondante. L’usage a par l’addition, la suppression, le changement ou le dérangement de quelques lettres, fait frelater de fralater, prouver de preuver, profit de proufit, froment de froument, profil de pourfil, provision de pourveoir, promener de pourmener, et promenade de pourmenade. Le même usage fait, selon l’occasion, d’habile, d’utile, de facile, de docile, de mobile et de fertile, sans y rien changer, des genres différents : au contraire de vil, vile, subtil, subtile, selon leur terminaison masculins ou féminins. Il a altéré les terminaisons anciennes : de scel il a fait sceau ; de mantel, manteau ; de capel, chapeau ; de coutel, couteau ; de hamel, hameau ; de damoisel, damoiseau ; de jouvencel, jouvenceau ; et cela sans que l’on voie guère ce que la langue française gagne à ces différences et à ces changements. Est-ce donc faire pour le progrès d’une langue, que de déférer à l’usage ? Serait-il mieux de secouer le joug de son empire si despotique ? Faudrait-il, dans une langue vivante, écouter la seule raison qui prévient les équivoques, suit la racine des mots et le rapport qu’ils ont avec les langues originaires dont ils sont sortis, si la raison d’ailleurs veut qu’on suive l’usage ?
-            Si nos ancêtres ont mieux écrit que nous, ou si nous l’emportons sur eux par le choix des mots, par le tour et l’expression, par la clarté et la brièveté du discours, c’est une question souvent agitée, toujours indécise. On ne la terminera point en comparant, comme l’on fait quelquefois, un froid écrivain de l’autre siècle aux plus célèbres de celui-ci, ou les vers de Laurent, payé pour ne plus écrire, à ceux de Marot et de Desportes. Il faudrait, pour prononcer juste sur cette matière, opposer siècle à siècle, et excellent ouvrage à excellent ouvrage, par exemple les meilleurs rondeaux de Benserade ou de Voiture à ces deux-ci, qu’une tradition nous a conservés, sans nous en marquer le temps ni l’auteur :
-            Bien à propos s’en vint Ogier en France Pour le païs de mescreans monder : Ja n’est besoin de conter sa vaillance, Puisqu’ennemis n’osoient le regarder. Or quand il eut tout mis en assurance, De voyager il voulut s’enharder, En Paradis trouva l’eau de jouvance, Dont il se sceut de vieillesse engarder Bien à propos. Puis par cette eau son corps tout decrepite Transmué fut par manière subite En jeune gars, frais, gracieux et droit. Grand dommage est que cecy soit sornettes : Filles connoy qui ne sont pas jeunettes, À qui cette eau de jouvance viendroit Bien à propos.
-            De cettuy preux maints grands clercs ont écrit Qu’oncques dangier n’étonna son courage : Abusé fut par le malin esprit, Qu’il épousa sous feminin visage. Si piteux cas à la fin découvrit Sans un seul brin de peur ny de dommage, Dont grand renom par tout le monde acquit, Si qu’on tenoit tres honneste langage De cettuy preux.
-            Bien-tost après fille de Roy s’éprit De son amour, qui voulentiers s’offrit Au bon Richard en second mariage. Donc s’il vaut mieux de diable ou femme avoir, Et qui des deux bruït plus en ménage, Ceulx qui voudront, si le pourront sçavoir De cettuy preux.
-            
+                <div2 n="35">
+                    
+                    <p>
+                        
+                        Qu’on évite d’être vu seul avec une femme qui n’est point la sienne, voilà une pudeur qui est bien placée : qu’on sente quelque peine à se trouver dans le monde avec des personnes dont la réputation est attaquée, cela n’est pas incompréhensible. Mais quelle mauvaise honte fait rougir un homme de sa propre femme, et l’empêche de paraître dans le public avec celle qu’il s’est choisie pour sa compagne inséparable, qui doit faire sa joie, ses délices et toute sa société ; avec celle qu’il aime et qu’il estime, qui est son ornement, dont l’esprit, le mérite, la vertu, l’alliance lui font honneur ? Que ne commence-t-il par rougir de son mariage ? Je connais la force de la coutume, et jusqu’où elle maîtrise les esprits et contraint les mœurs, dans les choses même les plus dénuées de raison et de fondement ; je sens néanmoins que j’aurais l’impudence de me promener au Cours, et d’y passer en revue avec une personne qui serait ma femme.
+                        
+                    </p>
+                    
+                </div2>
+         
+                <div2 n="36">
+                    
+                    <p>
+                               
+                        Ce n’est pas une honte ni une faute à un jeune homme que d’épouser une femme avancée en âge ; c’est quelquefois prudence, c’est précaution. L’infamie est de se jouer de sa bienfactrice par des traitements indignes, et qui lui découvrent qu’elle est la dupe d’un hypocrite et d’un ingrat. Si la fiction est excusable, c’est où il faut feindre de l’amitié ; s’il est permis de tromper, c’est dans une occasion où il y aurait de la dureté à être sincère. — Mais elle vit longtemps. — Aviez-vous stipulé qu’elle mourût après avoir signé votre fortune et l’acquit de toutes vos dettes ? N’a-t-elle plus après ce grand ouvrage qu’à retenir son haleine, qu’à prendre de l’opium ou de la ciguë ? A-t-elle tort de vivre ? Si même vous mourez avant celle dont vous aviez déjà réglé les funérailles, à qui vous destiniez la grosse sonnerie et les beaux ornements, en est-elle responsable ? 
+                                             
+                    </p>
+                    
+                </div2>
            
-        </p> </body></text></TEI>
+           
+                <div2 n="37">
+                    
+                    <p>
+                       
+                        Il y a depuis longtemps dans le monde une manière de faire valoir son bien, qui continue toujours d’être pratiquée par d’honnêtes gens, et d’être condamnée par d’habiles docteurs. 
+                        
+                    </p>
+                    
+                </div2>
+           
+                <div2 n="38">
+                    
+                    <p>
+                        
+                        On a toujours vu dans la république de certaines charges qui semblent n’avoir été imaginées la première fois que pour enrichir un seul aux dépens de plusieurs ; les fonds ou l’argent des particuliers y coule sans fin et sans interruption. Dirai-je qu’il n’en revient plus ou qu’il n’en revient que tard ? C’est un gouffre, c’est une mer qui reçoit les eaux des fleuves ; et qui ne les rend pas ; ou si elles les rend, c’est par des conduits secrets et souterrains, sans qu’il y paraisse, ou qu’elle en soit moins grosse et moins enflée ; ce n’est qu’après en avoir joui longtemps, et qu’elle ne peut plus les retenir.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="39">
+                    
+                    <p>
+                         
+                         Le fonds perdu, autrefois si sûr, si religieux et si inviolable, est devenu avec le temps, et par les soins de ceux qui en étaient chargés, un bien perdu. Quel autre secret de doubler mes revenus et de thésauriser ? Entrerai-je dans le huitième denier, ou dans les aides ? serai-je avare, partisan, ou administrateur ?
+                         
+                    </p>
+                    
+                </div2>
+                
+                
+                <div2 n="40">
+                    
+                    <p>
+                        
+                        Vous avez une pièce d’argent, ou même une pièce d’or ; ce n’est pas assez, c’est le nombre qui opère : faites-en, si vous pouvez, un amas considérable et qui s’élève en pyramide, et je me charge du reste. Vous n’avez ni naissance, ni esprit, ni talents, ni expérience, qu’importe ? ne diminuez rien de votre monceau, et je vous placerai si haut que vous vous couvrirez devant votre maître, si vous en avez ; il sera même fort éminent, si avec votre métal, qui de jour à autre se multiplie, je ne fais en sorte qu’il se découvre devant vous.
+                        
+                    </p>
+                    
+                </div2>
+           
+                <div2 n="41">
+                    
+                    <p>
+                        
+                        Orante plaide depuis dix ans entiers en règlement de juges pour une affaire juste, capitale, et où il y va de toute sa fortune : elle saura peut-être dans cinq années quels seront ses juges, et dans quel tribunal elle doit plaider le reste de sa vie.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="42">
+                    
+                    <p>
+                        
+                        L’on applaudit à la coutume qui s’est introduite dans les tribunaux d’interrompre les avocats au milieu de leur action, de les empêcher d’être éloquents et d’avoir de l’esprit, de les ramener au fait et aux preuves toutes sèches qui établissent leurs causes et le droit de leurs parties ; et cette pratique si sévère, qui laisse aux orateurs le regret de n’avoir pas prononcé les plus beaux traits de leurs discours, qui bannit l’éloquence du seul endroit où elle est en sa place, et va faire du Parlement une muette juridiction, on l’autorise par une raison solide et sans réplique, qui est celle de l’expédition : il est seulement à désirer qu’elle fût moins oubliée en toute autre rencontre, qu’elle réglât au contraire les bureaux comme les audiences, et qu’on cherchât une fin aux écritures, comme on a fait aux plaidoyers.
+                        
+                    </p>
+                    
+                </div2>
+          
+                <div2 n="43">
+                    
+                    <p>
+                        
+                        Le devoir des juges est de rendre la justice ; leur métier, de la différer. Quelques-uns savent leur devoir, et font leur métier.
+                        
+                    </p>
+                    
+                </div2>
+                
+                
+                <div2 n="44">
+                    
+                    <p>
+                        
+                        Celui qui sollicite son juge ne lui fait pas honneur ; car ou il se défie de ses lumières et même de sa probité, ou il cherche à le prévenir, ou il lui demande une injustice.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="45">
+                    
+                    <p>
+                       
+                       Il se trouve des juges auprès de qui la faveur, l’autorité, les droits de l’amitié et de l’alliance nuisent à une bonne cause, et qu’une trop grande affectation de passer pour incorruptibles expose à être injustes.
+                       
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="46">
+                    
+                    <p>
+                        
+                        Le magistrat coquet ou galant est pire dans les conséquences que le dissolu : celui-ci cache son commerce et ses liaisons, et l’on ne sait souvent par où aller jusqu’à lui ; celui-là est ouvert par mille faibles qui sont connus, et l’on y arrive par toutes les femmes à qui il veut plaire.
+                        
+                    </p>
+                    
+                </div2>
+          
+                <div2 n="47">
+                    
+                    <p>
+                        
+                        Il s’en faut peu que la religion et la justice n’aillent de pair dans la république, et que la magistrature ne consacre les hommes comme la prêtrise. L’homme de robe ne saurait guère danser au bal, paraître aux théâtres, renoncer aux habits simples et modestes, sans consentir à son propre avilissement ; et il est étrange qu’il ait fallu une loi pour régler son extérieur, et le contraindre ainsi à être grave et plus respecté.
+                        
+                    </p>
+                    
+                </div2>
+                
+                
+                <div2 n="48">
+                    
+                    <p>
+                        
+                        Il n’y a aucun métier qui n’ait son apprentissage, et en montant des moindres conditions jusques aux plus grandes, on remarque dans toutes un temps de pratique et d’exercice qui prépare aux emplois, où les fautes sont sans conséquence, et mènent au contraire à la perfection. La guerre même, qui ne semble naître et durer que par la confusion et le désordre, a ses préceptes ; on ne se massacre pas par pelotons et par troupes en rase campagne sans l’avoir appris, et l’on s’y tue méthodiquement. Il y a l’école de la guerre : où est l’école du magistrat ? Il y a un usage, des lois, des coutumes : où est le temps, et le temps assez long que l’on emploie à les digérer et à s’en instruire ? L’essai et l’apprentissage d’un jeune adolescent qui passe de la férule à la pourpre, et dont la consignation a fait un juge, est de décider souverainement des vies et des fortunes des hommes.
+                        
+                    </p>
+                    
+                </div2>
+                
+                
+                <div2 n="49">
+                    
+                    <p>
+                               
+                        La principale partie de l’orateur, c’est la probité : sans elle il dégénère en déclamateur, il déguise ou il exagère les faits, il cite faux, il calomnie, il épouse la passion et les haines de ceux pour qui il parle ; et il est de la classe de ces avocats dont le proverbe dit qu’ils sont payés pour dire des injures.
+                        
+                    </p>
+                    
+                </div2>
+          
+          
+                <div2 n="50">
+                    
+                    <p>
+                        
+                        « Il est vrai, dit-on, cette somme lui est due, et ce droit lui est acquis. Mais je l’attends à cette petite formalité ; s’il l’oublie, il n’y revient plus, et conséquemment il perd sa somme, ou il est incontestablement déchu de son droit ; or il oubliera cette formalité. » Voilà ce que j’appelle une conscience de praticien. 
+                        Une belle maxime pour le palais, utile au public, remplie de raison, de sagesse et d’équité, ce serait précisément la contradictoire de celle qui dit que la forme emporte le fond.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="51">
+                    
+                    <p>
+                        
+                        La question est une invention merveilleuse et tout à fait sûre pour perdre un innocent qui a la complexion faible, et sauver un coupable qui est né robuste.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="52">
+                    
+                    <p>
+                        
+                        Un coupable puni est un exemple pour la canaille ; un innocent condamné est l’affaire de tous les honnêtes gens. Je dirai presque de moi : « Je ne serai pas voleur ou meurtrier. » — « Je ne serai pas un jour puni comme tel », c’est parler bien hardiment. Une condition lamentable est celle d’un homme innocent à qui la précipitation et la procédure ont trouvé un crime ; celle même de son juge peut-elle l’être davantage ?
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="53">
+                    
+                    <p>
+                                             
+                        Si l’on me racontait qu’il s’est trouvé autrefois un prévôt ; ou l’un de ces magistrats créés pour poursuivre les voleurs et les exterminer, qui les connaissait tous depuis longtemps de nom et de visage ; savait leurs vols, j’entends l’espèce, le nombre et la quantité, pénétrait si avant dans toutes ces profondeurs, et était si initié dans tous ces affreux mystères qu’il sut rendre à un homme de crédit un bijou qu’on lui avait pris dans la foule au sortir d’une assemblée, et dont il était sur le point de faire de l’éclat, que le Parlement intervint dans cette affaire, et fit le procès à cet officier : je regarderais cet événement comme l’une de ces choses dont l’histoire se charge, et à qui le temps ô te la croyance : comment donc pourrais-je croire qu’on doive présumer par des faits récents, connus et circonstanciés, qu’une connivence si pernicieuse dure encore, qu’elle ait même tourné en jeu et passé en coutume ?
+                        
+                    </p>
+                    
+                </div2>
+          
+                <div2 n="54">
+                    
+                    <p>
+                        
+                        Combien d’hommes qui sont forts contre les faibles, fermes et inflexibles aux sollicitations du simple peuple, sans nuls égards pour les petits, rigides et sévères dans les minutes, qui refusent les petits présents, qui n’écoutent ni leurs parents ni leurs amis, et que les femmes seules peuvent corrompre !
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="55">
+                    
+                    <p>
+                        
+                        Il n’est pas absolument impossible qu’une personne qui se trouve dans une grande faveur perde un procès.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="56">
+                    
+                    <p>
+                     
+                     Les mourants qui parlent dans leurs testaments peuvent s’attendre à être écoutés comme des oracles ; chacun les tire de son côté et les interprète à sa manière, je veux dire selon ses désirs ou ses intérêts.
+                         
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="57">
+                    
+                    <p>
+                        
+                        Il est vrai qu’il y a des hommes dont on peut dire que la mort fixe moins la dernière volonté qu’elle ne leur ôte avec la vie l’irrésolution et l’inquiétude. Un dépit, pendant qu’ils vivent, les fait tester ; ils s’apaisent et déchirent leur minute, la voilà en cendre. Ils n’ont pas moins de testaments dans leur cassette que d’almanachs sur leur table ; ils les comptent par les années. Un second se trouve détruit par un troisième, qui est anéanti lui-même par un autre mieux digéré, et celui-ci encore par un cinquième olographe. Mais si le moment, ou la malice, ou l’autorité manque à celui qui a intérêt de le supprimer, il faut qu’il en essuie les clauses et les conditions ; car appert-il mieux des dispositions des hommes les plus inconstants que par un dernier acte, signé de leur main, et après lequel ils n’ont pas du moins eu le loisir de vouloir tout le contraire ?
+                         
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="58">
+                    
+                    <p>
+                        
+                        S’il n’y avait point de testaments pour régler le droit des héritiers, je ne sais si l’on aurait besoin de tribunaux pour régler les différends des hommes : les juges seraient presque réduits à la triste fonction d’envoyer au gibet les voleurs et les incendiaires. Qui voit-on dans les lanternes des chambres, au parquet, à la porte ou dans la salle du magistrat ? des héritiers ab intestat ? Non, les lois ont pourvu à leurs partages. On y voit les testamentaires qui plaident en explication d’une clause ou d’un article, les personnes exhérédées, ceux qui se plaignent d’un testament fait avec loisir, avec maturité, par un homme grave, habile, consciencieux, et qui a été aidé d’un bon conseil : d’un acte où le praticien n’a rien obmis de son jargon et de ses finesses ordinaires ; il est signé du testateur et des témoins publics, il est parafé : et c’est en cet état qu’il est cassé et déclaré nul.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="59">
+                    
+                    <p>
+                        
+                        Titius assiste à la lecture d’un testament avec des yeux rouges et humides, et le cœur serré de la perte de celui dont il espère recueillir la succession. Un article lui donne la charge, un autre les rentes de la ville, un troisième le rend maître d’une terre à la campagne ; il y a une clause qui, bien entendue, lui accorde une maison située au milieu de Paris, comme elle se trouve, et avec les meubles : son affliction augmente, les larmes lui coulent des yeux. Le moyen de les contenir ? Il se voit officier, logé aux champs et à la ville, meublé de même ; il se voit une bonne table et un carrosse : Y avait-il au monde un plus honnête homme que le défunt, un meilleur homme ? Il y a un codicille, il faut le lire : il fait Maevius légataire universel, et il renvoie Titius dans son faubourg, sans rentes, sans titres, et le met à pied. Il essuie ses larmes : c’est à Maevius à s’affliger.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="60">
+                    
+                    <p>
+                        
+                        La loi qui défend de tuer un homme n’embrasse-t-elle pas dans cette défense le fer, le poison, le feu, l’eau, les embûches, la force ouverte, tous les moyens enfin qui peuvent servir à l’homicide ? La loi qui ôte aux maris et aux femmes le pouvoir de se donner réciproquement, n’a-t-elle connu que les voies directes et immédiates de donner ? a-t-elle manqué de prévoir les indirectes ? a-t-elle introduit les fidéicommis, ou si même elle les tolère ? Avec une femme qui nous est chère et qui nous survit, lègue-t-on son bien à un ami fidèle par un sentiment de reconnaissance pour lui, ou plutôt par une extrême confiance, et par la certitude qu’on a du bon usage qu’il saura faire de ce qu’on lui lègue ? Donne-t-on à celui que l’on peut soupçonner de ne devoir pas rendre à la personne à qui en effet l’on veut donner ? Faut-il se parler, faut-il s’écrire, est-il besoin de pacte ou de serments pour former cette collusion ? Les hommes ne sentent-ils pas en ce rencontre ce qu’ils peuvent espérer les uns des autres ? Et si au contraire la propriété d’un tel bien est dévolue au fidéicommissaire, pourquoi perd-il sa réputation à le retenir ? Sur quoi fonde-t-on la satire et les vaudevilles ? Voudrait-on le comparer au dépositaire qui trahit le dépôt, à un domestique qui vole l’argent que son maître lui envoie porter ? On aurait tort : y a-t-il de l’infamie à ne pas faire une libéralité, et à conserver pour soi ce qui est à soi ? Etrange embarras, horrible poids que le fidéicommis ! Si par la révérence des lois on se l’approprie, il ne faut plus passer pour homme de bien ; si par le respect d’un ami mort l’on suit ses intentions en le rendant à sa veuve, on est confidentiaire, on blesse la loi. — Elle cadre donc bien mal avec l’opinion des hommes ? — Cela peut être ; et il ne me convient pas de dire ici : « La loi pèche », ni : « Les hommes se trompent. »
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="61">
+                    
+                    <p>
+                        
+                        J’entends dire de quelques particuliers ou de quelques compagnies : « Tel et tel corps se contestent l’un à l’autre la préséance ; le mortier et la pairie se disputent le pas. » Il me paraît que celui des deux qui évite de se rencontrer aux assemblées est celui qui cède, et qui sentant son faible, juge lui-même en faveur de son concurrent.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="62">
+                    
+                    <p>
+                        
+                        Typhon fournit un grand de chiens et de chevaux ; que ne lui fournit-il point ? Sa protection le rend audacieux ; il est impunément dans sa province tout ce qui lui plaît d’être, assassin, parjure ; il brûle ses voisins, et il n’a pas besoin d’asile. Il faut enfin que le Prince se mêle lui-même de sa punition.
+                        
+                    </p>
+                    
+                </div2>
+          
+                <div2 n="63">
+                    
+                    <p>
+                                               
+                        Ragoûts, liqueurs, entrées, entremets, tous mots qui devraient être barbares et inintelligibles en notre langue ; et s’il est vrai qu’ils ne devraient pas être d’usage en pleine paix, où ils ne servent qu’à entretenir le luxe et la gourmandise, comment peuvent-ils être entendus dans le temps de la guerre et d’une misère publique, à la vue de l’ennemi, à la veille d’un combat, pendant un siège ? Où est-il parlé de la table de Scipion ou de celle de Marius ? Ai-je lu quelque part que Miltiade, qu’Epaminondas, qu’Agésilas aient fait une chère délicate ? Je voudrais qu’on ne fît mention de la délicatesse, de la propreté et de la somptuosité des généraux, qu’après n’avoir plus rien à dire sur leur sujet, et s’être épuisé sur les circonstances d’une bataille gagnée et d’une ville prise ; j’aimerais même qu’ils voulussent se priver de cet éloge.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="64">
+                    
+                    <p>
+                                                
+                        Hermippe est l’esclave de ce qu’il appelle ses petites commodités ; il leur sacrifie l’usage reçu, la coutume, les modes, la bienséance. Il les cherche en toutes choses, il quitte une moindre pour une plus grande, il ne néglige aucune de celles qui sont praticables, il s’en fait une étude, et il ne se passe aucun jour qu’il ne fasse en ce genre une découverte. Il laisse aux autres hommes le dîner et le souper, à peine en admet-il les termes ; il mange quand il a faim, et les mets seulement où son appétit le porte. Il voit faire sont lit : quelle main assez adroite ou assez heureuse pourrait le faire dormir comme il veut dormir ? Il sort rarement de chez soi ; il aime la chambre, où il n’est ni oisif ni laborieux, où il n’agit point, où il tracasse, et dans l’équipage d’un homme qui a pris médecine. On dépend servilement d’un serrurier et d’un menuisier, selon ses besoins : pour lui, s’il faut limer, il a une lime ; une scie, s’il faut scier, et des tenailles, s’il faut arracher. Imaginez, s’il est possible, quelques outils qu’il n’ait pas, et meilleurs et plus commodes à son gré que ceux mêmes dont les ouvriers se servent : il en a de nouveaux et d’inconnus, qui n’ont point de nom, productions de son esprit, et dont il a presque oublié l’usage. Nul ne se peut comparer à lui pour faire en peu de temps et sans peine un travail fort inutile. Il faisait dix pas pour aller de son lit dans sa garde-robe, il n’en fait plus que neuf par la manière dont il a su tourner sa chambre : combien de pas épargnés dans le cours d’une vie ! Ailleurs l’on tourne la clef, l’on pousse contre, ou l’on tire à soi, et une porte s’ouvre : quelle fatigue ! voilà un mouvement de trop, qu’il sait s’épargner, et comment ? c’est un mystère qu’il ne révèle point. Il est, à la vérité, un grand maître pour le ressort et pour la mécanique, pour celle du moins dont tout le monde se passe. Hermippe tire le jour de son appartement d’ailleurs que de la fenêtre ; il a trouvé le secret de monter et de descendre autrement que par l’escalier, et il cherche celui d’entrer et de sortir plus commodément que par la porte.
+                        
+                      
+                    </p>
+                    
+                </div2>
+                
+                
+                <div2 n="65">
+                    
+                    <p>
+                                            
+                        Il y a déjà longtemps que l’on improuve les médecins, et que l’on s’en sert ; le théâtre et la satire ne touchent point à leurs pensions ; ils dotent leurs filles, placent leurs fils aux parlements et dans la prélature, et les railleurs eux-mêmes fournissent l’argent. Ceux qui se portent bien deviennent malades ; il leur faut des gens dont le métier soit de les assurer qu’ils ne mourront point. Tant que les hommes pourront mourir, et qu’ils aimeront à vivre, le médecin sera raillé, et bien payé.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="66">
+                    
+                    <p>
+                        
+                        Un bon médecin est celui qui a des remèdes spécifiques, ou s’il en manque, qui permet à ceux qui les ont de guérir son malade.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="67">
+                    
+                    <p>
+                        
+                        La témérité des charlatans, et leurs tristes succès, qui en sont les suites, font valoir la médecine et les médecins : si ceux-ci laissent mourir, les autres tuent.
+                        
+                         
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="68">
+                    
+                    <p>
+                        
+                        Carro Carri débarque avec une recette qu’il appelle un prompt remède, et qui quelquefois est un poison lent ; c’est un bien de famille, mais amélioré en ses mains : de spécifique qu’il était contre la colique, il guérit de la fièvre quarte, de la pleurésie, de l’hydropisie, de l’apoplexie, de l’épilepsie. Forcez un peu votre mémoire, nommez une maladie, la première qui vous viendra en l’esprit : l’hémorragie, dites-vous ? il la guérit. Il ne ressuscite personne, il est vrai ; il ne rend pas la vie aux hommes ; mais il les conduit nécessairement jusqu’à la décrépitude, et ce n’est que par hasard que son père et son aïeul, qui avaient ce secret, sont morts fort jeunes. Les médecins reçoivent pour leurs visites ce qu’on leur donne ; quelques-uns se contentent d’un remerciement : Carro Carri est si sûr de son remède, et de l’effet qui en doit suivre, qu’il n’hésite pas de s’en faire payer d’avance, et de recevoir avant que de donner. Si le mal est incurable, tant mieux, il n’en est que plus digne de son application et de son remède. Commencez par lui livrer quelques sacs de mille francs, passez-lui un contrat de constitution, donnez-lui une de vos terres, la plus petite, et ne soyez pas ensuite plus inquiet que lui de votre guérison. L’émulation de cet homme a peuplé le monde de noms en Ô et en I, noms vénérables, qui imposent aux malades et aux maladies. Vos médecins, Fagon, et de toutes les facultés, avouez-le, ne guérissent pas toujours, ni sûrement ; ceux au contraire qui ont hérité de leurs pères la médecine pratique, et à qui l’expérience est échue par succession, promettent toujours, et avec serments, qu’on guérira. Qu’il est doux aux hommes de tout espérer d’une maladie mortelle, et de se porter encore passablement bien à l’agonie ! La mort surprend agréablement et sans s’être fait craindre ; on la sent plus tôt qu’on n’a songé à s’y préparer et à s’y résoudre. Ô Fagon Esculape ! faites régner sur toute la terre le quinquina et l’émétique ; conduisez à sa perfection la science des simples, qui sont donnés aux hommes pour prolonger leur vie ; observez dans les cures, avec plus de précision et de sagesse que personne n’a encore fait, le climat, les temps, les symptômes et les complexions ; guérissez de la manière seule qu’il convient à chacun d’être guéri ; chassez des corps, où rien ne vous est caché de leur économie, les maladies les plus obscures et les plus invétérées ; n’attentez pas sur celles de l’esprit, elles sont incurables ; laissez à Corinne, à Lesbie, à Canidie, à Trimalcion et à Carpus la passion ou la fureur des charlatans.
+                        
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="69">
+                    
+                    <p>
+                        
+                        L’on souffre dans la république les chiromanciens et les devins, ceux qui font l’horoscope et qui tirent la figure, ceux qui connaissent le passé par le mouvement du sas, ceux qui font voir dans un miroir ou dans un vase d’eau la claire vérité ; et ces gens sont en effet de quelque usage : ils prédisent aux hommes qu’ils feront fortune, aux filles qu’elles épouseront leurs amants, consolent les enfants dont les pères ne meurent point, et charment l’inquiétude des jeunes femmes qui ont de vieux maris ; ils trompent enfin à très vil prix ceux qui cherchent à être trompés.
+                        
+                    </p>
+                    
+                </div2>
+          
+                <div2 n="70">
+                    
+                    <p>
+                       
+                       Que penser de la magie et du sortilège ? La théorie en est obscure, les principes vagues, incertains, et qui approchent du visionnaire ; mais il y a des faits embarrassants, affirmés par des hommes graves qui les ont vus, ou qui les ont appris de personnes qui leur ressemblent : les admettre tous ou les nier tous paraît un égal inconvénient ; et j’ose dire qu’en cela, comme dans toutes les choses extraordinaires et qui sortent des communes règles, il y a un parti à trouver entre les âmes crédules et les esprits forts.
+                       
+                    </p>
+                    
+                </div2>
+                
+                <div2 n="71">
+                    
+                    <p>
+                                              
+                        L’on ne peut guère charger l’enfance de la connaissance de trop de langues, et il me semble que l’on devrait mettre toute son application à l’en instruire ; elles sont utiles à toutes les conditions des hommes, et elles leur ouvrent également l’entrée ou à une profonde ou à une facile et agréable érudition. Si l’on remet cette étude si pénible à un âge un peu plus avancé, et qu’on appelle la jeunesse, ou l’on n’a pas la force de l’embrasser par choix, ou l’on n’a pas celle d’y persévérer ; et si l’on y persévère, c’est consumer à la recherche des langues le même temps qui est consacré à l’usage que l’on en doit faire ; c’est borner à la science des mots un âge qui veut déjà aller plus loin ; et qui demande des choses ; c’est au moins avoir perdu les premières et les plus belles années de sa vie. Un si grand fonds ne se peut bien faire que lorsque tout s’imprime dans l’âme naturellement et profondément ; que la mémoire est neuve, prompte et fidèle ; que l’esprit et le cœur sont encore vides de passions, de soins et de désirs, et que l’on est déterminé à de longs travaux par ceux de qui l’on dépend. Je suis persuadé que le petit nombre d’habiles, ou le grand nombre de gens superficiels, vient de l’oubli de cette pratique.
+                        
+                    </p>
+                    
+                </div2>
+          
+                <div2 n="72">
+                    
+                    <p>
+                        
+                      
+                        L’étude des textes ne peut jamais être assez recommandée ; c’est le chemin le plus court, le plus sûr et le plus agréable pour tout genre d’érudition. Ayez les choses de la première main ; puisez à la source ; maniez, remaniez le texte ; apprenez-le de mémoire ; citez-le dans les occasions ; songez surtout à en pénétrer le sens dans toute son étendue et dans ses circonstances ; conciliez un auteur original, ajustez ses principes, tirez vous-même les conclusions. Les premiers commentateurs se sont trouvés dans le cas où je désire que vous soyez : n’empruntez leurs lumières et ne suivez leurs vues qu’où les vôtres seraient trop courtes ; leurs explications ne sont pas à vous, et peuvent aisément vous échapper ; vos observations au contraire naissent de votre esprit et y demeurent : vous les retrouvez plus ordinairement dans la conversation, dans la consultation et dans la dispute. Ayez le plaisir de voir que vous n’ê tes arrêté dans la lecture que par les difficultés qui sont invincibles, où les commentateurs et les scoliastes eux-mêmes demeurent court, si fertiles d’ailleurs, si abondants et si chargés d’une vaine et fastueuse érudition dans les endroits clairs, et qui ne font de peine ni à eux ni aux autres. Achevez ainsi de vous convaincre par cette méthode d’étudier, que c’est la paresse des hommes qui a encouragé le pédantisme à grossir plutôt qu’à enrichir les bibliothèques, à faire périr le texte sous le poids des commentaires ; et qu’elle a en cela agi contre soi-même et contre ses plus chers intérêts, en multipliant les lectures, les recherches et le travail, qu’elle cherchait à éviter.
+                        
+                    </p>
+                    
+                </div2>
+                
+                
+                <div2 n="73">
+                    
+                    <p>
+                                               
+                        Qui règle les hommes dans leur manière de vivre et d’user des aliments ? La santé et le régime ? Cela est douteux. Une nation entière mange les viandes après les fruits, une autre fait tout le contraire ; quelques-uns commencent leurs repas par de certains fruits, et les finissent par d’autres : est-ce raison ? est-ce usage ? Est-ce par un soin de leur santé que les hommes s’habillent jusqu’au menton, portent des fraises et des collets, eux qui ont eu si longtemps la poitrine découverte ? Est-ce par bienséance, surtout dans un temps où ils avaient trouvé le secret de paraître nus tout habillés ? Et d’ailleurs les femmes, qui montrent leur gorge et leurs épaules, sont-elles d’une complexion moins délicate que les hommes, ou moins sujettes qu’eux aux bienséances ? Quelle est la pudeur qui engage celles-ci à couvrir leurs jambes et presque leurs pieds, et qui leur permet d’avoir les bras nus au-dessus du coude ? Qui avait mis autrefois dans l’esprit des hommes qu’on était à la guerre ou pour se défendre ou pour attaquer, et qui leur avait insinué l’usage des armes offensives et des défensives ? Qui les oblige aujourd’hui de renoncer à celles-ci, et pendant qu’ils se bottent pour aller au bal, de soutenir sans armes et en pourpoint des travailleurs exposés à tout le feu d’une contrescarpe ? Nos pères, qui ne jugeaient pas une telle conduite utile au Prince et à la patrie, étaient-ils sages ou insensés ? Et nous-mêmes, quels héros célébrons-nous dans notre histoire ? Un Guesclin, un Clisson, un Foix, un Boucicaut, qui tous ont porté l’armet et endossé une cuirasse. Qui pourrait rendre raison de la fortune de certains mots et de la proscription de quelques autres ? Ains a péri : la voyelle qui le commence, et si propre pour l’élision, n’a pu le sauver ; il a cédé à un autre monosyllabe, et qui n’est au plus que son anagramme. Certes est beau dans sa vieillesse, et a encore de la force sur son déclin : la poésie le réclame, et notre langue doit beaucoup aux écrivains qui le disent en prose, et qui se commettent pour lui dans leurs ouvrages. Maint est un mot qu’on ne devait jamais abandonner, et par la facilité qu’il y avait à le couler dans le style, et par son origine, qui est française. Moult, quoique latin, était dans son temps d’un même mérite, et je ne vois pas par où beaucoup l’emporte sur lui. Quelle persécution le car n’a-t-il pas essuyée ! et s’il n’eût trouvé de la protection parmi les gens polis, n’était-il pas banni honteusement d’une langue à qui il a rendu de si longs services, sans qu’on sût quel mot lui substituer ? Cil a été dans ses beaux jours le plus joli mot de la langue française ; il est douloureux pour les poètes qu’il ait vieilli. Douloureux ne vient pas plus naturellement de douleur, que de chaleur vient chaleureux ou chaloureux : celui-ci se passe, bien que ce fût une richesse pour la langue, et qu’il se dise fort juste où chaud ne s’emploie qu’improprement. Valeur devait aussi nous conserver valeureux ; haine, haineux ; peine, peineux, fruit, fructueux ; pitié, piteux ; joie, jovial ; foi, féal ; cour, courtois ; gîte, gisant ; baleine, balené ; vanterie, vantard ; mensonge, mensonger ; coutume, coutumier : comme part maintient partial ; point, pointu et pointilleux ; ton, tonnant ; son, sonore ; frein, effréné ; front, effronté ; ris, ridicule ; loi, loyal ; cœur, cordial ; bien, benin ; mal, malicieux. Heur se plaçait où bonheur ne saurait entrer ; il a fait heureux, qui est si français, et il a cessé de l’être : si quelques poètes s’en sont servis, c’est moins par choix que par la contrainte de la mesure. Issue propère, et vient d’issir, qui est aboli. Fin subsiste sans conséquence pour finer, qui vient de lui, pendant que cesse et cesser règnent également. Verd ne fait plus verdoyer, ni fête, fétoyer, ni larme, larmoyer, ni deuil, se douloir, se condouloir, ni joie, s’éjouir, bien qu’il fasse toujours se réjouir, se conjouir, ainsi qu’orgueil, s’enorgueillir. On a dit gent, le corps gent : ce mot si facile non seulement est tombé, l’on voit même qu’il a entraîné gentil dans sa chute. On dit diffamé, qui dérive de fame, qui ne s’entend plus : On dit curieux, dérivé de cure, qui est hors d’usage. Il y avait à gagner de dire si que pour de sorte que ou de manière que, de moi au lieu de pour moi ou de quant à moi, de dire je sais que c’est qu’un mal, plutôt que je sais ce que c’est qu’un mal, soit par l’analogie latine, soit par l’avantage qu’il y a souvent à avoir un mot de moins à placer dans l’oraison. L’usage a préféré par conséquent à par conséquence, et en conséquence à en conséquent, façons de faire à manières de faire, et manières d’agir à façons d’agir… ; dans les verbes, travailler à ouvrer, être accoutumé à souloir, convenir à duire, faire du bruit à bruire, injurier à vilainer, piquer à poindre, faire ressouvenir à ramentevoir… ; et dans les noms, pensées à pensers, un si beau mot, et dont le vers se trouvait si bien, grandes actions à prouesses, louanges à loz, méchanceté à mauvaistié, porte à buis, navire à nef, armée à ost, monastère à monstier, prairies à prées…, tous mots qui pouvaient durer ensemble d’une égale beauté, et rendre une langue plus abondante. L’usage a par l’addition, la suppression, le changement ou le dérangement de quelques lettres, fait frelater de fralater, prouver de preuver, profit de proufit, froment de froument, profil de pourfil, provision de pourveoir, promener de pourmener, et promenade de pourmenade. Le même usage fait, selon l’occasion, d’habile, d’utile, de facile, de docile, de mobile et de fertile, sans y rien changer, des genres différents : au contraire de vil, vile, subtil, subtile, selon leur terminaison masculins ou féminins. Il a altéré les terminaisons anciennes : de scel il a fait sceau ; de mantel, manteau ; de capel, chapeau ; de coutel, couteau ; de hamel, hameau ; de damoisel, damoiseau ; de jouvencel, jouvenceau ; et cela sans que l’on voie guère ce que la langue française gagne à ces différences et à ces changements. Est-ce donc faire pour le progrès d’une langue, que de déférer à l’usage ? Serait-il mieux de secouer le joug de son empire si despotique ? Faudrait-il, dans une langue vivante, écouter la seule raison qui prévient les équivoques, suit la racine des mots et le rapport qu’ils ont avec les langues originaires dont ils sont sortis, si la raison d’ailleurs veut qu’on suive l’usage ?
+                        Si nos ancêtres ont mieux écrit que nous, ou si nous l’emportons sur eux par le choix des mots, par le tour et l’expression, par la clarté et la brièveté du discours, c’est une question souvent agitée, toujours indécise. On ne la terminera point en comparant, comme l’on fait quelquefois, un froid écrivain de l’autre siècle aux plus célèbres de celui-ci, ou les vers de Laurent, payé pour ne plus écrire, à ceux de Marot et de Desportes. Il faudrait, pour prononcer juste sur cette matière, opposer siècle à siècle, et excellent ouvrage à excellent ouvrage, par exemple les meilleurs rondeaux de Benserade ou de Voiture à ces deux-ci, qu’une tradition nous a conservés, sans nous en marquer le temps ni l’auteur :
+                        Bien à propos s’en vint Ogier en France Pour le païs de mescreans monder : Ja n’est besoin de conter sa vaillance, Puisqu’ennemis n’osoient le regarder. Or quand il eut tout mis en assurance, De voyager il voulut s’enharder, En Paradis trouva l’eau de jouvance, Dont il se sceut de vieillesse engarder Bien à propos. Puis par cette eau son corps tout decrepite Transmué fut par manière subite En jeune gars, frais, gracieux et droit. Grand dommage est que cecy soit sornettes : Filles connoy qui ne sont pas jeunettes, À qui cette eau de jouvance viendroit Bien à propos.
+                        De cettuy preux maints grands clercs ont écrit Qu’oncques dangier n’étonna son courage : Abusé fut par le malin esprit, Qu’il épousa sous feminin visage. Si piteux cas à la fin découvrit Sans un seul brin de peur ny de dommage, Dont grand renom par tout le monde acquit, Si qu’on tenoit tres honneste langage De cettuy preux.
+                        Bien-tost après fille de Roy s’éprit De son amour, qui voulentiers s’offrit Au bon Richard en second mariage. Donc s’il vaut mieux de diable ou femme avoir, Et qui des deux bruït plus en ménage, Ceulx qui voudront, si le pourront sçavoir De cettuy preux.
+                        
+                    
+                    </p>
+                    
+                </div2>
+                
+               </div1>
+                   
+ </body>
+    
+    </text>
+
+   </TEI>
