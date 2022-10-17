@@ -33,7 +33,7 @@
                         <imprint xml:id="Paris_1689_4">
                             <publisher>Edition classique</publisher>
                             <date>1688</date>
-                            <pubPlace></pubPlace>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575649/f4.item</pubPlace>
                           
                         </imprint>
                     </monogr>
@@ -47,7 +47,7 @@
                         <imprint xml:id="Paris_1688_troisième_edition">
                             <publisher>Edition classique</publisher>
                             <date>1688</date>
-                            <pubPlace></pubPlace>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57572x?rk=42918;4</pubPlace>
                         
                         </imprint>
                         
@@ -71,7 +71,7 @@
                         <author ref="https://data.bnf.fr/11887698/theophraste"> Théophraste></author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
-                        <edition>Première édition</edition>
+                        <edition>Sixième édition</edition>
                         <imprint xml:id="Paris_1691_sixième_edition">
                             <publisher>Edition classique</publisher>
                             <date>1691</date>
