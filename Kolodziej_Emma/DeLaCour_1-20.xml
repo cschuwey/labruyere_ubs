@@ -126,6 +126,38 @@
                 <language ident="fra">Français du XVIIe siècle</language>
                 <language ident="latin">Latin</language>
             </langUsage>
+             <textDesc>
+                <channel mode="w"/>
+                <constitution></constitution>
+                <derivation></derivation>
+                <domain type="public"/>
+                <factuality></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose type="entertain" degree="low"/>
+                <purpose type="inform" degree="high"/>
+            </textDesc>
+            <particDesc>
+                <person n="1">
+                    <p>Décrite par un V** dans la remarque 14, son identité laisse place à de nombreuses interprétations.</p>
+                </person>
+                <person n="2">
+                    <p>Décrite par un N** dans la remarque 15, son identité laisse place à de nombreuses interprétations.</p>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+            <item>
+                <date when="2022-10-10">10 octobre 2022</date>Ajout de l'objectif “inform“ du manuscrit et du domaine “public“.
+                <interp>En faisant le choix de diffuser largement son oeuvre, Jean de la Bruyère souhaite formaliser une critique de certains comportements, ainsi, il renvoit une leçon sur l'attitude à avoir dans la sphère publique et entreprend un objectif ludique</interp>
+             </item>
+             <item>
+                <date when="2022-10-10">10 octobre 2022</date>Ajout de l'objectif “entertain“
+                <interp>Bien que ce ne soit pas son but premier, le texte a poussser sa forte audience à interpréter les personnages décrits et à enquêter sur leurs identités, cela a donc eu pour but de divertir les lecteurs qui étaient également les protagonistes de l'oeuvre</interp> 
+              </item>
+            </list>
+           </revisionDesc>
             <textDesc>
                 <channel></channel>
                 <constitution></constitution>
