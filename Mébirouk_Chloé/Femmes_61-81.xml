@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <teiHeader>
         <fileDesc>
@@ -92,6 +92,12 @@
                 <glyph xml:id="fr_pieddemouche">
                     <desc> ¶ </desc>
                 </glyph>
+                <glyph xml:id="fr_pieddemouche_pa">
+                    <desc> (¶) </desc>
+                </glyph>
+                <glyph xml:id="fr_pieddemouche_2pa">
+                    <desc> ((¶)) </desc>
+                </glyph>
             </charDecl>
         </encodingDesc>
         <revisionDesc>
@@ -174,7 +180,9 @@
                 </div2>
 
                 <div2 source="#Paris_1699_10_1 #Paris_1699_5_1">
-                    <p> (4) Quelques jeunes personnes ne <app> 
+                    <p> <g source="#Paris_1699_10_1" ref="#fr_pieddemouche"></g>
+                        <g source="#Paris_1690_5_1" ref="#fr_pieddemouche_pa" ></g>
+                        (4) Quelques jeunes personnes ne <app> 
                         <lem> connaissent </lem> 
                         <rdg wit ="#Paris_1699_10_1 #Paris_1690_5_1"> connoiſſent </rdg>
                     </app> point assez les avantages d’une
@@ -198,41 +206,71 @@
                 </div2>
 
                 <div2 source="#Paris_1699_10_1">
-                    <p> (5) Chez les femmes, se parer et se farder n’est pas, je <app>
+                    <p> <g source="#Paris_1699_10_1" ref="#fr_pieddemouche"></g>    
+                        (5) Chez les femmes, se parer et se farder n’est pas, je <app>
                        <lem> l’avoue </lem> 
+                       <rdg wit="#Paris_1699_10_1"> avoüe </rdg>
                     </app>, parler
                         contre sa pensée ; c’est plus aussi que le travestissement et la mascarade,
-                        où l’on ne se donne point pour ce que l’on paraît être, mais où l’on pense
+                        où l’on ne se donne point pour ce que l’on <app>
+                            <lem> paraît</lem>
+                            <rdg wit="#Paris_1699_10_1"> paroît </rdg>
+                        </app> être, mais où l’on pense
                         seulement à se cacher et à se faire ignorer : c’est chercher à imposer aux
-                        yeux, et vouloir paraître selon l’extérieur contre la vérité ; c’est une
+                        yeux, et vouloir <app> 
+                           <lem>paraître </lem> 
+                            <rdg wit="#Paris_1699_10_1"> paroître </rdg>
+                        </app> selon l’extérieur contre la vérité ; c’est une
                         espèce de menterie. Il faut juger des femmes depuis la chaussure jusqu’à la
-                        coiffure exclusivement, à peu près comme on mesure le poisson entre queue et
-                        tête. </p>
+                        <app> 
+                         <lem> coiffure </lem>
+                            <rdg wit="#Paris_1699_10_1"> coëffure </rdg>
+                        </app> exclusivement, à peu près comme on mesure le poisson entre <app> 
+                            <lem> queue </lem>
+                            <rdg wit="#Paris_1699_10_1"> queuë </rdg>
+                        </app> et tête. </p>
                 </div2>
 
                 <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
-                    <p> (6) Si les femmes veulent seulement être belles à leurs propres yeux et se
+                    <p> <g source="#Paris_1699_10_1" ref="#fr_pieddemouche"></g>
+                        <g source="#Paris_1690_5_1" ref="#fr_pieddemouche_2pa" ></g> 
+                        (6) Si les femmes veulent seulement être belles à leurs propres yeux et se
                         plaire à elles-mêmes, elles peuvent sans doute, dans la manière de
                         s’embellir, dans le choix des ajustements et de la parure, suivre leur goût
                         et leur caprice ; mais si c’est aux hommes qu’elles désirent de plaire, si
-                        c’est pour eux qu’elles se fardent ou qu’elles s’enluminent, j’ai recueilli
+                        c’est pour eux qu’elles se fardent ou qu’elles s’enluminent, <app> 
+                            <lem > j’ai recueilli </lem> 
+                            <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> j'ay recüilly </rdg>
+                        </app>
                         les voix, et je leur prononce, de la part de tous les hommes ou de la plus
                         grande partie, que le blanc et le rouge les rend affreuses et dégoûtantes ;
                         que le rouge seul les vieillit et les déguise ; qu’ils haïssent autant à les
                         voir avec de la céruse sur le visage, qu’avec de fausses dents en la bouche,
                         et des boules de cire dans les mâchoires ; qu’ils protestent sérieusement
-                        contre tout l’artifice dont elles usent pour se rendre laides ; et que, bien
+                        contre tout l’artifice dont elles usent <app> 
+                            <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> , </rdg>
+                        </app> pour se rendre laides ; et que bien
                         loin d’en répondre devant Dieu, il semble au contraire qu’il leur ait
-                        réservé ce dernier et infaillible moyen de guérir des femmes. (IV) Si les
-                        femmes étaient telles naturellement qu’elles le deviennent par un artifice,
+                        réservé ce dernier et infaillible moyen de <app> 
+                        <lem > guérir </lem> 
+                            <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> guerir </rdg>
+                        </app>des femmes. </p>
+                        <p> Si les femmes <app> 
+                       <lem> étaient </lem>
+                            <rdg wit="#Paris_1690_10_1"> étoient </rdg>
+                            <rdg wit="#Paris_1699_5_1"> eſtoient </rdg>
+                        </app> telles naturellement qu’elles le deviennent par un artifice,
                         qu’elles perdissent en un moment toute la fraîcheur de leur teint, qu’elles
-                        eussent le visage aussi allumé et aussi plombé qu’elles se le font par le
+                        eussent le visage aussi allumé <app> 
+                        <rdg wit="#Paris_1699_10_1"> et aussi plombé </rdg>
+                        </app> qu’elles se le font par le
                         rouge et par la peinture dont elles se fardent, elles seraient
                         inconsolables. </p>
                 </div2>
 
-                <div2>
-                    <p> (7) Une femme coquette ne se rend point sur la passion de plaire, et sur
+                <div2 source="#Paris_1699_10_1">
+                    <p> <g ref="#fr_pieddemouche"></g>
+                        (7) Une femme coquette ne se rend point sur la passion de plaire, et sur
                         l’opinion qu’elle a de sa beauté : elle regarde le temps et les années comme
                         quelque chose seulement qui ride et qui enlaidit les autres femmes ; elle
                         oublie du moins que l’âge est écrit sur le visage. La même parure qui a
@@ -242,77 +280,130 @@
                     </p>
                 </div2>
 
-                <div2>
-                    <p> (8) Lise entend dire d’une autre coquette qu’elle se moque de se piquer de
+                <div2 source="#Paris_1699_10_1">
+                    <p> (8) Lise entend dire d’une autre coquette qu’elle se <app> 
+                    <lem> moque </lem>
+                        <rdg> mocque </rdg>
+                    </app> de se piquer de
                         jeunesse, et de vouloir user d’ajustements qui ne conviennent plus à une
-                        femme de quarante ans. Lise les a accomplis ; mais les années pour elle ont
-                        moins de douze mois, et ne la vieillissent point : elle le croit ainsi, et
+                        femme de quarante ans <app> 
+                        <lem> . </lem> 
+                            <rdg wit="#Paris_1699_10_1"> ; </rdg>
+                        </app> Lise les a accomplis <app>
+                         <lem> ; </lem> 
+                            <rdg wit="#Paris_1699_10_1"> , </rdg>
+                        </app>
+                         mais les années pour elle ont
+                        moins de douze mois, et ne la vieillissent point <app> 
+                        <lem> : </lem>
+                            <rdg wit="#Paris_1699_10_1"> ; </rdg>
+                        </app> elle le croit ainsi, et
                         pendant qu’elle se regarde au miroir, qu’elle met du rouge sur son visage et
                         qu’elle place des mouches, elle convient qu’il n’est pas permis à un certain
                         âge de faire la jeune, et que Clarice en effet, avec ses mouches et son
                         rouge, est ridicule. </p>
                 </div2>
 
-                <div2>
-                    <p> (9) Les femmes se préparent pour leurs amants, si elles les attendent ; mais
+                <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
+                    <p> <g source="#Paris_1699_10_1" ref="#fr_pieddemouche"></g>
+                        <g source="#Paris_1690_5_1" ref="#fr_pieddemouche_pa" ></g> 
+                        (9) Les femmes se préparent pour leurs <app> 
+                        <lem> amants </lem>
+                            <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> amans </rdg>
+                        </app>, si elles les attendent ; mais
                         si elles en sont surprises, elles oublient à leur arrivée l’état où elles se
-                        trouvent ; elles ne se voient plus. Elles ont plus de loisir avec les
-                        indifférents ; elles sentent le désordre où elles sont, s’ajustent en leur
-                        présence, ou disparaissent un moment, et reviennent parées. </p>
+                        trouvent ; elles ne se <app> 
+                        <lem> voient  </lem>
+                            <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> voyent </rdg>
+                        </app>
+                        plus. Elles ont plus de loisir avec les <app> 
+                        <lem> indifférents </lem>
+                            <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> indifferens </rdg>
+                        </app>
+                         ; elles sentent le désordre où elles sont, s’ajustent en leur
+                        présence, ou <app> 
+                        <lem> disparaissent </lem>
+                            <rdg wit="#Paris_1690_5_1 #Paris_1699_10_1"> diſparoiſſent </rdg>
+                        </app> un moment, et reviennent parées. </p>
                 </div2>
 
-                <div2>
-                    <p> (10) Un beau visage est le plus beau de tous les spectacles ; et l’harmonie
+                <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
+                    <p> <g ref="#fr_pieddemouche"></g>
+                        (10) Un beau visage est le plus beau de tous les spectacles <app> 
+                        <lem> ; </lem>
+                            <rdg wit="#Paris_1699_10_1"> : </rdg>
+                        </app> et l’harmonie
                         la plus douce est le son de voix de celle que l’on aime. </p>
                 </div2>
 
-                <div2>
-                    <p> (11) L’agrément est arbitraire la beauté est quelque chose de plus réel et
+                <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
+                    <p> <g source="#Paris_1699_10_1" ref="#fr_pieddemouche"></g>
+                        <g source="#Paris_1690_5_1" ref="#fr_pieddemouche_pa" ></g>
+                        (11) <app> 
+                        <lem > L’agrément </lem>
+                            <rdg wit="#Paris_1690_5_1"> l'agréement </rdg>
+                        </app> est arbitraire <app> 
+                        <rdg wit="#Paris_1690_5_1 #Paris_1699_10_1"> : </rdg>
+                        </app>la beauté est quelque chose de plus réel et
                         de plus indépendant du goût et de l’opinion. </p>
                 </div2>
 
-                <div2>
-                    <p> (12) I2 L’on peut être touché de certaines beautés si parfaites et d’un
+                <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
+                    <p> <g ref="#fr_pieddemouche"></g>
+                        (12) L’on peut être touché de certaines <app>
+                            <lem > beautés </lem>
+                            <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> beautez </rdg>
+                        </app> si parfaites et d’un
                         mérite si éclatant, que l’on se borne à les voir et à leur parler. </p>
                 </div2>
 
-                <div2>
-                    <p> (13) Une belle femme qui a les qualités d’un honnête homme est ce qu’il y a
-                        au monde d’un commerce plus délicieux : l’on trouve en elle tout le mérite
+                <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
+                    <p> <g ref="#fr_pieddemouche"></g>
+                        (13) Une belle femme qui a les <app> 
+                        <lem> qualités </lem>
+                            <rdg wit="#Paris_1690_5_1 #Paris_1699_10_1"> qualitez </rdg>
+                        </app> d’un honnête homme est ce qu’il y a
+                        au monde d’un commerce plus délicieux <app> 
+                        <lem> : </lem>
+                            <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> ; </rdg>
+                        </app> l’on trouve en elle tout le <app> 
+                        <lem> mérite </lem>
+                            <rdg wit="#Paris_1690_5_1 #Paris_1699_10_1"> merite </rdg>
+                        </app>
                         des deux sexes. </p>
                 </div2>
 
-                <div2>
+                <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
                     <p> (14) Il échappe à une jeune personne de petites choses qui persuadent
                         beaucoup, et qui flattent sensiblement celui pour qui elles sont faites. Il
                         n’échappe presque rien aux hommes ; leurs caresses sont volontaires ; ils
                         parlent, ils agissent, ils sont empressés, et persuadent moins. </p>
                 </div2>
 
-                <div2>
+                <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
                     <p> (15) Le caprice est dans les femmes tout proche de la beauté, pour être son
                         contre-poison, et afin qu’elle nuise moins aux hommes, qui n’en guériraient
                         pas sans remède. </p>
                 </div2>
 
-                <div2>
+                <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
                     <p> (16) Les femmes s’attachent aux hommes par les faveurs qu’elles leur
                         accordent : les hommes guérissent par ces mêmes faveurs. </p>
                 </div2>
 
-                <div2>
+                <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
                     <p> (17) Une femme oublie d’un homme qu’elle n’aime plus jusques aux faveurs
                         qu’il a reçues d’elle. </p>
                 </div2>
 
-                <div2>
+                <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
                     <p> (18) Une femme qui n’a qu’un galant croit n’être point coquette ; celle qui
                         a plusieurs galants croit n’être que coquette. Telle femme évite d’être
                         coquette par un ferme attachement à un seul, qui passe pour folle par son
                         mauvais choix. </p>
                 </div2>
 
-                <div2>
+                <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
                     <p> (19) Un ancien galant tient à si peu de chose, qu’il cède à un nouveau mari
                         ; et celui-ci dure si peu, qu’un nouveau galant qui survient lui rend le
                         change. Un ancien galant craint ou méprise un nouveau rival, selon le
@@ -321,7 +412,7 @@
                         beaucoup, et il serait mille fois perdu sans cette circonstance. </p>
                 </div2>
 
-                <div2>
+                <div2 source="#Paris_1699_10_1 #Paris_1690_5_1">
                     <p> (20) Il semble que la galanterie dans une femme ajoute à la coquetterie. Un
                         homme coquet au contraire est quelque chose de pire qu’un homme galant.
                         L’homme coquet et la femme galante vont assez de pair. </p>
