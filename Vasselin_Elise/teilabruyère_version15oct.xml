@@ -1,96 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0"> 
     
     <teiHeader>
         
-    <fileDesc>
-        <titleStmt>
-            <title></title>
-        </titleStmt>
-        <publicationStmt>
-            <p> </p>
-        </publicationStmt>
-        <sourceDesc> <bibl></bibl></sourceDesc>
-    </fileDesc>
- 
-       </teiHeader>   
-    
-    <fileDesc>
-        <titleStmt>
-            <title> 
-            </title>
-        </titleStmt>
-        <publicationStmt> 
-            <authority>  </authority>
-        </publicationStmt>
-        
-        
-        <sourceDesc>
-            <title> Les caractères de Théophraste traduits du grec. Avec les caractères ou les moeurs de ce siècle. </title>
-            <biblStruct>
-                <monogr>
-                    <author> Jean de La Bruyère </author>
-                    <editor> Estienne Michallet </editor> 
-                    <idno> BNF GALLICA </idno>
+        <fileDesc>
+            <titleStmt>
+                <title> 
+                </title>
+            </titleStmt>
+            <publicationStmt> 
+                <authority>  </authority>
+            </publicationStmt>
+          
+            
+            <sourceDesc>
+                <title> Les caractères de Théophraste traduits du grec. Avec les caractères ou les moeurs de ce siècle. </title>
+                <biblStruct>
+                    <monogr>
+                            <author> Jean de La Bruyère </author>
+                            <editor> Estienne Michallet </editor> 
+                  <idno> BNF GALLICA </idno>
                     <imprint> 
                         <pubPlace> rue St Jacques à l'Image St Paul, Paris </pubPlace>
                         <distributor> Estienne Michallet </distributor> <ednumber> première édition </ednumber>
                         <date> 1688 </date>  
                     </imprint>
-                    
-                    <monogr xml:id="Paris_1688_1"> </monogr>
-                   
-            
-            
-            <monogr>
-                <author> Jean de La Bruyère </author>
-                <note> La Bruyère, Jean de </note>
-                <editor> Estienne Michallet </editor> 
-                <idno> BNF GALLICA </idno>
-                <imprint> 
-                    <pubPlace> ruë St Jacques à l'Image St Paul, Paris </pubPlace>
-                    <distributor> Estienne Michallet </distributor> <ednumber> troisième édition </ednumber>
-                    <date> 1688 </date>  
-                </imprint>
-                <monogr xml:id="Paris_1688_3"> </monogr>
-            </monogr> 
-            
-            <monogr>
-                <author> Jean de La Bruyère </author>
-                <note> La Bruyère, Jean de </note>
-                <editor> Estienne Michallet </editor> 
-                <idno> BNF GALLICA </idno>
-                <imprint> 
-                    <pubPlace> ruë St Jacques à l'Image St Paul, Paris </pubPlace>
-                    <distributor> Estienne Michallet </distributor> <ednumber> septième édition </ednumber>
-                    <note> "revue et corrigée" </note>
-                    <date> 1692 </date>  
-                </imprint>
-                <monogr xml:id="Paris_1692_7"> </monogr>
-            </monogr>
-            
-            <monogr>
-                <author> Jean de La Bruyère </author>
-                <note> La Bruyère, Jean de </note>
-                <editor> Estienne Michallet </editor> 
-                <idno> BNF GALLICA </idno>
-                <imprint> 
-                    <pubPlace> ruë St Jacques à l'Image St Paul, Paris </pubPlace>
-                    <distributor> Estienne Michallet </distributor> <ednumber> dixième édition </ednumber>
-                    <note> deux tampons ajoutés dont l'un de la "city of washignton" </note>
-                    <date> 1699 </date>  
-                </imprint>
-                <monogr xml:id="Paris_1699_10"></monogr>
-            </monogr>
-            
-            </biblStruct>
-        </sourceDesc>
+               
+                </monogr> 
+                    </biblStruct>
+                <biblStruct xml:id="Paris_1688_1"> 
+                </biblStruct>   
+                
+                
+            </sourceDesc>
+      
+        </fileDesc>
         
-        
-        
-    </fileDesc>
-    
     <profileDesc>
         
         <textDesc>
@@ -98,167 +45,112 @@
             <constitution></constitution>
             <derivation></derivation>
             <domain></domain>
-            <factuality type="fact">
+                 <factuality type="fact">
                 
-            </factuality>
+                 </factuality>
             <interaction></interaction>
             <preparedness></preparedness>
             <purpose></purpose>
         </textDesc>
         
-        <langUsage ident"fra"> français du 18ème siècle
-        </langUsage>  
-        <langUsage ident"lat"> 
-        </langUsage>
-        
-        
+               <langUsage ident"fra"> français du 18ème siècle
+               </langUsage>  
+                <langUsage ident"lat"> 
+                </langUsage>
+               
+                   
     </profileDesc>
+         
+        <revisionDesc>
+        
+         </revisionDesc>
+  
+        <encodingDesc>
+            
+        </encodingDesc>
     
-    <revisionDesc>
-        La troisième édition de 1688 rajoute à l'écrit "La Bruyère, Jean de". 
-        L'auteur a comme testé son public et se sent maintenant de montrer explicitement qu'il est l'auteur de cet ouvrage.
-        La septième édition est annotée de "revue et corrigée", chose dont on se doute après cette septième réédition, mais que 
-        l'auteur se sent peut-être de préciser.
-        La dixième édition est agrémentée de deux tampons qui aident à valider et légitimer l'ouvrage de la Bruyère, et surtout ses nombreuses
-        rééditions. Cela conforte le public, l'auteur, et tous ceux qui participent à la vie de cet ouvrage, à continuer de perpétrer son dynamisme.
-    </revisionDesc>
-    
-    <encodingDesc>
-        J'ai trouvé une balise de contenu manuscript "MsContents", utilisé la balise "objet" à l'intérieur de cette balise et écrit "flyfoot" qui signifie pied-de-mouche. 
-        J'ai copié-collé ces balises à chaque nouvelle remarque.
-    </encodingDesc>
-    
-    <editorialDesc>
-        On choisit le texte actuel de La Bruyère que l'on compare majoritairement avec la première édition et la septième, pour bien voir les évolutions.
-    </editorialDesc>
-    
-    
-   
+    </teiHeader>   
     <text>
         
     <front> 
-      
-        <titlePage>
-            <docTitle>
-                <titlePart type="main">Les caractères ou les moeurs de ce siècle </titlePart>
-                <titlePart style="bold_black"> Les caractères de Théophraste </titlePart>
-                <titlePart style="bold_black"> Les caractères ou les moeurs </titlePart>
-                <titlePart type="sub">Les caractères de Théophraste traduits du grec : avec </titlePart>
-            </docTitle>
-            <docEdition n="1"> première édition </docEdition>
-            <byline>Par <docAuthor> Jean de la Bruyère </docAuthor>
-            </byline>
-            <docImprint>
-                <name>PARIS</name>, <name> Estienne Michallet </name> 
-                <name> ruë St Jacques, à l'Image saint Paul</name>
-            </docImprint>
-            <docDate when="1688">MDCLXXXVIII</docDate>  
-            <imprimatur style="italique"> Avec privilèges de sa Majesté </imprimatur>
-           
-                <docAuthor source="Paris_1688_1">  </docAuthor>
-        </titlePage>
+        Les cracatères de Théophraste traduits du grec. Avec les caractères ou les moeurs de ce siècle.
+        par Jean de La Bruyère, imprimé rue St Jacques à l'Image St Paul, Paris, par Estienne Michallet. 
+        Première édition, 1688.
         
     </front>
         <body>
-            <div1>
-           <p> Des Grands </p>
-   
-            <div2>
-                <!-- Votre encodage est très atypique (pourquoi utiliser msContent sur de l'imprimé?) mais j'aiem beaucoup vos recherches, et le fait d'avoir renseigné les raisons de cet encodage -->
-               
-                    <p>
-                   
-                    (1)
-                    La prévention du peuple en faveur des grands est si aveugle, et l’entêtement pour leur geste, leur visage, leur ton de voix et leurs manières si général, que, s’ils s’avisaient d’être bons, cela irait à l’idolâtrie.
-                  
-                    (2)
-                    Si vous êtes né vicieux, ô Théagène, je vous plains ; si vous le devenez par faiblesse pour ceux qui ont intérêt que vous le soyez, qui ont juré entre eux de vous corrompre, et qui se vantent déjà de pouvoir y réussir, souffrez que je vous méprise. Mais si vous êtes sage, tempérant, modeste, civil, généreux, reconnaissant, laborieux, d’un rang d’ailleurs et d’une naissance à donner des exemples plutôt qu’à les prendre d’autrui, et à faire les règles plutôt qu’à les recevoir, convenez avec cette sorte de gens de suivre par complaisance leurs dérèglements, leurs vices et leur folie, quand ils auront, par la déférence qu’ils vous doivent, exercé toutes les vertus que vous chérissez : ironie forte, mais utile, très propre à mettre vos mœurs en sûreté, à renverser tous leurs projets, et à les jeter dans le parti de continuer d’être ce qu’ils sont, et de vous laisser tel que vous êtes.
-                     <msContents> <object> flyfoot </object> </msContents>
-                    (3)
-                    L’avantage des grands sur les autres hommes est immense par un endroit : je leur cède leur bonne chère, leurs riches ameublements, leurs chiens, leurs chevaux, leurs singes, leurs nains, leurs fous et leurs flatteurs ; mais je leur envie le bonheur d’avoir à leur service des gens qui les égalent par le cœur et par l’esprit, et qui les passent quelquefois.
-                     <msContents> <object> flyfoot </object> </msContents>
-                    (4)
-                    Les grands se piquent d’ouvrir une allée dans une forêt, de soutenir des terres par de longues murailles, de dorer des plafonds, de faire venir dix pouces d’eau, de meubler une orangerie ; mais de rendre un cœur content, de combler une âme de joie, de prévenir d’extrêmes besoins ou d’y remédier, leur curiosité ne s’étend point jusque-là.
-                     <msContents> <object> flyfoot </object> </msContents>  
-    <sourceDesc> 
-    
-    <annotation xml:id="Paris_1688_1">  Ces 4 premières remarques sont présentes dès la première édition.</annotation>
-    </sourceDesc>
-
-                   
-                     <msContents> <object> flyfoot </object> </msContents> 
-                    (5)
-                    On demande si en comparant ensemble les différentes conditions des hommes, leurs peines, leurs avantages, on n’y remarquerait pas un mélange ou une espèce de compensation de bien et de mal, qui établirait entre elles l’égalité, ou qui ferait du moins que l’un ne serait guère plus désirable que l’autre. Celui qui est puissant, riche, et à qui il ne manque rien, peut former cette question ; mais il faut que ce soit un homme pauvre qui la décide.
-                    Il ne laisse pas d’y avoir comme un charme attaché à chacune des différentes conditions, et qui y demeure jusques à ce que la misère l’en ait ôté. Ainsi les grands se plaisent dans l’excès, et les petits aiment la modération ; ceux-là ont le goût de dominer et de commander, et ceux-ci sentent du plaisir et même de la vanité à les servir et à leur obéir ; les grands sont entourés, salués, respectés ; les petits entourent, saluent, se prosternent ; et tous sont contents.
-                    
-                  <msContents> <object> flyfoot </object> </msContents>   
-                    (6)
-                    Il coûte si peu aux grands à ne donner que des paroles, et leur condition les dispense si fort de tenir les belles promesses qu’ils vous ont faites, que c’est modestie à eux de ne promettre pas encore plus largement.
-                     <msContents> <object> flyfoot </object> </msContents>
-                    (7)
-                    « Il est vieux et usé, dit un grand ; il s’est crevé à me suivre : qu’en faire ? » Un autre, plus jeune, enlève ses espérances, et obtient le poste qu’on ne refuse à ce malheureux que parce qu’il l’a trop mérité.
-                     <msContents> <object> flyfoot </object> </msContents>
-                    (8)
-                    « Je ne sais, dites-vous avec un air froid et dédaigneux, Philante a du mérite, de l’esprit, de l’agrément, de l’exactitude sur son devoir, de la fidélité et de l’attachement pour son maître, et il en est médiocrement considéré ; il ne plaît pas, il n’est pas goûté. » — Expliquez-vous : est-ce Philanthe, ou le grand qu’il sert, que vous condamnez ?
-                   <msContents> <object> flyfoot </object> </msContents>  
-                    (9)
-                    Il est souvent plus utile de quitter les grands que de s’en plaindre.
-                    <msContents> <object> flyfoot </object> </msContents> 
-                    (10)
-                    Qui peut dire pourquoi quelques-uns ont le gros lot, ou quelques autres la faveur des grands ?
-                   <msContents> <object> flyfoot </object> </msContents>  
-                    (11)
-                    Les grands sont si heureux, qu’ils n’essuient pas même, dans toute leur vie, l’inconvénient de regretter la perte de leurs meilleurs serviteurs, ou des personnes illustres dans leur genre, et dont ils ont tiré le plus de plaisir et le plus d’utilité. La première chose que la flatterie sait faire, après la mort de ces hommes uniques, et qui ne se réparent point, est de leur supposer des endroits faibles, dont elle prétend que ceux qui leur succèdent sont très exempts : elle assure que l’un, avec toute la capacité et toutes les lumières de l’autre, dont il prend la place, n’en a point les défauts ; et ce style sert aux princes à se consoler du grand et de l’excellent par le médiocre.
-                   <msContents> <object> flyfoot </object> </msContents>  
-                    (12)
-                    Les grands dédaignent les gens d’esprit qui n’ont que de l’esprit ; les gens d’esprit méprisent les grands qui n’ont que de la grandeur. Les gens de bien plaignent les uns et les autres, qui ont ou de la grandeur ou de l’esprit, sans nulle vertu.
-                    
-                     
-        <annotation xml:id="Paris_1688_1"> Cette remarque est présente dans la première édition </annotation>
- <msContents> <object> flyfoot </object> </msContents>
-                    (13)
-                    Quand je vois d’une part auprès des grands, à leur table, et quelquefois dans leur familiarité, de ces hommes alertes, empressés, intrigants, aventuriers, esprits dangereux et nuisibles, et que je considère d’autre part quelle peine ont les personnes de mérite à en approcher, je ne suis pas toujours disposé à croire que les méchants soient soufferts par intérêt, ou que les gens de bien soient regardés comme inutiles ; je trouve plus mon compte à me confirmer dans cette pensée, que grandeur et discernement sont deux choses différentes, et l’amour pour la vertu et pour les vertueux une troisième chose.
-                    <msContents> <object> flyfoot </object> </msContents> 
-                    (14)
-                    Lucile aime mieux user sa vie à se faire supporter de quelques grands, que d’être réduit à vivre familièrement avec ses égaux.
-                    La règle de voir de plus grands que soi doit avoir ses restrictions. Il faut quelquefois d’étranges talents pour la réduire en pratique. 
-                    <msContents> <object> flyfoot </object> </msContents> 
-                    (15)
-                    Quelle est l’incurable maladie de Théophile ? Elle lui dure depuis plus de trente années, il ne guérit point : il a voulu, il veut, et il voudra gouverner les grands ; la mort seule lui ôtera avec la vie cette soif d’empire et d’ascendant sur les esprits. Est-ce en lui zèle du prochain ? est-ce habitude ? est-ce une excessive opinion de soi-même ? Il n’y a point de palais où il ne s’insinue ; ce n’est pas au milieu d’une chambre qu’il s’arrête : il passe à une embrasure ou au cabinet ; on attend qu’il ait parlé, et longtemps et avec action, pour avoir audience, pour être vu. Il entre dans le secret des familles ; il est de quelque chose dans tout ce qui leur arrive de triste ou d’avantageux ; il prévient, il s’offre, il se fait de fête, il faut l’admettre. Ce n’est pas assez pour remplir son temps ou son ambition, que le soin de dix mille âmes dont il répond à Dieu comme de la sienne propre : il y en a d’un plus haut rang et d’une plus grande distinction dont il ne doit aucun compte, et dont il se charge plus volontiers. Il écoute, il veille sur tout ce qui peut servir de pâture à son esprit d’intrigue, de médiation et de manège. À peine un grand est-il débarqué, qu’il l’empoigne et s’en saisit ; on entend plus tôt dire à Théophile qu’il le gouverne, qu’on n’a pu soupçonner qu’il pensait à le gouverner.
-                   <msContents> <object> flyfoot </object> </msContents>  
-                    (16)
-                    Une froideur ou une incivilité qui vient de ceux qui sont au-dessus de nous nous les fait haïr, mais un salut ou un sourire nous les réconcilie.
-                    
-         <annotation xml:id="Paris_1688_1"> Cette remarque est présente dans la première édition. </annotation>
- <msContents> <object> flyfoot </object> </msContents>
-                    (17)
-                    Il y a des hommes superbes, que l’élévation de leurs rivaux humilie et apprivoise ; ils en viennent, par cette disgrâce, jusqu’à rendre le salut ; mais le temps, qui adoucit toutes choses, les remet enfin dans leur naturel.
-                    <msContents> <object> flyfoot </object> </msContents> 
-                    (18)
-                    Le mépris que les grands ont pour le peuple les rend indifférents sur les flatteries ou sur les louanges qu’ils en reçoivent, et tempère leur vanité. De même les princes, loués sans fin et sans relâche des grands ou des courtisans, en seraient plus vains s’ils estimaient davantage ceux qui les louent.
-                  <msContents> <object> flyfoot </object> </msContents>   
-                    (19)
-                    Les grands croient être seuls parfaits, n’admettent qu’à peine dans les autres hommes la droiture d’esprit, l’habileté, la délicatesse, et s’emparent de ces riches talents comme de choses dues à leur naissance. C’est cependant en eux une erreur grossière de se nourrir de si fausses préventions : ce qu’il y a jamais eu de mieux pensé, de mieux dit, de mieux écrit, et peut-être d’une conduite plus délicate, ne nous est pas toujours venu de leur fonds. Ils ont de grands domaines, et une longue suite d’ancêtres : cela ne leur peut être contesté.
-                  <msContents> <object> flyfoot </object> </msContents>   
-                    (20)
-                    Avez-vous de l’esprit, de la grandeur, de l’habileté, du goût, du discernement ? en croirai-je la prévention et la flatterie, qui publient hardiment votre mérite ? Elles me sont suspectes, et je les récuse. Me laisserai-je éblouir par un air de capacité ou de hauteur qui vous met au-dessus de tout ce qui se fait, de ce qui se dit et de ce qui s’écrit ; qui vous rend sec sur les louanges, et empêche qu’on ne puisse arracher de vous la moindre approbation ? Je conclus de là plus naturellement que vous avez de la faveur, du crédit et de grandes richesses. Quel moyen de vous définir, Téléphon ? on n’approche de vous que comme du feu, et dans une certaine distance, et il faudrait vous développer, vous manier, vous confronter avec vos pareils, pour porter de vous un jugement sain et raisonnable. Votre homme de confiance, qui est dans votre familiarité, dont vous prenez conseil, pour qui vous quittez Socrate et Aristide, avec qui vous riez, et qui rit plus haut que vous, Dave enfin, m’est très connu : serait-ce assez pour vous bien connaître ?
-             <annotation xml:id="Paris_1688_1"> Ces deux dernières remarques sont présentes dès la première édition. La 20 ème remarque de l'édition 1 commence ainsi 
-             " Si les Grands ont les occasions •••" Cette 20ème remarque étant la 52ème dans la septième édition.</annotation>
-               
-                <annotation xml:id="Paris_1692_7"> La septième édition comporte le même texte que celui inscrit ici. </annotation>
-                    </p>
-                    </div2>
-                     </div1> 
+            <p>
+                Des Grands
+                (1)
+                La prévention du peuple en faveur des grands est si aveugle, et l’entêtement pour leur geste, leur visage, leur ton de voix et leurs manières si général, que, s’ils s’avisaient d’être bons, cela irait à l’idolâtrie.
                 
-                   
-       
+                (2)
+                Si vous êtes né vicieux, ô Théagène, je vous plains ; si vous le devenez par faiblesse pour ceux qui ont intérêt que vous le soyez, qui ont juré entre eux de vous corrompre, et qui se vantent déjà de pouvoir y réussir, souffrez que je vous méprise. Mais si vous êtes sage, tempérant, modeste, civil, généreux, reconnaissant, laborieux, d’un rang d’ailleurs et d’une naissance à donner des exemples plutôt qu’à les prendre d’autrui, et à faire les règles plutôt qu’à les recevoir, convenez avec cette sorte de gens de suivre par complaisance leurs dérèglements, leurs vices et leur folie, quand ils auront, par la déférence qu’ils vous doivent, exercé toutes les vertus que vous chérissez : ironie forte, mais utile, très propre à mettre vos mœurs en sûreté, à renverser tous leurs projets, et à les jeter dans le parti de continuer d’être ce qu’ils sont, et de vous laisser tel que vous êtes.
+                
+                (3)
+                L’avantage des grands sur les autres hommes est immense par un endroit : je leur cède leur bonne chère, leurs riches ameublements, leurs chiens, leurs chevaux, leurs singes, leurs nains, leurs fous et leurs flatteurs ; mais je leur envie le bonheur d’avoir à leur service des gens qui les égalent par le cœur et par l’esprit, et qui les passent quelquefois.
+                
+                (4)
+                Les grands se piquent d’ouvrir une allée dans une forêt, de soutenir des terres par de longues murailles, de dorer des plafonds, de faire venir dix pouces d’eau, de meubler une orangerie ; mais de rendre un cœur content, de combler une âme de joie, de prévenir d’extrêmes besoins ou d’y remédier, leur curiosité ne s’étend point jusque-là.
+                
+                (5)
+                On demande si en comparant ensemble les différentes conditions des hommes, leurs peines, leurs avantages, on n’y remarquerait pas un mélange ou une espèce de compensation de bien et de mal, qui établirait entre elles l’égalité, ou qui ferait du moins que l’un ne serait guère plus désirable que l’autre. Celui qui est puissant, riche, et à qui il ne manque rien, peut former cette question ; mais il faut que ce soit un homme pauvre qui la décide.
+                Il ne laisse pas d’y avoir comme un charme attaché à chacune des différentes conditions, et qui y demeure jusques à ce que la misère l’en ait ôté. Ainsi les grands se plaisent dans l’excès, et les petits aiment la modération ; ceux-là ont le goût de dominer et de commander, et ceux-ci sentent du plaisir et même de la vanité à les servir et à leur obéir ; les grands sont entourés, salués, respectés ; les petits entourent, saluent, se prosternent ; et tous sont contents.
+                
+                
+                (6)
+                Il coûte si peu aux grands à ne donner que des paroles, et leur condition les dispense si fort de tenir les belles promesses qu’ils vous ont faites, que c’est modestie à eux de ne promettre pas encore plus largement.
+                
+                (7)
+                « Il est vieux et usé, dit un grand ; il s’est crevé à me suivre : qu’en faire ? » Un autre, plus jeune, enlève ses espérances, et obtient le poste qu’on ne refuse à ce malheureux que parce qu’il l’a trop mérité.
+                
+                (8)
+                « Je ne sais, dites-vous avec un air froid et dédaigneux, Philante a du mérite, de l’esprit, de l’agrément, de l’exactitude sur son devoir, de la fidélité et de l’attachement pour son maître, et il en est médiocrement considéré ; il ne plaît pas, il n’est pas goûté. » — Expliquez-vous : est-ce Philanthe, ou le grand qu’il sert, que vous condamnez ?
+                
+                (9)
+                Il est souvent plus utile de quitter les grands que de s’en plaindre.
+                
+                (10)
+                Qui peut dire pourquoi quelques-uns ont le gros lot, ou quelques autres la faveur des grands ?
+                
+                (11)
+                Les grands sont si heureux, qu’ils n’essuient pas même, dans toute leur vie, l’inconvénient de regretter la perte de leurs meilleurs serviteurs, ou des personnes illustres dans leur genre, et dont ils ont tiré le plus de plaisir et le plus d’utilité. La première chose que la flatterie sait faire, après la mort de ces hommes uniques, et qui ne se réparent point, est de leur supposer des endroits faibles, dont elle prétend que ceux qui leur succèdent sont très exempts : elle assure que l’un, avec toute la capacité et toutes les lumières de l’autre, dont il prend la place, n’en a point les défauts ; et ce style sert aux princes à se consoler du grand et de l’excellent par le médiocre.
+                
+                (12)
+                Les grands dédaignent les gens d’esprit qui n’ont que de l’esprit ; les gens d’esprit méprisent les grands qui n’ont que de la grandeur. Les gens de bien plaignent les uns et les autres, qui ont ou de la grandeur ou de l’esprit, sans nulle vertu.
+                
+                (13)
+                Quand je vois d’une part auprès des grands, à leur table, et quelquefois dans leur familiarité, de ces hommes alertes, empressés, intrigants, aventuriers, esprits dangereux et nuisibles, et que je considère d’autre part quelle peine ont les personnes de mérite à en approcher, je ne suis pas toujours disposé à croire que les méchants soient soufferts par intérêt, ou que les gens de bien soient regardés comme inutiles ; je trouve plus mon compte à me confirmer dans cette pensée, que grandeur et discernement sont deux choses différentes, et l’amour pour la vertu et pour les vertueux une troisième chose.
+                
+                (14)
+                Lucile aime mieux user sa vie à se faire supporter de quelques grands, que d’être réduit à vivre familièrement avec ses égaux.
+                La règle de voir de plus grands que soi doit avoir ses restrictions. Il faut quelquefois d’étranges talents pour la réduire en pratique. 
+                
+                (15)
+                Quelle est l’incurable maladie de Théophile ? Elle lui dure depuis plus de trente années, il ne guérit point : il a voulu, il veut, et il voudra gouverner les grands ; la mort seule lui ôtera avec la vie cette soif d’empire et d’ascendant sur les esprits. Est-ce en lui zèle du prochain ? est-ce habitude ? est-ce une excessive opinion de soi-même ? Il n’y a point de palais où il ne s’insinue ; ce n’est pas au milieu d’une chambre qu’il s’arrête : il passe à une embrasure ou au cabinet ; on attend qu’il ait parlé, et longtemps et avec action, pour avoir audience, pour être vu. Il entre dans le secret des familles ; il est de quelque chose dans tout ce qui leur arrive de triste ou d’avantageux ; il prévient, il s’offre, il se fait de fête, il faut l’admettre. Ce n’est pas assez pour remplir son temps ou son ambition, que le soin de dix mille âmes dont il répond à Dieu comme de la sienne propre : il y en a d’un plus haut rang et d’une plus grande distinction dont il ne doit aucun compte, et dont il se charge plus volontiers. Il écoute, il veille sur tout ce qui peut servir de pâture à son esprit d’intrigue, de médiation et de manège. À peine un grand est-il débarqué, qu’il l’empoigne et s’en saisit ; on entend plus tôt dire à Théophile qu’il le gouverne, qu’on n’a pu soupçonner qu’il pensait à le gouverner.
+                
+                (16)
+                Une froideur ou une incivilité qui vient de ceux qui sont au-dessus de nous nous les fait haïr, mais un salut ou un sourire nous les réconcilie.
+                
+                (17)
+                Il y a des hommes superbes, que l’élévation de leurs rivaux humilie et apprivoise ; ils en viennent, par cette disgrâce, jusqu’à rendre le salut ; mais le temps, qui adoucit toutes choses, les remet enfin dans leur naturel.
+                
+                (18)
+                Le mépris que les grands ont pour le peuple les rend indifférents sur les flatteries ou sur les louanges qu’ils en reçoivent, et tempère leur vanité. De même les princes, loués sans fin et sans relâche des grands ou des courtisans, en seraient plus vains s’ils estimaient davantage ceux qui les louent.
+                
+                (19)
+                Les grands croient être seuls parfaits, n’admettent qu’à peine dans les autres hommes la droiture d’esprit, l’habileté, la délicatesse, et s’emparent de ces riches talents comme de choses dues à leur naissance. C’est cependant en eux une erreur grossière de se nourrir de si fausses préventions : ce qu’il y a jamais eu de mieux pensé, de mieux dit, de mieux écrit, et peut-être d’une conduite plus délicate, ne nous est pas toujours venu de leur fonds. Ils ont de grands domaines, et une longue suite d’ancêtres : cela ne leur peut être contesté.
+                
+                (20)
+                Avez-vous de l’esprit, de la grandeur, de l’habileté, du goût, du discernement ? en croirai-je la prévention et la flatterie, qui publient hardiment votre mérite ? Elles me sont suspectes, et je les récuse. Me laisserai-je éblouir par un air de capacité ou de hauteur qui vous met au-dessus de tout ce qui se fait, de ce qui se dit et de ce qui s’écrit ; qui vous rend sec sur les louanges, et empêche qu’on ne puisse arracher de vous la moindre approbation ? Je conclus de là plus naturellement que vous avez de la faveur, du crédit et de grandes richesses. Quel moyen de vous définir, Téléphon ? on n’approche de vous que comme du feu, et dans une certaine distance, et il faudrait vous développer, vous manier, vous confronter avec vos pareils, pour porter de vous un jugement sain et raisonnable. Votre homme de confiance, qui est dans votre familiarité, dont vous prenez conseil, pour qui vous quittez Socrate et Aristide, avec qui vous riez, et qui rit plus haut que vous, Dave enfin, m’est très connu : serait-ce assez pour vous bien connaître ?
+                
+            </p>
         </body>
         
     </text>
     
     
     
-    
-    
-    
 </TEI>
+    
+  
