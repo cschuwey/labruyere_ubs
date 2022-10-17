@@ -18,7 +18,16 @@
                             <publisher>Garnier Frères</publisher>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k5516042p.r=caract%C3%A8res%20la%20bruy%C3%A8re?rk=21459;2</pubPlace>
                         </imprint>
-                    </monogr>   
+                    </monogr> 
+                    <monogr xml:id="Paris_1691_ed6"> 
+                        <author ref="https://data.bnf.fr/11910249/">Jean de La Bruyère</author>
+                        <title>Les Caractères de Théophraste, traduits de grec, avec les Caractères ou les moeurs de ce siècle</title>
+                         <imprint xml:id="Paris_1691_ed6_N1">
+                           <date>1691</date>
+                           <publisher>Estienne Michalet</publisher>
+                           <pubPlace></pubPlace>  
+                        </imprint>
+                    </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
@@ -40,7 +49,6 @@
     </teiHeader>
     <text>
         <body>
-            <!--- Travail pas fait --> 
             <p>Des Biens de Fortune
                 
                 (21)
@@ -112,3 +120,4 @@
         </body>
     </text>
 </TEI>
+
