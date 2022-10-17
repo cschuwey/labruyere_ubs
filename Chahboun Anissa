@@ -90,7 +90,7 @@
     
     <text>
         <front>
-            <titlePage>
+            <titlePage source="#Paris_1688">
                 <docAuthor style="written" source="#Paris_1688">la Bruyère, Jean de</docAuthor>
                 <docTitle>
                     <titlePart></titlePart>
@@ -104,10 +104,31 @@
                     <titlePart>les moeurs</titlePart>
                     <titlePart>de ce siècle</titlePart>
                 </docTitle>
-                <docDate when="1668">M. DC. LXXXVII.</docDate>
+                <docDate when="1688">M. DC. LXXXVII.</docDate>
                 <figure></figure>
                 <docImprint> A PARIS Chez Etienne MICHALLET, premier imprimeur du Roy, rüe S. Jacques, à l'image faint Paul</docImprint>
                 <docEdition>TROISIEME EDITION</docEdition>
+            </titlePage>
+            
+            
+            <titlePage source="#Paris_1691">
+                <docAuthor style="written" source="#Paris_1691">la Bruyère, Jean de</docAuthor>
+                <docTitle>
+                    <titlePart></titlePart>
+                    <titlePart> LES </titlePart> 
+                    <titlePart style="red">CARACTERES</titlePart> 
+                    <titlePart>DE THEOPHRASTE</titlePart>
+                    <titlePart style="red">traduit du grec</titlePart>
+                    <titlePart style="italic">Avec</titlePart>
+                    <titlePart style="red">les caractères </titlePart>
+                    <titlePart>ou</titlePart>
+                    <titlePart style="red">les moeurs</titlePart>
+                    <titlePart>de ce siècle</titlePart>
+                </docTitle>
+                <figure></figure>
+                <docImprint> A PARIS Chez Etienne MICHALLET, premier imprimeur du Roy, rüe S. Jacques, à l'image faint Paul</docImprint>
+                <docDate when="1691" style="red">M. DC. XCI.</docDate>
+                <docEdition>SIXIE'ME EDITION.</docEdition>
             </titlePage>
         </front>
         
@@ -135,7 +156,7 @@
                 
                 <div2 n="28"><p source=""><g source="#pilcrow"></g>Si toute religion est une crainte respectueuse de la Divinité, que penser de ceux qui osent la blesser dans sa plus vive image, qui est le Prince ?</p></div2>
               
-                <div2 n="29"><p source="#Paris_1688 #Paris_1691"><g source="#pilcrow"></g> Si l’on nous assurait que le motif secret de l’ambassade des Siamois a été d’exciter le Roi Très-Chrétien à renoncer au christianisme, à permettre l’entrée de son royaume aux Talapoins, qui eussent pénétré dans nos maisons pour persuader leur religion à nos femmes, à nos enfants et à nous-mêmes par leurs livres et par leurs entretiens, qui eussent élevé des pagodes au milieu des villes, où ils eussent placé des figures de métal pour être adorées, avec quelles risées et quel étrange mépris n’entendrions-nous pas des choses si extravagantes ! Nous faisons cependant six mille lieues de mer pour la conversion des Indes, des royaumes de Siam, de la Chine et du Japon, c’est-à-dire pour faire très sérieusement à tous ces peuples des propositions qui doivent leur paraître très folles et très ridicules. Ils supportent néanmoins nos religieux et nos prêtres ; ils les écoutent quelquefois, leur laissent bâtir leurs églises et faire leurs missions. Qui fait cela en eux et en nous ? ne serait-ce point la force de la vérité ?</p></div2>
+                <div2 n="29"><p source="#Paris_1688 #Paris_1691"><g source="#pilcrow"></g> Si l’on nous <app> <lem>affuroit</lem><rdg wit="#Paris_1688 #Paris_1691">assurait</rdg></app> que le motif secret de l’ambassade des Siamois a été d’exciter le Roi Très-Chrétien à renoncer au christianisme, à permettre l’entrée de son royaume aux Talapoins, qui eussent pénétré dans nos maisons pour persuader leur religion à nos femmes, à nos enfants et à nous-mêmes par leurs livres et par leurs entretiens, qui eussent élevé des pagodes au milieu des villes, où ils eussent placé des figures de métal pour être adorées, avec quelles risées et quel étrange mépris n’entendrions-nous pas des choses si extravagantes ! Nous faisons cependant six mille lieues de mer pour la conversion des Indes, des royaumes de Siam, de la Chine et du Japon, c’est-à-dire pour faire très sérieusement à tous ces peuples des propositions qui doivent leur paraître très folles et très ridicules. Ils supportent néanmoins nos religieux et nos prêtres ; ils les écoutent quelquefois, leur laissent bâtir leurs églises et faire leurs missions. Qui fait cela en eux et en nous ? ne serait-ce point la force de la vérité ?</p></div2>
               
                 <div2 n="30"><p source="#Paris_1691"><g source="#pilcrow"></g>Il ne convient pas à toute sorte de personnes de lever l’étendard d’aumônier, et d’avoir tous les pauvres d’une ville assemblés à sa porte, qui y reçoivent leurs portions. Qui ne sait pas au contraire des misères plus secrètes qu’il peut entreprendre de soulager, ou immédiatement et par ses secours, ou du moins par sa médiation ! De même il n’est pas donné à tous de monter en chaire et d’y distribuer, en missionnaire ou en catéchiste, la parole sainte ; mais qui n’a pas quelquefois sous sa main un libertin à réduire, et à ramener par de douces et insinuantes conversations à la docilité ? Quand on ne serait pendant sa vie que l’apôtre d’un seul homme, ce ne serait pas être en vain sur la terre, ni lui être un fardeau inutile.</p></div2>
                 
@@ -169,30 +190,4 @@
                                                          
      </body>
        </text>
-
-
-<text>
-    <front>
-        <titlePage>
-            <docAuthor style="written" source="#Paris_1691">la Bruyère, Jean de</docAuthor>
-            <docTitle>
-                <titlePart></titlePart>
-                <titlePart> LES </titlePart> 
-                <titlePart style="red">CARACTERES</titlePart> 
-                <titlePart>DE THEOPHRASTE</titlePart>
-                <titlePart style="red">traduit du grec</titlePart>
-                <titlePart style="italic">Avec</titlePart>
-                <titlePart style="red">les caractères </titlePart>
-                <titlePart>ou</titlePart>
-                <titlePart style="red">les moeurs</titlePart>
-                <titlePart>de ce siècle</titlePart>
-            </docTitle>
-            <figure></figure>
-            <docImprint> A PARIS Chez Etienne MICHALLET, premier imprimeur du Roy, rüe S. Jacques, à l'image faint Paul</docImprint>
-            <docDate when="1691" style="red">M. DC. XCI.</docDate>
-            <docEdition>SIXIE'ME EDITION.</docEdition>
-        </titlePage>
-    </front>
-</text>
-  
 </TEI>   
