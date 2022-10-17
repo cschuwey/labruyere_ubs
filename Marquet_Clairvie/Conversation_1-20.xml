@@ -79,12 +79,9 @@
                 <glyph xml:id="Scaro">
                     <glyphName>CONSERVATION DES S CAROLINGIENS</glyphName>
                 </glyph>
-                <glyph source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
-                    <glyphName>Présence de pieds de mouche simple dans les 4ème, 5ème, 7ème et 8ème éditions</glyphName>
+                <glyph xml:id="fr_pieddemouche">
+                    <desc>¶</desc>
                 </glyph>
-                <glyph source="#Paris_1690_5">
-                    <glyphName>Présence de 7 pieds de mouche avec 1 parenthèse et 2 pieds de mouche avec 2 parenthèses </glyphName>
-               </glyph>
             </charDecl>
         </encodingDesc>
         <profileDesc>
@@ -174,25 +171,25 @@
         <body>
             <div1>
                 <head>De la société et de la Conversation</head>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(1)Un caractère bien fade est celui de n’en avoir aucun.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
-                    <p>(2)C’est le rôle d’un sot d’être importun : un homme habile sent s’il convient ou s’il ennuie ;
-                        il sait disparaître le moment qui précède celui où il serait de trop quelque part.</p>
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                    <p>(2)C’est le <app><lem>rôle</lem><rdg wit="#Paris_1690_5">role</rdg></app> d’un sot d’être importun : un homme habile sent s’il convient <app><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> ou s’il ennuie <app><rdg wit="#Paris_1690_5">;</rdg> <rdg wit="#Paris_1692_7">:</rdg></app>
+                        il <app><lem>sait</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">sçait</rdg></app> <app><lem>disparaître</lem><rdg wit="#Paris_1690_5">disparoistre</rdg><rdg wit="#Paris_1690_5 #Paris_1692_7">disparoitre</rdg></app> le moment qui <app><lem>précède</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">précede</rdg></app><app><lem>celui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy</rdg></app> où il serait de trop quelque part.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
-                    <p>(3)L’on marche sur les mauvais plaisants, et il pleut par tout pays de cette sorte d’insectes. 
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                    <p>(3)L’on marche sur les mauvais plaisants, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> il pleut par tout <app><lem>pays</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">païs</rdg></app> de cette sorte d’insectes. 
                         Un bon plaisant est une pièce rare ; 
-                        à un homme qui est né tel, il est encore fort délicat d’en soutenir longtemps le personnage ; 
-                        il n’est pas ordinaire que celui qui fait rire se fasse estimer.</p>
+                        à un homme qui est né tel, il est encore fort délicat d’en <app><lem>soutenir</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soûtenir</rdg></app> <app><lem>longtemps</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">long-temps</rdg></app> le personnage ; 
+                        il n’est pas ordinaire que <app><lem>celui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy</rdg></app> qui fait rire se fasse estimer.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
-                    <p>(4)Il a beaucoup d’esprits obscènes, encore plus de médisants ou de satiriques, peu de délicats. 
-                        Pour badiner avec grâce, et rencontrer heureusement sur les plus petits sujets, 
-                        il faut trop de manières, trop de politesse, et même trop de fécondité : c’est créer que de railler ainsi, et faire quelque chose de rien.</p>
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                    <p>(4)Il <app><rdg wit="#Paris_1690_5 #Paris_1692_7">y</rdg></app>a beaucoup d’esprits obscènes, encore plus de médisants ou de satiriques, peu de délicats<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
+                        Pour badiner avec grâce, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> rencontrer heureusement sur les plus petits sujets, 
+                        il faut trop de <app><lem>manières</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">manieres</rdg></app>, trop de politesse, et même trop de fécondité : c’est créer que de railler ainsi, et faire quelque chose de rien.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(5) Si l’on faisait une sérieuse attention à tout ce qui se dit de froid,
                         de vain de puéril dans les entretiens ordinaires, l’on aurait honte de parler ou d’écouter, 
                         et l’on se condamnerait peut-être à un silence perpétuel, 
@@ -202,7 +199,7 @@
                         ou sur l’intérêt des princes, le débit des beaux sentiments, et qui reviennent toujours les mêmes ; 
                         il faut laisser Aronce parler proverbe, et Mélinde parler de soi, de ses vapeurs, de ses migraines et de ses insomnies.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(6)L’on voit des gens qui, dans les conversations ou dans le peu de commerce que l’on a avec eux, 
                         vous dégoûtent par leurs ridicules expressions, par la nouveauté, 
                         et j’ose dire par l’impropriété des termes dont ils se servent, 
@@ -214,7 +211,7 @@
                         Tous sont contents d’eux-mêmes et de l’agrément de leur esprit, et l’on ne peut pas dire qu’ils en soient entièrement dénués ; 
                         mais on les plaint de ce peu qu’ils en ont ; et ce qui est pire, on en souffre.</p>
                 </div2>
-                <div2 source=#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p> (7)Que dites-vous ? Comment ? Je n’y suis pas ; vous plairait-il de recommencer ? 
                         J’y suis encore moins. Je devine enfin : vous voulez, Acis, me dire qu’il fait froid ; 
                         que ne disiez-vous : "Il fait froid" ? Vous voulez m’apprendre qu’il pleut ou qu’il neige ; 
@@ -230,7 +227,7 @@
                         je vous tire par votre habit, et vous dis à l’oreille : "Ne songez point à avoir de l’esprit, n’en ayez point, c’est votre rôle ; 
                         ayez, si vous pouvez, un langage simple, et tel que l’ont ceux en qui vous ne trouvez aucun esprit peut-être alors croira-t-on que vous en avez."</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(8)Qui peut se promettre d’éviter dans la société des hommes la rencontre de certains esprits vains, 
                         légers, familiers, délibérés, qui sont toujours dans une compagnie ceux qui parlent, 
                         et qu’il faut que les autres écoutent ? On les entend de l’antichambre ; 
@@ -262,7 +259,7 @@
                         Il reprenait le fil de sa narration avec plus de confiance qu’il ne l’avait commencée, 
                         lorsque l’un des conviés lui dit : "C’est Sethon à qui vous parlez, lui-même, et qui arrive de son ambassade."</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(10)Il y a un parti à prendre, dans les entretiens, entre une certaine paresse qu’on a de parler, 
                         ou quelquefois un esprit abstrait, qui, nous jetant loin du sujet de la conversation, 
                         nous fait faire ou de mauvaises demandes ou de sottes réponses, 
@@ -270,7 +267,7 @@
                         pour le relever, badiner autour, y trouver un mystère que les autres n’y voient pas, 
                         y chercher de la finesse et de la subtilité, seulement pour avoir occasion d’y placer la sienne.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(11)Etre infatué de soi, et s’être fortement persuadé qu’on a beaucoup d’esprit, 
                         est un accident qui n’arrive guère qu’à celui qui n’en a point, ou qui en a peu. 
                         Malheur pour lors à qui est exposé à l’entretien d’un tel personnage ! 
@@ -285,7 +282,7 @@
                         Que serait-ce de vous et de lui, si quelqu’un ne survenait heureusement pour déranger le cercle, 
                         et faire oublier la narration ?</p>
                 </div2>
-                <div2 source="#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(12)J’entends Théodecte de l’antichambre ; 
                         il grossit sa voix à mesure qu’il s’approche ; 
                         le voilà entré : il rit, il crie, il éclate ; 
@@ -306,7 +303,7 @@
                         les rieurs sont pour lui : il n’y a sorte de fatuités qu’on ne lui passe. 
                         Je cède enfin et je disparais, incapable de souffrir plus longtemps Théodecte, et ceux qui le souffrent.</p>
                 </div2>
-                <div2 source="#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1692_7 #Paris_1694_8">
                     <p>(13)Troïle est utile à ceux qui ont trop de bien : il leur ôte l’embarras du superflu ; 
                         il leur sauve la peine d’amasser de l’argent, de faire des contrats, de fermer des coffres, 
                         de porter des clefs sur soi et de craindre un vol domestique. Il les aide dans leurs plaisirs, 
@@ -343,7 +340,7 @@
                         Bien loin d’attendre de lui qu’il défère à vos sentiments, qu’il soit complaisant, 
                         qu’il vous loue, vous n’êtes pas sûr qu’il aime toujours votre approbation, ou qu’il souffre votre complaisance.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(14)Il faut laisser parler cet inconnu que le hasard a placé auprès de vous dans une voiture publique, 
                         à une fête ou à un spectacle ; 
                         et il ne vous coûtera bientôt pour le connaître que de l’avoir écouté : vous saurez son nom, 
@@ -351,7 +348,7 @@
                         sa parenté, ses alliances, les armes de sa maison ; vous comprendrez qu’il est noble, qu’il a un château, 
                         de beaux meubles, des valets, et un carrosse.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(15)Il y a des gens qui parlent un moment avant que d’avoir pensé. 
                         Il y en a d’autres qui ont une fade attention à ce qu’ils disent, 
                         et avec qui l’on souffre dans la conversation de tout le travail de leur esprit ; 
@@ -360,31 +357,31 @@
                         ils sont puristes, et ne hasardent pas le moindre mot, quand il devrait faire le plus bel effet du monde ; 
                         rien d’heureux ne leur échappe, rien ne coule de source et avec liberté : ils parlent proprement et ennuyeusement.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(16)L’esprit de la conversation consiste bien moins à en montrer beaucoup qu’à en faire trouver aux autres : 
                         celui qui sort de votre entretien content de soi et de son esprit, l’est de vous parfaitement. 
                         Les hommes n’aiment point à vous admirer, ils veulent plaire ; 
                         ils cherchent moins à être instruits, et même réjouis, qu’à être goûtés et applaudis ; 
                         et le plaisir le plus délicat est de faire celui d’autrui.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(17)Il ne faut pas qu’il y ait trop d’imagination dans nos conversations ni dans nos écrits ; 
                         elle ne produit souvent que des idées vaines et puériles, 
                         qui ne servent point à perfectionner le goût et à nous rendre meilleurs : 
                         nos pensées doivent être prises dans le bon sens et la droite raison, 
                         et doivent être un effet de notre jugement.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(18)C’est une grande misère que de n’avoir pas assez d’esprit pour bien parler, 
                         ni assez de jugement pour se taire. Voilà le principe de toute impertinence.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(19)Dire d’une chose modestement ou qu’elle est bonne ou qu’elle est mauvaise, 
                         et les raisons pourquoi elle est telle, demande du bon sens et de l’expression : c’est une affaire. 
                         Il est plus court de prononcer d’un ton décisif, et qui emporte la preuve de ce qu’on avance, 
                         ou qu’elle est exécrable, ou qu’elle est miraculeuse.</p>
                 </div2>
-                <div2 source="#Paris_1689_4" "#Paris_1690_5" "#Paris_1692_7" "#Paris_1694_8">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(20)Rien n’est moins selon Dieu et selon le monde que d’appuyer tout ce que l’on dit dans la conversation, 
                         jusques aux choses les plus indifférentes, par de longs et de fastidieux serments. 
                         Un honnête homme qui dit oui et non mérite d’être cru : son caractère jure pour lui, 
