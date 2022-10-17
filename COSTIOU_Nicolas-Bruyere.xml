@@ -2,29 +2,29 @@
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     
-    <teiHeader>
-        <fileDesc>
+<teiHeader>
+        
+<fileDesc>
             <titleStmt>
                 <title></title>
             </titleStmt>
             <publicationStmt>
                 <authority></authority>
             </publicationStmt>
-            <sourceDesc>
+<sourceDesc>
                 <biblStruct>              
                     <monogr xml:id="Tours_1867">
                         <author ref="https://data.bnf.fr/11910249">Jean de La Bruyère</author>
                         <title>Les Caractères</title>
-                        <editor>A. Mame et fils, 1867</editor>
-                        
+                        <editor>A. Mame et fils, 1867</editor>                      
                         <imprint> 
                             <pubPlace>https://books.google.fr/books?id=oOMxW9Jj4igC</pubPlace>
                         </imprint>
                     </monogr>
                 </biblStruct>
-            </sourceDesc>
+</sourceDesc>
      
-            <sourceDesc>
+<sourceDesc>
                 <biblStruct>              
                     <monogr xml:id="Paris-1690">                   
                         <title>Les Caractères</title>
@@ -38,20 +38,11 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
-            </sourceDesc>
+</sourceDesc>
      
-     
-        </fileDesc>
+</fileDesc>
         
-                
-       
-        
-        
-        
-        <profileDesc >
-            
-      
-            
+<profileDesc >
             
             <langUsage>
                 <language ident="Fra"></language>
@@ -69,26 +60,24 @@
             
         </profileDesc>
         
-        <encodingDesc>
-            
+<encodingDesc>
+                
             <editorialDecl>
                 
                 <p>
-                    
-                    
-                    
+                      
+                      
                 </p>
                 
                 
             </editorialDecl>
             
-        </encodingDesc>   
+</encodingDesc>   
         
-        
-    </teiHeader>
+</teiHeader>
     
-    <text>
-        <front>
+<text>
+<front>
                         
             <titlePage>
                                 
@@ -116,11 +105,11 @@
                     
                 </titlePage>
                     
-        </front>
+</front>
   
-        <body>
+<body>
             
-            <div1>
+   <div1>
                    
                 <div2 n="21" source="#Paris-1690">
             
@@ -670,10 +659,10 @@
                     
                 </div2>
                 
-               </div1>
+   </div1>
                    
- </body>
+</body>
     
-    </text>
+</text>
 
-   </TEI>
+</TEI>
