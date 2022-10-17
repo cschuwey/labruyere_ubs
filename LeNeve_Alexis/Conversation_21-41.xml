@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Je vous ai corrigé plein de choses, mais il y a de bonnes idées -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -6,7 +8,7 @@
                 <title> "Les Caractères de la Bruyère"</title>
             </titleStmt>
             <publicationStmt><authority></authority></publicationStmt>
-            
+        
             <sourceDesc>
                 <biblStruct>
                     <monogr xml:id="Paris-1699-10"><title> "Les caracères de La Bruyère"</title> <author> La Bruyère, Jean de (1645-1696)</author> <editor> A. Mame</editor> <edition> Bibliothèque Nationale de France </edition>
@@ -17,7 +19,8 @@
                 
                 <biblStruct xml:id="Paris_1688_3_2">
                     <monogr> <title> "Les caractères de la Bruyère"</title> <author> La Bruyère, Jean de (1645-1696)</author> <editor>A. Mame</editor> <edition> Bibliothèque Nationale de France </edition>
-                        <imprint date="1688">1688 <date>1688</date></imprint>
+                  <!-- Vous aviez mélangé les indicateurs de date --> 
+                        <imprint><date>1688</date></imprint>
                     </monogr>
                 </biblStruct>
                 
@@ -34,25 +37,27 @@
                 </biblStruct>
                 
             </sourceDesc>
+        </fileDesc>
+            
             <encodingDesc> 
                 <editorialDecl> <punctuation> <p> présence multiple de points virgule </p></punctuation></editorialDecl>
                 <editorialDecl> <p> penser à remplacer les pieds de mouche par des "*" ou (*)</p></editorialDecl>
+                <editorialDecl> <p> "s" formés comme des "f"</p></editorialDecl>
             </encodingDesc>
-            
-            <editorialDecl> <correction> <p> "s" formés comme des "f"</p></correction></editorialDecl>
+           
             
             <profileDesc>
                 <langUsage>
-                    <language ident="fra">
+                    <language ident="fra">Français du XVIIe siècle</language>
                         <language ident="lat"></language>
-                    </language>
+                    
                 </langUsage>
                 <textDesc>
                     <channel></channel>
                     <constitution></constitution>
                     <derivation></derivation>
                     <domain> Histoire Moderne (XVII ème siècle)</domain>
-                    <factuality fact="description des moeurs de l'époque"></factuality>
+                    <factuality type="mixed">description des moeurs de l'époque</factuality>
                     <interaction></interaction>
                     <preparedness></preparedness>
                     <purpose></purpose>
@@ -64,7 +69,7 @@
             
             
             <sourceDesc><bibl></bibl></sourceDesc>
-        </fileDesc>
+ 
     </teiHeader>
     
     <text>
@@ -250,7 +255,7 @@
         
         
 
-        
+        <!-- et le reste ?? --> 
         
         
         </div2>

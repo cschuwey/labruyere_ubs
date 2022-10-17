@@ -386,7 +386,7 @@
             
             <div1>
                 <head type="sub">De Quelques Usages</head>
-                
+                <!-- Intéressant, vos usages des Lb ! En revanche, problèmes d'encodage --> 
                 <div2 source="#Paris_1688_3_1" n="1">
                     <elementSpec xml:id="pied_de_mouche">
                         <remarks>
@@ -399,6 +399,7 @@
                             <lb> Combien de nobles dont le père et les aînés sont roturiers !</lb></p>
                 </div2>
                 <div2>
+                    <!-- Le numéro ne va pas dans <p> -->
                     <elementSpec>
                         <remarks>
                             <p>(2)</p>
@@ -426,7 +427,7 @@
                     <elementSpec>
                         <remarks>
                             <p>(5)</p>
-                        </remarks>
+                        </remarks> 
                     </elementSpec>
                             <p>Quelle est la roture un peu heureuse et établie à qui il manque des armes, et dans ces armes une pièce honorable, des suppôts, un cimier, une devise, et peut-être le cri de guerre ? Qu’est devenue la distinction des casques et des heaumes ? Le nom et l’usage en sont abolis ; il ne s’agit plus de les porter de front ou de côté, ouverts ou fermés, et ceux-ci de tant ou de tant de grilles : on n’aime pas les minuties, on passe droit aux couronnes, cela est plus simple ; on s’en croit digne, on se les adjuge. Il reste encore aux meilleurs bourgeois une certaine pudeur qui les empêche de se parer d’une couronne de marquis, trop satisfaits de la comtale ; quelques-uns même ne vont pas la chercher fort loin, et la font passer de leur enseigne à leur carrosse.</p>
                 </div2>

@@ -39,7 +39,7 @@
                             <pubPlace>Paris</pubPlace>                
                         </imprint>
                     </monogr>
-                    <monogr xml/id="Paris_1692_7">
+                    <monogr xml:id="Paris_1692_7">
                         <title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
                         <author>Jean de la Bruyère</author>
                         <edition>La Septième édition</edition>
@@ -47,7 +47,7 @@
                         <imprint xml:id="Paris_1694_871">
                             <date>1692</date>
                             <publisher>Etienne Michallet</publisher>
-                            <pubPlace>Paris</pubPlace> 
+                            <pubPlace>Paris</pubPlace> </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1694_8">
                         <title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>

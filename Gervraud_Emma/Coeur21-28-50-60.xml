@@ -50,7 +50,7 @@
                     
                     
                     <monogr xml:id="Paris_1689_edition4">
-                        <author ref="https://data.bnf.fr/11910249>La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
                         <title>Les Caractères de Théophraste</title>
                         <editor>Chez estienne Michallet à Paris</editor>
                         <edition>Quatrième édition</edition>
@@ -61,7 +61,7 @@
                     </monogr>
                     
                     <monogr xml:id="Paris_1690_edition5">
-                        <author ref="https://data.bnf.fr/11910249>La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
                         <author ref="https://data.bnf.fr/11910249">Théophraste</author>
                         <title>Les Caractères de Théophraste</title>
                         <editor>Chez estienne Michallet à Paris</editor>
@@ -73,7 +73,7 @@
                     </monogr>
                     
                     <monogr xml:id="Paris_1691_edition6">
-                        <author ref="https://data.bnf.fr/11910249>La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
                         <author ref="https://data.bnf.fr/11910249">Théophraste</author>
                         <title>Les Caractères de Théophraste</title>
                         <editor>Chez estienne Michallet à Paris</editor>
@@ -85,7 +85,7 @@
                     </monogr>
                     
                     <monogr xml:id="Paris_1692_edition7">
-                        <author ref="https://data.bnf.fr/11910249>La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
                         <author ref="https://data.bnf.fr/11910249">Théophraste</author>
                         <title>Les Caractères de Théophraste</title>
                         <editor>Chez estienne Michallet à Paris</editor>
@@ -97,7 +97,7 @@
                     </monogr>
                     
                     <monogr xml:id="Paris_1694_edition8">
-                        <author ref="https://data.bnf.fr/11910249>La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
                         <author ref="https://data.bnf.fr/11910249">Théophraste</author>
                         <title>Les Caractères de Théophraste</title>
                         <editor>Chez estienne Michallet à Paris</editor>
@@ -109,7 +109,7 @@
                     </monogr>
                     
                     <monogr xml:id="Paris_1696_edition9">
-                        <author ref="https://data.bnf.fr/11910249>La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
                         <author ref="https://data.bnf.fr/11910249">Théophraste</author>
                         <title>Les Caractères de Théophraste</title>
                         <editor>Chez estienne Michallet à Paris</editor>
@@ -121,7 +121,7 @@
                     </monogr>
                     
                      <monogr xml:id="Paris_1699_edition10">
-                        <author ref="https://data.bnf.fr/11910249>La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
                         <author ref="https://data.bnf.fr/11910249">Théophraste</author>
                         <title>Les Caractères de Théophraste</title>
                         <editor>Chez estienne Michallet à Paris</editor>
@@ -192,6 +192,7 @@
         <body> 
             <div1>
                 <head>Du Coeur</head>
+                <!-- où est l'autre édition ? + # ? -->
                 <div2 n="21" source="#Paris_1689_edition4"> 
                     <p > <figure> <desc source="#Paris_1689_edition4">pied de mouche simple</desc></figure> S’il se trouve une femme pour qui l’on ait eu une grande passion et qui ait été indifférente, quelques importants services qu’elle nous rende dans la suite de notre vie, l’on court un grand risque d’être ingrat.</p> </div2>
                 <div2 n="22" source="Paris_1689_edition4">

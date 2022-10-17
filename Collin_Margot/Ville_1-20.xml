@@ -29,10 +29,12 @@
         <purpose></purpose>
     </textDesc></profileDesc>
 </teiHeader>
-    <text><front><titlepage><docTitle><titlePart>Les</titlePart><titlePart>caractères</titlePart><titlePart>de Theophraste</titlePart><titlePart>traduit du grec.</titlePart><titlePart>avec</titlePart><titlePart>les caractères</titlePart><titlePart>ou</titlePart>les moeurs de ce siecle.
+    <text><front><titlePage><docTitle><titlePart>Les</titlePart><titlePart>caractères</titlePart><titlePart>de Theophraste</titlePart><titlePart>traduit du grec.</titlePart><titlePart>avec</titlePart><titlePart>les caractères</titlePart><titlePart>ou</titlePart>les moeurs de ce siecle. <!-- que fait ce bloc de texte ? --> 
+        
         <docDate when="1688">MCLXXVIII</docDate>    
+        
     </titlePart></docTitle>
-    </titlepage></front>
+    </titlePage></front>
         <body><div1><head>de la ville</head>
             <div2 source="#paris_1688_1"><p>L’on se donne à Paris, sans se parler, comme un rendez-vous public, mais fort exact, tous les soirs au Cours ou aux Tuileries, pour se regarder au visage et se désapprouver les uns les autres.
         </p><p>L’on ne peut se passer de ce même monde que l’on n’aime point, et dont l’on se moque.

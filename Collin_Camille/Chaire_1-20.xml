@@ -10,6 +10,7 @@
         </fileDesc>
     </teiHeader>  
     <text><body><p>(1)
+        <!-- C'est un peu n'importe quoi : comment votre teiHeader peut-être là ? -->
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -73,6 +74,7 @@
                 <p> (3)
             Jusqu’à ce qu’il revienne un homme qui, avec un style nourri des saintes Ecritures, explique au peuple la parole divine uniment et familièrement, les orateurs et les déclamateurs seront suivis.
             </div2>
+                <!-- Vous n'avez manifestement pas fait le travail --> 
             (4)
             Les citations profanes, les froides allusions, le mauvais pathétique, les antithèses, les figures outrées ont fini : les portraits finiront, et feront place à une simple explication de l’Evangile, jointe aux mouvements qui inspirent la conversion.
             

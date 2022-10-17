@@ -49,7 +49,7 @@
             </langUsage>
         </profileDesc>
         <encodingDesc>
-            <refsDecl xml:id="PARIS_1691_6"> 
+            <refsDecl source="#PARIS_1691_6"> 
                 <cRefPattern matchPattern="\0000B6"> 
                 </cRefPattern> 
                 <p>On utile les pieds de mouches de l'édition 6 de 1691 codé "\0000B6"</p> 
