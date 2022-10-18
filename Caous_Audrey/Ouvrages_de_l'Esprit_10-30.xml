@@ -174,7 +174,7 @@
 
                 <div2 n="11" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4">
                     <p> <g ref="pied_de_mouche_simple"></g>
-                        Il y a beaucoup plus de vivacité que de goût parmi les hommes ; ou pour mieux
+                        Il y a beaucoup plus de vivacité que de goût <app><lem wit="#Paris_1694_8">parmi</lem> <rdg wit="#Paris_1689_4"> parmy</rdg></app> les hommes ; ou pour mieux
                         dire, il y a peu d’hommes dont l’esprit soit accompagné d’un goût sûr et
                         d’une critique judicieuse.</p>
                 </div2>
@@ -231,9 +231,10 @@
                 <div2 n="16" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4">
                     <p>  <g ref="pied_de_mouche_simple"> </g> 
                         L’on devrait aimer à lire ses ouvrages à ceux qui en savent assez pour les
-                        corriger et les estimer.<app> <lem wit="#Paris_1694_8"> La remarque continue après ''estimer''</lem> <rdg wit="#Paris_1688_1"> La remarque s'arrête ici</rdg></app>Ne vouloir être ni conseillé ni corrigé sur son
-                        ouvrage est un pédantisme. Il faut qu’un auteur reçoive avec une égale
+                        corriger et les estimer.<app> <lem wit="#Paris_1694_8"> La remarque continue après ''estimer''</lem> <rdg wit="#Paris_1688_1"> La remarque s'arrête ici</rdg></app>Ne vouloir être 
+                        <app> <lem wit="#Paris_1694_8">ny conseillé ny corrigé sur son ouvrage</lem> <rdg wit="#Paris_1689_4">ni conseillé ni corrigé sur son ouvrage </rdg> </app> est un pédantisme. Il faut qu’un auteur reçoive avec une égale
                         modestie les éloges et la critique que l’ont fait de ses ouvrages. </p>
+                        
                 </div2>
 
                 <div2 n="17" source="#Paris_1694_8 #Paris_1689_4">
@@ -244,7 +245,7 @@
                         que tout ce qui ne l’est point est faible, et ne satisfait point un homme
                         d’esprit qui veut se faire entendre. Un bon auteur, et qui écrit avec soin,
                         éprouve souvent que l’expression qu’il cherchait depuis longtemps sans la
-                        connaître, et qu’il a enfin trouvée, est celle qui était la plus simple, la
+                        <app><lem wit="#Paris_1694_8">connoître</lem> <rdg wit="#Paris_1689_4">connoiſtre</rdg></app>, et qu’il a enfin trouvée, est celle qui  <app><lem wit="#Paris_1694_8"> étoit </lem> <rdg wit="#Paris_1689_4">eſtoit</rdg></app> la plus simple, la
                         plus naturelle, qui semblait devoir se présenter d’abord et sans effort.
                         Ceux qui écrivent par humeur sont sujets à retoucher à leurs ouvrages :
                         comme elle n’est pas toujours fixe, et qu’elle varie en eux selon les
@@ -262,7 +263,7 @@
 
                 <div2 n="19" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4">
                     <p>  <g ref="pied_de_mouche_simple"> </g> 
-                        « L’on m’a engagé, dit Ariste, à lire mes ouvrages à <app> <lem wit="#Paris_1694_8"> Zoïle</lem> <rdg wit="#Paris_1688_1">Zelotes</rdg></app> : je l’ai fait.
+                        « L’on m’a engagé, dit Ariste, à lire mes ouvrages à <app> <lem wit="#Paris_1694_8"> Zoïle</lem> <rdg wit="#Paris_1688_1 #Paris_1689_4">Zelotes</rdg></app> : je l’ai fait.
                         Ils l’ont saisi d’abord et avant qu’il ait eu le loisir de les trouver
                         mauvais ; il les a loués modestement en ma présence, et il ne les a pas
                         loués depuis devant personne. Je l’excuse, et je n’en demande pas davantage
@@ -287,7 +288,7 @@
                         cours qu’il aura dans le monde par l’impression, ou quel sera son sort <app><lem wit="#Paris_1694_8">parmi</lem> <rdg wit="#Paris_1688_1"> parmy</rdg></app>
                         les habiles : ils ne hasardent point leurs suffrages, et ils veulent être
                         portés par la foule et entraînés par la multitude. Ils disent alors qu’ils
-                        ont les premiers approuvé cet ouvrage, et que le public est de leur avis. <app><lem wit="#Paris_1694_8">Remarque qui continue</lem> <rdg wit="#Paris_1688_1"> La remarque s'arrête là</rdg></app>
+                        ont les premiers <app><lem wit="#Paris_1694_8">approuvé</lem> <rdg wit="#Paris_1689_4">aprouvé</rdg> </app> cet ouvrage, et que le public est de leur avis. <app><lem wit="#Paris_1694_8">Remarque qui continue</lem> <rdg wit="#Paris_1688_1"> La remarque s'arrête là</rdg></app>
                         Ces gens laissent échapper les plus belles occasions de nous convaincre
                         qu’ils ont de la capacité et des lumières, qu’ils savent juger, trouver bon
                         ce qui est bon, et meilleur ce qui est meilleur. Un bel ouvrage tombe entre
@@ -321,15 +322,15 @@
                         « Que dites-vous du livre d’Hermodore ? —Qu’il est mauvais, répond
                         Anthime.—Qu’il est mauvais ? —Qu’il est tel, continue-t-il, que ce n’est pas
                         un livre, ou qui mérite du moins que le monde en parle.—Mais l’avez-vous lu
-                        ? —Non », dit Anthime. Que n’ajoute-t-il que Fulvie et Mélanie l’ont
+                        ? —Non », dit <app><lem wit="#Paris_1694_8">Anthime</lem> <rdg><desc>style="italics"</desc>Anthime</rdg></app>. Que n’ajoute-t-il que Fulvie et Mélanie l’ont
                         condamné sans l’avoir lu, et qu’il est ami de Fulvie et de Mélanie ? </p>
                 </div2>
 
                 <div2 n="24" source="#Paris_1694_8 #Paris_1689_4">
                     <p>  <g ref="pied_de_mouche_simple"> </g>
                         Arsène, du plus haut de son esprit, contemple les hommes, et dans
-                        l’éloignement d’où il les voit, il est comme effrayé de leur petitesse ;
-                        loué, exalté, et porté jusqu’aux cieux par de certaines gens qui se sont
+                        l’éloignement d’où il les voit, il est <app><lem wit="#Paris_1694_8">comme comme</lem> <rdg wit="#Paris_1689_4">comme </rdg></app> effrayé de leur petitesse ;
+                        loué, exalté, et porté jusqu’aux <app><lem wit="#Paris_1694_8">cieux</lem> <rdg wit="#Paris1689_4">Cieux</rdg></app> par de certaines gens qui se sont
                         promis de s’admirer réciproquement, il croit, avec quelque mérite qu’il a,
                         posséder tout celui qu’on peut avoir, et qu’il n’aura jamais ; occupé et
                         rempli de ses sublimes idées, il se donne à peine le loisir de prononcer
