@@ -14,31 +14,16 @@
                 <bibl/>
                 <biblStruct>
 
-                    <monogr xml:id="Tours_1876_Edition_Classique">
-                        <author> Jean de la Bruyère </author>
-                        <author ref="https://data.bnf.fr/11910249"> Théophraste</author>
-                        <title> Les Caractères </title>
-                        <imprint xml:id="Tours_1876_Edition_Classique_1">
-                            <publisher> Edition Classique </publisher>
-                            <date>1876</date>
-                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k5493831p?rk=42918;4
-                            </pubPlace>
-                        </imprint>
-
-                    </monogr>
-
+         
                    
-                   
-                    
                     <monogr xml:id="Paris_1688_edition_1">
                         <author>Théophraste</author>
-                        <author ref="https://data.bnf.fr/11887698/theophraste">
-                            Théophraste></author>
-                        <title>Les Caractères</title>
+                        <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste></author>
+                        <title> Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Première édition</edition>
                         <imprint xml:id="Paris_1688_première_edition">
-                            <publisher>Edition classique</publisher>
+                            <publisher>Estienne Michallet</publisher>
                             <date>1688</date>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k105077m.r=les%20caract%C3%A8res%20de%20theophraste?rk=21459;2</pubPlace>
 
@@ -53,7 +38,7 @@
                         <editor>Estienne Michallet</editor>
                         <edition>Troisième édition</edition>
                         <imprint xml:id="Paris_1688_troisième_edition">
-                            <publisher>Edition classique</publisher>
+                            <publisher>Estienne Michallet</publisher>
                             <date>1688</date>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57572x?rk=42918;4</pubPlace>
 
@@ -68,7 +53,7 @@
                         <editor>Estienne Michallet</editor>
                         <edition>Quatrième édition</edition>
                         <imprint xml:id="Paris_1689_4">
-                            <publisher>Edition classique</publisher>
+                            <publisher>Estienne Michallet</publisher>
                             <date>1689</date>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575649/f4.item</pubPlace>
 
@@ -81,7 +66,7 @@
                         <editor>Estienne Michallet</editor>
                         <edition>Cinquième édition</edition>
                         <imprint xml:id="Paris_1690_5">
-                            <publisher>Edition classique</publisher>
+                            <publisher>Estienne Michallet</publisher>
                             <date>1690</date>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575660?rk=171674;4</pubPlace>
                             
@@ -95,7 +80,7 @@
                         <editor>Estienne Michallet</editor>
                         <edition>Sixième édition</edition>
                         <imprint xml:id="Paris_1691_sixième_edition">
-                            <publisher>Edition classique</publisher>
+                            <publisher>Estienne Michallet</publisher>
                             <date>1691</date>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k/f5.item.zoom</pubPlace>
                          
@@ -111,12 +96,44 @@
                         <editor>Estienne Michallet</editor>
                         <edition>Septième édition</edition>
                         <imprint xml:id="Paris_1692_septième_edition">
-                            <publisher>Edition classique</publisher>
+                            <publisher>Estienne Michallet</publisher>
                             <date>1692</date>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57575z?rk=236052;4</pubPlace>
                             
                         </imprint>
                     </monogr>
+                    
+                     <monogr xml:id="Paris_1694_edition_8">
+                        <author>Théophraste</author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste">
+                            Théophraste></author>
+                        <title>Les Caractères</title>
+                        <editor>Estienne Michallet</editor>
+                        <edition>Huitième édition</edition>
+                        <imprint xml:id="Paris_1694_huitième_edition">
+                            <publisher>Estienne Michallet</publisher>
+                            <date>1694</date>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575780?rk=321890;0</pubPlace>
+                            
+                        </imprint>
+                    </monogr>
+                    
+                     <monogr xml:id="Paris_1696_edition_9">
+                        <author>Théophraste</author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste">
+                            Théophraste></author>
+                        <title>Les Caractères</title>
+                        <editor>Estienne Michallet</editor>
+                        <edition>Neuvième édition</edition>
+                        <imprint xml:id="Paris_1696_neuvième_edition">
+                            <publisher>Estienne Michallet</publisher>
+                            <date>1696</date>
+                            <pubPlace>https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100959720</pubPlace>
+                            
+                        </imprint>
+                    </monogr>
+                    
+                    
                     <monogr xml:id="Paris_1699_edition_10">
                         <author>Théophraste</author>
                         <author ref="https://data.bnf.fr/11887698/theophraste">
@@ -159,6 +176,7 @@
         <encodingDesc>
             <charDecl>
                 <glyph xml:id="Pied_de_mouche_simple"> </glyph>
+                <glyph xml:id="Pied_de_mouche_entre_parenthèses"> </glyph>
                 
             </charDecl>
 
@@ -206,32 +224,50 @@
                 <head> Du Coeur </head>
 
 
-                <div2 n="61">
+                <div2 n="61" source="#Paris_1699_edition_10 #Paris_1696_edition_9 #Paris_1694_edition_8 #Paris_1692_edition_7 "> 
                     <p>
                         <g ref="#Pied_de_mouche_simple"> </g> Il y a de certaines gens qui veulent
                         si ardemment et si déterminément une certaine chose, que de peur de la
                         manquer, ils n’oublient rien de ce qu’il faut faire pour la manquer.</p>
                 </div2>
 
-                <div2 n="62" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
-                    <p> Les choses les plus souhaitées n’arrivent point ; ou si elles arrivent, ce
-                        n’est <app> <lem wit="#Paris_1684_edition_4 #Paris_1690_edition_5"> ni </lem> <rdg wit="#Paris_1691_edition_6"> ny </rdg></app> dans le temps ni dans les circonstances où elles auraient fait un
+                <div2 n="62" source="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>  Les choses les plus souhaitées n’arrivent point ; ou si elles arrivent, ce
+                        n’est <app> 
+                        <lem wit="#Paris_1684_edition_4 #Paris_1690_edition_5"> ni </lem> 
+                        <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> ny </rdg>
+                        </app> 
+                        dans le temps ni dans les circonstances où elles auraient fait un
                         extrême plaisir. </p>
                 </div2>
 
-                <div2 n="63" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
-                    <p> Il faut rire avant que d’être heureux, de peur de mourir sans avoir ri. </p>
+                <div2 n="63" source="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p>  <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g> Il faut rire avant que 
+                        <app>
+                        <lem wit="#Paris_1684_edition_4 #Paris_1690_edition_5"> d'estre </lem>
+                        <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> d'être </rdg>
+                        </app> 
+                        heureux, de peur de mourir sans avoir ri. </p>
+                    
                 </div2>
 
-                <div2 n="64" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
-                    <p> La vie est courte, si elle ne mérite ce nom que lorsqu’elle est agréable,
+                <div2 n="64" source="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p>  <g ref="#Pied_de_mouche_simple"> </g> La vie est courte, si elle ne mérite ce nom que lorsqu’elle est agréable,
                         puisque si l’on cousait ensemble toutes les heures que l’on passe avec ce
-                        qui plaît, l’on ferait à peine d’un grand nombre d’années une vie de
+                        qui <app>
+                        <lem wit="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5  "> plaist </lem>
+                        <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> plaît </rdg>
+                        </app> 
+                        , l’on ferait à peine d’un grand nombre d’années une vie de
                         quelques mois. </p>
                 </div2>
 
-                <div2 n="65" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
-                    <p> Qu’il est difficile d’être content de quelqu’un ! </p>
+                <div2 n="65" source="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> Qu’il est difficile 
+                        <app>
+                        <lem wit="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5"> d'estre </lem>
+                        <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> d'être </rdg>
+                        </app> content de quelqu’un ! </p>
                 </div2>
 
                 <div2 n="66" source="#Paris_1691_edition_6 #Paris_1691_edition_6">
