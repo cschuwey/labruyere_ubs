@@ -78,13 +78,19 @@
         
         <encodingDesc>
             <charDecl>
+                <glyph xml:id="pieddemouche">
+                    <desc>¶</desc>
+                </glyph>
                 <glyph xml:id="p-pieddemouche">
-                    <desc></desc>
+                    <desc>(¶)</desc>
+                </glyph>
+                <glyph xml:id="pp-pieddemouche">
+                    <desc>((¶))</desc>
                 </glyph>
             </charDecl>
             <editorialDecl>
                 <correction>
-                    <p>Remplacement des s long par des s normaux</p>
+                    <p>Remplacement des "ſ" par des "s"</p>
                 </correction>
             </editorialDecl>
         </encodingDesc>
@@ -135,15 +141,51 @@
                 <head>du mérite personnel</head>
                 
                 <div2 source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="20">S’il est ordinaire d’être vivement touché des choses rares, 
+                    <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="20">S’il 
+                        <app>
+                            <lem>est</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſt</rdg>
+                        </app> ordinaire 
+                        <app>
+                            <lem>d'être</lem>
+                            <rdg wit="#Paris_1689_4">d'eſtre</rdg>
+                        </app> vivement touché des 
+                        <app>
+                            <lem>choses</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">choſes</rdg>
+                        </app> rares, 
                         <app>
                             <lem>pourquoi</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">pourquoy</rdg>
-                        </app> le sommes-nous si peu de la vertu ?</p>
+                        </app> le 
+                        <app>
+                            <lem>sommes-nous si</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">ſommes-nous ſi</rdg>
+                        </app> peu de la vertu ?</p>
                 </div2>
                 
                 <div2 source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="21">S’il est heureux d’avoir de la naissance ; il ne l’est pas moins d’être tel qu’on ne s’informe plus si vous en avez.</p>
+                    <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="21">S’il 
+                        <app>
+                            <lem>est</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſt</rdg>
+                        </app> heureux d’avoir de la 
+                        <app>
+                            <lem>naissance</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">naiſſance</rdg>
+                        </app> ; il ne 
+                        <app>
+                            <lem>l'est</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">l'eſt</rdg>
+                        </app> pas moins 
+                        <app>
+                            <lem>d'être</lem>
+                            <rdg wit="#Paris_1689_4">d'eſtre</rdg>
+                        </app> tel qu’on ne s’informe plus 
+                        <app>
+                            <lem>si</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">ſi</rdg>
+                        </app> vous en avez.</p>
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
