@@ -18,13 +18,16 @@
                    
                     <monogr xml:id="Paris_1688_edition_1">
                         <author>Théophraste</author>
-                        <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste></author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste>
+                        <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère> 
+                        </author>
                         <title> Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Première édition</edition>
                         <imprint xml:id="Paris_1688_première_edition">
                             <publisher>Estienne Michallet</publisher>
                             <date>1688</date>
+                            <pubPlace>Paris</pubPlace>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k105077m.r=les%20caract%C3%A8res%20de%20theophraste?rk=21459;2</pubPlace>
 
                         </imprint>
@@ -34,12 +37,14 @@
                     <monogr xml:id="Paris_1688_edition_3">
                         <author>La Bruyère, Jean de</author>
                         <author ref="https://data.bnf.fr/11910249"> Théophraste></author>
+                        <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Troisième édition</edition>
                         <imprint xml:id="Paris_1688_troisième_edition">
                             <publisher>Estienne Michallet</publisher>
                             <date>1688</date>
+                            <pubPlace>Paris</pubPlace>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57572x?rk=42918;4</pubPlace>
 
                         </imprint>
@@ -49,39 +54,45 @@
                     <monogr xml:id="Paris_1689_edition_4">
                         <author> Jean de la Bruyère </author>
                         <author ref="https://data.bnf.fr/11910249"> Théophraste</author>
+                        <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Quatrième édition</edition>
                         <imprint xml:id="Paris_1689_4">
                             <publisher>Estienne Michallet</publisher>
                             <date>1689</date>
+                            <pubPlace>Paris</pubPlace>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575649/f4.item</pubPlace>
 
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1690_edition_5">
                         <author> Jean de la Bruyère </author>
-                        <author ref="https://data.bnf.fr/11910249"> Théophraste</author>
+                        <author ref="https://data.bnf.fr/11910249"> Théophraste
+                        <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère></author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Cinquième édition</edition>
                         <imprint xml:id="Paris_1690_5">
                             <publisher>Estienne Michallet</publisher>
                             <date>1690</date>
+                            <pubPlace>Paris</pubPlace>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575660?rk=171674;4</pubPlace>
                             
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1691_edition_6">
                         <author>Théophraste</author>
-                        <author ref="https://data.bnf.fr/11887698/theophraste">
-                            Théophraste></author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste>
+                            <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère>
+                            </author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Sixième édition</edition>
                         <imprint xml:id="Paris_1691_sixième_edition">
                             <publisher>Estienne Michallet</publisher>
                             <date>1691</date>
+                            <pubPlace>Paris</pubPlace>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k/f5.item.zoom</pubPlace>
                          
                         </imprint>
@@ -91,13 +102,14 @@
                     <monogr xml:id="Paris_1692_edition_7">
                         <author>Théophraste</author>
                         <author ref="https://data.bnf.fr/11887698/theophraste">
-                            Théophraste></author>
+                            Théophraste><author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère> </author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Septième édition</edition>
                         <imprint xml:id="Paris_1692_septième_edition">
                             <publisher>Estienne Michallet</publisher>
                             <date>1692</date>
+                            <pubPlace>Paris</pubPlace>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57575z?rk=236052;4</pubPlace>
                             
                         </imprint>
@@ -105,14 +117,15 @@
                     
                      <monogr xml:id="Paris_1694_edition_8">
                         <author>Théophraste</author>
-                        <author ref="https://data.bnf.fr/11887698/theophraste">
-                            Théophraste></author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste>
+                         <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère></author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Huitième édition</edition>
                         <imprint xml:id="Paris_1694_huitième_edition">
                             <publisher>Estienne Michallet</publisher>
                             <date>1694</date>
+                            <pubPlace>Paris</pubPlace>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575780?rk=321890;0</pubPlace>
                             
                         </imprint>
@@ -120,14 +133,16 @@
                     
                      <monogr xml:id="Paris_1696_edition_9">
                         <author>Théophraste</author>
-                        <author ref="https://data.bnf.fr/11887698/theophraste">
-                            Théophraste></author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste> 
+                        <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère>
+                         </author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Neuvième édition</edition>
                         <imprint xml:id="Paris_1696_neuvième_edition">
                             <publisher>Estienne Michallet</publisher>
                             <date>1696</date>
+                            <pubPlace>Paris</pubPlace>
                             <pubPlace>https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100959720</pubPlace>
                             
                         </imprint>
@@ -136,14 +151,16 @@
                     
                     <monogr xml:id="Paris_1699_edition_10">
                         <author>Théophraste</author>
-                        <author ref="https://data.bnf.fr/11887698/theophraste">
-                            Théophraste></author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste>
+                        <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère>
+                        </author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Dixième édition</edition>
                         <imprint xml:id="Paris_1699_dixième_edition">
                             <publisher>Edition classique</publisher>
                             <date>1699</date>
+                            <pubPlace>Paris</pubPlace>
                             <pubPlace>https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001102846289</pubPlace>
                             
                             
