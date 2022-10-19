@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -26,34 +27,9 @@
 
                     </monogr>
 
-                    <monogr xml:id="Paris_1689_edition_4">
-                        <author> Jean de la Bruyère </author>
-                        <author ref="https://data.bnf.fr/11910249"> Théophraste</author>
-                        <title>Les Caractères</title>
-                        <editor>Estienne Michallet</editor>
-                        <edition>Troisième édition</edition>
-                        <imprint xml:id="Paris_1689_4">
-                            <publisher>Edition classique</publisher>
-                            <date>1688</date>
-                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575649/f4.item</pubPlace>
-
-                        </imprint>
-                    </monogr>
-
-                    <monogr xml:id="Paris_1688_edition_3">
-                        <author>La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11910249"> Théophraste></author>
-                        <title>Les Caractères</title>
-                        <editor>Estienne Michallet</editor>
-                        <edition>Troisième édition</edition>
-                        <imprint xml:id="Paris_1688_troisième_edition">
-                            <publisher>Edition classique</publisher>
-                            <date>1688</date>
-                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57572x?rk=42918;4</pubPlace>
-
-                        </imprint>
-
-                    </monogr>
+                   
+                   
+                    
                     <monogr xml:id="Paris_1688_edition_1">
                         <author>Théophraste</author>
                         <author ref="https://data.bnf.fr/11887698/theophraste">
@@ -69,6 +45,48 @@
                         </imprint>
 
                     </monogr>
+                    
+                    <monogr xml:id="Paris_1688_edition_3">
+                        <author>La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11910249"> Théophraste></author>
+                        <title>Les Caractères</title>
+                        <editor>Estienne Michallet</editor>
+                        <edition>Troisième édition</edition>
+                        <imprint xml:id="Paris_1688_troisième_edition">
+                            <publisher>Edition classique</publisher>
+                            <date>1688</date>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57572x?rk=42918;4</pubPlace>
+
+                        </imprint>
+
+                    </monogr>
+                    
+                    <monogr xml:id="Paris_1689_edition_4">
+                        <author> Jean de la Bruyère </author>
+                        <author ref="https://data.bnf.fr/11910249"> Théophraste</author>
+                        <title>Les Caractères</title>
+                        <editor>Estienne Michallet</editor>
+                        <edition>Quatrième édition</edition>
+                        <imprint xml:id="Paris_1689_4">
+                            <publisher>Edition classique</publisher>
+                            <date>1689</date>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575649/f4.item</pubPlace>
+
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="Paris_1690_edition_5">
+                        <author> Jean de la Bruyère </author>
+                        <author ref="https://data.bnf.fr/11910249"> Théophraste</author>
+                        <title>Les Caractères</title>
+                        <editor>Estienne Michallet</editor>
+                        <edition>Cinquième édition</edition>
+                        <imprint xml:id="Paris_1690_5">
+                            <publisher>Edition classique</publisher>
+                            <date>1690</date>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575660?rk=171674;4</pubPlace>
+                            
+                        </imprint>
+                    </monogr>
                     <monogr xml:id="Paris_1691_edition_6">
                         <author>Théophraste</author>
                         <author ref="https://data.bnf.fr/11887698/theophraste">
@@ -80,11 +98,24 @@
                             <publisher>Edition classique</publisher>
                             <date>1691</date>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k/f5.item.zoom</pubPlace>
-                            
-                            
-
+                         
                         </imprint>
 
+                    </monogr>
+                 
+                    <monogr xml:id="Paris_1692_edition_7">
+                        <author>Théophraste</author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste">
+                            Théophraste></author>
+                        <title>Les Caractères</title>
+                        <editor>Estienne Michallet</editor>
+                        <edition>Septième édition</edition>
+                        <imprint xml:id="Paris_1692_septième_edition">
+                            <publisher>Edition classique</publisher>
+                            <date>1692</date>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57575z?rk=236052;4</pubPlace>
+                            
+                        </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1699_edition_10">
                         <author>Théophraste</author>
@@ -184,7 +215,7 @@
 
                 <div2 n="62" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
                     <p> Les choses les plus souhaitées n’arrivent point ; ou si elles arrivent, ce
-                        n’est ni dans le temps ni dans les circonstances où elles auraient fait un
+                        n’est <app> <lem wit="#Paris_1684_edition_4 #Paris_1690_edition_5"> ni </lem> <rdg wit="#Paris_1691_edition_6"> ny </rdg></app> dans le temps ni dans les circonstances où elles auraient fait un
                         extrême plaisir. </p>
                 </div2>
 
@@ -413,5 +444,4 @@
         </body>
     </text>
 </TEI>
-
 
