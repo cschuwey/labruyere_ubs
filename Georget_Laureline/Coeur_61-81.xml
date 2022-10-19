@@ -177,6 +177,7 @@
             <charDecl>
                 <glyph xml:id="Pied_de_mouche_simple"> </glyph>
                 <glyph xml:id="Pied_de_mouche_entre_parenthèses"> </glyph>
+                <glyph xml:id="Pied_de_mouche_entre_deux_parenthèses"> </glyph>
                 
             </charDecl>
 
@@ -267,26 +268,45 @@
                         <app>
                         <lem wit="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5"> d'estre </lem>
                         <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> d'être </rdg>
-                        </app> content de quelqu’un ! </p>
+                        </app> 
+                        content de quelqu’un ! </p>
                 </div2>
 
-                <div2 n="66" source="#Paris_1691_edition_6 #Paris_1691_edition_6">
-                    <p> On ne pourrait se défendre de quelque joie à voir périr un méchant homme :
+                <div2 n="66" source=" #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g> 
+                        
+                        On ne pourrait se défendre de quelque joie à voir périr un méchant homme :
                         l’on jouirait alors du fruit de sa haine, et l’on tirerait de lui tout ce
                         qu’on en peut espérer, qui est le plaisir de sa perte. Sa mort enfin arrive,
-                        mais dans une conjoncture où nos intérêts ne nous permettent pas de nous en
-                        réjouir : il meurt trop tôt ou trop tard. </p>
+                        mais dans une conjoncture où nos
+                        <app>
+                        <lem wit="#Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7"> interests </lem>
+                        <rdg wit="#Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> intérêts </rdg>
+                        </app>   
+                        ne nous permettent pas de nous en réjouir : il meurt trop 
+                        <app>
+                        <lem wit="#Paris_1690_edition_5"> tost </lem>
+                        <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> tôt </rdg>
+                        </app>  
+                        ou trop tard. 
+                    </p>
                 </div2>
 
-                <div2 n="67" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
-                    <p> Il est pénible à un homme fier de pardonner à celui qui le surprend en
+                <div2 n="67" source="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>
+                        Il est pénible à un homme fier de pardonner à celui qui le surprend en
                         faute, et qui se plaint de lui avec raison : sa fierté ne s’adoucit que
                         lorsqu’il reprend ses avantages, et qu’il met l’autre dans son tort. </p>
                 </div2>
 
-                <div2 n="68" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
+                <div2 n="68" source="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> Comme nous nous affectionnons de plus en plus aux personnes à qui nous
-                        faisons du bien, de même nous haïssons violemment ceux que nous avons
+                        faisons du bien, de 
+                        <app>
+                        <lem wit="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1690_edition_5"> mesme </lem>
+                        <rdg wit="#Paris_1684_edition_4 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> même </rdg>
+                        </app>   
+                        nous haïssons violemment ceux que nous avons
                         beaucoup offensés. </p>
                 </div2>
 
