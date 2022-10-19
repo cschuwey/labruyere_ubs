@@ -130,6 +130,17 @@
         </fileDesc>
 
         <encodingDesc>
+            <charDecl>
+                <glyph xml:id="pieddemouche">
+                    <desc>¶</desc>
+                </glyph>
+                <glyph xml:id="p-pieddemouche">
+                    <desc>(¶)</desc>
+                </glyph>
+                <glyph xml:id="pp-pieddemouche">
+                    <desc>((¶))</desc>
+                </glyph>
+            </charDecl>
             <appInfo>
                 <application version="21" ident="OxygenXML">
                     <desc>Document traité et codé avec Oxygen Xml Editor</desc>
@@ -154,12 +165,16 @@
 
         </profileDesc>
         <revisionDesc>
+            
             <change>Tout au long de l'ouvrage, il faudra apporter une correction au "s" long, qui se
                 traduit aujourd'hui avec le "s". Il faudra également faire attention aux "ç" qui
                 complètent parfois le son "s" mais qui ne nous ne sont pas utile aujourd'hui à la
                 prononciation.</change>
             <change> Tous les verbes à l'imparfait sous la forme "oi" seront changés sous la forme
                 de français moderne "ai". Exemple : "étoit" devient "était". </change>
+            <change> <date when="2022-10-16"></date>Ajout des éditions correspondant à chaque remarques</change>
+            <change><date when="2022-10-17"></date> Ajout de toutes les sources des différentes éditions</change>
+            <change> <date when="2022-10-19"></date> Ajout des modifications selon les éditions sur la page de titre ainsi que la manière d'encoder les pieds de mouche </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -178,15 +193,25 @@
                     <titlePart>les moeurs</titlePart>
                     <titlePart>de ce siècle</titlePart>
                 </docTitle>
-                <docEdition> Septième édition revue et corrigée. </docEdition>
+                <docEdition source="#Paris_1692_Septieme"> 
+                    <app> <rdg wit="#Paris_1688_Troisieme"> Troisième édition </rdg> </app>
+                    <app> <rdg wit="#Paris_1689_Quatrieme"> Quatrième édition corrigée et augmentée </rdg> </app> 
+                    <app> <rdg wit="#Paris_1690_Cinquieme"> Cinquième édition augmentée de plusieurs remarques</rdg></app>
+                    <app> <rdg wit="#Paris_1691_Sixieme"> Six'ieme édition</rdg></app>
+                    <app> <rdg wit="#Paris_1694_Huitieme"> Huitième édition revue, corrigée et augmentée</rdg></app>
+                    <app> <rdg wit="#Paris_1696_Neuvieme"> Neuvième édition revue, corrigée et augmentée</rdg></app>
+                    <app> <rdg wit="#Paris_1699_Dixieme"> Dixième édition </rdg></app>
+                    Septième édition revue et corrigée. </docEdition>
                 <figure/>
                 <docImprint> A Paris, chez Etienne Michallet premier imprimeur du Roy, rue Saint
                     Jacques, à l'image S. Paul. </docImprint>
-                <docDate when="1692" style="big">M.DC. XCII.</docDate>
+                <docDate source="#Paris_1692_Septieme" when="1692" style="big">M.DC. XCII.
+                </docDate>
                 <imprimatur> Avec privilège de sa majesté </imprimatur>
 
             </titlePage>
         </front>
+                
         <body>
             <div1>
                 <head>De la Mode</head>
