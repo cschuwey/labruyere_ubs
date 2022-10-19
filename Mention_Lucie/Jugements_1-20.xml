@@ -4,6 +4,13 @@
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères de La Bruyère</title>
+                <title type="normal">Les caractères de Theophraste traduits du Grec avec Les caractères ou les moeurs de ce siècle</title>
+                <author>Jean de La Bruyère</author>
+                <editor>Estienne Michalet, premier imprimeur du roi, rue S. Jacques, à l'image S. Paul</editor>
+                <respStmt>
+                    <resp>encodage TEI</resp>
+                    <name type="person" xml:id="LM">Lucie Mention</name>
+                </respStmt> 
             </titleStmt>
             <publicationStmt>
                 <authority>Lucie</authority>
@@ -12,7 +19,7 @@
                 <bibl>bibliothèque ubs</bibl>
                 <biblStruct>
                     <monogr xml:id="PARIS_1688_3">
-                        <author>Jean de la Bruyère</author>
+                        <author>Jean de La Bruyère</author>
                         <title>Les caractères de Theophraste traduits du Grec avec Les caractères ou les moeurs de ce siècle</title>
                         <edition>Troisième édition</edition>
                         <editor>Estienne Michalet</editor>
@@ -99,7 +106,7 @@
                 <channel></channel>
                 <constitution>Rédaction de l'ouvrage vers 1670</constitution>
                 <derivation></derivation>
-                <domain></domain>
+                <domain type="historique"></domain>
                 <factuality></factuality>
                 <interaction></interaction>
                 <preparedness></preparedness>
@@ -114,6 +121,12 @@
             </creation>
         </profileDesc>
         <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Texte moralisateur</catDesc>
+                    </category>
+                </taxonomy>
             <editorialDecl>
                 <correction>
                     <p>Le texte a été corrigé à de nombreuses reprises au fur et à mesure des avancées de La Bruyère, puis ensuite à titre posthume</p>
@@ -126,11 +139,10 @@
                 <glyph xml:id="fr_pieddemouche">
                     <desc>IP, (IP), ((IP))</desc>
                 </glyph>
-                
             </charDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>
+            <change who="#LM">
                 <date>03.10.2022</date>
                 <p>Création de sourceDesc sur une troisième édition</p>
                 <date>10.10.2022</date>
@@ -139,9 +151,17 @@
                 <p>Création et mise en forme de la partie text, mise en forme de doctitle, docedition, doc imprint avec la page de couverture</p>
                 <p>Mise en forme du body avec div1 et div2</p>
                 <date>17.10.2022</date>
-                <p>Création de sourceDesc sur une quatrième édition, rajout de source édition 4 dans les div2</p>
+                <p>Création de sourceDesc sur une quatrième édition, rajout de source édition 4 dans les div2 pour ce qui est en commun avec l'édition 6</p>
                 <p>Création dans encodingTest d'un charDecl pour les pieds de mouche</p>
-                <p>Création de app pour marquer les variables</p>
+                <p>Création de app pour marquer les variables du n°1 au n°11 paragraphe 1</p>
+                <date>19.10.2022</date>
+                <p>Rajout de source édition 8 dans les div2 pour comparer avec édition 6 qui n'apparaît pas dans l'édition 4</p>
+                <p>Mise à jour du teiHeader</p>
+                <p>Recherche et essais de création d'une balise pour marquer les asterisks pour n°8 (éditions 6 et 8) et n°18 (éditions 6, 4, et 8)</p>
+                <p>Recherche et essais de création d'une balise pour marquer les asterisks pour n°10 (édition 4)</p>
+                <p>Recherche et essais de création d'une balise pour marquer les remarques manuscrites de édition 8 qui n'apparaît pas dans édition 6, pour n°11, n°13, n°14, et n°16</p>
+                <p>Essais de mettre une balise pour indiquer la grande majuscule au début du chapitre "Des Jugements"</p>
+                <p>Rajout d'un app pour n°2</p>
             </change>
         </revisionDesc>
     </teiHeader>
@@ -175,12 +195,18 @@
         </front>
         <body>
             <div1>
-                <head source="#PARIS_1691_6_1">Des Jugements</head>
+                <head>Des Jugements</head>
+                <head source="#PARIS_1691_6_1 #PARIS_1689_4_1 #PARIS_1694_8_1">Des Jugemens</head>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (1)
                         Rien ne ressemble plus à la vive persuasion que le mauvais entêtement : de là les partis, les cabales, les hérésies.
+                        <add>
+                            <me facs>
+                                <bfm: large initial capital>R</bfm: large initial capital>
+                            </me:facs>
+                        </add>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -188,6 +214,10 @@
                         <g ref="#fr_pieddemouche"></g>
                         (2)
                         L’on ne pense pas toujours constamment d’un même sujet : l’entêtement et le dégoût se suivent de près.
+                        <app>
+                            <rdg wit="#PARIS_1691_6_1">mefme</rdg>
+                            <rdg wit="#PARIS_1689_4_1">même</rdg>
+                        </app>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -235,11 +265,14 @@
                         </app>
                     </p>
                 </div2>
-                <div2 source="#PARIS_1691_6_1">
+                <div2 source="#PARIS_1691_6_1 #PARIS_1694_8_1">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (8)
-                        Je ne sais s’il y a rien au monde qui coûte davantage à approuver et à louer que ce qui est plus digne d’approbation et de louange, et si la vertu, le mérite, la beauté, les bonnes actions, les beaux ouvrages, ont un effet plus naturel et plus sûr que envie, la jalousie, et l’antipathie. Ce n’est pas d’un saint dont un dévot sait dire du bien, mais d’un autre dévot. Si une belle femme approuve la beauté d’une autre femme, on peut conclure qu’elle a mieux que ce qu’elle approuve. Si un poète loue les vers d’un autre poète, il y a à parier qu’ils sont mauvais et sans conséquence.
+                        Je ne sais s’il y a rien au monde qui coûte davantage à approuver et à louer que ce qui est plus digne d’approbation et de louange, et si la vertu, le mérite, la beauté, les bonnes actions, les beaux ouvrages, ont un effet plus naturel et plus sûr que envie, la jalousie, et l’antipathie. Ce n’est pas d’un saint dont un dévot * sait dire du bien, mais d’un autre dévot. Si une belle femme approuve la beauté d’une autre femme, on peut conclure qu’elle a mieux que ce qu’elle approuve. Si un poète loue les vers d’un autre poète, il y a à parier qu’ils sont mauvais et sans conséquence.
+                        <add>
+                            <place type="margin-right">* Faux devot.</place
+                        </add>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1694_8_1">
@@ -256,36 +289,51 @@
                         Le commun des hommes est si enclin au dérèglement et à la bagatelle, et le monde est si plein d’exemples ou pernicieux ou ridicules, que je croirais assez que l’esprit de singularité, s’il pouvait avoir ses bornes et ne pas aller trop loin, approcherait fort de la droite raison et d’une conduite régulière.
                     </p>
                     <p>
-                        «Il faut faire comme les autres » : maxime suspecte, qui signifie presque toujours : « il faut mal faire » dès qu’on l’étend au delà de ces choses purement extérieures, qui n’ont point de suite, qui dépendent de l’usage, de la mode ou des bienséances.
+                        «Il faut faire comme les autres » : maxime suspecte, qui signifie presque toujours : « il faut mal faire » dès qu’on l’étend au delà de ces choses purement extérieures, qui n’ont point * de suite, qui dépendent de l’usage, de la mode ou des bienséances.
                         <app>
                             <rdg wit="#PARIS_1691_6_1">toûjours</rdg>
                             <rdg wit="#PARIS_1689_4_1">toûiours</rdg>
                         </app>
+                        <add>
+                            <place source="#PARIS_1689_4_1"></place>
+                            <place type="bottom-margin">N *</place>
+                        </add>
+                        
                     </p>
                 </div2>
-                <div2 source="#PARIS_1691_6_1">
+                <div2 source="#PARIS_1691_6_1 #PARIS_1694_8_1">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (11)
                         Si les hommes sont hommes plutôt qu’ours et panthères, s’ils sont équitables, s’ils se font justice à eux-mêmes, et qu’ils la rendent aux autres, que deviennent les lois, leur texte et le prodigieux accablement de leurs commentaires ? que devient le pétitoire et le possessoire, et tout ce qu’on appelle jurisprudence ? Où se réduisent même ceux qui doivent tout leur relief et toute leur enflure à l’autorité où ils sont établis de faire valoir ces mêmes lois ? Si ces mêmes hommes ont de la droiture et de la sincérité, s’ils sont guéris de la prévention, où sont évanouies les disputes de l’école, la scolastique et les controverses ? S’ils sont tempérants, chastes et modérés, que leur sert le mystérieux jargon de la médecine, et qui est une mine d’or pour ceux qui s’avisent de le parler ? Légistes, docteurs, médecins, quelle chute pour vous, si nous pouvions tous nous donner le mot de devenir sages !
                         <app>
                             <rdg wit="#PARIS_1691_6_1">eux-mefmes</rdg>
-                            <rdg wit="#PARIS_1689_8_1">eux-mêmes</rdg>
+                            <rdg wit="#PARIS_1694_8_1">eux-mêmes</rdg>
                             <rdg wit="#PARIS_1691_6_1">leur texte, &amp; le prodigieux</rdg>
-                            <rdg wit="#PARIS_1689_8_1">leur texte &amp; le prodigieux</rdg>
+                            <rdg wit="#PARIS_1694_8_1">leur texte &amp; le prodigieux</rdg>
                             <rdg wit="#PARIS_1691_6_1">mefme</rdg>
-                            <rdg wit="#PARIS_1689_8_1">même</rdg>
+                            <rdg wit="#PARIS_1694_8_1">même</rdg>
                             <rdg wit="#PARIS_1691_6_1">ces mefmes loix</rdg>
-                            <rdg wit="#PARIS_1689_8_1">ces mêmes loix</rdg>
+                            <rdg wit="#PARIS_1694_8_1">ces mêmes loix</rdg>
                             <rdg wit="#PARIS_1691_6_1">ces mefmes hommes</rdg>
-                            <rdg wit="#PARIS_1689_8_1">ces mêmes hommes</rdg>
+                            <rdg wit="#PARIS_1694_8_1">ces mêmes hommes</rdg>
                         </app>
                     </p>
                     <p>
                         De combien de grands hommes dans les différents exercices de la paix et de la guerre aurait-on dû se passer ! À quel point de perfection et de raffinement n’a-t-on pas porté de certains arts et de certaines sciences qui ne devaient point être nécessaires, et qui sont dans le monde comme des remèdes à tous les maux dont notre malice est l’unique source !
+                        <add>
+                            <place source="#PARIS_1694_8_1"></place>
+                            <place type="margin-right">Note manuscrite illisible</place>
+                            <hand type="handwritten-note">Jean de La Bruyère</hand>
+                        </add>
                     </p>
                     <p>
                         Que de choses depuis Varron, que Varron a ignorées ! Ne nous suffirait-il pas même de n’être savant que comme Platon ou comme Socrate ?
+                        <add>
+                            <place source="#PARIS_1694_8_1"></place>
+                            <place type="margin-right">Note manuscrite illisible</place>
+                            <hand type="handwritten-note">Jean de La Bruyère</hand>
+                        </add>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -300,6 +348,11 @@
                         <g ref="#fr_pieddemouche"></g>
                         (13)
                         Le phénix de la poésie chantante renaît de ses cendres ; il a vu mourir et revivre sa réputation en un même jour. Ce juge même si infaillible et si ferme dans ses jugements, le public, a varié sur son sujet : ou il se trompe, ou il s’est trompé. Celui qui prononcerait aujourd’hui que Q** en un certain genre est mauvais poète, parlerait presque aussi mal que s’il eût dit il y a quelque temps : Il est bon poète.
+                        <add>
+                            <place source="#PARIS_1694_8_1"></place>
+                            <place type="margin-right margin-left">Note manuscrite illisible</place>
+                            <hand type="handwritten-note">Jean de La Bruyère</hand>
+                        </add>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -307,6 +360,11 @@
                         <g ref="#fr_pieddemouche"></g>
                         (14)
                         C. P. était fort riche, et C. N. ne l’était pas : la Pucelle et Rodogune méritaient chacune une autre aventure. Ainsi l’on a toujours demandé pourquoi, dans telle ou telle profession, celui-ci avait fait sa fortune, et cet autre l’avait manquée ; et en cela les hommes cherchent la raison de leurs propres caprices, qui dans les conjonctures pressantes de leurs affaires, de leurs plaisirs, de leur santé et de leur vie, leur font souvent laisser les meilleurs et prendre les pires.
+                        <add>
+                            <place source="#PARIS_1694_8_1"></place>
+                            <place type="margin-left">Note manuscrite illisible</place>
+                            <hand type="handwritten-note">Jean de La Bruyère</hand>
+                        </add>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -321,6 +379,11 @@
                         <g ref="#fr_pieddemouche"></g>
                         (16)
                         Il suffisait à Bathylle d’être pantomime pour être couru des dames romaines ; à Rhoé de danser au théâtre ; à Roscie et à Nérine de représenter dans les chœurs, pour s’attirer une foule d’amants. La vanité et l’audace, suites d’une trop grande puissance, avaient ôté aux Romains le goût du secret et du mystère ; ils se plaisaient à faire du théâtre public celui de leurs amours ; ils n’étaient point jaloux de l’amphithéâtre, et partageaient avec la multitude les charmes de leurs maîtresses. Leur goût n’allait qu’à laisser voir qu’ils aimaient, non pas une belle personne ou une excellente comédienne, mais une comédienne.
+                        <add>
+                            <place source="#PARIS_1694_8_1"></place>
+                            <place type="margin-left">Note manuscrite illisible</place>
+                            <hand type="handwritten-note">Jean de La Bruyère</hand>
+                        </add>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -337,13 +400,16 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (18)
-                        Il y a une sorte de hardiesse à soutenir devant certains esprits la honte de l’érudition : l’on trouve chez eux une prévention tout établie contre les savants, à qui ils ôtent les manières du monde, le savoir-vivre, l’esprit de société, et qu’ils renvoient ainsi dépouillés à leur cabinet et à leurs livres. Comme l’ignorance est un état paisible et qui ne coûte aucune peine, l’on s’y range en foule, et elle forme à la cour et à la ville un nombreux parti, qui l’emporte sur celui des savants. S’ils allèguent en leur faveur les noms d’Estrées, de Harlay, Bossuet, Seguier, Montausier, Wardes, Chevreuse, Novion, Lamoignon, Scudéry, Pélisson, et de tant d’autres personnages également doctes et polis ; s’ils osent même citer les grands noms de Chartres, de Condé, de Conti, de Bourbon, du Maine, de Vendome, comme de princes qui ont su joindre aux plus belles et aux plus hautes connaissances et l’atticisme des Grecs et l’urbanité des Romains, l’on ne feint point de leur dire que ce sont des exemples singuliers ; et s’ils ont recours à de solides raisons, elles sont faibles contre la voix de la multitude. Il semble néanmoins que l’on devrait décider sur cela avec plus de précaution, et se donner seulement la peine de douter si ce même esprit qui fait faire de si grands progrès dans les sciences, qui fait bien penser, bien juger, bien parler et bien écrire, ne pourrait point encore servir à être poli.
+                        Il y a une sorte de hardiesse à soutenir devant certains esprits la honte de l’érudition : l’on trouve chez eux une prévention tout établie contre les savants, à qui ils ôtent les manières du monde, le savoir-vivre, l’esprit de société, et qu’ils renvoient ainsi dépouillés à leur cabinet et à leurs livres. Comme l’ignorance est un état paisible et qui ne coûte aucune peine, l’on s’y range en foule, et elle forme à la cour et à la ville un nombreux parti, qui l’emporte sur celui des savants. S’ils allèguent en leur faveur les noms d’Estrées, de Harlay, Bossuet, Seguier, Montausier, Wardes, Chevreuse, Novion, Lamoignon, Scudéry *, Pélisson, et de tant d’autres personnages également doctes et polis ; s’ils osent même citer les grands noms de Chartres, de Condé, de Conti, de Bourbon, du Maine, de Vendome, comme de princes qui ont su joindre aux plus belles et aux plus hautes connaissances et l’atticisme des Grecs et l’urbanité des Romains, l’on ne feint point de leur dire que ce sont des exemples singuliers ; et s’ils ont recours à de solides raisons, elles sont faibles contre la voix de la multitude. Il semble néanmoins que l’on devrait décider sur cela avec plus de précaution, et se donner seulement la peine de douter si ce même esprit qui fait faire de si grands progrès dans les sciences, qui fait bien penser, bien juger, bien parler et bien écrire, ne pourrait point encore servir à être poli.
+                        <add>
+                            <place type="margin-right">* Mlle Scudery</place
+                        </add>
                     </p>
                     <p>
                         Il faut très peu de fonds pour la politesse dans les manières ; il en faut beaucoup pour celle de l’esprit.
                     </p>
                 </div2>
-                <div2 source="#PARIS_1691_6_1">
+                <div2 source="#PARIS_1691_6_1 #PARIS_1694_8_1">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (19)
@@ -353,7 +419,7 @@
                         Les langues sont la clef ou l’entrée des sciences, et rien davantage ; le mépris des unes tombe sur les autres. Il ne s’agit point si les langues sont anciennes ou nouvelles, mortes ou vivantes, mais si elles sont grossières ou polies, si les livres qu’elles ont formés sont d’un bon ou d’un mauvais goût. Supposons que notre langue pût un jour avoir le sort de la grecque et de la latine, serait-on pédant, quelques siècles après qu’on ne la parlerait plus, pour lire Molière ou La Fontaine ?
                     </p>
                 </div2>
-                <div2 source="#PARIS_1691_6_1">
+                <div2 source="#PARIS_1691_6_1 #PARIS_1694_8_1">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (20)
