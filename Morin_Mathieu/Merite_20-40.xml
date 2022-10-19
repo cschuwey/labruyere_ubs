@@ -109,6 +109,15 @@
                 <item>
                     <date when="2022-10-13">13 octobre 2022</date>Ajout des éditions présentant les remarques dans l'élément "source"
                 </item>
+                <item>
+                    <date when="2022-10-17">17 octobre 2022</date>Encodage des remarques 20 et 21
+                </item>
+                <item>
+                    <date when="2022-10-19">19 octobre 2022</date>Implémentation des pieds-de-mouche
+                </item>
+                <item>
+                    <date when="2022-10-19">19 octobre 2022</date>Encodage des remarques 22, 23 et 24
+                </item>
             </list>
         </revisionDesc>
         
@@ -165,7 +174,7 @@
                 </div2>
                 
                 <div2 source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="21">S’il 
+                    <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="21">S’il 
                         <app>
                             <lem>est</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſt</rdg>
@@ -189,11 +198,15 @@
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1692_7 #Paris_1699_10" n="22">Il 
+                    <p source="#Paris_1692_7 #Paris_1699_10 #pieddemouche" n="22">Il 
                         <app>
                             <lem>apparaît</lem>
                             <rdg wit="#Paris_1692_7 #Paris_1699_10">apparoît</rdg>
-                        </app> de temps en temps sur la 
+                        </app> de temps en temps 
+                        <app>
+                            <lem>sur</lem>
+                            <rdg wit="#Paris_1692_7 #Paris_1699_10">ſur</rdg>
+                        </app> la 
                         <app>
                             <lem>surface</lem>
                             <rdg wit="#Paris_1692_7 #Paris_1699_10">face</rdg>
@@ -204,18 +217,73 @@
                         </app> dont les 
                         <app>
                             <lem>qualités</lem>
-                            <rdg></rdg>
-                        </app> éminentes jettent un éclat prodigieux. Semblables à ces étoiles extraordinaires dont on ignore les causes, et dont on sait encore moins ce qu’elles deviennent après avoir disparu, ils n’ont ni aïeuls, ni descendants : ils composent seuls toute leur race.</p>
+                            <rdg wit="#Paris_1692_7 #Paris_1699_10">qualitez</rdg>
+                        </app> éminentes jettent un éclat prodigieux. 
+                        <app>
+                            <lem>Semblables</lem>
+                            <rdg wit="#Paris_1692_7 #Paris_1699_10">ſemblables</rdg>
+                        </app> à ces étoiles extraordinaires dont on ignore les 
+                        <app>
+                            <lem>causes, et</lem>
+                            <rdg wit="#Paris_1692_7 #Paris_1699_10">cauſes, &amp;</rdg>
+                        </app> dont on 
+                        <app>
+                            <lem>sait</lem>
+                            <rdg wit="#Paris_1692_7 #Paris_1699_10">ſçait</rdg>
+                        </app> encore moins ce qu’elles deviennent 
+                        <app>
+                            <lem>après avoir disparu</lem>
+                            <rdg wit="#Paris_1692_7 #Paris_1699_10">aprés avoir diſparu</rdg>
+                        </app>, ils n’ont 
+                        <app>
+                            <lem>ni aïeuls, ni descendants</lem>
+                            <rdg wit="#Paris_1692_7 #Paris_1699_10">ny ayeuls ny deſcendans</rdg>
+                        </app> ; ils 
+                        <app>
+                            <lem>composent seuls</lem>
+                            <rdg wit="#Paris_1692_7 #Paris_1699_10">compoſent ſeuls</rdg>
+                        </app> toute leur race.</p>
                 </div2>
                 
                 <div2 source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="23">Le bon esprit nous découvre notre devoir, notre engagement à le faire, 
-                        et s’il y a du péril, avec péril : il inspire le courage, ou il y supplée.</p>
+                    <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="23">Le bon 
+                        <app>
+                            <lem>esprit</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſprit</rdg>
+                        </app> nous découvre 
+                        <app>
+                            <lem>notre</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">nôtre</rdg>
+                        </app> devoir, 
+                        <app>
+                            <lem>notre</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">nôtre</rdg>
+                        </app> engagement à le faire, 
+                        <app>
+                            <lem>et</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">&amp;</rdg>
+                        </app> s’il y a du 
+                        <app>
+                            <lem>péril, avec péril</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">peril, avec peril</rdg>
+                        </app> : il 
+                        <app>
+                            <lem>inspire</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">inſpire</rdg>
+                        </app> le courage, ou il y 
+                        <app>
+                            <lem>supplée.</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">ſupplée.</rdg>
+                        </app></p>
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="24">
-                        Quand on excelle dans son art, 
+                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="24">
+                        Quand on excelle dans 
+                        <app>
+                            <lem>son</lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">ſon</rdg>
+                        </app> art, 
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">&amp;</rdg>
@@ -223,7 +291,15 @@
                         <app>
                             <lem>lui</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">luy</rdg>
-                        </app> donne toute la perfection dont il est capable, l’on en sort en quelque manière, 
+                        </app> donne toute la perfection dont il 
+                        <app>
+                            <lem>est</lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſt</rdg>
+                        </app> capable, l’on en 
+                        <app>
+                            <lem>sort</lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">ſort</rdg>
+                        </app> en quelque manière, 
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">&amp;</rdg>
@@ -231,26 +307,38 @@
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">&amp;</rdg>
-                        </app> de plus relevé. V** est un peintre, C** un musicien, 
+                        </app> de plus relevé. V** 
                         <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">&amp;</rdg>
-                        </app> l’auteur de Pyrame est un poète ; mais Mignard est Mignard, Lulli est Lulli, 
+                            <lem>est un peintre,</lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſt un Peintre.</rdg>
+                        </app> C** un 
                         <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">&amp;</rdg>
-                        </app> Corneille est Corneille.</p>
+                            <lem>musicien,</lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">Muſicien,</rdg>
+                        </app> 
+                        <app>
+                            <lem>et l’auteur</lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">&amp; l'Auteur</rdg>
+                        </app> de Pyrame 
+                        <app>
+                            <lem>est un poète</lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſt un Poëte</rdg>
+                        </app> ; mais
+                        <app>
+                            <lem>Mignard est Mignard, Lulli est Lulli, et Corneille est Corneille.</lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">MIGNARD eſt MIGNARD. LULLY eſt LULLY ; &amp; CORNEILLE eſt CORNEILLE</rdg>
+                        </app></p>
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="25">Un homme libre, et qui n’a point de femme, s’il a quelque esprit ; 
+                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="25">Un homme libre, et qui n’a point de femme, s’il a quelque esprit ; 
                         peut s’élever au-dessus de sa fortune, se mêler dans le monde, 
                         et aller de pair avec les plus honnêtes gens. Cela est moins facile à celui qui est engagé : 
                         il semble que le mariage met tout le monde dans son ordre.</p>
                 </div2>
                 
                 <div2 source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="26">Après le mérite personnel, il faut l’avouer, 
+                    <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="26">Après le mérite personnel, il faut l’avouer, 
                         ce sont les éminentes dignité et les grands titres dont les hommes tirent plus de distinction et plus 
                         d’éclat ; et qui ne sait être un Erasme doit penser à être évêque. Quelques-uns, 
                         pour étendre leur renommée, entassent sur leurs personnes des pairies, des colliers d’ordre, 
@@ -259,7 +347,7 @@
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1692_7 #Paris_1699_10" n="27">L’or éclate, dites-vous, sur les habits de Philémon. 
+                    <p source="#Paris_1692_7 #Paris_1699_10 #pieddemouche" n="27">L’or éclate, dites-vous, sur les habits de Philémon. 
                         — Il éclate de même chez les marchands. — Il est habillé des plus belles étoffes. 
                         — Le sont-elles moins toutes déployées dans les boutiques et à la pièce ? 
                         — Mais la broderie et les ornements y ajoutent encore la magnificence. 
@@ -279,7 +367,7 @@
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="28">Un homme à la cour, et souvent à la ville, 
+                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="28">Un homme à la cour, et souvent à la ville, 
                         qui a un long manteau de soie ou de drap de Hollande, une ceinture large et placée haut sur l’estomac, 
                         le soulier de maroquin, la calotte de même, d’un beau grain, un collet bien fait et bien empesé, 
                         les cheveux arrangés et le teint vermeil, 
@@ -290,19 +378,19 @@
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="29">Chez nous le soldat est brave, et l’homme de robe est savant ; 
+                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="29">Chez nous le soldat est brave, et l’homme de robe est savant ; 
                         nous n’allons pas plus loin. Chez les Romains l’homme de robe était brave, et le soldat était savant : 
                         un Romain était tout ensemble et le soldat et l’homme de robe.</p>
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="30">Il semble que le héros est d’un seul métier, qui est celui de la guerre, 
+                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="30">Il semble que le héros est d’un seul métier, qui est celui de la guerre, 
                         et que le grand homme est de tous les métiers, ou de la robe, ou de l’épée, ou du cabinet, ou de la cour : 
                         l’un et l’autre mis ensemble ne pèsent pas un homme de bien.</p>
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="31">Dans la guerre, la distinction entre le héros et le grand homme est délicate : 
+                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="31">Dans la guerre, la distinction entre le héros et le grand homme est délicate : 
                         toutes les vertus militaires font l’un et l’autre. Il semble néanmoins que le premier soit jeune, 
                         entreprenant, d’une haute valeur, ferme dans les périls, intrépide ; 
                         que l’autre excelle par un grand sens, par une vaste prévoyance, par une haute capacité, 
@@ -311,7 +399,7 @@
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1692_7 #Paris_1699_10" n="32">Aemile était né ce que les plus grands hommes ne deviennent qu’à force de règles, 
+                    <p source="#Paris_1692_7 #Paris_1699_10 #pieddemouche" n="32">Aemile était né ce que les plus grands hommes ne deviennent qu’à force de règles, 
                         de méditation et d’exercice. 
                         Il n’a eu dans ses premières années qu’à remplir des talents qui étaient naturels, 
                         et qu’à se livrer à son génie. Il a fait, il a agi, avant que de savoir, 
@@ -336,14 +424,14 @@
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="33">Les enfants des Dieux, pour ainsi dire, se tirent des règles de la nature, 
+                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="33">Les enfants des Dieux, pour ainsi dire, se tirent des règles de la nature, 
                         et en sont comme l’exception. Ils n’attendent presque rien du temps et des années. 
                         Le mérite chez eux devance l’âge. Ils naissent instruits, 
                         et ils sont plus tôt des hommes parfaits que le commun des hommes ne sort de l’enfance.</p>
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1692_7 #Paris_1699_10" n="34">Les vues courtes, je veux dire les esprits bornés et resserrés dans leur petite sphère, 
+                    <p source="#Paris_1692_7 #Paris_1699_10 #pieddemouche" n="34">Les vues courtes, je veux dire les esprits bornés et resserrés dans leur petite sphère, 
                         ne peuvent comprendre cette universalité de talents que l’on remarque quelquefois dans un même sujet : 
                         où ils voient l’agréable, ils en excluent le solide ; où ils croient découvrir les grâces du corps, 
                         l’agilité, la souplesse, la dextérité, ils ne veulent plus y admettre les dons de l’âme, la profondeur, 
@@ -351,12 +439,12 @@
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1692_7 #Paris_1699_10" n="35">Il n’y a guère d’homme si accompli et si nécessaire aux siens, 
+                    <p source="#Paris_1692_7 #Paris_1699_10 #pieddemouche" n="35">Il n’y a guère d’homme si accompli et si nécessaire aux siens, 
                         qu’il n’ait de quoi se faire moins regretter.</p>
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="36">Un homme d’esprit et d’un caractère simple et droit peut tomber dans quelque pièce ; 
+                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="36">Un homme d’esprit et d’un caractère simple et droit peut tomber dans quelque pièce ; 
                         il ne pense pas que personne veuille lui en dresser, et le choisir pour être sa dupe : 
                         cette confiance le rend moins précautionné, et les mauvais plaisants l’entament par cet endroit. 
                         Il n’y a qu’à perdre pour ceux qui en viendraient à une seconde charge : il n’est trompé qu’une fois.
@@ -365,13 +453,13 @@
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="37">Il n’y a rien de si délié, de si simple et de si imperceptible, 
+                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10 #pieddemouche" n="37">Il n’y a rien de si délié, de si simple et de si imperceptible, 
                         où il n’entre des manières qui nous décèlent. Un sot ni n’entre, ni ne sort, ni ne s’assied, 
                         ni ne se lève, ni ne se tait, ni n’est sur ses jambes, comme un homme d’esprit.</p>
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1692_7 #Paris_1699_10" n="38">Je connais Mopse d’une visite qu’il m’a rendue sans me connaître ; 
+                    <p source="#Paris_1692_7 #Paris_1699_10 #pieddemouche" n="38">Je connais Mopse d’une visite qu’il m’a rendue sans me connaître ; 
                         il prie des gens qu’il ne connaît point de le mener chez d’autres dont il n’est pas connu ; 
                         il écrit à des femmes qu’il connaît de vue. Il s’insinue dans un cercle de personnes respectables, 
                         et qui ne savent quel il est, et là, sans attendre qu’on l’interroge, ni sans sentir qu’il interrompt, 
@@ -385,7 +473,7 @@
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1692_7 #Paris_1699_10" n="39">Celse est d’un rang médiocre, mais des grands le souffrent ; il n’est pas savant, 
+                    <p source="#Paris_1692_7 #Paris_1699_10 #pieddemouche" n="39">Celse est d’un rang médiocre, mais des grands le souffrent ; il n’est pas savant, 
                         il a relation avec des savants ; il a peu de mérite, mais il connaît des gens qui en ont beaucoup ; 
                         il n’est pas habile, mais il a une langue qui peut servir de truchement, 
                         et des pieds qui peuvent le porter d’un lieu à un autre. C’est un homme né pour les allées et venues, 
@@ -409,7 +497,7 @@
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1692_7 #Paris_1699_10" n="40">Ménippe est l’oiseau paré de divers plumages qui ne sont pas à lui. 
+                    <p source="#Paris_1692_7 #Paris_1699_10 #pieddemouche" n="40">Ménippe est l’oiseau paré de divers plumages qui ne sont pas à lui. 
                         Il ne parle pas, il ne sent pas ; il répète des sentiments et des discours, 
                         se sert même si naturellement de l’esprit des autres qu’il y est le premier trompé, 
                         et qu’il croit souvent dire son goût ou expliquer sa pensée, 
