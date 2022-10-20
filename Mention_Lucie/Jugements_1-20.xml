@@ -162,6 +162,8 @@
                 <p>Recherche et essais de création d'une balise pour marquer les remarques manuscrites de édition 8 qui n'apparaît pas dans édition 6, pour n°11, n°13, n°14, et n°16</p>
                 <p>Essais de mettre une balise pour indiquer la grande majuscule au début du chapitre "Des Jugements"</p>
                 <p>Rajout d'un app pour n°2</p>
+                <date>20.10.2023</date>
+                <p>Relecture de variable et ajout de variable dans un app du n°1 au n°13</p>
             </change>
         </revisionDesc>
     </teiHeader>
@@ -287,12 +289,18 @@
                         <g ref="#fr_pieddemouche"></g>
                         (10)
                         Le commun des hommes est si enclin au dérèglement et à la bagatelle, et le monde est si plein d’exemples ou pernicieux ou ridicules, que je croirais assez que l’esprit de singularité, s’il pouvait avoir ses bornes et ne pas aller trop loin, approcherait fort de la droite raison et d’une conduite régulière.
+                        <app>
+                            <rdg wit="#PARIS_1691_6_1"> que je</rdg>
+                            <rdg wit="#PARIS_1689_4_1">que ie</rdg>
+                        </app>
                     </p>
                     <p>
                         «Il faut faire comme les autres » : maxime suspecte, qui signifie presque toujours : « il faut mal faire » dès qu’on l’étend au delà de ces choses purement extérieures, qui n’ont point * de suite, qui dépendent de l’usage, de la mode ou des bienséances.
                         <app>
                             <rdg wit="#PARIS_1691_6_1">toûjours</rdg>
                             <rdg wit="#PARIS_1689_4_1">toûiours</rdg>
+                            <rdg wit="#PARIS_1691_6_1">qui n'ont point de fuite</rdg>
+                            <rdg wit="#PARIS_1689_4_1">qui n'ont point de fuites</rdg>
                         </app>
                         <add>
                             <place source="#PARIS_1689_4_1"></place>
@@ -309,6 +317,8 @@
                         <app>
                             <rdg wit="#PARIS_1691_6_1">eux-mefmes</rdg>
                             <rdg wit="#PARIS_1694_8_1">eux-mêmes</rdg>
+                            <rdg wit="#PARIS_1691_6_1">aux autres ;</rdg>
+                            <rdg wit="#PARIS_1694_8_1">aux autres,</rdg>
                             <rdg wit="#PARIS_1691_6_1">leur texte, &amp; le prodigieux</rdg>
                             <rdg wit="#PARIS_1694_8_1">leur texte &amp; le prodigieux</rdg>
                             <rdg wit="#PARIS_1691_6_1">mefme</rdg>
@@ -321,6 +331,20 @@
                     </p>
                     <p>
                         De combien de grands hommes dans les différents exercices de la paix et de la guerre aurait-on dû se passer ! À quel point de perfection et de raffinement n’a-t-on pas porté de certains arts et de certaines sciences qui ne devaient point être nécessaires, et qui sont dans le monde comme des remèdes à tous les maux dont notre malice est l’unique source !
+                         <app>
+                            <rdg wit="#PARIS_1691_6_1">se passer ?</rdg>
+                            <rdg wit="#PARIS_1694_8_1">se passer !</rdg>
+                            <rdg wit="#PARIS_1691_6_1">certaines sciences, qui</rdg>
+                            <rdg wit="#PARIS_1694_8_1">certaines science qui</rdg>
+                            <rdg wit="#PARIS_1691_6_1">point eftre</rdg>
+                            <rdg wit="#PARIS_1694_8_1">point être</rdg>
+                            <rdg wit="#PARIS_1691_6_1">necessaires ;</rdg>
+                            <rdg wit="#PARIS_1694_8_1">necessaires,</rdg>
+                            <rdg wit="#PARIS_1691_6_1">dont noftre</rdg>
+                            <rdg wit="#PARIS_1694_8_1">dont nôtre</rdg>
+                            <rdg wit="#PARIS_1691_6_1">source.</rdg>
+                            <rdg wit="#PARIS_1694_8_1">source !</rdg>
+                        </app>
                         <add>
                             <place source="#PARIS_1694_8_1"></place>
                             <place type="margin-right">Note manuscrite illisible</place>
@@ -329,6 +353,14 @@
                     </p>
                     <p>
                         Que de choses depuis Varron, que Varron a ignorées ! Ne nous suffirait-il pas même de n’être savant que comme Platon ou comme Socrate ?
+                        <app>
+                            <rdg wit="#PARIS_1691_6_1">pas mefme</rdg>
+                            <rdg wit="#PARIS_1694_8_1">pas même</rdg>
+                            <rdg wit="#PARIS_1691_6_1">de n'eftre</rdg>
+                            <rdg wit="#PARIS_1694_8_1">de n'être</rdg>
+                            <rdg wit="#PARIS_1691_6_1">SOCRATE.</rdg>
+                            <rdg wit="#PARIS_1694_8_1">SOCRATE ?</rdg>
+                        </app>
                         <add>
                             <place source="#PARIS_1694_8_1"></place>
                             <place type="margin-right">Note manuscrite illisible</place>
@@ -341,6 +373,14 @@
                         <g ref="#fr_pieddemouche"></g>
                         (12)
                         I2 (I) Tel à un sermon, à une musique, ou dans une galerie de peintures, a entendu à sa droite et à sa gauche, sur une chose précisément la même, des sentiments précisément opposés. Cela me ferait dire volontiers que l’on peut hasarder, dans tout genre d’ouvrages, d’y mettre le bon et le mauvais : le bon plaît aux uns, et le mauvais aux autres. L’on ne risque guère davantage d’y mettre le pire : il a ses partisans.
+                        <app>
+                            <rdg wit="#PARIS_1691_6_1">la mefme</rdg>
+                            <rdg wit="#PARIS_1689_4_1">la même</rdg>
+                            <rdg wit="#PARIS_1691_6_1">le bon plaift</rdg>
+                            <rdg wit="#PARIS_1689_4_1">le bon plaît</rdg>
+                            <rdg wit="#PARIS_1691_6_1">aux uns,</rdg>
+                            <rdg wit="#PARIS_1689_4_1">aux uns</rdg>
+                        </app>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -348,6 +388,22 @@
                         <g ref="#fr_pieddemouche"></g>
                         (13)
                         Le phénix de la poésie chantante renaît de ses cendres ; il a vu mourir et revivre sa réputation en un même jour. Ce juge même si infaillible et si ferme dans ses jugements, le public, a varié sur son sujet : ou il se trompe, ou il s’est trompé. Celui qui prononcerait aujourd’hui que Q** en un certain genre est mauvais poète, parlerait presque aussi mal que s’il eût dit il y a quelque temps : Il est bon poète.
+                        <app>
+                            <rdg wit="#PARIS_1691_6_1">un mefme jour</rdg>
+                            <rdg wit="#PARIS_1689_4_1">un même jour</rdg>
+                            <rdg wit="#PARIS_1691_6_1">ce juge mefme</rdg>
+                            <rdg wit="#PARIS_1689_4_1">ce juge même</rdg>
+                            <rdg wit="#PARIS_1691_6_1">les jugemens</rdg>
+                            <rdg wit="#PARIS_1689_4_1">les iugemens</rdg>
+                            <rdg wit="#PARIS_1691_6_1">son sujet</rdg>
+                            <rdg wit="#PARIS_1689_4_1">son iujet</rdg>
+                            <rdg wit="#PARIS_1691_6_1">aujourd'hui</rdg>
+                            <rdg wit="#PARIS_1689_4_1">auiourd'hui</rdg>
+                            <rdg wit="#PARIS_1691_6_1">que Q** en un certain genre eft mauvais poëte</rdg>
+                            <rdg wit="#PARIS_1689_4_1">que Q** eft mauvais poëte</rdg>
+                            <rdg wit="#PARIS_1691_6_1">parleroit prefque auffi mal, que</rdg>
+                            <rdg wit="#PARIS_1689_4_1">parleroit auffi mal que</rdg>
+                        </app>
                         <add>
                             <place source="#PARIS_1694_8_1"></place>
                             <place type="margin-right margin-left">Note manuscrite illisible</place>
