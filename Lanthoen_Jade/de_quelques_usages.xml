@@ -10,29 +10,139 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
+
                     <monogr xml:id="Paris-edition5">
                         <title>Les Caractères</title>
                         <author>Jean de La Bruyère</author>
                         <author> ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/" </author>
                         <edition>Edition classique numéro 5</edition>
-                        <imprint xml:id="Paris">
+                        <imprint xml:id="Paris-1690-5">
                             <date>1690</date>
                             <biblScope/>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k5493831p?rk=42918;4</pubPlace>
                         </imprint>
                     </monogr>
 
+                    <monogr xml:id="Paris-edition1">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author>Jean de La Bruyère</author>
+                        <author> ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/" </author>
+                        <edition>Première édition</edition>
+                        <imprint xml:id="Paris-1688-1">
+                            <date>1688</date>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k105077m.item </pubPlace>
+                        </imprint>
+                    </monogr>
+
+                    <monogr xml:id="Paris-edition3">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author>Jean de La Bruyère</author>
+                        <author> ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/" </author>
+                        <edition>Troisième édition</edition>
+                        <imprint xml:id="Paris-1688-3">
+                            <date>1688</date>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k105077m.item </pubPlace>
+                        </imprint>
+                    </monogr>
+
+                    <monogr xml:id="Paris-edition4">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author>Jean de La Bruyère</author>
+                        <author> ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/" </author>
+                        <edition>Quatrième édition</edition>
+                        <imprint xml:id="Paris-1689-4">
+                            <date>1689</date>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k105077m.item </pubPlace>
+                        </imprint>
+                    </monogr>
+
+                    <monogr xml:id="Paris-edition6">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author>Jean de La Bruyère</author>
+                        <author> ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/" </author>
+                        <edition>Sixième édition</edition>
+                        <imprint xml:id="Paris-1691-6">
+                            <date>1691</date>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k105077m.item </pubPlace>
+                        </imprint>
+                    </monogr>
+
+                    <monogr xml:id="Paris-edition7">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author>Jean de La Bruyère</author>
+                        <author> ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/" </author>
+                        <edition>7th édition</edition>
+                        <imprint xml:id="Paris-1692-7">
+                            <date>1692</date>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k105077m.item </pubPlace>
+                        </imprint>
+                    </monogr>
+
+                    <monogr xml:id="Paris-edition8">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author>Jean de La Bruyère</author>
+                        <author> ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/" </author>
+                        <edition>8th édition</edition>
+                        <imprint xml:id="Paris-1694-8">
+                            <date>1694</date>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k105077m.item </pubPlace>
+                        </imprint>
+                    </monogr>
+
+                    <monogr xml:id="Paris-edition9">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author>Jean de La Bruyère</author>
+                        <author> ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/" </author>
+                        <edition>9th édition</edition>
+                        <imprint xml:id="Paris-1696-9">
+                            <date>1696</date>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k105077m.item </pubPlace>
+                        </imprint>
+                    </monogr>
+
+                    <monogr xml:id="Paris-edition10">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce
+                            siècle</title>
+                        <author>Jean de La Bruyère</author>
+                        <author> ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/" </author>
+                        <edition>10th édition</edition>
+                        <imprint xml:id="Paris-1699-10">
+                            <date>1699</date>
+                            <pubPlace> https://gallica.bnf.fr/ark:/12148/bpt6k105077m.item </pubPlace>
+                        </imprint>
+                    </monogr>
+
+
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
+
         <profileDesc>
             <langUsage>
                 <language ident="fra"> Français classique </language>
                 <language ident="lat"> Latin </language>
             </langUsage>
         </profileDesc>
+
         <encodingDesc>
-            <ab/>
+            <charDecl>
+                <glyph xml:id="1-pied_demouche">
+                    <desc>¶</desc>
+                </glyph>
+                <glyph xml:id="2-pied_demouche">
+                    <desc>(¶)</desc>
+                </glyph>
+                <glyph xml:id="3-pied_demouche">
+                    <desc>((¶))</desc>
+                </glyph>
+            </charDecl>
         </encodingDesc>
 
     </teiHeader>
@@ -47,8 +157,17 @@
                     <titlePart> de Theophraste traduit du grec avec Les Caractères ou Les Moeurs de
                         ce siècle </titlePart>
                 </docTitle>
-                <docEdition> Cinquième Edition augmentée de plusieurs remarques </docEdition>
-                <figure/>
+                <docEdition source="#Paris-edition5"> 
+                    <app> <rdg wit="#Paris-edition1"> Première édition</rdg> </app>
+                    <app> <rdg wit="#Paris-edition3"> Troisième édition une remarque nulle part vers la fin</rdg> </app> 
+                    <app> <rdg wit="#Paris-edition4"> Quatrième édition nouvelles remarques et correction début intro</rdg></app>
+                    <app> <rdg wit="#Paris-edition6"> Sixième édition</rdg></app>
+                    <app> <rdg wit="#Paris-edition7"> 7th édition</rdg></app>
+                    <app> <rdg wit="#Paris-edition8"> 8th édition nouvelles remarques</rdg></app>
+                    <app> <rdg wit="#Paris-edition9"> 9th édition</rdg></app>
+                    <app> <rdg wit="#Paris-edition10"> 10th édition</rdg></app>
+                </docEdition>
+                
                 <docImprint> adresse et imprimeur </docImprint>
                 <docDate when="1688" style="big"> MDC. XC</docDate>
                 <imprimatur> avec privilège de sa majesté</imprimatur>
@@ -59,17 +178,29 @@
         <body>
             <div1>
                 <head> De quelques usages </head>
-                <div2 n="1" source="#Paris-edition5 #Paris-edition6 #Paris-edition7">
-                    <p>Il y a des gens qui n’ont pas le moyen d’être nobles. Il y en a de tels que,
+                <div2 n="1" source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p>Il y a des gens qui n’ont pas le moyen d’être nobles. 
+                    <app>
+                    <lem wit="#Paris-edition1">*Secretaire du Roy</lem>
+                    </app>
+                    </p>
+                    
+                    <p> Il y en a de tels que,
                         s’ils eussent obtenu six mois de délai de leurs créanciers, ils étaient
-                        nobles. Quelques autres se couchent roturiers, et se lèvent nobles. Combien
-                        de nobles dont le père et les aînés sont roturiers !</p>
+                        nobles.</p>
+
+                    <p>Quelques autres se couchent roturiers, et se lèvent nobles.
+                    <app>
+                    <lem wit="#Paris-edition5">**Veterants</lem>
+                    </app></p> 
+                    
+                    <p>Combien de nobles dont le père et les aînés sont roturiers !</p>
                 </div2>
 
 
 
-                <div2 n="2" source="#Paris-edition5 #Paris-edition6 #Paris-edition7">
-                    <p>Tel abandonne son père, qui est connu et dont l’on cite le greffe ou la
+                <div2 n="2" source="#Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#2-pied_demouche #Paris-edition5"/>Tel abandonne son père, qui est connu et dont l’on cite le greffe ou la
                         boutique, pour se retrancher sur son aïeul, qui, mort depuis longtemps, est
                         inconnu et hors de prise ; il montre ensuite un gros revenu, une grande
                         charge, de belles alliances, et pour être noble, il ne lui manque que des
@@ -77,9 +208,13 @@
                 </div2>
 
 
-                <div2 n="3" source="#Paris-edition6 #Paris-edition7">
-                    <p>Réhabilitations, mot en usage dans les tribunaux, qui a fait vieillir et
-                        rendu gothique celui de lettres de noblesse autrefois si français et si
+                <div2 n="3" source="#Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p>Réhabilitations <app>
+                    <lem wit="#Paris-edition6">Réhabilitations en italique</lem>
+                    </app>, mot en usage dans les tribunaux, qui a fait vieillir et
+                        rendu gothique celui de lettres de noblesse<app>
+                    <lem wit="#Paris-edition6">lettres de noblesse en italique</lem>
+                    </app> autrefois si français et si
                         usité ; se faire réhabiliter suppose qu’un homme devenu riche originairement
                         est noble, qu’il est d’une né cessité plus que morale qu’il le soit ; qu’à
                         la vérité son père a pu déroger ou par la charrue ou par la houe, ou par la
@@ -93,22 +228,26 @@
 
 
 
-                <div2 n="4" source="#Paris-edition5 #Paris-edition6 ">
-                    <p>Un homme du peuple, à force d’assurer qu’il a vu un prodige, se persuade
+                <div2 n="4" source="#Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#2-pied_demouche"/>Un homme du peuple, à force d’assurer qu’il a vu un prodige, se persuade
                         faussement qu’il a vu un prodige. Celui qui continue de cacher son âge pense
                         enfin lui-même être aussi jeune qu’il veut le faire croire aux autres. De
                         même le roturier qui dit par habitude qu’il tire son origine de quelque
-                        ancien baron ou de quelque châtelain, dont il est vrai qu’il ne descend pas,
+                        ancien baron ou de quelque châtelain <app>
+                    <lem wit="#Paris-edition4">Châtelain en italique</lem>
+                    </app>, dont il est vrai qu’il ne descend pas,
                         a le plaisir de croire qu’il en descend.</p>
                 </div2>
 
 
 
-                <div2 n="5" source="#Paris-edition5 #Paris-edition6">
-                    <p>Quelle est la roture un peu heureuse et établie à qui il manque des armes, et
+                <div2 n="5" source="#Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#2-pied_demouche"/>Quelle est la roture un peu heureuse et établie à qui il manque des armes, et
                         dans ces armes une pièce honorable, des suppôts, un cimier, une devise, et
                         peut-être le cri de guerre ? Qu’est devenue la distinction des casques et
-                        des heaumes ? Le nom et l’usage en sont abolis ; il ne s’agit plus de les
+                        des heaumes <app>
+                    <lem wit="#Paris-edition4">Heaumes en italique</lem>
+                    </app> ? Le nom et l’usage en sont abolis ; il ne s’agit plus de les
                         porter de front ou de côté, ouverts ou fermés, et ceux-ci de tant ou de tant
                         de grilles : on n’aime pas les minuties, on passe droit aux couronnes, cela
                         est plus simple ; on s’en croit digne, on se les adjuge. Il reste encore aux
@@ -120,26 +259,30 @@
 
 
 
-                <div2 n="6" source="#Paris-edition5 #Paris-edition6">
-                    <p>Il suffit de n’être point né dans une ville, mais sous une chaumière répandue
+                <div2 n="6" source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#1-pied_demouche"/>Il suffit de n’être point né dans une ville, mais sous une chaumière répandue
                         dans la campagne, ou sous une ruine qui trempe dans un marécage et qu’on
                         appelle château, pour être cru noble sur sa parole.</p>
                 </div2>
 
 
 
-                <div2 n="7" source="#Paris-edition5 #Paris-edition6">
-                    <p> Un bon gentilhomme veut passer pour un petit seigneur, et il y parvient. Un
+                <div2 n="7" source="#Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#2-pied_demouche"/>Un bon gentilhomme veut passer pour un petit seigneur, et il y parvient. Un
                         grand seigneur affecte la principauté, et il use de tant de précautions,
                         qu’à force de beaux noms, de disputes sur le rang et les préséances, de
-                        nouvelles armes, et d’une généalogie que D’Hozier ne lui a pas faite, il
+                        nouvelles armes, et d’une généalogie que D’Hozier <app>
+                    <lem wit="#Paris-edition4">D'HOZIER tout en majuscule</lem>
+                    </app> ne lui a pas faite, il
                         devient enfin un petit prince.</p>
                 </div2>
 
 
 
-                <div2 n="8" source="#Paris-edition0">
-                    <p>Les grands en toutes choses se forment et se moulent sur de plus grands, qui
+                <div2 n="8" source="#Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><app>
+                    <lem wit="#Paris-edition8">petite main qui pointe sur le nouveau paragraphe</lem>
+                    </app>Les grands en toutes choses se forment et se moulent sur de plus grands, qui
                         de leur part, pour n’avoir rien de commun avec leurs inférieurs, renoncent
                         volontiers à toutes les rubriques d’honneurs et de distinctions dont leur
                         condition se trouve chargée, et préfèrent à cette servitude une vie plus
@@ -151,13 +294,17 @@
 
 
 
-                <div2 n="9" source="#Paris-edition6">
-                    <p>Certaines gens portent trois noms, de peur d’en manquer : ils en ont pour la
+                <div2 n="9" source="#Paris-edition4 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#2-pied_demouche"/>Certaines gens portent trois noms, de peur d’en manquer : ils en ont pour la
                         campagne et pour la ville, pour les lieux de leur service ou de leur emploi.
                         D’autres ont un seul nom dissyllabe, qu’ils anoblissent par des particules
                         dès que leur fortune devient meilleure ; Celui-ci par la suppression d’une
                         syllabe fait de son nom obscur un nom illustre ; celui-là par le changement
-                        d’une lettre en une autre se travestit, et de Syrus devient Cyrus. Plusieurs
+                        d’une lettre en une autre se travestit, et de Syrus <app>
+                    <lem wit="#Paris-edition4">Syrus en italique</lem>
+                    </app> devient Cyrus <app>
+                    <lem wit="#Paris-edition4">Cyrus en italique</lem>
+                    </app>. Plusieurs
                         suppriment leurs noms, qu’ils pourraient conserver sans honte, pour en
                         adopter de plus beaux, où ils n’ont qu’à perdre par la comparaison que l’on
                         fait toujours d’eux qui les portent, avec les grands hommes qui les ont
@@ -169,42 +316,48 @@
 
 
 
-                <div2 n="10" source="#Paris-edition5 #Paris-edition6">
-                    <p>Le besoin d’argent a réconcilié la noblesse avec la roture, et a fait
+                <div2 n="10" source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#1-pied_demouche"/>Le besoin d’argent a réconcilié la noblesse avec la roture, et a fait
                         évanouir la preuve des quatre quartiers.</p>
                 </div2>
 
 
 
-                <div2 n="11" source="#Paris-edition5 #Paris-edition6">
-                    <p>À combien d’enfants serait utile la loi qui déciderait que c’est le ventre
+                <div2 n="11" source="#Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#2-pied_demouche"/>À combien d’enfants serait utile la loi qui déciderait que c’est le ventre
                         qui anoblit ! mais à combien d’autres serait-elle contraire ! </p>
                 </div2>
 
 
 
-                <div2 n="12" source="#Paris-edition5 #Paris-edition6">
-                    <p>Il y a peu de familles dans le monde qui ne touchent aux plus grands princes
+                <div2 n="12" source="#Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#2-pied_demouche"/>Il y a peu de familles dans le monde qui ne touchent aux plus grands princes
                         par une extrémité et par l’autre au simple peuple. </p>
                 </div2>
 
 
 
-                <div2 n="13" source="#Paris-edition5 #Paris-edition6">
-                    <p>Il n’y a rien à perdre à être noble : franchises, immunités, exemptions,
+                <div2 n="13" source="#Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#3-pied_demouche"/>Il n’y a rien à perdre à être noble : franchises, immunités, exemptions,
                         privilèges, que manque-t-il à ceux qui ont un titre ? Croyez-vous que ce
                         soit pour la noblesse que des solitaires se sont faits nobles ? ils ne sont
                         pas si vains : c’est pour le profit qu’ils en reçoivent. Cela ne leur
-                        sied-il pas mieux que d’entrer dans les gabelles ? je ne dis pas à chacun en
+                        sied-il pas mieux que d’entrer dans les gabelles<app>
+                    <lem wit="#Paris-edition4">gabelles en italique</lem>
+                    </app> ? je ne dis pas à chacun en
                         particulier, leurs vœux s’y opposent, je dis même à la communauté. </p>
                 </div2>
 
 
 
-                <div2 n="14" source="#Paris-edition5 #Paris-edition6">
-                    <p>Je le déclare nettement, afin que l’on s’y prépare et que personne un jour
+                <div2 n="14" source="#Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#3-pied_demouche"/>Je le déclare nettement<app>
+                    <lem wit="#Paris-edition5">***</lem>
+                    </app>, afin que l’on s’y prépare et que personne un jour
                         n’en soit surpris : s’il arrive jamais que quelque grand me trouve digne de
-                        ses soins, si je fais enfin une belle fortune, il y a un Geoffroy de la
+                        ses soins, si je fais enfin une belle fortune, il y a un Geoffroy <app>
+                    <lem wit="#Paris-edition5">***</lem>
+                    </app>de la
                         Bruyère, que toutes les chroniques rangent au nombre des plus grands
                         seigneurs de France qui suivirent Godefroy de Bouillon à la conquête de la
                         Terre-Sainte : voilà alors de qui je descends en ligne directe.</p>
@@ -212,15 +365,15 @@
 
 
 
-                <div2 n="15" source="#Paris-edition5 #Paris-edition6">
-                    <p>Si la noblesse est vertu, elle se perd par tout ce qui n’est pas vertueux ;
+                <div2 n="15" source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#1-pied_demouche"/>Si la noblesse est vertu, elle se perd par tout ce qui n’est pas vertueux ;
                         et si elle n’est pas vertu, c’est peu de chose.</p>
                 </div2>
 
 
 
-                <div2 n="16" source="#Paris-edition5 #Paris-edition6">
-                    <p>Il y a des choses qui, ramenées à leurs principes et à leur première
+                <div2 n="16" source="#Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#2-pied_demouche"/>Il y a des choses qui, ramenées à leurs principes et à leur première
                         institution, sont étonnantes et incompréhensibles. Qui peut concevoir en
                         effet que certains abbés, à qui il ne manque rien de l’ajustement, de la
                         mollesse et de la vanité des sexes et des conditions, qui entrent auprès des
@@ -236,27 +389,38 @@
 
 
 
-                <div2 n="17" source="#Paris-edition5 #Paris-edition6">
-                    <p>Que les saletés des Dieux, la Vénus, le Ganymède et les autres nudités du
+                <div2 n="17" source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#1-pied_demouche"/>Que les saletés des Dieux, la Vénus, le Ganymède et les autres nudités du
                         Carrache aient été faites pour des princes de l’Eglise, et qui se disent
                         successeurs des Apôtres, le palais Farnèse en est la preuve.</p>
                 </div2>
 
+                <div2 n="17-18" source="#Paris-edition1 #Paris-edition3">
+                <p><app> <lem wit="#Paris-edition1 #Paris-edition3">Il y a plus de retribution dans les Poarroisses pour mariage que pour un baptême; 
+                et plus pour un baptême que pour la confession : l'on diroit que ce soit un tau fur 
+                les Sacremens, qui semblent par là être appreciez. Ce n'est rien au fond que cet usage; 
+                et ceux qui reçoivent pour les choses faintes ne croyent point les vendre; comme ceux 
+                qui donnent ne pensent point à les acheter; ce font peut-être de mauvaises apparences, 
+                et qui choquent quelques esprits.</lem></app></p>
+            
 
-
-                <div2 n="18" source="#Paris-edition5 #Paris-edition6">
-                    <p>Les belles choses le sont moins hors de leur place ; les bienséances mettent
+                <div2 n="18" source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#1-pied_demouche"/>Les belles choses le sont moins hors de leur place ; les bienséances mettent
                         la perfection, et la raison met les bienséances. Ainsi l’on n’entend point
                         une gigue à la chapelle, ni dans un sermon des tons de théâtre ; l’on ne
                         voit point d’images profanes dans les temples, un CHRIST par exemple et le
-                        Jugement de Paris dans le même sanctuaire, ni à des personnes consacrées à
+                        Jugement de Paris<app>
+                    <lem wit="#Paris-edition5">Jugement de Paris en italique</lem>
+                    </app> dans le même sanctuaire, ni à des personnes consacrées à
                         l’Eglise le train et l’équipage d’un cavalier. </p>
                 </div2>
 
 
 
-                <div2 n="19" source="#Paris-edition0">
-                    <p>Déclarerai-je donc ce que je pense de ce qu’on appelle dans le monde un beau
+                <div2 n="19" source="#Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p>Déclarerai-je donc ce que je <app>
+                    <lem wit="#Paris-edition8" >petite main qui pointe sur le nouveau paragraphe</lem>
+                    </app>pense de ce qu’on appelle dans le monde un beau
                         salut, la décoration souvent profane, les places retenues et payées, des
                         livres distribués comme au théâtre, les entrevues et les rendez-vous
                         fréquents, le murmure et les causeries étourdissantes, quelqu’un monté sur
@@ -271,8 +435,8 @@
 
 
 
-                <div2 n="20" source="#Paris-edition5 #Paris-edition6">
-                    <p>L’on ne voit point faire de vœux ni de pèlerinages pour obtenir d’un saint
+                <div2 n="20" source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
+                    <p><g ref="#1-pied_demouche"/>L’on ne voit point faire de vœux ni de pèlerinages pour obtenir d’un saint
                         d’avoir l’esprit plus doux, l’âme plus reconnaissante, d’être plus équitable
                         et moins malfaisant, d’être guéri de la vanité, de l’inquiétude et de la
                         mauvaise raillerie.</p>
