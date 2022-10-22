@@ -5,7 +5,15 @@
          <titleStmt>
              <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
          </titleStmt>
-         <publicationStmt><authority>La Bruyère source du document</authority></publicationStmt>
+         <publicationStmt>
+            <publisher>Etienne Michallet</publisher>
+             <pubPlace>Paris</pubPlace>
+             <date when="1688">Entre 1688 et 1699</date>
+             <availability>
+                 <p>Cette oeuvre est disponible, dans plusieurs de ses éditions, en libre accès sur le catalogue de la bibliothèqe numérique Gallica, soit celle de la Bibliothèque nationale de France et de ses partenaires.</p>
+             </availability>
+             <ptr target="shorturl.at/csEFI"/>
+         </publicationStmt>
          <sourceDesc>
              <bibl>bibliographie</bibl>
              <biblStruct>
@@ -14,7 +22,7 @@
                      <author>Jean de la Bruyère</author>
                      <editor>Etienne Michallet</editor>
                      <edition>1ère édition</edition>
-                     <idno>https://gallica.bnf.fr/ark:/12148/bpt6k105077m</idno>
+                     <idno type="ark">https://gallica.bnf.fr/ark:/12148/bpt6k105077m</idno>
                      <imprint xml:id="Paris_1688_1_1">
                          <date>1688</date>
                          <distributor>l'imprimeur l'Image Saint Paul</distributor>
@@ -26,7 +34,7 @@
                      <author>Jean de la Bruyère</author>
                      <editor>Etienne Michallet</editor>
                      <edition>3ème édition</edition>
-                     <idno>http://catalogue.bnf.fr/ark:/12148/cb372427436</idno>
+                     <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372427436</idno>
                      <imprint xml:id="Paris_1688_3_1">
                          <date>1688</date>
                          <distributor>l'imprimeur l'Image Saint Paul</distributor>
@@ -39,7 +47,7 @@
                      <author>Jean de la Bruyère</author>
                      <editor>Etienne Michallet</editor>
                      <edition>4ème édition</edition>
-                     <idno>http://catalogue.bnf.fr/ark:/12148/cb37243134t</idno>
+                     <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb37243134t</idno>
                      <imprint xml:id="Paris_1689_4_1">
                          <date>1689</date>
                          <distributor>l'imprimeur l'Image Saint Paul</distributor>
@@ -52,7 +60,7 @@
                      <author>Jean de la Bruyère</author>
                      <editor>Etienne Michallet</editor>
                      <edition>5ème édition</edition>
-                     <idno>http://catalogue.bnf.fr/ark:/12148/cb37243134t</idno>
+                     <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb37243134t</idno>
                      <imprint xml:id="Paris_1690_5_1">
                          <date>1690</date>
                          <distributor>l'imprimeur l'Image Saint Paul</distributor>
@@ -65,7 +73,7 @@
                      <author>Jean de la Bruyère</author>
                      <editor>Etienne Michallet</editor>
                      <edition>6ème édition</edition>
-                     <idno>http://catalogue.bnf.fr/ark:/12148/cb307059875</idno>
+                     <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb307059875</idno>
                      <imprint xml:id="Paris_1691_6_1">
                          <date>1691</date>
                          <distributor>l'imprimeur l'Image Saint Paul</distributor>
@@ -78,7 +86,7 @@
                      <author>Jean de la Bruyère</author>
                      <editor>Etienne Michallet</editor>
                      <edition>7ème édition</edition>
-                     <idno>http://catalogue.bnf.fr/ark:/12148/cb372432134</idno>
+                     <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372432134</idno>
                      <imprint xml:id="Paris_1692_7_1">
                          <date>1692</date>
                          <distributor>l'imprimeur l'Image Saint Paul</distributor>
@@ -91,7 +99,7 @@
                      <author>Jean de la Bruyère</author>
                      <editor>Etienne Michallet</editor>
                      <edition>8ème édition</edition>
-                     <idno>http://catalogue.bnf.fr/ark:/12148/cb372432254</idno>
+                    <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372432254</idno>
                     <imprint xml:id="Paris_1694_8_1">
                          <date>1694</date>
                          <distributor>l'imprimeur l'Image Saint Paul</distributor>
@@ -104,7 +112,7 @@
                      <author>Jean de la Bruyère</author>
                      <editor>Etienne Michallet</editor>
                      <edition>9ème édition</edition>
-                     <idno>http://catalogue.bnf.fr/ark:/12148/cb37240408c</idno>
+                    <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb37240408c</idno>
                     <imprint xml:id="Paris_1696_9_1">
                          <date>1696</date>
                          <distributor>l'imprimeur l'Image Saint Paul</distributor>
@@ -116,7 +124,7 @@
                      <author>Jean de la Bruyère</author>
                      <editor>Etienne Michallet</editor>
                      <edition>10ème édition</edition>
-                     <idno>http://catalogue.bnf.fr/ark:/12148/cb372404358</idno>
+                    <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372404358</idno>
                     <imprint xml:id="Paris_1699_10_1">
                          <date>1699</date>
                          <distributor>l'imprimeur l'Image Saint Paul</distributor>
@@ -128,7 +136,7 @@
                      <author>Jean de la Bruyère</author>
                      <editor>Thomas Amaulry</editor>
                      <edition>8ème édition</edition>
-                     <idno>http://catalogue.bnf.fr/ark:/12148/cb372432312</idno>
+                     <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372432312</idno>
                      <imprint xml:id="Lyon_1694_8_1">
                          <date>1694</date>
                          <distributor>Mercure Galant</distributor>
@@ -140,7 +148,7 @@
                      <author>Jean de la Bruyère</author>
                      <editor>Adrian Moetjens</editor>
                      <edition>9ème édition</edition>
-                     <idno>http://numelyo.bm-lyon.fr/BML:BML_00GOO0100137001100959720</idno>
+                     <idno type="ark">http://numelyo.bm-lyon.fr/BML:BML_00GOO0100137001100959720</idno>
                      <imprint xml:id="La_Haye_1696_9_1">
                          <date>1696</date>
                          <distributor>Adrian Moetjens, marchand Libraire prés la Cour</distributor>
@@ -153,7 +161,7 @@
      <encodingDesc>
          <editorialDecl>
              <correction>
-                <p>Dans le texte original est utilisé très fréquemment le "s long" que l'on va corriger, dans un soucis de facilitation de la lecture du texte, en "s" comme nous avons l'habitude de l'utiliser.</p>
+                <p>Dans le texte original est utilisé le "s long" que l'on va à chaque fois corriger, dans un soucis de facilitation de la lecture du texte, en l'équivalent orthographique dans notre langue moderne.</p>
              </correction>
              <normalization>
                  <p>Nous avons régularisé et corrigé les formes alphabétiques et orthographiques apparaissant dans le texte puisqu'elle sont inconnues de tous à l'heure actuelle, mais utilisées dans le texte originale.</p>
@@ -162,14 +170,26 @@
                 <p>Marquage des emplacements de pieds-de-mouche et autre typographie spécifique (lettrine, etc) des ouvrages anciens sans les faire apparaître mais simplement signaler leur présence.</p>
              </punctuation>
              <segmentation>
-                <p>Caractères segmentés par pieds-de-mouches.</p>
+                <p>Chapitres segmentés en caractères, eux-mêmes segmentés par des pieds-de-mouches et autre typographie spécifique aux oeuvres de l'époque.</p>
              </segmentation>
          </editorialDecl>
          <projectDesc>
-             <p>Projet de numérisation de ce texte en classe sous forme de TP.</p>
+             <p>Projet de numérisation de cette oeuvre sous forme de TP.</p>
          </projectDesc>
          <tagsDecl>
-             <rendition>
+             <rendition xml:id="italic" scheme="css">Style de police :  italique</rendition>
+             <rendition xml:id="bold" scheme="css">Style de police : gras</rendition>
+             <rendition xml:id="black" scheme="css">Couleur de police : noir</rendition>
+             <rendition xml:id="centered" scheme="css">Alignement de texte : centré</rendition>
+             <rendition xml:id="upper_case" scheme="css">Style de caractères : majuscule</rendition>
+             <rendition xml:id="lower_case" scheme="css">Style de caractères : minuscule</rendition>
+             <rendition xml:id="size_very_very_big" scheme="css">Taille de police : très très grand</rendition>
+             <rendition xml:id="size_very_big" scheme="css">Taille de police : très grand</rendition>
+             <rendition xml:id="size_big" scheme="css">Taille de police : grand</rendition>
+             <rendition xml:id="size_medium" scheme="css">Taille de police : moyenne</rendition>
+             <rendition xml:id="size_small_medium" scheme="css">Taille de police : moyenne-petit</rendition>
+             <rendition xml:id="size_small" scheme="css">Taille de police : petit</rendition>
+                 <rendition>
                  <list rend="inline numbered">
                      <label>(1)</label>
                      <item>caractère 1</item>
@@ -216,20 +236,21 @@
          </tagsDecl>
          <charDecl>
              <glyph xml:id="S_long_minuscule">
-                 <glyphName>S long</glyphName>
+                 <note>nom : S long</note>
                  <desc>ressemble à un "f"</desc>
                  <figure>
-                     <graphic UTF-8="ſ">
+                     <graphic url="ſ"/>
                  </figure>
              </glyph>
              <glyph xml:id="pied_de_mouche">
-                 <glyphName>Pied-de-mouche</glyphName>
+                 <desc>Nom : Pied-de-mouche</desc>
                  <figure>
-                     <graphic UTF-8="¶">
+                     <graphic url="¶"/>
                  </figure>
              </glyph>
-             <glyph xml:id="lettrine" value="INITIAL_OF_THE_SENTENCE_BUT_IN_A_BIG_UPPER_CASE">
-                 <glyphName>lettrine</glyphName>
+             <glyph xml:id="lettrine">
+                 <desc>Initial de la phrase est mise en avant, en majuscule et dans une police plus grande que le reste du texte</desc>
+                 <desc>Nom : lettrine</desc>
              </glyph>
          </charDecl>
      </encodingDesc>
@@ -294,7 +315,14 @@
              </change>
          <change>
             <date>2022.10.17</date> 
-             <p>Ajout de l'élément "app" avec les "et" en "&".</p>
+             <p>Ajout de l'élément "app" avec les "et" en "&amp;".</p>
+         </change>
+         <change>
+             <date>2022.10.22</date> 
+             <p>Révision du TEI header ligne par ligne et tentative de correction des erreurs présentes.</p>
+             <p>Ajout des sources des éditions référencées ici pour chacun des caractères.</p>
+             <p>Implémentation des pieds-de-mouche là où ils apparaissent.</p>
+             <p>Encodage d'"app" et de ses différentes variantes.</p>
          </change>
      </revisionDesc>
  </teiHeader>  
@@ -302,79 +330,81 @@
     <text>
         <front>
             <titlePage>
-                <docAuthor source= "#Paris_1688_3_1">Jean de La Bruyère</docAuthor>
+                <docAuthor source= "#Paris_1688_3">Jean de La Bruyère</docAuthor>
                 <docTitle>
                     <titlePart>
                 <title type= "full">Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
                     </titlePart>
-                    <title type= "main">
-                    <lb>
-                    <titlePart style= "upper_case" "black" "medium" "bold" "centered">LES</titlePart>
-                    </lb>
-                    <lb>
-                    <titlePart style= "upper_case" "black" "very_big" "bold" "centered">CARACTERES</titlePart>
-                    </lb>
-                    <lb>
-                    <titlePart style= "upper_case" "black" "medium" "bold" "centered">DE THEOPHRASTE</titlePart>
-                    </lb>
-                    <lb>
-                    <titlePart style= "upper_case" "black" "small_medium" "bold" "centered">TRADUITS DU GREC :</titlePart>
-                    </lb>
-                    </title>
+                    <titlePart type= "main">
+                        <lb>
+                            <titlePart rendition="#italic" "#upper_case" "#black" "#medium" "#bold" "#centered">LES</title>
+                        </lb>
+                        <lb>
+                            <titlePart rendition= "#upper_case" "#black" "#very_big" "#bold" "#centered">CARACTERES</titlePart>
+                        </lb>
+                        <lb>
+                            <titlePart style= "#upper_case" "#black" "#medium" "#bold" "#centered">DE THEOPHRASTE</titlePart>
+                        </lb>
+                        <lb>
+                            <titlePart style= "#upper_case" "#black" "#small_medium" "#bold" "#centered">TRADUITS DU GREC :</titlePart>
+                        </lb>
+                    </titlePart>
                     <title type="sub">
-                    <lb>
-                    <titlePart style= "upper_case" "black" "small_medium" "bold" "italic" "centered">AVEC</titlePart>
-                    </lb>
-                    <lb>
-                    <titlePart style= "upper_case" "black" "big" "bold" "centered">LES CARACTERES</titlePart>
-                    </lb>
-                    <lb>
-                    <titlePart style= "upper_case" "black" "small_medium" "bold" "centered">OU</titlePart>
-                    </lb>
-                    <lb>
-                    <titlePart style= "upper_case" "black" "very_very_big" "bold" "centered">LES MOEURS</titlePart>
-                    </lb>
-                    <lb>
-                    <titlePart style= "upper_case" "black" "medium" "bold" "centered">DE CE SIECLE</titlePart>
-                    </lb>
+                        <lb>
+                            <titlePart style= "#upper_case" "#black" "#small_medium" "#bold" "#italic" "#centered">AVEC</titlePart>
+                        </lb>
+                        <lb>
+                            <titlePart style= "#upper_case" "#black" "#big" "#bold" "#centered">LES CARACTERES</titlePart>
+                        </lb>
+                        <lb>
+                            <titlePart style= "#upper_case" "#black" "#small_medium" "#bold" "#centered">OU</titlePart>
+                        </lb>
+                        <lb>
+                            <titlePart style= "#upper_case" "#black" "#very_very_big" "#bold" "#centered">LES MOEURS</titlePart>
+                        </lb>
+                        <lb>
+                            <titlePart style= "#upper_case" "#black" "#medium" "#bold" "#centered">DE CE SIECLE</titlePart>
+                        </lb>
                     </title>
                 </docTitle>
-                <docDate when="1688" style= "small" "centered">MDCLXXXVIII</docDate>
-                <imprimatur style= "small" "italic">Avec Privilège de Sa Majesté</imprimatur>
+                <docDate when="1688" style= "#small" "#centered">MDCLXXXVIII</docDate>
+                <imprimatur style= "#small" "#italic">Avec Privilège de Sa Majesté</imprimatur>
                 <docEdition n="3">
                     <country>France</country>
                     <placeName>Paris</placeName>
                     <elementSpec ident="edition">
                         <remarks>
                             <lb>
-                            <p style= "upper_case" "black" "small_medium" "bold" "italic">Troisième Edition</p>
+                                <p style= "#upper_case" "#black" "#small_medium" "#bold" "#italic">Troisième Edition</p>
                             </lb>
                             <lb>
-                            <p style= "upper_case" "black" "small_medium" "bold" "centered"> A PARIS,</p>
-                            </lb>
-                            <lb><p style= "upper_case" "black" "small_medium"> C</p>
-                            <p style= "lower_case" "black" "small"> hez</p>
-                            <p style= "upper_case" "black" "small_medium"> E</p>
-                            <p style= "upper_case" "black" "small"> S T I E N N E</p>
-                            <p style= "upper_case" "black" "small_medium"> M</p>
-                            <p style= "upper_case" "black" "small">M I C H A L L E T,</p>
-                            </lb>
-                            <lb>  <p style= "lower case" "black" "small"> premier</p>
-                            <p style= "upper_case" "black" "small"> I</p>
-                            <p style= "lower_case" "black" "small">mprimeur du</p>
-                            <p style= "upper_case" "black" "small"> R</p>
-                            <p style= "lower_case" "black" "small">oy, ruë</p>
-                            <p style= "upper_case" "black" "small"> S.J</p>
-                            <p style= "lower_case" "black" "small">acques,</p>
+                                <p style= "#upper_case" "#black" "#small_medium" "#bold" "#centered"> A PARIS,</p>
                             </lb>
                             <lb>
-                            <p style= "lower_case" "black" "small">à l'</p>
-                            <p style= "upper_case" "black" "small">I</p>
-                            <p style= "lower_case" "black" "small">mage</p>
-                            <p style= "upper_case" "black" "small"> <glyph id="S_long">"S long"</glyph></p>
-                            <p style= "lower_case" "black" "small">aint</p>
-                            <p style= "upper_case" "black" "small">P</p>
-                            <p style= "lower_case" "black" "small">aul</p>
+                                <p style= "#upper_case" "#black" "#small_medium"> C</p>
+                                <p style= "#lower_case" "#black" "#small"> hez</p>
+                                <p style= "#upper_case" "#black" "#small_medium"> E</p>
+                                <p style= "#upper_case" "#black" "#small"> S T I E N N E</p>
+                                <p style= "#upper_case" "#black" "#small_medium"> M</p>
+                                <p style= "#upper_case" "#black" "#small">M I C H A L L E T,</p>
+                            </lb>
+                            <lb>
+                                <p style= "#lower case" "#black" "#small"> premier</p>
+                                <p style= "#upper_case" "#black" "#small"> I</p>
+                                <p style= "#lower_case" "#black" "#small">mprimeur du</p>
+                                <p style= "#upper_case" "#black" "#small"> R</p>
+                                <p style= "#lower_case" "#black" "#small">oy, ruë</p>
+                                <p style= "#upper_case" "#black" "#small"> S.J</p>
+                                <p style= "#lower_case" "#black" "#small">acques,</p>
+                            </lb>
+                            <lb>
+                                <p style= "#lower_case" "#black" "#small">à l'</p>
+                                <p style= "#upper_case" "#black" "#small">I</p>
+                                <p style= "#lower_case" "#black" "#small">mage</p>
+                                <p style= "#upper_case" "#black" "#small"> <glyph id="#S_long_minuscule">"S long"</glyph></p>
+                                <p style= "#lower_case" "#black" "#small">aint</p>
+                                <p style= "#upper_case" "#black" "#small">P</p>
+                                <p style= "#lower_case" "#black" "#small">aul</p>
                             </lb>
                         </remarks>
                     </elementSpec>
@@ -389,18 +419,18 @@
                 </docImprint>
             </titlePage>
         </front>
-        <body>
-            
+        
+        <body>    
             <div1>
                 <head type="sub">De Quelques Usages</head>
                 <!-- Intéressant, vos usages des Lb ! En revanche, problèmes d'encodage --> 
-                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" n="1">
+                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" "Paris_1689_4" "Paris_1690_5" "Paris_1691_6" "Paris_1692_7" "Paris_1694_8" "Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="1">
                     <elementSpec>
                         <remarks>
-                            <p>Lettrine et non un pied-de-mouche pour la première remarque</p>
+                            <p>Lettrine et non un pied-de-mouche pour la première remarque du chapitre</p>
                         </remarks>
                      </elementSpec>
-                        <g ref="#pied_de_mouche">
+                        <g ref="#lettrine">
                             <p><lb ed="#Paris_1688_1_1" "#Paris_1688_3_1"> Il y a des gens qui n’ont</lb> <lb "#Paris_1688_1_1"> pas le moyen d’
                                 <app><lem>être</lem></app> no</lb><lb "#Paris_1688_1_1">bles</lb>
                                 <lb ed="#Paris_1688_3_1"> Il y en a de tels que, s’ils <app><lem>eussent</lem></app> obtenu <app><lem>six</lem></app> mois de <app><lem>délai</lem></app> de leurs <app><lem>créanciers</lem></app>, ils <app><lem>étaient</lem></app> nobles.</lb>
@@ -410,45 +440,23 @@
                                     <rdg wit="#Paris_1688_3_1">&amp;</rdg>
                                 </app> les <app><lem>aînés</lem></app> <app><lem>sont</lem></app> roturiers !</lb></p>
                 </div2>
-                <div2>
-                    <!-- Le numéro ne va pas dans <p> -->
-                    <elementSpec>
-                        <remarks>
-                            <p>(2)</p>
-                        </remarks>
-                    </elementSpec>    
+                <div2 source="Paris_1689_4" "Paris_1690_5" "Paris_1691_6" "Paris_1692_7" "Paris_1694_8" "Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="2">
+                    <g ref="#pied_de_mouche">
                     <p>Tel abandonne son père, qui est connu et dont l’on cite le greffe ou la boutique, pour se retrancher sur son aïeul, qui, mort depuis longtemps, est inconnu et hors de prise ; il montre ensuite un gros revenu, une grande charge, de belles alliances, et pour être noble, il ne lui manque que des titres.</p>
                 </div2>
-                <div2>
-                    <elementSpec>
-                        <remarks>
-                            <p>(3)</p>
-                        </remarks>
-                    </elementSpec>    
+                <div2 source="Paris_1691_6" "Paris_1692_7" "Paris_1694_8" "Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="3">   
+                    <g ref="#pied_de_mouche">
                     <p>Réhabilitations, mot en usage dans les tribunaux, qui a fait vieillir et rendu gothique celui de lettres de noblesse autrefois si français et si usité ; se faire réhabiliter suppose qu’un homme devenu riche originairement est noble, qu’il est d’une né cessité plus que morale qu’il le soit ; qu’à la vérité son père a pu déroger ou par la charrue ou par la houe, ou par la malle, ou par les livrées ; mais qu’il ne s’agit pour lui que de rentrer dans les premiers droits de ses ancêtres, et de continuer les armes de sa maison, les mêmes pourtant qu’il a fabriquées, et tout autres que celles de sa vaisselle d’étain ; qu’en un mot les lettres de noblesse ne lui conviennent plus ; qu’elles n’honorent que le roturier, c’est-à-dire celui qui cherche encore le secret de devenir riche.</p>
                 </div2>
-                <div2>
-                    <elementSpec>
-                        <remarks>
-                            <p>(4)</p>
-                        </remarks>
-                    </elementSpec>
+                <div2 source="Paris_1689_4" "Paris_1690_5" n="3" source="Paris_1691_6" "Paris_1692_7" "Paris_1694_8" "Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="4">
+                    <g ref="#pied_de_mouche">
                     <p>Un homme du peuple, à force d’assurer qu’il a vu un prodige, se persuade faussement qu’il a vu un prodige. Celui qui continue de cacher son âge pense enfin lui-même être aussi jeune qu’il veut le faire croire aux autres. De même le roturier qui dit par habitude qu’il tire son origine de quelque ancien baron ou de quelque châtelain, dont il est vrai qu’il ne descend pas, a le plaisir de croire qu’il en descend.</p>
                 </div2>
-                <div2>
-                    <elementSpec>
-                        <remarks>
-                            <p>(5)</p>
-                        </remarks> 
-                    </elementSpec>
-                            <p>Quelle est la roture un peu heureuse et établie à qui il manque des armes, et dans ces armes une pièce honorable, des suppôts, un cimier, une devise, et peut-être le cri de guerre ? Qu’est devenue la distinction des casques et des heaumes ? Le nom et l’usage en sont abolis ; il ne s’agit plus de les porter de front ou de côté, ouverts ou fermés, et ceux-ci de tant ou de tant de grilles : on n’aime pas les minuties, on passe droit aux couronnes, cela est plus simple ; on s’en croit digne, on se les adjuge. Il reste encore aux meilleurs bourgeois une certaine pudeur qui les empêche de se parer d’une couronne de marquis, trop satisfaits de la comtale ; quelques-uns même ne vont pas la chercher fort loin, et la font passer de leur enseigne à leur carrosse.</p>
+                <div2 source="Paris_1689_4" "Paris_1690_5" n="4" source="Paris_1691_6" "Paris_1692_7" "Paris_1694_8" "Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="5">
+                    <g ref="#pied_de_mouche">
+                    <p>Quelle est la roture un peu heureuse et établie à qui il manque des armes, et dans ces armes une pièce honorable, des suppôts, un cimier, une devise, et peut-être le cri de guerre ? Qu’est devenue la distinction des casques et des heaumes ? Le nom et l’usage en sont abolis ; il ne s’agit plus de les porter de front ou de côté, ouverts ou fermés, et ceux-ci de tant ou de tant de grilles : on n’aime pas les minuties, on passe droit aux couronnes, cela est plus simple ; on s’en croit digne, on se les adjuge. Il reste encore aux meilleurs bourgeois une certaine pudeur qui les empêche de se parer d’une couronne de marquis, trop satisfaits de la comtale ; quelques-uns même ne vont pas la chercher fort loin, et la font passer de leur enseigne à leur carrosse.</p>
                 </div2>
-                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" n="2">
-                        <elementSpec>
-                        <remarks>
-                            <p>(6)</p>
-                        </remarks>
-                    </elementSpec>
+                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" n="2" source="Paris_1689_4" "Paris_1690_5" n="5" source="Paris_1691_6" "Paris_1692_7" "Paris_1694_8" "Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="6">
                             <g ref="#pied_de_mouche">
                                 <p><lb> Il <app><lem>suffit</lem></app> de <app><lem>n’être</lem></app> point né</lb>
                             <lb>dans une ville, mais <app><lem>sous</lem></app>  une</lb>
@@ -463,36 +471,19 @@
                             <lb><app><lem>être</app></lem> <app><lem>cru</lem></app> noble sur sa parole.</lb>
                             </p>
                 </div2>
-                <div2>
-                     <elementSpec>
-                        <remarks>
-                            <p>(7)</p>
-                        </remarks>
-                       </elementSpec>
-                            <p>Un bon gentilhomme veut passer pour un petit seigneur, et il y parvient. Un grand seigneur affecte la principauté, et il use de tant de précautions, qu’à force de beaux noms, de disputes sur le rang et les préséances, de nouvelles armes, et d’une généalogie que D’Hozier ne lui a pas faite, il devient enfin un petit prince.</p>
+                <div2 source="Paris_1689_4" "Paris_1690_5" n="6" source="Paris_1691_6" "Paris_1692_7" "Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="7">
+                    <g ref="#pied_de_mouche">        
+                    <p>Un bon gentilhomme veut passer pour un petit seigneur, et il y parvient. Un grand seigneur affecte la principauté, et il use de tant de précautions, qu’à force de beaux noms, de disputes sur le rang et les préséances, de nouvelles armes, et d’une généalogie que D’Hozier ne lui a pas faite, il devient enfin un petit prince.</p>
                 </div2>        
-                <div2>
-                     <elementSpec>
-                        <remarks>
-                           <p>(8)</p>
-                        </remarks>
-                      </elementSpec>
-                           <p>Les grands en toutes choses se forment et se moulent sur de plus grands, qui de leur part, pour n’avoir rien de commun avec leurs inférieurs, renoncent volontiers à toutes les rubriques d’honneurs et de distinctions dont leur condition se trouve chargée, et préfèrent à cette servitude une vie plus libre et plus commode. Ceux qui suivent leur piste observent déjà par émulation cette simplicité et cette modestie : tous ainsi se réduiront par hauteur à vivre naturellement et comme le peuple. Horrible inconvénient !</p>                                
+                <div2 source="Paris_1694_8" n="7" source="Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="8">
+                    <g ref="#pied_de_mouche">       
+                    <p>Les grands en toutes choses se forment et se moulent sur de plus grands, qui de leur part, pour n’avoir rien de commun avec leurs inférieurs, renoncent volontiers à toutes les rubriques d’honneurs et de distinctions dont leur condition se trouve chargée, et préfèrent à cette servitude une vie plus libre et plus commode. Ceux qui suivent leur piste observent déjà par émulation cette simplicité et cette modestie : tous ainsi se réduiront par hauteur à vivre naturellement et comme le peuple. Horrible inconvénient !</p>                                
                 </div2>          
-                <div2>
-                     <elementSpec>
-                         <remarks>
-                           <p>(9)</p>
-                          </remarks>
-                     </elementSpec>
-                           <p>Certaines gens portent trois noms, de peur d’en manquer : ils en ont pour la campagne et pour la ville, pour les lieux de leur service ou de leur emploi. D’autres ont un seul nom dissyllabe, qu’ils anoblissent par des particules dès que leur fortune devient meilleure ; Celui-ci par la suppression d’une syllabe fait de son nom obscur un nom illustre ; celui-là par le changement d’une lettre en une autre se travestit, et de Syrus devient Cyrus. Plusieurs suppriment leurs noms, qu’ils pourraient conserver sans honte, pour en adopter de plus beaux, où ils n’ont qu’à perdre par la comparaison que l’on fait toujours d’eux qui les portent, avec les grands hommes qui les ont portés. Il s’en trouve enfin qui, nés à l’ombre des clochers de Paris, veulent être Flamands ou Italiens, comme si la roture n’était pas de tout pays, allongent leurs noms français d’une terminaison étrangère, et croient que venir de bon lieu c’est venir de loin.</p>               
+                <div2 source="Paris_1689_4" "Paris_1690_5" n="7" source="Paris_1691_6" "Paris_1692_7" "Paris_1694_8" n="8" source="Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="9">
+                    <g ref="#pied_de_mouche">
+                    <p>Certaines gens portent trois noms, de peur d’en manquer : ils en ont pour la campagne et pour la ville, pour les lieux de leur service ou de leur emploi. D’autres ont un seul nom dissyllabe, qu’ils anoblissent par des particules dès que leur fortune devient meilleure ; Celui-ci par la suppression d’une syllabe fait de son nom obscur un nom illustre ; celui-là par le changement d’une lettre en une autre se travestit, et de Syrus devient Cyrus. Plusieurs suppriment leurs noms, qu’ils pourraient conserver sans honte, pour en adopter de plus beaux, où ils n’ont qu’à perdre par la comparaison que l’on fait toujours d’eux qui les portent, avec les grands hommes qui les ont portés. Il s’en trouve enfin qui, nés à l’ombre des clochers de Paris, veulent être Flamands ou Italiens, comme si la roture n’était pas de tout pays, allongent leurs noms français d’une terminaison étrangère, et croient que venir de bon lieu c’est venir de loin.</p>               
                 </div2> 
-                <div2 source="#Paris_1688_1_1" "#Paris_1688"_3_1 n="3">
-                     <elementSpec>
-                         <remarks>
-                            <p>(10)</p>
-                         </remarks>
-                       </elementSpec>
+                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" n="3" source="Paris_1689_4" "Paris_1690_5" n="8" source="Paris_1691_6" "Paris_1692_7" source="Paris_1694_8" n="9" source="Lyon_1694_8" "Paris_1696_9" "Paris_1699_10" n="10">
                      <g ref="#pied_de_mouche">
                          <p><lb> Le <app><lem>besoin</lem></app> d’argent a récon-</lb>
                            <lb ed="#Paris_1688_3_1">cilié la <app><lem>noblesse</lem></app> avec la rotu-</lb>
@@ -504,44 +495,23 @@
                                a fait <app><lem>évanouir</lem></app> la preu-</lb><pb ed="#Paris_1688_3_1">
                            </pb><lb ed="#Paris_1688_3_1">ve des quatre quartiers.</lb></p>       
                  </div2>
-                  <div2>
-                      <elementSpec>
-                         <remarks>
-                           <p>(11)</p>
-                         </remarks>
-                       </elementSpec>
-                        <p>À combien d’enfants serait utile la loi qui déciderait que c’est le ventre qui anoblit ! mais à combien d’autres serait-elle contraire !</p>
+                <div2 source="Paris_1689_4" "Paris_1690_5" n="9" source="Paris_1691_6" "Paris_1692_7" "Paris_1694_8" n="10" source="Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="11">
+                    <g ref="#pied_de_mouche">
+                    <p>À combien d’enfants serait utile la loi qui déciderait que c’est le ventre qui anoblit ! mais à combien d’autres serait-elle contraire !</p>
                   </div2>
-                <div2>
-                    <elementSpec>
-                        <remarks>
-                            <p>(12)</p>
-                        </remarks>
-                    </elementSpec>
+                <div2 source="Paris_1689_4" "Paris_1690_5" n="10" source="Paris_1691_6" "Paris_1692_7" "Paris_1694_8" n="11" source="Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="12">
+                    <g ref="#pied_de_mouche">
                     <p>Il y a peu de familles dans le monde qui ne touchent aux plus grands princes par une extrémité et par l’autre au simple peuple.</p>
                   </div2>
-                <div2>
-                    <elementSpec>
-                        <remarks>
-                            <p>(13)</p>
-                        </remarks>
-                    </elementSpec>
+                <div2 source="Paris_1690_5" n="11" source="Paris_1691_6" "Paris_1692_7" "Paris_1694_8" n="12" source="Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="13">
+                    <g ref="#pied_de_mouche">
                     <p>Il n’y a rien à perdre à être noble : franchises, immunités, exemptions, privilèges, que manque-t-il à ceux qui ont un titre ? Croyez-vous que ce soit pour la noblesse que des solitaires se sont faits nobles ? ils ne sont pas si vains : c’est pour le profit qu’ils en reçoivent. Cela ne leur sied-il pas mieux que d’entrer dans les gabelles ? je ne dis pas à chacun en particulier, leurs vœux s’y opposent, je dis même à la communauté.</p>
                 </div2>
-                <div2>
-                    <elementSpec>
-                        <remarks>
-                            <p>(14)</p>
-                        </remarks>
-                    </elementSpec>
+                <div2 source="Paris_1690_5" n="12" source="Paris_1691_6" "Paris_1692_7" "Paris_1694_8" n="13" source="Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="14">
+                    <g ref="#pied_de_mouche">
                     <p>Je le déclare nettement, afin que l’on s’y prépare et que personne un jour n’en soit surpris : s’il arrive jamais que quelque grand me trouve digne de ses soins, si je fais enfin une belle fortune, il y a un Geoffroy de la Bruyère, que toutes les chroniques rangent au nombre des plus grands seigneurs de France qui suivirent Godefroy de Bouillon à la conquête de la Terre-Sainte : voilà alors de qui je descends en ligne directe.</p>
                 </div2>
-                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" n="4">
-                    <elementSpec>
-                        <remarks>
-                            <p>(15)</p>
-                        </remarks>
-                    </elementSpec>
+                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" n="4" source="Paris_1690_5" n="13" source="Paris_1691_6" "Paris_1692_7" "Paris_1694_8" n="14" source="Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="15">
                     <g ref="#pied_de_mouche">
                         <p><lb>Si la <app><lem>noblesse</lem></app> <app><lem>est</lem></app> vertu, elle</lb>
                     <lb>se perd par tout ce qui n’est pas</lb>
@@ -551,20 +521,11 @@
                             </app> si elle n’est pas ver-</lb>
                     <lb ed="#Paris_1688_3_1">tu, c’est peu de chose.</lb></p>
                 </div2>
-                <div2>
-                    <elementSpec>
-                        <remarks>
-                            <p>(16)</p>
-                        </remarks>
-                    </elementSpec>
+                <div2 source="Paris_1689_4" n="11" source="Paris_1690_5" n="14" source="Paris_1691_6" "Paris_1692_7" "Paris_1694_8" n="15" source="Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="16">
+                    <g ref="#pied_de_mouche">
                     <p>Il y a des choses qui, ramenées à leurs principes et à leur première institution, sont étonnantes et incompréhensibles. Qui peut concevoir en effet que certains abbés, à qui il ne manque rien de l’ajustement, de la mollesse et de la vanité des sexes et des conditions, qui entrent auprès des femmes en concurrence avec le marquis et le financier, et qui l’emportent sur tous les deux, qu’eux-mêmes soient originairement et dans l’étymologie de leur nom les pères, et les chefs de saints moines et d’humbles solitaires, et qu’ils en devraient être l’exemple ? Quelle force, quel empire, quelle tyrannie de l’usage ! Et sans parler de plus grands désordres, ne doit-on pas craindre de voir un jour un jeune abbé en velours gris et à ramages comme une éminence, ou avec des mouches et du rouge comme une femme ?</p>
                 </div2>
-                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" n="5">
-                    <elementSpec>
-                        <remarks>
-                            <p>(17)</p>
-                        </remarks>
-                    </elementSpec>
+                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" n="5" source="Paris_1689_4" n="12" source="Paris_1690_5" n="15" source="Paris_1691_6" "Paris_1692_7" "Paris_1694_8" n="16" source="Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="17">
                     <g ref="#pied_de_mouche">
                     <p><lb> Que les saletés des Dieux,</lb>
                         <lb>la Vénus, le Ganymède <app>
@@ -578,12 +539,7 @@
                     le palais Farnè-</lb>
                     <lb>se en est la preuve.</lb></p>
                 </div2>
-                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" n="7">
-                    <elementSpec>
-                        <remarks>
-                            <p>(18)</p>
-                        </remarks>
-                    </elementSpec>
+                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" n="7" source="Paris_1689_4" n="13" source="Paris_1690_5" n="16" source="Paris_1692_7" n="17" source="Lyon_1694_8" "Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="18">
                     <g ref="#pied_de_mouche">
                     <p><lb> Les belles choses le sont</lb>
                     <lb>moins hors de leur place : les</lb>
@@ -604,20 +560,11 @@
                         </app> l’équi-</lb>
                     <lb>page d’un cavalier.</lb></p>
                 </div2>
-                <div2>
-                    <elementSpec>
-                        <remarks>
-                            <p>(19)</p>
-                        </remarks>
-                    </elementSpec>
+                <div2 source="Paris_1694_8" n="17" source="Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="19">
+                    <g ref="#pied_de_mouche">
                     <p>Déclarerai-je donc ce que je pense de ce qu’on appelle dans le monde un beau salut, la décoration souvent profane, les places retenues et payées, des livres distribués comme au théâtre, les entrevues et les rendez-vous fréquents, le murmure et les causeries étourdissantes, quelqu’un monté sur une tribune qui y parle familièrement, sèchement, et sans autre zèle que de rassembler le peuple, l’amuser, jusqu’à ce qu’un orchestre, le dirai-je ? et des voix qui concertent depuis longtemps se fassent entendre ? Est-ce à moi à m’écrier que le zèle de la maison du Seigneur me consume, et à tirer le voile léger qui couvre les mystères, témoins d’une telle indécence ? Quoi ? parce qu’on ne danse pas encore aux TT…, me forcera-t-on d’appeler tout ce spectacle office d’Eglise ?</p>
                 </div2>
-                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" n="8">
-                    <elementSpec >
-                        <remarks>
-                            <p>(20)</p>
-                        </remarks>
-                    </elementSpec>
+                <div2 source="#Paris_1688_1_1" "#Paris_1688_3_1" n="8" source="Paris_1689_4" n="14" source="Paris_1690_5" "Paris_1691_6" n="17" source="Paris_1692_7" "Paris_1694_8"n="18" source="Lyon_1694_8" n="19" source="Paris_1696_9" "La_Haye_1696_9" "Paris_1699_10" n="20">
                     <g ref="#pied_de_mouche">
                     <p><lb> L’on ne voit point faire de</lb>
                     <lb>vœux ni de pèlerinages pour</lb>
