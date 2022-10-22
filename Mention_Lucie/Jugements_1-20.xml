@@ -164,6 +164,12 @@
                 <p>Rajout d'un app pour n°2</p>
                 <date>20.10.2023</date>
                 <p>Relecture de variable et ajout de variable dans un app du n°1 au n°13</p>
+                <date>22.10.2022</date>
+                <p>Création de app pour marquer les variables du n°14 au n°20</p>
+                <p>Recherche et essais de création d'une balise pour marquer un ajout manuscrit au milieu du texte de édition 4 dans n°14</p>
+                
+                
+                <p>Choses à encoder : la version numérique du texte avec les éditions 4 et 6 (ou 6 et 8), les noms en majuscules, les phrases en italique, les c bizarre devant les t dans certains mots, les décos au début du chapitre les jugemens</p>
             </change>
         </revisionDesc>
     </teiHeader>
@@ -416,7 +422,18 @@
                         <g ref="#fr_pieddemouche"></g>
                         (14)
                         C. P. était fort riche, et C. N. ne l’était pas : la Pucelle et Rodogune méritaient chacune une autre aventure. Ainsi l’on a toujours demandé pourquoi, dans telle ou telle profession, celui-ci avait fait sa fortune, et cet autre l’avait manquée ; et en cela les hommes cherchent la raison de leurs propres caprices, qui dans les conjonctures pressantes de leurs affaires, de leurs plaisirs, de leur santé et de leur vie, leur font souvent laisser les meilleurs et prendre les pires.
+                        <app>
+                            <rdg wit="#PARIS_1691_6_1">C. P. étoit riche, &amp; C. N. ne l'étoit pas</rdg>
+                            <rdg wit="#PARIS_1689_4_1">Chapelain étoit riche, &amp; Corneille ne l'étoit pas</rdg>
+                            <rdg wit="#PARIS_1691_6_1">toûjours</rdg>
+                            <rdg wit="#PARIS_1689_4_1">toûiours</rdg>
+                            <rdg wit="#PARIS_1691_6_1">leurs ptopres</rdg>
+                            <rdg wit="#PARIS_1689_4_1">leurs propres</rdg>
+                        </app>
                         <add>
+                            <place source="#PARIS_1689_4_1"></place>
+                            <supplied>ou</supplied>
+                            <hand type="handwritten-note">Jean de La Bruyère</hand>
                             <place source="#PARIS_1694_8_1"></place>
                             <place type="margin-left">Note manuscrite illisible</place>
                             <hand type="handwritten-note">Jean de La Bruyère</hand>
@@ -435,6 +452,14 @@
                         <g ref="#fr_pieddemouche"></g>
                         (16)
                         Il suffisait à Bathylle d’être pantomime pour être couru des dames romaines ; à Rhoé de danser au théâtre ; à Roscie et à Nérine de représenter dans les chœurs, pour s’attirer une foule d’amants. La vanité et l’audace, suites d’une trop grande puissance, avaient ôté aux Romains le goût du secret et du mystère ; ils se plaisaient à faire du théâtre public celui de leurs amours ; ils n’étaient point jaloux de l’amphithéâtre, et partageaient avec la multitude les charmes de leurs maîtresses. Leur goût n’allait qu’à laisser voir qu’ils aimaient, non pas une belle personne ou une excellente comédienne, mais une comédienne.
+                        <app>
+                            <rdg wit="#PARIS_1691_6_1">pour eftre</rdg>
+                            <rdg wit="#PARIS_1689_4_1">pour être</rdg>
+                            <rdg wit="#PARIS_1691_6_1">dans les choeurs, pour</rdg>
+                            <rdg wit="#PARIS_1689_4_1">dans les choeurs pour</rdg>
+                            <rdg wit="#PARIS_1691_6_1">excellente</rdg>
+                            <rdg wit="#PARIS_1689_4_1">exce lente</rdg>
+                        </app>
                         <add>
                             <place source="#PARIS_1694_8_1"></place>
                             <place type="margin-left">Note manuscrite illisible</place>
@@ -447,6 +472,14 @@
                         <g ref="#fr_pieddemouche"></g>
                         (17)
                         Rien ne découvre mieux dans quelle disposition sont les hommes à l’égard des sciences et des belles-lettres, et de quelle utilité ils les croient dans la république, que le prix qu’ils y ont mis, et l’idée qu’ils se forment de ceux qui ont pris le parti de les cultiver. Il n’y a point d’art si mécanique ni de si vile condition où les avantages ne soient plus sûrs, plus prompts et plus solides. Le comédien, couché dans son carrosse, jette de la boue au visage de Corneille, qui est à pied. Chez plusieurs, savant et pédant sont synonymes.
+                        <app>
+                            <rdg wit="#PARIS_1691_6_1">les hommes</rdg>
+                            <rdg wit="#PARIS_1689_4_1">les hômes</rdg>
+                            <rdg wit="#PARIS_1691_6_1">vile condition, où</rdg>
+                            <rdg wit="#PARIS_1689_4_1">vile condition où</rdg>
+                            <rdg wit="#PARIS_1691_6_1">Chez plufieurs, fçavant</rdg>
+                            <rdg wit="#PARIS_1689_4_1">Chez plufieurs fçavant</rdg>
+                        </app>
                     </p>
                     <p>
                         Souvent où le riche parle, et parle de doctrine, c’est aux doctes à se taire, à écouter, à applaudir, s’ils veulent du moins ne passer que pour doctes.
@@ -457,6 +490,26 @@
                         <g ref="#fr_pieddemouche"></g>
                         (18)
                         Il y a une sorte de hardiesse à soutenir devant certains esprits la honte de l’érudition : l’on trouve chez eux une prévention tout établie contre les savants, à qui ils ôtent les manières du monde, le savoir-vivre, l’esprit de société, et qu’ils renvoient ainsi dépouillés à leur cabinet et à leurs livres. Comme l’ignorance est un état paisible et qui ne coûte aucune peine, l’on s’y range en foule, et elle forme à la cour et à la ville un nombreux parti, qui l’emporte sur celui des savants. S’ils allèguent en leur faveur les noms d’Estrées, de Harlay, Bossuet, Seguier, Montausier, Wardes, Chevreuse, Novion, Lamoignon, Scudéry *, Pélisson, et de tant d’autres personnages également doctes et polis ; s’ils osent même citer les grands noms de Chartres, de Condé, de Conti, de Bourbon, du Maine, de Vendome, comme de princes qui ont su joindre aux plus belles et aux plus hautes connaissances et l’atticisme des Grecs et l’urbanité des Romains, l’on ne feint point de leur dire que ce sont des exemples singuliers ; et s’ils ont recours à de solides raisons, elles sont faibles contre la voix de la multitude. Il semble néanmoins que l’on devrait décider sur cela avec plus de précaution, et se donner seulement la peine de douter si ce même esprit qui fait faire de si grands progrès dans les sciences, qui fait bien penser, bien juger, bien parler et bien écrire, ne pourrait point encore servir à être poli.
+                        <app>
+                            <rdg wit="#PARIS_1691_6_1">les noms d'ESTRE'ES, de HARLAY</rdg>
+                            <rdg wit="#PARIS_1689_4_1">les noms de HARLAY</rdg>
+                            <rdg wit="#PARIS_1691_6_1">ofent mefme</rdg>
+                            <rdg wit="#PARIS_1689_4_1">ofent même</rdg>
+                            <rdg wit="#PARIS_1691_6_1">les grands noms de CHARTRES, de CONDE'</rdg>
+                            <rdg wit="#PARIS_1689_4_1">les grands noms de CONDE'</rdg>
+                            <rdg wit="#PARIS_1691_6_1">des Grecs, &amp;</rdg>
+                            <rdg wit="#PARIS_1689_4_1">des Grecs &amp;</rdg>
+                            <rdg wit="#PARIS_1691_6_1">des Romains ;</rdg>
+                            <rdg wit="#PARIS_1689_4_1">des Romains,</rdg>
+                            <rdg wit="#PARIS_1691_6_1">des exemples finguliers :</rdg>
+                            <rdg wit="#PARIS_1689_4_1">des exemples finguliers ;</rdg>
+                            <rdg wit="#PARIS_1691_6_1">ce mefme</rdg>
+                            <rdg wit="#PARIS_1689_4_1">ce même</rdg>
+                            <rdg wit="#PARIS_1691_6_1">dans les fciences ; qui</rdg>
+                            <rdg wit="#PARIS_1689_4_1">dans des fciences raisonnables ; qui</rdg>
+                            <rdg wit="#PARIS_1691_6_1">à eftre</rdg>
+                            <rdg wit="#PARIS_1689_4_1">à être</rdg>
+                        </app>
                         <add>
                             <place type="margin-right">* Mlle Scudery</place
                         </add>
@@ -469,7 +522,13 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (19)
-                        I9 (V) « Il est savant, dit un politique, il est donc incapable d’affaires ; je ne lui confierais l’état de ma garde-robe » ; et il a raison. Ossat, Ximénès, Richelieu étaient savants : étaient-ils habiles ? ont-ils passé pour de bons ministres ? « Il sait le grec, continue l’homme d’État, c’est un grimaud, c’est un philosophe. » Et en effet, une fruitière à Athènes, selon les apparences, parlait grec, et par cette raison était philosophe. Les Bignons, les Lamoignons étaient de purs grimauds : qui en peut douter ? ils savaient le grec. Quelle vision, quel délire au grand, au sage, au judicieux Antonin, de dire qu’alors les peuples seraient heureux, si l’empereur philosophait, ou si le philosophe ou le grimaud venait à l’empire ! 
+                        I9 (V) « Il est savant, dit un politique, il est donc incapable d’affaires ; je ne lui confierais l’état de ma garde-robe » ; et il a raison. Ossat, Ximénès, Richelieu étaient savants : étaient-ils habiles ? ont-ils passé pour de bons ministres ? « Il sait le grec, continue l’homme d’État, c’est un grimaud, c’est un philosophe. » Et en effet, une fruitière à Athènes, selon les apparences, parlait grec, et par cette raison était philosophe. Les Bignons, les Lamoignons étaient de purs grimauds : qui en peut douter ? ils savaient le grec. Quelle vision, quel délire au grand, au sage, au judicieux Antonin, de dire qu’alors les peuples seraient heureux, si l’empereur philosophait, ou si le philosophe ou le grimaud venait à l’empire !
+                        <app>
+                            <rdg wit="#PARIS_1691_6_1">un politique ;</rdg>
+                            <rdg wit="#PARIS_1694_8_1">un politique,</rdg>
+                            <rdg wit="#PARIS_1691_6_1">par cette raifon eftoit</rdg>
+                            <rdg wit="#PARIS_1694_8_1">par cette raison étoit</rdg>
+                        </app>
                     </p>
                     <p>
                         Les langues sont la clef ou l’entrée des sciences, et rien davantage ; le mépris des unes tombe sur les autres. Il ne s’agit point si les langues sont anciennes ou nouvelles, mortes ou vivantes, mais si elles sont grossières ou polies, si les livres qu’elles ont formés sont d’un bon ou d’un mauvais goût. Supposons que notre langue pût un jour avoir le sort de la grecque et de la latine, serait-on pédant, quelques siècles après qu’on ne la parlerait plus, pour lire Molière ou La Fontaine ?
@@ -479,7 +538,23 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (20)
-                        Je nomme Eurypyle, et vous dites : « C’est un bel esprit. » Vous dites aussi de celui qui travaille une poutre : « Il est charpentier » ; et de celui qui refait un mur : « Il est maçon. » Je vous demande quel est l’atelier où travaille cet homme de métier, ce bel esprit ? quelle est son enseigne ? à quel habit le reconnaît-on ? quels sont ses outils ? est-ce le coin ? sont-ce le marteau ou l’enclume ? où fend-il, où cogne-t-il son ouvrage ? où l’expose-t-il en vente ? Un ouvrier se pique d’être ouvrier. Eurypyle se pique-t-il d’être bel esprit ? S’il est tel, vous me peignez un fat, qui met l’esprit en roture, une âme vile et mécanique, à qui ni ce qui est beau ni ce qui est esprit ne sauraient s’appliquer sérieusement ; et s’il est vrai qu’il ne se pique de rien, je vous entends, c’est un homme sage et qui a de l’esprit. Ne dites-vous pas encore du savantasse : « Il est bel esprit », et ainsi du mauvais poète ? Mais vous-même, vous croyez-vous sans aucun esprit ? et si vous en avez, c’est sans doute de celui qui est beau et convenable : vous voilà donc un bel esprit ; ou s’il s’en faut peu que vous ne preniez ce nom pour une injure, continuez, j’y consens, de le donner à Eurypyle, et d’employer cette ironie comme les sots, sans le moindre discernement, ou comme les ignorants, qu’elle console d’une certaine culture qui leur manque, et qu’ils ne voient que dans les autres.   
+                        Je nomme Eurypyle, et vous dites : « C’est un bel esprit. » Vous dites aussi de celui qui travaille une poutre : « Il est charpentier » ; et de celui qui refait un mur : « Il est maçon. » Je vous demande quel est l’atelier où travaille cet homme de métier, ce bel esprit ? quelle est son enseigne ? à quel habit le reconnaît-on ? quels sont ses outils ? est-ce le coin ? sont-ce le marteau ou l’enclume ? où fend-il, où cogne-t-il son ouvrage ? où l’expose-t-il en vente ? Un ouvrier se pique d’être ouvrier. Eurypyle se pique-t-il d’être bel esprit ? S’il est tel, vous me peignez un fat, qui met l’esprit en roture, une âme vile et mécanique, à qui ni ce qui est beau ni ce qui est esprit ne sauraient s’appliquer sérieusement ; et s’il est vrai qu’il ne se pique de rien, je vous entends, c’est un homme sage et qui a de l’esprit. Ne dites-vous pas encore du savantasse : « Il est bel esprit », et ainsi du mauvais poète ? Mais vous-même, vous croyez-vous sans aucun esprit ? et si vous en avez, c’est sans doute de celui qui est beau et convenable : vous voilà donc un bel esprit ; ou s’il s’en faut peu que vous ne preniez ce nom pour une injure, continuez, j’y consens, de le donner à Eurypyle, et d’employer cette ironie comme les sots, sans le moindre discernement, ou comme les ignorants, qu’elle console d’une certaine culture qui leur manque, et qu’ils ne voient que dans les autres.
+                        <app>
+                            <rdg wit="#PARIS_1691_6_1">fon ouvrage ? où</rdg>
+                            <rdg wit="#PARIS_1694_8_1">fon ouvrage, où</rdg>
+                            <rdg wit="#PARIS_1691_6_1">d'eftre</rdg>
+                            <rdg wit="#PARIS_1694_8_1">d'être</rdg>
+                            <rdg wit="#PARIS_1691_6_1">qui a de l'efprit, autrement un homme de merite, que vous appellez un bel efprit : ne dites-vous pas</rdg>
+                            <rdg wit="#PARIS_1694_8_1">qui a de l'efprit, ne dites-vous pas</rdg>
+                            <rdg wit="#PARIS_1691_6_1">mauvais Poëte.</rdg>
+                            <rdg wit="#PARIS_1694_8_1">mauvais Poëte ?</rdg>
+                            <rdg wit="#PARIS_1691_6_1">vous-mefme</rdg>
+                            <rdg wit="#PARIS_1694_8_1">vous-même</rdg>
+                            <rdg wit="#PARIS_1691_6_1">sans aucun efprit ;</rdg>
+                            <rdg wit="#PARIS_1694_8_1">sans aucun efprit ?</rdg>
+                            <rdg wit="#PARIS_1691_6_1">qui leur manque,&amp;</rdg>
+                            <rdg wit="#PARIS_1694_8_1">qui leur manque, &amp;</rdg>
+                        </app>
                     </p>
                 </div2>
             </div1>
