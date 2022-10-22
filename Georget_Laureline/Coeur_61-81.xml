@@ -288,7 +288,7 @@
                         qui 
                         
                         <app>
-                        <lem wit="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5  "> plaist </lem>
+                        <lem wit="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5"> plaist </lem>
                         <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> plaît </rdg>
                         </app> 
                         
@@ -429,23 +429,45 @@
                         peuvent aux yeux des autres ; elles se cachent à 
                         <app>
                         <lem wit="#Paris_1690_edition_5 "> elles-mesmes </lem>
-                        <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9#Paris_1699_edition_10"> elles-mêmes : </rdg>
+                        <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> elles-mêmes </rdg>
                         </app>
                         Il n’y a point
                         de vice qui n’ait une fausse ressemblance avec quelque vertu, et qui ne s’en
                         aide.</p>
                 </div2>
 
-                <div2 n="73" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
-                    <p> On ouvre un livre de dévotion, et il touche ; on en ouvre un autre qui est
-                        galant, et il fait son impression. Oserai-je dire que le cœur seul concilie
-                        les choses contraires, et admet les incompatibles ? </p>
+                <div2 n="73" source="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>
+                        On 
+                        <app>
+                        <lem wit="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 "> ouvre </lem>
+                        <rdg wit=" #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> trouve </rdg>
+                        </app>
+                        ouvre un livre de dévotion, et il touche ; on en ouvre un autre qui est
+                        galant, et il fait son impression. 
+                        <app>
+                        <lem wit="#Paris_1684_edition_4 "> Oseray je </lem>
+                        <rdg wit=" #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> Oseray-je</rdg>
+                        </app>
+                        
+                        dire que le cœur seul concilie
+                        les choses contraires, et admet les incompatibles 
+                        <app>
+                        <lem wit="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1696_edition_9"> . </lem>
+                        <rdg wit="  #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8  #Paris_1699_edition_10"> ? </rdg>
+                        </app> </p>
                 </div2>
 
-                <div2 n="74" source="#Paris_1691_edition_6">
-                    <p> Les hommes rougissent moins de leurs crimes que de leurs faiblesses et de
+                <div2 n="74" source="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> 
+                        Les hommes rougissent moins de leurs crimes que de leurs faiblesses et de
                         leur vanité. Tel est ouvertement injuste, violent, perfide, calomniateur,
-                        qui cache son amour ou son ambition, sans autre vue que de la cacher. </p>
+                        qui cache son amour ou son ambition, sans autre
+                        <app>
+                        <lem wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1696_edition_9"> veuë </lem>
+                        <rdg wit="#Paris_1694_edition_8  #Paris_1699_edition_10"> vûë </rdg>
+                        </app>
+                    que de la cacher. </p>
                 </div2>
 
                 <div2 n="75" source="#Paris_1691_edition_6">
