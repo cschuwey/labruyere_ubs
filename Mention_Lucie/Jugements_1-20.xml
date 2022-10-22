@@ -169,7 +169,7 @@
                 <p>Recherche et essais de création d'une balise pour marquer un ajout manuscrit au milieu du texte de édition 4 dans n°14</p>
                 
                 
-                <p>Choses à encoder : la version numérique du texte avec les éditions 4 et 6 (ou 6 et 8), les noms en majuscules, les phrases en italique, les c bizarre devant les t dans certains mots, les décos au début du chapitre les jugemens</p>
+                <p>Choses à encoder : la version numérique du texte avec les éditions 4 et 6 (ou 6 et 8) et voir si on peut faire une sourceDesc pour le texte numérique, les noms en majuscules, les phrases en italique, les c bizarre devant les t dans certains mots, les décos au début du chapitre les jugemens</p>
             </change>
         </revisionDesc>
     </teiHeader>
