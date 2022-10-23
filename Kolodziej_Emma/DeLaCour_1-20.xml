@@ -234,9 +234,12 @@
             <div1>
                 <head> De la Cour </head>
                 <div2 n="1" source="#PARIS_1691_6 #PARIS_1689_4">
-                    <p> Le reproche en un sens le plus honorable que l’on puisse faire à un homme,
+                    <p>Le reproche en un sens le plus honorable que l’on puisse faire à un homme,
                         c’est de lui dire qu’il ne sait pas la cour : il n’y a sorte de vertus qu’on
-                        ne rassemble en lui par ce seul mot.</p>
+                        ne rassemble en lui par ce seul mot.
+                    <app>Le reproche en un ſens le plus honorable que l’on puiſſe faire à un homme,
+                        c’eſt de luy dire qu’il ne ſçait pas la Cour ; il n’y a ſorte de vertus que l'on
+                        ne raſſemble en luy par ce ſeul mot.</app></p>
                 </div2>
                 <div2 n="2" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
@@ -245,73 +248,108 @@
                         impénétrable ; il dissimule les mauvais offices, sourit à ses ennemis,
                         contraint son humeur, déguise ses passions, dément son cœur, parle, agit
                         contre ses sentiments. Tout ce grand raffinement n’est qu’un vice, que l’on
-                        appelle fausseté, quelquefois aussi inutile au <app>
-                            <lem>courtisan</lem>
-                            <rdg wit="#PARIS_1691_6">Courtisan</rdg>
-                        </app> pour sa fortune, que la franchise, la sincérité et la vertu.</p>
+                        appelle fausseté, quelquefois aussi inutile au courtisan pour sa fortune, que la franchise, la sincérité et la vertu.
+                    <app> Un homme qui ſçait la Cour, eſt maître de ſon geſte, de ſes yeux &amp; de ſon viſage ; il eſt profond,
+                        impenetrable ; il diſſimule les mauvais offices, ſoûrit à ſes ennemis,
+                        contraint ſon humeur, déguiſe ſes paſſions, dément ſon cœur, parle, agit
+                        contre ſes ſentiments : tout ce grand raffinement n’eſt qu’un vice, que l’on
+                        appelle fauſſeté, quelquefois auſſi inutile au 
+                        <app>
+                            <lem>Courtiſan</lem>
+                            <rgm wit="#PARIS_1689_4">courtiſan</rgm>
+                        </app> pour ſa fortune, que la franchiſe, la ſincérité, &amp; la vertu.</app></p>
                 </div2>
                 <div2 n="3" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/> Qui peut nommer de
                         certaines couleurs changeantes, et qui sont diverses selon les divers jours
-                        dont on les regarde ? de même, qui peut définir la cour ?</p>
+                        dont on les regarde ? de même, qui peut définir la cour 
+                        <app>Qui peut nommer de certaines couleurs changeantes, &amp; qui ſont diverſes ſelon les divers jours
+                            dont on les regarde ; de même qui peut définir la Cour ?</app></p>
                 </div2>
                 <div2 n="4" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/> Se dérober à la cour
-                        un seul moment, c’est y renoncer : le <app>
-                            <lem>courtisan</lem>
-                            <rdg wit="#PARIS_1691_6">Courtisan</rdg>
-                        </app> qui l’a vue le matin la voit le soir pour la reconnaître le
+                        un seul moment, c’est y renoncer : le courtisan qui l’a vue le matin la voit le soir pour la reconnaître le
+                       lendemain, ou afin que lui-même y soit connu.
+                    <app>Se dérober à la Cour un ſeul moment, c’eſt y renoncer : le 
+                        <app>
+                            <lem>Courtiſan</lem>
+                            <rgm wit="#PARIS_1689_4">courtiſan</rgm>
+                        </app> qui l’a veuë le matin, la voit le ſoir pour la reconnoître le
                         <app>
                             <lem>lendemain</lem>
-                            <rdg wit="#PARIS_1689_4">l'endemain</rdg>
-                        </app>, ou afin que lui-même y soit connu.</p>
+                            <rgm wit="#PARIS_1689_4">l'endemain</rgm>
+                        </app>
+                        ; ou afin que luy-même y ſoit connu.</app></p>
                 </div2>
                 <div2 n="5" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/> L’on est petit à la
                         cour, et quelque vanité que l’on ait, on s’y trouve tel ; mais le mal est
-                        commun, et les 
+                        commun, et les grands mêmes y sont petits.
+                    <app>L’on eſt petit à la Cour, &amp; quelque vanité que l’on ait, on s’y trouve tel ; mais le mal eſt
+                        commun, &amp; les 
                         <app>
-                            <lem>grands</lem>
-                            <rdg wit="#PARIS_1691_6">Grands</rdg>
-                        </app> mêmes y sont petits.</p>
+                            <lem>Grands</lem>
+                            <rgm wit="#PARIS_1689_4">grands</rgm>
+                        </app> mêmes y ſont petits.</app></p>
                 </div2>
                 <div2 n="6" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/> La province est
                         l’endroit d’où la cour, comme dans son point de vue, paraît une chose
                         admirable : si l’on s’en approche, ses agréments diminuent, comme ceux d’une
-                        perspective que l’on voit de trop près.</p>
+                        perspective que l’on voit de trop près.
+                    <app>La Province eſt l’endroit d’où la Cour, comme dans ſon point de 
+                        <app>
+                            <lem>veue</lem>
+                            <rgm wit="#PARIS_1689_4">veuë</rgm>
+                        </app>, paroît une choſe admirable ; ſi l’on 
+                        <app>
+                            <lem>s’approche</lem>
+                            <rgm wit="#PARIS_1689_4">s'en approche</rgm>
+                        </app>, ſes agréments diminuënt, comme ceux d’une
+                        perſpective que l’on voit de trop prés.</app></p>
                 </div2>
                 <div2 n="7" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/> L’on s’accoutume
                         difficilement à une vie qui se passe dans une antichambre, dans des cours,
-                        ou sur l’escalier.</p>
+                        ou sur l’escalier.
+                    <app>L’on s’accoûtume difficilement à une vie qui ſe paſſe dans une antichambre, dans des cours,
+                        ou ſur l’eſcalier.</app></p>
                 </div2>
                 <div2 n="8">
-                    <p>La cour ne rend pas content ; elle empêche qu’on ne le soit ailleurs.</p>
+                    <p>La cour ne rend pas content ; elle empêche qu’on ne le soit ailleurs.
+                        <app>La Cour ne rend pas content, elle empêche que l'on ne le ſoit ailleurs.</app>
+                    </p>
                 </div2>
                 <div2 n="9" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/> Il faut qu’un honnête
                         homme ait tâté de la cour : il découvre en y entrant comme un nouveau monde
                         qui lui était inconnu, où il voit régner également le vice et la politesse,
-                        et où tout lui est utile, le bon et le mauvais.</p>
+                        et où tout lui est utile, le bon et le mauvais.
+                    <app>Il faut qu’un honnête homme ait tâté de la cour ; il découvre en y entrant comme un nouveau monde
+                        qui luy étoit inconnu, où il voit regner également le vice &amp; la politeſſe,
+                        &amp; où tout luy eſt utile, le bon &amp; le mauvais.</app></p>
                 </div2>
                 <div2 n="10" source="#PARIS_1691_6">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6"/> La cour est comme un édifice bâti
                         de marbre : je veux dire qu’elle est composée d’hommes fort durs, mais fort
-                        polis.</p>
+                        polis.
+                    <app>La Cour eſt comme un édifice bâti de marbre, je veux dire qu’elle eſt compoſée d’hommes fort durs, mais fort
+                        polis.</app></p>
                 </div2>
                 <div2 n="11" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/> L’on va quelquefois à
                         la cour pour en revenir, et se faire par là respecter du noble de sa
-                        province, ou de son diocésain.</p>
+                        province, ou de son diocésain.
+                    <app>L’on va quelquefois à la Cour pour en revenir, &amp; ſe faire par là reſpecter du noble de ſa
+                        Province, ou de ſon Dioceſain.</app></p>
                 </div2>
                 <div2 n="12" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
@@ -322,7 +360,14 @@
                         être esclaves quelque part, et puiser là de quoi dominer ailleurs. Il semble
                         qu’on livre en gros aux premiers de la cour l’air de hauteur, de fierté et
                         de commandement, afin qu’ils le distribuent en détail dans les provinces :
-                        ils font précisément comme on leur fait, vrais singes de la royauté.</p>
+                        ils font précisément comme on leur fait, vrais singes de la royauté.
+                    <app> Le Brodeur &amp; le Confiſeur ſeroient ſuperflus &amp; ne feroient qu’une montre inutile, ſi l’on
+                        étoit modeſte &amp; ſobre : les Cours ſeroient deſertes, &amp; les Rois preſque
+                        ſeuls, ſi l’on étoit gueri de la vanité &amp; de l’intérêt. Les hommes veulent
+                        être eſclaves quelque part, &amp; puiſer là de quoy dominer ailleurs. Il ſemble
+                        que l'on livre en gros aux premiers de la Cour l’air de hauteur, de fierté &amp;
+                        de commandement, afin qu’ils le diſtribuënt en détail dans les Provinces :
+                        ils font préciſément comme on leur fait, vrais ſinges de la Royauté.</app></p>
                 </div2>
                 <div2 n="13" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
@@ -331,7 +376,12 @@
                         puis-je reconnaître à leurs visages ; leurs traits sont altérés, et leur
                         contenance est avilie. Les gens fiers et superbes sont les plus défaits, car
                         ils perdent plus du leur ; celui qui est honnête et modeste s’y soutient
-                        mieux : il n’a rien à réformer.</p>
+                        mieux : il n’a rien à réformer.
+                    <app>Il n’y a rien qui enlaidiſſe certains Courtiſans comme la preſence du Prince ; à peine les
+                        puis-je reconnoître à leurs viſages ; leurs traits ſont alterez, &amp; leur
+                        contenance eſt avilie : les gens fiers &amp; superbes sont les plus défaits, car
+                        ils perdent plus du leur ; celuy qui eſt honnête &amp; modeste s’y ſoûtient
+                        mieux : il n’a rien à réformer.</app></p>
                 </div2>
                 <div2 n="14" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
@@ -342,13 +392,22 @@
                         grands progrès. Un homme d’un génie élevé et d’un mérite solide ne fait pas
                         assez de cas de cette espèce de talent pour faire son capital de l’étudier
                         et se le rendre propre ; il l’acquiert sans réflexion, et il ne pense point
-                        à s’en défaire.</p>
+                        à s’en défaire.
+                    <app>L’air de Cour eſt contagieux, il ſe prend à V**, comme l’accent Normand à Roüen ou à Falaiſe
+                        ; on l’entrevoit en des Fourriers, en de petits Contrôleurs, &amp; en des Chefs
+                        de fruiterie; l’on peut avec une portée d’eſprit fort mediocre y faire de
+                        grands progrez. Un homme d’un genie élevé &amp; d’un merite ſolide ne fait pas
+                        aſſez de cas de cette eſpece de talent pour faire ſon capital de l’étudier
+                        &amp; ſe le rendre propre ; il l’acquiert ſans reflexion, &amp; il ne penſe point
+                        à s’en défaire.</app></p>
                 </div2>
                 <div2 n="15" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/> N** arrive avec grand
                         bruit ; il écarte le monde, se fait faire place ; il gratte, il heurte
-                        presque ; il se nomme : on respire, et il n’entre qu’avec la foule.</p>
+                        presque ; il se nomme : on respire, et il n’entre qu’avec la foule.
+                    <app> N** arrive avec grand bruit, il écarte le monde, ſe fait faire place, il gratte, il heurte
+                        preſque, il ſe nomme ; on reſpire, &amp; il n’entre qu’avec la foule.</app></p>
                 </div2>
                 <div2 n="16" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
@@ -362,7 +421,17 @@
                         trouve heureux d’en être vu. Ils ont cela de commode pour les grands qu’ils
                         en sont soufferts sans conséquence, et congédiés de même : alors ils
                         disparaissent tout à la fois riches et décrédités, et le monde qu’ils
-                        viennent de tromper est encore prêt d’être trompé par d’autres.</p>
+                        viennent de tromper est encore prêt d’être trompé par d’autres.
+                    <app>Il y a dans les Cours des apparitions de gens aventuriers &amp; hardis, d’un caractère libre &amp;
+                        familier, qui ſe produiſent eux-mêmes, proteſtent qu’ils ont dans leur art
+                        toute l’habileté qui manque aux autres, &amp; qui ſont crûs ſur leur parole.
+                        Ils profitent cependant de l’erreur publique, ou de l’amour qu’ont les
+                        hommes pour la nouveauté ; ils percent la foule, &amp; parviennent juſqu’à
+                        l’oreille du Prince, à qui le Courtiſan les voit parler, pendant qu’il ſe
+                        trouve heureux d’en être veu : ils ont cela de commode pour les Grands, qu’ils
+                        en ſont ſoufferts ſans conſéquence, &amp; congediez de même : alors ils
+                        diſparoiſſent tous à la fois riches et décreditez; &amp; le monde qu’ils
+                        viennent de tromper, eſt encore preſt d’être trompé par d’autres.</app></p>
                 </div2>
                 <div2 n="17" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
@@ -374,7 +443,15 @@
                         parole, président au cercle, et persistent dans cette hauteur ridicule et
                         contrefaite, jusqu’à ce qu’il survienne un grand, qui, la faisant tomber
                         tout d’un coup par sa présence, les réduise à leur naturel, qui est moins
-                        mauvais.</p>
+                        mauvais.
+                    <app>Vous voyez des gens qui entrent ſans ſalüer que legerement, qui marchent des épaules, &amp; ſe
+                        rengorgent comme une femme : ils vous interrogent ſans vous regarder,
+                        parlent d’un ton élevé, &amp; qui marque qu’ils ſe ſentent au-deſſus de ceux
+                        qui ſe trouvent preſens ; ils s’arrétent, &amp; on les entoure ; ils ont la
+                        parole, préſident au cercle, &amp; perſiſtent dans cette hauteur ridicule &amp;
+                        contrefaite, juſqu’à ce qu’il ſurvienne un Grand, qui la faiſant tomber
+                        tout d’un coup par ſa préſence, les reduiſe à leur naturel, qui eſt moins
+                        mauvais.</app></p>
                 </div2>
                 <div2 n="18" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
@@ -404,7 +481,29 @@
                         visages qui frappent les nouveaux venus à une cour ; ils embrassent, ils
                         sont embrassés ; ils rient, ils éclatent, ils sont plaisants, ils font des
                         contes : personnes commodes, agréables, riches, qui prêtent, et qui sont
-                        sans conséquence.</p>
+                        sans conséquence.
+                    <app>Les Cours ne ſçauroient ſe paſſer d’une certaine eſpece de Courtiſans, hommes flateurs,
+                        complaiſans, inſinuants, dévoüez aux femmes, dont ils ménagent les
+                        plaiſirs, étudient les foibles, &amp; flattent toutes les paſſions; ils font les modes, raffinent ſur le
+                        ſexe de prompts moyens de conſumer de grandes ſommes en habits, en meubles &amp; en équipages ; ils ont
+                        eux-meſmes des habits où brillent l’invention &amp; la richeſſe, &amp; ils
+                        n’habitent d’anciens Palais qu’aprés les avoir renouvellez &amp; embellis ; ils
+                        mangent délicatement &amp; avec reflexion, il n’y a forte de volupté qu’ils
+                        n’eſſayent, &amp; dont ils ne puiſſent rendre compte : ils doivent à eux-meſmes
+                        leur fortune, &amp; ils la ſoûtiennent avec la meſme adreſſe qu’ils l’ont
+                        élevée : dédaigneux &amp; fiers ils n’abordent plus leurs pareils, ils ne les
+                        ſaluënt plus; ils parlent où tous les autres ſe taiſent, entrent, penetrent
+                        en des endroits &amp; à des heures où les Grands n’oſent ſe faire voir;
+                        ceux-cy, avec de longs ſervices, bien des playes ſur le corps, de beaux
+                        emplois ou de grandes dignitez, ne montrent pas un viſage ſi aſſuré, ny une
+                        contenance ſi libre. Ces gens ont l’oreille des plus grands Princes, ſont de
+                        tous leurs plaiſirs &amp; toutes leurs feſtes ; ne ſortent pas du Louvre ou du
+                        Château, où ils marchent &amp; agiſſent comme chez eux &amp; dans leur domeſtique,
+                        ſemblent ſe multiplier en mille endroits, &amp; ſont toûjours les premiers
+                        viſages qui frapent les nouveaux venus à une Cour: ils embraſſent, ils
+                        ſont embraſſés; ils rient, ils éclatent, ils ſont plaiſans, ils font des
+                        contes; perſonnes commodes, agreables, riches, qui prêtent, &amp; qui ſont
+                        ſans conſéquence.</app></p>
                 </div2>
                 <div2 n="19" source="#PARIS_1691_6">
                     <p>
@@ -432,7 +531,31 @@
                         Gens néanmoins éveillés et alertes sur tout ce qu’ils croient leur convenir,
                         un peu entreprenants, légers et précipités. Le dirai-je ? ils portent au
                         vent, attelés tous deux au char de la Fortune, et tous deux fort éloignés de
-                        s’y voir assis.</p>
+                        s’y voir assis.
+                    <app>Ne croiroit-on pas de Cimon &amp; de Clitandre qu’ils ſont ſeuls chargez des détails de tout l’Etat, &amp; que ſeuls
+                        auſſi ils en doivent répondre : l’un a du moins les affaires de terre, &amp;
+                        l’autre les maritimes; qui pourroit les repreſenter exprimeroit
+                        l’empreſſement, l’inquietude, la curioſité, l’activité, ſçauroit peindre le
+                        mouvement. On ne les a jamais veus aſſis, jamais fixes &amp; arrétez ; qui meſme
+                        les a vû marcher ? on les voit courir, parler en courant, &amp; vous
+                        interroger ſans attendre de réponſe : ils ne viennent d’aucun endroit, ils ne
+                        vont nulle part : ils paſſent &amp; ils repaſſent ; ne les retardez pas dans
+                        leur courſe précipitée, vous démonteriez leur machine ; ne leur faites pas
+                        de queſtions, ou donnez-leur du moins le temps de reſpirer &amp; de ſe
+                        reſſouvenir qu’ils n’ont nulle affaire, qu’ils peuvent demeurer avec vous &amp;
+                        long-temps, vous ſuivre meſme où il vous plaira de les emmener. Ils ne ſont
+                        pas les Satellites de Jupiter, je veux dire ceux qui preſſent &amp; qui
+                        entourent le Prince, mais ils l’annoncent &amp; le précedent ; ils ſe lancent
+                        impetueuſement dans la foule des Courtiſans, tout ce qui ſe trouve ſur leur
+                        paſſage eſt en peril ; leur profeſſion eſt d’eſtre vûs &amp; revûs, &amp; ils ne ſe
+                        couchent jamais ſans s’eſtre acquittez d’un employ ſi ſérieux, &amp; ſi utile à
+                        la République: ils ſont au reſte inſtruits à fond de toutes les nouvelles
+                        indifferentes, &amp; ils ſçavent à la Cour tout ce que l’on peut y ignorer : il
+                        ne leur manque aucun des talents neceſſaires pour s’avancer mediocrement.
+                        Gens neanmoins éveillez &amp; alertes ſur tout ce qu’ils croient leur convenir,
+                        un peu entreprenans, legers &amp; précipitez: le diray-je, ils portent au
+                        vent, &amp; ſont attelez au char de la fortune, où ils ſont tous deux fort éloignez de
+                        ſe voir aſſis.</app></p>
                 </div2>
                 <div2 n="20" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
@@ -454,7 +577,25 @@
                         Quelques-uns riront de ces contre-temps, mais il les laissera rire ;
                         d’autres en feront des contes, et il leur permettra de conter : il dira
                         toujours qu’il marche après la maison régnante ; et à force de le dire, il
-                        sera cru.</p>
+                        sera cru.
+                    <app>Un homme de la Cour qui n’a pas un aſſez beau nom, doit l’enſevelir ſous un meilleur ; mais s’il
+                        l’a tel qu’il oſe le porter, il doit alors inſinuer qu’il eſt de tous les
+                        noms le plus illuſtre, comme ſa maiſon de toutes les maiſons la plus
+                        ancienne : il doit tenir aux Princes Lorrains, aux Rohans, aux Chastillons,
+                        aux Montmorencis, &amp;, s’il ſe peut, aux Princes Du Sang ; ne parler que de
+                        Ducs, de Cardinaux et de Miniſtres; faire entrer dans toutes les
+                        converſations ſes ayeuls paternels &amp; maternels, &amp; y trouver place pour
+                        l’oriflamme &amp; pour les croiſades; avoir des ſalles parées d’arbres
+                        genealogiques, d’écuſſons chargez de ſeize quartiers, &amp; de tableaux de ſes
+                        ancétres &amp; des alliez de ſes ancétres ; ſe piquer d’avoir un ancien Château
+                        à tourelles, à créneaux et à machecoulis; dire en toute rencontre ma
+                        race, ma branche, mon nom &amp; mes armes ; dire de celuy-cy, il n’eſt pas
+                        homme de qualité; de celle-là, qu’elle n’eſt pas Demoiſelle ; ou ſi on luy
+                        dit qu’Hyacinthe a eu le gros lot, demander eſt il Gentilhomme ?
+                        quelques-uns riront de ces contre-temps, mais il les laiſſera rire;
+                        d’autres en feront des contes, &amp; il leur permettra de conter : il dira
+                        toûujours qu’il marche aprés la maiſon regnante, &amp; à force de le dire, il
+                        ſera cru.</app></p>
                 </div2>
             </div1>
         </body>
