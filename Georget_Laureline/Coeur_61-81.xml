@@ -472,40 +472,89 @@
 
                 <div2 n="75" source="#Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g>
-                        Le cas n’arrive guère où l’on puisse dire : "J’étais ambitieux" ; ou on ne
+                        Le cas n’arrive 
+                       <app>
+                        <lem wit="#Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1699_edition_10"> gueres </lem>
+                        <rdg wit="#Paris_1696_edition_9"> guéres </rdg>
+                        </app> 
+                        où l’on puisse dire : "
+                        <app>
+                        <lem wit="#Paris_1690_edition_5"> j'estois </lem>
+                        <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> j'étois </rdg>
+                        </app>
+                        ambitieux" ; ou on ne
                         l’est point, ou on l’est toujours ; mais le temps vient où l’on avoue que
                         l’on a aimé.</p>
                 </div2>
 
-                <div2 n="76" source="#Paris_1691_edition_6">
-                    <p> Les hommes commencent par l’amour, finissent par l’ambition, et ne se
+                <div2 n="76" source="#Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g>
+                        Les hommes commencent par l’amour, finissent par l’ambition, et ne se
                         trouvent souvent dans une assiette plus tranquille que lorsqu’ils meurent.
                     </p>
                 </div2>
 
-                <div2 n="77" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
-                    <p> Rien ne coûte moins à la passion que de se mettre au-dessus de la raison :
-                        son grand triomphe est de l’emporter sur l’intérêt. </p>
+                <div2 n="77" source="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>
+                        Rien ne 
+                        <app>
+                        <lem wit="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1699_edition_10"> coûte </lem>
+                        <rdg wit="#Paris_1696_edition_9"> coute </rdg>
+                        </app>
+                         moins à la passion que de se mettre au-dessus de la raison :
+                        son grand triomphe est de l’emporter sur 
+                        <app>
+                        <lem wit="#Paris_1684_edition_4 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> l'interêt </lem>
+                        <rdg wit="#Paris_1690_edition_5"> l’interest </rdg>
+                        </app>
+                        .
+                        </p>
                 </div2>
 
-                <div2 n="78" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
-                    <p>L’on est plus sociable et d’un meilleur commerce par le cœur que par
+                <div2 n="78" source="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g>
+                        L’on est plus sociable et d’un meilleur commerce par le cœur que par
                         l’esprit. </p>
                 </div2>
 
-                <div2 n="79" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
-                    <p> Il y a de certains grands sentiments, de certaines actions nobles et
-                        élevées, que nous devons moins à la force de notre esprit qu’à la bonté de
-                        notre naturel. </p>
+                <div2 n="79" source="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g>
+                        Il y a de certains grands sentiments, de certaines actions nobles et
+                        élevées, que nous devons moins à la force de 
+                         <app>
+                        <lem wit="#Paris_1688_edition_1"> nôstre </lem>
+                        <rdg wit="#Paris_1688_edition_3 #Paris_1690_edition_5 #Paris_1699_edition_10"> nostre </rdg>
+                        <rdg wit="#Paris_1684_edition_4 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 "> nôtre </rdg>
+                        </app>
+                        esprit qu’à la bonté de
+                        <app>
+                        <lem wit="#Paris_1688_edition_1"> nôstre </lem>
+                        <rdg wit="#Paris_1688_edition_3 #Paris_1690_edition_5 #Paris_1699_edition_10"> nostre </rdg>
+                        <rdg wit="#Paris_1684_edition_4 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 "> nôtre </rdg>
+                        </app>
+                        naturel. </p>
                 </div2>
 
-                <div2 n="80" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
-                    <p> Il n’y a guère au monde un plus bel exces que celui de la
+                <div2 n="80" source="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g>
+                        Il n’y a 
+                        <app>
+                        <lem wit="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1699_edition_10"> gueres </lem>
+                        <rdg wit="#Paris_1696_edition_9"> guéres </rdg>
+                        </app> 
+                        au monde un plus bel exces que celui de la
                         reconnaissance.</p>
                 </div2>
 
-                <div2 n="81" source="#Paris_1684_edition_4 #Paris_1691_edition_6">
-                    <p> Il faut être bien dénué d’esprit, si l’amour, la malignité, la nécessité
+                <div2 n="81" source="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5">
+                        Il faut être bien 
+                         <app>
+                        <lem wit="#Paris_1684_edition_4"> denüé </lem>
+                        <rdg wit="#Paris_1690_edition_5"> dénüé </rdg>
+                        <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> dénué </rdg>
+                        </app>
+                        d’esprit, si l’amour, la malignité, la nécessité
                         n’en font pas trouver.</p>
                 </div2>
 
