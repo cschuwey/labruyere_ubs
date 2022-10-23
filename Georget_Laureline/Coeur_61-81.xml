@@ -242,7 +242,7 @@
                 <head> Du Coeur </head>
 
 
-                <div2 n="61" source="#Paris_1699_edition_10 #Paris_1696_edition_9 #Paris_1694_edition_8 #Paris_1692_edition_7 "> 
+                <div2 n="61" source="#Paris_1699_edition_10 #Paris_1696_edition_9 #Paris_1694_edition_8 #Paris_1692_edition_7"> 
                     <p>
                         <g ref="#Pied_de_mouche_simple"> </g> 
                         
@@ -428,7 +428,7 @@
                         Toutes les passions sont menteuses : elles se déguisent autant qu’elles le
                         peuvent aux yeux des autres ; elles se cachent à 
                         <app>
-                        <lem wit="#Paris_1690_edition_5 "> elles-mesmes </lem>
+                        <lem wit="#Paris_1690_edition_5"> elles-mesmes </lem>
                         <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> elles-mêmes </rdg>
                         </app>
                         Il n’y a point
@@ -440,21 +440,21 @@
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>
                         On 
                         <app>
-                        <lem wit="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 "> ouvre </lem>
-                        <rdg wit=" #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> trouve </rdg>
+                        <lem wit="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7"> ouvre </lem>
+                        <rdg wit="#Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> trouve </rdg>
                         </app>
                         ouvre un livre de dévotion, et il touche ; on en ouvre un autre qui est
                         galant, et il fait son impression. 
                         <app>
                         <lem wit="#Paris_1684_edition_4 "> Oseray je </lem>
-                        <rdg wit=" #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> Oseray-je</rdg>
+                        <rdg wit="#Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10"> Oseray-je</rdg>
                         </app>
                         
                         dire que le cœur seul concilie
                         les choses contraires, et admet les incompatibles 
                         <app>
                         <lem wit="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1696_edition_9"> . </lem>
-                        <rdg wit="  #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8  #Paris_1699_edition_10"> ? </rdg>
+                        <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8  #Paris_1699_edition_10"> ? </rdg>
                         </app> </p>
                 </div2>
 
@@ -524,13 +524,13 @@
                          <app>
                         <lem wit="#Paris_1688_edition_1"> nôstre </lem>
                         <rdg wit="#Paris_1688_edition_3 #Paris_1690_edition_5 #Paris_1699_edition_10"> nostre </rdg>
-                        <rdg wit="#Paris_1684_edition_4 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 "> nôtre </rdg>
+                        <rdg wit="#Paris_1684_edition_4 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9"> nôtre </rdg>
                         </app>
                         esprit qu’à la bonté de
                         <app>
                         <lem wit="#Paris_1688_edition_1"> nôstre </lem>
                         <rdg wit="#Paris_1688_edition_3 #Paris_1690_edition_5 #Paris_1699_edition_10"> nostre </rdg>
-                        <rdg wit="#Paris_1684_edition_4 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 "> nôtre </rdg>
+                        <rdg wit="#Paris_1684_edition_4 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9"> nôtre </rdg>
                         </app>
                         naturel. </p>
                 </div2>
