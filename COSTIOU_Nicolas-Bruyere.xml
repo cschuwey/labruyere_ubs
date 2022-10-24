@@ -6,42 +6,66 @@
         
 <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Les Caractères De Théophraste traduit du Grec avec Les Caractères ou moeurs de ce siècle</title>
+                <author>La Bruyère, Jean De</author>
+                <respStmt>
+                    <resp>numérisation</resp>
+                    <name>Classe M1 Master Métiers du livre et de l'édition, 2022-2023</name>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
-                <authority></authority>
+                <authority>Université de Lorient</authority>
+                <date>2022</date>
             </publicationStmt>
-<sourceDesc>
+    <sourceDesc>
                 <biblStruct>              
                     <monogr xml:id="Tours_1867">
-                        <author ref="https://data.bnf.fr/11910249">Jean de La Bruyère</author>
-                        <title>Les Caractères</title>
+                        <title>Les Caractères De Théophraste traduit du Grec avec Les Caractères ou moeurs de ce siècle</title>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean De</author>
                         <editor>A. Mame et fils, 1867</editor>                      
                         <imprint> 
                             <pubPlace>https://books.google.fr/books?id=oOMxW9Jj4igC</pubPlace>
                         </imprint>
                     </monogr>
-                </biblStruct>
-</sourceDesc>
-     
-<sourceDesc>
-                <biblStruct>              
+                      
                     <monogr xml:id="Paris-1690">                   
-                        <title>Les Caractères</title>
-                        <author ref="https://data.bnf.fr/11910249">Jean de La Bruyère</author>  
+                        <title>Les Caractères De Théophraste traduit du Grec avec Les Caractères ou moeurs de ce siècle</title>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean De</author>  
                         <edition>Cinquième édition</edition>                      
-                        <editor></editor> 
+                        <editor>Etienne Michalet</editor> 
                         <imprint>
-                        
-                        <publisher></publisher>
-                            
+                        <publisher></publisher>    
                         </imprint>
                     </monogr>
+                    
+                    <monogr xml:id="Paris-1696">                      
+                        <title>Les Caractères De Théophraste traduit du Grec avec Les Caractères ou moeurs de ce siècle</title>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean De</author>  
+                        <edition>Neuvième édition</edition>                      
+                        <editor>Etienne Michalet</editor> 
+                        <imprint>
+                            <publisher></publisher>    
+                        </imprint>
+                    </monogr>
+                    
                 </biblStruct>
-</sourceDesc>
-     
+    </sourceDesc> 
 </fileDesc>
-        
+       
+<encodingDesc>
+   
+   <projectDesc>
+       
+       <p>
+       
+       Projet d'édition des Caractères de la Bruyère en intégrant les variantes des versions du livre. Outre le texte de base conventionnel, nous utilisons deux versions : la cinquième et la neuvième.
+          
+        </p>
+          
+    </projectDesc>
+          
+</encodingDesc> 
+       
 <profileDesc >
             
             <langUsage>
@@ -58,21 +82,15 @@
                 <purpose></purpose>
             </textDesc>
             
-        </profileDesc>
+</profileDesc>
         
-<encodingDesc>
-                
-            <editorialDecl>
-                
-                <p>
-                      
-                      
-                </p>
-                
-                
-            </editorialDecl>
-            
-</encodingDesc>   
+  
+    
+<revisionDesc>
+    
+    <change></change>
+     
+</revisionDesc>
         
 </teiHeader>
     
@@ -89,11 +107,11 @@
                 
                 <titlePart>ou les moeurs de ce siècle</titlePart>
                 
-                <docEdition>Cinquième édition augmentée de plusieurs Remarques</docEdition>
+                <docEdition>Neuvième édition augmentée de plusieurs Remarques</docEdition>
                 
                 <docImprint>Etienne Michalet</docImprint>
                 
-                <docDate when="1688" style="big">MDC XC</docDate>
+                <docDate when="1696" style="big">MDC XC</docDate>
                 
                 <note style="written">
                     
@@ -101,7 +119,7 @@
                     
                 </note>
                 
-                <docAuthor style="writtennote" source="#Paris-1690"></docAuthor>
+                <docAuthor style="writtennote" source="#Tours_1867, #Paris-1690, #Paris-1696"></docAuthor>
                     
                 </titlePage>
                     
@@ -111,18 +129,20 @@
             
    <div1>
                    
-                <div2 n="21" source="#Paris-1690">
-            
+       <div2 n="21" source="#Paris-1690, #Paris-1696">
                     
                     <p>
-                           
+                        
                         Quelle idée plus bizarre que de se représenter une foule de chrétiens de l’un et de l’autre sexe, qui se rassemblent à certains jours dans une salle pour y applaudir à une troupe d’excommuniés, qui ne le sont que par le plaisir qu’ils leur donnent, et qui est déjà payé d’avance ? Il me semble qu’il faudrait ou fermer les théâtres, ou prononcer moins sévèrement sur l’état des comédiens.
                                  
                         </p>
+           
+           <app></app>
+           
                     
                 </div2>
             
-                <div2 n="22" source="#Paris-1690">
+       <div2 n="22" source="#Paris-1690, #Paris-1696">
       
                     <p>
       
@@ -132,7 +152,7 @@
       
                 </div2>
       
-                <div2 n="23">
+       <div2 n="23" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -142,7 +162,7 @@
                     
                 </div2>
                 
-                <div2 n="24">
+       <div2 n="24" source="#Paris-1696">
                     
                     <p>
                         
@@ -152,7 +172,7 @@
                     
                 </div2>
       
-                <div2 n="25">
+       <div2 n="25" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -162,7 +182,7 @@
                     
                 </div2>
                 
-                <div2 n="26">
+       <div2 n="26" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -172,7 +192,7 @@
                     
                 </div2>
                 
-                <div2 n="27">
+       <div2 n="27" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -182,7 +202,7 @@
                     
                 </div2>
              
-                <div2 n="28">
+       <div2 n="28" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -192,7 +212,7 @@
                     
                 </div2>
       
-                <div2 n="29">
+       <div2 n="29" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -202,7 +222,7 @@
                     
                 </div2>
                  
-            <div2 n="30">
+       <div2 n="30" source="#Paris-1696">
                 
                 <p>
                     
@@ -212,7 +232,7 @@
                 
             </div2>
                              
-                <div2 n="31">
+       <div2 n="31" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                                    
@@ -222,7 +242,7 @@
                     
                     </div2>
       
-                <div2 n="32">
+       <div2 n="32" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -232,7 +252,7 @@
                     
                 </div2>
             
-                <div2 n="33">
+       <div2 n="33" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -242,7 +262,7 @@
                     
                 </div2>
             
-                <div2 n="34">
+       <div2 n="34" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -252,7 +272,7 @@
                     
                 </div2>
            
-                <div2 n="35">
+       <div2 n="35" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -262,7 +282,7 @@
                     
                 </div2>
          
-                <div2 n="36">
+       <div2 n="36" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                                
@@ -273,7 +293,7 @@
                 </div2>
            
            
-                <div2 n="37">
+       <div2 n="37" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                        
@@ -283,7 +303,7 @@
                     
                 </div2>
            
-                <div2 n="38">
+       <div2 n="38" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -293,7 +313,7 @@
                     
                 </div2>
                 
-                <div2 n="39">
+       <div2 n="39" source="#Paris-1696">
                     
                     <p>
                          
@@ -304,7 +324,7 @@
                 </div2>
                 
                 
-                <div2 n="40">
+       <div2 n="40" source="#Paris-1696">
                     
                     <p>
                         
@@ -314,7 +334,7 @@
                     
                 </div2>
            
-                <div2 n="41">
+       <div2 n="41" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -324,7 +344,7 @@
                     
                 </div2>
                 
-                <div2 n="42">
+       <div2 n="42" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -334,7 +354,7 @@
                     
                 </div2>
           
-                <div2 n="43">
+       <div2 n="43" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -344,8 +364,7 @@
                     
                 </div2>
                 
-                
-                <div2 n="44">
+       <div2 n="44" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -355,7 +374,7 @@
                     
                 </div2>
                 
-                <div2 n="45">
+       <div2 n="45" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                        
@@ -365,7 +384,7 @@
                     
                 </div2>
                 
-                <div2 n="46">
+       <div2 n="46" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -375,7 +394,7 @@
                     
                 </div2>
           
-                <div2 n="47">
+       <div2 n="47" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -386,7 +405,7 @@
                 </div2>
                 
                 
-                <div2 n="48">
+       <div2 n="48" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -397,7 +416,7 @@
                 </div2>
                 
                 
-                <div2 n="49">
+       <div2 n="49" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                                
@@ -408,7 +427,7 @@
                 </div2>
           
           
-                <div2 n="50">
+       <div2 n="50" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -419,7 +438,7 @@
                     
                 </div2>
                 
-                <div2 n="51">
+       <div2 n="51" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -429,7 +448,7 @@
                     
                 </div2>
                 
-                <div2 n="52">
+       <div2 n="52" source="#Paris-1696">
                     
                     <p>
                         
@@ -439,7 +458,7 @@
                     
                 </div2>
                 
-                <div2 n="53">
+       <div2 n="53" source="#Paris-1696">
                     
                     <p>
                                              
@@ -449,7 +468,7 @@
                     
                 </div2>
           
-                <div2 n="54">
+       <div2 n="54" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -459,7 +478,7 @@
                     
                 </div2>
                 
-                <div2 n="55">
+       <div2 n="55" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -469,7 +488,7 @@
                     
                 </div2>
                 
-                <div2 n="56">
+       <div2 n="56" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                      
@@ -479,7 +498,7 @@
                     
                 </div2>
                 
-                <div2 n="57">
+       <div2 n="57" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -489,7 +508,7 @@
                     
                 </div2>
                 
-                <div2 n="58">
+       <div2 n="58" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -499,7 +518,7 @@
                     
                 </div2>
                 
-                <div2 n="59">
+       <div2 n="59" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -509,7 +528,7 @@
                     
                 </div2>
                 
-                <div2 n="60">
+       <div2 n="60" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -519,7 +538,7 @@
                     
                 </div2>
                 
-                <div2 n="61">
+       <div2 n="61" source="#Paris-1696">
                     
                     <p>
                         
@@ -529,7 +548,7 @@
                     
                 </div2>
                 
-                <div2 n="62">
+       <div2 n="62" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -539,7 +558,7 @@
                     
                 </div2>
           
-                <div2 n="63">
+       <div2 n="63" source="#Paris-1696">
                     
                     <p>
                                                
@@ -561,7 +580,7 @@
                 </div2>
                 
                 
-                <div2 n="65">
+       <div2 n="65" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                                             
@@ -571,7 +590,7 @@
                     
                 </div2>
                 
-                <div2 n="66">
+       <div2 n="66" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -581,7 +600,7 @@
                     
                 </div2>
                 
-                <div2 n="67">
+       <div2 n="67" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -602,7 +621,7 @@
                     
                 </div2>
                 
-                <div2 n="69">
+       <div2 n="69" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                         
@@ -612,7 +631,7 @@
                     
                 </div2>
           
-                <div2 n="70">
+       <div2 n="70" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                        
@@ -622,7 +641,7 @@
                     
                 </div2>
                 
-                <div2 n="71">
+       <div2 n="71" source="#Paris-1690, #Paris-1696">
                     
                     <p>
                                               
@@ -632,7 +651,7 @@
                     
                 </div2>
           
-                <div2 n="72">
+       <div2 n="72" source="#Paris-1696">
                     
                     <p>
                         
@@ -644,7 +663,7 @@
                 </div2>
                 
                 
-                <div2 n="73">
+       <div2 n="73" source="#Paris-1696">
                     
                     <p>
                                                
