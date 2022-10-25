@@ -135,7 +135,7 @@
 
         <encodingDesc>
             <charDecl>
-                <!-- Il n'y a pas la présence de pieds de mouches à double parenthèse dans les remarques 1 à 20 de "De la Mode", c'est pour cela que nous ne l'encodons pas. Ci-dessous les choix d'encodage pour les deux sortes de pieds de mouche. -->
+                <!-- Il n'y a pas la présence de pieds de mouches à double parenthèses dans les remarques 1 à 20 de "De la Mode", c'est pour cela que nous ne l'encodons pas. Ci-dessous les choix d'encodage pour les deux sortes de pieds de mouche. -->
                 <glyph xml:id="pieddemouche">
                     <desc>¶</desc>
                 </glyph>
@@ -180,6 +180,9 @@
                 moderne du i.</change>
             <change> Nous avons fait le choix de changer toutes les esperluettes en "et" afin de
                 favoriser la compréhension du lecteur.</change>
+            <change> Lorsque toutes les éditions comportent la même modification par rapport au
+                texte défini comme celui de base, les sources ne sont pas citées. Il est donc
+                entendu que la modification se trouve dans tous les ouvrages.</change>
             <change>
                 <date when="2022-10-16"/>Ajout des éditions correspondant à chaque
                 remarques</change>
@@ -189,8 +192,10 @@
                 <date when="2022-10-19"/> Ajout des modifications selon les éditions sur la page de
                 titre ainsi que la manière d'encoder les pieds de mouche </change>
             <change>
-                <date when="2022-10-22"/> Ajout des pieds de mouches selon les différentes éditions
-            </change>
+                <date when="2022-10-22"/> Ajout des pieds de mouches selon les différentes éditions </change>
+            <change>
+                <date when="2022-10-25"/> Ajout de quelques modifications dans le texte, en mettant
+                les sources des éditions.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -265,7 +270,7 @@
                         </app> Théotime a vu son successeur. </p>
                 </div2>
                 <div2 n="2"
-                    source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme">
+                    source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
                     <p>
                         <g ref="pieddemouche"/> La curiosité n’est pas un goût pour ce qui est bon
                         ou ce qui est beau, mais pour ce qui est rare, unique, pour ce qu’on a et ce
@@ -276,21 +281,49 @@
                         passion qu’on a généralement pour les choses rares et qui ont cours, mais
                         qu’on a seulement pour une certaine chose, qui est rare, et pourtant à la
                         mode. </p>
-                    <p> Le fleuriste a un jardin dans un faubourg : il y court au lever du soleil,
-                        et il en revient à son coucher. Vous le voyez planté, et qui a pris racine
-                        au milieu de ses tulipes et devant la Solitaire : il ouvre de grands yeux,
-                        il frotte ses mains, il se baisse, il la voit de plus près, il ne l’a jamais
-                        vue si belle, il a le cœur épanoui de joie ; il la quitte pour l’Orientale,
-                        de là il va à la Veuve, il passe au Drap d’or, de celle-ci à l’Agathe, d’où
-                        il revient enfin à la Solitaire, où il se fixe, où il se lasse, où il
-                        s’assied, où il oublie de dîner : aussi est-elle nuancée, bordée, huilée, à
-                        pièces emportées ; elle a un beau vase ou un beau calice : il la contemple,
-                        il l’admire. Dieu et la nature sont en tout cela ce qu’il n’admire point ;
-                        il ne va pas plus loin que l’oignon de sa tulipe, qu’il ne livrerait pas
-                        pour mille écus, et qu’il donnera pour rien quand les tulipes seront
-                        négligées et que les œillets auront prévalu. Cet homme raisonnable, qui a
-                        une âme, qui a un culte et une religion, revient chez soi fatigué, affamé,
-                        mais fort content de sa journée : il a vu des tulipes. </p>
+                    <p> Le fleuriste <app>
+                            <rdg source="#Paris_1696_Dixieme"> Fleuriste</rdg>
+                        </app> a un jardin dans un <app>
+                            <rdg
+                                source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme"
+                                >Fauxbourg</rdg>
+                        </app>
+                        <app>
+                            <rdg source="#Paris_1696_Neuvieme #Paris_1699_Dixieme">Faubourg</rdg>
+                        </app>: il y court au lever du <app>
+                            <rdg>Soleil</rdg>
+                        </app>, et il en revient à son coucher. Vous le voyez planté, et qui a pris
+                        racine au milieu de ses <app>
+                            <rdg> tulippes</rdg>
+                        </app> et devant la <app>
+                            <rdg rend="italic">solitaire</rdg>
+                        </app>: il ouvre de grands yeux, il frotte ses mains, il se baisse, il la
+                        voit de plus près, il ne l’a jamais vue si belle, il a le cœur épanoui de
+                        joie ; il la quitte pour l’<app>
+                            <rdg rend="italic">orientale</rdg>
+                        </app>, de là il va à la <app>
+                            <rdg rend="italic">veuve</rdg>
+                        </app>, il passe au <app>
+                            <rdg rend="italic">drap d'or</rdg>
+                        </app>, de celle-ci à l'<app>
+                            <rdg rend="italic">agathe</rdg>
+                        </app>, d’où il revient enfin à la <app>
+                            <rdg rend="italic">solitaire</rdg>
+                        </app>, où il se fixe, où il se lasse, où il s’assied, où il oublie de dîner
+                        : aussi est-elle nuancée, bordée, huilée, à pièces emportées ; elle a un
+                        beau vase ou un beau calice : il la contemple, il l’admire. <app>
+                            <rdg rend="caps">dieu</rdg>
+                        </app>et la nature sont en tout cela ce qu’il n’admire point ; il ne va pas
+                        plus loin que l’oignon de sa <app>
+                            <rdg> tulippe</rdg>
+                        </app>, qu’il ne livrerait pas pour mille écus, et qu’il donnera pour rien
+                        quand les <app>
+                            <rdg> tulippes</rdg>
+                        </app> seront négligées et que les œillets auront prévalu. Cet homme
+                        raisonnable, qui a une âme, qui a un culte et une religion, revient chez soi
+                        fatigué, affamé, mais fort content de sa journée : il a vu des <app>
+                            <rdg> tulippes</rdg>
+                        </app>. </p>
                     <p> Parlez à cet autre de la richesse des moissons, d’une ample récolte, d’une
                         bonne vendange : il est curieux de fruits ; vous n’articulez pas, vous ne
                         vous faites pas entendre. Parlez-lui de figues et de melons, dites que les
@@ -309,27 +342,38 @@
                         traits et la contenance d’un homme qui seul entre les mortels possède une
                         telle prune ! </p>
                     <p>Un troisième que vous allez voir vous parle des curieux ses confrères, et
-                        surtout de Diognète. "Je l’admire, dit-il, et je le comprends moins que
-                        jamais. Pensez-vous qu’il cherche à s’instruire par des médailles, et qu’il
-                        les regarde comme des preuves parlantes de certains faits, et des monuments
+                        surtout de <app>
+                            <rdg rend="italic">Diognete</rdg>
+                        </app>. "Je l’admire, dit-il, et je le comprends moins que jamais.
+                        Pensez-vous qu’il cherche à s’instruire par des médailles, et qu’il les
+                        regarde comme des preuves parlantes de certains faits, et des monuments
                         fixes et indubitables de l’ancienne histoire ? rien moins. Vous croyez
-                        peut-être que toute la peine qu’il se donne pour recouvrer une tête vient du
-                        plaisir qu’il se fait de ne voir pas une suite d’empereurs interrompue ?
-                        c’est encore moins. Diognète sait d’une médaille le fruste, le flou, et la
-                        fleur de coin ; il a une tablette dont toutes les places sont garnies à
-                        l’exception d’une seule : ce vide lui blesse la vue, et c’est précisément et
-                        à la lettre pour le remplir qu’il emploie son bien et sa vie. </p>
-                    <p> « Vous voulez, ajoute Démocède, voir mes estampes ? » et bientôt il les
-                        étale et vous les montre. Vous en rencontrez une qui n’est ni noire, ni
-                        nette, ni dessinée, et d’ailleurs moins propre à être gardée dans un cabinet
-                        qu’à tapisser, un jour de fête, le Petit-Pont ou la rue Neuve : il convient
-                        qu’elle est mal gravée, plus mal dessinée ; mais il assure qu’elle est d’un
-                        Italien qui a travaillé peu, qu’elle n’a presque pas été tirée, que c’est la
-                        seule qui soit en France de ce dessin, qu’il l’a achetée très cher, et qu’il
-                        ne la changerait pas pour ce qu’il a de meilleur. « J’ai, continue-t-il, une
-                        sensible affliction, et qui m’obligera de renoncer aux estampes pour le
-                        reste de mes jours : j’ai tout Callot, hormis une seule, qui n’est pas, à la
-                        vérité, de ses bons ouvrages ; au contraire c’est un des moindres, mais qui
+                        peut-être que toute la peine qu’il se donne pour recouvrer une <app>
+                            <rdg rend="italic">tête</rdg>
+                        </app>vient du plaisir qu’il se fait de ne voir pas une suite d’<app>
+                            <rdg>Empeureurs</rdg>
+                        </app> interrompue ? c’est encore moins. Diognète sait d’une médaille le <app>
+                            <rdg rend="italic">fruste</rdg>
+                        </app>, le <app>
+                            <rdg rend="italic">flou</rdg>
+                        </app>, et la <app>
+                            <rdg rend="italic">fleur de coin</rdg>
+                        </app> ; il a une tablette dont toutes les places sont garnies à l’exception
+                        d’une seule : ce vide lui blesse la vue, et c’est précisément et à la lettre
+                        pour le remplir qu’il emploie son bien et sa vie. </p>
+                    <p> « Vous voulez, ajoute <app>
+                            <rdg rend="italic">Domocède</rdg>
+                        </app>, voir mes estampes ? » et bientôt il les étale et vous les montre.
+                        Vous en rencontrez une qui n’est ni noire, ni nette, ni dessinée, et
+                        d’ailleurs moins propre à être gardée dans un cabinet qu’à tapisser, un jour
+                        de fête, le Petit-Pont ou la rue Neuve : il convient qu’elle est mal gravée,
+                        plus mal dessinée ; mais il assure qu’elle est d’un Italien qui a travaillé
+                        peu, qu’elle n’a presque pas été tirée, que c’est la seule qui soit en
+                        France de ce dessin, qu’il l’a achetée très cher, et qu’il ne la changerait
+                        pas pour ce qu’il a de meilleur. « J’ai, continue-t-il, une sensible
+                        affliction, et qui m’obligera de renoncer aux estampes pour le reste de mes
+                        jours : j’ai tout Callot, hormis une seule, qui n’est pas, à la vérité, de
+                        ses bons ouvrages ; au contraire c’est un des moindres, mais qui
                         m’achèverait Callot : je travaille depuis vingt ans à recouvrer cette
                         estampe, et je désespère enfin d’y réussir ; cela est bien rude ! » </p>
                     <p> Tel autre fait la satire de ces gens qui s’engagent par inquiétude ou par
@@ -430,28 +474,34 @@
                         et de la gloire à une action folle et extravagante ; il a été approuvé par
                         la présence des <app>
                             <rdg> Rois </rdg>
-                        </app> ; il y a eu quelquefois une espèce de <app><rdg source="#Paris_1689_Quatrieme #Paris_1690_Cinquieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme"> Religion </rdg></app> religion à le pratiquer ;
-                        il a décidé de l’innocence des hommes, des accusations fausses ou véritables
-                        sur des crimes capitaux ; il s’était enfin si profondément enraciné dans
-                        l’opinion de peuples ; et s’était si fort saisi de leur cœur et de leur
-                        esprit ; qu’un des plus beaux endroits de la vie d’un très grand <app> <rdg> Roi </rdg></app> a été
-                        de les guérir de cette folie. </p>
+                        </app> ; il y a eu quelquefois une espèce de <app>
+                            <rdg
+                                source="#Paris_1689_Quatrieme #Paris_1690_Cinquieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme"
+                                > Religion </rdg>
+                        </app> religion à le pratiquer ; il a décidé de l’innocence des hommes, des
+                        accusations fausses ou véritables sur des crimes capitaux ; il s’était enfin
+                        si profondément enraciné dans l’opinion de peuples ; et s’était si fort
+                        saisi de leur cœur et de leur esprit ; qu’un des plus beaux endroits de la
+                        vie d’un très grand <app>
+                            <rdg> Roi </rdg>
+                        </app> a été de les guérir de cette folie. </p>
                 </div2>
                 <div2 n="4"
                     source="#Paris_1688_Premiere #Paris_1688_Troisieme #Paris_1689_Quatrieme #Paris_1690_Cinquieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
                     <p>
                         <g ref="pieddemouche"/>Tel a été à la mode, ou pour le commandement des
-                        armées et la négociation ou pour l’éloquence de la <app> <rdg> Chaire </rdg></app>, ou pour les vers,
-                        qui n’y est plus. Y a-t-il des hommes qui dégénèrent de ce qu’ils furent
-                        autrefois ? Est-ce leur mérite qui est usé, ou le goût que l’on avait pour
-                        eux ? </p>
+                        armées et la négociation ou pour l’éloquence de la <app>
+                            <rdg> Chaire </rdg>
+                        </app>, ou pour les vers, qui n’y est plus. Y a-t-il des hommes qui
+                        dégénèrent de ce qu’ils furent autrefois ? Est-ce leur mérite qui est usé,
+                        ou le goût que l’on avait pour eux ? </p>
                 </div2>
                 <div2 n="5"
                     source="#Paris_1689_Quatrieme #Paris_1690_Cinquieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
                     <p>
-                        <g>
+                        <g
                             source="#Paris_1689_Quatrieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme"
-                            ref="pieddemouche"</g>
+                            > ref="pieddemouche"</g>
                         <g source="#Paris_1690_Cinquieme" ref="#p-pieddemouche"/> Un homme à la mode
                         dure peu, car les modes passent : s’il est par hasard homme de mérite, il
                         n’est pas anéanti, et il subsiste encore par quelque endroit : également
