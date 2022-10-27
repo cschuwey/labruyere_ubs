@@ -747,106 +747,346 @@
                         </app></p>
                 </div2>
                 <div2 n="56" source="#Paris_1696_9">
-                    <p><g ref="#pied_de_mouche"/>Tout écrivain, pour écrire nettement, doit se
-                        mettre à la place de ses lecteurs, examiner son propre ouvrage comme quelque
-                        chose qui lui est nouveau, qu’il lit pour la première fois, où il n’a nulle
-                        part, et que l’auteur aurait soumis à sa critique ; et se persuader ensuite
-                        qu’on n’est pas entendu seulement à cause que l’on s’entend soi-même, mais
-                        parce qu’on est en effet intelligible.</p>
+                    <p><g ref="#pied_de_mouche"/>Tout <app>
+                            <rdg>écrivain</rdg>
+                            <rdg wit="#Paris_1696_9">Ecrivain</rdg>
+                        </app>, pour écrire nettement, doit se mettre à la place de ses <app>
+                            <rdg>lecteurs</rdg>
+                            <rdg wit="#Paris_1696_9">Lecteurs</rdg>
+                        </app>, examiner son propre ouvrage comme quelque chose qui <app>
+                            <rdg>lui</rdg>
+                            <rdg wit="#Paris_1696_9">luy</rdg>
+                        </app> est nouveau, qu’il lit pour la <app>
+                            <rdg>première</rdg>
+                            <rdg wit="#Paris_1696_9">premiere</rdg>
+                        </app> fois, où il n’a nulle part, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> que <app>
+                            <rdg>l’auteur aurait</rdg>
+                            <rdg wit="#Paris_1696_9">l'Auteur auroit</rdg>
+                        </app> soumis à sa critique ; <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> se persuader ensuite qu’on n’est pas entendu seulement à cause que
+                        l’on s’entend <app>
+                            <rdg>soi-même</rdg>
+                            <rdg wit="#Paris_1696_9">soy-même</rdg>
+                        </app>, mais parce qu’on est en effet intelligible.</p>
                 </div2>
                 <div2 n="57" source="#Paris_1696_9 #Paris_1689_4">
                     <p><g ref="#pied_de_mouche"/>L’on n’écrit que pour être entendu ; mais il faut
-                        du moins en écrivant faire entendre de belles choses. L’on doit avoir une
-                        diction pure, et user de termes qui soient propres, il est vrai ; mais il
-                        faut que ces termes si propres expriment des pensées nobles, vives, solides,
-                        et qui renferment un très beau sens. C’est faire de la pureté et de la
-                        clarté du discours un mauvais usage que de les faire servir à une matière
-                        aride, infructueuse, qui est sans sel, sans utilité, sans nouveauté. Que
-                        sert aux lecteurs de comprendre aisément et sans peine des choses frivoles
-                        et puériles, quelquefois fades et communes, et d’être moins incertains de la
-                        pensée d’un auteur qu’ennuyés de son ouvrage ? Si l’on jette quelque
-                        profondeur dans certains écrits, si l’on affecte une finesse de tour, et
-                        quelquefois une trop grande délicatesse, ce n’est que par la bonne opinion
-                        qu’on a de ses lecteurs.</p>
+                        du moins en écrivant faire entendre de belles choses<app>
+                            <rdg>. L'on</rdg>
+                            <rdg wit="#Paris_1696_9"> : l'on</rdg>
+                        </app> doit avoir une diction pure, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> user de termes qui soient propres, il est vrai ; mais il faut que ces
+                        termes si propres expriment des pensées nobles, vives, solides, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> qui renferment un <app>
+                            <rdg>très beau</rdg>
+                            <rdg wit="#Paris_1696_9">tres-beau</rdg>
+                        </app> sens<app>
+                            <rdg>. C'est</rdg>
+                            <rdg wit="#Paris_1696_9">, c'est</rdg>
+                        </app> faire de la pureté <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> de la clarté du discours un mauvais usage que de les faire servir à
+                        une <app>
+                            <rdg>matière</rdg>
+                            <rdg wit="#Paris_1696_9">matiere</rdg>
+                        </app> aride, infructueuse, qui est sans sel, sans utilité, sans nouveauté<app>
+                            <rdg>. Que</rdg>
+                            <rdg wit="#Paris_1696_9"> : que</rdg>
+                        </app> sert aux <app>
+                            <rdg>lecteurs</rdg>
+                            <rdg wit="#Paris_1696_9">Lecteurs</rdg>
+                        </app> de comprendre aisément <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> sans peine des choses frivoles <app>
+                            <rdg>et puériles</rdg>
+                            <rdg wit="#Paris_1696_9">&amp; pueriles</rdg>
+                        </app>, quelquefois fades et communes, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> d’être moins incertains de la pensée d’un <app>
+                            <rdg>auteur qu'ennuyés</rdg>
+                            <rdg wit="#Paris_1696_9">Auteur qu'ennuyez</rdg>
+                        </app> de son ouvrage<app>
+                            <rdg> ?</rdg>
+                            <rdg wit="#Paris_1696_9">.</rdg>
+                        </app> Si l’on jette quelque profondeur dans certains écrits, si l’on
+                        affecte une finesse de tour, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> quelquefois une trop grande délicatesse, ce n’est que par la bonne
+                        opinion qu’on a de ses <app>
+                            <rdg>lecteurs</rdg>
+                            <rdg wit="#Paris_1696_9">Lecteurs</rdg>
+                        </app>.</p>
                 </div2>
                 <div2 n="58" source="#Paris_1696_9">
                     <p><g ref="#pied_de_mouche"/>L’on a cette incommodité à essuyer dans la lecture
-                        des livres faits par des gens de parti et de cabale, que l’on n’y voit pas
-                        toujours la vérité. Les faits y sont déguisés, les raisons réciproques n’y
-                        sont point rapportées dans toute leur force, ni avec une entière exactitude
-                        ; et, ce qui use la plus longue patience, il faut lire un grand nombre de
-                        termes durs et injurieux que se disent des hommes graves, qui d’un point de
-                        doctrine ou d’un fait contesté se font une querelle personnelle. Ces
-                        ouvrages ont cela de particulier qu’ils ne méritent ni le cours prodigieux
-                        qu’ils ont pendant un certain temps, ni le profond oubli où ils tombent
-                        lorsque, le feu et la division venant à s’éteindre, ils deviennent des
-                        almanachs de l’autre année.</p>
+                        des livres faits par des gens de parti <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> de cabale, que l’on n’y voit pas <app>
+                            <rdg>toujours</rdg>
+                            <rdg wit="#Paris_1696_9">toûjours</rdg>
+                        </app>/> la <app>
+                            <rdg>vérité. Les</rdg>
+                            <rdg wit="#Paris_1696_9">verité : les</rdg>
+                        </app> faits y sont <app>
+                            <rdg>déguisés</rdg>
+                            <rdg wit="#Paris_1696_9">déguisez</rdg>
+                        </app>, les raisons <app>
+                            <rdg>réciproques</rdg>
+                            <rdg wit="#Paris_1696_9">reciproques</rdg>
+                        </app> n’y sont point rapportées dans toute leur force, <app>
+                            <rdg>ni</rdg>
+                            <rdg wit="#Paris_1696_9">ny</rdg>
+                        </app> avec une <app>
+                            <rdg>entière</rdg>
+                            <rdg wit="#Paris_1696_9">entiere</rdg>
+                        </app> exactitude ; <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app>, ce qui use la plus longue patience, il faut lire un grand nombre de
+                        termes durs <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> injurieux que se disent des hommes graves, qui d’un point de doctrine<app>
+                            <rdg> </rdg>
+                            <rdg wit="#Paris_1696_9">, </rdg>
+                        </app>ou d’un fait contesté se font une querelle personnelle. Ces ouvrages
+                        ont cela de particulier qu’ils ne <app>
+                            <rdg>méritent ni</rdg>
+                            <rdg wit="#Paris_1696_9">meritent ny</rdg>
+                        </app> le cours prodigieux qu’ils ont pendant un certain <app>
+                            <rdg>temps, ni</rdg>
+                            <rdg wit="#Paris_1696_9">tems, ny</rdg>
+                        </app> le profond oubli où ils tombent<app>
+                            <rdg> lorsque,</rdg>
+                            <rdg wit="#Paris_1696_9">, lorsque</rdg>
+                        </app> le feu <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> la division venant à s’éteindre, ils deviennent des <app>
+                            <rdg>almanachs</rdg>
+                            <rdg wit="#Paris_1696_9">Almanachs</rdg>
+                        </app> de l’autre année.</p>
                 </div2>
                 <div2 n="59" source="#Paris_1696_9">
-                    <p><g ref="#pied_de_mouche"/>La gloire ou le mérite de certains hommes est de
-                        bien écrire ; et de quelques autres, c’est de n’écrire point.</p>
+                    <p><g ref="#pied_de_mouche"/>La gloire ou le <app>
+                            <rdg>mérite</rdg>
+                            <rdg wit="#Paris_1696_9">merite</rdg>
+                        </app> de certains hommes est de bien écrire ; <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> de quelques autres, c’est de n’écrire point.</p>
                 </div2>
                 <div2 n="60" source="#Paris_1696_9 #Paris_1689_4">
-                    <p><g ref="#pied_de_mouche"/>L’on écrit régulièrement depuis vingt années ; l’on
-                        est esclave de la construction ; l’on a enrichi la langue de nouveaux mots,
-                        secoué le joug du latinisme, et réduit le style à la phrase purement
-                        française ; l’on a presque retrouvé le nombre que Malherbe et Balzac avaient
-                        les premiers rencontré, et que tant d’auteurs depuis eux ont laissé perdre ;
-                        l’on a mis enfin dans le discours tout l’ordre et toute la netteté dont il
-                        est capable : cela conduit insensiblement à y mettre de l’esprit.</p>
+                    <p><g ref="#pied_de_mouche"/>L’on écrit <app>
+                            <rdg>régulièrement</rdg>
+                            <rdg wit="#Paris_1696_9">regulierement</rdg>
+                        </app> depuis vingt années ; l’on est esclave de la construction ; l’on a
+                        enrichi la langue de nouveaux mots, <app>
+                            <rdg>secoué</rdg>
+                            <rdg wit="#Paris_1696_9">secoüé</rdg>
+                        </app> le joug du <app>
+                            <rdg>latinisme, et réduit</rdg>
+                            <rdg wit="#Paris_1696_9">Latinisme, &amp; reduit</rdg>
+                        </app> le style à la phrase purement <app>
+                            <rdg>française</rdg>
+                            <rdg wit="#Paris_1696_9">Françoise</rdg>
+                        </app> ; l’on a presque retrouvé le nombre que <app>
+                            <rdg>Malherbe et Balzac avaient</rdg>
+                            <rdg wit="#Paris_1696_9">MALHERBE &amp; BALZAC avoient</rdg>
+                        </app> les premiers rencontré, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> que tant <app>
+                            <rdg>d'auteurs</rdg>
+                            <rdg wit="#Paris_1696_9">d'Auteurs</rdg>
+                        </app> depuis eux ont laissé perdre ; l’on a mis enfin dans le discours tout
+                        l’ordre <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> toute la netteté dont il est capable : cela conduit insensiblement à
+                        y mettre de l’esprit.</p>
                 </div2>
                 <div2 n="61" source="#Paris_1696_9 #Paris_1689_4">
                     <p><g ref="#pied_de_mouche"/>Il y a des artisans ou des habiles dont l’esprit
-                        est aussi vaste que l’art et la science qu’ils professent ; ils lui rendent
-                        avec avantage, par le génie et par l’invention, ce qu’ils tiennent d’elle et
-                        de ses principes ; ils sortent de l’art pour l’ennoblir, s’écartent des
-                        règles si elles ne les conduisent pas au grand et au sublime ; ils marchent
-                        seuls et sans compagnie, mais ils vont fort haut et pénètrent fort loin,
-                        toujours sûrs et confirmés par le succès des avantages que l’on tire
-                        quelquefois de l’irrégularité. Les esprits justes, doux, modérés, non
-                        seulement ne les atteignent pas, ne les admirent pas, mais ils ne les
-                        comprennent point, et voudraient encore moins les imiter ; ils demeurent
-                        tranquilles dans l’étendue de leur sphère, vont jusques à un certain point
-                        qui fait les bornes de leur capacité et de leurs lumières ; ils ne vont pas
-                        plus loin, parce qu’ils ne voient rien au delà ; ils ne peuvent au plus
-                        qu’être les premiers d’une seconde classe, et exceller dans le médiocre.</p>
+                        est aussi vaste que l’art <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> la science qu’ils professent ; ils lui rendent avec avantage, par le <app>
+                            <rdg>génie et</rdg>
+                            <rdg wit="#Paris_1696_9">genie &amp;</rdg>
+                        </app> par l’invention, ce qu’ils tiennent d’elle <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> de ses principes ; ils sortent de l’art pour l’ennoblir, s’écartent
+                        des <app>
+                            <rdg>règles</rdg>
+                            <rdg wit="#Paris_1696_9">regles</rdg>
+                        </app> si elles ne les conduisent pas au grand <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> au sublime ; ils marchent seuls <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> sans compagnie, mais ils vont fort haut et <app>
+                            <rdg>pénètrent</rdg>
+                            <rdg wit="#Paris_1696_9">pénetrent</rdg>
+                        </app> fort loin, toujours sûrs <app>
+                            <rdg>toujours sûrs et confirmés</rdg>
+                            <rdg wit="#Paris_1696_9">toûjours seurs &amp; confirmez</rdg>
+                        </app> par le <app>
+                            <rdg>succès</rdg>
+                            <rdg wit="#Paris_1696_9">succés</rdg>
+                        </app> des avantages que l’on tire quelquefois de <app>
+                            <rdg>l'irrégularité</rdg>
+                            <rdg wit="#Paris_1696_9">l'irregularité</rdg>
+                        </app>. Les esprits justes, doux, <app>
+                            <rdg>modérés</rdg>
+                            <rdg wit="#Paris_1696_9">moderez</rdg>
+                        </app>, non seulement ne les atteignent pas, ne les admirent pas, mais ils
+                        ne les comprennent point, <app>
+                            <rdg>et voudraient</rdg>
+                            <rdg wit="#Paris_1696_9">&amp; voudroient</rdg>
+                        </app> encore moins les imiter ; ils demeurent tranquilles dans l’étendue de
+                        leur sphère, vont jusques à un certain point qui fait les bornes de leur
+                        capacité <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> de leurs <app>
+                            <rdg>lumières</rdg>
+                            <rdg wit="#Paris_1696_9">lumieres</rdg>
+                        </app> ; ils ne vont pas<app>
+                            <rdg> plus </rdg>
+                            <rdg wit="#Paris_1696_9"> </rdg>
+                        </app>loin, parce qu’ils ne voient rien au delà ; ils ne peuvent au plus
+                        qu’être les premiers d’une seconde classe, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> exceller dans le médiocre.</p>
                 </div2>
                 <div2 n="62" source="#Paris_1696_9">
                     <p><g ref="#pied_de_mouche"/>Il y a des esprits, si je l’ose dire, inférieurs et
                         subalternes, qui ne semblent faits que pour être le recueil, le registre, ou
-                        le magasin de toutes les productions des autres génies : ils sont
-                        plagiaires, traducteurs, compilateurs ; ils ne pensent point, ils disent ce
-                        que les auteurs ont pensé ; et comme le choix des pensées est invention, ils
-                        l’ont mauvais, peu juste, et qui les détermine plutôt à rapporter beaucoup
-                        de choses, que d’excellentes choses ; ils n’ont rien d’original et qui soit
-                        à eux ; ils ne savent que ce qu’ils ont appris, et ils n’apprennent que ce
-                        que tout le monde veut bien ignorer, une science aride, dénuée d’agrément et
-                        d’utilité, qui ne tombe point dans la conversation, qui est hors de
-                        commerce, semblable à une monnaie qui n’a point de cours : on est tout à la
-                        fois étonné de leur lecture et ennuyé de leur entretien ou de leurs
-                        ouvrages. Ce sont ceux que les grands et le vulgaire confondent avec les
-                        savants, et que les sages renvoient au pédantisme.</p>
+                        le magasin de toutes les productions des autres <app>
+                            <rdg>génies</rdg>
+                            <rdg wit="#Paris_1696_9">genies</rdg>
+                        </app> : ils sont plagiaires, traducteurs, compilateurs ; ils ne pensent
+                        point, ils disent ce que les <app>
+                            <rdg>auteurs</rdg>
+                            <rdg wit="#Paris_1696_9">Auteurs</rdg>
+                        </app> ont pensé ; <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> comme le choix des pensées est invention, ils l’ont mauvais, peu
+                        juste, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> qui les détermine <app>
+                            <rdg>plutôt</rdg>
+                            <rdg wit="#Paris_1696_9">plûtôt</rdg>
+                        </app> à rapporter beaucoup de choses, que d’excellentes choses ; ils n’ont
+                        rien d’original <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> qui soit à eux ; ils ne savent que ce qu’ils ont appris, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> ils n’apprennent que ce que tout le monde veut bien ignorer, une
+                        science <app>
+                            <rdg>aride</rdg>
+                            <rdg wit="#Paris_1696_9">vaine, aride</rdg>
+                        </app>, dénuée d’agrément <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> d’utilité, qui ne tombe point dans la conversation, qui est hors de
+                        commerce, semblable à une <app>
+                            <rdg>monnaie</rdg>
+                            <rdg wit="#Paris_1696_9">monnoye</rdg>
+                        </app> qui n’a point de cours : on est tout à la fois étonné de leur lecture <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> ennuyé de leur entretien ou de leurs ouvrages. Ce sont ceux que les <app>
+                            <rdg>grands et</rdg>
+                            <rdg wit="#Paris_1696_9">Grands &amp;</rdg>
+                        </app> le vulgaire confondent avec les <app>
+                            <rdg>savants, et</rdg>
+                            <rdg wit="#Paris_1696_9">savans, &amp;</rdg>
+                        </app> que les sages renvoient au <app>
+                            <rdg>pédantisme</rdg>
+                            <rdg wit="#Paris_1696_9">pedantisme</rdg>
+                        </app>.</p>
                 </div2>
                 <div2 n="63" source="#Paris_1696_9">
                     <p><g ref="#pied_de_mouche"/>La critique souvent n’est pas une science ; c’est
                         un métier, où il faut plus de santé que d’esprit, plus de travail que de
-                        capacité, plus d’habitude que de génie. Si elle vient d’un homme qui ait
-                        moins de discernement que de lecture, et qu’elle s’exerce sur de certains
-                        chapitres, elle corrompt et les lecteurs et l’écrivain.</p>
+                        capacité, plus d’habitude que de <app>
+                            <rdg>génie. Si</rdg>
+                            <rdg wit="#Paris_1696_9">genie, si</rdg>
+                        </app> elle vient d’un homme qui ait moins de discernement que de lecture, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> qu’elle s’exerce sur de certains chapitres, elle corrompt <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> les <app>
+                            <rdg>lecteurs et l'écrivain</rdg>
+                            <rdg wit="#Paris_1696_9">Lecteurs &amp; l'Ecrivain</rdg>
+                        </app>.</p>
                 </div2>
                 <div2 n="64" source="#Paris_1696_9">
-                    <p><g ref="#pied_de_mouche"/>Je conseille à un auteur né copiste, et qui a
-                        l’extrême modestie de travailler d’après quelqu’un, de ne se choisir pour
-                        exemplaires que ces sortes d’ouvrages où il entre de l’esprit, de
-                        l’imagination, ou même de l’érudition : s’il n’atteint pas ses originaux, du
-                        moins il en approche, et il se fait lire. Il doit au contraire éviter comme
-                        un écueil de vouloir imiter ceux qui écrivent par humeur, que le cœur fait
-                        parler, à qui il inspire les termes et les figures, et qui tirent, pour
-                        ainsi dire, de leurs entrailles tout ce qu’ils expriment sur le papier :
-                        dangereux modèles et tout propres à faire tomber dans le froid, dans le bas
-                        et dans le ridicule ceux qui s’ingèrent de les suivre. En effet, je rirais
-                        d’un homme qui voudrait sérieusement parler mon ton de voix, ou me
-                        ressembler de visage.</p>
+                    <p><g ref="#pied_de_mouche"/>Je conseille à un <app>
+                            <rdg>auteur</rdg>
+                            <rdg wit="#Paris_1696_9">Auteur</rdg>
+                        </app> né copiste, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> qui a l’extrême modestie de travailler d’après quelqu’un, de ne se
+                        choisir pour exemplaires que ces sortes d’ouvrages où il entre de l’esprit,
+                        de l’imagination, ou même de l’érudition : s’il n’atteint pas ses originaux,
+                        du moins il en approche, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> il se fait lire. Il doit au contraire éviter comme un écueil de
+                        vouloir imiter ceux qui écrivent par humeur, que le cœur fait parler, à qui
+                        il inspire les termes <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> les figures, <app>
+                            <rdg>et</rdg>
+                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                        </app> qui tirent, pour ainsi dire, de leurs entrailles tout ce qu’ils
+                        expriment sur le papier : dangereux <app>
+                            <rdg>modèles et</rdg>
+                            <rdg wit="#Paris_1696_9">modeles &amp;</rdg>
+                        </app> tout propres à faire tomber dans le <app>
+                            <rdg>froid, dans le bas et dans le ridicule</rdg>
+                            <rdg wit="#Paris_1696_9">ridicule</rdg>
+                        </app> ceux qui <app>
+                            <rdg>s'ingèrent</rdg>
+                            <rdg wit="#Paris_1696_9">s'ingerent</rdg>
+                        </app> de les suivre<app>
+                            <rdg>. En</rdg>
+                            <rdg> : en</rdg>
+                        </app> effet, je <app>
+                            <rdg>rirais</rdg>
+                            <rdg wit="#Paris_1696_9">rirois</rdg>
+                        </app> d’un homme qui <app>
+                            <rdg>voudrait sérieusement</rdg>
+                            <rdg wit="#Paris_1696_9">voudroit serieusement</rdg>
+                        </app> parler mon ton de voix, ou me ressembler de visage.</p>
                 </div2>
                 <div2 n="65" source="#Paris_1696_9 #Paris_1689_4 #Paris_1688_1">
                     <p><g ref="#pied_de_mouche"/>Un homme né <app>
