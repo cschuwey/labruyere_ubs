@@ -167,7 +167,10 @@
                 <date>22.10.2022</date>
                 <p>Création de app pour marquer les variables du n°14 au n°20</p>
                 <p>Recherche et essais de création d'une balise pour marquer un ajout manuscrit au milieu du texte de édition 4 dans n°14</p>
-                
+                <date>27.10.2022</date>
+                <p>Mise à jour des balises pour marquer les asterisks et les remarques manuscrites</p>
+                <p>Encodage des noms propres en majuscule</p>
+                <p>Encodage d'une citation en 19 paragraphe 1</p>
                 
                 <p>Choses à encoder : la version numérique du texte avec les éditions 4 et 6 (ou 6 et 8) et voir si on peut faire une sourceDesc pour le texte numérique, les noms en majuscules, les phrases en italique, les c bizarre devant les t dans certains mots, les décos au début du chapitre les jugemens</p>
             </change>
@@ -279,7 +282,7 @@
                         (8)
                         Je ne sais s’il y a rien au monde qui coûte davantage à approuver et à louer que ce qui est plus digne d’approbation et de louange, et si la vertu, le mérite, la beauté, les bonnes actions, les beaux ouvrages, ont un effet plus naturel et plus sûr que envie, la jalousie, et l’antipathie. Ce n’est pas d’un saint dont un dévot * sait dire du bien, mais d’un autre dévot. Si une belle femme approuve la beauté d’une autre femme, on peut conclure qu’elle a mieux que ce qu’elle approuve. Si un poète loue les vers d’un autre poète, il y a à parier qu’ils sont mauvais et sans conséquence.
                         <add>
-                            <place type="margin-right">* Faux devot.</place
+                            <note place="margin-right">* Faux devot.</note>
                         </add>
                     </p>
                 </div2>
@@ -310,9 +313,8 @@
                         </app>
                         <add>
                             <place source="#PARIS_1689_4_1"></place>
-                            <place type="bottom-margin">N *</place>
+                            <note place="bottom-margin">N *</note>
                         </add>
-                        
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1694_8_1">
@@ -367,9 +369,12 @@
                             <rdg wit="#PARIS_1691_6_1">SOCRATE.</rdg>
                             <rdg wit="#PARIS_1694_8_1">SOCRATE ?</rdg>
                         </app>
+                        <persName style="uppercase word">VARRON</persName>
+                        <persName style="uppercase word">PLATON</persName>
+                        <persName style="uppercase word">SOCRATE</persName>
                         <add>
                             <place source="#PARIS_1694_8_1"></place>
-                            <place type="margin-right">Note manuscrite illisible</place>
+                            <note place="margin-right" type="note">Note manuscrite illisible</note>
                             <hand type="handwritten-note">Jean de La Bruyère</hand>
                         </add>
                     </p>
@@ -412,7 +417,7 @@
                         </app>
                         <add>
                             <place source="#PARIS_1694_8_1"></place>
-                            <place type="margin-right margin-left">Note manuscrite illisible</place>
+                            <note place="margin-right margin-left" type="note">Note manuscrite illisible</note>
                             <hand type="handwritten-note">Jean de La Bruyère</hand>
                         </add>
                     </p>
@@ -435,7 +440,7 @@
                             <supplied>ou</supplied>
                             <hand type="handwritten-note">Jean de La Bruyère</hand>
                             <place source="#PARIS_1694_8_1"></place>
-                            <place type="margin-left">Note manuscrite illisible</place>
+                            <note place="margin-right" type="note">Note manuscrite illisible</note>
                             <hand type="handwritten-note">Jean de La Bruyère</hand>
                         </add>
                     </p>
@@ -462,7 +467,7 @@
                         </app>
                         <add>
                             <place source="#PARIS_1694_8_1"></place>
-                            <place type="margin-left">Note manuscrite illisible</place>
+                            <note place="margin-right" type="note">Note manuscrite illisible</note>
                             <hand type="handwritten-note">Jean de La Bruyère</hand>
                         </add>
                     </p>
@@ -480,6 +485,7 @@
                             <rdg wit="#PARIS_1691_6_1">Chez plufieurs, fçavant</rdg>
                             <rdg wit="#PARIS_1689_4_1">Chez plufieurs fçavant</rdg>
                         </app>
+                        <persName style="uppercase word">CORNEILLE</persName>
                     </p>
                     <p>
                         Souvent où le riche parle, et parle de doctrine, c’est aux doctes à se taire, à écouter, à applaudir, s’ils veulent du moins ne passer que pour doctes.
@@ -510,8 +516,25 @@
                             <rdg wit="#PARIS_1691_6_1">à eftre</rdg>
                             <rdg wit="#PARIS_1689_4_1">à être</rdg>
                         </app>
+                        <persName style="uppercase word">ESTRE'ES</persName>
+                        <persName style="uppercase word">HARLAY</persName>
+                        <persName style="uppercase word">BOSSUET</persName>
+                        <persName style="uppercase word">SEGUIER</persName>
+                        <persName style="uppercase word">MONTAUSIER</persName>
+                        <persName style="uppercase word">VVARDES</persName>
+                        <persName style="uppercase word">CHEVREUSE</persName>
+                        <persName style="uppercase word">NOVION</persName>
+                        <persName style="uppercase word">LA MOIGNON</persName>
+                        <persName style="uppercase word">SCUDERY</persName>
+                        <persName style="uppercase word">PELISSON</persName>
+                        <persName style="uppercase word">CHARTRES</persName>
+                        <persName style="uppercase word">CONDE'</persName>
+                        <persName style="uppercase word">CONTI</persName>
+                        <persName style="uppercase word">BOURBON</persName>
+                        <persName style="uppercase word">MAINE</persName>
+                        <persName style="uppercase word">VENDOME</persName>
                         <add>
-                            <place type="margin-right">* Mlle Scudery</place
+                            <note place="margin-right">* Mlle Scudery</note>
                         </add>
                     </p>
                     <p>
@@ -529,9 +552,18 @@
                             <rdg wit="#PARIS_1691_6_1">par cette raifon eftoit</rdg>
                             <rdg wit="#PARIS_1694_8_1">par cette raison étoit</rdg>
                         </app>
+                        <persName style="uppercase word">OSSAT</persName>
+                        <persName style="uppercase word">XIMENES</persName>
+                        <persName style="uppercase word">RICHELIEU</persName>
+                        <persName style="uppercase word">BIGNONS</persName>
+                        <persName style="uppercase word">LAMOIGNONS</persName>
+                        <persName style="uppercase word">ANTONIN</persName>
+                        <cit style="italic">alors les peuples feroient heureux, fi l'Empereur philosophoit, ou fi le Philofophe, ou le grimaud venoit à l'Empire.</cit>
                     </p>
                     <p>
                         Les langues sont la clef ou l’entrée des sciences, et rien davantage ; le mépris des unes tombe sur les autres. Il ne s’agit point si les langues sont anciennes ou nouvelles, mortes ou vivantes, mais si elles sont grossières ou polies, si les livres qu’elles ont formés sont d’un bon ou d’un mauvais goût. Supposons que notre langue pût un jour avoir le sort de la grecque et de la latine, serait-on pédant, quelques siècles après qu’on ne la parlerait plus, pour lire Molière ou La Fontaine ?
+                        <persName style="uppercase word">MOLIERE</persName>
+                        <persName style="uppercase word">LA FONTAINE</persName>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1694_8_1">
