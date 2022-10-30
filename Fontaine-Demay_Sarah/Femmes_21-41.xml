@@ -32,16 +32,6 @@
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k34139263/f11.item.zoom</pubPlace>
                         </imprint>
                     </monogr>
-                    <monogr xml:id="Paris_1694_ed8">
-                        <author ref="https://data.bnf.fr/11910249/">Jean de La Bruyère</author>
-                        <author ref="https://data.bnf.fr/11887698/theophraste/">
-                            Théophraste</author>
-                        <title>Les Caractères de Théophraste traduit du grac avec les caractères ou
-                            les moeurs de ce siècle</title>
-                        <imprint xml:id="Paris_1694_ed8_N1">
-                            <date>1694</date>
-                        </imprint>
-                    </monogr>
                     <monogr xml:id="Paris_1688_ed1">
                         <author ref="https://data.bnf.fr/11910249/">Jean de La Bruyère</author>
                         <author ref="https://data.bnf.fr/11887698/theophraste/">
@@ -56,6 +46,20 @@
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k105077m.r=Th%C3%A9ophraste%20%280372%3F-0287%3F%20av.%20J.-C.%29.%20Auteur%20du%20texte.%20Les%20caract%C3%A8res%20de%20Th%C3%A9ophraste%20%2C%20traduits%20du%20grec%2C%20avec%20Les%20caract%C3%A8res%20ou%20les%20moeurs%20de%20ce%20si%C3%A8cle%20%5BPar%20J.%20de%20La%20Bruy%C3%A8re%5D.%201688.?rk=64378;0</pubPlace>
                         </imprint>
                     </monogr>
+                    <monogr xml:id="Paris_1688_ed3">
+                        <author ref="https://data.bnf.fr/11910249/">Jean de La Bruyère</author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste/">
+                            Théophraste</author>
+                        <title>Les Caractères de Théophraste traduit du grec avec les caractères ou
+                            les moeurs de ce siècle</title>
+                        <edition>Troisième édition</edition>
+                        <imprint xml:id="Paris_1688_ed3_N1">
+                            <date>1688</date>
+                            <publisher>Estienne Michallet, premier imprimeur du Roy, rue S. Jacques,
+                                à l'Image Saint Paul</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57572x</pubPlace>
+                        </imprint>
+                    </monogr>
                     <monogr xml:id="Paris_1689_ed4">
                         <author ref="https://data.bnf.fr/11910249/">Jean de La Bruyère</author>
                         <author ref="https://data.bnf.fr/11887698/theophraste/">
@@ -68,6 +72,76 @@
                             <publisher>Estienne Michallet, premier imprimeur du Roy, rue S. Jacques,
                                 à l'Image Saint Paul</publisher>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575649.r=Les%20caract%C3%A8res%20de%20%20Th%C3%A9ophraste%20traduits%20du%20grec%20%20%3B%20avec%20Les%20caract%C3%A8res%20ou%20Les%20%20moeurs%20de%20ce%20si%C3%A8cle%20%20%28%5BReprod.%5D%29%20%20%5Bpar%20Jean%20%5B...%5D?rk=128756;0</pubPlace>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="Paris_1689_ed5">
+                        <author ref="https://data.bnf.fr/11910249/">Jean de La Bruyère</author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste/">
+                            Théophraste</author>
+                        <title>Les Caractères de Théophraste traduit du grec avec les caractères ou
+                            les moeurs de ce siècle</title>
+                        <edition>Cinquième édition augmentée de plusieurs remarques</edition>
+                        <imprint xml:id="Paris_1689_ed5_N1">
+                            <date>1690</date>
+                            <publisher>Estienne Michallet, premier imprimeur du Roy, rue S. Jacques,
+                                à l'Image Saint Paul</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575660</pubPlace>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="Paris_1691_ed6">
+                        <author ref="https://data.bnf.fr/11910249/">Jean de La Bruyère</author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste/">
+                            Théophraste</author>
+                        <title>Les Caractères de Théophraste traduit du grec avec les caractères ou
+                            les moeurs de ce siècle</title>
+                        <edition>Sixie'me édition</edition>
+                        <imprint xml:id="Paris_1691_ed6_N1">
+                            <date>1691</date>
+                            <publisher>Estienne Michallet, premier imprimeur du Roy, rue S. Jacques,
+                                à l'Image Saint Paul</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k</pubPlace>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="Paris_1692_ed7">
+                        <author ref="https://data.bnf.fr/11910249/">Jean de La Bruyère</author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste/">
+                            Théophraste</author>
+                        <title>Les Caractères de Théophraste traduit du grec avec les caractères ou
+                            les moeurs de ce siècle</title>
+                        <edition>Septième édition, revue et corrigée</edition>
+                        <imprint xml:id="Paris_1692_ed7_N1">
+                            <date>1692</date>
+                            <publisher>Estienne Michallet, premier imprimeur du Roy, rue S. Jacques,
+                                à l'Image Saint Paul</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57575z</pubPlace>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="Paris_1694_ed8">
+                        <author ref="https://data.bnf.fr/11910249/">Jean de La Bruyère</author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste/">
+                            Théophraste</author>
+                        <title>Les Caractères de Théophraste traduit du grac avec les caractères ou
+                            les moeurs de ce siècle</title>
+                        <edition>Huitième édition. Revue, corrigée et augmentée</edition>
+                        <imprint xml:id="Paris_1694_ed8_N1">
+                            <date>1694</date>
+                            <publisher>Estienne Michallet, premier imprimeur du Roy, rue S. Jacques,
+                                à l'Image Saint Paul</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57577n</pubPlace>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="Paris_1696_ed9">
+                        <author ref="https://data.bnf.fr/11910249/">Jean de La Bruyère</author>
+                        <author ref="https://data.bnf.fr/11887698/theophraste/">
+                            Théophraste</author>
+                        <title>Les Caractères de Théophraste traduit du grac avec les caractères ou
+                            les moeurs de ce siècle</title>
+                        <edition>Neuvième édition. Revue, corrigée et augmentée</edition>
+                        <imprint xml:id="Paris_1696_ed9_N1">
+                            <date>1696</date>
+                            <publisher>Estienne Michallet, premier imprimeur du Roy, rue S. Jacques,
+                                à l'Image Saint Paul</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57579b</pubPlace>
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1699_ed10">
@@ -131,8 +205,11 @@
             </settingDesc>
         </profileDesc>
         <revisionDesc>
-            <change><date when="2022-10-16">Ajout de sources et ressencement sources des différentes
-                    remarques</date></change>
+            <change>
+                <date when="2022-10-16">Ajout de sources et ressencement sources des différentes remarques</date>
+                <date when="2022-10-29">Ajout de sources</date>
+                <date when="2022-10-30">Déclaration des sources pour chaque remarques et ajout des app</date>
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -163,91 +240,169 @@
                 <head>
                     <title>Des femmes</title>
                 </head>
-                <div2 n="21" source="#Paris_1694_ed8 #Paris_1688_ed1">
-                    <p><g ref="#Pied_de_mouche_seul"/>Il y a peu de galanteries secrètes. Bien des
-                        femmes ne sont pas mieux désignées par le nom de leurs maris que par celui
-                        de leurs <app>
+                <div2 n="21"
+                    source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul"/>Il y a peu de galanteries secrètes <app>
+                            <lem wit="#Ed_19e_origine">. Bien</lem>
+                            <rdg>: bien</rdg>
+                        </app>des femmes ne sont pas mieux désignées par le nom de leurs maris que
+                        par <app>
+                            <lem wit="#Ed_19e_origine">celui</lem>
+                            <rdg>celuy</rdg>
+                        </app> de leurs <app>
                             <lem wit="#Ed_19e_origine">amants</lem>
                             <rdg>amans</rdg>
                         </app>.</p>
                 </div2>
-                <div2 n="22" source="#Paris_1694_ed8">
-                    <p><g ref="#Pied_de_mouche_seul"/>Une femme galante veut qu’on l’aime ; il
-                        suffit à une coquette d’être trouvée aimable et de passer pour belle.
-                        Celle-là cherche à engager ; celle-ci se contente de plaire. La première
-                        passe successivement d’un engagement à un autre ; la seconde a plusieurs
-                        amusements tout à la fois. Ce qui domine dans l’une, c’est la passion et le
-                        plaisir ; et dans l’autre, c’est la vanité et la légèreté. La galanterie est
-                        un faible du cœur, ou peut-être un vice de la complexion ; la coquetterie
-                        est un dérèglement de l’esprit. La femme galante se fait craindre et la
-                        coquette se fait haïr. L’on peut tirer de ces deux caractères de quoi en
-                        faire un troisième, le pire de tous.</p>
+                <div2 n="22"
+                    source="#Paris_1694_ed8 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul"
+                            source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
+                            /><g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/>Une femme
+                        galante veut qu’on l’aime ; il suffit à une coquette d’être trouvée aimable
+                        et de passer pour belle <app>
+                            <lem wit="#Ed_19e_origine">. Celle-là</lem>
+                            <rdg>: celle-là</rdg>
+                        </app> cherche à engager ; celle-ci se contente de plaire <app>
+                            <lem wit="#Ed_19e_origine">. La</lem>
+                            <rdg>: la</rdg>
+                        </app> première passe successivement d’un engagement à un autre ; la seconde
+                        a plusieurs amusements tout à la fois. Ce qui domine dans l’une, c’est la
+                        passion et le plaisir ; et dans l’autre, c’est la vanité et la légèreté. La
+                        galanterie est un faible du cœur, ou peut-être un vice de la complexion ; la
+                        coquetterie est un dérèglement de l’esprit <app>
+                            <lem wit="#Ed_19e_origine">. La</lem>
+                            <rdg>: la</rdg>
+                        </app> femme galante se fait craindre et la coquette se fait haïr. L’on peut
+                        tirer de ces deux caractères <app>
+                            <lem wit="#Ed_19e_origine">de quoi</lem>
+                            <rdg wit="#Paris_1689_ed5 #Paris_1696_ed9">dequoy</rdg>
+                            <rdg
+                                wit="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10"
+                                >de quoy</rdg>
+                        </app> en faire un troisième, le pire de tous.</p>
                 </div2>
-                <div2 n="23" source="#Paris_1694_ed8">
-                    <p><g ref="#Pied_de_mouche_seul"/>Une femme faible est celle à qui l’on reproche
-                        une faute qui se la reproche à elle-même ; dont le cœur combat la raison ;
-                        qui veut guérir, qui ne guérira point, ou bien tard.</p>
+                <div2 n="23"
+                    source="#Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul"
+                            source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
+                            /><g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/>Une femme
+                        faible est celle à qui l’on reproche une faute, qui se la reproche à
+                        elle-même ; dont le cœur combat la raison ; qui veut guérir, qui ne guérira
+                        point, ou bien tard.</p>
                 </div2>
-                <div2 n="24" source="#Paris_1694_ed8">
-                    <p><g ref="#Pied_de_mouche_seul"/>Une femme inconstante est celle qui n’aime
-                        plus ; une légère, celle qui déjà en aime un autre ; une volage, celle qui
-                        ne sait si elle aime et ce qu’elle aime ; une indifférente, celle qui n’aime
-                        rien.</p>
+                <div2 n="24"
+                    source="#Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul"
+                            source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
+                            /><g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/>Une femme
+                        inconstante est celle qui n’aime plus ; une légère, celle qui déjà en aime
+                        un autre ; une volage, celle qui ne sait si elle aime et ce qu’elle aime ;
+                        une indifférente, celle qui n’aime rien.</p>
                 </div2>
-                <div2 n="25" source="#Paris_1694_ed8">
-                    <p><g ref="#Pied_de_mouche_seul"/>La perfidie, si je l’ose dire, est un mensonge
-                        de toute la personne : c’est dans une femme l’art de placer un mot ou une
-                        action qui donne le change, et quelquefois de mettre en œuvre des serments
-                        et des promesses qui ne lui coûtent pas plus à faire qu’à violer.</p>
+                <div2 n="25"
+                    source="#Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul"
+                            source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
+                            /><g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/> La
+                        perfidie, si je l’ose dire, est un mensonge de toute la personne : c’est
+                        dans une femme l’art de placer un mot ou une action qui donne le change, et
+                        quelquefois de mettre en œuvre des serments et des promesses qui ne lui
+                        coûtent pas plus à faire qu’à violer.</p>
                     <p>Une femme infidèle, si elle est connue pour telle de la personne intéressée,
                         n’est qu’infidèle : s’il la croit fidèle, elle est perfide.</p>
                     <p>On tire ce bien de la perfidie des femmes, qu’elle guérit de la jalousie.</p>
                 </div2>
-                <div2 n="26" source="#Paris_1694_ed8 #Paris_1688_ed1">
-                    <p><g ref="#Pied_de_mouche_seul"/>Quelques femmes ont dans le cours de leur vie
-                        un double engagement à soutenir, également difficile à rompre et à
-                        dissimuler ; il ne manque à l’un que le contrat, et à l’autre que le
-                        cœur.</p>
+                <div2 n="26"
+                    source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul"
+                            source="#Paris_1688_ed1 #Paris_1688_ed3 Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
+                        /> Quelques femmes ont dans le cours de leur vie un double engagement à
+                        soutenir, également difficile à rompre et à dissimuler ; il ne manque à l’un
+                        que le contrat, et à l’autre que le cœur. <app>
+                            <rdg wit="#Paris_1688_ed3">Il arrive quelquefois qu'une femme cache à un
+                                homme toute la passion qu'elle senes pour luy ; cependant que de son
+                                côté il feint pour elle toute celle qu'il ne sent pas</rdg>
+                        </app>
+                    </p>
                 </div2>
-                <div2 n="27" source="#Paris_1694_ed8 #Paris_1688_ed1">
+                <div2 n="27"
+                    source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
                     <p><g ref="#Pied_de_mouche_seul"/>A juger de cette femme par sa beauté, sa
                         jeunesse, sa fierté et ses dédains, il n’y a personne qui doute que ce ne
-                        soit un héros qui doive un jour la charmer. Son choix est fait : c’est un
-                        petit monstre qui manque d’esprit.</p>
+                        soit un <app>
+                            <lem wit="#Ed_19e_origine">héros</lem>
+                            <rdg
+                                wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
+                                >Héros</rdg>
+                        </app> qui doive un jour la charmer. Son choix est fait : c’est un petit
+                        monstre qui manque d’esprit.</p>
                 </div2>
-                <div2 n="28" source="#Paris_1694_ed8 #Paris_1688_ed1">
+                <div2 n="28"
+                    source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9">
                     <p><g ref="#Pied_de_mouche_seul"/>Il y a des femmes déjà flétries, qui par leur
                         complexion ou par leur mauvais caractère sont naturellement la ressource des
                         jeunes gens qui n’ont pas assez de bien. Je ne sais qui est plus à plaindre,
                         ou d’une femme avancée en âge qui a besoin d’un cavalier, ou d’un cavalier
                         qui a besoin d’une vieille.</p>
                 </div2>
-                <div2 n="29" source="#Paris_1694_ed8">
-                    <p><g ref="#Pied_de_mouche_seul"/>Le rebut de la cour est reçu à la ville dans
-                        une ruelle, où il défait le magistrat même en cravate et en habit gris,
-                        ainsi que le bourgeois en baudrier, les écarte et devient maître de la place
-                        : il est écouté, il est aimé ; on ne tient guère plus d’un moment contre une
-                        écharpe d’or et une plume blanche, contre un homme qui parle au Roi et voit
-                        les ministres. Il fait des jaloux et des jalouses : on l’admire, il fait
-                        envie : à quatre lieues de là, il fait pitié. </p>
+                <div2 n="29 30" source="#Paris_1696_ed9">
+                    <p><g ref="#Pied_de_mouche_seul" source="#Paris_1696_ed9"/>Le rebut de la cour
+                        est reçu à la ville dans une ruelle, où il défait le magistrat même en
+                        cravate et en habit gris, ainsi que le bourgeois en baudrier, les écarte et
+                        devient maître de la place : il est écouté, il est aimé ; on ne tient guère
+                        plus d’un moment contre une écharpe d’or et une plume blanche, contre un
+                        homme qui parle au Roi et voit les ministres. Il fait des jaloux et des
+                        jalouses : on l’admire, il fait envie : à quatre lieues de là, il fait
+                        pitié.</p>
+                    <p>Un homme de la ville est pour une femme de province ce qu’est pour une femme
+                        de ville un homme de la Cour.</p>
                 </div2>
-                <div2 n="30" source="#Paris_1694_ed8 #Paris_1688_ed1">
-                    <p><g ref="#Pied_de_mouche_seul"/>Un homme de la ville est pour une femme de
-                        province ce qu’est pour une femme de ville un homme de la Cour.</p>
+                <div2 n="29"
+                    source="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul"
+                            source="#Paris_1689_ed4 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10"/>
+                        <g ref="#Pied_de_mouche_simple" source="#Paris_1689_ed5"/> Le rebut de la
+                        cour est reçu à la ville dans une ruelle, où il défait le magistrat même en
+                        cravate et en habit gris, ainsi que le bourgeois en baudrier, les écarte et
+                        devient maître de la place : il est écouté, il est aimé ; on ne tient guère
+                        plus d’un moment contre une écharpe d’or et une plume blanche, contre un
+                        homme qui parle au Roi et voit les ministres. Il fait des jaloux et des
+                        jalouses : on l’admire, il fait envie : à quatre lieues de là, il fait
+                        pitié. </p>
                 </div2>
-                <div2 n="31" source="#Paris_1694_ed8">
+                <div2 n="30"
+                    source="#Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul"
+                            source="#Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10"/>
+                        <app>
+                            <lem wit="#Ed_19e_origine">Un</lem>
+                            <rdg wit="#Paris_1691_ed6">Une</rdg>
+                            <rdg wit="#Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5">Un</rdg>
+                        </app> homme de la ville est pour une femme de province ce qu’est pour une
+                        femme de ville un homme de la Cour.</p>
+                </div2>
+                <div2 n="31"
+                    source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
                     <p><g ref="#Pied_de_mouche_seul"/>A un homme vain, indiscret, qui est grand
                         parleur et mauvais plaisant, qui parle de soi avec confiance et des autres
                         avec mépris, impétueux, altier, entreprenant, sans mœurs ni probité, de nul
                         jugement et d’une imagination très libre, il ne lui manque plus, pour être
                         adoré de bien des femmes, que de beaux traits et la taille belle.</p>
                 </div2>
-                <div2 n="32" source="#Paris_1694_ed8 #Paris_1688_ed1">
-                    <p><g ref="#Pied_de_mouche_seul"/>Est-ce en vue du secret, ou par un goût
-                        hypocondre, que cette femme aime un valet, cette autre un moine, et Dorinne
-                        son Médecin ?</p>
+                <div2 n="32"
+                    source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul"/>Est-ce en vue du secret, ou par un goût <app>
+                            <lem wit="#Ed_19e_origine">hypocondre</lem>
+                            <rdg
+                                wit="#Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
+                                >hypocondre</rdg>
+                            <rdg wit="#Paris_1688_ed1">hypochondre</rdg>
+                        </app> , que cette femme aime un valet, cette autre un moine, et Dorinne son
+                        Médecin ?</p>
                 </div2>
-                <div2 n="33" source="#Paris_1694_ed8">
+                <div2 n="33"
+                    source="#Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
                     <p><g ref="#Pied_de_mouche_seul"/>Roscius entre sur la scène de bonne grâce :
                         oui, Lélie ; et j’ajoute encore qu’il a les jambes bien tournées, qu’il joue
                         bien, et de longs rôles, et que pour déclamer parfaitement il ne lui manque,
@@ -281,19 +436,25 @@
                         a les épaules larges et la taille ramassée, un nègre d’ailleurs, un homme
                         noir. </p>
                 </div2>
-                <div2 n="34" source="#Paris_1694_ed8">
-                    <p><g ref="#Pied_de_mouche_seul"/>Pour les femmes du monde, un jardinier est un
-                        jardinier, et un maçon est un maçon ; pour quelques autres plus retirées, un
-                        maçon est un homme, un jardinier est un homme. Tout est tentation à qui la
-                        craint.</p>
+                <div2 n="34"
+                    source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul"/>Pour les femmes du monde, un 
+                        <app><lem wit="#Ed_19e_origine">jardinier</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Jardinier</rdg></app>
+                        est un <app><lem wit="#Ed_19e_origine">jardinier</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Jardinier</rdg></app>
+                        , et un <app><lem wit="#Ed_19e_origine">maçon</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Masson</rdg></app> 
+                        est un <app><lem wit="#Ed_19e_origine">maçon</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Masson</rdg></app>
+                        ; pour quelques autres plus retirées, un <app><lem wit="#Ed_19e_origine">maçon</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Masson</rdg></app>
+                        est un homme, un <app><lem wit="#Ed_19e_origine">maçon</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Masson</rdg></app>
+                        est un homme. Tout est tentation à qui la craint.</p>
                 </div2>
-                <div2 n="35" source="#Paris_1694_ed8 #Paris_1688_ed1">
+                <div2 n="35" source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
                     <p><g ref="#Pied_de_mouche_seul"/>Quelques femmes donnent aux couvents et à
                         leurs amants : galantes et bienfactrices, elles ont jusque dans l’enceinte
-                        de l’autel des tribunes et des oratoires où elles lisent des billets
+                        de <app><lem wit="#Ed_19e_origine">l'autel</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">l'Autel</rdg></app> 
+                        des tribunes et des oratoires où elles lisent des billets
                         tendres, et où personne ne voit qu’elles ne prient point Dieu.</p>
                 </div2>
-                <div2 n="36" source="#Paris_1694_ed8">
+                <div2 n="36" source="#Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
                     <p><g ref="#Pied_de_mouche_seul"/>Qu’est-ce qu’une femme que l’on dirige ?
                         Est-ce une femme plus complaisante pour son mari, plus douce pour ses
                         domestiques, plus appliquée à sa famille et à ses affaires, plus ardente et
@@ -306,43 +467,44 @@
                         plus libre de tous attachements humains ? "Non, dites-vous, ce n’est rien de
                         toutes ces choses." J’insiste, et je vous demande : "Qu’est-ce donc qu’une
                         femme que l’on dirige ? " Je vous entends, c’est une femme qui a un
-                        directeur.</p>
+                        <app><lem wit="#Ed_19e_origine">directeur</lem><rdg wit="#Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Directeur</rdg></app>.</p>
                 </div2>
-                <div2 n="37 38 39" source="#Paris_1688_ed1">
-                    <p><g ref="#Pied_de_mouche_seul"/>Si le confesseur et le directeur ne
-                        conviennent point sur une règle de conduite, qui sera le tiers qu’une femme
-                        prendra pour sur-arbitre ?</p>
-                    <p>Le capital pour une femme n’est pas d’avoir un directeur, mais de vivre si
-                        uniment qu’elle s’en puisse passer.</p>
-                    <p>Si une femme pouvait dire à son confesseur, avec ses autres faiblesses,
-                        celles qu’elle a pour son directeur ; et le temps qu’elle perd dans son
-                        entretien, peut-être lui serait-il donné pour pénitence d’y renoncer.</p>
+                <div2 n="37 38 39" source="#Paris_1688_ed1 #Paris_1688_ed3">
+                    <p><g ref="#Pied_de_mouche_seul"/>Si le <app><lem wit="#Ed_19e_origine">confesseur</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3">Confesseur</rdg></app> 
+                        et le <app><lem wit="#Ed_19e_origine">directeur</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3">Directeur</rdg></app> 
+                        ne conviennent point sur une règle de conduite, qui sera le
+                        tiers qu’une femme prendra pour <app><lem wit="#Ed_19e_origine">sur-arbitre</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3">surarbitre</rdg></app> ?</p>
+                    <p>Le capital pour une femme n’est pas d’avoir un <app><lem wit="#Ed_19e_origine">directeur</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3">Directeur</rdg></app>
+                        , mais de vivre si uniment qu’elle s’en puisse passer.</p>
+                    <p>Si une femme pouvait dire à son <app><lem wit="#Ed_19e_origine">confesseur</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3">Confesseur</rdg></app>
+                        , avec ses autres faiblesses, celles qu’elle a pour son <app><lem wit="#Ed_19e_origine">directeur</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3">Directeur</rdg></app>
+                        ; et le temps qu’elle perd dans son entretien, peut-être lui serait-il donné pour pénitence d’y renoncer.</p>
                 </div2>
-                <div2 n="37" source="#Paris_1694_ed8">
-                    <p><g ref="#Pied_de_mouche_seul"/>Si le confesseur et le directeur ne
-                        conviennent point sur une règle de conduite, qui sera le tiers qu’une femme
-                        prendra pour <app>
-                            <lem wit="#Ed_19e_origine">sur-arbitre</lem>
-                            <rdg wit="#Paris_1688_ed1 #Paris_1694_ed8">surarbitre</rdg>
-                        </app> ?</p>
+                <div2 n="37" source="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul"/>Si le <app><lem wit="#Ed_19e_origine">confesseur</lem><rdg wit="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Confesseur</rdg></app> 
+                        et le <app><lem wit="#Ed_19e_origine">directeur</lem><rdg wit="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Directeur</rdg></app>
+                        ne conviennent point sur une règle de conduite, qui sera le tiers qu’une femme
+                        prendra pour <app><lem wit="#Ed_19e_origine">sur-arbitre</lem><rdg wit="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">surarbitre</rdg></app> ?</p>
                 </div2>
-                <div2 n="38" source="#Paris_1694_ed8">
+                <div2 n="38" source="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
                     <p><g ref="#Pied_de_mouche_seul"/>Le capital pour une femme n’est pas d’avoir un
-                        directeur, mais de vivre si uniment qu’elle s’en puisse passer.</p>
+                        <app><lem wit="#Ed_19e_origine">directeur</lem><rdg wit="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Directeur</rdg></app>
+                        , mais de vivre si uniment qu’elle s’en puisse passer.</p>
                 </div2>
-                <div2 n="39" source="#Paris_1694_ed8">
-                    <p><g ref="#Pied_de_mouche_seul"/>Si une femme pouvait dire à son confesseur,
-                        avec ses autres faiblesses, celles qu’elle a pour son directeur ; et le
-                        temps qu’elle perd dans son entretien, peut-être lui serait-il donné pour
+                <div2 n="39" source="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul"/>Si une femme pouvait dire à son <app><lem wit="#Ed_19e_origine">confesseur</lem><rdg wit="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Confesseur</rdg></app> 
+                        , avec ses autres faiblesses, celles qu’elle a pour son <app><lem wit="#Ed_19e_origine">directeur</lem><rdg wit="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Directeur</rdg></app>
+                        ; et le temps qu’elle perd dans son entretien, peut-être lui serait-il donné pour
                         pénitence d’y renoncer.</p>
                 </div2>
-                <div2 n="40" source="#Paris_1694_ed8">
-                    <p><g ref="#Pied_de_mouche_seul"/>Je voudrais qu’il me fût permis de crier de
+                <div2 n="40" source="#Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul" source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"/>
+                        <g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/>Je voudrais qu’il me fût permis de crier de
                         toute ma force à ces hommes saints qui ont été autrefois blessés des femmes
                         : "Fuyez les femmes, ne les dirigez point, laissez à d’autres le soin de
                         leur salut."</p>
                 </div2>
-                <div2 n="41" source="#Paris_1694_ed8">
+                <div2 n="41" source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
                     <p><g ref="#Pied_de_mouche_seul"/>C’est trop contre un mari d’être coquette et
                         dévote ; une femme devrait opter.</p>
                 </div2>
