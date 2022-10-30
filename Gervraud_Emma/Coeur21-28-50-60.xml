@@ -203,6 +203,7 @@
                 <note>avec privilège de sa majesté</note>
                 <imprimatur/>
             </titlePage>
+            
             <titlePage source="#Paris_1688_3">
                 <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
                 <docTitle>
@@ -226,6 +227,7 @@
                 <note>avec privilège de sa majesté</note>
                 <imprimatur/>
             </titlePage>
+            
             <titlePage source="#Paris_1689_4">
                 <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
                 <docTitle>
@@ -249,8 +251,9 @@
                 <docDate when="1688" style="big">M. DC. LXXXIX.</docDate>
                 <note>avec privilège de sa majesté</note>
                 <imprimatur/>
-           </titlePage>
-           <titlePage source="#Paris_1690_5">
+            </titlePage>
+            
+            <titlePage source="#Paris_1690_5">
                 <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
                 <docTitle>
                     <titlePart>Les</titlePart>
@@ -273,8 +276,9 @@
                 <docDate when="1690" style="big">M. DC. XC.</docDate>
                 <note>avec privilège de sa majesté</note>
                 <imprimatur/>
-           </titlePage>
-           <titlePage source="#Paris_1691_6">
+            </titlePage>
+            
+            <titlePage source="#Paris_1691_6">
                 <docTitle>
                     <titlePart>Les</titlePart>
                     <titlePart style="big" style="red">caractères</titlePart>
@@ -295,8 +299,9 @@
                 <docDate when="1691" style="big">M. DC. XCI.</docDate>
                 <note>avec privilège de sa majesté</note>
                 <imprimatur/>
-           </titlePage>
-           <titlePage source="#Paris_1692_7">
+            </titlePage>
+            
+            <titlePage source="#Paris_1692_7">
                <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
                 <docTitle>
                     <titlePart>Les</titlePart>
@@ -319,8 +324,9 @@
                 <docDate when="1692" style="big">M. DC. XCII.</docDate>
                 <note>avec privilège de sa majesté</note>
                 <imprimatur/>
-           </titlePage>
-           <titlePage source="#Paris_1694_8">
+            </titlePage>
+            
+            <titlePage source="#Paris_1694_8">
                <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
                 <docTitle>
                     <titlePart>Les</titlePart>
@@ -343,8 +349,9 @@
                 <docDate when="1694" style="big">M. DC. XCIV.</docDate>
                 <note>avec privilège de sa majesté</note>
                 <imprimatur/>
-           </titlePage>
-           <titlePage source="#Paris_1696_9">
+            </titlePage>
+            
+            <titlePage source="#Paris_1696_9">
                <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
                 <docTitle>
                     <titlePart>Les</titlePart>
@@ -367,8 +374,9 @@
                 <docDate when="1696" style="big">M. DC. XCVI.</docDate>
                 <note>avec privilège de sa majesté</note>
                 <imprimatur/>
-           </titlePage>
-           <titlePage source="#Paris_1699_10">
+            </titlePage>
+            
+            <titlePage source="#Paris_1699_10">
                <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
                 <docTitle>
                     <titlePart>Les</titlePart>
