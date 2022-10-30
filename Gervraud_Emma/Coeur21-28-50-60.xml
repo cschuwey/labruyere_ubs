@@ -152,10 +152,11 @@
         </profileDesc>
         <encodingDesc>
             <p>Transformation des s long en "s" afin de normaliser et moderniser</p>
-            <p> Transformation des esperluettes en "et"</p>
+            <p>Transformation des esperluettes en "et"</p>
+            <p>Transformer les "sc" en "s"</p>
             <charDecl>
                 <glyph xml:id="pied_de_mouche_simple">
-                    <desc>pied de mouche simple au début des remarques dans l'édition 3, l'édition 4, l'édition 10</desc>
+                    <desc>pied de mouche simple au début des remarques dans l'édition 3, l'édition 4, l'édition 6,l'édition 7,l'édition 8, l'édition 9 et l'édition 10</desc>
                 </glyph>
                 <glyph xml : id="pied_de_mouche_simple_avec_parenthese">
                     <desc>pied de mouche simple avec parenthèse au début des remarques dans l'édition 5 </desc>
@@ -170,6 +171,7 @@
             <list>
                 <item>
                     <date when="2022-10-10">Modification du "s long" et "esperluettes"</date>
+                    <date when="2022-10-30">Modification de "sc" en "s"</date>
                 </item>
             </list>
         </revisionDesc>
@@ -180,30 +182,215 @@
     </teiHeader>
     <text>
         <front>
-            <titlePage>
-                <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
+            <titlePage source="#Paris_1688_1">
                 <docTitle>
-                    <titlePart>Les les caractères</titlePart>
+                    <titlePart>Les</titlePart>
                     <titlePart style="big">caractères</titlePart>
                     <titlePart>de Théophraste</titlePart>
-                    <titlePart>traduit du Grec :</titlePart>
+                    <titlePart>traduits du Grec :</titlePart>
                     <titlePart style="italics">avec</titlePart>
                     <titlePart>les caractères</titlePart>
                     <titlePart>ou</titlePart>
-                    <titlePart>les moeurs</titlePart>
+                    <titlePart style="big">les moeurs</titlePart>
+                    <titlePart>de ce siecle</titlePart>
+                </docTitle>
+                <figure>
+                    <desc>marque du libraire</desc>
+                </figure>
+                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë S
+                    Jacques, à l'Image faint Paul</docImprint>
+                <docDate when="1688" style="big">M. DC. LXXXVIII.</docDate>
+                <note>avec privilège de sa majesté</note>
+                <imprimatur/>
+            </titlePage>
+            <titlePage source="#Paris_1688_3">
+                <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
+                <docTitle>
+                    <titlePart>Les</titlePart>
+                    <titlePart style="big">caractères</titlePart>
+                    <titlePart>de Théophraste</titlePart>
+                    <titlePart>traduits du Grec :</titlePart>
+                    <titlePart style="italics">avec</titlePart>
+                    <titlePart>les caractères</titlePart>
+                    <titlePart>ou</titlePart>
+                    <titlePart style="big">les moeurs</titlePart>
+                    <titlePart>de ce siecle</titlePart>
+                </docTitle>
+                <docEdition>troisième édition</docEdition>
+                <figure>
+                    <desc>marque du libraire</desc>
+                </figure>
+                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë S.
+                    Jacques, à l'Image faint Paul</docImprint>
+                <docDate when="1688" style="big">M. DC. LXXXVIII.</docDate>
+                <note>avec privilège de sa majesté</note>
+                <imprimatur/>
+            </titlePage>
+            <titlePage source="#Paris_1689_4">
+                <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
+                <docTitle>
+                    <titlePart>Les</titlePart>
+                    <titlePart style="big">caractères</titlePart>
+                    <titlePart>de Théophraste</titlePart>
+                    <titlePart>traduits du Grec :</titlePart>
+                    <titlePart style="italics">avec</titlePart>
+                    <titlePart>les caractères</titlePart>
+                    <titlePart>ou</titlePart>
+                    <titlePart style="big">les moeurs</titlePart>
                     <titlePart>de ce siecle</titlePart>
                 </docTitle>
                 <docEdition>quatrième édition</docEdition>
+                <docEdition>corrigée et augmentée</docEdition>
                 <figure>
                     <desc>marque du libraire</desc>
                 </figure>
                 <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë Saint
-                    Jacques, à l'image S.Paul</docImprint>
-                <docDate when="1689" style="big">M. DC. LXXXIX.</docDate>
-                <note>avec provilège de sa majesté</note>
+                    Jacques, à l'Image S.Paul</docImprint>
+                <docDate when="1688" style="big">M. DC. LXXXIX.</docDate>
+                <note>avec privilège de sa majesté</note>
                 <imprimatur/>
-            </titlePage>
-            <titlePage source="#Paris_1688_1"/>
+           </titlePage>
+           <titlePage source="#Paris_1690_5">
+                <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
+                <docTitle>
+                    <titlePart>Les</titlePart>
+                    <titlePart style="big">caractères</titlePart>
+                    <titlePart>de Théophraste</titlePart>
+                    <titlePart>traduits du Grec :</titlePart>
+                    <titlePart style="italics">avec</titlePart>
+                    <titlePart>les caractères</titlePart>
+                    <titlePart>ou</titlePart>
+                    <titlePart style="big">les moeurs</titlePart>
+                    <titlePart>de ce siecle</titlePart>
+                </docTitle>
+                <docEdition>cinquième édition</docEdition>
+                <docEdition>augmentée de plusieurs remarques</docEdition>
+                <figure>
+                    <desc>marque du libraire</desc>
+                </figure>
+                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë Saint
+                    Jacques, à l'Image S.Paul</docImprint>
+                <docDate when="1690" style="big">M. DC. XC.</docDate>
+                <note>avec privilège de sa majesté</note>
+                <imprimatur/>
+           </titlePage>
+           <titlePage source="#Paris_1691_6">
+                <docTitle>
+                    <titlePart>Les</titlePart>
+                    <titlePart style="big" style="red">caractères</titlePart>
+                    <titlePart>de Théophraste</titlePart>
+                    <titlePart style="red">traduits du Grec :</titlePart>
+                    <titlePart style="italics">avec</titlePart>
+                    <titlePart style="red">les caractères</titlePart>
+                    <titlePart>ou</titlePart>
+                    <titlePart style="big" style="red">les moeurs</titlePart>
+                    <titlePart>de ce siecle</titlePart>
+                </docTitle>
+                <docEdition>sixième édition</docEdition>
+                <figure>
+                    <desc>marque du libraire</desc>
+                </figure>
+                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë S.
+                    Jacques, à l'Image S.Paul</docImprint>
+                <docDate when="1691" style="big">M. DC. XCI.</docDate>
+                <note>avec privilège de sa majesté</note>
+                <imprimatur/>
+           </titlePage>
+           <titlePage source="#Paris_1692_7">
+               <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
+                <docTitle>
+                    <titlePart>Les</titlePart>
+                    <titlePart style="big">caractères</titlePart>
+                    <titlePart>de Théophraste</titlePart>
+                    <titlePart>traduits du Grec :</titlePart>
+                    <titlePart style="italics">avec</titlePart>
+                    <titlePart style>les caractères</titlePart>
+                    <titlePart>ou</titlePart>
+                    <titlePart style="big">les moeurs</titlePart>
+                    <titlePart>de ce siecle</titlePart>
+                </docTitle>
+               <docEdition>septième édition</docEdition>
+                <docEdition>Reveuë et corrigée</docEdition>
+                <figure>
+                    <desc>marque du libraire</desc>
+                </figure>
+                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë S.
+                    Jacques, à l'Image S.Paul</docImprint>
+                <docDate when="1692" style="big">M. DC. XCII.</docDate>
+                <note>avec privilège de sa majesté</note>
+                <imprimatur/>
+           </titlePage>
+           <titlePage source="#Paris_1694_8">
+               <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
+                <docTitle>
+                    <titlePart>Les</titlePart>
+                    <titlePart style="big">caractères</titlePart>
+                    <titlePart>de Théophraste</titlePart>
+                    <titlePart style>traduits du Grec :</titlePart>
+                    <titlePart style="italics">avec</titlePart>
+                    <titlePart style>les caractères</titlePart>
+                    <titlePart>ou</titlePart>
+                    <titlePart style="big">les moeurs</titlePart>
+                    <titlePart>de ce siecle</titlePart>
+                </docTitle>
+               <docEdition>huitième édition</docEdition>
+                <docEdition>Reveuë, corrigée et augmentée</docEdition>
+                <figure>
+                    <desc>marque du libraire</desc>
+                </figure>
+                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë faint
+                    Jacques, à l'Image faint Paul</docImprint>
+                <docDate when="1694" style="big">M. DC. XCIV.</docDate>
+                <note>avec privilège de sa majesté</note>
+                <imprimatur/>
+           </titlePage>
+           <titlePage source="#Paris_1696_9">
+               <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
+                <docTitle>
+                    <titlePart>Les</titlePart>
+                    <titlePart style="big" style="red">caractères</titlePart>
+                    <titlePart>de Théophraste</titlePart>
+                    <titlePart>traduits du Grec :</titlePart>
+                    <titlePart style="italics">avec</titlePart>
+                    <titlePart>les caractères</titlePart>
+                    <titlePart>ou</titlePart>
+                    <titlePart style="big">les moeurs</titlePart>
+                    <titlePart>de ce siecle</titlePart>
+                </docTitle>
+               <docEdition>neuvième édition</docEdition>
+                <docEdition>Reveuë, corrigée et augmentée</docEdition>
+                <figure>
+                    <desc>marque du libraire</desc>
+                </figure>
+                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë faint
+                    Jacques, à l'Image faint Paul</docImprint>
+                <docDate when="1696" style="big">M. DC. XCVI.</docDate>
+                <note>avec privilège de sa majesté</note>
+                <imprimatur/>
+           </titlePage>
+           <titlePage source="#Paris_1699_10">
+               <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
+                <docTitle>
+                    <titlePart>Les</titlePart>
+                    <titlePart style="big" style="red">caractères</titlePart>
+                    <titlePart>de Théophraste</titlePart>
+                    <titlePart>traduits du Grec :</titlePart>
+                    <titlePart style="italics">avec</titlePart>
+                    <titlePart>les caractères</titlePart>
+                    <titlePart>ou</titlePart>
+                    <titlePart style="big">les moeurs</titlePart>
+                    <titlePart>de ce siecle</titlePart>
+                </docTitle>
+               <docEdition>dixième édition</docEdition>
+                <figure>
+                    <desc>marque du libraire</desc>
+                </figure>
+                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë S.
+                    Jacques, à l'Image S.Paul</docImprint>
+                <docDate when="1696" style="big">M. DC. XCIX.</docDate>
+                <note>avec privilège de sa majesté</note>
+                <imprimatur/>
+           </titlePage>
         </front>
         <body>
             <div1>
@@ -232,7 +419,7 @@
                 </div2>
                 <div2 n="25" source="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p> 
-                        <g ref="#pied_de_mouche_simple #pied_de_mouche_simple_avec_parenthese">Il semble qu’il est moins rare de <apps><lem>passer</lem><rdg wit="#Paris_1689_edition4">pass r</rdg></apps> de l’antipathie à l’amour qu’à
+                        <g ref="#pied_de_mouche_simple #pied_de_mouche_simple_avec_parenthese">Il semble qu’il est moins rare de <apps><lem>passer</lem><rdg wit="#Paris_1689_edition4">pass r</rdg></apps> de l’<apps><lem>antipathie</lem><rdg wit="#Paris_1692_edition7">antipachie</rdg></apps> à l’amour qu’à
                             l’amitié </g></p>
                 </div2>
                     <--! Deux remarques se fusionnent-->
@@ -249,11 +436,11 @@
                     <p>
                         <g ref="#pied_de_mouche_simple #pied_de_mouche_simple_avec_parenthese">L’on confie son secret dans l’amitié ; mais il <apps><lem>échape</lem><rdg wit="#Paris_1690_edition5">échappe</rdg></apps> dans l’amour. L’on
                         peut avoir la confiance de quelqu’un sans en avoir le cœur. Celui qui a le
-                            cœur n’a <apps><lem>pas</lem><rdg wit="#Paris_1690_edition5">plus</rdg></apps> besoin de révélation ou de confiance ; tout lui est ouvert.</g></p>
+                            cœur n’a <apps><lem>pas</lem><rdg wit="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7">plus</rdg></apps> besoin de révélation <apps><lem> </lem><rdg wit="#Paris_1691_edition6">,</rdg></apps> ou de confiance ; tout lui est ouvert.</g></p>
                 </div2>
                 <div2 n="27" source="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p> 
-                        <g ref="#pied_de_mouche_simple #pied_de_mouche_simple_avec_parenthese">L’on ne voit dans l’amitié que les défauts qui peuvent nuire à nos amis.
+                        <g ref="#pied_de_mouche_simple #pied_de_mouche_simple_avec_parenthese">L’on ne voit dans l’amitié que les <apps><lem>défauts</lem><rdg wit="#Paris_1691_edition6">defauts</rdg></apps> qui peuvent nuire à nos amis.
                         L’on ne voit en amour de défauts dans ce qu’on aime <apps><lem>,</lem><rdg wit="#Paris_1690_edition5"> </rdg></apps> que ceux dont on souffre
                         soi-même.</g></p>
                 </div2>
@@ -261,29 +448,30 @@
                 <div2 n="28" source="#Paris_1688_edition3 #Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p> 
                         <g ref="#pied_de_mouche_simple #pied_de_mouche_simple_avec_parenthese">Il n’y a qu’un premier dépit en amour, comme la première faute dans l’amitié,
-                        dont on puisse faire un <apps><lem>bou</lem><rdg wit="#Paris_1688_edition3 #Paris_1689_edition4 #Paris_1690_edition5">bon</rdg></apps> usage.</g></p>
+                        dont on puisse faire un <apps><lem>bou</lem><rdg wit="#Paris_1688_edition3 #Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9">bon</rdg></apps> usage.</g></p>
                 </div2>
                 <div2 n="50" source="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
-                        <g ref="#pied_de_mouche_simple_avec_double_parenthese>Un homme dur au travail et à la peine, inexorable à soi-même, n’est indulgent
+                        <g ref="#pied_de_mouche_simple_avec_double_parenthese #pied_de_mouche_simple">Un homme dur au travail et à la peine, inexorable à soi-même, n’est indulgent
                         aux autres que par un excès de raison.</g></p>
                 </div2>
                 <div2 n="51" source="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
-                    <p> <g ref="#pied_de_mouche_simple_avec_double_parenthese> Quelque désagrément qu’on ait à se trouver chargé d’un indigent<apps><lem> , </lem><rdg wit="#Paris_1690_edition5">, </rdg></apps>l’on goûte
+                    <p> <g ref="#pied_de_mouche_simple_avec_double_parenthese #pied_de_mouche_simple"> Quelque désagrément qu’on ait à se trouver chargé d’un indigent<apps><lem> , </lem><rdg wit="#Paris_1690_edition5">, </rdg></apps>l’on goûte
                         à peine les nouveaux avantages qui le tirent enfin de <apps><lem>nôtre</lem><rdg wit="#Paris_1690_edition5">nostre</rdg></apps> sujétion : de
                         <apps><lem>même</lem><rdg wit="#Paris_1690_edition5">mesme</rdg></apps>, la joie que l’on reçoit de l’élévation de son ami est un peu balancée
                         par la petite peine qu’on a de le voir au-dessus de nous ou s’égaler à nous.
                         Aussi l’on s’accorde mal avec soi-<apps><lem>même</lem><rdg wit="#Paris_1690_edition5">mesme</rdg></apps> ; car l’on veut des dépendants, et
                         qu’il n’en coûte rien ; l’on veut aussi le bien de ses amis, et, s’il
-                        arrive, ce n’est pas <apps><lem>toûjours</lem><rdg wit="#Paris_1690_edition5">toujours</rdg></apps> par s’en réjouir que l’on commence.</g></p>
+                        arrive, ce n’est pas <apps><lem>toûjours</lem><rdg wit="#Paris_1690_edition5 #Paris_1696_edition9">toujours</rdg></apps> par s’en réjouir que l’on commence.</g></p>
                 </div2>
                 <div2 n="52" source="#Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
-                    <p>On convie, on invite, on offre sa maison, sa table, son bien et ses services
-                        : rien ne coûte qu’à tenir parole.</p>
+                    <p>
+                        <g ref="#pied_de_mouche_simple">On convie, on invite, on offre sa maison, sa table, son bien et ses services
+                        : rien ne <apps><lem>coûte</lem><rdg wit="#Paris_1692_edition7 #Paris_1696_edition9">coute</rdg></apps> qu’à tenir parole.</p>
                 </div2>
                 <div2 n="53" source="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
-                        <g ref="#pied_de_mouche_simple_avec_parenthese">C’est assez pour soi d’un fidèle ami ; c’est <apps><lem>même</lem><rdg wit="#Paris_1690_edition5">mesme</rdg></apps> beaucoup de l’avoir
+                        <g ref="#pied_de_mouche_simple_avec_parenthese #pied_de_mouche_simple">C’est assez pour soi d’un fidèle<apps><lem>fidèle</lem><rdg wit="#Paris_1696_edition9">fidelle</rdg></apps> ami ; c’est <apps><lem>même</lem><rdg wit="#Paris_1690_edition5">mesme</rdg></apps> beaucoup de l’avoir
                         rencontré : on ne peut en avoir trop pour le service des autres.</g></p>
                 </div2>
                 <div2 n="54" source="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
@@ -304,45 +492,45 @@
                         de <apps><lem>nôtre</lem><rdg wit="#Paris_1690_edition5">nostre</rdg></apps> confiance, ni se faire craindre comme ennemis.</p>
                 </div2>
                 <div n="55" source="#Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
-                    <p>Vivre avec ses ennemis comme s’ils devaient un jour être nos amis, et vivre
+                    <p>
+                        <g ref="#pied_de_mouche_simple">Vivre avec ses ennemis comme s’ils devaient un jour être nos amis, et vivre
                         avec nos amis comme s’ils pouvaient devenir nos ennemis, n’est ni selon la
                         nature de la haine, ni selon les règles de l’amitié ; ce n’est point une
                         maxime morale, mais politique.</g><p>
                 </div2>
                 <div2 n="56" source="#Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
-                    <p>On ne doit pas se faire des ennemis de ceux qui, mieux connus, pourraient
+                    <p>
+                        <g ref="#pied_de_mouche_simple">On ne doit pas se faire des ennemis de ceux qui, mieux connus, pourraient
                         avoir rang entre nos amis. On doit faire choix d’amis si sûrs et d’une si
-                        exacte probité, que venant à cesser de l’être, ils se veuillent pas abuser
-                        de notre confiance, ni se faire craindre comme ennemis.</p>
+                        exacte probité, que venant à cesser de l’<apps><lem>être</lem><rdg wit="#Paris_1696_edition9">ètre</rdg></apps>être, ils se veuillent pas abuser
+                        de notre confiance, ni se faire craindre comme <apps><lem> </lem><rdg wit="#Paris_1692_edition7">nos</rdg></apps> ennemis.</p>
                 </div2>
                 <div2 n="57" source="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
-                       <g ref="#pied_de_mouche_simple_avec_parenthese">Il est doux de voir ses amis par goût et par estime ; il est pénible de les
+                       <g ref="#pied_de_mouche_simple_avec_parenthese "#pied_de_mouche_simple">Il est doux de voir ses amis par <apps><lem>goût</lem><rdg wit="#Paris_1696_edition9">gout</rdg></apps>goût et par estime ; il est pénible de les
                         cultiver par <apps><lem>interêt</lem><rdg wit="#Paris_1690_edition5">interest</rdg></apps>; c’est solliciter.</g></p>
                 </div2>
                 <div2 n="58" source="#Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
-                    <p>Il faut briguer la faveur de ceux à qui l’on veut du bien, plutôt que de ceux
+                    <p>Il faut <apps><lem>briguer</lem><rdg wit="#Paris_1692_edition7">brigues</rdg></apps> la faveur de ceux à qui l’on veut du bien, <apps><lem>plutôt</lem><rdg wit="#Paris_1696_edition9">plutost</rdg></apps> que de ceux
                         de qui l’on espère du bien.</p>
                 </div2>
                 <div2 n="59" source="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
                         <g ref="#pied_de_mouche_simple #pied_de_mouche_simple_avec_parenthese">On ne vole point des <apps><lem>mêmes</lem><rdg wit="#Paris_1690_edition5">mesme</rdg></apps> ailes pour sa fortune que l’on fait pour des
-                        choses frivoles et de <apps><lem>fantaisie</lem><rdg wit="#Paris_1689_edition4">phantaisie</rdg></apps> : il y a un sentiment de <apps><lem>liberré</lem><rdg wit="#Paris_1689_edition4 #Paris_1690_edition5">liberté</rdg></apps> à suivre ses
+                        choses frivoles et de <apps><lem>fantaisie</lem><rdg wit="#Paris_1689_edition4">phantaisie</rdg></apps> : il y a un sentiment de <apps><lem>liberré</lem><rdg wit="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9">liberté</rdg></apps> à suivre ses
                         caprices, et tout au contraire de servitude à courir pour son établissement
                         : <apps><lem>il</lem><rdg wit="#Paris_1689_edition4">Il</rdg></apps>il est naturel de le souhaiter beaucoup et d’y travailler peu, de se
                         croire digne de le trouver sans l’avoir cherché.</g></p>
                 </div2>
                 <div2 n="60" source="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
-                        <g ref=" #pied_de_mouche_simple_avec_double_parenthese">Celui qui sait attendre le bien qu’il souhaite, ne prend pas le chemin de se
+                        <g ref=" #pied_de_mouche_simple_avec_double_parenthese "#pied_de_mouche_simple">Celui qui sait attendre le bien qu’il souhaite, ne prend pas le chemin de se
                         désespérer s’il ne lui arrive pas ; et celui au contraire qui désire une
-                        chose avec une grande impatience<apps><lem>,</lem><rdg wit="#Paris_1690_edition5"> </rdg></apps> y met trop du sien<apps><lem> <lem><rdg wit="#Paris_1690_edition5">,</rdg></apps> pour en être assez
+                        chose avec une grande impatience<apps><lem>,</lem><rdg wit="#Paris_1690_edition5"> </rdg></apps> y met trop du sien<apps><lem> <lem><rdg wit="#Paris_1690_edition5 #Paris_1691_edition6">,</rdg></apps> pour en <apps><lem>estre</lem><rdg wit="#Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9">être</rdg></apps> assez
                         récompensé par le succès.</g></p>
                 </div2>
             </div1>
 
-
-<--! différence pause à l'édition 5-->
 
 
             <div1>
