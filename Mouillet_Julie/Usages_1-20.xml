@@ -329,10 +329,9 @@
                     <titlePart>
                 <title type= "full">Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
                     </titlePart>
-                    <titlePart type= "main">
-                        <lb>
-                            <titlePart rendition="#italic" "#upper_case" "#black" "#medium" "#bold" "#centered"/>LES</titlePart>
-                        </lb>
+                    <titlePart type= "main"></titlePart>
+                            <titlePart rendition="#italic #upper_case #black #medium #bold #centered">LES</titlePart>
+   
                         <lb>
                             <titlePart rendition= "#upper_case" "#black" "#very_big" "#bold" "#centered">CARACTERES</titlePart>
                         </lb>

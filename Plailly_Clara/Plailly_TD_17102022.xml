@@ -84,7 +84,7 @@
         <encodingDesc>
             <charDecl>
                 <glyph xml:id="pied_de_mouche">
-                    <graphic url="utf-8"></graphic>
+                    <graphic url="utf-8"></graphic> <!-- utf-8 est un encodage, ne peut pas être une URL. Par ailleurs, votre élément graphic est vide et ne sert à rien — desc suffit --> 
                     <desc>¶</desc>
                 </glyph>
             </charDecl>
@@ -217,7 +217,7 @@
                         N**, avec un portier rustre, 
                         farouche, tirant sur le Suisse<app><lem>,</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">;</rdg></app>
                         avec un vestibule et une antichambre,
-                        pour peu qu’il y fasse languir quelqu’un et se morfondre<app><lem>,</lem><rdg wit="#Paris_1692_7_1">:</rdg><rdg wit="#Paris_1689_4_1">;</rgd></app>
+                        pour peu qu’il y fasse languir quelqu’un et se morfondre<app><lem>,</lem><rdg wit="#Paris_1692_7_1">:</rdg><rdg wit="#Paris_1689_4_1">;</rdg></app>
                         qu’il <app><lem>paraisse</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">paroisse</rdg></app> enfin avec une mine grave et une démarche mesurée, 
                         qu’il écoute un peu et ne reconduise point <app><lem>:</lem><rdg wit="#Paris_1692_7_1">;</rdg><rdg wit="#Paris_1689_4_1">,</rdg></app> quelque subalterne qu’il soit d’ailleurs,
                         il fera sentir de <app><lem>lui-même</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">luy-même</rdg></app> quelque chose qui approche de la considération.

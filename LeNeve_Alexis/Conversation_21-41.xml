@@ -17,7 +17,7 @@
                 
                 <biblStruct xml:id="Paris_1688_3_2">
                     <monogr> <title> "Les caractères de la Bruyère"</title> <author> La Bruyère, Jean de (1645-1696)</author> <editor>A. Mame</editor> <edition> Bibliothèque Nationale de France </edition>
-                        <imprint date="1688">1688 <date>1688</date></imprint>
+                        <imprint when="1688">1688 <date>1688</date></imprint>
                     </monogr>
                 </biblStruct>
                 
