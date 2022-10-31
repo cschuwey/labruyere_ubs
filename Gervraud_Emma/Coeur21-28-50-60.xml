@@ -442,7 +442,7 @@
                 <div2 n="25" source="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p> 
                         <g ref="#pied_de_mouche_simple"></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Il semble qu’il est moins rare de <app><lem wit="Paris_1699_edition10">passer</lem><rdg wit="#Paris_1689_edition4">pass r</rdg></app> de l’<app><lem>antipathie</lem><rdg wit="#Paris_1692_edition7">antipachie</rdg></app> à l’amour qu’à
+                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Il semble qu’il est moins rare de <app><lem>passer</lem><rdg wit="#Paris_1689_edition4">pass r</rdg></app> de l’<app><lem>antipathie</lem><rdg wit="#Paris_1692_edition7">antipachie</rdg></app> à l’amour qu’à
                             l’amitié</p>
                 </div2>
                     <!-- Deux remarques se fusionnent-->
@@ -564,6 +564,7 @@
                         récompensé par le succès.</p>
                 </div2>
             </div1>
+            <!-- edition1, 2, 3 et 10 a vérifier les notes-->
             <div1>
                 <p> (21) S’il se trouve une femme pour qui l’on ait eu une grande passion et qui ait
                     été indifférente, quelques importants services qu’elle nous rende dans la suite
@@ -616,3 +617,4 @@
         </body>
     </text>
 </TEI>
+
