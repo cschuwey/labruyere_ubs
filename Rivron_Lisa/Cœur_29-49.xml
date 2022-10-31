@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
+    
+    
     <teiHeader>
-
-
+        
+        
         <fileDesc>
-
+            
             <titleStmt>
+                
                 <title/>
                 <author> Lisa </author>
             </titleStmt>
-            <publicationStmt><authority></authority></publicationStmt>
+        <editionStmt>
+            <edition></edition>
+            <respStmt xml:id="LR">
+                <name>Lisa Rivron</name>
+            <resp></resp>
+            </respStmt>
+        </editionStmt>
+            <publicationStmt>
+                <authority></authority>
+            </publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -28,11 +38,11 @@
                             <distributor></distributor>
                         </imprint>
                     </monogr>
-                                   </biblStruct>
+                </biblStruct>
                 <bibl> bibliothèque </bibl>
             </sourceDesc>
             
-               
+            
             
         </fileDesc>
         <profileDesc>
@@ -50,182 +60,198 @@
                 <preparedness/>
                 <purpose/>
             </textDesc>
-        </profileDesc>
-            </teiHeader>
-
- 
-      
-                     
-        
-                       
-         
-
-
-
-
-
-
+           </profileDesc>
+        <encodingDesc>
+            <projectDesc><p></p></projectDesc>
+            <charDecl>
+                <glyph xml:id="pied_de_mouche">
+                    <glyphName>pied de mouche</glyphName>
+                    <desc>¶</desc><charProp>
+                        <localName>entity</localName>
+                        <value>pied de mouche</value>
+                    </charProp>
+                    <desc></desc>
+                </glyph>
+            </charDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     <text>
         <front>
-           
-       
-        <titlePage>
-        <docTitle>
-            <titlePart style="bold_back"></titlePart> <titlePart style="sub"/></docTitle>
-        <docEdition n="10"> dixieme edition </docEdition>
-        <docDate when="1699"></docDate>
-        
-            <docAuthor></docAuthor>
-        <titlePart></titlePart>
-        <imprimatur> avec privilège de sa Majesté </imprimatur>
-        </titlePage>  
-
-</front>
+            
+            
+            <titlePage>
+                <docTitle>
+                    <titlePart style="bold_back"></titlePart> <titlePart style="sub"/></docTitle>
+                <docEdition n="10"> dixieme edition </docEdition>
+                <docDate when="1699"></docDate>
+                
+                
+                <docAuthor></docAuthor>
+                <titlePart></titlePart>
+                <imprimatur> avec privilège de sa Majesté </imprimatur>
+            </titlePage>  
+            
+        </front>
         <body>
             <div1>
                 <head>Du Coeur</head>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="29"> <p>
-                Il semble que, s’il y a un soupçon injuste, bizarre et sans fondement, qu’on ait une fois appelé jalousie, cette autre jalousie qui est un sentiment juste, naturel, fondé en raison et sur l’expérience, mériterait un autre nom./ 
-                Le tempérament a beaucoup de part à la jalousie, et elle ne suppose pas toujours une grande passion. C’est cependant un paradoxe qu’un violent amour sans délicatesse./ 
-                Il arrive souvent que l’on souffre tout seul de la délicatesse; L’on souffre de la jalousie, et l’on fait souffrir les autres
-
-                <app>
-                    <lem>.</lem>
+                    <g ref="pied_de_mouche"></g>
+                    Il semble que, s’il y a un soupçon injuste, bizarre et sans fondement, qu’on ait une fois appelé jalousie, cette autre jalousie qui est un sentiment juste, naturel, fondé en raison et sur l’expérience, mériterait un autre nom./ 
+                    Le tempérament a beaucoup de part à la jalousie, et elle ne suppose pas toujours une grande passion. C’est cependant un paradoxe qu’un violent amour sans délicatesse./ 
+                    Il arrive souvent que l’on souffre tout seul de la délicatesse; L’on souffre de la jalousie, et l’on fait souffrir les autres
+                    
+                    <app>
+                        <lem>.</lem>
                         <rdg wit="#Paris_1694_8">,</rdg>
                         <rdg wit="#Paris_1699_10">.</rdg>
-                </app>    
-
-                Celles qui ne nous ménagent sur rien, et ne nous épargnent nulles occasion de jalousie, ne mériteraient de nous aucune jalousie, si l’on se réglait plus par leurs sentiments et leur conduite que par son
-                cœur. </div2> </p> 
+                    </app>    
+                    
+                    Celles qui ne nous ménagent sur rien, et ne nous épargnent nulles occasion de jalousie, ne mériteraient de nous aucune jalousie, si l’on se réglait plus par leurs sentiments et leur conduite que par son
+                    coeur. </p> </div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="30"> <p>
-                Les froideurs et les relâchements dans l’amitié ont leurs causes. En amour, il n’y a guerre d’autre raison de ne s’aimer plus que de s’être trop aimés./</div2> </p>
+                    Les froideurs et les relâchements dans l’amitié ont leurs causes. En amour, il n’y a guerre d’autre raison de ne s’aimer plus que de s’être trop aimés./</p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="31"> <p>
-                L’on n’est pas plus maître de toujours aimer qu’on l’a été de ne pas aimer.</div2> </p>
+                    L’on n’est pas plus maître de toujours aimer qu’on l’a été de ne pas aimer.</p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="32"> <p>
-                Les amours meurent par le dégoût, et l’oubli les enterre. </div2> </p> 
+                    Les amours meurent par le dégoût, et l’oubli les enterre. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="33"> <p>
-                Le commencement et le déclin de l’amour se font sentir par l’embarras où l’on est de se trouver seuls.</div2> </p> 
+                    Le commencement et le déclin de l’amour se font sentir par l’embarras où l’on est de se trouver seuls.</p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="34"> <p>
-                Cesser d’aimer, preuve sensible que l’homme est borné, et que le cœur a
-                ses limites./ 
-                C’est faiblesse que d’aimer ; c’est souvent une autre faiblesse que de
-                guérir./ 
-                On guérit comme on se console : on n’a pas dans le cœur de quoi toujours
-                pleurer et toujours aimer./ </div2> </p> 
+                    Cesser d’aimer, preuve sensible que l’homme est borné, et que le cœur a
+                    ses limites./ 
+                    C’est faiblesse que d’aimer ; c’est souvent une autre faiblesse que de
+                    guérir./ 
+                    On guérit comme on se console : on n’a pas dans le cœur de quoi toujours
+                    pleurer et toujours aimer./ </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1694_10" n="35"> <p> 
-                Il devrait y avoir dans le cœur des sources inépuisables de douleur pour de certaines pertes. Ce n’est guère par vertu ou par force d’esprit que l’on sort d’une grande affliction : l’on pleure amèrement, et l’on est sensiblement touché ; mais l’on est ensuite si faible ou si léger que l’on se console. </div2> </p> 
+                    Il devrait y avoir dans le cœur des sources inépuisables de douleur pour de certaines pertes. Ce n’est guère par vertu ou par force d’esprit que l’on sort d’une grande affliction : l’on pleure amèrement, et l’on est sensiblement touché ; mais l’on est ensuite si faible ou si léger que l’on se console. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="36"> <p> 
-                Si une laide se fait aimer, ce ne peut être qu’éperdument ; car il faut que ce soit ou par une étrange faiblesse de son amant, ou par de plus secrets et de plus invincibles charmes que ceux de la beauté. </div2> </p> 
+                    Si une laide se fait aimer, ce ne peut être qu’éperdument ; car il faut que ce soit ou par une étrange faiblesse de son amant, ou par de plus secrets et de plus invincibles charmes que ceux de la beauté. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="37"> <p>
-                L’on est encore longtemps à se voir par 
-                
-                <app>
-                    <lem>habitude</lem>
+                    L’on est encore longtemps à se voir par 
+                    
+                    <app>
+                        <lem>habitude</lem>
                         <rdg wit= "Paris_1694_8">habitude</rdg>
                         <rdg wit= "#Paris_1699_10">habïtude</rdg>
-                </app>
-
-                , et à se dire de bouche que l’on s’aime, après que les manières disent qu’on ne s’aime plus. </div2> </p> 
+                    </app>
+                    
+                    , et à se dire de bouche que l’on s’aime, après que les manières disent qu’on ne s’aime plus. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="38"> <p> 
-                Vouloir oublier quelqu’un, c’est y penser. L’amour a cela de commun avec les scrupules, qu’il s’aigrit par les réflexions et les retours que l’on fait pour s’en délivrer. Il faut, s’il se peut, ne point songer sa passion pour l’affaiblir. </div2> </p> 
+                    Vouloir oublier quelqu’un, c’est y penser. L’amour a cela de commun avec les scrupules, qu’il s’aigrit par les réflexions et les retours que l’on fait pour s’en délivrer. Il faut, s’il se peut, ne point songer sa passion pour l’affaiblir. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="39"> <p>
-                L’on veut faire tout le bonheur, ou si cela ne se peut ainsi, tout le malheur de ce qu’on aime. </div2> </p>
+                    L’on veut faire tout le bonheur, ou si cela ne se peut ainsi, tout le malheur de ce qu’on aime. </p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="40"> <p>
-                Regretter ce que l’on aime est un bien, en comparaison de vivre avec ce que l’on hait. </div2> </p> 
-               
+                    Regretter ce que l’on aime est un bien, en comparaison de vivre avec ce que l’on hait. </p></div2> 
+                
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="41"> <p>
-                Quelque désintéressement qu’on ait à l’égard de ceux qu’on aime, il faut quelquefois se contraindre pour eux, et avoir la générosité de recevoir./ 
-                Celui-là peut prendre, qui goûte un plaisir aussi délicat à recevoir que son ami en sent à lui donner. </div2> </p> 
+                    Quelque désintéressement qu’on ait à l’égard de ceux qu’on aime, il faut quelquefois se contraindre pour eux, et avoir la générosité de recevoir./ 
+                    Celui-là peut prendre, qui goûte un plaisir aussi délicat à recevoir que son ami en sent à lui donner. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="42"> <p> 
-                Donner c’est agir : ce n’est pas souffrir de ses bienfaits, ni céder à l’importunité ou à la nécessité de ceux qui nous demandent. </div2> </p> 
+                    Donner c’est agir : ce n’est pas souffrir de ses bienfaits, ni céder à l’importunité ou à la nécessité de ceux qui nous demandent. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="43" > <p> 
-                Si l’on a donné à ceux que l’on aimait, quelque chose qu’il arrive, il n’y a plus d’occasions où l’on doive songer à ses bienfaits. </div2> </p> 
+                    Si l’on a donné à ceux que l’on aimait, quelque chose qu’il arrive, il n’y a plus d’occasions où l’on doive songer à ses bienfaits. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="44"> <p>
-                On a dit en latin qu’il coûte moins cher de 
-                
-                <app>
-                    <lem>haïr</lem>
+                    On a dit en latin qu’il coûte moins cher de 
+                    
+                    <app>
+                        <lem>haïr</lem>
                         <rdg wit="#Paris_1694_8">haït</rdg>
                         <rdg wit="#Paris_1699_10">haïr</rdg>
-                </app>
-                
-                que d’aimer, ou si l’on veut, que l’amitié est plus à charge que la haine. Il est vrai qu’on est dispensé de donner à ses ennemis ; mais ne coûte-t-il rien de s’en venger ? Ou s’il est doux et naturel de faire du mal à ce que l’on hait, l’est-il moins de faire du bien à ce qu’on aime ? Ne serait-il pas
-                
-                <app>
-                    <lem>dur</lem>
+                    </app>
+                    
+                    que d’aimer, ou si l’on veut, que l’amitié est plus à charge que la haine. Il est vrai qu’on est dispensé de donner à ses ennemis ; mais ne coûte-t-il rien de s’en venger ? Ou s’il est doux et naturel de faire du mal à ce que l’on hait, l’est-il moins de faire du bien à ce qu’on aime ? Ne serait-il pas
+                    
+                    <app>
+                        <lem>dur</lem>
                         <rdg wit="#Paris_1694_8">dut</rdg>
                         <rdg wit="#Paris_1699_10">dur</rdg>
-                </app>
-
-                 et pénible de ne lui en point faire ? </div2> </p>
+                    </app>
+                    
+                    et pénible de ne lui en point faire ? </p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="45"> <p>
-                Il y a du plaisir à rencontrer les yeux de celui à qui l’on vient de donner. </div2> </p>
+                    Il y a du plaisir à rencontrer les yeux de celui à qui l’on vient de donner. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="46"> <p>(46) 
-                Je ne sais si un bienfait qui tombe sur un ingrat, et ainsi sur un indigne, ne change pas de nom, et s’il 
-                
-                <app>
-                    <lem>meritait</lem>
+                    Je ne sais si un bienfait qui tombe sur un ingrat, et ainsi sur un indigne, ne change pas de nom, et s’il 
+                    
+                    <app>
+                        <lem>meritait</lem>
                         <rdg wit="#Paris_1694_8">meritoit</rdg>
                         <rdg wit="#Paris_1699_10">meritoït</rdg>
-                </app>
-
-                plus de reconnaissance. </div2> </p> 
+                    </app>
+                    
+                    plus de reconnaissance. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="47"> <p> 
-                La libéralité consiste moins à donner beaucoup qu’à donner à propos. </div2> </p> 
+                    La libéralité consiste moins à donner beaucoup qu’à donner à propos. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="48"> <p>
-                S’il est vrai que la pitié ou la compassion 
-                
-                <app>
-                    <lem>soit</lem>
+                    S’il est vrai que la pitié ou la compassion 
+                    
+                    <app>
+                        <lem>soit</lem>
                         <rdg wit="#Paris_1694_8">foir</rdg>
                         <rdg wit="#Paris_1699_10">foit</rdg>
-                </app>
-
-                soit un retour vers 
-                
-                <app>
-                    <lem>nous-même</lem>
+                    </app>
+                    
+                    soit un retour vers 
+                    
+                    <app>
+                        <lem>nous-même</lem>
                         <rdg wit="#Paris_1694_8">nous-mèmes</rdg>
                         <rdg wit="#Paris_1699_10">nous_même</rdg>
-                </app>
-
-                qui nous met en la place des malheureux, pourquoi tirent-ils de nous si peu de soulagement dans leurs misères ? Il vaut mieux s’exposer à l’ingratitude que de manquer aux misérables. </div2> </p>
+                    </app>
+                    
+                    qui nous met en la place des malheureux, pourquoi tirent-ils de nous si peu de soulagement dans leurs misères ? Il vaut mieux s’exposer à l’ingratitude que de manquer aux misérables. </p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="49"> <p>
-                L’expérience confirme que la mollesse ou 
-                
-                <app>
-                    <lem>indulgence</lem>
+                    L’expérience confirme que la mollesse ou 
+                    
+                    <app>
+                        <lem>indulgence</lem>
                         <rdg wit="#Paris_1694_8">l'ingratitude</rdg>
                         <rdg wit="#Paris_1699_10">l'indulgence</rdg>
+                    </app>  
+                        
+                        pour soi et la dureté pour les autres n’est qu’un seul et même vice. </p></div2>
                 
-                pour soi et la dureté pour les autres n’est qu’un seul et même vice. </div2> </p>
-             
-        
-        
-        </div1>
+                
+                
+            </div1>
         </body>
-        </text>
-   
-
+    </text>
+    
+    
 </TEI>
