@@ -9,9 +9,16 @@
                 <editor>Estienne Michalet, premier imprimeur du roi, rue S. Jacques, à l'image S. Paul</editor>
                 <respStmt>
                     <resp>encodage TEI</resp>
-                    <name type="person" xml:id="LM">Lucie Mention</name>
+                    <name type="author" xml:id="JLB">Jean de LaBruyère</name>
                 </respStmt> 
             </titleStmt>
+            <editionStmt>
+                <edition></edition>
+                <respStmt>
+                    <name type="person" xml:id="LM">Lucie Mention</name>
+                    <resp>Editrice</resp>
+                </respStmt>
+            </editionStmt>
             <publicationStmt>
                 <authority>Lucie</authority>
             </publicationStmt>
@@ -155,6 +162,7 @@
                 <p>Création de sourceDesc sur une quatrième édition, rajout de source édition 4 dans les div2 pour ce qui est en commun avec l'édition 6</p>
                 <p>Création dans encodingTest d'un charDecl pour les pieds de mouche</p>
                 <p>Création de app pour marquer les variables du n°1 au n°11 paragraphe 1</p>
+                
                 <date>19.10.2022</date>
                 <p>Rajout de source édition 8 dans les div2 pour comparer avec édition 6 qui n'apparaît pas dans l'édition 4</p>
                 <p>Mise à jour du teiHeader</p>
@@ -173,7 +181,11 @@
                 <p>Encodage des noms propres en majuscule</p>
                 <p>Encodage d'une citation en 19 paragraphe 1</p>
                 
-                <p>Choses à encoder : la version numérique du texte avec les éditions 4 et 6 (ou 6 et 8) et voir si on peut faire une sourceDesc pour le texte numérique, les noms en majuscules, les phrases en italique, les c bizarre devant les t dans certains mots, les décos au début du chapitre les jugemens</p>
+                <p>Choses à encoder : la version numérique du texte avec les éditions 4 et 6 (ou 6 et 8) et voir si on peut faire une sourceDesc pour le texte numérique, les phrases en italique, les c bizarre devant les t dans certains mots, les décos au début du chapitre les jugemens</p>
+                
+                <date>31.10.2022</date>
+                <p>Création de note et d'un resp "JLB" dans le fileDesc</p>
+                <p>Refaire tous les app correctement et les notes</p>
             </change>
         </revisionDesc>
     </teiHeader>
@@ -214,22 +226,14 @@
                         <g ref="#fr_pieddemouche"></g>
                         (1)
                         Rien ne ressemble plus à la vive persuasion que le mauvais entêtement : de là les partis, les cabales, les hérésies.
-                        <add>
-                            <me facs>
-                                <bfm: large initial capital>R</bfm: large initial capital>
-                            </me:facs>
-                        </add>
+                        
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (2)
-                        L’on ne pense pas toujours constamment d’un même sujet : l’entêtement et le dégoût se suivent de près.
-                        <app>
-                            <rdg wit="#PARIS_1691_6_1">mefme</rdg>
-                            <rdg wit="#PARIS_1689_4_1">même</rdg>
-                        </app>
+                        L’on ne pense pas toujours constamment d’un <app><lem>même</lem> <rdg wit="#PARIS_1691_6_1">mefme</rdg><rdg wit="#PARIS_1689_4_1">même</rdg></app> sujet : l’entêtement et le dégoût se suivent de près.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -250,11 +254,7 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (5)
-                        Il n’y a rien de plus bas, et qui convienne mieux au peuple, que de parler en des termes magnifiques de ceux mêmes dont l’on pensait très modestement avant leur élévation.
-                        <app>
-                            <rdg wit="#PARIS_1691_6_1">mefmes</rdg>
-                            <rdg wit="#PARIS_1689_4_1">mêmes</rdg>
-                        </app>
+                        Il n’y a rien de plus bas, et qui convienne mieux au peuple, que de parler en des termes magnifiques de ceux <app><lem>mêmes</lem> <rdg wit="#PARIS_1691_6_1">mefmes</rdg><rdg wit="#PARIS_1689_4_1">mêmes</rdg></app> dont l’on pensait très modestement avant leur élévation.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -268,23 +268,16 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (7)
-                        Il est étonnant qu’avec tout l’orgueil dont nous sommes gonflés, et la haute opinion que nous avons de nous-mêmes et de la bonté de notre jugement, nous négligions de nous en servir pour prononcer sur le mérite des autres. La vogue, la faveur populaire, celle du Prince, nous entraînent comme un torrent : nous louons ce qui est loué, bien plus que ce qui est louable.
-                        <app>
-                            <rdg wit="#PARIS_1691_6_1">nous avons</rdg>
-                            <rdg wit="#PARIS_1689_4_1">nous 'avons</rdg>
-                            <rdg wit="#PARIS_1691_6_1">jugement</rdg>
-                            <rdg wit="#PARIS_1689_4_1">iugement</rdg>
-                        </app>
+                        Il est étonnant qu’avec tout l’orgueil dont nous sommes gonflés, et la haute opinion que nous <app><lem> avons</lem><rdg wit="#PARIS_1691_6_1"> avons</rdg> <rdg wit="#PARIS_1689_4_1"> 'avons</rdg></app> de nous-mêmes et de la bonté de notre <app><lem>jugement</lem><rdg wit="#PARIS_1691_6_1">jugement</rdg> <rdg wit="#PARIS_1689_4_1">iugemement</rdg></app>, nous négligions de nous en servir pour prononcer sur le mérite des autres.
+                        La vogue, la faveur populaire, celle du Prince, nous entraînent comme un torrent : nous louons ce qui est loué, bien plus que ce qui est louable.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1694_8_1">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (8)
-                        Je ne sais s’il y a rien au monde qui coûte davantage à approuver et à louer que ce qui est plus digne d’approbation et de louange, et si la vertu, le mérite, la beauté, les bonnes actions, les beaux ouvrages, ont un effet plus naturel et plus sûr que envie, la jalousie, et l’antipathie. Ce n’est pas d’un saint dont un dévot * sait dire du bien, mais d’un autre dévot. Si une belle femme approuve la beauté d’une autre femme, on peut conclure qu’elle a mieux que ce qu’elle approuve. Si un poète loue les vers d’un autre poète, il y a à parier qu’ils sont mauvais et sans conséquence.
-                        <add>
-                            <note place="margin-right">* Faux devot.</note>
-                        </add>
+                        Je ne sais s’il y a rien au monde qui coûte davantage à approuver et à louer que ce qui est plus digne d’approbation et de louange, et si la vertu, le mérite, la beauté, les bonnes actions, les beaux ouvrages, ont un effet plus naturel et plus sûr que envie, la jalousie, et l’antipathie. Ce n’est pas d’un saint dont un dévot <seg>dévot<note place="margin-right">* Faux devot.</note></seg> sait dire du bien, mais d’un autre dévot.
+                        Si une belle femme approuve la beauté d’une autre femme, on peut conclure qu’elle a mieux que ce qu’elle approuve. Si un poète loue les vers d’un autre poète, il y a à parier qu’ils sont mauvais et sans conséquence.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1694_8_1">
@@ -312,10 +305,6 @@
                             <rdg wit="#PARIS_1691_6_1">qui n'ont point de fuite</rdg>
                             <rdg wit="#PARIS_1689_4_1">qui n'ont point de fuites</rdg>
                         </app>
-                        <add>
-                            <place source="#PARIS_1689_4_1"></place>
-                            <note place="bottom-margin">N *</note>
-                        </add>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1694_8_1">
@@ -354,11 +343,6 @@
                             <rdg wit="#PARIS_1691_6_1">source.</rdg>
                             <rdg wit="#PARIS_1694_8_1">source !</rdg>
                         </app>
-                        <add>
-                            <place source="#PARIS_1694_8_1"></place>
-                            <place type="margin-right">Note manuscrite illisible</place>
-                            <hand type="handwritten-note">Jean de La Bruyère</hand>
-                        </add>
                     </p>
                     <p>
                         Que de choses depuis Varron, que Varron a ignorées ! Ne nous suffirait-il pas même de n’être savant que comme Platon ou comme Socrate ?
@@ -373,11 +357,6 @@
                         <persName style="uppercase word">VARRON</persName>
                         <persName style="uppercase word">PLATON</persName>
                         <persName style="uppercase word">SOCRATE</persName>
-                        <add>
-                            <place source="#PARIS_1694_8_1"></place>
-                            <note place="margin-right" type="note">Note manuscrite illisible</note>
-                            <hand type="handwritten-note">Jean de La Bruyère</hand>
-                        </add>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -416,11 +395,6 @@
                             <rdg wit="#PARIS_1691_6_1">parleroit prefque auffi mal, que</rdg>
                             <rdg wit="#PARIS_1689_4_1">parleroit auffi mal que</rdg>
                         </app>
-                        <add>
-                            <place source="#PARIS_1694_8_1"></place>
-                            <note place="margin-right margin-left" type="note">Note manuscrite illisible</note>
-                            <hand type="handwritten-note">Jean de La Bruyère</hand>
-                        </add>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -436,14 +410,6 @@
                             <rdg wit="#PARIS_1691_6_1">leurs ptopres</rdg>
                             <rdg wit="#PARIS_1689_4_1">leurs propres</rdg>
                         </app>
-                        <add>
-                            <place source="#PARIS_1689_4_1"></place>
-                            <supplied>ou</supplied>
-                            <hand type="handwritten-note">Jean de La Bruyère</hand>
-                            <place source="#PARIS_1694_8_1"></place>
-                            <note place="margin-right" type="note">Note manuscrite illisible</note>
-                            <hand type="handwritten-note">Jean de La Bruyère</hand>
-                        </add>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -466,11 +432,6 @@
                             <rdg wit="#PARIS_1691_6_1">excellente</rdg>
                             <rdg wit="#PARIS_1689_4_1">exce lente</rdg>
                         </app>
-                        <add>
-                            <place source="#PARIS_1694_8_1"></place>
-                            <note place="margin-right" type="note">Note manuscrite illisible</note>
-                            <hand type="handwritten-note">Jean de La Bruyère</hand>
-                        </add>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -559,7 +520,6 @@
                         <persName style="uppercase word">BIGNONS</persName>
                         <persName style="uppercase word">LAMOIGNONS</persName>
                         <persName style="uppercase word">ANTONIN</persName>
-                        <cit style="italic">alors les peuples feroient heureux, fi l'Empereur philosophoit, ou fi le Philofophe, ou le grimaud venoit à l'Empire.</cit>
                     </p>
                     <p>
                         Les langues sont la clef ou l’entrée des sciences, et rien davantage ; le mépris des unes tombe sur les autres. Il ne s’agit point si les langues sont anciennes ou nouvelles, mortes ou vivantes, mais si elles sont grossières ou polies, si les livres qu’elles ont formés sont d’un bon ou d’un mauvais goût. Supposons que notre langue pût un jour avoir le sort de la grecque et de la latine, serait-on pédant, quelques siècles après qu’on ne la parlerait plus, pour lire Molière ou La Fontaine ?
