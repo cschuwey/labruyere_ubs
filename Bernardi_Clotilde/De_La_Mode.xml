@@ -4,7 +4,19 @@
         <fileDesc>
             <titleStmt>
                 <title/>
+                <respStmt>
+                    <name>Jean de la Bruyère</name>
+                    <resp xml:id="Auteur">Auteur</resp>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>
+                    <respStat>
+                        <name> Clotilde Bernardi</name>
+                        <resp xml:id="Éditrice">Éditrice</resp>
+                    </respStat>
+                </edition>
+            </editionStmt>
             <publicationStmt>
                 <authority/>
             </publicationStmt>
@@ -127,7 +139,6 @@
                         </imprint>
                     </monogr>
 
-
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
@@ -214,32 +225,26 @@
                     <titlePart>les moeurs</titlePart>
                     <titlePart>de ce siècle</titlePart>
                 </docTitle>
-                <docEdition source="#Paris_1692_Septieme">
-                    <app>
+                <docEdition source="#Paris_1692_Septieme"> Septième édition revue et corrigée. <app>
                         <rdg wit="#Paris_1688_Troisieme"> Troisième édition </rdg>
-                    </app>
-                    <app>
-                        <rdg wit="#Paris_1689_Quatrieme"> Quatrième édition corrigée et augmentée
-                        </rdg>
-                    </app>
-                    <app>
+
+                        <rdg wit="#Paris_1689_Quatrieme"> Quatrième édition corrigée et augmentée </rdg>
+
                         <rdg wit="#Paris_1690_Cinquieme"> Cinquième édition augmentée de plusieurs
-                            remarques</rdg>
-                    </app>
-                    <app>
+                            remarques </rdg>
+
                         <rdg wit="#Paris_1691_Sixieme"> Six'ième édition</rdg>
-                    </app>
-                    <app>
+                        <rdg wit="#Paris_1692_Septieme">Septième édition revue et corrigée.</rdg>
+
                         <rdg wit="#Paris_1694_Huitieme"> Huitième édition revue, corrigée et
                             augmentée</rdg>
-                    </app>
-                    <app>
+
                         <rdg wit="#Paris_1696_Neuvieme"> Neuvième édition revue, corrigée et
                             augmentée</rdg>
-                    </app>
-                    <app>
+
                         <rdg wit="#Paris_1699_Dixieme"> Dixième édition </rdg>
-                    </app> Septième édition revue et corrigée. </docEdition>
+                    </app>
+                </docEdition>
                 <figure/>
                 <docImprint> À Paris, chez Etienne Michallet premier imprimeur du Roy, rue Saint
                     Jacques, à l'image S. Paul. </docImprint>
@@ -281,8 +286,11 @@
                         passion qu’on a généralement pour les choses rares et qui ont cours, mais
                         qu’on a seulement pour une certaine chose, qui est rare, et pourtant à la
                         mode. </p>
-                    <p> Le fleuriste <app>
-                            <rdg source="#Paris_1696_Dixieme"> Fleuriste</rdg>
+                    <p> Le <app>
+                            <rdg source="#Paris_1696_Dixieme">Fleuriste</rdg>
+                            <rdg
+                                source="#Paris_1688_Premiere #Paris_1688_Troisieme #Paris_1689_Quatrieme #Paris_1690_Cinquieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme"
+                                >fleuriste</rdg>
                         </app> a un jardin dans un <app>
                             <rdg
                                 source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme"
@@ -670,10 +678,10 @@
                         ne sont plus. La mode alors la plus curieuse et qui fait plus de plaisir à
                         voir, c’est la plus ancienne : aidée du temps et des années, elle a le même
                         agrément dans les portraits qu’a la saye ou l’habit romain sur les théâtres,
-                        qu’on la mante, le voile et la tiare dans nos tapisseries et dans nos
+                        qu’on la <seg> mante, le voile et la tiare <desc> Ici, trois astérix différentes sont mises sur chacun des mots mais renvoient toutes à la même note.  </desc><note source="#Paris_1691_Sixieme #Paris_1692_Septieme"> Habits des Orientaux</note> </seg> dans nos tapisseries et dans nos
                         peintures. </p>
                     <p> Nos pères nous ont transmis, avec la connaissance de leurs personnes, celle
-                        de leurs habits, de leurs coiffures, de leurs armes, et des autres ornements
+                        de leurs habits, de leurs coiffures, de leurs <seg> armes <note>Offensives et défensives</note></seg>, et des autres ornements
                         qu’ils ont aimés pendant leur vie. Nous ne saurions bien reconnaître cette
                         sorte de bienfait qu’en traitant de même nos descendants. </p>
                 </div2>
