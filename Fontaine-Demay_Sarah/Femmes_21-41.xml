@@ -4,7 +4,19 @@
         <fileDesc>
             <titleStmt>
                 <title/>
+                <respStmt>
+                    <name>Jean de la Bruyère</name>
+                    <resp xml:id="Auteur">Auteur</resp>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>                        
+                </edition>
+                <respStmt>
+                    <name>Sarah Fontaine-Demay</name>
+                    <resp xml:id="Editrice">Éditrice</resp>
+                </respStmt>
+            </editionStmt>
             <publicationStmt>
                 <authority/>
             </publicationStmt>
@@ -242,69 +254,50 @@
                 </head>
                 <div2 n="21"
                     source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"/>Il y a peu de galanteries secrètes <app>
-                            <lem wit="#Ed_19e_origine">. Bien</lem>
-                            <rdg>: bien</rdg>
-                        </app>des femmes ne sont pas mieux désignées par le nom de leurs maris que
-                        par <app>
-                            <lem wit="#Ed_19e_origine">celui</lem>
-                            <rdg>celuy</rdg>
-                        </app> de leurs <app>
-                            <lem wit="#Ed_19e_origine">amants</lem>
-                            <rdg>amans</rdg>
-                        </app>.</p>
+                    <p><g ref="#Pied_de_mouche_seul"/>Il y a peu de galanteries secrètes 
+                        <app><lem wit="#Ed_19e_origine">. Bien</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">: bien</rdg></app>
+                        des femmes ne sont pas mieux désignées par le nom de leurs maris que
+                        par <app><lem wit="#Ed_19e_origine">celui</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">celuy</rdg></app>
+                        de leurs <app><lem wit="#Ed_19e_origine">amants</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">amans</rdg></app>.</p>
                 </div2>
                 <div2 n="22"
-                    source="#Paris_1694_ed8 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"
-                            source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
-                            /><g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/>Une femme
+                    source="#Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
+                    <p><g ref="#Pied_de_mouche_seul" source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"/>
+                        <g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/>Une femme
                         galante veut qu’on l’aime ; il suffit à une coquette d’être trouvée aimable
-                        et de passer pour belle <app>
-                            <lem wit="#Ed_19e_origine">. Celle-là</lem>
-                            <rdg>: celle-là</rdg>
-                        </app> cherche à engager ; celle-ci se contente de plaire <app>
-                            <lem wit="#Ed_19e_origine">. La</lem>
-                            <rdg>: la</rdg>
-                        </app> première passe successivement d’un engagement à un autre ; la seconde
+                        et de passer pour belle <app><lem wit="#Ed_19e_origine">. Celle-là</lem><rdg>: celle-là</rdg></app> 
+                        cherche à engager ; <app><lem wit="#Ed_19e_origine">celle-ci</lem><rdg>celle-cy<note resp="#Editrice">Ancienne graphie</note></rdg></app> 
+                        se contente de plaire 
+                        <app><lem wit="#Ed_19e_origine">. La</lem><rdg>: la</rdg></app> 
+                        première passe successivement d’un engagement à un autre ; la seconde
                         a plusieurs amusements tout à la fois. Ce qui domine dans l’une, c’est la
                         passion et le plaisir ; et dans l’autre, c’est la vanité et la légèreté. La
                         galanterie est un faible du cœur, ou peut-être un vice de la complexion ; la
-                        coquetterie est un dérèglement de l’esprit <app>
-                            <lem wit="#Ed_19e_origine">. La</lem>
-                            <rdg>: la</rdg>
-                        </app> femme galante se fait craindre et la coquette se fait haïr. L’on peut
-                        tirer de ces deux caractères <app>
-                            <lem wit="#Ed_19e_origine">de quoi</lem>
-                            <rdg wit="#Paris_1689_ed5 #Paris_1696_ed9">dequoy</rdg>
-                            <rdg
-                                wit="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10"
-                                >de quoy</rdg>
-                        </app> en faire un troisième, le pire de tous.</p>
+                        coquetterie est un dérèglement de l’esprit <app><lem wit="#Ed_19e_origine">. La</lem><rdg>: la</rdg></app> 
+                        femme galante se fait craindre et la coquette se fait haïr. L’on peut
+                        tirer de ces deux caractères <app><lem wit="#Ed_19e_origine">de quoi</lem><rdg wit="#Paris_1689_ed5 #Paris_1696_ed9">dequoy</rdg><rdg wit="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10">de quoy</rdg></app> 
+                        en faire un troisième, le pire de tous.</p>
                 </div2>
                 <div2 n="23"
                     source="#Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"
-                            source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
-                            /><g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/>Une femme
+                    <p><g ref="#Pied_de_mouche_seul" source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"/>
+                        <g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/>Une femme
                         faible est celle à qui l’on reproche une faute, qui se la reproche à
                         elle-même ; dont le cœur combat la raison ; qui veut guérir, qui ne guérira
                         point, ou bien tard.</p>
                 </div2>
                 <div2 n="24"
                     source="#Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"
-                            source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
-                            /><g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/>Une femme
+                    <p><g ref="#Pied_de_mouche_seul" source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"/>
+                        <g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/>Une femme
                         inconstante est celle qui n’aime plus ; une légère, celle qui déjà en aime
                         un autre ; une volage, celle qui ne sait si elle aime et ce qu’elle aime ;
                         une indifférente, celle qui n’aime rien.</p>
                 </div2>
                 <div2 n="25"
                     source="#Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"
-                            source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
-                            /><g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/> La
+                    <p><g ref="#Pied_de_mouche_seul" source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"/>
+                        <g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/> La
                         perfidie, si je l’ose dire, est un mensonge de toute la personne : c’est
                         dans une femme l’art de placer un mot ou une action qui donne le change, et
                         quelquefois de mettre en œuvre des serments et des promesses qui ne lui
@@ -315,15 +308,13 @@
                 </div2>
                 <div2 n="26"
                     source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"
-                            source="#Paris_1688_ed1 #Paris_1688_ed3 Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
-                        /> Quelques femmes ont dans le cours de leur vie un double engagement à
+                    <p><g ref="#Pied_de_mouche_seul" source="#Paris_1688_ed1 #Paris_1688_ed3 Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"/>
+                        Quelques femmes ont dans le cours de leur vie un double engagement à
                         soutenir, également difficile à rompre et à dissimuler ; il ne manque à l’un
-                        que le contrat, et à l’autre que le cœur. <app>
-                            <rdg wit="#Paris_1688_ed3">Il arrive quelquefois qu'une femme cache à un
-                                homme toute la passion qu'elle senes pour luy ; cependant que de son
-                                côté il feint pour elle toute celle qu'il ne sent pas</rdg>
-                        </app>
+                        que le contrat, et à l’autre que le cœur. 
+                        <app><lem></lem><rdg wit="#Paris_1688_ed3">Il arrive quelquefois qu'une femme cache à un
+                            homme toute la passion qu'elle senes pour luy ; cependant que de son
+                            côté il feint pour elle toute celle qu'il ne sent pas</rdg></app>
                     </p>
                 </div2>
                 <div2 n="27"
@@ -342,7 +333,8 @@
                     source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9">
                     <p><g ref="#Pied_de_mouche_seul"/>Il y a des femmes déjà flétries, qui par leur
                         complexion ou par leur mauvais caractère sont naturellement la ressource des
-                        jeunes gens qui n’ont pas assez de bien. Je ne sais qui est plus à plaindre,
+                        jeunes gens qui n’ont pas assez de bien. Je ne sais qui est
+                        <pb n="187" source="#Paris_1688_ed1"/>plus à plaindre,
                         ou d’une femme avancée en âge qui a besoin d’un cavalier, ou d’un cavalier
                         qui a besoin d’une vieille.</p>
                 </div2>
@@ -392,13 +384,9 @@
                 </div2>
                 <div2 n="32"
                     source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"/>Est-ce en vue du secret, ou par un goût <app>
-                            <lem wit="#Ed_19e_origine">hypocondre</lem>
-                            <rdg
-                                wit="#Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
-                                >hypocondre</rdg>
-                            <rdg wit="#Paris_1688_ed1">hypochondre</rdg>
-                        </app> , que cette femme aime un valet, cette autre un moine, et Dorinne son
+                    <p><g ref="#Pied_de_mouche_seul"/>Est-ce en vue du secret, ou par un goût 
+                        <app><lem wit="#Ed_19e_origine">hypocondre</lem><rdg wit="#Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">hypocondre</rdg><rdg wit="#Paris_1688_ed1">hypochondre</rdg></app>
+                        , que cette femme aime un valet, cette autre un moine, et Dorinne son
                         Médecin ?</p>
                 </div2>
                 <div2 n="33"
@@ -472,8 +460,8 @@
                 <div2 n="37 38 39" source="#Paris_1688_ed1 #Paris_1688_ed3">
                     <p><g ref="#Pied_de_mouche_seul"/>Si le <app><lem wit="#Ed_19e_origine">confesseur</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3">Confesseur</rdg></app> 
                         et le <app><lem wit="#Ed_19e_origine">directeur</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3">Directeur</rdg></app> 
-                        ne conviennent point sur une règle de conduite, qui sera le
-                        tiers qu’une femme prendra pour <app><lem wit="#Ed_19e_origine">sur-arbitre</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3">surarbitre</rdg></app> ?</p>
+                        ne conviennent point sur une règle de conduite, qui sera le tiers qu’une femme prendra pour 
+                        <app><lem wit="#Ed_19e_origine">sur-arbitre</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3">surarbitre</rdg></app> ?</p>
                     <p>Le capital pour une femme n’est pas d’avoir un <app><lem wit="#Ed_19e_origine">directeur</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3">Directeur</rdg></app>
                         , mais de vivre si uniment qu’elle s’en puisse passer.</p>
                     <p>Si une femme pouvait dire à son <app><lem wit="#Ed_19e_origine">confesseur</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3">Confesseur</rdg></app>
