@@ -81,9 +81,9 @@
         
      <encodingDesc>
             <charDecl>
-                <glyph xml:id="pieddemouche"></glyph></charDecl>
-            <desc>¶</desc> desc>
-            </glyph>
+                <glyph xml:id="pieddemouche">
+                    <desc>¶</desc>
+                </glyph>
             </charDecl>
       </encodingDesc>
         
@@ -346,4 +346,4 @@
             
         </p></body></text>
     
-</TEI>
+</TEI> 
