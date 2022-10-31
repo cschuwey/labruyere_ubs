@@ -12,13 +12,13 @@
                 <title/>
                 <author> Lisa </author>
             </titleStmt>
-        <editionStmt>
-            <edition></edition>
-            <respStmt xml:id="LR">
-                <name>Lisa Rivron</name>
-            <resp></resp>
-            </respStmt>
-        </editionStmt>
+            <editionStmt>
+                <edition></edition>
+                <respStmt xml:id="LR">
+                    <name>Lisa Rivron</name>
+                    <resp></resp>
+                </respStmt>
+            </editionStmt>
             <publicationStmt>
                 <authority></authority>
             </publicationStmt>
@@ -60,7 +60,7 @@
                 <preparedness/>
                 <purpose/>
             </textDesc>
-           </profileDesc>
+        </profileDesc>
         <encodingDesc>
             <projectDesc><p></p></projectDesc>
             <charDecl>
@@ -126,18 +126,23 @@
                     coeur. </p> </div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="30"> <p>
+                    <g ref="pied_de_mouche"></g>
                     Les froideurs et les relâchements dans l’amitié ont leurs causes. En amour, il n’y a guerre d’autre raison de ne s’aimer plus que de s’être trop aimés./</p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="31"> <p>
+                    <g ref="pied_de_mouche"></g>
                     L’on n’est pas plus maître de toujours aimer qu’on l’a été de ne pas aimer.</p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="32"> <p>
+                    <g ref="pied_de_mouche"></g>
                     Les amours meurent par le dégoût, et l’oubli les enterre. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="33"> <p>
+                    <g ref="pied_de_mouche"></g>
                     Le commencement et le déclin de l’amour se font sentir par l’embarras où l’on est de se trouver seuls.</p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="34"> <p>
+                    <g ref="#pied_de_mouche"></g>
                     Cesser d’aimer, preuve sensible que l’homme est borné, et que le cœur a
                     ses limites./ 
                     C’est faiblesse que d’aimer ; c’est souvent une autre faiblesse que de
@@ -146,12 +151,15 @@
                     pleurer et toujours aimer./ </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1694_10" n="35"> <p> 
+                    <g ref="#pied_de_mouche"></g>
                     Il devrait y avoir dans le cœur des sources inépuisables de douleur pour de certaines pertes. Ce n’est guère par vertu ou par force d’esprit que l’on sort d’une grande affliction : l’on pleure amèrement, et l’on est sensiblement touché ; mais l’on est ensuite si faible ou si léger que l’on se console. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="36"> <p> 
+                    <g ref="#pied_de_mouche"></g>
                     Si une laide se fait aimer, ce ne peut être qu’éperdument ; car il faut que ce soit ou par une étrange faiblesse de son amant, ou par de plus secrets et de plus invincibles charmes que ceux de la beauté. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="37"> <p>
+                    <g ref="#pied_de_mouche"></g>
                     L’on est encore longtemps à se voir par 
                     
                     <app>
@@ -163,27 +171,34 @@
                     , et à se dire de bouche que l’on s’aime, après que les manières disent qu’on ne s’aime plus. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="38"> <p> 
+                    <g ref="#pied_de_mouche"></g>
                     Vouloir oublier quelqu’un, c’est y penser. L’amour a cela de commun avec les scrupules, qu’il s’aigrit par les réflexions et les retours que l’on fait pour s’en délivrer. Il faut, s’il se peut, ne point songer sa passion pour l’affaiblir. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="39"> <p>
+                    <g ref="#pied_de_mouche"></g>
                     L’on veut faire tout le bonheur, ou si cela ne se peut ainsi, tout le malheur de ce qu’on aime. </p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="40"> <p>
+                    <g ref="#pied_de_mouche"></g>
                     Regretter ce que l’on aime est un bien, en comparaison de vivre avec ce que l’on hait. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="41"> <p>
+                    <g ref="#pied_de_mouche"></g>
                     Quelque désintéressement qu’on ait à l’égard de ceux qu’on aime, il faut quelquefois se contraindre pour eux, et avoir la générosité de recevoir./ 
                     Celui-là peut prendre, qui goûte un plaisir aussi délicat à recevoir que son ami en sent à lui donner. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="42"> <p> 
+                    <g ref="#pied_de_mouche"></g>
                     Donner c’est agir : ce n’est pas souffrir de ses bienfaits, ni céder à l’importunité ou à la nécessité de ceux qui nous demandent. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="43" > <p> 
+                    <g ref="#pied_de_mouche"></g>
                     Si l’on a donné à ceux que l’on aimait, quelque chose qu’il arrive, il n’y a plus d’occasions où l’on doive songer à ses bienfaits. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="44"> <p>
+                    <g ref="#pied_de_mouche"></g>
                     On a dit en latin qu’il coûte moins cher de 
-                    
+                                        
                     <app>
                         <lem>haïr</lem>
                         <rdg wit="#Paris_1694_8">haït</rdg>
@@ -201,9 +216,11 @@
                     et pénible de ne lui en point faire ? </p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="45"> <p>
+                    <g ref="#pied_de_mouche"></g>
                     Il y a du plaisir à rencontrer les yeux de celui à qui l’on vient de donner. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="46"> <p>(46) 
+                    <g ref="#pied_de_mouche"></g>
                     Je ne sais si un bienfait qui tombe sur un ingrat, et ainsi sur un indigne, ne change pas de nom, et s’il 
                     
                     <app>
@@ -215,9 +232,11 @@
                     plus de reconnaissance. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="47"> <p> 
+                    <g ref="#pied_de_mouche"></g>
                     La libéralité consiste moins à donner beaucoup qu’à donner à propos. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="48"> <p>
+                    <g ref="#pied_de_mouche"></g>
                     S’il est vrai que la pitié ou la compassion 
                     
                     <app>
@@ -237,6 +256,7 @@
                     qui nous met en la place des malheureux, pourquoi tirent-ils de nous si peu de soulagement dans leurs misères ? Il vaut mieux s’exposer à l’ingratitude que de manquer aux misérables. </p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="49"> <p>
+                    <g ref="#pied_de_mouche"></g>
                     L’expérience confirme que la mollesse ou 
                     
                     <app>
@@ -244,8 +264,8 @@
                         <rdg wit="#Paris_1694_8">l'ingratitude</rdg>
                         <rdg wit="#Paris_1699_10">l'indulgence</rdg>
                     </app>  
-                        
-                        pour soi et la dureté pour les autres n’est qu’un seul et même vice. </p></div2>
+                    
+                    pour soi et la dureté pour les autres n’est qu’un seul et même vice. </p></div2>
                 
                 
                 
