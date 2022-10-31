@@ -6,6 +6,17 @@
             <titleStmt>
                 <title>Les caractères de Théophraste, traduits du grec, avec Les caractères oules moeurs de ce siècle</title>
             </titleStmt>
+            <editionStmt>
+                <edition></edition>
+                <respStmt xml:id="CM">
+                    <name>Clairvie Marquet</name>
+                    <resp>éditeur</resp>
+                </respStmt>
+                <respStmt xml:id="JDLB">
+                    <name>Jean de la Bruyère</name>
+                    <resp>auteur</resp>
+                </respStmt>
+            </editionStmt>
             <publicationStmt>
                 <authority></authority>
                 <publisher>Etienne Michallet, premier imprimeur du roi</publisher>
@@ -81,6 +92,12 @@
                 </glyph>
                 <glyph xml:id="fr_pieddemouche">
                     <desc>¶</desc>
+                </glyph>
+                <glyph xml:id="fr_pieddemouche_1_parenthese">
+                    <desc>(¶)</desc>
+                </glyph>
+                <glyph xml:id="fr_pieddemouche_2_parentheses">
+                    <desc>((¶))</desc>
                 </glyph>
             </charDecl>
         </encodingDesc>
@@ -245,7 +262,7 @@
                         voilà la source de votre pompeux galimatias, de vos phrases embrouillées, et de vos grands mots qui ne signifient rien. 
                         Vous abordez cet homme, ou vous entrez dans cette chambre ; 
                         je vous tire par votre habit, et vous dis à l’oreille : "Ne songez point à avoir de l’esprit, n’en ayez point, c’est votre rôle ; 
-                        ayez, si vous pouvez, un langage simple, et tel que l’ont ceux en qui vous ne trouvez aucun esprit peut-être alors croira-t-on que vous en avez."<lem>
+                        ayez, si vous pouvez, un langage simple, et tel que l’ont ceux en qui vous ne trouvez aucun esprit peut-être alors croira-t-on que vous en avez."</lem>
                         <rdg wit="#Paris_1690_5">Que dites-vous ? Comment ? Je n’y suis pas ; vous plairoit-il de recommencer !
                         j’y suis encor moins ; je devine enfin : vous voulez Acis me dire qu’il fait froid;que 
                         ne disiez-vous il fait froid ; vous voulez m’apprendre qu’il pleut où qu’il neige ; 
@@ -294,7 +311,7 @@
                         &amp; qu’il faut que les autres écoutent ? On les entend de l’antichambre, 
                         on entre impunément &amp; sans crainte de les interrompre : ils continuënt leur récit sans la moindre attention pour ceux qui entrent ou qui sortent, comme pour le rang ou le merite des personnes qui composent le cercle ; 
                         ils font taire celuy qui commence à conter une nouvelle, 
-                        pour la dire de leur façon qui est la meilleure ; ils la tiennent de Zamet, de Ruccelay, ou de Conchini, 
+                        pour la dire de leur façon qui est la meilleure ; ils la tiennent de <seg>Zamet<note resp="#JDLB" style="***" place="gauche">Sans dire Monsieur</note></seg>,de <seg resp="#JDLB" style="***">Ruccelay<note>Sans dire Monsieur</note></seg>, ou de <seg resp="#JDLB" style="***">Conchini<note>Sans dire Monsieur</note></seg>, 
                         qu’ils ne connoissent point, à qui ils n’ont jamais parlé, &amp; qu’ils traiteroient de Monseigneur s’ils leur parloient :
                         ils s’approchent quelquefois de l’oreille du plus qualifié de l’assemblée 
                         pour le gratifier d’une circonstance que personne ne sçait, &amp; dont ils ne veulent pas que les autres soient instruits ; 
@@ -307,7 +324,7 @@
                         &amp; qu’il faut que les autres écoutent ? On les entend de l’antichambre,  
                         on entre impunément &amp; sans crainte de les interrompre ; ils continuënt leur récit sans la moindre attention pour ceux qui entrent ou qui sortent, comme pour le rang ou le merite des personnes qui composent le cercle ; 
                         ils font taire celuy qui commence à conter une nouvelle, 
-                        pour la dire de leur façon, qui est la meilleure, ils la tiennent de Zamet, de Ruccelay, ou de Conchini, 
+                        pour la dire de leur façon, qui est la meilleure, ils la tiennent de <seg>Zamet<note resp="#JDLB">Sans dire Monsieur</note></seg>,de <seg>Ruccelay<note>Sans dire Monsieur</note></seg>, ou de <seg>Conchini<note>Sans dire Monsieur</note></seg>, 
                         qu’ils ne connoissent point, à qui ils n’ont jamais parlé, &amp; qu’ils traiteroient de Monseigneur s’ils leur parloient : 
                         ils s’approchent quelquefois de l’oreille du plus qualifié de l’assemblée 
                         pour le gratifier d’une circonstance que personne ne sçait, &amp; dont ils ne veulent pas que les autres soient instruits ; 
@@ -558,14 +575,14 @@
                         &amp; avec qui l’on souffre dans la conversation de tout le travail de leur esprit ; 
                         ils sont comme paîtris de phrases &amp; de petits tours d’expression, 
                         concertez dans leur geste &amp; dans tout leur maintien ; 
-                        ils sont puristes &amp; ne hazardent pas le moindre mot, quand il devroit faire le plus bel effet du monde : 
+                        ils sont <seg>puristes<note resp="#JDLB" style="*" place="droite">Gens qui affectent une grande pureté de langage</note></seg> &amp; ne hazardent pas le moindre mot, quand il devroit faire le plus bel effet du monde : 
                         rien d’heureux ne leur échape, rien ne coule de source &amp; avec liberté ; ils parlent proprement &amp; ennuyeusement.</rdg>
                         <rdg wit="#Paris_1690_7">Il y a des gens qui parlent un moment avant que d’avoir pensé : 
                         il y en a d’autres qui ont une fade attention à ce qu’ils disent, 
                         &amp; avec qui l’on souffre dans la conversation de tout le travail de leur esprit ; 
                         ils sont comme paîtris de phrases &amp; de petits tours d’expression, 
                         concertez dans leur geste &amp; dans tout leur maintien ; 
-                        ils sont puristes, &amp; ne hazardent pas le moindre mot, quand il devroit faire le plus bel effet du monde : 
+                        ils sont <seg>puristes<note resp="#JDLB" style="*" place="droite">Gens qui affectent une grande pureté de langage</note></seg>, &amp; ne hazardent pas le moindre mot, quand il devroit faire le plus bel effet du monde : 
                         rien d’heureux ne leur échape, rien ne coule de source &amp; avec liberté ; ils parlent proprement &amp; ennuyeusement.</rdg></app></p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
