@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -8,13 +8,24 @@
 
         <fileDesc>
 
-
             <titleStmt>
 
                 <title>Les caractères de La Bruyère</title>
 
+                <respStmt xml:id="J.DLB">
+                    <name>Jean de La Bruyère</name>
+                    <resp> auteur </resp>
+                </respStmt>
+
             </titleStmt>
 
+            <editionStmt>
+                <edition/>
+                <respStmt xml:id="E.LG">
+                    <name>Le Guellaud Enora</name>
+                    <resp> editeur </resp>
+                </respStmt>
+            </editionStmt>
 
             <publicationStmt>
 
@@ -222,7 +233,9 @@
                 <glyph xml:id="fr_pieddemouche">
                     <desc>¶</desc>
                 </glyph>
+
             </charDecl>
+
         </encodingDesc>
 
 
@@ -241,17 +254,19 @@
 
             <titlePage>
                 <docAuthor source="#Paris_1689_4_1">La Bruyère, Jean de</docAuthor>
+                <docTitle>
+                    <titlePart/>
 
-                <titlePart>Les</titlePart>
-                <titlePart style="big">caractères</titlePart>
-                <titlePart style="big">de Théophraste</titlePart>
-                <titlePart>traduits du grec ;</titlePart>
-                <titlePart>avec</titlePart>
-                <titlePart>les caractères</titlePart>
-                <titlePart>ou</titlePart>
-                <titlePart style="big">les moeurs</titlePart>
-                <titlePart>de ce siècle.</titlePart>
-
+                    <titlePart>Les</titlePart>
+                    <titlePart style="big">caractères</titlePart>
+                    <titlePart style="big">de Théophraste</titlePart>
+                    <titlePart>traduits du grec ;</titlePart>
+                    <titlePart>avec</titlePart>
+                    <titlePart>les caractères</titlePart>
+                    <titlePart>ou</titlePart>
+                    <titlePart style="big">les moeurs</titlePart>
+                    <titlePart>de ce siècle.</titlePart>
+                </docTitle>
                 <docEdition n="4">Quatrième édition</docEdition>
                 <docEdition>corrigée et augmentée</docEdition>
                 <docImprint>Chez Etienne Michalet, premier imprimeur du roy, rue Saint Jacques à
@@ -271,7 +286,7 @@
                     <p>Il y a un goût dans la pure amitié où ne peuvent atteindre ceux qui sont <app>
                             <lem>nés</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1691_6">nez</rdg>
-                        </app> médiocres.</p>
+                        </app> médiocres<note resp="#E.LG">Qu'est-ce que la médiocrité?</note>.</p>
                 </div2>
                 <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
                     <p><g ref="#fr_pieddemouche"/>(2)L’amitié peut subsister entre des gens de <app>
@@ -308,8 +323,11 @@
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
                         </app> de complaisance dans les amis, pour faire en plusieurs années bien
                         moins que ne fait quelquefois en un moment un beau visage ou une belle main
-                        ! <app>
-                            <rdg wit="#Paris_1691_6_1"><g ref="#fr_pieddemouche"/> Le</rdg>
+                        ! </p>
+                    <p><app>
+                            <rdg wit="#Paris_1691_6_1"><g ref="#fr_pieddemouche"/> Le<note
+                                    resp="#E.LG" place="bottom">Premier mot de la page suiviante,
+                                    servait à organiser les pages</note></rdg>
                         </app></p>
 
                 </div2>
@@ -343,13 +361,14 @@
                 <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
                     <p><app>
                             <rdg wit="#Paris_1691_6_1"><g ref="#fr_pieddemouche"/></rdg>
-                        </app>(7) L’amour <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">&amp;</rdg>
-                        </app> l’amitié s’<app>
-                            <lem>excluent</lem>
-                            <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">excluënt</rdg>
-                        </app> l’un l’autre.</p>
+                        </app>(7) <seg>L’amour <app>
+                                <lem>et</lem>
+                                <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">&amp;</rdg>
+                            </app> l’amitié s’<app>
+                                <lem>excluent</lem>
+                                <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">excluënt</rdg>
+                            </app> l’un l’autre.<note resp="#E.LG">On ne pourrait don pas aimer son
+                                ami ou ressentir de l'maitié pour son amant</note></seg></p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><g ref="#fr_pieddemouche"/>(8)<app>
@@ -422,13 +441,17 @@
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><g ref="#fr_pieddemouche"/>(15)Si j’accorde que dans la violence d’une grande
-                        passion on peut aimer quelqu’un plus que soi-même, à qui <app><lem>ferai-je</lem><rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">feray-je</rdg></app> plus de
-                        plaisir, ou à ceux qui aiment, ou à ceux qui sont aimés ?</p>
+                        passion on peut aimer quelqu’un plus que soi-même, à qui <app>
+                            <lem>ferai-je</lem>
+                            <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">feray-je</rdg>
+                        </app> plus de plaisir, ou à ceux qui aiment, ou à ceux qui sont aimés ?</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><g ref="#fr_pieddemouche"/>(16)Les hommes souvent veulent aimer, et ne
                         sauraient y réussir : ils cherchent leur défaite sans pouvoir la rencontrer,
-                        et, si j’ose ainsi parler, ils sont contraints de demeurer libres.</p>
+                        et, si j’ose ainsi parler, ils sont contraints de demeurer <seg>libres<note
+                                resp="#E.LG">Une relation avec une femme restraint l'homme et le
+                                priverait de sa liberté</note></seg>.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><g ref="#fr_pieddemouche"/>(17) Ceux qui s’aiment d’abord avec la plus
