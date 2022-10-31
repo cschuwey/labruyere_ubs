@@ -6,7 +6,23 @@
         <fileDesc>
             <titleStmt>
                 <title>Les caractères de Théophraste, traduits du grec, avec les caractères ou les moeurs de ce siècle</title>
+                <respStmt xml:id="Bruyere">
+                    <name>Jean de la Bruyère</name>
+                    <resp></resp>
+                </respStmt>
             </titleStmt>
+            
+            <editionStmt>
+                <edition></edition>
+                    <respStmt xml:id="MM">
+                        <name>Mathieu Morin</name>
+                        <resp></resp>
+                    </respStmt>
+                    <respStmt xml:id="Imprimeur">
+                        <name>Imprimeur</name>
+                        <resp></resp>
+                    </respStmt>
+            </editionStmt>
             
             <publicationStmt>
                 <authority>Mathieu MORIN</authority>
@@ -336,8 +352,15 @@
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="25"><g ref="#pieddemouche"></g>
-                        Un homme libre, et qui n’a point de femme, s’il a quelque esprit ; 
-                        peut s’élever au-dessus de sa fortune, se mêler dans le monde, 
+                        Un homme libre, 
+                        <app>
+                            <lem>et</lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">&amp;</rdg>
+                        </app> qui n’a point de femme, s’il a quelque 
+                        <app>
+                            <lem>esprit</lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſprit</rdg>
+                        </app> ; peut s’élever au-dessus de sa fortune, se mêler dans le monde, 
                         et aller de pair avec les plus honnêtes gens. Cela est moins facile à celui qui est engagé : 
                         il semble que le mariage met tout le monde dans son ordre.</p>
                 </div2>
@@ -436,8 +459,12 @@
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
-                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="33"><g ref="#pieddemouche"></g>
-                        Les enfants des Dieux, pour ainsi dire, se tirent des règles de la nature, 
+                    <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="33"><g ref="#pieddemouche"></g> 
+                        <seg>Les enfants des Dieux
+                            <note source="#Paris_1688_3" style="*" place="below" resp="#Imprimeur">Fils. Petit-fils. Iſſus de Rois.</note>
+                            <note source="#Paris_1689_4 #Paris_1699_10" style="*" place="right" resp="#Imprimeur">Fils. Petit-fils. Iſſus de Rois.</note>
+                            <note source="#Paris_1688_7" style="✝" place="right" resp="#Imprimeur">Fils. Petit-fils. Iſſus de Rois.</note>
+                        </seg>, pour ainsi dire, se tirent des règles de la nature, 
                         et en sont comme l’exception. Ils n’attendent presque rien du temps et des années. 
                         Le mérite chez eux devance l’âge. Ils naissent instruits, 
                         et ils sont plus tôt des hommes parfaits que le commun des hommes ne sort de l’enfance.</p>
