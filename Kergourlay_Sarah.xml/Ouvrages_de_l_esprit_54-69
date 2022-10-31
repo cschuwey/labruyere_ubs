@@ -123,6 +123,8 @@
                     balisage des remarques</change>
                 <change when="2022-10-16">Balisage des remarques selon les différentes versions du
                     texte déjà ajoutées</change>
+                 <change when="2022-10-23">Balisage des remarques selon les différentes versions du
+                    texte déjà ajoutées</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
