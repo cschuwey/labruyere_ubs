@@ -1,9 +1,16 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <fileDesc>
+         <fileDesc>
             <titleStmt>
                 <title></title>
             </titleStmt>
+            <editionStmt>
+                <edition></edition>
+                <respStmt>
+                    <resp>réalisé par</resp>
+                    <name>steven</name>
+                </respStmt>
+            </editionStmt>
             <publicationStmt>
                 <authority></authority>
             </publicationStmt>
@@ -59,14 +66,11 @@
                         
                   <div2>
                    <p>(40) Je voudrais qu’il me fût permis de crier de toute ma force à ces hommes saints qui ont été autrefois blessés des femmes : "Fuyez les femmes, ne les dirigez point, laissez à d’autres le soin de leur salut."</p>
-                      <div2 source="#Paris_1688_Première>
-                            <p>(40) Remarque absente dans cette édition
+                      
+                  </div2>
 
-                      <div2 source="#Paris_1689_Quatrième>
-                            <p>(40) Remarque absente dans cette édition </p>
-                    </div2>
-
-                        <div2> 
+                        
+                       <div2> 
                             <p>(41) C'est trop contre un mari d’être coquette et dévote ; une femme devrait opter.</p>
                             <app>
                                 <lem wit="Edition de 1688"><g ref="#pieddemouche"/><p>C'eft trop contre un mary d’estre coquette & dévote ; une femme devroit opter.</lem>
