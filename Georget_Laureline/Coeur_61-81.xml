@@ -6,7 +6,22 @@
         <fileDesc>
             <titleStmt>
                 <title> Les Caractères de La Bruyère</title>
-            </titleStmt>
+               
+                <respStmt xml:id="LB">
+                    <name> La Bruyère </name>
+                    <resp> Auteur </resp>
+                </respStmt>
+                
+                </titleStmt>
+                <editionStmt>
+                    <edition> </edition>
+                    <respStmt xml:id="LG">
+                        <name> Georget Laureline </name>
+                        <resp> Editrice
+                        </resp>
+                    </respStmt>
+                </editionStmt>
+            
             <publicationStmt>
                 <authority/>
             </publicationStmt>
@@ -364,7 +379,7 @@
                 </div2>
 
                 <div2 n="70" source="#Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
-                    <p> <g ref="#Pied_de_mouche_simple">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g>
                       
                         C’est par faiblesse que l’on 
                         
@@ -406,7 +421,7 @@
                         conseils, et qui s’égarent volontairement par la crainte qu’ils ont d’être
                         gouvernés. D’autres consentent d’être gouvernés par leurs amis en des choses
                         presque indifférentes, et s’en font un droit de les gouverner à leur tour en
-                        des choses graves et de conséquence. Drance veut passer pour gouverner son
+                        des choses graves et de conséquence. Drance<note source="#LB" hand="texte illisible"> </note> veut passer pour gouverner son
                         maître, qui n’en croit rien, non plus que le public ; parler sans cesse à un
                         grand que l’on sert, en des lieux et en des temps où il convient le moins,
                         lui parler à l’oreille ou en des termes mystérieux, rire jusqu’à éclater en
@@ -547,7 +562,7 @@
                 </div2>
 
                 <div2 n="81" source="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
-                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>
                         Il faut être bien 
                          <app>
                         <lem wit="#Paris_1684_edition_4"> denüé </lem>
@@ -565,4 +580,5 @@
         </body>
     </text>
 </TEI>
+
 
