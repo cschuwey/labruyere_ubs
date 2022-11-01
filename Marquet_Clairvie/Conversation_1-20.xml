@@ -151,6 +151,9 @@
             <listChange>
                 <change when="2022-10-08">1er essai : création de 3 exemplaires dans sourceDesc</change>
                 <change when="2022-10-08">1er essai : commencement du fileDesc</change>
+                <change when="2022-10-24">Intégration des app</change>
+                <change when="2022-11-01">Correction des app et écriture des annotations et changements de page</change>
+
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -189,7 +192,7 @@
             <div1>
                 <head>De la société et de la Conversation</head>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(1)Un caractère bien fade est celui de n’en avoir aucun.</p>
+                    <p> <pb n="174" ed="#Paris_1690_5"/> <pb n="184" ed="#Paris_1692_7"/>(1)Un caractère bien fade est celui de n’en avoir aucun.</p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(2)C’est le <app><lem>rôle</lem><rdg wit="#Paris_1690_5">role</rdg></app> d’un sot d’être importun : un homme habile sent s’il convient <app><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> ou s’il ennuie <app><rdg wit="#Paris_1690_5">;</rdg> <rdg wit="#Paris_1692_7">:</rdg></app>
@@ -203,8 +206,10 @@
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(4)Il <app><rdg wit="#Paris_1690_5 #Paris_1692_7">y</rdg></app>a beaucoup d’esprits obscènes, encore plus de médisants ou de satiriques, peu de délicats<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
-                        Pour badiner avec grâce, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> rencontrer heureusement sur les plus petits sujets, 
-                        il faut trop de <app><lem>manières</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">manieres</rdg></app>, trop de politesse, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> même trop de fécondité <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> c’est créer que de railler ainsi, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> faire quelque chose de rien.</p>
+                        Pour <seg>badiner<note resp="#CM" type="gloss" place="droite">Plaisanter, prendre à la légère</note></seg>
+                        avec grâce, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> rencontrer heureusement sur les plus petits sujets, 
+                        il faut trop de <app><lem>manières</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">manieres</rdg></app>, trop de politesse, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> <pb n="175" ed="#Paris_1690_5"/> même trop de fécondité <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> <pb n="185" ed="#Paris_1692_7"/> c’est créer que de railler ainsi, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> faire quelque chose de rien.</p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(5)Si l’on <app><lem>faisait</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">faisoit</rdg></app> une <app><lem>sérieuse</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">serieuse</rdg></app> attention à tout ce qui se dit de froid,
@@ -217,130 +222,72 @@
                         il faut laisser Aronce parler proverbe, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> <app><lem>Mélinde</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Melinde</rdg></app> parler de <app><lem>soi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soy</rdg></app>, de ses vapeurs, de ses migraines <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de ses insomnies.</p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(6)<app><lem>L’on voit des gens qui, dans les conversations ou dans le peu de commerce que l’on a avec eux, 
+                    <p>(6)L’on voit des gens qui<app><lem>,</lem><rdg wit="#Paris_1690_5 #Paris_1692_7"></rdg></app>dans les conversations ou dans le peu de commerce que l’on a avec eux<app><lem>,</lem><rdg wit="#Paris_1690_5 #Paris_1692_7"></rdg></app> 
                         vous dégoûtent par leurs ridicules expressions, par la nouveauté, 
-                        et j’ose dire par l’impropriété des termes dont ils se servent, 
-                        comme par l’alliance de certains mots qui ne se rencontrent ensemble que dans leur bouche, 
-                        et à qui ils font signifier des choses que leurs premiers inventeurs n’ont jamais eu intention de leur faire dire. 
-                        Ils ne suivent en parlant ni la raison ni l’usage, mais leur bizarre génie, que l’envie de toujours plaisanter, 
-                        et peut-être de briller, tourne insensiblement à un jargon qui leur est propre, et qui devient enfin leur idiome naturel ; 
-                        ils accompagnent un langage si extravagant d’un geste affecté et d’une prononciation qui est contrefaite. 
-                        Tous sont contents d’eux-mêmes et de l’agrément de leur esprit, et l’on ne peut pas dire qu’ils en soient entièrement dénués ; 
-                        mais on les plaint de ce peu qu’ils en ont ; et ce qui est pire, on en souffre
-                        </lem><rdg wit="#Paris_1690_5">L’on voit des gens qui dans les conversations ou dans le peu de commerce que l’on a avec eux 
-                        vous dégoûtent par leurs ridicules expressions, par la nouveauté, 
-                        &amp; j’ose dire par l’improprieté des termes dont ils se servent, 
-                        comme par l’alliance de certains mots qui ne se rencontrent ensemble que dans leur bouche, 
-                        &amp; à qui ils font signifier des choses que leurs premiers inventeurs n’ont jamais eu intention de leur faire dire : 
-                        Ils ne suivent en parlant ny la raison, ny l’usage, mais leur bizarre genie, que l’envie de toûjours plaisanter, 
-                        &amp; peut-être de briller, tourne insensiblement à un jargon qui leur est propre, &amp; qui devient enfin leur idiôme naturel ; 
-                        ils accompagnent un langage si extravagant d’un geste affecté &amp; d’une prononciation qui est contrefaite. 
-                        Tous sont contens d’eux-mêmes &amp; de l’agréement de leur esprit, &amp; l’on ne peut pas dire qu’ils en soient entierement dénuez, 
-                        mais on les plaint de ce peu qu’ils en ont, &amp; ce qui est pire, on en souffre.
-                        </rdg><rdg wit="#Paris_1690_7">L’on voit des gens qui dans les conversations ou dans le peu de commerce que l’on a avec eux 
-                        vous dégoûtent par leurs ridicules expressions, par la nouveauté, 
-                        &amp; j’ose dire par l’improprieté des termes dont ils se servent, 
-                        comme par l’alliance de certains mots qui ne se rencontrent ensemble que dans leur bouche, 
-                        &amp; à qui ils font signifier des choses que leurs premiers inventeurs n’ont jamais eu intention de leur faire dire.
-                        Ils ne suivent en parlant ny la raison, ny l’usage, mais leur bizarre genie, que l’envie de toûjours plaisanter, 
-                        &amp; peut-être de briller, tourne insensiblement à un jargon qui leur est propre, &amp; qui devient enfin leur idiôme naturel,
-                        ils accompagnent un langage si extravagant d’un geste affecté &amp; d’une prononciation qui est contrefaite. 
-                        Tous sont contents d’eux-mêmes &amp; de l’agrément de leur esprit, &amp; l’on ne peut pas dire qu’ils en soient entierement dénuez, 
-                        mais on les plaint de ce peu qu’ils en ont, &amp; ce qui est pire, on en souffre.</rdg></app></p>
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> j’ose dire par <app><lem>l’impropriété</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">l’improprieté</rdg></app> des termes dont ils se servent, 
+                        comme par l’alliance de certains mots qui ne se rencontrent <pb n="186" ed="#Paris_1692_7"/> ensemble que dans leur bouche, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> à <pb n="176" ed="#Paris_1690_5"/> qui ils font signifier des choses que leurs premiers inventeurs n’ont jamais eu intention de leur faire dire<app><lem>.</lem><rdg wit="#Paris_1690_5">:</rdg><rdg wit="#Paris_1692_7">.</rdg></app> 
+                        Ils ne suivent en parlant <app><lem>ni</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">ny</rdg></app> la raison<app><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> <app><lem>ni</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">ny</rdg></app> l’usage, 
+                        mais leur bizarre <app><lem>génie</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">genie</rdg></app>, que l’envie de <app><lem>toujours</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">toûjours</rdg></app> plaisanter, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> peut-être de briller, tourne insensiblement à un jargon qui leur est propre, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> qui devient enfin leur <app><lem>idiome</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">idiôme</rdg></app> naturel <app><lem>;</lem><rdg wit="#Paris_1690_5">;</rdg><rdg wit="#Paris_1692_7">,</rdg></app>
+                        ils accompagnent un langage si extravagant d’un geste affecté <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> d’une prononciation qui est contrefaite. 
+                        Tous sont <app><lem>contents</lem><rdg wit="#Paris_1690_5">contens</rdg><rdg wit="#Paris_1692_7">contents</rdg></app> d’eux-mêmes <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> 
+                        de <app><lem>l’agrément</lem><rdg wit="#Paris_1690_5">l’agréement</rdg><rdg wit="#Paris_1692_7">l’agrément</rdg></app> de leur esprit, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> 
+                        l’on ne peut pas dire qu’ils en soient <app><lem>entièrement</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">entierement</rdg></app> <app><lem>dénués</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">dénuez</rdg></app> <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app>
+                        mais on les plaint de ce peu qu’ils en ont <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> ce qui est pire, on en souffre.</p>
                 </div2>
                 <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p> (7)<app><lem>Que dites-vous ? Comment ? Je n’y suis pas ; vous plairait-il de recommencer ? 
-                        J’y suis encore moins. Je devine enfin : vous voulez, Acis, me dire qu’il fait froid ; 
-                        que ne disiez-vous : "Il fait froid" ? Vous voulez m’apprendre qu’il pleut ou qu’il neige ; 
-                        dites : "Il pleut, il neige." Vous me trouvez bon visage, et vous désirez de m’en féliciter ; 
-                        dites : "Je vous trouve bon visage." — Mais, répondez-vous, cela est bien uni et bien clair ; 
-                        et d’ailleurs qui ne pourrait pas en dire autant ? 
-                        — Qu’importe, Acis ? Est-ce un si grand mal d’être entendu quand on parle, et de parler comme tout le monde ?
-                        Une chose vous manque, Acis, à vous et à vos semblables les diseurs de phobus ; 
-                        vous ne vous en défiez point, et je vais vous jeter dans l’étonnement : une chose vous manque, c’est l’esprit. 
-                        Ce n’est pas tout : il y a en vous une chose de trop, qui est l’opinion d’en avoir plus que les autres ; 
-                        voilà la source de votre pompeux galimatias, de vos phrases embrouillées, et de vos grands mots qui ne signifient rien. 
-                        Vous abordez cet homme, ou vous entrez dans cette chambre ; 
-                        je vous tire par votre habit, et vous dis à l’oreille : "Ne songez point à avoir de l’esprit, n’en ayez point, c’est votre rôle ; 
-                        ayez, si vous pouvez, un langage simple, et tel que l’ont ceux en qui vous ne trouvez aucun esprit peut-être alors croira-t-on que vous en avez."</lem>
-                        <rdg wit="#Paris_1690_5">Que dites-vous ? Comment ? Je n’y suis pas ; vous plairoit-il de recommencer !
-                        j’y suis encor moins ; je devine enfin : vous voulez Acis me dire qu’il fait froid;que 
-                        ne disiez-vous il fait froid ; vous voulez m’apprendre qu’il pleut où qu’il neige ; 
-                        dites il pleut, il neige : vous me trouvez bon visage, &amp; vous désirez de m’en feliciter ; 
-                        dites je vous trouve bon visage, mais, repondez-vou s cela cela est bien uni &amp; bien clair,
-                        &amp; d’ailleurs qui ne pourroit pas en dire autant;
-                        qu’importe, Acis ? est-ce un si grand mal d’estre entendu quand on parle, &amp; de parler comme tout le monde ?
-                        Une chose vous manque , Acis, à vous &amp; à vos semblables les diseurs de Phoebus,
-                        vous ne vous en défiez point, &amp; je vais vous jetter dans l’étonnement, une chose vous manque, c’est l’esprit ; 
-                        Ce n’est pas tout, il y a en vous une chose de trop, qui est l’opinion d’en avoir plus que les autres, 
-                        voilà la source de vostre pompeux galimathias, de vos phrases embrouillées, &amp; de vos grands mots qui ne signifient rien. 
-                        Vous abordez cet homme, ou vous entrez dans cette chambre, 
-                        je vous tire par vôtre habit &amp; vous dis à l’oreille, ne songez point à avoir de l’esprit, n’en ayez point, c’est vostre rôle ; 
-                        ayez si vous pouvez un langage simple, &amp; tel que l’ont ceux en qui vous ne trouvez aucun esprit : peut-être alors croira-t-on que vous en avez."</rdg>
-                        <rdg wit="#Paris_1690_7">Que dites-vous ? Comment ? Je n’y suis pas ; vous plairoit-il de recommencer ?
-                        j’y suis encore moins ; je devine enfin : vous voulez, Acis, me dire qu’il fait froid ;
-                        que ne disiez-vous, il fait froid ; vous voulez m’apprendre qu’il pleut ou qu’il neige; 
-                        dites, il pleut, il neige : vous me trouvez bon visage, &amp; vous désirez de m’en feliciter, 
-                        dites, je vous trouve bon visage ; mais, répondez-vous, cela est bien uni &amp; bien clair,
-                        &amp; d’ailleurs qui ne pourroit pas en dire autant :
-                        qu’importe, Acis, est ce un si grand mal d’être entendu quand on parle, &amp; de parler comme tout le monde ?
-                        Une chose vous manque, Acis, à vous &amp; à vos semblables les diseurs de Phoebus,
-                        vous ne vous en défiez point, &amp; je vais vous jetter dans l’étonnement ; une chose vous manque, c’est l’esprit ; 
-                        Ce n’est pas tout, il y a en vous une chose de trop, qui est l’opinion d’en avoir plus que les autres ; 
-                        voilà la source de vôtre pompeux galimathias, de vos phrases embrouillées, &amp; de vos grands mots qui ne signifient rien. 
-                        Vous abordez cet homme, ou vous entrez dans cette chambre, 
-                        je vous tire par vôtre habit &amp; vous dis à l’oreille, ne songez point à avoir de l’esprit, n’en ayez point, c’est vôtre rôle,
-                        ayez, si vous pouvez un langage simple, &amp; tel que l’ont ceux en qui vous ne trouvez aucun esprit : peut-être alors croira-t-on que vous en avez."</rdg></app></p>
+                    <p> (7)Que dites-vous ? Comment ? Je n’y suis pas ; vous <app><lem>plairait-il</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">plairoit-il</rdg></app> de recommencer <app><lem>?</lem><rdg wit="#Paris_1690_5">!</rdg><rdg wit="#Paris_1692_7">?</rdg></app> 
+                        <app><lem>J’y</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">j’y</rdg></app> suis <app><lem>encore</lem><rdg wit="#Paris_1690_5">encor</rdg><rdg wit="#Paris_1692_7">encore</rdg></app> moins<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> <app><lem>Je</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">je</rdg></app> devine enfin : 
+                        vous voulez<app><lem>,</lem><rdg wit="#Paris_1692_7">,</rdg></app> Acis<app><lem>,</lem><rdg wit="#Paris_1692_7">,</rdg></app> me dire qu’il fait froid ; 
+                        que ne disiez-vous <app><lem>:</lem><rdg wit="#Paris_1692_7">,</rdg></app> <app><lem>"Il fait froid" ?</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">il fait froid ;</rdg></app> <app><lem>Vous</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">vous</rdg></app> voulez m’apprendre qu’il pleut <app><lem>ou</lem><rdg wit="#Paris_1690_5">où</rdg><rdg wit="#Paris_1692_7">ou</rdg></app> qu’il neige ; 
+                        dites <app><lem>:</lem><rdg wit="#Paris_1692_7">,</rdg></app> <app><lem>"Il pleut, il neige." Vous</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">il neige : vous</rdg></app> me trouvez bon visage, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> vous désirez de m’en <app><lem>féliciter ;</lem><rdg wit="#Paris_1690_5">feliciter ;</rdg><rdg wit="#Paris_1692_7">feliciter,</rdg></app> 
+                        dites <app><lem>:</lem><rdg wit="#Paris_1692_7">,</rdg></app> <app><lem>"Je vous trouve <pb n="187" ed="#Paris_1692_7"/> bon visage." — Mais, répondez-vous,</lem><rdg wit="#Paris_1690_5">je vous trouve bon visage, mais, repondez-vou s</rdg><rdg wit="#Paris_1692_7">je vous trouve bon visage ; mais, répondez-vous,</rdg></app> <pb n="177" ed="#Paris_1690_5"/> cela est bien uni <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> bien clair <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> d’ailleurs qui ne <app><lem>pourrait</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">pourroit</rdg></app> pas en dire autant <app><lem>?</lem><rdg wit="#Paris_1690_5">;</rdg><rdg wit="#Paris_1692_7">;</rdg>:</app> 
+                        <app><lem>— Qu’importe, Acis ?</lem><rdg wit="#Paris_1690_5">qu’importe, Acis ?</rdg><rdg wit="#Paris_1692_7">qu’importe, Acis,</rdg></app> <app><lem>Est-ce</lem><rdg wit="#Paris_1690_5">est-ce</rdg><rdg wit="#Paris_1692_7">est ce</rdg></app> un si grand mal <app><lem>d’être</lem><rdg wit="#Paris_1690_5">d’estre</rdg><rdg wit="#Paris_1692_7">d’être</rdg></app> entendu quand on parle, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de parler comme tout le monde ?
+                        Une chose vous manque, Acis, à vous <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> à vos semblables les diseurs de <app><lem>phobus ;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Phoebus,</rdg></app> 
+                        vous ne vous en défiez point, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> je vais vous <app><lem>jeter</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">jetter</rdg></app> dans l’étonnement <app><lem>:</lem><rdg wit="#Paris_1690_5">,</rdg><rdg wit="#Paris_1692_7">,</rdg></app> une chose vous manque, c’est l’esprit<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
+                        Ce n’est pas tout <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> il y a en vous une chose de trop, qui est l’opinion d’en avoir plus que les autres <app><lem>;</lem><rdg wit="#Paris_1690_5">,</rdg><rdg wit="#Paris_1692_7">;</rdg></app> 
+                        voilà la source de <app><lem>votre</lem><rdg wit="#Paris_1690_5">vostre</rdg><rdg wit="#Paris_1692_7">vôtre</rdg></app> pompeux <app><lem>galimatias</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">galimathias</rdg></app>, de vos phrases embrouillées, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de vos grands mots qui ne signifient rien. 
+                        Vous abordez cet homme, ou vous entrez dans cette chambre <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
+                        je vous tire par <app><lem>votre habit,</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">vôtre</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> vous dis à l’oreille <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> <app><lem>"Ne songez point à avoir de l’esprit, n’en ayez point, c’est votre rôle ; 
+                        ayez, si vous pouvez, un langage simple, et tel que l’ont ceux en qui vous ne trouvez aucun esprit peut-être alors croira-t-on que vous en avez."</lem><rdg wit="#Paris_1690_5">ne songez point à avoir de l’esprit, n’en ayez point, c’est vostre rôle ; 
+                        ayez si vous pouvez un langage simple, &amp; tel que l’ont ceux en qui vous ne trouvez aucun esprit : peut-être alors croira-t-on que vous en avez.</rdg><rdg wit="#Paris_1692_7">ne songez point à avoir de l’esprit, n’en ayez point, c’est vôtre rôle,
+                        ayez, si vous pouvez un langage simple, &amp; tel que l’ont ceux en qui vous ne trouvez aucun esprit : peut-être alors croira-t-on que vous en avez.</rdg></app></p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(8)<app><lem>Qui peut se promettre d’éviter dans la société des hommes la rencontre de certains esprits vains, 
-                        légers, familiers, délibérés, qui sont toujours dans une compagnie ceux qui parlent, 
-                        et qu’il faut que les autres écoutent ? On les entend de l’antichambre ; 
-                        on entre impunément et sans crainte de les interrompre : ils continuent leur récit sans la moindre attention pour ceux qui entrent ou qui sortent, comme pour le rang le mérite des personnes qui composent le cercle ; 
-                        ils font taire celui qui commence à conter une nouvelle, 
-                        pour la dire de leur façon, qui est la meilleure : ils la tiennent de Zamet, de Ruccelay, ou de Conchini, 
-                        qu’ils ne connaissent point, à qui ils n’ont jamais parlé, et qu’ils traiteraient de Monseigneur s’ils leur parlaient ; 
-                        ils s’approchent quelquefois de l’oreille du plus qualifié de l’assemblée, 
-                        pour le gratifier d’une circonstance que personne ne sait, et dont ils ne veulent pas que les autres soient instruits ; 
-                        ils suppriment quelques noms pour déguiser l’histoire qu’ils racontent, et pour détourner les applications ; 
-                        vous les priez les pressez inutilement : il y a des choses qu’ils ne diront pas, il y a des gens qu’ils ne sauraient nommer, 
-                        leur parole y est engagée, c’est le dernier secret, c’est un mystère, outre que vous leur demandez l’impossible, 
-                        car sur ce que vous voulez apprendre d’eux, ils ignorent le fait et les personnes.</lem>
-                        <rdg wit="#Paris_1690_5">Qui peut se promettre d’éviter dans la societé des hommes la rencontre de certains esprits vains, 
-                        légers, familiers, délibérez, qui sont toûjours dans une compagnie ceux qui parlent, 
-                        &amp; qu’il faut que les autres écoutent ? On les entend de l’antichambre, 
-                        on entre impunément &amp; sans crainte de les interrompre : ils continuënt leur récit sans la moindre attention pour ceux qui entrent ou qui sortent, comme pour le rang ou le merite des personnes qui composent le cercle ; 
-                        ils font taire celuy qui commence à conter une nouvelle, 
-                        pour la dire de leur façon qui est la meilleure ; ils la tiennent de <seg>Zamet<note resp="#JDLB" style="***" place="gauche">Sans dire Monsieur</note></seg>,de <seg resp="#JDLB" style="***">Ruccelay<note>Sans dire Monsieur</note></seg>, ou de <seg resp="#JDLB" style="***">Conchini<note>Sans dire Monsieur</note></seg>, 
-                        qu’ils ne connoissent point, à qui ils n’ont jamais parlé, &amp; qu’ils traiteroient de Monseigneur s’ils leur parloient :
-                        ils s’approchent quelquefois de l’oreille du plus qualifié de l’assemblée 
-                        pour le gratifier d’une circonstance que personne ne sçait, &amp; dont ils ne veulent pas que les autres soient instruits ; 
-                        ils suppriment quelques noms pour déguiser l’histoire qu’ils racontent, &amp; pour détourner les applications : 
-                        vous les priez, vous les pressez inutilement, il y a des choses qu’ils ne diront pas, il y a des gens qu’ils ne sçauroient nommer, 
-                        leur parole y est engagée, c’est le dernier secret, c’est un mystère ; outre que vous leur demandez l’impossible, 
-                        car sur ce que vous voulez apprendre d’eux, ils ignorent le fait &amp; les personnes.</rdg>
-                        <rdg wit="#Paris_1690_7">Qui peut se promettre d’éviter dans la societé des hommes la rencontre de certains esprits vains, 
-                        légers, familiers, délibérez, qui sont toûjours dans une compagnie ceux qui parlent, 
-                        &amp; qu’il faut que les autres écoutent ? On les entend de l’antichambre,  
-                        on entre impunément &amp; sans crainte de les interrompre ; ils continuënt leur récit sans la moindre attention pour ceux qui entrent ou qui sortent, comme pour le rang ou le merite des personnes qui composent le cercle ; 
-                        ils font taire celuy qui commence à conter une nouvelle, 
-                        pour la dire de leur façon, qui est la meilleure, ils la tiennent de <seg>Zamet<note resp="#JDLB">Sans dire Monsieur</note></seg>,de <seg>Ruccelay<note>Sans dire Monsieur</note></seg>, ou de <seg>Conchini<note>Sans dire Monsieur</note></seg>, 
-                        qu’ils ne connoissent point, à qui ils n’ont jamais parlé, &amp; qu’ils traiteroient de Monseigneur s’ils leur parloient : 
-                        ils s’approchent quelquefois de l’oreille du plus qualifié de l’assemblée 
-                        pour le gratifier d’une circonstance que personne ne sçait, &amp; dont ils ne veulent pas que les autres soient instruits ; 
-                        ils suppriment quelques noms pour déguiser l’histoire qu’ils racontent, &amp; pour détourner les applications : 
-                        vous les priez, vous les pressez inutilement, il y a des choses qu’ils ne diront pas, il y a des gens qu’ils ne sçauroient nommer, 
-                        leur parole y est engagée, c’est le dernier secret, c’est un mystère, outre que vous leur demandez l’impossible ;
-                        car sur ce que vous voulez apprendre d’eux, ils ignorent le fait &amp; les personnes.</rdg></app></p>
+                    <p>(8)Qui peut se promettre d’éviter dans la <app><lem>société</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">societé</rdg></app> des hommes la ren<pb n="188" ed="#Paris_1692_7"/>contre de certains esprits vains, 
+                        <app><lem>légers</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">le<pb n="178" ed="#Paris_1690_5"/>-gers</rdg></app>, familiers, <app><lem>délibérés</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">délibérez</rdg></app>, 
+                        qui sont <app><lem>toujours</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">toûjours</rdg></app> dans une compagnie ceux qui parlent, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> qu’il faut que les autres écoutent ? On les entend de <seg>l’antichambre<note resp="#CM" type="gloss" place="gauche">Sorte de vestibule qui précède immédiatement un grand bureau ou un salon de réception.</note></seg><app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
+                        on entre impunément <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> sans crainte de les interrompre <app><lem>:</lem><rdg wit="#Paris_1692_7">;</rdg></app> 
+                        ils <app><lem>continuent</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">continuënt</rdg></app> leur récit sans la moindre attention pour ceux qui entrent ou qui sortent, 
+                        comme pour le rang <app><rdg wit="#Paris_1690_5 #Paris_1692_7">ou</rdg></app> le <app><lem>mérite</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">merite</rdg></app> des personnes qui composent le cercle ; 
+                        ils font taire <app><lem>celui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy</rdg></app> qui commence à conter une nouvelle, 
+                        pour la dire de leur façon, qui est la meilleure <app><lem>:</lem><rdg wit="#Paris_1690_5">;</rdg><rdg wit=" #Paris_1692_7">,</rdg></app> 
+                        ils la tiennent de <seg>Zamet<note resp="#JDLB" source="#Paris_1690_5 #Paris_1692_7" style="***" place="gauche">Sans dire Monsieur</note></seg>, 
+                        de <seg resp="#JDLB" source="#Paris_1690_5 #Paris_1692_7" style="***">Ruccelay<note>Sans dire Monsieur</note></seg>, 
+                        ou de <seg resp="#JDLB" source="#Paris_1690_5 #Paris_1692_7" style="***">Conchini<note>Sans dire Monsieur</note></seg>, 
+                        qu’ils ne <app><lem>connaissent</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">connoissent</rdg></app> point, à qui ils n’ont jamais parlé, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> qu’ils <app><lem>traiteraient</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">traiteroient</rdg></app> de Monseigneur s’ils leur <app><lem>parlaient</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">parloient</rdg></app> <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
+                        ils s’approchent quelquefois de l’oreille du plus qualifié de l’assemblée<app><lem>,</lem></app> 
+                        pour le gratifier d’une circonstance que personne ne <app><lem>sait</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">sçait</rdg></app>, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> dont ils ne veulent pas que les autres soient instruits ; 
+                        ils suppriment quelques noms pour déguiser l’histoire qu’ils racontent, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> pour détourner les applications <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
+                        vous les priez<app><rdg wit="#Paris_1690_5 #Paris_1692_7">, vous</rdg></app> les pressez inutilement <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
+                        il y a des <pb n="189" ed="#Paris_1692_7"/>choses qu’ils ne diront pas, il y a des <pb n="179" ed="#Paris_1690_5"/>gens qu’ils ne <app><lem>sauraient</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">sçauroient</rdg></app> nommer, 
+                        leur parole y est engagée, c’est le dernier secret, c’est un mystère<app><lem>,</lem><rdg wit="#Paris_1690_5">;</rdg><rdg wit="#Paris_1692_7">,</rdg></app> 
+                        outre que vous leur demandez l’impossible<app><lem>,</lem><rdg wit="#Paris_1690_5">,</rdg><rdg wit="#Paris_1692_7">;</rdg></app> 
+                        car sur ce que vous voulez apprendre d’eux, ils ignorent le fait <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> les personnes.</p>
                 </div2>
                 <div2 source="#Paris_1694_8">
-                    <p>(9)<app><lem>Arrias a tout lu, a tout vu, il veut le persuader ainsi ; 
+                    <p>(9)<app><lem><seg>Arrias<note resp="#CM" type="gloss" place="droite">l'anti-portrait d'un honnête homme</note></seg> a tout lu, a tout vu, il veut le persuader ainsi ; 
                         c’est un homme universel, et il se donne pour tel : il aime mieux mentir que de se taire ou de paraître ignorer quelque chose. 
                         On parle à la table d’un grand d’une cour du Nord : il prend la parole, 
                         et l’ôte à ceux qui allaient dire ce qu’ils en savent ; 
                         il s’oriente dans cette région lointaine comme s’il en était originaire ; 
                         il discourt des mœurs de cette cour, des femmes du pays, de ses lois et de ses coutumes ; 
-                        il récite des historiettes qui y sont arrivées 
+                        il récite des <seg>historiettes<note resp="#CM" type="gloss" place="gauche">Court récit écrit ou oral, vrai ou faux, souvent plaisant, sans grande importance.</note></seg> qui y sont arrivées 
                         ; il les trouve plaisantes, et il en rit le premier jusqu’à éclater. 
                         Quelqu’un se hasarde de le contredire, et lui prouve nettement qu’il dit des choses qui ne sont pas vraies. 
                         Arrias ne se trouble point, prend feu au contraire contre l’interrupteur : "Je n’avance, lui dit-il, 
@@ -351,309 +298,171 @@
                         lorsque l’un des conviés lui dit : "C’est Sethon à qui vous parlez, lui-même, et qui arrive de son ambassade."</lem></app></p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(10)<app><lem>Il y a un parti à prendre, dans les entretiens, entre une certaine paresse qu’on a de parler, 
-                        ou quelquefois un esprit abstrait, qui, nous jetant loin du sujet de la conversation, 
-                        nous fait faire ou de mauvaises demandes ou de sottes réponses, 
-                        et une attention importune qu’on a au moindre mot qui échappe, 
-                        pour le relever, badiner autour, y trouver un mystère que les autres n’y voient pas, 
-                        y chercher de la finesse et de la subtilité, seulement pour avoir occasion d’y placer la sienne.</lem>
-                        <rdg wit="#Paris_1690_5">Il y a un party à prendre dans les entretiens entre une certaine paresse qu’on a de parler, 
-                        ou quelquefois un esprit abstrait, qui nous jettant loin du sujet de la conversation, 
-                        nous fait faire ou de mauvaises demandes ou de sottes réponses ;
-                        &amp; une attention importune qu’on a au moindre mot qui échape, 
-                        pour le relever, badiner autour, y trouver un mystère que les autres n’y voyent pas, 
-                        y chercher de la finesse &amp; de la subtilité, seulement pour avoir occasion d’y placer la sienne.</rdg>
-                        <rdg wit="#Paris_1690_7">Il y a un parti à prendre dans les entretiens entre une certaine paresse qu’on a de parler, 
-                        ou quelquefois un esprit abstrait, qui nous jettant loin du sujet de la conversation, 
-                        nous fait faire ou de mauvaises demandes ou de sottes réponses ;
-                        &amp; une attention importune qu’on a au moindre mot qui échape, 
-                        pour le relever, badiner autour, y trouver un mystère que les autres n’y voyent pas, 
-                        y chercher de la finesse &amp; de la subtilité, seulement pour avoir occasion d’y placer la sienne.</rdg></app></p>
+                    <p>(10)Il y a un <app><lem>parti</lem><rdg wit="#Paris_1690_5">party</rdg><rdg wit="#Paris_1692_7">parti</rdg></app> à prendre<app><lem>,</lem></app> 
+                        dans les entretiens<app><lem>,</lem></app> entre une certaine paresse qu’on a de parler, 
+                        ou quelquefois un esprit abstrait, qui<app><lem>,</lem></app> nous <app><lem>jetant</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">jettant</rdg></app> loin du sujet de la conversation, 
+                        nous fait faire ou de mauvaises demandes ou de sottes réponses<app><lem>,</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> une attention importune qu’on a au moindre mot qui <app><lem>échappe</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">échape</rdg></app>, 
+                        pour le relever, badiner autour, y trouver un mystère que les autres n’y <app><lem>voient</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">voyent</rdg></app> pas, 
+                        y chercher de la finesse <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de la subtilité, 
+                        seulement pour avoir occasion d’y placer la sienne.</p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(11)<app><lem>Etre infatué de soi, et s’être fortement persuadé qu’on a beaucoup d’esprit, 
-                        est un accident qui n’arrive guère qu’à celui qui n’en a point, ou qui en a peu. 
-                        Malheur pour lors à qui est exposé à l’entretien d’un tel personnage ! 
-                        combien de jolies phrases lui faudra-t-il essuyer ! 
-                        combien de ces mots aventuriers qui paraissent subitement, durent un temps, 
-                        et que bientôt on ne revoit plus ! S’il conte une nouvelle, c’est moins pour l’apprendre à ceux qui l’écoutent, 
-                        que pour avoir le mérite de la dire, et de la dire bien : elle devient un roman entre ses mains ; 
+                    <p>(11)Etre <seg>infatué<note resp="#CM" type="gloss" place="droite">Avoir une trop bonne opinion de soi-même.</note></seg>
+                         de <app><lem>soi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soy</rdg></app>, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> s’être fortement persuadé qu’on a beaucoup d’esprit, 
+                        est un accident qui n’arrive <app><lem>guère</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">gueres</rdg></app> 
+                        qu’à <app><lem>celui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy</rdg></app> qui n’en a point, ou qui en a peu<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
+                        <app><lem>Malheur</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">malheur</rdg></app> pour lors à qui est exposé à l’entretien d’un tel personnage <app><lem>!</lem><rdg wit="#Paris_1690_5">!</rdg><rdg wit="#Paris_1692_7">,</rdg></app> 
+                        combien  <pb n="180" ed="#Paris_1690_5"/>de jolies phra<pb n="190" ed="#Paris_1692_7"/>ses <app><lem>lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy</rdg></app> faudra-t-il essuyer <app><lem>!</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">?</rdg></app> 
+                        combien de ces mots aventuriers qui <app><lem>paraissent</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">paroissent</rdg></app> subitement, durent un temps, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> que 
+                        <app><lem>bientôt</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">bien-tôt</rdg></app> on ne revoit plus <app><lem>!</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">?</rdg></app>
+                        S’il conte une nouvelle, c’est moins pour l’apprendre à ceux qui l’écoutent, 
+                        que pour avoir le <app><lem>mérite</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">merite</rdg></app> de la dire, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de la dire bien <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
+                        elle devient un roman entre ses mains ; 
                         il fait penser les gens à sa manière, leur met en la bouche ses petites façons de parler, 
-                        et les fait toujours parler longtemps ; 
-                        il tombe ensuite en des parenthèses, qui peuvent passer pour épisodes, 
-                        mais qui font oublier le gros de l’histoire, et à lui qui vous parle, et à vous qui le supportez. 
-                        Que serait-ce de vous et de lui, si quelqu’un ne survenait heureusement pour déranger le cercle, 
-                        et faire oublier la narration ?</lem>
-                        <rdg wit="#Paris_1690_5">Etre infatué de soy, &amp; s’être fortement persuadé qu’on a beaucoup d’esprit, 
-                        est un accident qui n’arrive gueres qu’à celuy qui n’en a point, ou qui en a peu : 
-                        malheur pour lors à qui est exposé à l’entretien d’un tel personnage ! 
-                        combien de jolies phrases luy faudra-t-il essuyer ? 
-                        combien de ces mots aventuriers qui paroissent subitement, durent un temps, 
-                        &amp; que bien-tôt on ne revoit plus ? S’il conte une nouvelle, c’est moins pour l’apprendre à ceux qui l’écoutent, 
-                        que pour avoir le merite de la dire, &amp; de la dire bien ; elle devient un roman entre ses mains ; 
-                        il fait penser les gens à sa manière, leur met en la bouche ses petites façons de parler, 
-                        &amp; les fait toûjours parler long-temps ; 
-                        il tombe ensuite en des parentheses, qui peuvent passer pour épisodes, 
-                        mais qui font oublier le gros de l’histoire, &amp; à luy qui vous parle, &amp; à vous qui le supportez : 
-                        que seroit-ce de vous &amp; de luy, si quelqu’un ne survenoit heureusement pour déranger le cercle, 
-                        &amp; faire oublier la narration ?</rdg>
-                        <rdg wit="#Paris_1690_7">Etre infatué de soy, &amp; s’être fortement persuadé qu’on a beaucoup d’esprit, 
-                        est un accident qui n’arrive gueres qu’à celuy qui n’en a point, ou qui en a peu : 
-                        malheur pour lors à qui est exposé à l’entretien d’un tel personnage, 
-                        combien de jolies phrases luy faudra-t-il essuyer ? 
-                        combien de ces mots aventuriers qui paroissent subitement, durent un temps, 
-                        &amp; que bien-tôt on ne revoit plus ? S’il conte une nouvelle, c’est moins pour l’apprendre à ceux qui l’écoutent, 
-                        que pour avoir le merite de la dire, &amp; de la dire bien ; elle devient un roman entre ses mains ; 
-                        il fait penser les gens à sa manière, leur met en la bouche ses petites façons de parler, 
-                        &amp; les fait toûjours parler long-temps ; 
-                        il tombe ensuite en des parentheses, qui peuvent passer pour épisodes, 
-                        mais qui font oublier le gros de l’histoire, &amp; à luy qui vous parle, &amp; à vous qui le supportez : 
-                        que seroit-ce de vous &amp; de luy, si quelqu’un ne survenoit heureusement pour déranger le cercle, 
-                        &amp; faire oublier la narration ?</rdg></app></p>
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> les fait <app><lem>toujours</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">toûjours</rdg></app> parler <app><lem>longtemps</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">long-temps</rdg></app> ; 
+                        il tombe ensuite en des <app><lem>parenthèses</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">parentheses</rdg></app>, qui peuvent passer pour épisodes, 
+                        mais qui font oublier le gros de l’histoire,
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> à <app><lem>lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy</rdg></app> qui vous parle, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> à vous qui le supportez<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
+                        <app><lem>Que</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">que</rdg></app> <app><lem>serait-ce</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">seroit-ce</rdg></app> de vous 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de <app><lem>lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy</rdg></app>, 
+                        si quelqu’un ne <app><lem>survenait</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">survenoit</rdg></app> heureusement pour déranger le cercle, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> faire oublier la narration ?</p>
                 </div2>
                 <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(12)<app><lem>J’entends Théodecte de l’antichambre ; 
-                        il grossit sa voix à mesure qu’il s’approche ; 
-                        le voilà entré : il rit, il crie, il éclate ; 
-                        on bouche ses oreilles, c’est un tonnerre. 
-                        Il n’est pas moins redoutable par les choses qu’il dit que par le ton dont il parle. 
-                        Il ne s’apaise, et il ne revient de ce grand fracas que pour bredouiller des vanités et des sottises. 
-                        Il a si peu d’égard au temps, aux personnes, aux bienséances, 
-                        que chacun a son fait sans qu’il ait eu intention de le lui donner ; 
-                        il n’est pas encore assis qu’il a, à son insu, désobligé toute l’assemblée. 
-                        A-t-on servi, il se met le premier à table et dans la première place ; 
-                        les femmes sont à sa droite et à gauche. Il mange, il boit, il conte, il plaisante, il interrompt tout à la fois. 
-                        Il n’a nul discernement des personnes, ni du maître, ni des conviés ; 
-                        il abuse de la folle déférence qu’on a pour lui. 
-                        Est-ce lui, est-ce Euthydème qui donne le repas ? Il rappelle à soi toute l’autorité de la table ; 
-                        et il y a un moindre inconvénient à la lui laisser entière qu’à la lui disputer. 
-                        Le vin et les viandes n’ajoutent rien à son caractère. Si l’on joue, il gagne au jeu ; 
-                        il veut railler celui qui perd, et il l’offense ; 
-                        les rieurs sont pour lui : il n’y a sorte de fatuités qu’on ne lui passe. 
-                        Je cède enfin et je disparais, incapable de souffrir plus longtemps Théodecte, et ceux qui le souffrent.</lem>
-                        <rdg wit="#Paris_1690_5">J’entends Theodecte de l’antichambre ; 
-                        il grossit sa voix à mesure qu’il s’approche, 
-                        le voilà entré ; il rit, il crie, il éclate, 
-                        on bouche ses oreilles, c’est un tonnerre ; 
-                        il n’est pas moins redoutable par les choses qu’il dit que par le ton dont il parle ; 
-                        il ne s’apaise &amp; il ne revient de ce grand fracas, que pour bredoüiller des vanitez &amp; des sottises ; 
-                        il a si peu d’égard au temps, aux personnes, aux bienseances 
-                        que chacun a son fait sans qu’il ait eu intention de le luy donner ; 
-                        il n’est pas encor assis qu’il a à son insçû désobligé toute l’assemblée. 
-                        A-t-on servi, il se met le premier à table &amp; dans la première place ; 
-                        les femmes sont à sa droite &amp; à sa gauche ; il mange, il boit, il conte, il plaisante, il interrompt tout à la fois :
-                        il n’a nul discernement des personnes ny du Maître ny des conviez, 
-                        il abuse de la folle déference qu’on a pour luy ; 
-                        est-ce luy, est-ce Eutideme qui donne le repas ? Il rappelle à soy toute l’authorité de la table, 
-                        &amp; il y a un moindre inconvenient à la luy laisser entiere qu’à la lui disputer : 
-                        le vin &amp; les viandes n’ajoûtent rien à son caractère. Si l’on jouë, il gagne au jeu ; 
-                        il veut railler celuy qui perd, &amp; il l’offense ; 
-                        les rieurs sont pour luy, il n’y a sorte de fatuitez qu’on ne luy passe. 
-                        Je cède enfin &amp; je disparois, incapable de souffrir plus long-temps Theodecte, &amp; ceux qui le souffrent.</rdg>
-                        <rdg wit="#Paris_1690_7">J’entends Theodecte de l’antichambre ; 
-                        il grossit sa voix à mesure qu’il s’approche, 
-                        le voilà entré ; il rit, il crie, il éclate, 
-                        on bouche ses oreilles, c’est un tonnerre ; 
-                        il n’est pas moins redoutable par les choses qu’il dit que par le ton dont il parle ; 
-                        il ne s’apaise &amp; il ne revient de ce grand fracas, que pour bredoüiller des vanitez &amp; des sottises ; 
-                        il a si peu d’égard au temps, aux personnes, aux bienseances 
-                        que chacun a son fait sans qu’il ait eu intention de le luy donner ; 
-                        il n’est pas encor assis qu’il a à son insçû, désobligé toute l’assemblée. 
-                        A-t-on servi, il se met le premier à table &amp; dans la première place ; 
-                        les femmes sont à sa droite &amp; à sa gauche ; il mange, il boit, il conte, il plaisante, il interrompt tout à la fois :
-                        il n’a nul discernement des personnes, ny du Maître, ny des conviez, 
-                        il abuse de la folle déference qu’on a pour luy ; 
-                        est-ce luy, est-ce Eutideme qui donne le repas ? Il rappelle à soy toute l’autorité de la table, 
-                        &amp; il y a un moindre inconvenient à la luy laisser entiere qu’à la lui disputer : 
-                        le vin &amp; les viandes n’ajoûtent rien à son caractère. Si l’on jouë, il gagne au jeu ; 
-                        il veut railler celuy qui perd, &amp; il l’offense ; 
-                        les rieurs sont pour luy, il n’y a sorte de fatuitez qu’on ne luy passe. 
-                        Je cède enfin &amp; je disparois, incapable de souffrir plus long-temps Theodecte, &amp; ceux qui le souffrent.</rdg></app></p>
+                    <p>(12)J’entends <app><lem>Théodecte</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Theodecte</rdg></app> de l’antichambre ; 
+                        il grossit sa voix à mesure qu’il s’approche <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app>
+                        le voilà entré <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> il rit, il crie, il éclate <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
+                        on bouche ses oreilles, c’est un tonnerre<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
+                        <app><lem>Il</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">il</rdg></app> n’est pas moins redoutable par les choses qu’il dit que par le ton dont il parle<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
+                        <app><lem>Il</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">il</rdg></app> ne s’apaise<app><lem>,</lem></app>
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> il ne revient de ce <pb n="191" ed="#Paris_1692_7"/>grand fracas<app><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
+                        que pour <app><lem>bredouil<pb n="181" ed="#Paris_1690_5"/>ler des vanités</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">bredoüiller des vanitez</rdg></app> 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> des sottises<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
+                        <app><lem>Il</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">il</rdg></app> a si peu d’égard au temps, aux personnes, aux <app><lem>bienséances</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">bienseances</rdg></app><app><lem>,</lem></app> 
+                        que chacun a son fait sans qu’il ait eu intention de le <app><lem>lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy</rdg></app> donner ; 
+                        il n’est pas <app><lem>encore</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">encor</rdg></app> assis qu’il a<app><lem>,</lem></app> 
+                        à son <app><lem>insu</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">insçû</rdg></app>, désobligé toute l’assemblée. 
+                        A-t-on servi, il se met le premier à table <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> dans la première place ; 
+                        les femmes sont à sa droite <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> 
+                        <app><rdg wit=#Paris_1690_5 #Paris_1692_7">sa</rdg></app> à gauche<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
+                        <app><lem>Il</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">il</rdg></app> mange, il boit, il conte, il plaisante, il interrompt tout à la fois<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
+                        <app><lem>Il</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">il</rdg></app> n’a nul discernement des personnes<app><lem>,</lem><rdg wit="#Paris_1692_7">,</rdg></app> 
+                        <app><lem>ni</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">ny</rdg></app> du <app><lem>maître</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Maître</rdg></app><app><lem>,</lem><rdg wit="#Paris_1692_7">,</rdg></app> <app><lem>ni</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">ny</rdg></app> des <app><lem>conviés ;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">conviez,</rdg></app> 
+                        il abuse de la folle <app><lem>déférence</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">déference</rdg></app> qu’on a pour <app><lem>lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy</rdg></app><app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
+                        <app><lem>Est-ce lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">est-ce luy</rdg></app>, est-ce <app><lem>Euthydème</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Eutideme</rdg></app> qui donne le repas ? 
+                        Il rappelle à <app><lem>soi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soy</rdg></app> toute <app><lem>l’autorité</lem><rdg wit="#Paris_1690_5">l’authorité</rdg><rdg wit="#Paris_1692_7">l’autorité</rdg></app> de la table <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> il y a un moindre <app><lem>inconvénient</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">inconvenient</rdg></app> 
+                        à la <app><lem>lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy</rdg></app> laisser <app><lem>entière</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">entiere</rdg></app> qu’à la lui disputer<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
+                        <app><lem>Le</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Le</rdg></app> vin 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> les viandes <app><lem>n’ajoutent</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">n’ajoûtent</rdg></app> rien à son caractère. 
+                        Si l’on <app><lem>joue</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">jouë</rdg></app>, il gagne au jeu ; 
+                        il veut railler <app><lem>celui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy</rdg></app> qui perd, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> il l’offense ; 
+                        les rieurs sont pour <app><lem>lui :</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy,</rdg></app> il n’y a sorte de <app><lem>fatuités</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">fatuitez</rdg></app> qu’on ne <app><lem>lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy</rdg></app> passe. 
+                        Je cède enfin <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> je <app><lem>disparais</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">disparois</rdg></app>, 
+                        incapable de souffrir plus <app><lem>longtemps Théodecte</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">long-temps Theodecte</rdg></app>, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> ceux qui le souffrent.</p>
                 </div2>
                 <div2 source="#Paris_1692_7 #Paris_1694_8">
-                    <p>(13)<app><lem>Troïle est utile à ceux qui ont trop de bien : il leur ôte l’embarras du superflu ; 
+                    <p>(13)<app><lem>Troïle</lem><rdg wit="#Paris_1692_7">Troile</rdg></app> est utile à ceux qui ont <pb n="192" ed="#Paris_1692_7"/>trop de bien <app><lem>:</lem><rdg wit="#Paris_1692_7">,</rdg></app> il leur ôte l’embarras du superflu <app><lem>;</lem><rdg wit="#Paris_1692_7">,</rdg></app> 
                         il leur sauve la peine d’amasser de l’argent, de faire des contrats, de fermer des coffres, 
-                        de porter des clefs sur soi et de craindre un vol domestique. Il les aide dans leurs plaisirs, 
-                        et il devient capable ensuite de les servir dans leurs passions ; 
-                        bientôt il les règle et les maîtrise dans leur conduite. 
-                        Il est l’oracle d’une maison, celui dont on attend, que dis-je ? 
-                        dont on prévient, dont on devine les décisions. 
-                        Il dit de cet esclave : "Il faut le punir", et on le fouette ; 
-                        et de cet autre : "Il faut l’affranchir", et on l’affranchit. 
-                        L’on voit qu’un parasite ne le fait pas rire ; il peut lui déplaire : il est congédié. 
-                        Le maître est heureux, si Troïle lui laisse sa femme et ses enfants. 
-                        Si celui-ci est à table, et qu’il prononce d’un mets qu’il est friand, 
-                        le maître et les conviés, qui en mangeaient sans réflexion, le trouvent friand, 
-                        et ne s’en peuvent rassasier ; s’il dit au contraire d’un autre mets qu’il est insipide, 
-                        ceux qui commençaient à le goûter, n’osant avaler le morceau qu’ils ont à la bouche, 
-                        ils le jettent à terre : tous ont les yeux sur lui, 
-                        observent son maintien et son visage avant de prononcer sur le vin ou sur les viandes qui sont servies. 
-                        Ne le cherchez pas ailleurs que dans la maison de ce riche qu’il gouverne : c’est là qu’il mange, 
-                        qu’il dort et qu’il fait digestion, qu’il querelle son valet, qu’il reçoit ses ouvriers, 
-                        et qu’il remet ses créanciers. Il régente, il domine dans une salle ; 
-                        il y reçoit la cour et les hommages de ceux qui, plus fins que les autres, 
-                        ne veulent aller au maître que par Troïle. 
-                        Si l’on entre par malheur sans avoir une physionomie qui lui agrée, 
-                        il ride son front et il détourne sa vue ; si on l’aborde, il ne se lève pas ; 
-                        si l’on s’assied auprès de lui, il s’éloigne ; si on lui parle, il ne répond point ; 
-                        si l’on continue de parler, il passe dans une autre chambre ; si on le suit, il gagne l’escalier ; 
-                        il franchirait tous les étages, ou il se lancerait par une fenêtre, 
-                        plutôt que de se laisser joindre par quelqu’un qui a un visage ou un ton de voix qu’il désapprouve. 
-                        L’un et l’autre sont agréables en Troïle, et il s’en est servi heureusement pour s’insinuer ou pour conquérir. 
-                        Tout devient, avec le temps, au-dessous de ses soins, 
-                        comme il est au-dessus de vouloir se soutenir ou continuer de plaire par le moindre des talents qui ont commencé à le faire valoir. 
-                        C’est beaucoup qu’il sorte quelquefois de ses méditations et de sa taciturnité pour contredire, 
-                        et que même pour critiquer il daigne une fois le jour avoir de l’esprit. 
-                        Bien loin d’attendre de lui qu’il défère à vos sentiments, qu’il soit complaisant, 
-                        qu’il vous loue, vous n’êtes pas sûr qu’il aime toujours votre approbation, ou qu’il souffre votre complaisance.</lem>
-                        <rdg wit="#Paris_1690_7">Troile est utile à ceux qui ont trop de bien, il leur ôte l’embarras du superflu, 
-                        il leur sauve la peine d’amasser de l’argent, de faire des contrats, de fermer des coffres, 
-                        de porter des clefs sur soy &amp; de craindre un vol domestique ; il les aide dans leurs plaisirs, 
-                        &amp; il devient capable ensuite de les servir dans leurs passions, 
-                        bientôt il les regle &amp; les maîtrise dans leur conduite : 
-                        il est l’oracle d’une maison, celuy dont on attend, que dis-je,
-                        dont on prévient, dont on devine les décisions ; 
-                        il dit de cet esclave, il faut le punir, &amp; on le foüette ; 
-                        &amp; de cet autre, il faut l’affranchir, &amp; on l’affranchit ;
-                        l’on voit qu’un parasite ne le fait pas rire, il peut luy déplaire, il est congédié,
-                        le Maître est heureux, si Troile luy laisse sa femme &amp; ses enfants ;
-                        si celuy-cy est à table, &amp; qu’il prononce d’un mets qu’il est friand, 
-                        le Maître &amp; les conviez, qui en mangeoient sans reflexion, le trouvent friand, 
-                        &amp; ne s’en peuvent rassasier ; s’il dit au contraire d’un autre mets qu’il est insipide, 
-                        ceux qui commençoient à le goûter, n’osant avaler le morceau qu’ils ont à la bouche, 
-                        ils le jettent à terre ; tous ont les yeux yeux sur luy, 
-                        observent son maintien &amp; son visage avant de prononcer sur le vin ou sur les viandes qui sont servies : 
-                        ne le cherchez pas ailleurs que dans la maison de ce riche qu’il gouverne ; c’est là qu’il mange, 
-                        qu’il dort &amp; qu’il fait digestion, qu’il querelle son valet, qu’il reçoit ses ouvriers, 
-                        &amp; qu’il remet ses créanciers ; il prime, il domine dans une salle, 
-                        il y reçoit la cour &amp; les hommages de ceux qui plus fins que les autres 
-                        ne veulent aller au Maître que par Troile, 
-                        si l’on entre par malheur sans avoir une phisionomie qui luy agrée, 
-                        il ride son front &amp; il détourne sa veuë ; si on l’aborde, il ne se leve pas ; 
-                        si l’on s’assied auprés de luy, il s’éloigne ; si on luy parle, il ne répond point ; 
-                        si l’on continuë de parler, il passe dans une autre chambre ; si on le suit, il gagne l’escalier, 
-                        il franchiroit tous les étages, ou il se lanceroit par une fenêtre, 
-                        plutôt que de se laisser joindre par quelqu’un qui a un visage ou un ton de voix qu’il désapprouve ; 
-                        l’un &amp; l’autre sont agréables en Troile, &amp; il s’en est servi heureusement pour s’insinuer ou pour conquérir ; 
-                        tout devient, avec le temps au dessous de ses soins, 
-                        comme il est au dessus de vouloir se soûtenir ou continuer de plaire par le moindre des talents qui ont commencé à le faire valoir ; 
-                        c’est beaucoup qu’il sorte quelquefois de ses meditations &amp; de sa taciturnité pour contredire, 
-                        &amp; que même pour critiquer il daigne une fois le jour avoir de l’esprit ; 
-                        bien loin d’attendre de luy qu’il defere à vos sentimens, qu’il soit complaisant, 
-                        qu’il vous louë, vous n’étes pas seur qu’il aime toûjours votre approbation, ou qu’il souffre vôtre complaisance.</rdg></app></p>
+                        de porter des clefs sur <app><lem>soi</lem><rdg wit="#Paris_1692_7">soy</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app>
+                        de craindre un vol domestique<app><lem>. Il</lem><rdg wit="#Paris_1692_7">; il</rdg></app> les aide dans leurs plaisirs, 
+                        <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> il devient capable ensuite de les servir dans leurs passions <app><lem>;</lem><rdg wit="#Paris_1692_7">,</rdg></app>
+                        bientôt il les <app><lem>règle</lem><rdg wit="#Paris_1692_7">regle</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> les maîtrise dans leur conduite<app><lem>.</lem><rdg wit="#Paris_1692_7">:</rdg></app> 
+                        <app><lem>Il</lem><rdg wit="#Paris_1692_7">il</rdg></app> est l’oracle d’une maison, <app><lem>celui</lem><rdg wit="#Paris_1692_7">celuy</rdg></app> dont on attend, que dis-je <app><lem>?</lem><rdg wit="#Paris_1692_7">,</rdg></app> 
+                        dont on prévient, dont on devine les décisions<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app> 
+                        <app><lem>Il</lem><rdg wit="#Paris_1692_7">il</rdg></app> dit de cet esclave <app><lem>: "Il faut le punir"</lem><rdg wit="#Paris_1692_7">, il faut le punir</rdg></app>, 
+                        <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> on le <app><lem>fouette</lem><rdg wit="#Paris_1692_7">foüette</rdg></app> ; 
+                        <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> de cet autre <app><lem>: "Il faut l’affranchir"</lem><rdg wit="#Paris_1692_7">, il faut l’affranchir</rdg></app>, 
+                        <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> on l’affranchit<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app>
+                        <app><lem>L’on</lem><rdg wit="#Paris_1692_7">l’on</rdg></app> voit qu’un parasite ne le fait pas rire <app><lem>;</lem><rdg wit="#Paris_1692_7">,</rdg></app> il peut <app><lem>lui</lem><rdg wit="#Paris_1692_7">luy</rdg></app> déplaire <app><lem>:</lem><rdg wit="#Paris_1692_7">,</rdg></app> il est congédié<app><lem>.</lem><rdg wit="#Paris_1692_7">,</rdg></app> 
+                        <app><lem>Le</lem><rdg wit="#Paris_1692_7">le</rdg></app> <app><lem>maître</lem><rdg wit="#Paris_1692_7">Maître</rdg></app> est heureux, si <app><lem>Troïle lui</lem><rdg wit="#Paris_1692_7">Troile luy</rdg></app> laisse sa femme <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> ses enfants<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app> 
+                        <app><lem>Si</lem><rdg wit="#Paris_1692_7">si</rdg></app> <app><lem>celui-ci</lem><rdg wit="#Paris_1692_7">celuy-cy</rdg></app> est à table, 
+                        <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> qu’il prononce d’un mets qu’il est friand, 
+                        le <app><lem>maître</lem><rdg wit="#Paris_1692_7">Maître</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> les <app><lem>conviés</lem><rdg wit="#Paris_1692_7">conviez</rdg></app>, 
+                        qui en <app><lem>mangeaient</lem><rdg wit="#Paris_1692_7">mangeoient</rdg></app> sans <app><lem>réflexion</lem><rdg wit="#Paris_1692_7">reflexion</rdg></app>, le trouvent friand, 
+                        <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> ne s’en peuvent rassasier ; s’il dit au contraire d’un autre mets qu’il est insipide, 
+                        ceux qui <app><lem>commençaient</lem><rdg wit="#Paris_1692_7">commençoient</rdg></app> à le goûter, n’osant avaler le morceau qu’ils ont à la bouche, 
+                        ils le jettent à terre <app><lem>:</lem><rdg wit="#Paris_1692_7">;</rdg></app> tous ont les <pb n="193" ed="#Paris_1692_7"/>yeux sur <app><lem>lui</lem><rdg wit="#Paris_1692_7">luy</rdg></app>, 
+                        observent son maintien <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> son visage avant de prononcer sur le vin ou sur les viandes qui sont servies<app><lem>.</lem><rdg wit="#Paris_1692_7">:</rdg></app> 
+                        <app><lem>Ne</lem><rdg wit="#Paris_1692_7">ne</rdg></app> le cherchez pas ailleurs que dans la maison de ce riche qu’il gouverne <app><lem>:</lem><rdg wit="#Paris_1692_7">;</rdg></app> c’est là qu’il mange, 
+                        qu’il dort <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> qu’il fait digestion, qu’il querelle son valet, qu’il reçoit ses ouvriers, 
+                        <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> qu’il remet ses créanciers<app><lem>. Il régente</lem><rdg wit="#Paris_1692_7">; il prime</rdg></app>, il domine dans une salle <app><lem>;</lem><rdg wit="#Paris_1692_7">,</rdg></app> 
+                        il y reçoit la cour <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> les hommages de ceux qui<app><lem>,</lem></app> plus fins que les autres<app><lem>,</lem></app> 
+                        ne veulent aller au <app><lem>maître</lem><rdg wit="#Paris_1692_7">Maître</rdg></app> que par <app><lem>Troïle.</lem><rdg wit="#Paris_1692_7">Troile,</rdg></app> 
+                        <app><lem>Si</lem><rdg wit="#Paris_1692_7">si</rdg></app> l’on entre par malheur sans avoir une <app><lem>physionomie</lem><rdg wit="#Paris_1692_7">phisionomie</rdg></app> qui <app><lem>lui</lem><rdg wit="#Paris_1692_7">luy</rdg></app> agrée, 
+                        il ride son front <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> il détourne sa <app><lem>vue</lem><rdg wit="#Paris_1692_7">veuë</rdg></app> ; si on l’aborde, il ne se <app><lem>lève</lem><rdg wit="#Paris_1692_7">leve</rdg></app> pas ; 
+                        si l’on s’assied <app><lem>auprès</lem><rdg wit="#Paris_1692_7">auprés</rdg></app> de <app><lem>lui</lem><rdg wit="#Paris_1692_7">luy</rdg></app>, il s’éloigne ; si on <app><lem>lui</lem><rdg wit="#Paris_1692_7">luy</rdg></app> parle, il ne répond point ; 
+                        si l’on <app><lem>continue</lem><rdg wit="#Paris_1692_7">continuë</rdg></app> de parler, il passe dans une autre chambre ; si on le suit, il gagne l’escalier <app><lem>;</lem><rdg wit="#Paris_1692_7">,</rdg></app> 
+                        il <app><lem>franchirait</lem><rdg wit="#Paris_1692_7">franchiroit</rdg></app> tous les étages, ou il se <app><lem>lancerait</lem><rdg wit="#Paris_1692_7">lanceroit</rdg></app> par une fenêtre, 
+                        plutôt que de se laisser joindre par quelqu’un qui a un visage ou un ton de voix qu’il désapprouve<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app> 
+                        <app><lem>L’un</lem><rdg wit="#Paris_1692_7">l’un</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> l’autre sont agréables en <app><lem>Troïle</lem><rdg wit="#Paris_1692_7">Troile</rdg></app>, 
+                        <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> il s’en est servi heureusement pour s’insinuer ou pour <pb n="194" ed="#Paris_1692_7"/>conquérir<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app> 
+                        <app><lem>Tout</lem><rdg wit="#Paris_1692_7">tout</rdg></app> devient, avec le temps<app><lem>,</lem></app> <app><lem>au-dessous</lem><rdg wit="#Paris_1692_7">au dessous</rdg></app> de ses soins, 
+                        comme il est <app><lem>au-dessus</lem><rdg wit="#Paris_1692_7">au dessus</rdg></app> de vouloir se <app><lem>soutenir</lem><rdg wit="#Paris_1692_7">soûtenir</rdg></app> ou continuer de plaire par le moindre des talents qui ont commencé à le faire valoir<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app> 
+                        <app><lem>C’est</lem><rdg wit="#Paris_1692_7">c’est</rdg></app> beaucoup qu’il sorte quelquefois de ses <app><lem>méditations</lem><rdg wit="#Paris_1692_7">meditations</rdg></app> 
+                        <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> de sa taciturnité pour contredire, 
+                        <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> que même pour critiquer il daigne une fois le jour avoir de l’esprit<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app> 
+                        <app><lem>Bien</lem><rdg wit="#Paris_1692_7">bien</rdg></app> loin d’attendre de <app><lem>lui</lem><rdg wit="#Paris_1692_7">luy</rdg></app> qu’il <app><lem>défère</lem><rdg wit="#Paris_1692_7">defere</rdg></app> à vos <app><lem>sentiments</lem><rdg wit="#Paris_1692_7">sentimens</rdg></app>, qu’il soit complaisant, 
+                        qu’il vous <app><lem>loue</lem><rdg wit="#Paris_1692_7">louë</rdg></app>, 
+                        vous <app><lem>n’êtes</lem><rdg wit="#Paris_1692_7">n’étes</rdg></app> pas <app><lem>sûr</lem><rdg wit="#Paris_1692_7">seur</rdg></app> 
+                        qu’il aime <app><lem>toujours</lem><rdg wit="#Paris_1692_7">toûjours</rdg></app> votre approbation, ou qu’il souffre <app><lem>votre</lem><rdg wit="#Paris_1692_7">vôtre</rdg></app> complaisance.</p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(14)<app><lem>Il faut laisser parler cet inconnu que le hasard a placé auprès de vous dans une voiture publique, 
-                        à une fête ou à un spectacle ; 
-                        et il ne vous coûtera bientôt pour le connaître que de l’avoir écouté : vous saurez son nom, 
-                        sa demeure, son pays, l’état de son bien, son emploi, celui de son père, la famille dont est sa mère, 
+                    <p>(14)Il faut laisser parler cet incon <pb n="182" ed="#Paris_1690_5"/>nu que le <app><lem>hasard</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">hazard</rdg></app> a placé auprès de vous dans une voiture publique, 
+                        à une fête ou à un spectacle <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</app> 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> il ne vous coûtera <app><lem>bientôt</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">bien-tôt</rdg></app> pour le <app><lem>connaître</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">connoître</rdg></app> 
+                        que de l’avoir écouté <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> vous <app><lem>saurez</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">sçaurez</rdg></app> son nom, 
+                        sa demeure, son <app><lem>pays</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">païs</rdg></app>, l’état de son bien, son <app><lem>emploi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">employ</rdg></app>, 
+                        <app><lem>celui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy</rdg></app> de son <app><lem>père</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">pere</rdg></app>, la famille dont est sa <app><lem>mère</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">mere</rdg></app>, 
                         sa parenté, ses alliances, les armes de sa maison ; vous comprendrez qu’il est noble, qu’il a un château, 
-                        de beaux meubles, des valets, et un carrosse.</lem>
-                        <rdg wit="#Paris_1690_5">Il faut laisser parler cet inconnu que le hazard a placé auprès de vous dans une voiture publique, 
-                        à une fête ou à un spectacle,  
-                        &amp; il ne vous coûtera bien-tôt pour le connoître que de l’avoir écouté ; vous sçaurez son nom, 
-                        sa demeure, son païs, l’état de son bien, son employ, celuy de son pere, la famille dont est sa mere, 
-                        sa parenté, ses alliances, les armes de sa maison ; vous comprendrez qu’il est noble, qu’il a un château, 
-                        de beaux meubles, des valets, &amp; un carrosse.</rdg>
-                        <rdg wit="#Paris_1690_7">Il faut laisser parler cet inconnu que le hazard a placé auprès de vous dans une voiture publique, 
-                        à une fête ou à un spectacle,  
-                        &amp; il ne vous coûtera bien-tôt pour le connoître que de l’avoir écouté ; vous sçaurez son nom, 
-                        sa demeure, son païs, l’état de son bien, son employ, celuy de son pere, la famille dont est sa mere, 
-                        sa parenté, ses alliances, les armes de sa maison ; vous comprendrez qu’il est noble, qu’il a un château, 
-                        de beaux meubles, des valets, &amp; un carrosse. ou ?</rdg></app></p>
+                        de beaux meubles, des valets, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> un carrosse<app><lem>.</lem><rdg wit="#Paris_1692_7">?</rdg> </app><pb n="195" ed="#Paris_1692_7"/></p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(15)<app><lem>Il y a des gens qui parlent un moment avant que d’avoir pensé. 
+                    <p>(15)Il y a des gens qui parlent <app><rdg wit="#Paris_1690_5">:</rdg></app> un moment avant que d’avoir pensé<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app>
                         Il y en a d’autres qui ont une fade attention à ce qu’ils disent, 
-                        et avec qui l’on souffre dans la conversation de tout le travail de leur esprit ; 
-                        ils sont comme pétris de phrases et de petits tours d’expression, 
-                        concertés dans leur geste et dans tout leur maintien ; 
-                        ils sont puristes, et ne hasardent pas le moindre mot, quand il devrait faire le plus bel effet du monde ; 
-                        rien d’heureux ne leur échappe, rien ne coule de source et avec liberté : ils parlent proprement et ennuyeusement.</lem>
-                        <rdg wit="#Paris_1690_5">Il y a des gens qui parlent : un moment avant que d’avoir pensé : 
-                        il y en a d’autres qui ont une fade attention à ce qu’ils disent, 
-                        &amp; avec qui l’on souffre dans la conversation de tout le travail de leur esprit ; 
-                        ils sont comme paîtris de phrases &amp; de petits tours d’expression, 
-                        concertez dans leur geste &amp; dans tout leur maintien ; 
-                        ils sont <seg>puristes<note resp="#JDLB" style="*" place="droite">Gens qui affectent une grande pureté de langage</note></seg> &amp; ne hazardent pas le moindre mot, quand il devroit faire le plus bel effet du monde : 
-                        rien d’heureux ne leur échape, rien ne coule de source &amp; avec liberté ; ils parlent proprement &amp; ennuyeusement.</rdg>
-                        <rdg wit="#Paris_1690_7">Il y a des gens qui parlent un moment avant que d’avoir pensé : 
-                        il y en a d’autres qui ont une fade attention à ce qu’ils disent, 
-                        &amp; avec qui l’on souffre dans la conversation de tout le travail de leur esprit ; 
-                        ils sont comme paîtris de phrases &amp; de petits tours d’expression, 
-                        concertez dans leur geste &amp; dans tout leur maintien ; 
-                        ils sont <seg>puristes<note resp="#JDLB" style="*" place="droite">Gens qui affectent une grande pureté de langage</note></seg>, &amp; ne hazardent pas le moindre mot, quand il devroit faire le plus bel effet du monde : 
-                        rien d’heureux ne leur échape, rien ne coule de source &amp; avec liberté ; ils parlent proprement &amp; ennuyeusement.</rdg></app></p>
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> avec qui l’on souffre dans la conversation de tout le travail de leur esprit ; 
+                        ils sont comme <app><lem>pétris</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">paîtris</rdg></app> de phrases <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de petits tours d’expression, 
+                        <app><lem>concertés</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">concertez</rdg></app> dans leur geste <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> dans tout leur maintien ; 
+                        ils sont <seg>puristes<note resp="#JDLB" source="#Paris_1690_5" style="*" place="gauche">Gens qui affectent une grande pureté de langage</note></seg>
+                        <seg>puristes<note resp="#JDLB" source="#Paris_1692_7" style="*" place="droite">Gens qui affectent une grande pureté de langage</note></seg><app><lem>,</lem><rdg wit="#Paris_1692_7">,</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> ne <app><lem>hasardent</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">hazardent</rdg></app> pas le moindre mot, quand il <app><lem>devrait</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">devroit</rdg></app> faire le plus bel effet du monde <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
+                        rien d’heureux ne leur <app><lem>échappe</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">échape</rdg></app>, rien ne coule de source <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> avec liberté <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> ils parlent proprement <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> ennuyeusement. <pb n="183" ed="#Paris_1690_5"/></p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(16)<app><lem>L’esprit de la conversation consiste bien moins à en montrer beaucoup qu’à en faire trouver aux autres : 
-                        celui qui sort de votre entretien content de soi et de son esprit, l’est de vous parfaitement. 
+                    <p>(16)L’esprit de la conversation consiste bien moins à en montrer beaucoup qu’à en faire trouver aux autres <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
+                        <app><lem>celui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy</rdg></app> qui sort de <app><lem>votre</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">vôtre</rdg></app> entretien content de <app><lem>soi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soy</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> <app><lem>de son esprit, l’est de vous parfaitement.</lem><rdg wit="#Paris_1690_5">de son esprit l’est de vous parfaitement :</rdg><rdg wit="#Paris_1692_7">de son esprit l’est de vous parfaitement.</rdg></app>
                         Les hommes n’aiment point à vous admirer, ils veulent plaire ; 
-                        ils cherchent moins à être instruits, et même réjouis, qu’à être goûtés et applaudis ; 
-                        et le plaisir le plus délicat est de faire celui d’autrui.</lem>
-                        <rdg wit="#Paris_1690_5">L’esprit de la conversation consiste bien moins à en montrer beaucoup qu’à en faire trouver aux autres ; 
-                        celuy qui sort de vôtre entretien content de soy &amp; de son esprit l’est de vous parfaitement : 
-                        Les hommes n’aiment point à vous admirer, ils veulent plaire ; 
-                        ils cherchent moins à être instruits &amp; même réjoüis, qu’à être goûtez &amp; applaudis ; 
-                        &amp; le plaisir le plus délicat est de faire celuy d’autruy.</rdg>
-                        <rdg wit="#Paris_1690_7">L’esprit de la conversation consiste bien moins à en montrer beaucoup qu’à en faire trouver aux autres ; 
-                        celuy qui sort de vôtre entretien content de soy &amp; de son esprit l’est de vous parfaitement. 
-                        Les hommes n’aiment point à vous admirer, ils veulent plaire ; 
-                        ils cherchent moins à être instruits &amp; même réjoüis, qu’à être goûtez &amp; applaudis ; 
-                        &amp; le plaisir le plus délicat est de faire celuy d’autruy.</rdg></app></p>
+                        ils cherchent moins à être instruits<app><lem>,</lem></app> <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> même <app><lem>réjouis</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">réjoüis</rdg></app>, qu’à être <app><lem>goûtés</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">goûtez</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> applaudis ; 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> le plaisir le plus délicat est de faire <app><lem>celui d’autrui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy d’autruy</rdg></app>.</p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(17)<app><lem>Il ne faut pas qu’il y ait trop d’imagination dans nos conversations ni dans nos écrits ; 
-                        elle ne produit souvent que des idées vaines et puériles, 
-                        qui ne servent point à perfectionner le goût et à nous rendre meilleurs : 
-                        nos pensées doivent être prises dans le bon sens et la droite raison, 
-                        et doivent être un effet de notre jugement.</lem>
-                        <rdg wit="#Paris_1690_5">Il ne faut pas qu’il y ait trop d’imagination dans nos conversations ni dans nos écrits ; 
-                        elle ne produit souvent que des idées vaines &amp; puériles, 
-                        qui ne servent point à perfectionner le goût, &amp; à nous rendre meilleurs : 
-                        nos pensées doivent être prises dans le bon sens &amp; la droite raison, 
-                        &amp; doivent être un effet de nôtre jugement.</rdg>
-                        <rdg wit="#Paris_1690_7">Il ne faut pas qu’il y ait trop d’imagination dans nos conversations ny dans nos écrits ; 
-                        elle ne produit souvent que des idées vaines &amp; puériles, 
-                        qui ne servent point à perfectionner le goût, &amp; à nous rendre meilleurs : 
-                        nos pensées doivent être prises dans le bon sens &amp; la droite raison, 
-                        &amp; doivent être un effet de nôtre jugement.</rdg></app></p>
+                    <p>(17)Il ne faut pas qu’il y ait trop d’imagination dans nos conversations <pb n="196" ed="#Paris_1692_7"/><app><lem>ni</lem><rdg wit="#Paris_1690_5">ni</rdg><rdg wit="#Paris_1692_7">ny</rdg></app> dans nos écrits ; 
+                        elle ne produit souvent que des idées vaines <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> puériles, 
+                        qui ne servent point à perfectionner le goût<app><rdg wit=" #Paris_1690_5 #Paris_1692_7">,</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> à nous rendre meilleurs : 
+                        nos pensées doivent être prises dans le bon sens <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> la droite raison, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> doivent être un effet de <app><lem>notre</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">nôtre</rdg></app> jugement.</p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(18)<app><lem>C’est une grande misère que de n’avoir pas assez d’esprit pour bien parler, 
-                        ni assez de jugement pour se taire. Voilà le principe de toute impertinence.</lem>
-                        <rdg wit="#Paris_1690_5">C’est une grande misere que de n’avoir pas assez d’esprit pour bien parler, 
-                        ni assez de jugement pour se taire. Voilà le principe de toute impertinence.</rdg>
-                        <rdg wit="#Paris_1690_7">C’est une grande misere que de n’avoir pas assez d’esprit pour bien parler, 
-                        ny assez de jugement pour se taire. Voilà le principe de toute impertinence.</rdg></app></p>
+                    <p>(18)C’est une grande <app><lem>misère</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">misere</rdg></app> que de n’avoir pas assez d’esprit pour bien parler, 
+                        <app><lem>ni</lem><rdg wit="#Paris_1690_5">ni</rdg><rdg wit="#Paris_1692_7">ny</rdg></app> assez de jugement pour se taire. Voilà le principe de toute impertinence.</p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(19)<app><lem>Dire d’une chose modestement ou qu’elle est bonne ou qu’elle est mauvaise, 
-                        et les raisons pourquoi elle est telle, demande du bon sens et de l’expression : c’est une affaire. 
-                        Il est plus court de prononcer d’un ton décisif, et qui emporte la preuve de ce qu’on avance, 
-                        ou qu’elle est exécrable, ou qu’elle est miraculeuse.</lem>
-                        <rdg wit="#Paris_1690_5">Dire d’une chose modestement ou qu’elle est bonne, ou qu’elle est mauvaise, 
-                        &amp; les raisons pourquoy elle est telle, demande du bon sens &amp; de l’expression, c’est une affaire. 
-                        Il est plus court de prononcer d’un ton décisif, &amp; qui emporte la preuve de ce qu’on avance, 
-                        ou qu’elle est execrable, ou qu’elle est miraculeuse.</rdg>
-                        <rdg wit="#Paris_1690_7">Dire d’une chose modestement ou qu’elle est bonne, ou qu’elle est mauvaise, 
-                        &amp; les raisons pourquoy elle est telle, demande du bon sens &amp; de l’expression, c’est une affaire. 
-                        Il est plus court de prononcer d’un ton décisif, &amp; qui emporte la preuve de ce qu’on avance, 
-                        ou qu’elle est execrable, ou qu’elle est miraculeuse.</rdg></app></p>
+                    <p>(19)Dire d’une chose modestement ou qu’elle est bonne<app><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> ou qu’elle est <pb n="184" ed="#Paris_1690_5"/>mauvaise, 
+                        <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> les raisons <app><lem>pourquoi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">pourquoy</rdg></app> elle est telle, demande du bon sens <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de l’expression <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> c’est une affaire. 
+                        Il est plus court de prononcer d’un ton décisif, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> qui emporte la preuve de ce qu’on avance, 
+                        ou qu’elle est <app><lem>exécrable</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">execrable</rdg></app>, ou qu’elle est miraculeuse.</p>       
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(20)<app><lem>Rien n’est moins selon Dieu et selon le monde que d’appuyer tout ce que l’on dit dans la conversation, 
-                        jusques aux choses les plus indifférentes, par de longs et de fastidieux serments. 
-                        Un honnête homme qui dit oui et non mérite d’être cru : son caractère jure pour lui, 
-                        donne créance à ses paroles, et lui attire toute sorte de confiance.</lem>
-                        <rdg wit="#Paris_1690_5">Rien n’est moins selon Dieu &amp; selon le monde, que d’appuyer tout ce que l’on dit dans la conversation, 
-                        jusques aux choses les plus indifferentes par de longs &amp; de fastidieux sermens. 
-                        Un honnête homme qui dit oüi &amp; non, merite d’être crû ; son caractere jure pour luy, 
-                        donne créance à ses paroles, &amp; lui attire toute sorte de confiance.</rdg>
-                        <rdg wit="#Paris_1690_7">Rien n’est moins selon Deu &amp; selon le monde, que d’appuyer tout ce que l’on dit dans la conversation, 
-                        jusques aux choses les plus indifferentes, par de longs &amp; de fstidieux sermens. 
-                        Un honnête homme qui dit oüi &amp; non, merite d’être crû : son caractere jure pour luy, 
-                        donne créance à ses paroles, &amp; lui attire toute sorte de confiance.</rdg></app></p>
+                    <p>(20)Rien n’est moins selon Dieu <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> selon le monde<app><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> que d’appuyer tout ce que l’on dit dans la conversation, 
+                        jusques aux choses les plus <app><lem>indifférentes,</lem><rdg wit="#Paris_1690_5">indifferentes</rdg><rdg wit="#Paris_1692_7">indifferentes,</rdg></app> 
+                        par de longs <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de fastidieux <app><lem>serments</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">sermens</rdg></app>. 
+                        Un honnête homme qui dit oui <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> non<app><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> <app><lem>mérite</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">merite</rdg></app> d’être <app><lem>cru :</lem><rdg wit="#Paris_1690_5">crû ;</rdg><rdg wit="crû :"></rdg></app> son <pb n="197" ed="#Paris_1692_7"/><app><lem>caractère</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">caractere</rdg></app> jure pour <app><lem>lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy</rdg></app>, 
+                        donne créance à ses paroles, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> lui attire toute sorte de confiance.</p>
                 </div2>    
             </div1>
            
@@ -664,4 +473,3 @@
     </text>
     
     
-</TEI>
