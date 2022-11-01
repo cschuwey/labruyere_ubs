@@ -59,13 +59,13 @@
             <sourceDesc>
                 <bibl>bibliothèque ubs</bibl>
                 <biblStruct>
-                    <monogr  xml:id="PARIS_1694_8">
+                    <monogr xml:id="PARIS_1694_8">
                         <author>Jean de la Bruyère</author>
                         <title>Les caractères de Theophraste traduits du Grec: avec Les caractères ou les moeurs de ce siècle</title>
                         <edition>Huitième édition</edition>
                         <editor>Estienne Michalet</editor>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k575780?rk=450646;0</idno>
-                        <imprint  xml:id="PARIS_1694_8_1">
+                        <imprint xml:id="PARIS_1694_8_1">
                             <pubPlace>Paris</pubPlace>
                             <date>1694</date>
                             <distributor>Rue S. Jacques</distributor>
@@ -233,7 +233,7 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (2)
-                        L’on ne pense pas toujours constamment d’un <app><lem>même</lem> <rdg wit="#PARIS_1691_6_1">mefme</rdg><rdg wit="#PARIS_1689_4_1">même</rdg></app> sujet : l’entêtement et le dégoût se suivent de près.
+                        L’on ne pense pas toujours constamment d’un <app><lem>même</lem><rdg wit="#PARIS_1691_6_1">mefme</rdg><rdg wit="#PARIS_1689_4_1">même</rdg></app> sujet : l’entêtement et le dégoût se suivent de près.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -254,7 +254,7 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (5)
-                        Il n’y a rien de plus bas, et qui convienne mieux au peuple, que de parler en des termes magnifiques de ceux <app><lem>mêmes</lem> <rdg wit="#PARIS_1691_6_1">mefmes</rdg><rdg wit="#PARIS_1689_4_1">mêmes</rdg></app> dont l’on pensait très modestement avant leur élévation.
+                        Il n’y a rien de plus bas, et qui convienne mieux au peuple, que de parler en des termes magnifiques de ceux <app><lem>mêmes</lem><rdg wit="#PARIS_1691_6_1">mefmes</rdg><rdg wit="#PARIS_1689_4_1">mêmes</rdg></app> dont l’on pensait très modestement avant leur élévation.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -268,7 +268,7 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (7)
-                        Il est étonnant qu’avec tout l’orgueil dont nous sommes gonflés, et la haute opinion que nous <app><lem> avons</lem><rdg wit="#PARIS_1691_6_1"> avons</rdg> <rdg wit="#PARIS_1689_4_1"> 'avons</rdg></app> de nous-mêmes et de la bonté de notre <app><lem>jugement</lem><rdg wit="#PARIS_1691_6_1">jugement</rdg> <rdg wit="#PARIS_1689_4_1">iugemement</rdg></app>, nous négligions de nous en servir pour prononcer sur le mérite des autres.
+                        Il est étonnant qu’avec tout l’orgueil dont nous sommes gonflés, et la haute opinion que nous <app><lem> avons</lem><rdg wit="#PARIS_1691_6_1"> avons</rdg><rdg wit="#PARIS_1689_4_1"> 'avons</rdg></app> de nous-mêmes et de la bonté de notre <app><lem>jugement</lem><rdg wit="#PARIS_1691_6_1">jugement</rdg><rdg wit="#PARIS_1689_4_1">iugemement</rdg></app>, nous négligions de nous en servir pour prononcer sur le mérite des autres.
                         La vogue, la faveur populaire, celle du Prince, nous entraînent comme un torrent : nous louons ce qui est loué, bien plus que ce qui est louable.
                     </p>
                 </div2>
@@ -284,76 +284,36 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (9)
-                        Les hommes ne se goûtent qu’à peine les uns les autres, n’ont qu’une faible pente à s’approuver réciproquement : action, conduite, pensée, expression, rien ne plaît, rien ne contente ; ils substituent à la place de ce qu’on leur récite, de ce qu’on leur dit ou de ce qu’on leur lit, ce qu’ils auraient fait eux-mêmes en pareille conjoncture, ce qu’ils penseraient ou ce qu’ils écriraient sur un tel sujet, et ils sont si pleins de leurs idées, qu’il n’y a plus de place pour celles d’autrui.
+                        Les hommes ne se goûtent qu’à peine les uns les autres, n’ont qu’une faible pente à s’approuver réciproquement : action, conduite, pensée, expression, rien ne plaît, rien ne contente ; ils substituent à la place de ce qu’on leur récite, de ce qu’on leur dit ou de ce qu’on leur lit, ce qu’ils auraient fait eux-mêmes en pareille conjoncture, ce qu’ils penseraient ou ce qu’ils écriraient sur un tel sujet,
+                        et ils sont si pleins de leurs idées, qu’il n’y a plus de place pour celles d’autrui.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (10)
-                        Le commun des hommes est si enclin au dérèglement et à la bagatelle, et le monde est si plein d’exemples ou pernicieux ou ridicules, que je croirais assez que l’esprit de singularité, s’il pouvait avoir ses bornes et ne pas aller trop loin, approcherait fort de la droite raison et d’une conduite régulière.
-                        <app>
-                            <rdg wit="#PARIS_1691_6_1"> que je</rdg>
-                            <rdg wit="#PARIS_1689_4_1">que ie</rdg>
-                        </app>
+                        Le commun des hommes est si enclin au dérèglement et à la bagatelle, et le monde est si plein d’exemples ou pernicieux ou ridicules, que <app><lem>je</lem><rdg wit="#PARIS_1691_6_1">je</rdg><rdg wit="#PARIS_1689_4_1">ie</rdg></app> croirais assez que l’esprit de singularité, s’il pouvait avoir ses bornes et ne pas aller trop loin, approcherait fort de la droite raison et d’une conduite régulière.
                     </p>
                     <p>
-                        «Il faut faire comme les autres » : maxime suspecte, qui signifie presque toujours : « il faut mal faire » dès qu’on l’étend au delà de ces choses purement extérieures, qui n’ont point * de suite, qui dépendent de l’usage, de la mode ou des bienséances.
-                        <app>
-                            <rdg wit="#PARIS_1691_6_1">toûjours</rdg>
-                            <rdg wit="#PARIS_1689_4_1">toûiours</rdg>
-                            <rdg wit="#PARIS_1691_6_1">qui n'ont point de fuite</rdg>
-                            <rdg wit="#PARIS_1689_4_1">qui n'ont point de fuites</rdg>
-                        </app>
+                        «Il faut faire comme les autres » : maxime suspecte, qui signifie presque <app><lem>toujours</lem><rdg wit="#PARIS_1691_6_1">toûjours</rdg><rdg wit="#PARIS_1689_4_1">toûiours</rdg></app> : « il faut mal faire » dès qu’on l’étend au delà de ces choses purement extérieures, qui n’ont point de <app><lem>suite</lem><rdg wit="#PARIS_1691_6_1">fuite</rdg><rdg wit="#PARIS_1689_4_1">fuites</rdg></app>, qui dépendent de l’usage,
+                        de la mode ou des bienséances.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1694_8_1">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (11)
-                        Si les hommes sont hommes plutôt qu’ours et panthères, s’ils sont équitables, s’ils se font justice à eux-mêmes, et qu’ils la rendent aux autres, que deviennent les lois, leur texte et le prodigieux accablement de leurs commentaires ? que devient le pétitoire et le possessoire, et tout ce qu’on appelle jurisprudence ? Où se réduisent même ceux qui doivent tout leur relief et toute leur enflure à l’autorité où ils sont établis de faire valoir ces mêmes lois ? Si ces mêmes hommes ont de la droiture et de la sincérité, s’ils sont guéris de la prévention, où sont évanouies les disputes de l’école, la scolastique et les controverses ? S’ils sont tempérants, chastes et modérés, que leur sert le mystérieux jargon de la médecine, et qui est une mine d’or pour ceux qui s’avisent de le parler ? Légistes, docteurs, médecins, quelle chute pour vous, si nous pouvions tous nous donner le mot de devenir sages !
-                        <app>
-                            <rdg wit="#PARIS_1691_6_1">eux-mefmes</rdg>
-                            <rdg wit="#PARIS_1694_8_1">eux-mêmes</rdg>
-                            <rdg wit="#PARIS_1691_6_1">aux autres ;</rdg>
-                            <rdg wit="#PARIS_1694_8_1">aux autres,</rdg>
-                            <rdg wit="#PARIS_1691_6_1">leur texte, &amp; le prodigieux</rdg>
-                            <rdg wit="#PARIS_1694_8_1">leur texte &amp; le prodigieux</rdg>
-                            <rdg wit="#PARIS_1691_6_1">mefme</rdg>
-                            <rdg wit="#PARIS_1694_8_1">même</rdg>
-                            <rdg wit="#PARIS_1691_6_1">ces mefmes loix</rdg>
-                            <rdg wit="#PARIS_1694_8_1">ces mêmes loix</rdg>
-                            <rdg wit="#PARIS_1691_6_1">ces mefmes hommes</rdg>
-                            <rdg wit="#PARIS_1694_8_1">ces mêmes hommes</rdg>
-                        </app>
+                        Si les hommes sont hommes plutôt qu’ours et panthères, s’ils sont équitables, s’ils se font justice à <app><lem>eux-mêmes</lem><rdg wit="#PARIS_1691_6_1">eux-mefmes</rdg><rdg wit="#PARIS_1694_8_1">eux-mêmes</rdg></app>, et qu’ils la rendent <app><lem>aux autres,</lem><rdg wit="#PARIS_1691_6_1">aux autres ;</rdg><rdg wit="#PARIS_1694_8_1">aux autres,</rdg></app>que deviennent les lois, leur <app><lem>texte et</lem><rdg wit="#PARIS_1691_6_1">texte, &amp;</rdg><rdg wit="#PARIS_1694_8_1">texte &amp;</rdg></app>
+                        le prodigieux accablement de leurs commentaires ? que devient le pétitoire et le possessoire, et tout ce qu’on appelle jurisprudence ? Où se réduisent <app><lem>même</lem><rdg wit="#PARIS_1691_6_1">mefme</rdg><rdg wit="#PARIS_1694_8_1">même</rdg></app> ceux qui doivent tout leur relief et toute leur enflure à l’autorité où ils sont établis de faire valoir ces <app><lem>mêmes lois</lem><rdg wit="#PARIS_1691_6_1">mefmes loix</rdg><rdg wit="#PARIS_1694_8_1">ces mêmes loix</rdg></app> ?
+                        Si ces <app><lem>mêmes</lem><rdg wit="#PARIS_1691_6_1">mefmes</rdg><rdg wit="#PARIS_1694_8_1">mêmes</rdg></app> hommes ont de la droiture et de la sincérité, s’ils sont guéris de la prévention, où sont évanouies les disputes de l’école, la scolastique et les controverses ? S’ils sont tempérants, chastes et modérés, que leur sert le mystérieux jargon de la médecine, et qui est une mine d’or pour ceux qui s’avisent de le parler ?
+                        Légistes, docteurs, médecins, quelle chute pour vous, si nous pouvions tous nous donner le mot de devenir sages !
                     </p>
                     <p>
-                        De combien de grands hommes dans les différents exercices de la paix et de la guerre aurait-on dû se passer ! À quel point de perfection et de raffinement n’a-t-on pas porté de certains arts et de certaines sciences qui ne devaient point être nécessaires, et qui sont dans le monde comme des remèdes à tous les maux dont notre malice est l’unique source !
-                         <app>
-                            <rdg wit="#PARIS_1691_6_1">se passer ?</rdg>
-                            <rdg wit="#PARIS_1694_8_1">se passer !</rdg>
-                            <rdg wit="#PARIS_1691_6_1">certaines sciences, qui</rdg>
-                            <rdg wit="#PARIS_1694_8_1">certaines science qui</rdg>
-                            <rdg wit="#PARIS_1691_6_1">point eftre</rdg>
-                            <rdg wit="#PARIS_1694_8_1">point être</rdg>
-                            <rdg wit="#PARIS_1691_6_1">necessaires ;</rdg>
-                            <rdg wit="#PARIS_1694_8_1">necessaires,</rdg>
-                            <rdg wit="#PARIS_1691_6_1">dont noftre</rdg>
-                            <rdg wit="#PARIS_1694_8_1">dont nôtre</rdg>
-                            <rdg wit="#PARIS_1691_6_1">source.</rdg>
-                            <rdg wit="#PARIS_1694_8_1">source !</rdg>
-                        </app>
+                        De combien de grands hommes dans les différents exercices de la paix et de la guerre aurait-on dû <app><lem>se passer !</lem><rdg wit="#PARIS_1691_6_1">se passer ?</rdg><rdg wit="#PARIS_1694_8_1">se passer !</rdg></app> À quel point de perfection et de raffinement n’a-t-on pas porté de certains arts et de certaines <app><lem>sciences qui</lem><rdg wit="#PARIS_1691_6_1">sciences, qui</rdg><rdg wit="#PARIS_1694_8_1">science qui</rdg></app>
+                        ne devaient <app><lem>point être</lem><rdg wit="#PARIS_1691_6_1">point eftre</rdg><rdg wit="#PARIS_1694_8_1">point être</rdg></app> <app><lem>nécessaires,</lem><rdg wit="#PARIS_1691_6_1">necessaires ;</rdg><rdg wit="#PARIS_1694_8_1">necessaires,</rdg></app> et qui sont dans le monde comme des remèdes à tous les maux dont <app><lem>notre</lem><rdg wit="#PARIS_1691_6_1">dont noftre</rdg><rdg wit="#PARIS_1694_8_1">dont nôtre</rdg></app> malice est l’unique <app><lem>source !</lem><rdg wit="#PARIS_1691_6_1">source.</rdg><rdg wit="#PARIS_1694_8_1">source !</rdg></app>
                     </p>
                     <p>
-                        Que de choses depuis Varron, que Varron a ignorées ! Ne nous suffirait-il pas même de n’être savant que comme Platon ou comme Socrate ?
-                        <app>
-                            <rdg wit="#PARIS_1691_6_1">pas mefme</rdg>
-                            <rdg wit="#PARIS_1694_8_1">pas même</rdg>
-                            <rdg wit="#PARIS_1691_6_1">de n'eftre</rdg>
-                            <rdg wit="#PARIS_1694_8_1">de n'être</rdg>
-                            <rdg wit="#PARIS_1691_6_1">SOCRATE.</rdg>
-                            <rdg wit="#PARIS_1694_8_1">SOCRATE ?</rdg>
-                        </app>
+                        Que de choses depuis Varron, que Varron a ignorées ! Ne nous suffirait-il pas <app><lem>même</lem><rdg wit="#PARIS_1691_6_1">mefme</rdg><rdg wit="#PARIS_1694_8_1">même</rdg></app> de <app><lem>n’être</lem><rdg wit="#PARIS_1691_6_1">n'eftre</rdg><rdg wit="#PARIS_1694_8_1">n'être</rdg></app> savant que comme Platon ou comme <app><lem>Socrate ?</lem><rdg wit="#PARIS_1691_6_1">SOCRATE.</rdg><rdg wit="#PARIS_1694_8_1">SOCRATE ?</rdg></app>
                         <persName style="uppercase word">VARRON</persName>
                         <persName style="uppercase word">PLATON</persName>
                         <persName style="uppercase word">SOCRATE</persName>
@@ -363,53 +323,24 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (12)
-                        I2 (I) Tel à un sermon, à une musique, ou dans une galerie de peintures, a entendu à sa droite et à sa gauche, sur une chose précisément la même, des sentiments précisément opposés. Cela me ferait dire volontiers que l’on peut hasarder, dans tout genre d’ouvrages, d’y mettre le bon et le mauvais : le bon plaît aux uns, et le mauvais aux autres. L’on ne risque guère davantage d’y mettre le pire : il a ses partisans.
-                        <app>
-                            <rdg wit="#PARIS_1691_6_1">la mefme</rdg>
-                            <rdg wit="#PARIS_1689_4_1">la même</rdg>
-                            <rdg wit="#PARIS_1691_6_1">le bon plaift</rdg>
-                            <rdg wit="#PARIS_1689_4_1">le bon plaît</rdg>
-                            <rdg wit="#PARIS_1691_6_1">aux uns,</rdg>
-                            <rdg wit="#PARIS_1689_4_1">aux uns</rdg>
-                        </app>
+                        I2 (I) Tel à un sermon, à une musique, ou dans une galerie de peintures, a entendu à sa droite et à sa gauche, sur une chose précisément la <app><lem>même</lem><rdg wit="#PARIS_1691_6_1">mefme</rdg><rdg wit="#PARIS_1689_4_1">même</rdg></app>, des sentiments précisément opposés.
+                        Cela me ferait dire volontiers que l’on peut hasarder, dans tout genre d’ouvrages, d’y mettre le bon et le mauvais : le bon <app><lem>plaît</lem><rdg wit="#PARIS_1691_6_1">plaift</rdg><rdg wit="#PARIS_1689_4_1">plaît</rdg></app> aux <app><lem>uns,</lem><rdg wit="#PARIS_1691_6_1">uns,</rdg><rdg wit="#PARIS_1689_4_1">uns</rdg></app> et le mauvais aux autres. L’on ne risque guère davantage d’y mettre le pire : il a ses partisans.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (13)
-                        Le phénix de la poésie chantante renaît de ses cendres ; il a vu mourir et revivre sa réputation en un même jour. Ce juge même si infaillible et si ferme dans ses jugements, le public, a varié sur son sujet : ou il se trompe, ou il s’est trompé. Celui qui prononcerait aujourd’hui que Q** en un certain genre est mauvais poète, parlerait presque aussi mal que s’il eût dit il y a quelque temps : Il est bon poète.
-                        <app>
-                            <rdg wit="#PARIS_1691_6_1">un mefme jour</rdg>
-                            <rdg wit="#PARIS_1689_4_1">un même jour</rdg>
-                            <rdg wit="#PARIS_1691_6_1">ce juge mefme</rdg>
-                            <rdg wit="#PARIS_1689_4_1">ce juge même</rdg>
-                            <rdg wit="#PARIS_1691_6_1">les jugemens</rdg>
-                            <rdg wit="#PARIS_1689_4_1">les iugemens</rdg>
-                            <rdg wit="#PARIS_1691_6_1">son sujet</rdg>
-                            <rdg wit="#PARIS_1689_4_1">son iujet</rdg>
-                            <rdg wit="#PARIS_1691_6_1">aujourd'hui</rdg>
-                            <rdg wit="#PARIS_1689_4_1">auiourd'hui</rdg>
-                            <rdg wit="#PARIS_1691_6_1">que Q** en un certain genre eft mauvais poëte</rdg>
-                            <rdg wit="#PARIS_1689_4_1">que Q** eft mauvais poëte</rdg>
-                            <rdg wit="#PARIS_1691_6_1">parleroit prefque auffi mal, que</rdg>
-                            <rdg wit="#PARIS_1689_4_1">parleroit auffi mal que</rdg>
-                        </app>
+                        Le phénix de la poésie chantante renaît de ses cendres ; il a vu mourir et revivre sa réputation en un <app><lem>même</lem><rdg wit="#PARIS_1691_6_1">mefme</rdg><rdg wit="#PARIS_1689_4_1">même</rdg></app> jour. Ce juge <app><lem>même</lem><rdg wit="#PARIS_1691_6_1">mefme</rdg><rdg wit="#PARIS_1689_4_1">même</rdg></app> si infaillible et si ferme dans <app><lem>ses jugements</lem><rdg wit="#PARIS_1691_6_1">les jugemens</rdg><rdg wit="#PARIS_1689_4_1">les iugemens</rdg></app>, le public, a varié sur son <app><lem>sujet</lem><rdg wit="#PARIS_1691_6_1">sujet</rdg><rdg wit="#PARIS_1689_4_1">iujet</rdg></app> :
+                        ou il se trompe, ou il s’est trompé. Celui qui prononcerait <app><lem>aujourd’hui</lem><rdg wit="#PARIS_1691_6_1">aujourd'hui</rdg><rdg wit="#PARIS_1689_4_1">auiourd'hui</rdg></app> que <app><lem>Q** en un certain genre est mauvais poète</lem><rdg wit="#PARIS_1691_6_1">Q** en un certain genre eft mauvais poëte</rdg><rdg wit="#PARIS_1689_4_1">Q** eft mauvais poëte</rdg></app>, <app><lem>parlerait presque aussi mal que</lem><rdg wit="#PARIS_1691_6_1">parleroit prefque auffi mal, que</rdg><rdg wit="#PARIS_1689_4_1">parleroit auffi mal que</rdg></app> s’il eût dit il y a quelque temps : Il est bon poète.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (14)
-                        C. P. était fort riche, et C. N. ne l’était pas : la Pucelle et Rodogune méritaient chacune une autre aventure. Ainsi l’on a toujours demandé pourquoi, dans telle ou telle profession, celui-ci avait fait sa fortune, et cet autre l’avait manquée ; et en cela les hommes cherchent la raison de leurs propres caprices, qui dans les conjonctures pressantes de leurs affaires, de leurs plaisirs, de leur santé et de leur vie, leur font souvent laisser les meilleurs et prendre les pires.
-                        <app>
-                            <rdg wit="#PARIS_1691_6_1">C. P. étoit riche, &amp; C. N. ne l'étoit pas</rdg>
-                            <rdg wit="#PARIS_1689_4_1">Chapelain étoit riche, &amp; Corneille ne l'étoit pas</rdg>
-                            <rdg wit="#PARIS_1691_6_1">toûjours</rdg>
-                            <rdg wit="#PARIS_1689_4_1">toûiours</rdg>
-                            <rdg wit="#PARIS_1691_6_1">leurs ptopres</rdg>
-                            <rdg wit="#PARIS_1689_4_1">leurs propres</rdg>
-                        </app>
+                        <app><lem>C. P. était fort riche, et C. N. ne l’était pas</lem><rdg wit="#PARIS_1691_6_1">C. P. étoit riche, &amp; C. N. ne l'étoit pas</rdg><rdg wit="#PARIS_1689_4_1">Chapelain étoit riche, &amp; Corneille ne l'étoit pas</rdg></app> : la Pucelle et Rodogune méritaient chacune une autre aventure. Ainsi l’on a <app><lem>toujours</lem><rdg wit="#PARIS_1691_6_1">toûjours</rdg><rdg wit="#PARIS_1689_4_1">toûiours</rdg></app> demandé pourquoi, dans telle ou telle profession, celui-ci avait fait sa fortune, et cet autre l’avait manquée ;
+                        et en cela les hommes cherchent la raison de leurs <app><lem>propres</lem><rdg wit="#PARIS_1691_6_1">ptopres</rdg><rdg wit="#PARIS_1689_4_1">propres</rdg></app> caprices, qui dans les conjonctures pressantes de leurs affaires, de leurs plaisirs, de leur santé et de leur vie, leur font souvent laisser les meilleurs et prendre les pires.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6_1 #PARIS_1689_4_1">
@@ -425,12 +356,9 @@
                         (16)
                         Il suffisait à Bathylle d’être pantomime pour être couru des dames romaines ; à Rhoé de danser au théâtre ; à Roscie et à Nérine de représenter dans les chœurs, pour s’attirer une foule d’amants. La vanité et l’audace, suites d’une trop grande puissance, avaient ôté aux Romains le goût du secret et du mystère ; ils se plaisaient à faire du théâtre public celui de leurs amours ; ils n’étaient point jaloux de l’amphithéâtre, et partageaient avec la multitude les charmes de leurs maîtresses. Leur goût n’allait qu’à laisser voir qu’ils aimaient, non pas une belle personne ou une excellente comédienne, mais une comédienne.
                         <app>
-                            <rdg wit="#PARIS_1691_6_1">pour eftre</rdg>
-                            <rdg wit="#PARIS_1689_4_1">pour être</rdg>
-                            <rdg wit="#PARIS_1691_6_1">dans les choeurs, pour</rdg>
-                            <rdg wit="#PARIS_1689_4_1">dans les choeurs pour</rdg>
-                            <rdg wit="#PARIS_1691_6_1">excellente</rdg>
-                            <rdg wit="#PARIS_1689_4_1">exce lente</rdg>
+                            <rdg wit="#PARIS_1691_6_1">pour eftre</rdg><rdg wit="#PARIS_1689_4_1">pour être</rdg>
+                            <rdg wit="#PARIS_1691_6_1">dans les choeurs, pour</rdg><rdg wit="#PARIS_1689_4_1">dans les choeurs pour</rdg>
+                            <rdg wit="#PARIS_1691_6_1">excellente</rdg><rdg wit="#PARIS_1689_4_1">exce lente</rdg>
                         </app>
                     </p>
                 </div2>
