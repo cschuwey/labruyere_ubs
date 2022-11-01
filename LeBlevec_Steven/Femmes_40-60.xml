@@ -83,7 +83,7 @@
                             </app>
                            </div2>
 
-                            <div2 n="42" source="#Paris_1688_Premiere Remarque absente >
+                            <div2 n="42" source="#Paris_1688_Premiere Remarque absente source=" #Paris_1692_Septieme>
                                 <app>
                                     <rdg wit="Edition de 1692"/>
                                     <g ref="#pieddemouche"/>
@@ -102,7 +102,7 @@
                                 </app>
                             </div2>
 
-                            <div2 n="43" source="#Paris_1688_Premiere Remarque absente >
+                            <div2 n="43" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme> >
                                 <app>
                                   <rdg wit="Edition de 1692">
                                   <g ref="#pieddemouche"/>
@@ -124,7 +124,7 @@
                                </app>
                             </div2>
 
-                            <div2 n="44" source="#Paris_1688_Premiere Remarque absente >
+                            <div2 n="44" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
                                <app>
                                  <lem>Si j’épouse, Hermas, une femme avare, elle ne me ruinera point ; si une joueuse, elle pourra s’enrichir ; 
                                       si une savante, elle saura m’instruire ; si une prude, elle ne sera point emportée ; si une emportée, 
@@ -296,96 +296,149 @@
                                 </app>
                              </div2>
 
-                             <div2>
-                               <p>(50) La neutralité entre des femmes qui nous sont également amies, quoiqu’elles aient rompu pour des intérêts où nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes deux. </p>
+                             <div2 n="50" source="#Paris_1688_ >
                                <app>
-                               <lem wit="Edition de 1688"><g ref="#pieddemouche"/><p>La neutralité entre des femmes qui nous sont également amies, quoy qu’elles ayent rompu pour des intérêts où nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes deux. </p></lem>
-                               <lem wit="Edition de 1692"><g ref="#pieddemouche"/><p>La neutralité entre des femmes qui nous sont également amies, quoy qu’elles ayent rompu pour des intérêts où nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes deux. </p></lem>
+                               <lem>La neutralité entre des femmes qui nous sont également amies, quoiqu’elles aient rompu pour des intérêts où 
+                                    nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes
+                                    deux.</lem>
+                               <rdg wit="Edition de 1688">
+                                  <g ref="#pieddemouche"/>
+                                      <p>La neutralité entre des femmes qui nous sont également amies, quoy qu’elles ayent rompu pour des intérêts où
+                                         nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes deux.</p>
+                               <rdg wit="Edition de 1692">
+                                  <g ref="#pieddemouche"/>
+                                      <p>La neutralité entre des femmes qui nous sont également amies, quoy qu’elles ayent rompu pour des intérêts où
+                                         nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes deux.</p></lem>
                              </div2>
 
-                             <div2>
-                               <p>(51) Il y a telle femme qui aime mieux son argent que ses amis, et ses amants que son argent.</p>
+                             <div2 n="51" source="#Paris_1688_Premiere Remarque absente>
                                <app>
-                               <lem wit="Edition de 1688">Remarque non présente dans cette édition</lem>
-                               <lem wit="Edition de 1692"><g ref="#pieddemouche"/><p>Il y a telle femme qui aime mieux son argent que ses amis, & ses amans que son argent.</p></lem>
+                               <lem>Il y a telle femme qui aime mieux son argent que ses amis, et ses amants que son argent.</lem>
+                               <rdg wit="Edition de 1692">
+                                  <g ref="#pieddemouche"/>
+                                    <p>Il y a telle femme qui aime mieux son argent que ses amis, & ses amans que son argent.</p>
                                </app>
                              </div2>
 
-                             <div2>
-                               <p>(52) Il est étonnant de voir dans le cœur de certaines femmes quelque chose de plus vif  de plus fort que l’amour pour les hommes, je veux dire l’ambition et le jeu : de telles femmes rendent les hommes chastes ; elles n’ont de leur sexe que les habits. </p>
+                             <div2 n="52" source="#Paris_1688_Premiere Remarque absente>
                                <app>
-                               <lem wit="Edition de 1688">Remarque non présente dans cette édition</lem>
-                               <lem wit="Edition de 1692"><g ref="#pieddemouche"/><p>Il est étonnant de voir dans le cœur de certaines femmes quelque chose de plus vif & de plus fort que l’amour pour les hommes, je veux dire l’ambition & le jeu : de telles femmes rendent les hommes chastes ; elles n’ont de leur sexe que les habits.</p></lem>
+                                  <lem>Il est étonnant de voir dans le cœur de certaines femmes quelque chose de plus vif de plus fort que l’amour
+                                       pour les hommes, je veux dire l’ambition et le jeu : de telles femmes rendent les hommes chastes ; elles
+                                       n’ont de leur sexe que les habits.</lem>
+                                  <rdg wit="Edition de 1692">
+                                     <g ref="#pieddemouche"/>
+                                        <p>Il est étonnant de voir dans le cœur de certaines femmes quelque chose de plus vif & de plus fort
+                                           que l’amour pour les hommes, je veux dire l’ambition & le jeu : de telles femmes rendent les hommes
+                                           chastes ; elles n’ont de leur sexe que les habits.</p>
                                </app>
                              </div2>
 
-                             <div2>
-                               <p>(53) Les femmes sont extrêmes : elles sont meilleures ou pires que les hommes.</p>
+                             <div2 n="53" source="#Paris_1688_>
                                <app>
-                               <lem wit="Edition de 1688"><g ref="#pieddemouche"/><p>Les femmes sont extrêmes : elles sont ou meilleures, ou pires que les hommes.</p></lem>
-                               <lem wit="Edition de 1692"><g ref="#pieddemouche"/><p>Les femmes sont extrêmes : elles sont meilleures, ou pires que les hommes.</p></lem>
+                               <lem>Les femmes sont extrêmes : elles sont meilleures ou pires que les hommes.</lem>
+                               <rdg wit="Edition de 1688"/>
+                                  <g ref="#pieddemouche"/>
+                                     <p>Les femmes sont extrêmes : elles sont ou meilleures, ou pires que les hommes.</p>
+                               <rdg wit="Edition de 1692"/>
+                                  <g ref="#pieddemouche"/>
+                                     <p>Les femmes sont extrêmes : elles sont meilleures, ou pires que les hommes.</p>
                                </app>
                               </div2>
 
-                             <div2>
-                               <p>(54) La plupart des femmes n’ont guère de principes ; elles se conduisent par le cœur, & dépendent pour leurs mœurs de ceux qu’elles aiment.</p>
-                               <app>
-                               <lem wit="Edition de 1688"><g ref="#pieddemouche"/><p>La plûpart des femmes n’ont guere de principes , elles se conduisent par le cœur, et dépendent pour leurs mœurs de ceux qu’elles aiment.</p></lem>
-                               <lem wit="Edition de 1692"><g ref="#pieddemouche"/><p>La plûpart des femmes n’ont guere de principes , elles se conduisent par le cœur, et dépendent pour leurs mœurs de ceux qu’elles aiment.</p></lem>
+                             <div2 n="54" source="#Paris_1688_ >
+                              <app>
+                                 <lem>La plupart des femmes n’ont guère de principes ; elles se conduisent par le cœur, & dépendent
+                                      pour leurs mœurs de ceux qu’elles aiment.</lem>
+                                 <rdg wit="Edition de 1688"/>
+                                    <g ref="#pieddemouche"/>
+                                      <p>La plûpart des femmes n’ont guere de principes , elles se conduisent par le cœur, et dépendent
+                                         pour leurs mœurs de ceux qu’elles aiment.</p>
+                                 <rdg wit="Edition de 1692">
+                                     <g ref="#pieddemouche"/>
+                                        <p>La plûpart des femmes n’ont guere de principes , elles se conduisent par le cœur, et dépendent
+                                           pour leurs mœurs de ceux qu’elles aiment.</p>
                                </app>
                              </div2>
 
-                             <div2>
-                               <p>(55) Les femmes vont plus loin en amour que la plupart des hommes ; mais les hommes l’emportent sur elles en amitié. 
-                              Les hommes sont cause que les femmes ne s’aiment point.</p>
-                                <app>
-                                   <lem wit="Edition de 1688">Remarque non présente dans cette édition</lem>
-                                   <lem wit="Edition de 1692"><g ref="#pieddemouche"/><p>Les femmes vont plus loin en amour que la plûpart des hommes : mais les hommes l’emportent sur elles en amitié. 
-                              Les hommes sont cause que les femmes ne s’aiment point.</p></lem>
+                             <div2 n="55" source="#Paris_1688_Premiere Remarque absente>
+                              <app>
+                               <lem>Les femmes vont plus loin en amour que la plupart des hommes ; mais les hommes l’emportent sur elles en amitié. 
+                                    Les hommes sont cause que les femmes ne s’aiment point.</lem>
+                                   <rdg wit="Edition de 1692"/>
+                                      <g ref="#pieddemouche"/>
+                                         <p>Les femmes vont plus loin en amour que la plûpart des hommes : mais les hommes l’emportent sur elles en amitié. 
+                                            Les hommes sont cause que les femmes ne s’aiment point.</p>
                                  </app>
                              </div2>
 
-                             <div2>
-                                <p>(56) Il y a du péril à contrefaire. Lise, déjà vieille, veut rendre une jeune femme ridicule, et elle-même devient difforme ; elle me fait peur. Elle use pour l’imiter de grimaces et de contorsions : la voilà aussi laide qu’il faut pour embellir celle dont elle se moque.</p>
-                                <app>
-                                  <lem wit="Edition de 1688">Remarque non présente dans cette édition</lem>
-                                  <lem wit="Edition de 1692"><g ref="#pieddemouche"/><p>Il y a du péril à contrefaire. Lise, déjà vieille, veut rendre une jeune femme ridicule, & elle-même devient difforme ; elle me fait peur ; elle use pour l’imiter de grimaces & de contorsions : la voilà aussi laide qu’il faut pour embellir celle dont elle se mocque.</p></lem>
+                             <div2 n="56" source="#Paris_1688_Premiere Remarque absente>
+                               <app>
+                                <lem>Il y a du péril à contrefaire. Lise, déjà vieille, veut rendre une jeune femme ridicule, et elle-même devient
+                                     difforme ; elle me fait peur. Elle use pour l’imiter de grimaces et de contorsions : la voilà aussi laide qu’il
+                                     faut pour embellir celle dont elle se moque.</lem>
+                                <rdg wit="Edition de 1692"/>
+                                    <g ref="#pieddemouche"/>
+                                        <p>Il y a du péril à contrefaire. Lise, déjà vieille, veut rendre une jeune femme ridicule, & elle-même
+                                           devient difforme ; elle me fait peur ; elle use pour l’imiter de grimaces & de contorsions : la voilà
+                                           aussi laide qu’il faut pour embellir celle dont elle se mocque.</p>
                                 </app>
                              </div2>
 
-                             <div2>
-                                <p>(57) On veut à la ville que bien des idiots et des idiotes aient de l’esprit ; on veut à la cour que bien des gens manquent d’esprit qui en ont beaucoup ; et entre les personnes de ce dernier genre une belle femme ne se sauve qu’à peine avec d’autres femmes.</p>
-                                <app>
-                                 <lem wit="Edition de 1688">Remarque non présente dans cette édition</lem>
-                                 <lem wit="Edition de 1692"><p><g ref="#pieddemouche"/>On veut à la ville que bien des idiots & des idiotes ayent de l’esprit ; on veut à la cour que bien des gens manquent d’esprit qui en ont beaucoup ; & entre ceux-cy une belle femme ne se sauve qu’à peine avec d’autres femmes.</p></lem>
-                             </div2>
+                              <div2 n="57" source="#Paris_1688_Premiere Remarque absente>
+                               <app>
+                                <lem>On veut à la ville que bien des idiots et des idiotes aient de l’esprit ; on veut à la cour que bien des
+                                        gens manquent d’esprit qui en ont beaucoup ; et entre les personnes de ce dernier genre une belle femme
+                                        ne se sauve qu’à peine avec d’autres femmes.</lem>
+                                <rdg wit="Edition de 1692"/>
+                                    <g ref="#pieddemouche"/>
+                                       <p>On veut à la ville que bien des idiots & des idiotes ayent de l’esprit ; on veut à la cour que bien
+                                          des gens manquent d’esprit qui en ont beaucoup ; & entre ceux-cy une belle femme ne se sauve qu’à
+                                          peine avec d’autres femmes.</p>
+                                    </app>
+                               </div2>
 
-                             <div2>
-                                <p>(58) Un homme est plus fidèle au secret d’autrui qu’au sien propre ; une femme au contraire garde mieux son secret que celui d’autrui.</p>
-                                <app>
-                                 <lem wit="Edition de 1688"><g ref="#pieddemouche"/><p>Un homme est plus fidelle au secret d’autruy qu’au sien propre ; une femme au contraire garde mieux son secret que celuy d’autruy.</p></lem>
-                                 <lem wit="Edition de 1692"><g ref="#pieddemouche"/><p>Un homme est plus fidelle au secret d’autruy qu’au sien propre ; une femme au contraire garde mieux son secret que celuy d’autruy.</p></lem>
+                             <div2 n="58" source="#Paris_1688_>
+                                <lem>Un homme est plus fidèle au secret d’autrui qu’au sien propre ; une femme au contraire garde mieux
+                                     son secret que celui d’autrui.</lem>
+                                 <rdg wit="Edition de 1688"/>
+                                     <g ref="#pieddemouche"/>
+                                         <p>Un homme est plus fidelle au secret d’autruy qu’au sien propre ; une femme au contraire garde
+                                            mieux son secret que celuy d’autruy.</p>
+                                 <rdg wit="Edition de 1692"/>
+                                     <g ref="#pieddemouche"/>
+                                         <p>Un homme est plus fidelle au secret d’autruy qu’au sien propre ; une femme au contraire garde
+                                            mieux son secret que celuy d’autruy.</p>
                                 </app>
                              </div2>
 
-                             <div2>
-                                <p>(59) Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel l’intérêt ou l’ambition n’ajoute quelque chose.</p>
-                                 <app>
-                                 <lem wit="Edition de 1688"><g ref="#pieddemouche"/><p>Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel l’intérêt ou l’ambition n’ajoûte quelque chose.</p></lem>
-                                 <lem wit="Edition de 1692"><g ref="#pieddemouche"/><p>Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel l’intérêt ou l’ambition n’ajoûte quelque chose.</p></lem>
+                             <div2 n="58" source="#Paris_1688_>
+                               <app>
+                                <lem>Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel l’intérêt ou l’ambition
+                                     n’ajoute quelque chose.</p>
+                                <rdg wit="Edition de 1688">
+                                    <g ref="#pieddemouche"/>
+                                       <p>Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel l’intérêt ou l’ambition
+                                          n’ajoûte quelque chose.</p>
+                                <rdg wit="Edition de 1692">
+                                    <g ref="#pieddemouche"/>
+                                       <p>Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel l’intérêt ou l’ambition
+                                          n’ajoûte quelque chose.</p>
                                  </app>
                              </div2>
 
-                             <div2>
-                                <p>(60) Il y a un temps où les filles les plus riches doivent prendre parti ; elles n’en laissent guère échapper les premières occasions sans se préparer un long repentir : il semble que la réputation des biens diminue en elles avec celle de leur beauté. Tout favorise au contraire une jeune personne, jusques à l’opinion des hommes, qui aiment à lui accorder tous les avantages qui peuvent la rendre plus souhaitable.</p>
-                                <app>
-                                    <lem wit="Edition de 1688"><g ref="#pieddemouche"/><p>Remarque non présente dans cette édition</lem>
-                                    <lem wit="Edition de 1692"><g ref="#pieddemouche"/><p>Il y a un temps où les filles les plus riches doivent prendre parti elles n’en laissent guère échapper les premières occasions sans se préparer un long repentir : il semble que la réputation des biens diminuë en elles avec celle de leur beauté. Tout favorise au contraire une jeune personne, jusques à l’opinion des hommes, qui aiment à luy accorder tous les avantages qui peuvent la rendre plus souhaitable.</p></lem>
+                             <div2 n="60" source="#Paris_1688_Premiere Remarque absente>
+                               <app>
+                                   <lem>Il y a un temps où les filles les plus riches doivent prendre parti ; elles n’en laissent guère échapper
+                                        les premières occasions sans se préparer un long repentir : il semble que la réputation des biens diminue
+                                        en elles avec celle de leur beauté. Tout favorise au contraire une jeune personne, jusques à l’opinion des hommes,
+                                        qui aiment à lui accorder tous les avantages qui peuvent la rendre plus souhaitable.</lem>
+                                    <rdg wit="Edition de 1692">
+                                       <g ref="#pieddemouche"/>
+                                         <p>Il y a un temps où les filles les plus riches doivent prendre parti elles n’en laissent guère échapper
+                                            les premières occasions sans se préparer un long repentir : il semble que la réputation des biens diminuë
+                                            en elles avec celle de leur beauté. Tout favorise au contraire une jeune personne, jusques à l’opinion des
+                                            hommes, qui aiment à luy accorder tous les avantages qui peuvent la rendre plus souhaitable.</p>
                                 </app>
                              </div2>  
-                                                                                                                                            
-                                                                                                                                  
-            
-        </body> 
-   
+                        </body> 
 </TEI>
