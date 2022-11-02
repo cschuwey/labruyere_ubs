@@ -6,7 +6,7 @@
                 <title>Les Caractères de la Bruyère</title>
                 <respStmt xml:id="JB">
                     <name>Jean de la Bruyère, auteur de l'ouvrage</name>
-                    <resp>auteur</resp>
+                    <resp>auteur des commentaires imprimés</resp>
                 </respStmt>
             </titleStmt>
             
@@ -14,7 +14,15 @@
                 <edition></edition>
                 <respStmt xml:id="AC">
                     <name>Audrey CAOUS</name>
-                    <resp>éditrice</resp>
+                    <resp>éditrice de commentaires imprimés</resp>
+                </respStmt>
+            </editionStmt>
+
+            <editionStmt>
+                <edition></edition>
+                <respStmt xml:id="lecteurice">
+                    <name>Lecteurice</name>
+                    <resp>éditeurice inconnu.e qui rajoute des commentaires manuscrits</resp>
                 </respStmt>
             </editionStmt>
             
@@ -42,6 +50,7 @@
 
 
                     <monogr xml:id="Paris_1688_1">
+                        <textLang>Français</textLang>
                         <edition>1ère edition</edition>
                         <imprint xml:id="Paris_1688_1_1">
                             <publisher>Estienne Michallet</publisher>
@@ -54,68 +63,84 @@
                     
                     
                     <monogr xml:id="Paris_1688_3">
+                        <textLang>Français</textLang>
                         <edition>3eme edition</edition>
                         <imprint xml:id="Paris_1688_3_1">
                             <publisher>Estienne Michallet</publisher>
-                            <date>1689</date>
+                            <date>1688</date>
+                            <link target="https://moodle.univ-ubs.fr/pluginfile.php/596721/mod_resource/content/0/La_Bruy%C3%A8re_Caract%C3%A8res_3rd_edition_1688.pdf"/>
                         </imprint>
                     </monogr>
                     
                     <monogr xml:id="Paris_1689_4">
+                        <textLang>Français</textLang>
                         <edition>3eme edition</edition>
                         <imprint xml:id="Paris_1689_4_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1689</date>
+                            <link target="https://moodle.univ-ubs.fr/pluginfile.php/596722/mod_resource/content/0/La_Bruy%C3%A8re_Caract%C3%A8res_4th_edition_1689.pdf"/>
                         </imprint>
                     </monogr>
                     
                      <monogr xml:id="Paris_1690_5">
+                        <textLang>Français</textLang>
                         <edition>7eme edition</edition>
                         <imprint xml:id="Paris_1690_5_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1690</date>
+                            <link target="https://moodle.univ-ubs.fr/pluginfile.php/596724/mod_resource/content/0/La_Bruy%C3%A8re_Caract%C3%A8res_5th_edition_1690.pdf"/>
                         </imprint>
                     </monogr>
                     
                      <monogr xml:id="Paris_1691_6">
+                        <textLang>Français</textLang>
                         <edition>7eme edition</edition>
                         <imprint xml:id="Paris_1691_6_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1691</date>
+                            <link target="https://moodle.univ-ubs.fr/pluginfile.php/596728/mod_resource/content/0/La_Bruy%C3%A8re_Caract%C3%A8res_6th_edition_1691_BNF.pdf"/>
                         </imprint>
                     </monogr>
 
                     <monogr xml:id="Paris_1692_7">
+                        <textLang>Français</textLang>
                         <edition>7eme edition</edition>
                         <imprint xml:id="Paris_1692_7_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1692</date>
+                            <link target="https://moodle.univ-ubs.fr/pluginfile.php/596725/mod_resource/content/0/La_Bruy%C3%A8re_Caract%C3%A8res_7th_edition_1692.pdf"/>
                         </imprint>
                     </monogr>
 
 
                     <monogr xml:id="Paris_1694_8">
+                        <textLang>Français</textLang>
                         <edition>8eme edition</edition>
                         <imprint xml:id="Paris_1694_8_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1694</date>
+                            <link target="https://moodle.univ-ubs.fr/pluginfile.php/596726/mod_resource/content/0/La_Bruy%C3%A8re_Caract%C3%A8res_8th_edition_1694_BNF.pdf"/>
                         </imprint>
                     </monogr>
 
 
                     <monogr xml:id="Paris_1696_9">
+                        <textLang>Français</textLang>
                         <edition>9eme edition</edition>
                         <imprint xml:id="Paris_1696_9_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1696</date>
+                            <link target="https://moodle.univ-ubs.fr/pluginfile.php/596729/mod_resource/content/0/La_Bruy%C3%A8re_Caract%C3%A8res_9th_edition_1696.pdf"/>
                         </imprint>
                     </monogr>
                     
                     <monogr xml:id="Paris_1699_10">
+                        <textLang>Français</textLang>
                         <edition>10 eme edition</edition>
                         <imprint xml:id="Paris_1699_10_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1699</date>
+                            <link target="https://moodle.univ-ubs.fr/pluginfile.php/596727/mod_resource/content/0/La_Bruy%C3%A8re_Caract%C3%A8res_10th_edition_1699.pdf"/>
                         </imprint>
                     </monogr>
 
@@ -159,12 +184,22 @@
                 <p>Encoder les Caractères de la Bruyère sous format xml pour le mettre en forme en
                     ligne</p>
             </projectDesc>
+
             <editorialDecl>
                 <normalization>
                     <p>Changer toutes les lettres s long en s modernisé</p>
                     <p>Changer toutes les lettres y en i modernisé</p>
                 </normalization>
+
+                <normalization type="gloss"> 
+                    <p>Les remarques de type glossaire sont éditées par le resp AC (Audrey CAOUS), éditrice des remarques</p>
+                </normalization>
+
+                  <normalization type="comm"> 
+                    <p>Les remarques de type comm sont éditées par le resp JB (Jean de la Bruyère), auteur de l'ouvrage</p>
+                </normalization>
             </editorialDecl>
+
         </encodingDesc>
 
         <profileDesc>
@@ -228,7 +263,7 @@
                 <div2 n="11" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="pied_de_mouche_simple"/>
                         Il y a beaucoup plus de vivacité que de goût <app><lem wit="#Paris_1694_8">parmi</lem> <rdg wit="#Paris_1689_4"> parmy</rdg></app> les hommes ; ou pour mieux
-                        dire, il y a peu d’hom<pb n="99" source="#Paris_1694_8"/><pb n="105" source="#Paris_1691_6"/>mes dont l’esprit soit accompagné d’un goût sûr et
+                        dire, il y a peu d’hom<pb n="99" source="#Paris_1694_8"/><pb n="105" source="#Paris_1691_6"/> <pb n="103" source="#Paris_1692_7"/>mes dont l’esprit soit accompagné d’un goût sûr et
                         d’une critique judicieuse.</p>
                 </div2>
 
@@ -248,7 +283,7 @@
 
                 <div2 n="14" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="pied_de_mouche_simple"/>  
-                        Tout l’esprit d’un auteur consiste à bien définir et à bien peindre. <seg><note source="#Paris_1694_8 #Paris_1688_3 #Paris_1696_9 #Paris_1699_10" resp="#JB" place="left" style="*">Quand meſme on ne le considère pas comme un homme qui a écrit</note><app> <lem wit="#Paris_1694_8"> Moïse</lem>  <rdg wit="#Paris_1688_1"> Moyse </rdg></app></seg>,
+                        Tout l’esprit d’un auteur consiste à bien définir et à bien peindre. <seg><note source="#Paris_1694_8 #Paris_1688_3 #Paris_1696_9 #Paris_1699_10" resp="#JB" type="comm" place="left" style="*">Quand meſme on ne le considère pas comme un homme qui a écrit</note><app> <lem wit="#Paris_1694_8"> Moïse</lem>  <rdg wit="#Paris_1688_1"> Moyse </rdg></app></seg>,
                         Homere, Platon, Virgile, Horace ne sont au-dessus des autres écrivains que
                         par leurs expressions et par leurs images : il faut exprimer le vrai pour
                         écrire naturellement, fortement, délicatement.</p>
@@ -258,22 +293,22 @@
                     <p>  <g ref="pied_de_mouche_simple"/>  
                         On a dû faire du style ce qu’on a fait de l’architecture. On a entièrement
                         abandonné l’ordre gothique, que la barbarie avait introduit pour les palais
-                        et pour les temples ; on a rappelé le dorique, l’ionique et le <pb n="100" source="#Paris_1694_8"/><pb n="106" source="#Paris_1691_6"/> corinthien :
+                        et pour les temples ; on a rappelé le dorique, l’ionique et le <pb n="100" source="#Paris_1694_8"/><pb n="106" source="#Paris_1691_6"/> <pb n="104" source="#Paris_1692_7"/> corinthien :
                         ce qu’on ne voyait plus que dans les ruines de l’ancienne Rome et de la
                         vieille Grèce, devenu moderne, éclate dans nos portiques et dans nos
                         péristyle. De même, on ne saurait en écrivant rencontrer le parfait, et s’il
                         se peut, surpasser les anciens que par leur imitation. <app><lem wit="#Paris_1694_8"> pas de nouveau paragraphe ni pied de mouche avant ''Combien'' </lem> <rdg wit="#Paris_1688_1"> <g ref="pied de mouche simple"></g></rdg></app>
                         <app><lem wit="#Paris_1694_8">Combien de siècles se sont écoulés avant que les hommes, dans les sciences et dans les arts, aient
-                        pu revenir au goût des <note source="#Paris_1694_8" resp="lecteurice" hand="inconnue" place="right" style="*">texte illisible</note>anciens et reprendre enfin le simple et le naturel !On se nourrit des anciens et des habiles modernes, on les presse, on en tire
+                        pu revenir au goût des <note source="#Paris_1694_8" resp="lecteurice"  hand="inconnue" place="right" style="*">texte illisible</note>anciens et reprendre enfin le simple et le naturel !On se nourrit des anciens et des habiles modernes, on les presse, on en tire
                         le plus que l’on peut, on en renfle <note source="#Paris_1694_8" resp="AC" type="gloss" place="left" style="*">enfle,augmente la taille de, on parle d'agrandir une quantité/collection</note> ses ouvrages ; et quand enfin l’on est
                         auteur, et que l’on croit marcher tout seul, on s’élève contre eux, on les
                         maltraite, semblable à ces enfants drus et forts d’un bon lait qu’ils ont
                         sucé <note source="#Paris_1694_8" resp="AC" type="gloss" place="left" style="*">bu</note>, qui battent leur nourrice. Un auteur moderne prouve ordinairement que
                         les anciens nous sont inférieurs en deux manières, par raison et par exemple
-                        : il tire la raison de son goût particulier, et l’exemple de ses ouvrages. <pb n="101" source="#Paris_1694_8"/><pb n="107" source="#Paris_1691_6"/>
+                        : il tire la raison de son goût particulier, et l’exemple de ses ouvrages. <pb n="101" source="#Paris_1694_8"/><pb n="107" source="#Paris_1691_6"/><pb n="105" source="#Paris_1692_7"/>
                         Il avoue que les anciens, quelque inégaux et peu corrects qu’ils soient, ont
                         de beaux traits ; il les cite, et ils sont si beaux qu’ils font lire sa
-                        critique. <note source="#Paris_1694_8" resp="lecteurice "hand="inconnue" place="left"></note>
+                        critique. <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="left"></note>
                         Quelques habiles prononcent en faveur des anciens contre les
                         modernes ; mais ils sont suspects et semblent juger en leur propre cause,
                         tant leurs ouvrages sont faits sur le goût de l’antiquité : on les
@@ -297,7 +332,7 @@
                         pensées, il n’y en a qu’une qui soit la bonne. On ne la rencontre pas
                         toujours en parlant ou en écrivant ; il est vrai néanmoins qu’elle existe,
                         que tout ce qui ne l’est point est faible, et ne satisfait point un homme
-                        d’esprit qui veut se faire entendre. <pb n="102" source="#Paris_1694_8"/> <pb n="108" source="#Paris_1691_6"/> Un bon auteur, et qui écrit avec soin,
+                        d’esprit qui veut se faire entendre. <pb n="102" source="#Paris_1694_8"/> <pb n="108" source="#Paris_1691_6"/> <pb n="106" source="#Paris_1692_7"/> Un bon auteur, et qui écrit avec soin,
                         éprouve souvent que l’expression qu’il cherchait depuis longtemps sans la
                         <app><lem wit="#Paris_1694_8">connoître</lem> <rdg wit="#Paris_1689_4">connoiſtre</rdg></app>, et qu’il a enfin trouvée, est celle qui  <app><lem wit="#Paris_1694_8"> étoit </lem> <rdg wit="#Paris_1689_4">eſtoit</rdg></app> la plus simple, la
                         plus naturelle, qui semblait devoir se présenter d’abord et sans effort.
@@ -320,7 +355,7 @@
                         « L’on m’a engagé, dit Ariste, à lire mes ouvrages à <app> <lem wit="#Paris_1694_8"> Zoïle</lem> <rdg wit="#Paris_1688_1 #Paris_1689_4">Zelotes</rdg></app> : je l’ai fait.
                         Ils l’ont saisi d’abord et avant qu’il ait eu le loisir de les trouver
                         mauvais ; il les a loués modestement en ma présence, et il ne les a pas
-                        loués de<pb n="103" source="#Paris_1694_8"/>puis<pb n="109" source="#Paris_1691_6"/> devant personne. Je l’excuse, et je n’en demande pas davantage
+                        loués de<pb n="103" source="#Paris_1694_8"/><pb n="107" source="#Paris_1692_7"/>puis<pb n="109" source="#Paris_1691_6"/> devant personne. Je l’excuse, et je n’en demande pas davantage
                         à un <app><lem wit="#Paris_1694_8">auteur</lem> <rdg wit="#Paris_1688_1"> Autheur</rdg></app> ; je le plains <app><lem wit="#Paris_1694_8">même</lem><rdg wit="#Paris_1688_1">meſme</rdg></app> d’avoir écouté de belles choses qu’il n’a
                         point faites. » <app><lem wit="#Paris_1694_8">La remarque continue sans retour à la ligne marqué</lem><rdg wit="#Paris_1688_1"> <g ref="#pied_de_mouche_simple"></g></rdg></app>Ceux qui par leur condition se trouvent exempts de la
                         jalousie d’ <app><lem wit="#Paris_1694_8">auteur</lem> <rdg wit="#Paris_1688_1">Auteur</rdg></app>, ont ou des passions ou des besoins qui les distraient et
@@ -342,8 +377,8 @@
                         cours qu’il aura dans le monde par l’impression, ou quel sera son sort <app><lem wit="#Paris_1694_8">parmi</lem> <rdg wit="#Paris_1688_1"> parmy</rdg></app>
                         les habiles : ils ne hasardent point leurs suffrages, et ils veulent être
                         portés par la foule et entraînés par la multitude. Ils disent alors qu’ils
-                        ont les premiers <app><lem wit="#Paris_1694_8">approu<pb n="104" source="#Paris_1694_8"/>vé</lem> <rdg wit="#Paris_1689_4">aprouvé</rdg> </app> cet ouvrage, et que le public est de leur avis. <app><lem wit="#Paris_1694_8"> <pb n="110" source="#Paris_1691_6"/>
-                        <note source="#Paris_1694_8" resp="lecteurice "hand="inconnue" place="right" style="†"> texte illisible </note>
+                        ont les premiers <app><lem wit="#Paris_1694_8">approu<pb n="104" source="#Paris_1694_8"/> <pb n="108" source="#Paris_1692_7"/> vé</lem> <rdg wit="#Paris_1689_4">aprouvé</rdg> </app> cet ouvrage, et que le public est de leur avis. <app><lem wit="#Paris_1694_8"> <pb n="110" source="#Paris_1691_6"/>
+                        <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="right" style="†"> texte illisible </note>
                         Ces gens laissent échapper les plus belles occasions de nous convaincre
                             qu’ils ont de la capacité et des lumières, qu’ils savent juger, trouver bon
                             ce qui est bon, et meilleur ce qui est meilleur. Un bel ouvrage tombe entre
@@ -358,14 +393,14 @@
                             louer. Que ne disiez-vous seulement :« Voilà un bon livre » ? Vous le dites,
                             il est vrai, avec toute la France, avec les étrangers comme avec vos
                             compatriotes, quand il est imprimé par toute l’Eu<pb n="105" source="Paris_1694_8"/>rope et qu’il est traduit
-                            en plusieurs langues : il n’est plus temps.</lem> <rdg wit="#Paris_1688_1"> </rdg></app>
+                            en plusieurs langues <pb n="109" source="#Paris_1692_7"/> : il n’est plus temps.</lem> <rdg wit="#Paris_1688_1"> </rdg></app>
                         </p>
                 </div2>
 
                 <div2 n="22" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
-                    <note source="#Paris_1690_5" resp="JB" place="right" style="*">Marque qui deſigne la premiere augmentation de l'année 1689</note>
+                    <note source="#Paris_1690_5" resp="JB" type="comm" place="right" style="*">Marque qui deſigne la premiere augmentation de l'année 1689</note>
                     <p>  <g ref="pied_de_mouche_simple"/> 
-                        <note hand="lecteurice" place="left">texte illisible</note>
+                        <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="left">texte illisible</note>
                         Quelques-uns de ceux qui ont lu <pb n="111" source="#Paris_1691_6"/> un ouvrage en rapportent certains traits
                         dont ils n’ont pas compris le sens, et qu’ils altèrent encore par tout ce
                         qu’ils y mettent du leur ; et ces traits ainsi corrompus et défigurés, qui
@@ -386,10 +421,10 @@
 
                 <div2 n="24" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/> 
-                        <note source="#Paris_1694_8" resp=""lecteurice" hand="inconnue" place="left">texte illisible</note>
+                        <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="left">texte illisible</note>
                         Arsène, du plus haut de son esprit, contemple les hommes, et dans
                         l’éloignement d’où il les voit, il est <app><lem wit="#Paris_1694_8">comme <pb n="106" source="#Paris_1694_8"/> comme</lem> <rdg wit="#Paris_1689_4">comme </rdg></app> effrayé de leur petitesse ;
-                        loué, exalté, et porté jusqu’aux <app><lem wit="#Paris_1694_8">cieux</lem> <rdg wit="#Paris1689_4">Cieux</rdg></app> par de certaines gens qui se sont
+                        loué, <pb n="110" source="#Paris_1692_7"/> exalté, et porté jusqu’aux <app><lem wit="#Paris_1694_8">cieux</lem> <rdg wit="#Paris1689_4">Cieux</rdg></app> par de certaines gens qui se sont
                         promis <pb n="112" source="#Paris_1691_6"/> de s’admirer réciproquement, il croit, avec quelque mérite qu’il a,
                         posséder tout celui qu’on peut avoir, et qu’il n’aura jamais ; occupé et
                         rempli de ses sublimes idées, il se donne à peine le loisir de prononcer
@@ -408,7 +443,7 @@
                         Théocrine sait des choses assez inutiles ; il a des sentiments toujours
                         singuliers ; il est moins profond que méthodique ; il n’exerce que sa
                         mémoire ; il est abstrait, dédaigneux, <pb n="107" source="#Paris_1694_8"/> et il semble toujours rire en
-                        lui-même de ceux qu’il croit ne le valoir pas. Le hasard fait que je lui lis
+                        lui-mê<pb n="111" source="#Paris_1692_7"/>me de ceux qu’il croit ne le valoir pas. Le hasard fait que je lui lis
                         mon <pb n="113" source="#Paris_1694_8"/> ouvrage, il l’écoute. Est-il lu, il me parle du sien.« Et du vôtre, me
                         direz-vous, qu’en pense-t-il ? » —Je vous l’ai déjà dit, il me parle du
                         sien.</p>
@@ -431,7 +466,7 @@
                         qu’ils lui auraient donné un autre tour.« Il y a un terme, disent les uns,
                         dans votre ouvrage, qui est rencontré et qui peint la chose au naturel ; il
                         y a un mot, disent les autres, qui est hasardé, et qui d’ailleurs <pb n="108" source="#Paris_1694_8"/> ne
-                        signifie pas assez ce que vous voulez peut-être faire entendre » ; et c’est
+                        signifie pas assez ce que vous voulez<pb n="1" source="#Paris_1692_7"/> peut-être faire entendre » ; et c’est
                         du même trait et du même mot que tous <pb n="114" source="#Paris_1694_8"/> ces gens s’expliquent ainsi, et tous
                         sont connaisseurs et passent pour tels. Quel autre parti pour un auteur, que
                         d’oser pour lors être de l’avis de ceux qui l’approuvent ?</p>
@@ -451,7 +486,7 @@
 
                 <div2 n="29" source="#Paris_1694_8 #Paris_1699_10">
                     <p>  <g ref="manicule_droite"/> 
-                        Si certains esprits vifs et <note source="#Paris_1694_8" resp="JB" place="right" style="☜">Marque qu'on a exigée de moy pendant le cours de cette édition</note>
+                        Si certains esprits vifs et <note source="#Paris_1694_8" resp="JB" type="comm" place="right" style="☜">Marque qu'on a exigée de moy pendant le cours de cette édition</note>
                         décisifs étaient crus, ce serait encore trop que
                         les termes pour exprimer les sentiments : il faudrait leur parler par
                         signes, ou sans parler se faire entendre. Quelque soin qu’on apporte <pb n="109" source="#Paris_1694_8"/> à être
@@ -487,8 +522,8 @@
                             Quelle prodigieuse distance entre un bel ouvrage et un ouvrage parfait
                             ou régulier ! Je ne sais s’il s’en <pb n="110" source="#Paris_1694_8/>est encore trouvé de ce dernier
                             genre. Il est peut-être moins difficile aux rares génies de rencontrer
-                            le grand et le sublime que d’éviter toute sorte de fautes. Le Cid n’a eu
-                            qu’une voix pour lui à sa naissance, qui a <pb n="115" source="#Paris_1694_8"/> été celle de l’admiration ;
+                            le grand et le sublime que d’éviter toute sor<pb n="112" source="#Paris_1692_7"/>te de fautes. Le Cid n’a eu
+                            qu’une voix pour lui à sa naissance, qui a <pb n="115" source="#Paris_1691_6"/> été celle de l’admiration ;
                             il s’est vu plus fort que l’autorité et la politique, qui ont tenté
                             vainement de le détruire ; il a réuni en sa faveur des esprits toujours
                             partagés d’opinions et de sentiments : les grands et le peuple ; ils
