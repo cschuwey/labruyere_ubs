@@ -6,14 +6,6 @@
              <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
              <respStmt xml:id="auteur">
                  <name>Jean de la Bruyère</name>
-                 <resp>a<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-     <fileDesc>
-         <titleStmt>
-             <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-             <respStmt xml:id="auteur">
-                 <name>Jean de la Bruyère</name>
                  <resp>auteur</resp>
              </respStmt>
              <respStmt xml:id="editeur">
@@ -383,7 +375,9 @@
             <date>2022.11.02</date>
                <p>Grâce au mail du professeur, j'ai enfin pu corriger l'erreur qui m'embêtait depuis quelques semaines mais un autre est apparue, que je dois encore corriger.</p>
                <p>Insertion de notes manuscrites, de manicules, de notes originales et de précisions de pagination provenant de l'édition 8 avec des clés.</p>
-         </change>
+               <date>2022.11.03</date>
+               <p>Correction des dernières erreurs empêchant la validation du document (attributs en trop ou inexistants, trop de guillemets) dans mes div2.</p>
+         </change> 
      </revisionDesc>
  </teiHeader>  
     
@@ -490,11 +484,11 @@
                             </app> tout autres que celles de sa vaisselle d’étain ; qu’en un mot les lettres de noblesse ne lui conviennent plus ; qu’elles n’honorent que le roturier, c’est-à-dire celui qui cherche encore le secret de devenir riche.</p>
                 </div2>
                 
-                <div2 source="#Paris_1689_4 #Paris_1690_5" n="3" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="4">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="4">
                 <p><g ref="#pied_de_mouche"/>Un homme du peuple, à force d’assurer qu’il a vu un prodige, se persuade faussement qu’il a vu un prodige. Celui qui continue de cacher son âge pense enfin lui-même être aussi jeune qu’il veut le faire croire aux autres. De même le roturier qui dit par habitude qu’il tire son origine de quelque ancien baron ou de quelque châtelain, dont il est vrai qu’il ne descend pas, a le plaisir de croire qu’il en descend.</p>
                 </div2>
                 
-                <div2 source="#Paris_1689_4 #Paris_1690_5" n="4" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="5">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="5">
                     <p><g ref="#pied_de_mouche"/><seg>Quelle est la roture un peu heureuse 
                         <app>
                             <lem>et</lem>
@@ -519,26 +513,26 @@
                         </app>ceux-ci de tant ou de tant de grilles : on n’aime pas les minuties, on passe droit aux couronnes, cela est plus simple ; on s’en croit digne, on se les adjuge. Il reste encore aux meilleurs bourgeois une certaine pudeur qui les empêche de se parer d’une couronne de marquis, trop satisfaits de la comtale ; quelques-uns même ne vont pas la chercher fort loin, 
                         <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1689_4" "#Paris_1694_8" "#Paris_1699_10">&amp;</rdg>
+                            <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app> la font passer de <seg>leur enseigne à leur carrosse.<note type="ajout_manuscrit" place="gauche" resp="#lecteurice" hand="inconnue" source="#Paris_1694_8_2">Les bazins</note></seg></p>
                 </div2>
                 
-                <div2 source="#Paris_1688_1 #Paris_1688_3" n="2" source="#Paris_1689_4 Paris_1690_5" n="5" source="Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="6">
-                                <p><g ref="#pied_de_mouche"/><lb> Il <app><lem>suffit</lem></app> de <app><lem>n’être</lem></app> point né</lb>
-                            <lb>dans une ville, mais <app><lem>sous</lem></app>  une</lb>
-                            <lb>chaumière <app><lem>répandue</lem></app>  dans la</lb>
-                            <lb>campagne, ou <app><lem>sous</lem></app> une ruine qui</lb>
-                            <lb>trempe dans un marécage 
+                <div2 source="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="6">
+                                <p><g ref="#pied_de_mouche"/><lb/> Il <app><lem>suffit</lem></app> de <app><lem>n’être</lem></app> point né
+                            <lb/>dans une ville, mais <app><lem>sous</lem></app>  une
+                            <lb/>chaumière <app><lem>répandue</lem></app>  dans la
+                            <lb/>campagne, ou <app><lem>sous</lem></app> une ruine qui
+                            <lb/>trempe dans un marécage 
                                     <app>
                                     <lem>et</lem>
                                         <rdg wit="#Paris_1688_3_1 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                                </app></lb>
-                            <lb> qu’on appelle Château, pour</lb>
-                            <lb><app><lem>être</app></lem> <app><lem>cru</lem></app> noble sur sa parole.</lb>
+                                </app>
+                            <lb/> qu’on appelle Château, pour
+                            <lb/><app><lem>être</lem></app> <app><lem>cru</lem></app> noble sur sa parole.
                             </p>
                 </div2>
                 
-                <div2 source="#Paris_1689_4 #Paris_1690_5" n="6" source="#Paris_1691_6 #Paris_1692_7 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="7">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="7">
                     <p><g ref="#pied_de_mouche"/>Un bon gentilhomme veut passer pour un petit seigneur, 
                         <app>
                             <lem>et</lem>
@@ -561,7 +555,7 @@
                         </app>d’une généalogie que D’Hozier<note type="glossaire" resp="#J_M">nom de famille célèbre de généalogistes. Le chef de cette famille a d'ailleurs écrit un ouvrage de 150 volumes manuscrits et conservés dans la Bibliothèque impériale.</note> ne lui a pas faite, il devient enfin un petit prince.</p>
                 </div2>        
                 
-                <div2 source="#Paris_1694_8" n="7" source="Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="8">
+                <div2 source="#Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="8">
                     <p><g ref="#pied_de_mouche"/>Les grands en toutes choses se
                         <g ref="#manicule_gauche" source="#Paris_1694_8_2"/>
                         forment
@@ -587,7 +581,7 @@
                             </app> comme le peuple. Horrible inconvénient !</p>                                
                 </div2>          
                 
-                <div2 source="#Paris_1689_4 #Paris_1690_5" n="7" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2" n="8" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="9">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="9">
                     <p><g ref="#pied_de_mouche"/><seg>Certaines gens portent trois noms, de peur d’en manquer<note type="ajout_manuscrit" place="droite" resp="#lecteurice" hand="inconnue" source="#Paris_1694_8_2">mrs del rieu maisre dozel du roy Loyeois sonnin</note></seg> : ils en ont pour la campagne
                             <app>
                             <lem>et</lem>
@@ -608,23 +602,23 @@
                             </app>croient que venir de bon lieu c’est venir de loin.</p>               
                 </div2> 
                 
-                <div2 source="#Paris_1688_1 #Paris_1688_3" n="3" source="#Paris_1689_4 #Paris_1690_5" n="8" source="#Paris_1691_6 #Paris_1692_7" source="#Paris_1694_8" n="9" source="#Lyon_1694_8 #Paris_1696_9 #Paris_1699_10" n="10">
-                    <p><g ref="#pied_de_mouche"/><lb> Le <app><lem>besoin</lem></app> d’argent a récon-</lb>
-                        <lb source="#Paris_1688_3">cilié la <app><lem>noblesse</lem></app> avec la rotu-</lb>
-                        <lb source="#Paris_1688_3">re, 
+                <div2 source="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #Paris_1699_10" n="10">
+                    <p><g ref="#pied_de_mouche"/><lb/> Le <app><lem>besoin</lem></app> d’argent a récon-
+                        <lb source="#Paris_1688_3"/>cilié la <app><lem>noblesse</lem></app> avec la rotu-
+                        <lb source="#Paris_1688_3"/>re, 
                                <app>
                                    <lem>et</lem>
                                    <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                                </app>
-                               a fait <app><lem>évanouir</lem></app> la preu-</lb>
-                        <pb n="273" source="#Paris_1688_3_1"/><lb source="#Paris_1688_3">ve des quatre quartiers.</lb></p>       
+                               a fait <app><lem>évanouir</lem></app> la preu-
+                        <pb n="273" source="#Paris_1688_3_1"/><lb source="#Paris_1688_3"/>ve des quatre quartiers.</p>       
                  </div2>
                 
-                <div2 source="#Paris_1689_4 #Paris_1690_5" n="9" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="10" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="11">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="11">
                     <p><g ref="#pied_de_mouche"/>À combien d’enfants serait utile la loi qui déciderait que c’est le ventre qui anoblit ! mais à combien d’autres serait-elle contraire !</p>
                   </div2>
                 
-                <div2 source="#Paris_1689_4 #Paris_1690_5" n="10" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="11" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="12">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="12">
                     <p><g ref="#pied_de_mouche"/>Il y a peu de familles dans le monde qui ne touchent aux plus grands princes par une extrémité 
                         <app>
                             <lem>et</lem>
@@ -634,32 +628,32 @@
                 
                 <pb n="599" source="#Paris_1694_8_2"/>
                 
-                <div2 source="#Paris_1690_5" n="11" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="12" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="13">
+                <div2 source="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="13">
                     <p><g ref="#pied_de_mouche"/><seg>Il n’y a rien à perdre à être noble : franchises, immunités, exemptions, privilèges, que manque-t-il à ceux qui ont un titre ? Croyez-vous<note type="ajout_manuscrit" place="droite" resp="#lecteurice" hand="inconnue" source="#Paris_1694_8_2">Les Celessins de paris le long pais</note></seg> que ce soit pour la noblesse que des solitaires<note type="originale" style="astérisque" place="gauche" resp="#editeur" source="#Paris_1692_7">Maison Religieuse Secrétaire du Roy</note> se sont faits nobles ? ils ne sont pas si vains : c’est pour le profit qu’ils en reçoivent. Cela ne leur sied-il pas mieux que d’entrer dans les gabelles ? je ne dis pas à chacun en particulier, leurs vœux s’y opposent, je dis même à la communauté.</p>
                 </div2>
                 
-                <div2 source="#Paris_1690_5" n="12" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="13" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="14">
+                <div2 source="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="14">
                     <p><g ref="#pied_de_mouche"/>Je le déclare nettement, afin que l’on s’y prépare 
                         <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1694_8" "#Paris_1699_10">&amp;</rdg>
+                            <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app>que personne un
                         <pb n="573" source="#Paris_1692_7"/>
                         jour n’en soit surpris : s’il arrive jamais que quelque grand me trouve digne de ses soins, si je fais enfin une belle fortune, il y a un Geoffroy de la Bruyère<note type="glossaire" resp="#J_M">personnage connu de l'Histoire de France, ils n'ont cependant aucun lien de parenté.</note> que toutes les chroniques rangent au nombre des plus grands seigneurs de France qui suivirent Godefroy de Bouillon<note type="glossaire" resp="#J_M">chevalier franc à qui on va proposer de devenir le premier souverain de Jérusalem à la suite de la Première Croisade, il va cependant refuser ce titre.</note> à la conquête de la Terre-Sainte : voilà alors de qui je descends en ligne directe.</p>
                 </div2>
                 
-                <div2 source="#Paris_1688_1 #Paris_1688_3" n="4" source="#Paris_1690_5" n="13" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="14" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="15">
+                <div2 source="#Paris_1688_1 #Paris_1688_3 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="15">
                     <p><g ref="#pied_de_mouche"/><lb/>Si la <app><lem>noblesse</lem></app> <app><lem>est</lem></app> vertu, elle
                     <lb/>se perd par tout ce qui n’est pas
                             <lb/>vertueux ; 
                                 <app>
                                     <lem>et</lem>
-                                    <rdg wit="#Paris_1688_3" "#Paris_1689_4" "#Paris_1694_8" "#Paris_1699_10">&amp;</rdg>
+                                    <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                                 </app>si elle n’est pas ver-
                         <lb source="#Paris_1688_3"/>tu, c’est peu de chose.</p>
                 </div2>
                 
-                <div2 source="#Paris_1689_4" n="11" source="#Paris_1690_5" n="14" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="15" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="16">
+                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="16">
                     <p><g ref="#pied_de_mouche"/>Il y a des choses qui, ramenées à leurs principes 
                         <app>
                             <lem>et</lem>
@@ -709,58 +703,56 @@
                         </app>du rouge comme une femme ?</p>
                 </div2>
                 
-                <div2 source="#Paris_1688_1 #Paris_1688_3" n="5" source="#Paris_1689_4" n="12" source="#Paris_1690_5" n="15" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="16" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="17">
-                    <p><g ref="#pied_de_mouche"/><lb> Que les <seg>saletés des Dieux,</lb>
-                        <lb>la Vénus<note type="glossaire" resp="#J_M">assimilée à déesse grecque Aphrodite, elle est la déesse de l'amour, de la séduction et de la beauté féminine dansl la mythologie romaine.</note>, le Ganymède <note type="glossaire" resp="#J_M">jeune mortel succèdant à la déesse Hébé, dans la mythologie grecque, dans sa fonction d'échanson (personne de confiance, pour éviter les empoissonnements, chargée de servir les boissons aux Dieux).</note> 
+                <div2 source="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="17">
+                    <p><g ref="#pied_de_mouche"/><lb/> Que les saletés des Dieux,
+                        <lb/>la Vénus<note type="glossaire" resp="#J_M">assimilée à déesse grecque Aphrodite, elle est la déesse de l'amour, de la séduction et de la beauté féminine dansl la mythologie romaine.</note>, le Ganymède <note type="glossaire" resp="#J_M">jeune mortel succèdant à la déesse Hébé, dans la mythologie grecque, dans sa fonction d'échanson (personne de confiance, pour éviter les empoissonnements, chargée de servir les boissons aux Dieux).</note> 
                             <app>
                                 <lem>et</lem>
                                 <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app>les</lb>
-                        <lb>autres nudités du Carache<note type="glossaire" resp="#J_M">nom francisé de la famille Carracci, soit des peintres italiens avec les frères Annibale (1560-1609) et Agostino (1557-1602) et leur cousin Lodovico (1555-1619).</note></lb>
-                        <lb source="#Paris_1688_3">aient été faites pour des prin-</lb>
-                        <lb source="#Paris_1688_3">ces de l’Eglise,
-                            <lb not_in_source="#Paris_1688_3">
+                            </app>les
+                        <lb/>autres nudités du Carache<note type="glossaire" resp="#J_M">nom francisé de la famille Carracci, soit des peintres italiens avec les frères Annibale (1560-1609) et Agostino (1557-1602) et leur cousin Lodovico (1555-1619).</note>
+                        <lb source="#Paris_1688_3"/>aient été faites pour des prin-
+                        <lb source="#Paris_1688_3"/>ces de l’Eglise,
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>qui se disent successeurs des Apôtres,</lb>
-                    le palais Farnè-</lb>
-                        <lb>se<note type="glossaire" resp="#J_M">palais dont les plans, les décorations et les fresques ont été réalisés par quelques grands artistes de la Renaissance Italienne, notamment les frères Carraci qui y sont à l'origine de la peinture de fresques à la fin du 16ème siècle.</note> en est la preuve.</lb></p>
+                        </app>qui se disent successeurs des Apôtres,
+                    le palais Farnè-<lb/>se<note type="glossaire" resp="#J_M">palais dont les plans, les décorations et les fresques ont été réalisés par quelques grands artistes de la Renaissance Italienne, notamment les frères Carraci qui y sont à l'origine de la peinture de fresques à la fin du 16ème siècle.</note> en est la preuve.</p>
                 </div2>
                 
                 <pb n="274" source="#Paris_1688_3"/>
                 <pb n="601" source="#Paris_1694_8_2"/>
                 
-                <div2 source="#Paris_1688_1 #Paris_1688_3" n="7" source="#Paris_1689_4" n="13" source="#Paris_1690_5" n="16" source="#Paris_1692_7" n="17" source="#Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="18">
-                    <p><g ref="#pied_de_mouche"/><lb> Les belles choses le sont</lb>
-                    <lb>moins hors de leur place : les</lb>
-                    <lb>bienséances mettent la perfe-</lb>
-                        <lb source="#Paris_1688_3">ction, 
+                <div2 source="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="18">
+                    <p><g ref="#pied_de_mouche"/><lb/> Les belles choses le sont
+                    <lb/>moins hors de leur place : les
+                    <lb/>bienséances mettent la perfe-
+                        <lb source="#Paris_1688_3"/>ction, 
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>la raison met les bien-</lb>
-                        <lb source="#Paris_1688_3">séances. Ainsi l’on n’entend</lb>
-                    <lb>point une gigue à la Chapelle,</lb>
-                    <lb>ni dans un sermon des tons de</lb>
-                    <lb>théâtre : l’on ne voit point d’<seg>i-</lb>
-                        <lb source="#Paris_1688_3">mages<note type="original" style="astérisque" place="gauche" resp="#editeur" source="#Paris_1688_3">Des tapisseries.</note> profanes<note type="originale" style="astérisque" place="gauche" resp="#editeur" source="#Paris_1692_7">Des tapisseries.</note></seg> dans les Tem-</lb>
-                        <lb source="#Paris_1688_3">ples;
-                            <lb not_in_source="#Paris_1688_3">un CHRIST par exemple
+                        </app>la raison met les bien-
+                        <lb source="#Paris_1688_3"/>séances. Ainsi l’on n’entend
+                    <lb/>point une gigue à la Chapelle,
+                    <lb/>ni dans un sermon des tons de
+                    <lb/>théâtre : l’on ne voit point d’<seg>i-
+                        <lb source="#Paris_1688_3"/>mages<note type="original" style="astérisque" place="gauche" resp="#editeur" source="#Paris_1688_3">Des tapisseries.</note> profanes<note type="originale" style="astérisque" place="gauche" resp="#editeur" source="#Paris_1692_7">Des tapisseries.</note></seg> dans les Tem-
+                        <lb source="#Paris_1688_3"/>ples;
+                            <lb/>un CHRIST par exemple
                             <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app> le Jugement de Paris dans le même sanctuaire,</lb>
-                    ni à des personnes consa-</lb>
-                        <lb source="#Paris_1688_3">crées à l’Eglise le train 
+                        </app> le Jugement de Paris dans le même sanctuaire,
+                    ni à des personnes consa-
+                        <lb source="#Paris_1688_3"/>crées à l’Eglise le train 
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app> l’équi-</lb>
-                    <lb>page d’un cavalier.</lb></p>
+                        </app> l’équi-
+                    <lb/>page d’un cavalier.</p>
                 </div2>
                 
-                <div2 source="#Paris_1694_8" n="17" source="#Paris_1694_8_2 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="19">
+                <div2 source="#Paris_1694_8 #Paris_1694_8_2 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="19">
                         <p><g ref="#pied_de_mouche"/>Déclarerai-je
                            <g ref="#manicule_gauche" source="#Paris_1694_8_2"/>
                             donc ce que je pense de ce qu’on appelle dans le monde un beau salut, la décoration souvent profane, les places retenues 
@@ -792,785 +784,27 @@
                             voile léger qui couvre les mystères, témoins d’une telle indécence ? Quoi ? parce qu’on ne danse pas encore aux TT…<note type="originale" style="double_astérisque" resp="#editeur" source="#Paris_1694_8_2"/>, me forcera-t-on d’appeler tout ce spectacle office d’Eglise ?</p>
                 </div2>
                
-                <div2 source="#Paris_1688_1 #Paris_1688_3" n="8" source="#Paris_1689_4" n="14" source="#Paris_1690_5 #Paris_1691_6" n="17" source="#Paris_1692_7 #Paris_1694_8"n="18" source="#Lyon_1694_8" n="19" source="#Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="20">
-                        <p><g ref="#pied_de_mouche"/><lb> L’on ne voit point faire de</lb>
-                    <lb>vœux ni de pèlerinages pour</lb>
-                            <lb source="#Paris_1688_3">obtenir d’un
+                <div2 source="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="20">
+                        <p><g ref="#pied_de_mouche"/><lb/> L’on ne voit point faire de
+                    <lb/>vœux ni de pèlerinages pour
+                            <lb source="#Paris_1688_3"/>obtenir d’un
                         <pb n="575" source="#Paris_1692_7"/>
-                        saint d’avoir l’es-</lb>
-                            <lb source="#Paris_1688_3">prit plus doux, l’âme plus re-</lb>
-                            <lb source="#Paris_1688_3">connaissante; d’être plus équi-</lb>
-                            <lb source="#Paris_1688_3">table 
+                        saint d’avoir l’es-
+                            <lb source="#Paris_1688_3"/>prit plus doux, l’âme plus re-
+                            <lb source="#Paris_1688_3"/>connaissante; d’être plus équi-
+                            <lb source="#Paris_1688_3"/>table 
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app> moins malfaisant; d’ê-</lb>
-                            <lb source="#Paris_1688_3">tre guéri de la vanité, de l’in-</lb>
-                            <lb source="#Paris_1688_3">quiétude 
+                        </app> moins malfaisant; d’ê-
+                            <lb source="#Paris_1688_3"/>tre guéri de la vanité, de l’in-
+                            <lb source="#Paris_1688_3"/>quiétude 
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app>
-                        de la mauvaise rail-</lb>
-                    <lb>lerie.</lb></p>
-                </div2>
-                
-                <pb n="275" source="#Paris_1688_3"/>
-                
-            </div1>
-            
-        </body>
-    </text>
-</TEI>
-uteur</resp>
-             </respStmt>
-             <respStmt xml:id="editeur">
-                 <name>Etienne Michallet</name>
-                 <resp>Editeur original</resp>
-             </respStmt>
-         </titleStmt>
-         <editionStmt>
-             <edition></edition>
-             <respStmt xml:id="J_M">
-                 <name>Julie Mouillet</name>
-                 <resp>Editrice</resp>
-             </respStmt>
-         </editionStmt>
-         <publicationStmt>
-             <publisher>Etienne Michallet</publisher>
-             <pubPlace>Paris</pubPlace>
-             <date when="1688">Entre 1688 et 1699</date>
-             <availability status="free" source="https://shorturl.at/csEFI">
-                 <p>Cette oeuvre est disponible, dans plusieurs de ses éditions, en libre accès sur le catalogue de la bibliothèqe numérique Gallica, soit celle de la Bibliothèque nationale de France et de ses partenaires.</p>
-             </availability>
-         </publicationStmt>
-         <sourceDesc>
-             <bibl>bibliographie</bibl>
-             <biblStruct>
-                 <monogr xml:id="Paris_1688_1">
-                     <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                     <author>Jean de la Bruyère</author>
-                     <editor>Etienne Michallet</editor>
-                     <edition>1ère édition</edition>
-                     <idno type="ark">https://gallica.bnf.fr/ark:/12148/bpt6k105077m</idno>
-                     <imprint xml:id="Paris_1688_1_1">
-                         <date>1688</date>
-                         <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                         <pubPlace>Paris</pubPlace>
-                     </imprint>
-                 </monogr>
-                 <monogr xml:id="Paris_1688_3">
-                     <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                     <author>Jean de la Bruyère</author>
-                     <editor>Etienne Michallet</editor>
-                     <edition>3ème édition</edition>
-                     <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372427436</idno>
-                     <imprint xml:id="Paris_1688_3_1">
-                         <date>1688</date>
-                         <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                         <pubPlace>Paris</pubPlace>
-                     </imprint>
-                 </monogr>
-                 <monogr xml:id="Paris_1689_4">
-                     <title type= "main">Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                     <title type= "sub">corrigée et argumentée</title>
-                     <author>Jean de la Bruyère</author>
-                     <editor>Etienne Michallet</editor>
-                     <edition>4ème édition</edition>
-                     <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb37243134t</idno>
-                     <imprint xml:id="Paris_1689_4_1">
-                         <date>1689</date>
-                         <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                         <pubPlace>Paris</pubPlace>
-                     </imprint>
-                 </monogr>
-                 <monogr xml:id="Paris_1690_5">
-                     <title type= "main">Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                     <title type= "sub">augmentée de plusiers Remarques</title>
-                     <author>Jean de la Bruyère</author>
-                     <editor>Etienne Michallet</editor>
-                     <edition>5ème édition</edition>
-                     <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb37243134t</idno>
-                     <imprint xml:id="Paris_1690_5_1">
-                         <date>1690</date>
-                         <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                         <pubPlace>Paris</pubPlace>
-                     </imprint>
-                 </monogr>
-                 <monogr xml:id="Paris_1691_6">
-                     <title type= "main">Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                     <title type= "sub">augmentée de plusiers Remarques</title>
-                     <author>Jean de la Bruyère</author>
-                     <editor>Etienne Michallet</editor>
-                     <edition>6ème édition</edition>
-                     <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb307059875</idno>
-                     <imprint xml:id="Paris_1691_6_1">
-                         <date>1691</date>
-                         <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                         <pubPlace>Paris</pubPlace>
-                     </imprint>
-                 </monogr>
-                 <monogr xml:id="Paris_1692_7">
-                     <title type= "main">Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                     <title type= "sub">revue (et) corrigée</title>
-                     <author>Jean de la Bruyère</author>
-                     <editor>Etienne Michallet</editor>
-                     <edition>7ème édition</edition>
-                     <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372432134</idno>
-                     <imprint xml:id="Paris_1692_7_1">
-                         <date>1692</date>
-                         <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                         <pubPlace>Paris</pubPlace>
-                     </imprint>
-                </monogr>
-                <monogr xml:id="Paris_1694_8">
-                     <title type= "main">Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                     <title type= "sub">Revue, corrigée (et) augmentée</title>
-                     <author>Jean de la Bruyère</author>
-                     <editor>Etienne Michallet</editor>
-                     <edition>8ème édition</edition>
-                    <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372432254</idno>
-                    <imprint xml:id="Paris_1694_8_1">
-                         <date>1694</date>
-                         <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                         <pubPlace>Paris</pubPlace>
-                     </imprint>
-                </monogr>
-                <monogr xml:id="Paris_1696_9">
-                     <title type= "main">Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                     <title type= "sub">Revue, corrigée (et) augmentée</title>
-                     <author>Jean de la Bruyère</author>
-                     <editor>Etienne Michallet</editor>
-                     <edition>9ème édition</edition>
-                    <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb37240408c</idno>
-                    <imprint xml:id="Paris_1696_9_1">
-                         <date>1696</date>
-                         <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                         <pubPlace>Paris</pubPlace>
-                     </imprint>
-                </monogr>
-                <monogr xml:id="Paris_1699_10">
-                     <title type= "main">Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                     <author>Jean de la Bruyère</author>
-                     <editor>Etienne Michallet</editor>
-                     <edition>10ème édition</edition>
-                    <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372404358</idno>
-                    <imprint xml:id="Paris_1699_10_1">
-                         <date>1699</date>
-                         <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                         <pubPlace>Paris</pubPlace>
-                     </imprint>
-                </monogr>
-                 <monogr xml:id="Lyon_1694_8">
-                     <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                     <author>Jean de la Bruyère</author>
-                     <editor>Thomas Amaulry</editor>
-                     <edition>8ème édition</edition>
-                     <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372432312</idno>
-                     <imprint xml:id="Lyon_1694_8_1">
-                         <date>1694</date>
-                         <distributor>Mercure Galant</distributor>
-                         <pubPlace>Lyon</pubPlace>
-                     </imprint>
-                 </monogr>
-                 <monogr xml:id="La_Haye_1696_9">
-                     <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                     <author>Jean de la Bruyère</author>
-                     <editor>Adrian Moetjens</editor>
-                     <edition>9ème édition</edition>
-                     <idno type="ark">http://numelyo.bm-lyon.fr/BML:BML_00GOO0100137001100959720</idno>
-                     <imprint xml:id="La_Haye_1696_9_1">
-                         <date>1696</date>
-                         <distributor>Adrian Moetjens, marchand Libraire prés la Cour</distributor>
-                         <pubPlace>La Haye</pubPlace>
-                     </imprint>
-                 </monogr>
-                 </biblStruct>
-         </sourceDesc>
-     </fileDesc>
-     <encodingDesc>
-         <editorialDecl>
-             <correction>
-                 <p>Toutes les variantes alphabétiques, orthographiques et grammaticales originant du type de langue utilisé dans l'oeuvre ont été corrigée dans leur équivalent en français moderne</p>
-                 <p>Par exemple, dans le texte original est utilisé le "s long" que l'on va à chaque fois corriger, dans un soucis de facilitation de la lecture du texte, en l'équivalent orthographique dans notre langue moderne.</p>
-             </correction>
-             <interpretation>
-                 <p>Le texte est respecté et retranscrit pour le rendre le plus lisible et le plus compréhensible possible, sans interprétation.</p>
-             </interpretation>
-             <normalization>
-                 <p>Nous avons tenté de garder au maximum la mise en page et la typographie originale, mais nous avons régularisé et corrigé les formes alphabétiques et orthographiques apparaissant dans le texte puisqu'elles sont inconnues de tous à l'heure actuelle, mais utilisées dans le texte originale.</p>
-             </normalization>
-             <punctuation>
-                <p>Marquage des emplacements de pieds-de-mouche et autre typographie spécifique (lettrine, etc) des ouvrages anciens sans les faire apparaître mais simplement signaler leur présence.</p>
-                <p>Nous partons du principe où les notes signalées par une astérisque sont faites par l'éditeur, tandis que celles marquées par une croix sont de l'auteur.</p>
-             </punctuation>
-             <segmentation>
-                <p>Chapitres segmentés en caractères, eux-mêmes segmentés par des pieds-de-mouches et autre typographie spécifique aux oeuvres de l'époque.</p>
-             </segmentation>
-         </editorialDecl>
-         <projectDesc>
-             <p>Projet de numérisation de cette oeuvre sous forme de TP du cours de XML du Master 1ère année Métiers du livre et de l'édition.</p>
-         </projectDesc>
-         <tagsDecl>
-             <rendition xml:id="italic" scheme="css">Style de police :  italique</rendition>
-             <rendition xml:id="bold" scheme="css">Style de police : gras</rendition>
-             <rendition xml:id="black" scheme="css">Couleur de police : noir</rendition>
-             <rendition xml:id="centered" scheme="css">Alignement de texte : centré</rendition>
-             <rendition xml:id="upper_case" scheme="css">Style de caractères : majuscule</rendition>
-             <rendition xml:id="lower_case" scheme="css">Style de caractères : minuscule</rendition>
-             <rendition xml:id="size_very_very_big" scheme="css">Taille de police : très très grand</rendition>
-             <rendition xml:id="size_very_big" scheme="css">Taille de police : très grand</rendition>
-             <rendition xml:id="size_big" scheme="css">Taille de police : grand</rendition>
-             <rendition xml:id="size_medium" scheme="css">Taille de police : moyenne</rendition>
-             <rendition xml:id="size_small_medium" scheme="css">Taille de police : moyenne-petit</rendition>
-             <rendition xml:id="size_small" scheme="css">Taille de police : petit</rendition>
-                 <rendition>
-                 <list rend="inline numbered">
-                     <label>(1)</label>
-                     <item>caractère 1</item>
-                     <label>(2)</label>
-                     <item>caractère 2</item>
-                     <label>(3)</label>
-                     <item>caractère 3</item>
-                     <label>(4)</label>
-                     <item>caractère 4</item>
-                     <label>(5)</label>
-                     <item>caractère 5</item>
-                     <label>(6)</label>
-                     <item>caractère 6</item>
-                     <label>(7)</label>
-                     <item>caractère 7</item>
-                     <label>(8)</label>
-                     <item>caractère 8</item>
-                     <label>(9)</label>
-                     <item>caractère 9</item>
-                     <label>(10)</label>
-                     <item>caractère 10</item>
-                     <label>(11)</label>
-                     <item>caractère 11</item>
-                     <label>(12)</label>
-                     <item>caractère 12</item>
-                     <label>(13)</label>
-                     <item>caractère 13</item>
-                     <label>(14)</label>
-                     <item>caractère 14</item>
-                     <label>(15)</label>
-                     <item>caractère 15</item>
-                     <label>(16)</label>
-                     <item>caractère 16</item>
-                     <label>(17)</label>
-                     <item>caractère 17</item>
-                     <label>(18)</label>
-                     <item>caractère 18</item>
-                     <label>(19)</label>
-                     <item>caractère 19</item>
-                     <label>(20)</label>
-                     <item>caractère 20</item>
-                 </list>
-             </rendition>
-         </tagsDecl>
-         <charDecl>
-             <glyph xml:id="S_long_minuscule">
-                 <desc>Nom : S long.</desc>
-                 <figure>
-                     <graphic url="ſ"/>
-                 </figure>
-                 <note>Ressemble à un "f".</note>
-             </glyph>
-             <glyph xml:id="pied_de_mouche">
-                 <desc>Nom : Pied-de-mouche</desc>
-                 <figure>
-                     <graphic url="¶"/>
-                 </figure>
-             </glyph>
-             <glyph xml:id="lettrine">
-                 <desc>Initial de la phrase est mise en avant, en majuscule et dans une police plus grande que le reste du texte</desc>
-                 <desc>Nom : lettrine</desc>
-             </glyph>
-         </charDecl>
-     </encodingDesc>
-     <profileDesc>
-         <creation>
-            <time> Publié en 1687 pour la première fois mais en préparation depuis 1685 au moins puisqu'il en avait parlé à Boileau quelques temps avant la première publication de l'ouvrage.</time>
-         </creation>
-             <textDesc n="recueil de remarques">
-             <channel mode="w">copie</channel>
-             <constitution type="single"/>
-             <derivation type="original"/>
-             <domain type="art"/>
-             <factuality type="mixed"/>
-             <interaction type="none"/>
-             <preparedness type="prepare"/>
-             <purpose type="information" degree="medium"/>
-         </textDesc>
-         <settingDesc>
-             <setting>
-                 <name>Paris, France</name>
-                 <time>Fin 17e</time>
-             </setting>
-         </settingDesc>
-         <particDesc>
-            <p>Caractère numéro 7, mention D'Hozier qui est un nom de famille célèbre de généalogistes. Le chef de cette famille a d'ailleurs écrit un ouvrage de 150 volumes manuscrits et conservés dans la Bibliothèque impériale.</p>
-            <p>Caractère numéro 14, mention de Geoffreoy de La Bruyère qui était effectivement un personnage connu de l'Histoire de France comme le dit La Bruyère et il semblerait qu'ils ne sont pas apparentés. Cependant, l'auteur utilise l'ironie pour dire que s'il devient connu lui-aussi, alors ils deviendront forcément décrits comme apparentés.</p>
-            <p>Caractère numéro 14, mention de Godefroy de Bouillon qui était chevalier franc à qui on va proposer de devenir le premier souverain de Jérusalem à la suite de la Première Croisade, il va cependant refuser ce titre.</p>
-         </particDesc>
-         <langUsage>
-             <language ident="fra">français du 17ème siècle</language>
-             <language ident="lat">latin</language>
-         </langUsage>
-     </profileDesc>
-     <revisionDesc>
-           <change>
-            <date>2022.10.03</date> 
-                <p>Ajout de la section "bibliStruct", dans "fileDesc" et remplissage de quelques-uns de ses éléments à propos de "xml:id="Paris_1688_1""</p>
-                <p>Ajout de la section "encodingDesc" et remplissage de quelques-uns de ses éléments comme "projectDesc"</p>
-                <p>Ajout de la section "profileDesc" et remplissage de quelques-uns de ses éléments comme "langUsage" vu en cours ou "textDesc"</p>
-            <date>2022.10.05</date> 
-                 <p>Recensement de quelques éditions de plus dans "fileDesc" et "sourceDesc" ("xml:id="Paris_1688_3""; "xml:id="Lyon_1694_8"" ; "xml:id="La_Haye_1696_9"") de plus de l'oeuvre dans la section la section "bibliStruct"</p>
-                 <p>Proposition de deux règles dans "editorialDesc"</p>
-                 <p>Proposition de deux interprétations dans "profileDesc"</p>
-                 <p>Remplissage de toute la section "revisionDesc" pour la première fois</p>
-            <date>2022.10.10</date> 
-                 <p>Vérification de ce qui a été fait la veille sur Visual Studio Code avec Oxygen et correction si besoin.</p>
-            <date>2022.10.11</date> 
-                 <p>Remplissage du "font".</p>
-            <date>2022.10.13</date> 
-                 <p>Ajout de la 7ème édition dans le "TEI header" pour faire les devoirs ainsi que de toutes les autres éditions parisiennes.</p>
-                 <p>Vérification de la présence des remarques choisies dans la 3ème édition (choisie en classe) et la 7ème édition, choisie pour les devoirs.
-                    Il s'avère que les remarques choisies apparaissent dans l'édition choisie (chapitre se trouvant entre les pages 272 et 280) en classe mais seul le tritre de chapitre apparaît dans la 7ème édition (dispersé entre les pages 568 et 603).</p>
-                 <p>Codage en détail du titre fait en cours (ajout de style, alignement et saut de ligne). Remplissage du "encodingDesc" pour S long et pieds-de-mouche.</p>
-            <date>2022.10.17</date> 
-                 <p>Ajout de l'élément "app" avec les "et" en "&amp;".</p>
-            <date>2022.10.22</date> 
-                 <p>Révision du TEI header ligne par ligne et tentative de correction des erreurs présentes.</p>
-                 <p>Ajout des sources des éditions référencées ici pour chacun des caractères.</p>
-                 <p>Implémentation des pieds-de-mouche là où ils apparaissent.</p>
-            <date>2022.10.23</date> 
-                 <p>Ajout de "interpretation" dans le "encodingDesc".</p>
-                 <p>Encodage d'"app" "lem" et "rdg" pour toutes les esperluettes de mes caractères.</p>
-            <date>2022.10.31</date> 
-               <p>Correction des devoirs donnés pendant les vacances.</p>
-               <p>Correction de quelques erreurs pour tenter de faire valider mon fichier.</p>
-               <p>Ajout de notes et de leurs différents détails dans les remarques.</p>
-            <date>2022.11.01</date> 
-               <p>Reprise du document quasiment ligne par ligne pour le faire absolument totalement valider (problèmes venant majoritairement des ajouts  que j'ai pu faire en plus à la suite de certains cours).</p>
-               <p>Insertion de notes de la Buyère et de ma part pour constituer un glossaire.</p>
-               <p>Insertion de précisions de pagination des éditions 3 et 7.</p>
-         </change>
-     </revisionDesc>
- </teiHeader>  
-    
-    <text>
-        <front>
-            <titlePage>
-                <docAuthor source="#Paris_1688_3">Jean de La Bruyère</docAuthor>
-                <docTitle>
-                    <titlePart>
-                        <title type= "full">Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                     </titlePart>
-                    <titlePart type= "main"></titlePart>
-                    <lb/> <titlePart rendition="#italic #upper_case #black #medium #bold #centered">LES</titlePart>
-                    <lb/> <titlePart rendition="#upper_case #black #very_big #bold #centered">CARACTERES</titlePart>
-                    <lb/> <titlePart rendition="#upper_case #black #medium #bold #centered">DE THEOPHRASTE</titlePart>
-                    <lb/> <titlePart rendition="#upper_case #black #small_medium #bold #centered">TRADUITS DU GREC :</titlePart>
-                    
-                    <lb/> <titlePart type="sub"></titlePart> 
-                    <lb/> <titlePart rendition="#upper_case #black #small_medium #bold #italic #centered">AVEC</titlePart>
-                    <lb/> <titlePart rendition="#upper_case #black #big #bold #centered">LES CARACTERES</titlePart>
-                    <lb/> <titlePart rendition="#upper_case #black #small_medium #bold #centered">OU</titlePart>
-                    <lb/> <titlePart rendition="#upper_case #black #very_very_big #bold #centered">LES MOEURS</titlePart>
-                    <lb/> <titlePart style="#upper_case #black #medium #bold #centered">DE CE SIECLE</titlePart>                        
-                </docTitle>
-                <docDate when="1688" style="#centered">MDCLXXXVIII</docDate>
-                <imprimatur style="#italic">Avec Privilège de Sa Majesté</imprimatur>
-                <docEdition style= "#upper_case #black #small_medium #bold #italic" n="3">
-                </docEdition>
-                <docImprint>
-                    <country>France</country>
-                    <placeName style= "#upper_case #black #small_medium #bold #centered">A Paris</placeName>
-                    <persName style="#black #small">Chez E S T I E N N E   M I C H A L L E T</persName>
-                    <roleName style="#black">premier Imprimeur du Roy, </roleName>
-                    <addName style="#black #small">ruë S.Jacques à l'Image <app><lem>S</lem><rdg wit="#Paris_1688_3"><g ref="#S_long_minuscule"/></rdg></app>aint Paul</addName>
-                </docImprint>
-                <imprimatur style="#italic #small">Avec privilège de sa majesté</imprimatur>
-            </titlePage>
-        </front>
-        
-        <body>    
-            <div1>
-                <pb n="272" source="#Paris_1688_3"/> 
-                <pb n="568" source="#Paris_1692_7"/>
-                
-                <head type="sub">De Quelques Usages</head>
-
-                <div2 source="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="1">
-                    <elementSpec ident="remarque">
-                        <remarks>
-                            <p>Lettrine et non un pied-de-mouche pour la première remarque de chaque chapitre.</p>
-                        </remarks>
-                    </elementSpec>
-                    <p>
-                       <g ref="#lettrine"/>
-                        <lb/>Il y a des gens qui n’ont <lb source="#Paris_1688_1"/> pas le moyen d' <seg><app><lem>être</lem></app> no<lb source="#Paris_1688_1"/>bles<note type="original" style="astérisque" place="gauche" resp="#editeur" source="#Paris_1688_3">Secretaires du Roy</note></seg><note type="originale" style="astérisque" place="gauche" resp="#editeur" source="#Paris_1692_7"/> Vétérans</note>
-                        <lb source="#Paris_1688_3"/> Il y en a de tels que, s’ils <app><lem>eussent</lem></app> obtenu <app><lem>six</lem></app> mois de <app><lem>délai</lem></app> de leurs <app><lem>créanciers</lem></app>, ils <app><lem>étaient</lem></app> nobles<note type="originale" style="croix" place="gauche" resp="#auteur" source="#Paris_1688_3" <note type="originale" style="astérisque" place="gauche" resp="#editeur" source="#Paris_1692_7"/>Vétérans</note>.
-                        <lb source="#Paris_1688_3"/> Quelques autres <app><lem>se</lem></app> couchent roturiers, <app><lem>et</lem><rdg wit="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg></app> <app><lem>se</lem></app> <app><lem>lèvent</lem></app> nobles.
-                        <lb source="#Paris_1688_1 #Paris_1688_3"/> Combien de nobles dont le père
-                          <app>
-                             <lem>et</lem>
-                             <rdg wit="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                          </app> les
-                        <app><lem>aînés</lem></app>
-                        <app><lem>sont</lem></app>roturiers !
-                    </p>
-                </div2>
-                
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="2">
-                    <p><g ref="#pied_de_mouche"/>Tel abandonne son père, qui est connu
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app> dont l’on cite le greffe ou la boutique, pour se retrancher sur son aïeul, qui, mort depuis longtemps, est inconnu
-                            <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app> hors de prise ; il montre ensuite un gros revenu, une grande charge, de belles alliances,
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app> pour être noble, il ne lui manque que des titres.</p>
-                </div2>
-                
-                <div2 source="#Paris_1691_6 Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="3">   
-                    <p><g ref="#pied_de_mouche"/>Réhabilitations, mot en usage dans les tribunaux, qui a fait vieillir
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app> rendu gothique celui de lettres de noblesse autrefois si français
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app> si usité ; se faire réhabiliter suppose qu’un homme devenu riche originairement est noble, qu’il est d’une nécessité
-                        <pb n="569" source="#Paris_1692_7"/>
-                       plus que morale qu’il le soit ; qu’à la vérité son père a pu déroger ou par la charrue ou par la houe, ou par la malle, ou par les livrées ; mais qu’il ne s’agit pour lui que de rentrer dans les premiers droits de ses ancêtres,
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app> de continuer les armes de sa maison, les mêmes pourtant qu’il a fabriquées,
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app> tout autres que celles de sa vaisselle d’étain ; qu’en un mot les lettres de noblesse ne lui conviennent plus ; qu’elles n’honorent que le roturier, c’est-à-dire celui qui cherche encore le secret de devenir riche.</p>
-                </div2>
-                
-                <div2 source="Paris_1689_4 #Paris_1690_5" n="3" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="4">
-                <p><g ref="#pied_de_mouche"/>Un homme du peuple, à force d’assurer qu’il a vu un prodige, se persuade faussement qu’il a vu un prodige. Celui qui continue de cacher son âge pense enfin lui-même être aussi jeune qu’il veut le faire croire aux autres. De même le roturier qui dit par habitude qu’il tire son origine de quelque ancien baron ou de quelque châtelain, dont il est vrai qu’il ne descend pas, a le plaisir de croire qu’il en descend.</p>
-                </div2>
-                
-                <div2 source="#Paris_1689_4 #Paris_1690_5" n="4" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="5">
-                    <p><g ref="#pied_de_mouche"/>Quelle est la roture un peu heureuse 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>établie à qui il manque des
-                        <pb n="570" source="#Paris_1692_7"/> armes, 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>dans ces armes une pièce honorable, des suppôts, un cimier, une devise, <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app> peut-être le cri de guerre ? Qu’est devenue la distinction des casques et des heaumes ? Le nom
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app> l’usage en sont abolis ; il ne s’agit plus de les porter de front ou de côté, ouverts ou fermés, 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>ceux-ci de tant ou de tant de grilles : on n’aime pas les minuties, on passe droit aux couronnes, cela est plus simple ; on s’en croit digne, on se les adjuge. Il reste encore aux meilleurs bourgeois une certaine pudeur qui les empêche de se parer d’une couronne de marquis, trop satisfaits de la comtale ; quelques-uns même ne vont pas la chercher fort loin, 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4" "#Paris_1694_8" "#Paris_1699_10">&amp;</rdg>
-                        </app> la font passer de leur enseigne à leur carrosse.</p>
-                </div2>
-                
-                <div2 source="#Paris_1688_1 #Paris_1688_3" n="2" source="#Paris_1689_4 Paris_1690_5" n="5" source="Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="6">
-                                <p><g ref="#pied_de_mouche"/><lb> Il <app><lem>suffit</lem></app> de <app><lem>n’être</lem></app> point né</lb>
-                            <lb>dans une ville, mais <app><lem>sous</lem></app>  une</lb>
-                            <lb>chaumière <app><lem>répandue</lem></app>  dans la</lb>
-                            <lb>campagne, ou <app><lem>sous</lem></app> une ruine qui</lb>
-                            <lb>trempe dans un marécage 
-                                    <app>
-                                    <lem>et</lem>
-                                        <rdg wit="#Paris_1688_3_1 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                                </app></lb>
-                            <lb> qu’on appelle Château, pour</lb>
-                            <lb><app><lem>être</app></lem> <app><lem>cru</lem></app> noble sur sa parole.</lb>
-                            </p>
-                </div2>
-                
-                <div2 source="#Paris_1689_4 #Paris_1690_5" n="6" source="#Paris_1691_6 #Paris_1692_7 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="7">
-                    <p><g ref="#pied_de_mouche"/>Un bon gentilhomme veut passer pour un petit seigneur, 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4 #Paris_1699_10">&amp;</rdg>
-                        </app>il y parvient. Un grand seigneur affecte la principauté,
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4 #Paris_1699_10">&amp;</rdg>
-                        </app> il use de tant de pré-
-                        <pb n="571" source="#Paris_1692_7"/>
-                        cautions, qu’à force de beaux noms, de disputes sur le rang
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4 #Paris_1699_10">&amp;</rdg>
-                        </app> les préséances, de nouvelles armes, 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4 #Paris_1699_10">&amp;</rdg>
-                        </app>d’une généalogie que D’Hozier<note type="glossaire" resp="#J_M">nom de famille célèbre de généalogistes. Le chef de cette famille a d'ailleurs écrit un ouvrage de 150 volumes manuscrits et conservés dans la Bibliothèque impériale.</note> ne lui a pas faite, il devient enfin un petit prince.</p>
-                </div2>        
-                
-                <div2 source="#Paris_1694_8" n="7" source="Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="8">
-                    <p><g ref="#pied_de_mouche"/>Les grands en toutes choses se forment
-                            <app>
-                            <lem>et</lem>
-                                <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app> se moulent sur de plus grands, qui de leur part, pour n’avoir rien de commun avec leurs inférieurs, renoncent volontiers à toutes les rubriques d’honneurs
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app>de distinctions dont leur condition se trouve chargée, 
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app>préfèrent à cette servitude une vie plus libre et plus commode. Ceux qui suivent leur piste observent déjà par émulation cette simplicité 
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app>cette modestie : tous ainsi se réduiront par hauteur à vivre naturellement 
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app> comme le peuple. Horrible inconvénient !</p>                                
-                </div2>          
-                
-                <div2 source="#Paris_1689_4 #Paris_1690_5" n="7" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="8" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="9">
-                    <p><g ref="#pied_de_mouche"/>Certaines gens portent trois noms, de peur d’en manquer : ils en ont pour la campagne
-                            <app>
-                            <lem>et</lem>
-                                <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app> pour la ville, pour les lieux de leur service ou de leur emploi. D’autres ont un seul nom dissyllabe, qu’ils anoblissent par des particules dès que leur fortune devient meilleure ; Celui-ci par la suppression d’une syllabe fait de son nom obscur un nom illustre ; celui-là par le changement d’une lettre en une autre se travestit, 
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app>de Syrus devient Cyrus. Plusieurs suppriment leurs noms, qu’ils pourraient conserver sans honte, pour en adopter de plus beaux, où ils n’ont qu’à perdre par la comparaison que l’on fait toujours d’eux qui les portent, avec les grands hommes qui les ont portés. Il s’en trouve enfin qui, nés à l’ombre des clochers de Paris, veulent être Flamands ou Italiens, comme si la roture n’était pas de tout pays, allongent
-                        <pb n="572" source="#Paris_1692_7"/>
-                        leurs noms français d’une terminaison étrangère, 
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app>croient que venir de bon lieu c’est venir de loin.</p>               
-                </div2> 
-                
-                <div2 source="#Paris_1688_1 #Paris_1688_3" n="3" source="#Paris_1689_4 #Paris_1690_5" n="8" source="#Paris_1691_6 #Paris_1692_7" source="#Paris_1694_8" n="9" source="#Lyon_1694_8 #Paris_1696_9 #Paris_1699_10" n="10">
-                    <p><g ref="#pied_de_mouche"/><lb> Le <app><lem>besoin</lem></app> d’argent a récon-</lb>
-                        <lb source="#Paris_1688_3">cilié la <app><lem>noblesse</lem></app> avec la rotu-</lb>
-                        <lb source="#Paris_1688_3">re, 
-                               <app>
-                                   <lem>et</lem>
-                                   <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                               </app>
-                               a fait <app><lem>évanouir</lem></app> la preu-</lb>
-                        <pb n="273" source="#Paris_1688_3_1"/><lb source="#Paris_1688_3">ve des quatre quartiers.</lb></p>       
-                 </div2>
-                
-                <div2 source="#Paris_1689_4 #Paris_1690_5" n="9" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="10" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="11">
-                    <p><g ref="#pied_de_mouche"/>À combien d’enfants serait utile la loi qui déciderait que c’est le ventre qui anoblit ! mais à combien d’autres serait-elle contraire !</p>
-                  </div2>
-                
-                <div2 source="#Paris_1689_4 #Paris_1690_5" n="10" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="11" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="12">
-                    <p><g ref="#pied_de_mouche"/>Il y a peu de familles dans le monde qui ne touchent aux plus grands princes par une extrémité 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app> par l’autre au simple peuple.</p>
-                
-                </div2>
-                <div2 source="#Paris_1690_5" n="11" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="12" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="13">
-                    <p><g ref="#pied_de_mouche"/>Il n’y a rien à perdre à être noble : franchises, immunités, exemptions, privilèges, que manque-t-il à ceux qui ont un titre ? Croyez-vous que ce soit pour la noblesse que des solitaires<note type="originale" style="astérisque" place="gauche" resp="#editeur" source="#Paris_1692_7">Maison Religieuse Secrétaire du Roy</note> se sont faits nobles ? ils ne sont pas si vains : c’est pour le profit qu’ils en reçoivent. Cela ne leur sied-il pas mieux que d’entrer dans les gabelles ? je ne dis pas à chacun en particulier, leurs vœux s’y opposent, je dis même à la communauté.</p>
-                </div2>
-                
-                <div2 source="#Paris_1690_5" n="12" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="13" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="14">
-                    <p><g ref="#pied_de_mouche"/>Je le déclare nettement, afin que l’on s’y prépare 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1694_8" "#Paris_1699_10">&amp;</rdg>
-                        </app>que personne un
-                        <pb n="573" source="#Paris_1692_7"/>
-                        jour n’en soit surpris : s’il arrive jamais que quelque grand me trouve digne de ses soins, si je fais enfin une belle fortune, il y a un Geoffroy de la Bruyère<note type="glossaire" resp="#J_M">personnage connu de l'Histoire de France, ils n'ont cependant aucun lien de parenté.</note> que toutes les chroniques rangent au nombre des plus grands seigneurs de France qui suivirent Godefroy de Bouillon<note type="glossaire" resp="#J_M">chevalier franc à qui on va proposer de devenir le premier souverain de Jérusalem à la suite de la Première Croisade, il va cependant refuser ce titre.</note> à la conquête de la Terre-Sainte : voilà alors de qui je descends en ligne directe.</p>
-                </div2>
-                
-                <div2 source="#Paris_1688_1 #Paris_1688_3" n="4" source="#Paris_1690_5" n="13" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="14" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="15">
-                    <p><g ref="#pied_de_mouche"/><lb/>Si la <app><lem>noblesse</lem></app> <app><lem>est</lem></app> vertu, elle
-                    <lb/>se perd par tout ce qui n’est pas
-                            <lb/>vertueux ; 
-                                <app>
-                                    <lem>et</lem>
-                                    <rdg wit="#Paris_1688_3" "#Paris_1689_4" "#Paris_1694_8" "#Paris_1699_10">&amp;</rdg>
-                                </app>si elle n’est pas ver-
-                        <lb source="#Paris_1688_3"/>tu, c’est peu de chose.</p>
-                </div2>
-                
-                <div2 source="#Paris_1689_4" n="11" source="#Paris_1690_5" n="14" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="15" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="16">
-                    <p><g ref="#pied_de_mouche"/>Il y a des choses qui, ramenées à leurs principes 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>à leur première institution, sont étonnantes 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>incompréhensibles. Qui peut concevoir en effet que certains abbés, à qui il ne manque rien de l’ajustement, de la mollesse 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>de la vanité des sexes et des conditions, qui entrent auprès des femmes en concurrence avec le marquis 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>le financier, 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>qui l’emportent sur tous les deux, qu’eux-mêmes soient originairement 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>dans l’étymologie de leur nom les pères, 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>les chefs de saints moines 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>d’hum-
-                        <pb n="574" source="#Paris_1692_7"/>
-                        bles solitaires, 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>qu’ils en devraient être l’exemple ? Quelle force, quel empire, quelle tyrannie de l’usage ! 
-                        <app>
-                            <lem>Et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>sans parler de plus grands désordres, ne doit-on pas craindre de voir un jour un jeune abbé en velours gris et à ramages comme une éminence, ou avec des mouches 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>du rouge comme une femme ?</p>
-                </div2>
-                
-                <div2 source="#Paris_1688_1 #Paris_1688_3" n="5" source="#Paris_1689_4" n="12" source="#Paris_1690_5" n="15" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8" n="16" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="17">
-                    <p><g ref="#pied_de_mouche"/><lb> Que les <seg>saletés des Dieux,</lb>
-                        <lb>la Vénus<note type="glossaire" resp="#J_M">assimilée à déesse grecque Aphrodite, elle est la déesse de l'amour, de la séduction et de la beauté féminine dansl la mythologie romaine.</note>, le Ganymède <note type="glossaire" resp="#J_M">jeune mortel succèdant à la déesse Hébé, dans la mythologie grecque, dans sa fonction d'échanson (personne de confiance, pour éviter les empoissonnements, chargée de servir les boissons aux Dieux).</note> 
-                            <app>
-                                <lem>et</lem>
-                                <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                            </app>les</lb>
-                        <lb>autres nudités du Carache<note type="glossaire" resp="#J_M">nom francisé de la famille Carracci, soit des peintres italiens avec les frères Annibale (1560-1609) et Agostino (1557-1602) et leur cousin Lodovico (1555-1619).</note></lb>
-                        <lb source="#Paris_1688_3">aient été faites pour des prin-</lb>
-                        <lb source="#Paris_1688_3">ces de l’Eglise,
-                            <lb not_in_source="#Paris_1688_3">
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>qui se disent successeurs des Apôtres,</lb>
-                    le palais Farnè-</lb>
-                        <lb>se<note type="glossaire" resp="#J_M">palais dont les plans, les décorations et les fresques ont été réalisés par quelques grands artistes de la Renaissance Italienne, notamment les frères Carraci qui y sont à l'origine de la peinture de fresques à la fin du 16ème siècle.</note> en est la preuve.</lb></p>
-                </div2>
-                
-                <pb n="274" source="#Paris_1688_3"/>
-                
-                <div2 source="#Paris_1688_1 #Paris_1688_3" n="7" source="#Paris_1689_4" n="13" source="#Paris_1690_5" n="16" source="#Paris_1692_7" n="17" source="#Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="18">
-                    <p><g ref="#pied_de_mouche"/><lb> Les belles choses le sont</lb>
-                    <lb>moins hors de leur place : les</lb>
-                    <lb>bienséances mettent la perfe-</lb>
-                        <lb source="#Paris_1688_3">ction, 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>la raison met les bien-</lb>
-                        <lb source="#Paris_1688_3">séances. Ainsi l’on n’entend</lb>
-                    <lb>point une gigue à la Chapelle,</lb>
-                    <lb>ni dans un sermon des tons de</lb>
-                    <lb>théâtre : l’on ne voit point d’<seg>i-</lb>
-                        <lb source="#Paris_1688_3">mages<note type="original" style="astérisque" place="gauche" resp="#editeur" source="#Paris_1688_3">Des tapisseries.</note> profanes<note type="originale" style="astérisque" place="gauche" resp="#editeur" source="#Paris_1692_7">Des tapisseries.</note></seg> dans les Tem-</lb>
-                        <lb source="#Paris_1688_3">ples;
-                            <lb not_in_source="#Paris_1688_3">un CHRIST par exemple
-                            <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app> le Jugement de Paris dans le même sanctuaire,</lb>
-                    ni à des personnes consa-</lb>
-                        <lb source="#Paris_1688_3">crées à l’Eglise le train 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app> l’équi-</lb>
-                    <lb>page d’un cavalier.</lb></p>
-                </div2>
-                
-                <div2 source="#Paris_1694_8" n="17" source="#Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="19">
-                        <p><g ref="#pied_de_mouche"/>Déclarerai-je donc ce que je pense de ce qu’on appelle dans le monde un beau salut, la décoration souvent profane, les places retenues 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>payées, des livres distribués comme au théâtre, les entrevues 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>les rendez-vous fréquents, le murmure 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>les causeries étourdissantes, quelqu’un monté sur une tribune qui y parle familièrement, sèchement, 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>sans autre zèle que de rassembler le peuple, l’amuser, jusqu’à ce qu’un orchestre, le dirai-je ? 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>des voix qui concertent depuis longtemps se fassent entendre ? Est-ce à moi à m’écrier que le zèle de la maison du Seigneur me consume, 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>à tirer le voile léger qui couvre les mystères, témoins d’une telle indécence ? Quoi ? parce qu’on ne danse pas encore aux TT…, me forcera-t-on d’appeler tout ce spectacle office d’Eglise ?</p>
-                </div2>
-               
-                <div2 source="#Paris_1688_1 #Paris_1688_3" n="8" source="#Paris_1689_4" n="14" source="#Paris_1690_5 #Paris_1691_6" n="17" source="#Paris_1692_7 #Paris_1694_8"n="18" source="#Lyon_1694_8" n="19" source="#Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10" n="20">
-                        <p><g ref="#pied_de_mouche"/><lb> L’on ne voit point faire de</lb>
-                    <lb>vœux ni de pèlerinages pour</lb>
-                            <lb source="#Paris_1688_3">obtenir d’un
-                        <pb n="575" source="#Paris_1692_7"/>
-                        saint d’avoir l’es-</lb>
-                            <lb source="#Paris_1688_3">prit plus doux, l’âme plus re-</lb>
-                            <lb source="#Paris_1688_3">connaissante; d’être plus équi-</lb>
-                            <lb source="#Paris_1688_3">table 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app> moins malfaisant; d’ê-</lb>
-                            <lb source="#Paris_1688_3">tre guéri de la vanité, de l’in-</lb>
-                            <lb source="#Paris_1688_3">quiétude 
-                        <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>
-                        de la mauvaise rail-</lb>
-                    <lb>lerie.</lb></p>
+                        de la mauvaise rail-
+                    <lb/>lerie.</p>
                 </div2>
                 
                 <pb n="275" source="#Paris_1688_3"/>
