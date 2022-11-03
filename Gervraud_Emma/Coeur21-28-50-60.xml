@@ -182,6 +182,7 @@
                     <date when="2022-10-29">Ajout des pieds de mouche</date>
                     <date when="2022-10-30">Modification de "sc" en "s" et description de la première page</date>
                     <date when="2022-10-31">Correction des "app" et "g"</date>
+					<date when="2022-11-03">Ajout de notes et pagination</date>
                 </item>
             </list>
         </revisionDesc>
@@ -195,7 +196,7 @@
             <titlePage source="#Paris_1688_1">
                 <docTitle>
                     <titlePart>Les</titlePart>
-                    <titlePart style="big">caractères</titlePart>
+                    <titlePart style="big">caractères<titlePart>
                     <titlePart>de Théophraste</titlePart>
                     <titlePart>traduits du Grec :</titlePart>
                     <titlePart style="italics">avec</titlePart>
@@ -412,11 +413,12 @@
         </front>
         <body>
             <div1>
+				<!--Absence de note, absence de note manuscrite, absence de mot en langue étrangère-->
                 <head>Du Coeur</head>
                 <div2 n="21" source="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
                         <g ref="#pied_de_mouche_simple"></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>S’il se trouve une femme pour qui l’on ait
+                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>S’il se trouve une femme pour <pb n="161" source="#Paris_1690_edition5"/> qui l’on ait
                             eu une grande passion et qui ait été indifférente, quelques importants
                             services qu’elle nous rende dans la suite de notre vie, l’on court un
                             grand risque d’être ingrat.</p>
@@ -424,15 +426,15 @@
                 <div2 n="22" source="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
                         <g ref="#pied_de_mouche_simple "></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Une grande reconnaissance emporte avec soi beaucoup de goût et d'<app><lem>amitié</lem><rdg wit="#Paris_1690_edition5">amit é</rdg></app> pour
+                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Une grande reconnaissance emporte avec soi beaucoup de goût et <pb n="144" source="#Paris_1689_edition4"/> d'<app><lem>amitié</lem><rdg wit="#Paris_1690_edition5">amit é</rdg></app> pour
                             la personne qui nous oblige.</p>
                 </div2>
                 <div2 n="23" source="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p> 
                         <g ref="#pied_de_mouche_simple"></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Etre avec des gens qu’on aime <app><lem>,</lem><rdg wit="#Paris_1689_edition4 #Paris_1690_edition5"> absence de virgule</rdg></app> cela suffit ; rêver, leur parler<app><lem>,</lem><rdg wit="#Paris_1689_edition4">manque d'espaces avant et après virgule</rdg></app> ne leur
-                        parler point, penser à eux, penser à des choses plus <app><lem>indifférentes</lem><rdg wit="#Paris_1689_edition4">indiff.rentes</rdg></app>, mais
-                        auprès d’eux, tout est égal</p>
+                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Etre <note resp="#EG">Dans la Bryuère, il est écrit "estre"</note> avec des gens qu’on aime <app><lem>,</lem><rdg wit="#Paris_1689_edition4 #Paris_1690_edition5"> absence de virgule</rdg></app> cela suffit ; rêver, leur parler<app><lem>,</lem><rdg wit="#Paris_1689_edition4">manque d'espaces avant et après virgule</rdg></app> ne leur
+                        parler point <note resp="#EG">ancêtre du mot pas</note>, penser à eux, penser à des choses plus <app><lem>indifférentes</lem><rdg wit="#Paris_1689_edition4">indiff.rentes</rdg></app>, mais
+                        auprès d’eux, tout est égal. <pb n="117" source="#Paris_1699_edition10"/> <pb n="169" source="#Paris_1694_edition8"/> <pb n="168" source="#Paris_1692_edition7"/> <pb n="147" source="#Paris_1691_edition6"/></p>
                 </div2>
                 <div2 n="24" source="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p> 
@@ -459,14 +461,14 @@
                     <p>
                         <g ref="#pied_de_mouche_simple"></g> 
                         <g ref= "pied_de_mouche_simple_avec_parenthese"></g>L’on confie son secret dans l’amitié ; mais il <app><lem>échape</lem><rdg wit="#Paris_1690_edition5">échappe</rdg></app> dans l’amour. L’on
-                        peut avoir la confiance de quelqu’un sans en avoir le cœur. Celui qui a le
-                            cœur n’a <app><lem>pas</lem><rdg wit="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7">plus</rdg></app> besoin de révélation <app><lem> </lem><rdg wit="#Paris_1691_edition6">,</rdg></app> ou de confiance ; tout lui est ouvert.</p>
+                        peut avoir la confiance de quelqu’un sans en avoir le cœur. Celui <note resp="#EG">Dans la Bryuère, il est écrit "celuy"</note> qui a le
+                            cœur n’a <app><lem>pas</lem><rdg wit="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7">plus</rdg></app> besoin de révélation <app><lem> </lem><rdg wit="#Paris_1691_edition6">,</rdg></app> ou de confiance ; tout lui <note resp="#EG">Dans la Bryuère, il est écrit "luy"</note> est ouvert.</p>
                 </div2>
                 <div2 n="27" source="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p> 
                         <g ref="#pied_de_mouche_simple"></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>L’on ne voit dans l’amitié que les <app><lem>défauts</lem><rdg wit="#Paris_1691_edition6">defauts</rdg></app> qui peuvent nuire à nos amis.
-                        L’on ne voit en amour de défauts dans ce qu’on aime <app><lem>,</lem><rdg wit="#Paris_1690_edition5"> </rdg></app> que ceux dont on souffre
+                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>L’on ne voit dans l’amitié que les <app><lem>défauts</lem><rdg wit="#Paris_1691_edition6">defauts</rdg></app> <pb n="74" source="#Paris_1696_edition9"/> qui peuvent nuire à nos amis.
+                        L’on ne voit en amour de dé- <pb n="162" source="#Paris_1690_edition5"/> fauts dans ce qu’on aime <app><lem>,</lem><rdg wit="#Paris_1690_edition5"> </rdg></app> que ceux dont on souffre
                         soi-même.</p>
                 </div2>
                 <!-- une faute de frappe dans l'édition 10 de bon en bou montexte de référence -->
@@ -479,18 +481,18 @@
                 <div2 n="50" source="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
                         <g ref="#pied_de_mouche_simple_avec_double_parenthese"></g>
-                        <g ref="#pied_de_mouche_simple"></g>Un homme dur au travail et à la peine, inexorable à soi-même, n’est indulgent
+                        <g ref="#pied_de_mouche_simple"></g>Un homme dur au travail et à la <pb n="152" source="#Paris_1691_edition6"/> peine, inexorable à soi-même, n’est indulgent
                         aux autres que par un excès de raison.</p>
                 </div2>
                 <div2 n="51" source="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p> <g ref="#pied_de_mouche_simple_avec_double_parenthese"></g>
-                        <g ref="#pied_de_mouche_simple"></g> Quelque désagrément qu’on ait à se trouver chargé d’un indigent<app><lem> , </lem><rdg wit="#Paris_1690_edition5">, </rdg></app>l’on goûte
+                        <g ref="#pied_de_mouche_simple"></g> Quelque désagrément qu’on ait à se trou- <pb n="77" source="#Paris_1696_edition9"/>ver chargé d’un indigent<app><lem> , </lem><rdg wit="#Paris_1690_edition5">, </rdg></app>l’on goûte
                         à peine les nouveaux avantages qui le tirent enfin de <app><lem>nôtre</lem><rdg wit="#Paris_1690_edition5">nostre</rdg></app> sujétion : de
-                        <app><lem>même</lem><rdg wit="#Paris_1690_edition5">mesme</rdg></app>, la joie que l’on reçoit de l’élévation de son ami est un peu balancée
+                        <app><lem>même</lem><rdg wit="#Paris_1690_edition5">mesme</rdg></app>, la joie <note resp="#EG">Dans la Bryuère, il est écrit "joye"</note> que l’on reçoit de l’élévation de son ami est un peu balancée
                         par la petite peine qu’on a de le voir au-dessus de nous ou s’égaler à nous.
                         Aussi l’on s’accorde mal avec soi-<app><lem>même</lem><rdg wit="#Paris_1690_edition5">mesme</rdg></app> ; car l’on veut des dépendants, et
-                        qu’il n’en coûte rien ; l’on veut aussi le bien de ses amis, et, s’il
-                        arrive, ce n’est pas <app><lem>toûjours</lem><rdg wit="#Paris_1690_edition5 #Paris_1696_edition9">toujours</rdg></app> par s’en réjouir que l’on commence.</p>
+                        qu’il n’en coûte rien ; l’on veut aussi le bien de ses <pb n="167" source="#Paris_1690_edition5"/> amis, et, s’il
+                        arrive, ce n’est pas <app><lem>toûjours</lem><rdg wit="#Paris_1690_edition5 #Paris_1696_edition9">toujours</rdg></app> par s’en réjouir <note resp="#EG">Dans la Bryuère, il est écrit "réjoüir"</note> que l’on commence.</p>
                 </div2>
                 <div2 n="52" source="#Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
@@ -500,8 +502,8 @@
                 <div2 n="53" source="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
                         <g ref="#pied_de_mouche_simple_avec_parenthese"></g>
-                        <g ref="#pied_de_mouche_simple"></g>C’est assez pour soi d’un fidèle<app><lem>fidèle</lem><rdg wit="#Paris_1696_edition9">fidelle</rdg></app> ami ; c’est <app><lem>même</lem><rdg wit="#Paris_1690_edition5">mesme</rdg></app> beaucoup de l’avoir
-                        rencontré : on ne peut en avoir trop pour le service des autres.</p>
+                        <g ref="#pied_de_mouche_simple"></g>C’est assez pour soi <note resp="#EG">Dans la Bryuère, il est écrit "soy"</note> d’un fidèle<app><lem>fidèle</lem><rdg wit="#Paris_1696_edition9">fidelle</rdg></app> ami ; c’est <app><lem>même</lem><rdg wit="#Paris_1690_edition5">mesme</rdg></app> beaucoup de l’avoir
+                        rencontré : on ne peut en avoir trop pour le service des autres.<pb n="123" source="#Paris_1699_edition10"/> <pb n="175" source="#Paris_1694_edition8"/> <pb n="174" source="#Paris_1692_edition7"/></p>
                 </div2>
                 <div2 n="54" source="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
@@ -513,9 +515,9 @@
                 <!-- attention deux remarques dans la cinquième édition se séparent à partir de la sixième -->
                 <div2 n="55" source="#Paris_1690_edition5">
                     <p>
-                        <g ref="#pied_de_mouche_simple_avec_double_parenthese"></g>Vivre avec ses ennemis comme s’ils devaient un jour <app><lem>être</lem><rdg wit="#Paris_1690_edition5">estre</rdg></app> nos amis, et vivre
-                        avec nos amis comme s’ils pouvaient devenir nos ennemis, n’est ni selon la
-                        nature de la haine, ni selon les règles de l’amitié ; ce n’est point une
+                        <g ref="#pied_de_mouche_simple_avec_double_parenthese"></g>Vivre avec ses ennemis comme s’ils devaient un jour <app><lem>être</lem><rdg wit="#Paris_1690_edition5">estre</rdg></app> nos amis, <pb n="153" source="#Paris_1691_edition6"/> et vivre
+                        avec nos amis comme s’ils pouvaient devenir nos ennemis, n’est ni <note resp="#EG">Dans la Bryuère, il est écrit ny</note> selon la
+                        nature de la haine, ni <note resp="#EG">Dans la Bryuère, il est écrit ny</note> selon les règles de l’amitié ; ce n’est point une
                         maxime morale, mais politique.On ne doit pas se faire des ennemis de ceux qui, mieux connus, pourraient
                         avoir rang entre nos amis. On doit faire choix d’amis si sûrs et d’une si
                         exacte probité, que venant à cesser de l’<app><lem>être</lem><rdg wit="#Paris_1690_edition5">estre</rdg></app>, ils se veuillent pas abuser
@@ -525,31 +527,31 @@
                     <p>
                         <g ref="#pied_de_mouche_simple"></g>Vivre avec ses ennemis comme s’ils devaient un jour être nos amis, et vivre
                         avec nos amis comme s’ils pouvaient devenir nos ennemis, n’est ni selon la
-                        nature de la haine, ni selon les règles de l’amitié ; ce n’est point une
+                        nature de la haine, ni <note resp="#EG">Dans la Bryuère, il est écrit ny</note> selon les règles de l’amitié ; ce n’est point une
                         maxime morale, mais politique.</p>
                 </div2>
                 <div2 n="56" source="#Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
                         <g ref="#pied_de_mouche_simple"></g>On ne doit pas se faire des ennemis de ceux qui, mieux connus, pourraient
                         avoir rang entre nos amis. On doit faire choix d’amis si sûrs et d’une si
-                        exacte probité, que venant à cesser de l’<app><lem>être</lem><rdg wit="#Paris_1696_edition9">ètre</rdg></app>être, ils se veuillent pas abuser
-                        de notre confiance, ni se faire craindre comme <app><lem> </lem><rdg wit="#Paris_1692_edition7">nos</rdg></app> ennemis.</p>
+                        exacte probité, que venant à cesser de l’<app><lem>être</lem><rdg wit="#Paris_1696_edition9">ètre</rdg></app>être, ils se veuillent <note resp="#EG">Dans les éditions de la Bruyère, il est écrit "veüille"</note> pas abuser
+                        de notre confiance, ni <note resp="#EG">Dans la Bryuère, il est écrit ny</note> se faire craindre comme <app><lem> </lem><rdg wit="#Paris_1692_edition7">nos</rdg></app> ennemis.</p>
                 </div2>
                 <div2 n="57" source="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
                        <g ref="#pied_de_mouche_simple_avec_parenthese"></g>
-                        <g ref="#pied_de_mouche_simple"></g>Il est doux de voir ses amis par <app><lem>goût</lem><rdg wit="#Paris_1696_edition9">gout</rdg></app>goût et par estime ; il est pénible de les
+                        <g ref="#pied_de_mouche_simple"></g>Il est doux de voir ses amis par <app><lem>goût</lem><rdg wit="#Paris_1696_edition9">gout</rdg></app>goût et par estime ; il est pénible de <pb n="168" source="#Paris_1690_edition5"/> les
                         cultiver par <app><lem>interêt</lem><rdg wit="#Paris_1690_edition5">interest</rdg></app>; c’est solliciter.</p>
                 </div2>
                 <div2 n="58" source="#Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
-                        <g ref="pied_de_mouche_simple"></g>Il faut <app><lem>briguer</lem><rdg wit="#Paris_1692_edition7">brigues</rdg></app> la faveur de ceux à qui l’on veut du bien, <app><lem>plutôt</lem><rdg wit="#Paris_1696_edition9">plutost</rdg></app> que de ceux
-                        de qui l’on espère du bien.</p>
+                        <g ref="pied_de_mouche_simple"></g>Il faut <app><lem>briguer</lem><rdg wit="#Paris_1692_edition7">brigues</rdg></app> la faveur de ceux à qui l’on veut du bien, <app><lem>plutôt</lem><rdg wit="#Paris_1696_edition9">plutost</rdg></app> <note resp="#EG">plûtôt ancêtre du mot plutôt passant</note> que de ceux
+                        de qui l’on espère <note resp="#EG">absence d'accent</note> du bien. <pb n="78" source="#Paris_1696_edition9"/></p>
                 </div2>
                 <div2 n="59" source="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
                         <g ref="#pied_de_mouche_simple"></g>
-                        <g ref="#pied_de_mouche_simple_avec_parenthese"></g> On ne vole point des <app><lem>mêmes</lem><rdg wit="#Paris_1690_edition5">mesme</rdg></app> ailes pour sa fortune que l’on fait pour des
+                        <g ref="#pied_de_mouche_simple_avec_parenthese"></g> On ne vole point des <app><lem>mêmes</lem><rdg wit="#Paris_1690_edition5">mesme</rdg></app> ailes <pb n="179" source="#Paris_1694_edition8"/> <pb n="175" source="#Paris_1692_edition7"/> pour sa fortune que l’on fait pour des <pb n="124" source="#Paris_1699_edition10"/>
                         choses frivoles et de <app><lem>fantaisie</lem><rdg wit="#Paris_1689_edition4">phantaisie</rdg></app> : il y a un sentiment de <app><lem>liberré</lem><rdg wit="#Paris_1689_edition4 #Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9">liberté</rdg></app> à suivre ses
                         caprices, et tout au contraire de servitude à courir pour son établissement
                         : <app><lem>il</lem><rdg wit="#Paris_1689_edition4">Il</rdg></app>il est naturel de le souhaiter beaucoup et d’y travailler peu, de se
@@ -558,13 +560,13 @@
                 <div2 n="60" source="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
                     <p>
                         <g ref=" #pied_de_mouche_simple_avec_double_parenthese"></g>
-                        <g ref="#pied_de_mouche_simple"></g> Celui qui sait attendre le bien qu’il souhaite, ne prend pas le chemin de se
+                        <g ref="#pied_de_mouche_simple"></g> Celui <note resp="#EG">Dans les éditions de la Bruyère, il est écrit "celuy"</note> qui sait <note resp="#EG">Dans les éditions de la Bruyère, il est écrit "sçait"</note> attendre le <pb n="154" source="#Paris_1691_edition6"/> bien qu’il souhaite, ne prend pas le chemin de se
                         désespérer s’il ne lui arrive pas ; et celui au contraire qui désire une
                         chose avec une grande impatience <app><lem>,</lem><rdg wit="#Paris_1690_edition5"> </rdg></app> y met trop du sien <app><lem> </lem><rdg wit="#Paris_1690_edition5 #Paris_1691_edition6">,</rdg></app> pour en <app><lem>estre</lem><rdg wit="#Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9">être</rdg></app> assez
                         récompensé par le succès.</p>
                 </div2>
             </div1>
-            <!-- edition1, 2, 3 et 10 a vérifier les notes-->
+           
             <div1>
                 <p> (21) S’il se trouve une femme pour qui l’on ait eu une grande passion et qui ait
                     été indifférente, quelques importants services qu’elle nous rende dans la suite
