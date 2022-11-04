@@ -281,12 +281,14 @@
         <body>
 
             <div1>
+                <pb n="144" source="#Paris_1691_6_1"/><pb n"141" source="#Paris_1689_4_1"/>
                 <head> Du Coeur</head>
                 <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
                     <p>Il y a un goût dans la pure amitié où ne peuvent atteindre ceux qui sont <app>
                             <lem>nés</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1691_6">nez</rdg>
-                        </app> médiocres<note resp="#E.LG">Qu'est-ce que la médiocrité?</note>.</p>
+                        </app> médiocres<note resp="#E.LG">Médiocrité = Situation moyenne.
+</note>.</p>
                 </div2>
                 <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
                     <p><g ref="#fr_pieddemouche"/>(2)L’amitié peut subsister entre des gens de <app>
@@ -318,7 +320,7 @@
                         avec le temps, par la pratique, par un long commerce<app>
                             <lem>.</lem>
                             <rdg wit="#Paris_1689_4_1">:</rdg>
-                        </app>Combien d’esprit, de bonté de cœur, d’attachement, de services <app>
+                        </app>Combien d’esprit, <pb n"142" source="#Paris_1689_4_1"/>de bonté de cœur, d’attachement, de services <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
                         </app> de complaisance dans les amis, pour faire en plusieurs années bien
@@ -332,7 +334,7 @@
 
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(4)Le temps, qui fortifie les <app>
+                    <p><g ref="#fr_pieddemouche"/><pb n="145" source="#Paris_1691_6_1"/>(4)Le temps, qui fortifie les <app>
                             <lem>amitiés</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">amitiez</rdg>
                         </app>, <app>
@@ -396,7 +398,7 @@
                         </app>.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(10)Rien ne ressemble mieux à une vive amitié, que
+                    <p><g ref="#fr_pieddemouche"/><pb n="143" source="#Paris_1689_4_1"/>(10)Rien ne ressemble mieux à une vive amitié, que
                         ces liaisons que l’intérêt de <app>
                             <lem>notre</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">nôtre</rdg>
@@ -409,7 +411,7 @@
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><app>
                             <rdg wit="#Paris_1691_6_1"><g ref="#fr_pieddemouche"/></rdg>
-                        </app>(12)L’amour qui naît subitement est le plus long à guérir.</p>
+                        </app><pb n="146" source="#Paris_1691_6_1"/>(12)L’amour qui naît subitement est le plus long à guérir.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><g ref="#fr_pieddemouche"/>(13)L’amour qui <app>
@@ -454,11 +456,11 @@
                                 priverait de sa liberté</note></seg>.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(17) Ceux qui s’aiment d’abord avec la plus
+                    <p><g ref="#fr_pieddemouche"/>(17) Ceux qui s’aiment d’abord avec <pb n="144" source="#Paris_1689_4_1"/>la plus
                         violente passion contribuent bientôt chacun de leur part à s’aimer moins, et
                         ensuite à ne s’aimer plus. Qui, d’un homme ou d’une femme, met davantage du
                         sien dans cette rupture, il n’est pas aisé de le décider. Les femmes
-                        accusent les hommes d’être volages, et les homme disent qu’elles sont
+                        accusent les hommes<pb n="147" source="#Paris_1691_6_1"/>d’être volages, et les homme disent qu’elles sont
                         légères.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
@@ -466,7 +468,7 @@
                         pardonne plus de fautes que dans l’amitié.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(19)C’est une vengeance douce à celui qui aime
+                    <p><g ref="#fr_pieddemouche"/>(19)C’est une vengeance douce<note resp="#E.LG">Ressentir du plaisir lors d'une vengeance Origine : Expression québécoise dite sur le ton de la plaisanterie pour exprimer le plaisir que l'on peut ressentir lors d'une vengeance.</note> à celui qui aime
                         beaucoup de faire, par tout son procédé, d’une personne ingrate une très
                         ingrate.</p>
                 </div2>
