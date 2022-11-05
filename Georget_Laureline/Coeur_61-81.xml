@@ -204,7 +204,7 @@
             </langUsage>
             <textDesc n="comédie sociale">
                 <channel/>
-                <constitution/>
+               <constitution> 16 chapitres dans lesquels se trouvent un certain nombre de remarques <constitution/>
                 <derivation type="original"> </derivation>
                 <domain/>
                 <factuality type="fact"/>
@@ -298,7 +298,8 @@
         <body>
             <div1>
                 <head> Du Coeur </head>
-
+                
+<!-- Présence d'un note manuscrite, aucune note de La Bruyère, aucun mot écrit en langue étrangère-->
 
                 <div2 n="61" source="#XIXe_édition #Paris_1699_edition_10 #Paris_1696_edition_9 #Paris_1694_edition_8 #Paris_1692_edition_7"> 
                     <p>
@@ -441,7 +442,7 @@
                         faut pas penser à gouverner un homme tout d’un coup, et sans autre
                         préparation, dans une affaire importante et qui serait capitale à lui ou aux
                         siens ; il sentirait d’abord l’empire et l’ascendant qu’on veut prendre sur
-                        son esprit, et il secouerait le joug par honte ou par caprice : il faut
+                        son esprit, et il secouerait le joug <note resp=#"LG" type="glossaire"> "secouer le joug" est une expression au sens figuré qui désigne le fait de s'affranchir de toute domination ou autorité </note>  par honte ou par caprice : il faut
                         tenter auprès de lui les petites choses, et de là le progrès jusqu’aux plus
                         grandes est immanquable. Tel ne pouvait au plus dans les commencements
                         qu’entreprendre de le faire partir pour la campagne ou retourner à la ville,
@@ -464,7 +465,7 @@
                         conseils, et qui s’égarent volontairement par la crainte qu’ils ont d’être
                         gouvernés. D’autres consentent d’être gouvernés par leurs amis en des choses
                         presque indifférentes, et s’en font un droit de les gouverner à leur tour en
-                        des choses graves et de conséquence. Drance<note source="#LB" hand="texte illisible"> </note> veut passer pour gouverner son
+                        des choses graves et de conséquence. Drance<note resp="Lecteur" source="#Paris_1694_edition_8" hand="texte en partie illisible " type="commentaire dont la visée est sûrement de faire un parallèle entre le personnage de Drance et des figures ayant réellement existé. En effet, nous pouvons déchiffrer "Le chevalier de Lorraine" qui peut faire référence à Philippe de Lorraine qui a vécu à l'époque de La Bruyère."  place="gauche et en bas de la page"> [...] ou le chevalier de Lorraine </note> veut passer pour gouverner son
                         maître, qui n’en croit rien, non plus que le public ; parler sans cesse à un
                         grand que l’on sert, en des lieux et en des temps où il convient le <pb n="129" source="#Paris_1699_edition_10"></pb> moins,
                         lui parler à l’oreille ou en des termes mystérieux, rire jusqu’à éclater en
@@ -473,7 +474,7 @@
                         impatiemment qu’ils se retirent, se mettre proche de lui en une posture trop
                         libre, figurer avec lui le dos appuyé à une cheminée, le tirer par son
                         habit, lui marcher sur les talons, faire le familier, prendre des libertés,
-                        marquent mieux un fat qu’un favori. Un homme sage ni ne se laisse gouverner,
+                        marquent mieux un fat qu’un favori. <note resp="#LG" type="commentaire"> La Bruyère réalise une éthopée de "Drance" jusqu'à "favori" dans la mesure où il peind les moeurs et le caractère de Drance </note> Un homme sage ni ne se laisse gouverner,
                         ni ne cherche à gouverner les autres : il veut que la raison gouverne seule
                         et toujours. Je ne haïrais pas d’être livré par la confiance à une personne
                         raisonnable, et d’en être gouverné en toutes choses, et absolument, et
@@ -483,7 +484,7 @@
 
                 <div2 n="72" source="#XIXe_édition #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g>
-                        Toutes les passions sont menteuses : elles se déguisent autant qu’elles le
+                        <seg> Toutes les passions sont menteuses : elles se déguisent autant qu’elles le
                         peuvent aux yeux des autres ; elles <pb n="130" source="#Paris_1699_edition_10"></pb> se cachent à 
                         <app>
                         <lem wit="#Paris_1699_edition_10"> elles-mêmes </lem>
@@ -491,7 +492,7 @@
                         </app>
                         Il n’y a point
                         de vice qui n’ait une fausse ressemblance avec quelque vertu, et qui ne s’en
-                        aide.<pb n="157" source="#Paris_1691_edition_6"></pb></p>
+                            aide.<note resp=#"LG" type="commentaire"> À travers la définition satirique que La Bruyère réalise des passions, l'auteur critique les moeurs de son époque. </note> </seg> <pb n="157" source="#Paris_1691_edition_6"></pb></p>
                 </div2>
 
                 <div2 n="73" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
