@@ -123,10 +123,11 @@
                     balisage des remarques</change>
                 <change when="2022-10-16">Balisage des remarques selon les différentes versions du
                     texte déjà ajoutées</change>
-                 <change when="2022-10-23">Balisage des remarques selon les différentes versions du
+                <change when="2022-10-23">Balisage des remarques selon les différentes versions du
                     texte déjà ajoutées</change>
-                <change when="2022-10-31">Correction du balisage des remarques selon les différentes versions du
-                    texte déjà ajoutées, ajout de notes</change>
+                <change when="2022-10-31">Correction du balisage des remarques selon les différentes
+                    versions du texte déjà ajoutées, ajout de notes</change>
+                <change when="2022-11-05">Ajout de la pagination du texte pour deux édition et ajout de notes.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -170,16 +171,16 @@
                             <lem>peut être</lem>
                             <rdg wit="#Paris_1688_1">peut estre</rdg>
                             <rdg wit="#Paris_1696_9">peut-être</rdg>
-                        </app> égalé dans les endroits où il excelle<app>
+                        </app> é<pb n="167" source="#Paris_1688_1"/>galé dans les endroits où il excelle<app>
                             <lem> :</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">,</rdg>
                         </app> il a pour lors un <app>
                             <lem>caractère</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">caractere<note resp="#SK"
-                                    place="bottom" style="italic">Dans les éditions du XVIIème
-                                    siècle, nous pouvons remarquer que la plupart des accents du
-                                    français moderne ne sont pas présents, ou ne sont pas les mêmes
-                                    que maintenant.</note></rdg>
+                                    type="analyse" place="bottom" style="italic">Dans les éditions
+                                    du XVIIème siècle, nous pouvons remarquer que la plupart des
+                                    accents du français moderne ne sont pas présents, ou ne sont pas
+                                    les mêmes que maintenant.</note></rdg>
                         </app> original <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
@@ -219,7 +220,8 @@
                             <lem>style</lem>
                             <rdg wit="#Paris_1688_1">style</rdg>
                             <rdg wit="#Paris_1696_9">stile</rdg>
-                        </app> de <app>
+                        </app>
+                        <pb n="25" source="#Paris_1696_9"/>de <app>
                             <lem>déclamateur</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">declamateur</rdg>
                         </app> qui <app>
@@ -289,7 +291,7 @@
                         </app> enfin de ses <app>
                             <lem>dénouements</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">dénoüemens</rdg>
-                        </app> ; car il ne s’est pas <app>
+                        </app> ; car il ne s’est<pb n="168" source="#Paris_1688_1"/> pas <app>
                             <lem>toujours</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">toûjours</rdg>
                         </app> assujetti au <app>
@@ -375,15 +377,16 @@
                         </app>, dont il a suivi scrupuleusement la netteté <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
-                        </app> la simplicité de l’action ; à qui le grand <app>
+                        </app> la simplicité<pb n="169" source="#Paris_1688_1"/> de l’action ; à qui
+                        le grand <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
                         </app> le merveilleux n’ont pas même manqué, ainsi qu’à <seg>Corneille<note
-                                resp="#SK" place="bottom" style="italic">Nous pouvons ici remarquer
-                                que l'auteur écrit le nom de Corneille avec uniquement l'initiale en
-                                majuscule, alors qu'au début et à la fin du texte, le nom de
-                                l'auteur est noté entièrement en majuscule dans les éditions du
-                                XVIIème siècle, tout comme celui de Racine.</note></seg><app>
+                                resp="#SK" type="analyse" place="bottom" style="italic">Nous pouvons
+                                ici remarquer que l'auteur écrit le nom de Corneille avec uniquement
+                                l'initiale en majuscule, alors qu'au début et à la fin du texte, le
+                                nom de l'auteur est noté entièrement en majuscule dans les éditions
+                                du XVIIème siècle, tout comme celui de Racine.</note></seg><app>
                             <lem>, ni</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9"> ny</rdg>
                         </app> le touchant <app>
@@ -436,12 +439,18 @@
                             <lem>poètes.</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">Poëtes ;</rdg>
                             <rdg wit="#Paris_1696_9">Poëtes :</rdg>
-                        </app> Oreste, dans l’Andromaque de Racine, <app>
+                        </app> Oreste,<pb n="26" source="#Paris_1696_9"/> dans l’Andromaque de
+                        Racine, <app>
                             <lem>et Phèdre</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp; Phedre</rdg>
                         </app> du <app>
                             <lem>même auteur</lem>
-                            <rdg wit="#Paris_1688_1">mesme Auteur</rdg>
+                            <rdg wit="#Paris_1688_1">mesme <seg>Auteur<note resp="#SK"
+                                        type="glossaire" place="bottom" style="italic">L'Auteur est,
+                                        dans ces Caractères, une figure générale et universelle de
+                                        l'écrivain. Cela est rendu visible par l'usage d'une
+                                        majuscule pour la première lettre du mot, ce qui est aussi
+                                        fait pour le Lecteur.</note></seg></rdg>
                             <rdg wit="#Paris_1696_9">même Auteur</rdg>
                         </app>, comme l’Œdipe <app>
                             <lem>et</lem>
@@ -462,7 +471,8 @@
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_1">&amp;</rdg>
                             <rdg wit="#Paris_1696_9">, &amp;</rdg>
-                        </app> par ce qui éclate le plus ordinairement dans leurs ouvrages, <app>
+                        </app> par<pb n="170" source="#Paris_1688_1"/> ce qui éclate le plus
+                        ordinairement dans leurs ouvrages, <app>
                             <lem wit="#Paris_1696_9">peut-être</lem>
                             <rdg wit="#Paris_1688_1">peut-estre</rdg>
                         </app> qu’on <app>
@@ -533,7 +543,7 @@
                         </app> sont dans <app>
                             <lem wit="#Paris_1696_9">celui-là</lem>
                             <rdg wit="#Paris_1688_1">celuy_là</rdg>
-                        </app> des maximes, des <app>
+                        </app> des maximes,<pb n="171" source="#Paris_1688_1"/> des <app>
                             <lem>règles</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">regles</rdg>
                         </app>, des <app>
@@ -601,14 +611,14 @@
                         </app> de la rondeur des <app>
                             <lem>périodes</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">periodes</rdg>
-                        </app>. Il semble que la <app>
+                        </app>.<pb n="27" source="#Paris_1696_9"/> Il semble que la <app>
                             <lem>logique</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">Logique</rdg>
                         </app> est l’art de convaincre de quelque vérité <app>
                             <lem>; et l’éloquence</lem>
                             <rdg wit="#Paris_1688_1">&amp; l'Eloquence</rdg>
                             <rdg wit="#Paris_1696_9">; &amp; l'Eloquence</rdg>
-                        </app> un don de <app>
+                        </app> un don<pb n="172" source="#Paris_1688_1"/> de <app>
                             <lem>l'âme</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">l'ame</rdg>
                         </app>, lequel nous rend maîtres du cœur <app>
@@ -666,12 +676,12 @@
                                     <rdg wit="#Paris_1696_9">familieres</rdg>
                                 </app> comme dans les conversations qu’une grande délicatesse ? ou <app>
                                     <lem>plutôt</lem>
-                                    <rdg wit="#Paris_1696_9">plûtôt<note resp="#SK" place="bottom"
-                                            style="italic">Nous pouvons retrouver dans cette édition
-                                            des Caractères une forme hybride entre notre "plutôt"
-                                            actuel et la version ancienne "plus tost", qui montre
-                                            une évolution de la langue française, encore très
-                                            changeante à cette époque.</note></rdg>
+                                    <rdg wit="#Paris_1696_9">plûtôt<note resp="#SK" type="analyse"
+                                            place="bottom" style="italic">Nous pouvons retrouver
+                                            dans cette édition des Caractères une forme hybride
+                                            entre notre "plutôt" actuel et la version ancienne "plus
+                                            tost", qui montre une évolution de la langue française,
+                                            encore très changeante à cette époque.</note></rdg>
                                 </app> le naturel <app>
                                     <lem>et</lem>
                                     <rdg wit="#Paris_1696_9">&amp;</rdg>
@@ -739,7 +749,7 @@
                                 </app>. Les esprits <app>
                                     <lem>médiocres</lem>
                                     <rdg wit="#Paris_1696_9">mediocres</rdg>
-                                </app> ne trouvent point l’unique expression<app>
+                                </app> ne trouvent point<pb n="28" source="#Paris_1696_9"/> l’unique expression<app>
                                     <lem>, et</lem>
                                     <rdg wit="#Paris_1696_9">,</rdg>
                                 </app> usent de <app>
@@ -794,7 +804,11 @@
                             <rdg wit="#Paris_1696_9">Ecrivain</rdg>
                         </app>, pour écrire nettement, doit se mettre à la place de ses <app>
                             <lem>lecteurs</lem>
-                            <rdg wit="#Paris_1696_9">Lecteurs</rdg>
+                            <rdg wit="#Paris_1696_9"><seg>Lecteurs<note resp="#SK" type="glossaire"
+                                        place="bottom" style="italic">Les Lecteurs, comme le montre
+                                        l'usage de la majuscule, sont une entité universelle, ses
+                                        sortes de lecteurs-types. Ils s'agit d'une idéalisation de
+                                        l'image du lecteur.</note></seg></rdg>
                         </app>, examiner son propre ouvrage comme quelque chose qui <app>
                             <lem>lui</lem>
                             <rdg wit="#Paris_1696_9">luy</rdg>
@@ -862,8 +876,9 @@
                         </app> de son ouvrage<app>
                             <lem> ?</lem>
                             <rdg wit="#Paris_1696_9">.</rdg>
-                        </app> Si l’on jette quelque profondeur dans certains écrits, si l’on
-                        affecte une finesse de tour, <app>
+                        </app> Si l’on jette quelque profondeur dans cer<pb n="29"
+                            source="#Paris_1696_9"/>tains écrits, si l’on affecte une finesse de
+                        tour, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1696_9">&amp;</rdg>
                         </app> quelquefois une trop grande délicatesse, ce n’est que par la bonne
@@ -967,7 +982,9 @@
                         habiles dont l’esprit est aussi vaste que l’art <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> la science qu’ils professent ; ils lui rendent avec avantage, par le <app>
+                        </app> la science qu’ils professent ; ils lui rendent avec avantage, par
+                            le<pb n="30" source="#Paris_1696_9"/>
+                        <app>
                             <lem>génie et</lem>
                             <rdg wit="#Paris_1696_9">genie &amp;</rdg>
                         </app> par l’invention, ce qu’ils tiennent d’elle <app>
@@ -1065,7 +1082,8 @@
                         </app> qui n’a point de cours : on est tout à la fois étonné de leur lecture <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> ennuyé de leur entretien ou de leurs ouvrages. Ce sont ceux que les <app>
+                        </app> ennuyé de leur entretien ou de leurs ouvrages. Ce sont<pb n="31"
+                            source="#Paris_1696_9"/> ceux que les <app>
                             <lem>grands et</lem>
                             <rdg wit="#Paris_1696_9">Grands &amp;</rdg>
                         </app> le vulgaire confondent avec les <app>
@@ -1181,8 +1199,11 @@
                             <rdg wit="#Paris_1688_1">;</rdg>
                         </app> l’on peut au contraire en une sorte d’écrits <app>
                             <lem wit="#Paris_1688_1">hasarder</lem>
-                            <rdg wit="#Paris_1696_9">hazarder</rdg>
-                        </app> de certaines expressions, user de termes <app>
+                            <rdg wit="#Paris_1696_9">ha<pb n="32" source="#Paris_1696_9"
+                                />zarder</rdg>
+                        </app> de certaines expressions, user de termes<pb n="173"
+                            source="#Paris_1688_1"/>
+                        <app>
                             <lem>transposés et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">transposez, &amp;</rdg>
                         </app> qui peignent vivement<app>
@@ -1221,7 +1242,7 @@
                         point mettre un ridicule où il n’y en a point<app>
                             <lem wit="#Paris_1688_1"> :</lem>
                             <rdg wit="#Paris_1696_9">,</rdg>
-                        </app> c’est se gâter le <seg>goût<note resp="#SK" place="bottom"
+                        </app> c’est se gâter le <seg>goût<note resp="#SK" type="analyse" place="bottom"
                                 style="italic">Il est intéressant de remarquer cette écriture de
                                 goût, nottamment dans la première édition de 1688, où la plupart des
                                 occurences de ces mots sont notées "goust".</note></seg>, c’est
@@ -1254,7 +1275,7 @@
                         </app> sur votre parole ; mais je <app>
                             <lem>l'ai</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">l'ay</rdg>
-                        </app> dit comme mien<app>
+                        </app> dit<pb n="174" source="#Paris_1688_1"/> comme mien<app>
                             <lem>.Ne</lem>
                             <rdg wit="#Paris_1688_1"> ; ne</rdg>
                             <rdg wit="#Paris_1696_9">, ne</rdg>
