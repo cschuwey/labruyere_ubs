@@ -1,46 +1,57 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
        <teiheader>
+              
          <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Les caractères de Théophraste, traduits du grec, avec les caractères ou les moeurs de ce siècle</title>
+                <respStmt xml:id="Bruyere">
+                    <name>Jean de la Bruyère</name>
+                    <resp></resp>
+                    <resp>auteur</resp>
+                </respStmt>
             </titleStmt>
+                
             <editionStmt>
                 <edition></edition>
-                <respStmt>
-                    <resp>réalisé par</resp>
-                    <name>steven</name>
-                </respStmt>
+                    <respStmt xml:id="MM">
+                        <name>Steven</name>
+                        <resp></resp>
+                        <resp>éditeur</resp>
+                    </respStmt>
+                    <respStmt xml:id="Imprimeur">
+                        <name>Imprimeur</name>
+                        <resp></resp>
+                        <resp>imprimeur</resp>
+                    </respStmt>
             </editionStmt>
+                
             <publicationStmt>
-                <authority></authority>
+                <authority>Steven</authority>
             </publicationStmt>
-            <sourceDesc> <biblFull>
-                <titleStmt>
-                    <title></title>
-                </titleStmt>
-                <publicationStmt><authority></authority></publicationStmt>
-            </biblFull> 
-                <biblStruct xml:id="Paris_1688_1_1"> 
-                  
-                    <monogr>
-                        <title> les caractères de la Bruyère</title> 
-                        <edition></edition> 
-                        <idno>http://catalogue.bnf.fr/ark:/12148/cb11942641d </idno>
-                        <imprint>
-                            <pubPlace> Paris</pubPlace>
-                            <distributor>premier Imprimeur du Roy, rue S.Jacques, à l'image S. Paul.</distributor>
-                            <date>1691</date>
+                
+            <sourceDesc>
+                <biblStruct>
+                <monogr xml:id="Paris_1688_Premiere">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>
+                        <author>Théophrastre</author>
+                        <edition>Première édition</edition>
+                        <imprint xml:id="Paris_1688_Premiere">
+                        <date>1688</date>
+                        <publisher>chez Estienne Michallet à Paris</publisher>
                         </imprint>
                     </monogr>
-                </biblStruct></sourceDesc>
-        </fileDesc>
-        <profileDesc> 
-         
-            
-        </profileDesc>
-        
-        
-    </teiHeader>   
+                
+                    <monogr xml:id="Paris_1692_Septieme">
+                        <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>
+                        <author>Théophrastre</author>
+                        <edition>Septième édition</edition>
+                        <date>1692</date>
+                        <publisher>Chez Estienne Michallet à Paris</publisher>
+                        <imprint xml:id="Paris_1692_Septieme"></imprint>
+                    </monogr>
+        </teiHeader>   
           <text>   
         <front></front>
         <body>
@@ -71,9 +82,9 @@
 
                         
                        
-                          <div2 n="41">
+                          <div2 n="41" source="#Paris_1688_Premiere #Paris_1692_Septieme>
                             <app>
-                                <lem></lem>
+                                <lem>C'est trop contre un mari d’etre coquette et dévote ; une femme devrait opter.</lem>
                                 <rdg wit="Edition de 1688">
                                 <g ref="#pieddemouche"/>
                                 <p>C'eft trop contre un mary d’estre coquette & dévote ; une femme devroit opter.</p>
@@ -141,7 +152,7 @@
                                 </app>
                                </div2>
 
-                               <div2 n="45" source="#Paris_1688_Premiere Remarque absente>
+                               <div2 n="45" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
                                  <app>
                                    <lem>Une femme est aisée à gouverner, pourvu que ce soit un homme qui s’en donne la peine : Un seul même
                                         en gouverne plusieurs ; il cultive leur esprit et leur mémoire, fixe et détermine leur religion ; 
@@ -177,7 +188,7 @@
                               </app>
                             </div2>
 
-                            <div2 n="46" source="#Paris_1688_Premiere Remarque absente>
+                            <div2 n="46" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
                               <app>
                                 <lem>Quelques femmes ont voulu cacher leur conduite sous les dehors de la modestie ; et tout ce que chacune a pu
                                      gagner par une continuelle affectation, et qui ne s’est jamais démentie, a été de faire dire de soi : On 
@@ -187,9 +198,10 @@
                                        <p>Quelques femmes ont voulu cacher leur conduite sous les dehors de la modestie ; & tout ce que chacune
                                           a pû gagner par une continuelle affectation, & qui ne s’est jamais démentie, a été de faire dire de soy :
                                           On l’aurait prise pour une vestale.</p>
+                                       <note resp="#ALN">
                             </div2>
 
-                            <div2 n="47" source="#Paris_1688_Premiere Remarque absente>
+                            <div2 n="47" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
                                <app>
                                 <lem>C’est dans les femmes une violente preuve d’une réputation bien nette et bien établie, qu’elle ne soit pas
                                      même effleurée par la familiarité de quelques-unes qui ne leur ressemblent point ; et qu’avec toute la pente
@@ -204,7 +216,7 @@
                                 </app>
                              </div2>
 
-                             <div2 n="48" source="#Paris_1688_Premiere Remarque absente>
+                             <div2 n="48" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
                                 <p> (48) Un comique outre sur la scène ses personnages ; un poète charge ses descriptions ; un peintre qui fait
                                          d’après nature force et exagère une passion, un contraste, des attitudes ; et celui qui copie, s’il ne
                                          mesure au compas les grandeurs et les proportions, grossit ses figures, donne à toutes les pièces qui
@@ -250,7 +262,7 @@
                                 <app>
                              </div2>
 
-                             <div2 n="49" source="#Paris_1688_Premiere Remarque absente>
+                             <div2 n="49" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
                                <app>
                                    <lem>Pourquoi s’en prendre aux hommes de ce que les femmes ne sont pas savantes ? Par quelles lois, par quels édits,
                                         par quels rescrits leur a-t-on défendu d’ouvrir les yeux et de lire, de retenir ce qu’elles ont lu, et d’en
@@ -296,7 +308,7 @@
                                 </app>
                              </div2>
 
-                             <div2 n="50" source="#Paris_1688_ >
+                             <div2 n="50" source="#Paris_1688_Première #Paris_1692_Septieme>
                                <app>
                                <lem>La neutralité entre des femmes qui nous sont également amies, quoiqu’elles aient rompu pour des intérêts où 
                                     nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes
@@ -308,19 +320,21 @@
                                <rdg wit="Edition de 1692">
                                   <g ref="#pieddemouche"/>
                                       <p>La neutralité entre des femmes qui nous sont également amies, quoy qu’elles ayent rompu pour des intérêts où
-                                         nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes deux.</p></lem>
+                                         nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes deux.</p>
+                                      <note resp="#ALN">La neutralité est un allié mais à un moment il faut chosir entre la neutralité ou bien la femme</note resp="#ALN">
                              </div2>
 
-                             <div2 n="51" source="#Paris_1688_Premiere Remarque absente>
+                             <div2 n="51" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme >
                                <app>
                                <lem>Il y a telle femme qui aime mieux son argent que ses amis, et ses amants que son argent.</lem>
                                <rdg wit="Edition de 1692">
                                   <g ref="#pieddemouche"/>
                                     <p>Il y a telle femme qui aime mieux son argent que ses amis, & ses amans que son argent.</p>
+                                    <note resp="#ALN">Il y a deux sortes de femmes : celles qui aiment l'argent et celle qui prefère avoir un amant</note resp="#ALN">
                                </app>
                              </div2>
 
-                             <div2 n="52" source="#Paris_1688_Premiere Remarque absente>
+                             <div2 n="52" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
                                <app>
                                   <lem>Il est étonnant de voir dans le cœur de certaines femmes quelque chose de plus vif de plus fort que l’amour
                                        pour les hommes, je veux dire l’ambition et le jeu : de telles femmes rendent les hommes chastes ; elles
@@ -333,7 +347,7 @@
                                </app>
                              </div2>
 
-                             <div2 n="53" source="#Paris_1688_>
+                             <div2 n="53" source="#Paris_1688_Première #Paris_1692_Septieme>
                                <app>
                                <lem>Les femmes sont extrêmes : elles sont meilleures ou pires que les hommes.</lem>
                                <rdg wit="Edition de 1688"/>
@@ -342,10 +356,11 @@
                                <rdg wit="Edition de 1692"/>
                                   <g ref="#pieddemouche"/>
                                      <p>Les femmes sont extrêmes : elles sont meilleures, ou pires que les hommes.</p>
+                                     <note resp="#ALN">En somme, les femmes sont capables du pire comme du meilleur</note resp="#ALN">
                                </app>
                               </div2>
 
-                             <div2 n="54" source="#Paris_1688_ >
+                             <div2 n="54" source="#Paris_1688_Première #Paris_1692_Septieme>
                               <app>
                                  <lem>La plupart des femmes n’ont guère de principes ; elles se conduisent par le cœur, & dépendent
                                       pour leurs mœurs de ceux qu’elles aiment.</lem>
@@ -360,7 +375,7 @@
                                </app>
                              </div2>
 
-                             <div2 n="55" source="#Paris_1688_Premiere Remarque absente>
+                             <div2 n="55" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
                               <app>
                                <lem>Les femmes vont plus loin en amour que la plupart des hommes ; mais les hommes l’emportent sur elles en amitié. 
                                     Les hommes sont cause que les femmes ne s’aiment point.</lem>
@@ -371,7 +386,7 @@
                                  </app>
                              </div2>
 
-                             <div2 n="56" source="#Paris_1688_Premiere Remarque absente>
+                             <div2 n="56" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
                                <app>
                                 <lem>Il y a du péril à contrefaire. Lise, déjà vieille, veut rendre une jeune femme ridicule, et elle-même devient
                                      difforme ; elle me fait peur. Elle use pour l’imiter de grimaces et de contorsions : la voilà aussi laide qu’il
@@ -384,7 +399,7 @@
                                 </app>
                              </div2>
 
-                              <div2 n="57" source="#Paris_1688_Premiere Remarque absente>
+                              <div2 n="57" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
                                <app>
                                 <lem>On veut à la ville que bien des idiots et des idiotes aient de l’esprit ; on veut à la cour que bien des
                                         gens manquent d’esprit qui en ont beaucoup ; et entre les personnes de ce dernier genre une belle femme
@@ -397,7 +412,7 @@
                                     </app>
                                </div2>
 
-                             <div2 n="58" source="#Paris_1688_>
+                             <div2 n="58" source="#Paris_1688_Première #Paris_1692_Septieme>
                                 <lem>Un homme est plus fidèle au secret d’autrui qu’au sien propre ; une femme au contraire garde mieux
                                      son secret que celui d’autrui.</lem>
                                  <rdg wit="Edition de 1688"/>
@@ -408,10 +423,12 @@
                                      <g ref="#pieddemouche"/>
                                          <p>Un homme est plus fidelle au secret d’autruy qu’au sien propre ; une femme au contraire garde
                                             mieux son secret que celuy d’autruy.</p>
+                                         <note resp="#ALN">Les hommes ont tendence a mieux cacher le secret des autres que le leur. Les femmes, elles font le contraire. 
+                                                           En soit, une femme ne peut garder le secret de quelqu'un.</note resp="#ALN">
                                 </app>
                              </div2>
 
-                             <div2 n="58" source="#Paris_1688_>
+                             <div2 n="58" source="#Paris_1688_Première #Paris_1692_Septieme>
                                <app>
                                 <lem>Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel l’intérêt ou l’ambition
                                      n’ajoute quelque chose.</p>
@@ -426,7 +443,7 @@
                                  </app>
                              </div2>
 
-                             <div2 n="60" source="#Paris_1688_Premiere Remarque absente>
+                             <div2 n="60" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
                                <app>
                                    <lem>Il y a un temps où les filles les plus riches doivent prendre parti ; elles n’en laissent guère échapper
                                         les premières occasions sans se préparer un long repentir : il semble que la réputation des biens diminue
