@@ -8,15 +8,16 @@
                     <name>Jean de la Bruyère</name>
                     <resp xml:id="Auteur">Auteur</resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>
-                    <respStat>
-                        <name> Clotilde Bernardi</name>
-                        <resp xml:id="Éditrice">Éditrice</resp>
+                <edition>                     
+                    <respStat>                         
+                        <name> Clotilde Bernardi</name>                         
+                        <resp xml:id="Éditrice">Éditrice</resp>                     
                     </respStat>
-                </edition>
-            </editionStmt>
+ </edition>
+ <editionStmt>                            
+                </editionStmt>
+            </titleStmt>
+
             <publicationStmt>
                 <authority/>
             </publicationStmt>
@@ -207,6 +208,9 @@
             <change>
                 <date when="2022-10-25"/> Ajout de quelques modifications dans le texte, en mettant
                 les sources des éditions.</change>
+            <change>
+            <date when="2022-11-06"> Ajout des notes</date>
+                </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -272,7 +276,12 @@
                         <app>
                             <rdg source="#Paris_1689_Quatrieme #Paris_1690_Cinquieme" rend="italic">
                                 Théotime</rdg>
-                        </app> Théotime a vu son successeur. </p>
+                        </app>
+                        <app>
+                            <rdg
+                                source="#Paris_1692_Septieme #Paris_1691_Sixieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme"
+                                > Théotime</rdg>
+                        </app> a vu son successeur. </p>
                 </div2>
                 <div2 n="2"
                     source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
@@ -282,7 +291,7 @@
                         que les autres n’ont point. Ce n’est pas un attachement à ce qui est
                         parfait, mais à ce qui est couru, à ce qui est à la mode. Ce n’est pas un
                         amusement, mais une passion, et souvent si violente, qu’elle ne cède à
-                        l’amour et à l’ambition que par la petitesse de son objet. Ce n’est pas une
+                        l’amour et à l’ambition que par la petitesse de son objet. <pb source="#Paris_1694_Huitieme"></pb>Ce <pb source= "#Paris_1694_Sixieme"></pb> n’est pas une
                         passion qu’on a généralement pour les choses rares et qui ont cours, mais
                         qu’on a seulement pour une certaine chose, qui est rare, et pourtant à la
                         mode. </p>
@@ -327,12 +336,12 @@
                         </app>, qu’il ne livrerait pas pour mille écus, et qu’il donnera pour rien
                         quand les <app>
                             <rdg> tulippes</rdg>
-                        </app> seront négligées et que les œillets auront prévalu. Cet homme
+                        </app> seront négligées <pb source= "#Paris_1694_Huitieme"></pb>et que les <pb source= "#Paris_1694_Sixieme"></pb>œillets auront prévalu. Cet homme
                         raisonnable, qui a une âme, qui a un culte et une religion, revient chez soi
                         fatigué, affamé, mais fort content de sa journée : il a vu des <app>
                             <rdg> tulippes</rdg>
                         </app>. </p>
-                    <p> Parlez à cet autre de la richesse des moissons, d’une ample récolte, d’une
+                    <p> Parlez à cet autre de la <seg> richesse des moissons </seg> <note source="#Paris_1694_Huitieme"> <objectType> note manuscrite</objectType><desc> difficile à lire. </desc></note>, d’une ample récolte, d’une
                         bonne vendange : il est curieux de fruits ; vous n’articulez pas, vous ne
                         vous faites pas entendre. Parlez-lui de figues et de melons, dites que les
                         poiriers rompent de fruit cette année, que les pêchers ont donné avec
@@ -343,13 +352,13 @@
                         artistement cette prune exquise ; il l’ouvre, vous en donne une moitié, et
                         prend l’autre : « Quelle chair ! dit-il ; goûtez-vous cela ? cela est-il
                         divin ? voilà ce que vous ne trouverez pas ailleurs. » Et là-dessus ses
-                        narines s’enflent ; il cache avec peine sa joie et sa vanité par quelques
-                        dehors de modestie. Ô l’homme divin en effet ! homme qu’on ne peut jamais
+                        narines s’enflent ; il cache avec peine <pb source= "#Paris_1694_Huitieme"></pb>sa joie et sa vanité par quelques
+                        de <pb source= "#Paris_1694_Sixieme"></pb>hors de modestie. Ô l’homme divin en effet ! homme qu’on ne peut jamais
                         assez louer et admirer ! homme dont il sera parlé dans plusieurs siècles !
                         que je voie sa taille et son visage pendant qu’il vit ; que j’observe les
                         traits et la contenance d’un homme qui seul entre les mortels possède une
                         telle prune ! </p>
-                    <p>Un troisième que vous allez voir vous parle des curieux ses confrères, et
+                    <p> <seg>Un troisième que vous allez voir <note source="#Paris_1694_Huitieme"> <objectType> note manuscrite</objectType> <desc> difficile à lire. </desc></note> </seg>vous parle des curieux ses confrères, et
                         surtout de <app>
                             <rdg rend="italic">Diognete</rdg>
                         </app>. "Je l’admire, dit-il, et je le comprends moins que jamais.
@@ -367,11 +376,11 @@
                         </app>, et la <app>
                             <rdg rend="italic">fleur de coin</rdg>
                         </app> ; il a une tablette dont toutes les places sont garnies à l’exception
-                        d’une seule : ce vide lui blesse la vue, et c’est précisément et à la lettre
+                        d’une seule : ce vi <pb source= "#Paris_1694_Huitieme"></pb>de lui blesse la vue, et c’est précisément <pb source= "#Paris_1694_Sixieme"></pb>et à la lettre
                         pour le remplir qu’il emploie son bien et sa vie. </p>
-                    <p> « Vous voulez, ajoute <app>
-                            <rdg rend="italic">Domocède</rdg>
-                        </app>, voir mes estampes ? » et bientôt il les étale et vous les montre.
+                    <p> <seg> « Vous voulez, ajoute <app>
+                        <rdg rend="italic">Domocède</rdg> </app> </seg> <note source="#Paris_1694_Huitieme"> <objectType> note manuscrite</objectType> <desc> Note manuscrite difficile à lire. </desc> </note>
+                  , voir mes estampes ? » et bientôt il les étale et vous les montre.
                         Vous en rencontrez une qui n’est ni noire, ni nette, ni dessinée, et
                         d’ailleurs moins propre à être gardée dans un cabinet qu’à tapisser, un jour
                         de fête, le Petit-Pont ou la rue Neuve : il convient qu’elle est mal gravée,
@@ -383,8 +392,8 @@
                         jours : j’ai tout Callot, hormis une seule, qui n’est pas, à la vérité, de
                         ses bons ouvrages ; au contraire c’est un des moindres, mais qui
                         m’achèverait Callot : je travaille depuis vingt ans à recouvrer cette
-                        estampe, et je désespère enfin d’y réussir ; cela est bien rude ! » </p>
-                    <p> Tel autre fait la satire de ces gens qui s’engagent par inquiétude ou par
+                        estampe, et je désespère enfin d’y réussir ; cela est bien rude ! » <pb source= "#Paris_1694_Huitieme"></pb></p>
+                    <p> Tel autre fait la satire de ces gens <pb source= "#Paris_1694_Sixieme"></pb>qui s’engagent par inquiétude ou par
                         curiosité dans de longs voyages, qui ne font ni mémoires ni relations, qui
                         ne portent point de tablettes ; qui vont pour voir, et qui ne voient pas, ou
                         qui oublient ce qu’ils ont vu ; qui désirent seulement de connaître de
@@ -398,7 +407,7 @@
                         maison où dès l’escalier je tombe en faiblesse d’une odeur de maroquin noir
                         dont ses livres sont tous couverts. Il a beau me crier aux oreilles, pour me
                         ranimer, qu’ils sont dorés sur tranche, ornés de filets d’or, et de la bonne
-                        édition, me nommer les meilleurs l’un après l’autre, dire que sa galerie est
+                        édition, me nommer les <pb source= "#Paris_1694_Huitieme"></pb>meilleurs l’un après l’autre, dire que <pb source= "#Paris_1694_Sixieme"></pb> sa galerie est
                         remplie à quelques endroits près, qui sont peints de manière qu’on les prend
                         pour de vrais livres arrangés sur des tablettes, et que l’œil s’y trompe,
                         ajouter qu’il ne lit jamais, qu’il met pas le pied dans cette galerie, qu’il
@@ -413,7 +422,7 @@
                         peuvent au plus, par de longs et pénibles efforts, que se tirer d’une
                         ignorance crasse. </p>
                     <p> D’autres ont la clef des sciences, où ils n’entrent jamais : ils passent
-                        leur vie à déchiffrer les langues orientales et les langues du nord, celles
+                        leur <pb source= "#Paris_1694_Huitieme"></pb>vie à déchiffrer les langues orienta <pb source= "#Paris_1694_Sixieme"></pb>les et les langues du nord, celles
                         des deux Indes, celles des deux pôles, et celle qui se parle dans la lune.
                         Les idiomes les plus inutiles, avec les caractères les plus bizarres et les
                         plus magiques, sont précisément ce qui réveille leur passion et qui excite
@@ -427,8 +436,8 @@
                         vide. </p>
                     <p> Un bourgeois aime les bâtiments ; il se fait bâtir un hôtel si beau, si
                         riche et si orné, qu’il est inhabitable. Le maître, honteux de s’y loger, ne
-                        pouvant peut-être se résoudre à le louer à un prince ou à un homme
-                        d’affaires, se retire au galetas, où il achève sa vie, pendant que
+                        pouvant peut-être se résoudre à le louer à un prince ou à un homme<pb source= "#Paris_1694_Huitieme"></pb>
+                        d’affaires, se retire au galetas, où il <pb source= "#Paris_1694_Sixieme"></pb> achève sa vie, pendant que
                         l’enfilade et les planchers de rapport sont en proie aux Anglais et aux
                         Allemands qui voyagent, et qui viennent là du Palais-Royal, du palais L… G…
                         et du Luxembourg. On heurte sans fin à cette porte ; tous demandent à voir
@@ -442,24 +451,26 @@
                         résoudre à mettre en vente. </p>
                     <p> Diphile commence par un oiseau et finit par mille : sa maison n’en est pas
                         égayée, mais empestée. La cour, la salle, l’escalier, le vestibule, les
-                        chambres, le cabinet, tout est volière ; ce n’est plus un ramage, c’est un
-                        vacarme : les vents d’automne et les eaux dans leurs plus grandes crues ne
+                        chambres, le cabinet, tout est volière ; ce n’est plus un ramage, c’est un <pb source= "#Paris_1694_Huitieme"></pb>
+                        vacarme : les vents d’automne et les <pb source= "#Paris_1694_Sixieme"></pb>eaux dans leurs plus grandes crues ne
                         font pas un bruit si perçant et si aigu ; on ne s’entend non plus parler les
                         uns les autres que dans ces chambres où il faut attendre, pour faire le
                         compliment d’entrée, que les petits chiens aient aboyé. Ce n’est plus pour
                         Diphile un agréable amusement, c’est une affaire laborieuse, et à laquelle à
                         peine il peut suffire. Il passe les jours, ces jours qui échappent et qui ne
                         reviennent plus, à verser du grain et à nettoyer des ordures. Il donne
-                        pension à un homme qui n’a point d’autre ministère que de siffler des serins
-                        au flageolet e de faire couver des canaris. Il est vrai que ce qu’il dépense
+                        pension à un homme qui n’a point d’autre ministère que de siffler des <seg>serins</seg> <note> Oiseau</note>
+                        au flageolet et de faire couver des canaris. Il est vrai que ce qu’il dépense
                         d’un côté, il l’épargne de l’autre, car ses enfants sont sans maîtres et
                         sans éducation. Il se renferme le soir, fatigué de son propre plaisir, sans
                         pouvoir jouir du moindre repos que ses oiseaux ne reposent, et que ce petit
                         peuple, qu’il n’aime que parce qu’il chante, ne cesse de chanter. Il
                         retrouve ses oiseaux dans son sommeil : lui-même il est oiseau, il est
-                        huppé, il gazouille, il perche ; il rêve la nuit qu’il mue ou qu’il couve. </p>
+                        huppé, il gazouille, <pb source= "#Paris_1694_Huitieme"></pb> il perche ; il rêve la nuit qu’il mue ou qu’il cou<pb source= "#Paris_1694_Sixieme"></pb>ve. </p>
                     <p> Qui pourrait épuiser tous les différents genres de curieux ?
-                        Devineriez-vous, à entendre parler celui-ci de son léopard, de sa plume, de
+                        Devineriez-vous, à entendre parler celui-ci de son <seg> léopard, de sa plume <desc> Ici, trois astérix
+                            différentes sont mises sur chacun des mots mais renvoient toutes à
+                            la même note. </desc> </seg> <note source="#Paris_1694_Huitieme #Paris_1692_Septieme #Paris_1691_Sixieme"> Noms de coquillages</note>, de
                         sa musique, les vanter comme ce qu’il y a sur la terre de plus singulier et
                         de plus merveilleux, qu’il veut vendre ses coquilles ? Pourquoi non, s’il
                         les achète au poids de l’or ? </p>
@@ -476,9 +487,9 @@
                     source="#Paris_1688_Premiere #Paris_1692_Septieme  #Paris_1688_Troisieme #Paris_1689_Quatrieme #Paris_1690_Cinquieme #Paris_1691_Sixieme Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
                     <p>
                         <g ref="pieddemouche"/> Le duel est le triomphe de la mode, et l’endroit où
-                        elle a exercé sa tyrannie avec plus d’éclat. Cet usage n’a pas laissé au
+                        elle a exercé sa tyrannie avec plus d’éclat. Cet usage n’a<pb source= "#Paris_1694_Huitieme"></pb> pas laissé au
                         poltron la liberté de vivre ; il l’a mené se faire tuer par un plus brave
-                        que soi, et l’a confondu avec un homme de cœur ; il a attaché de l’honneur
+                        que soi, et l’a confon<pb source= "#Paris_1694_Sixieme"></pb>du avec un homme de cœur ; il a attaché de l’honneur
                         et de la gloire à une action folle et extravagante ; il a été approuvé par
                         la présence des <app>
                             <rdg> Rois </rdg>
@@ -512,9 +523,9 @@
                             > ref="pieddemouche"</g>
                         <g source="#Paris_1690_Cinquieme" ref="#p-pieddemouche"/> Un homme à la mode
                         dure peu, car les modes passent : s’il est par hasard homme de mérite, il
-                        n’est pas anéanti, et il subsiste encore par quelque endroit : également
-                        estimable, il est seulement moins estimé. </p>
-                    <p> (VI) La vertu a cela d’heureux, qu’elle se suffit à elle-même, et qu’elle
+                        n’est pas <pb source= "#Paris_1694_Huitieme"></pb>anéanti, et il subsiste encore par quelque endroit : également
+                        estimable, il est seulement moins estimé.<pb source= "#Paris_1694_Sixieme"></pb> </p>
+                    <p> La vertu a cela d’heureux, qu’elle se suffit à elle-même, et qu’elle
                         sait se passer d’admirateurs, de partisans et de protecteurs ; le manque
                         d’appui et d’approbation non seulement ne lui nuit pas, mais il la conserve,
                         l’épure et la rend parfaite ; qu’elle soit à la mode, qu’elle n’y soit plus,
@@ -557,8 +568,8 @@
                         parent ; demain elle est négligée, et rendue au peuple. </p>
                     <p> Une personne de mérite, au contraire, est une fleur qu’on ne désigne pas par
                         sa couleur, mais que l’on nomme par son nom, que l’on cultive pour sa beauté
-                        ou pour son odeur ; l’une des grâces de la nature, l’une de ces choses qui
-                        embellissent le monde ; qui est de tous les temps et d’une vogue ancienne et
+                        ou pour son odeur ; l’une des <pb source= "#Paris_1694_Huitieme"></pb> grâces de la nature, l’une de ces choses qui
+                        embellissent le monde ; qui est de tous les temps et d’u<pb source= "#Paris_1694_Sixieme"></pb>ne vogue ancienne et
                         populaire ; que nos pères ont estimée, et que nous estimons après nos pères
                         ; à qui le dégoût ou l’antipathie de quelques-uns ne sauraient nuire : un
                         lis, une rose. </p>
@@ -567,7 +578,7 @@
                     source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
                     <p>
                         <g source="#Paris_1691_Sixieme #Paris_1692_Septieme" ref="#pieddemouche"/>
-                        L’on voit Eustrate assis dans sa nacelle, où il jouit d’un air pur et d’un
+                        L’on voit Eustrate assis dans sa <seg>  nacelle </seg> <note> Petit bateau à rames</note>, où il jouit d’un air pur et d’un
                         ciel serein : il avance d’un bon vent et qui a toutes les apparences de
                         devoir durer ; mais il tombe tout d’un coup, le ciel se couvre, l’orage se
                         déclare, un tourbillon enveloppe la nacelle, elle est submergée : on voit
@@ -585,8 +596,8 @@
                         <g source="#Paris_1690_Cinquieme" ref="#p-pieddemouche"/>Voiture et Sarrazin
                         étaient nés pour leur siècle, et ils ont paru dans un temps où il semble
                         qu’ils étaient attendus. S’ils s’étaient moins pressés de venir, ils
-                        arrivaient trop tard ; et j’ose douter qu’ils fussent tels aujourd’hui
-                        qu’ils ont été alors. Les conversations légères, les cercles, la fine
+                        arrivaient trop <pb source= "#Paris_1694_Huitieme"></pb>tard ; et j’ose douter qu’ils fussent tels aujourd’hui
+                        qu’ils ont été alors. Les conversations légères, les cercles, la <pb source= "#Paris_1694_Sixieme"></pb>fine
                         plaisanterie, les lettres enjouées et familières, les petites parties où
                         l’on était admis seulement avec de l’esprit, tout a disparu. Et qu’on ne
                         dise point qu’ils les feraient revivre : ce que je puis faire en faveur de
@@ -612,10 +623,10 @@
                             source="#Paris_1689_Quatrieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme"
                             ref="#pieddemouche"/>
                         <g source="#Paris_1690_Cinquieme" ref="#p-pieddemouche"/> L’on blâme une
-                        mode qui divisant la taille des hommes en deux parties égales, en prend une
+                        mode qui divisant la taille des hommes en deux <pb source= "#Paris_1694_Huitieme"></pb>parties égales, en prend une
                         tout entière pour le buste, et laisse l’autre pour le reste du corps ; l’on
                         condamne celle qui fait de la tête des femmes la base d’un édifice à
-                        plusieurs étages dont l’ordre et la structure change selon leurs caprices,
+                        plusieurs <pb source= "#Paris_1694_Sixieme"></pb>étages dont l’ordre et la structure change selon leurs caprices,
                         qui éloigne les cheveux du visage, bien qu’ils ne croissent que pour
                         l’accompagner, qui les relève et les hérisse à la manière des bacchantes, et
                         semble avoir pourvu à ce que les femmes changent leur physionomie douce et
@@ -626,7 +637,7 @@
                         devrait seulement admirer l’inconstance et la légèreté des hommes, qui
                         attachent successivement les agréments et la bienséance à des choses tout
                         opposées, qui emploient pour le comique et pour la mascarade ce qui leur a
-                        servi de parure grave et d’ornements les plus sérieux ; et que si peu de
+                        servi de parure grave et d’ornements les plus sérieux ; et que si peu de <pb source= "#Paris_1694_Huitieme"></pb>
                         temps en fasse la différence. </p>
                 </div2>
                 <div2 n="13"
@@ -634,7 +645,7 @@
                     <p>
                         <g ref="#pieddemouche"/> N… est riche, elle mange bien, elle dort bien ;
                         mais les coiffures changent, et lorsqu’elle y pense le moins, et qu’elle se
-                        croit heureuse, la sienne est hors de mode. </p>
+                        croit heureuse, la sienne est hors de mode. <pb source= "#Paris_1694_Sixieme"></pb></p>
                 </div2>
                 <div2 n="14"
                     source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
@@ -651,7 +662,7 @@
                         voix claire et délicate, et heureusement il parle gras ; il a un mouvement
                         de tête, et je ne sais quel adoucissement dans les yeux, dont il n’oublie
                         pas de s’embellir ; il a une démarche molle et le plus joli maintien qu’il
-                        est capable de se procurer ; il met du rouge, mais rarement, il n’en fait
+                        est capable de se procurer ; il met du rouge, mais rarement, <pb source= "#Paris_1694_Huitieme"></pb>il n’en fait
                         pas habitude. Il est vrai aussi qu’il porte des chausses et un chapeau, et
                         qu’il n’a ni boucles d’oreilles ni collier de perles ; aussi ne l’ai-je pas
                         mis dans le chapitre des femmes. </p>
@@ -659,7 +670,7 @@
                 <div2 n="15"
                     source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
                     <p>
-                        <g ref="#pieddemouche"/>Ces mêmes modes que les hommes suivent si volontiers
+                        <g ref="#pieddemouche"/>Ces mêmes modes que les hom<pb source= "#Paris_1694_Sixieme"></pb>mes suivent si volontiers
                         pour leurs personnes, ils affectent de les négliger dans leurs portraits,
                         comme s’ils sentaient ou qu’ils prévissent l’indécence et le ridicule où
                         elles peuvent tomber dès qu’elles auront perdu ce qu’on appelle la fleur ou
@@ -667,29 +678,34 @@
                         draperie indifférente, fantaisie du peintre qui ne sont prises ni sur l’air
                         ni sur le visage, qui ne rappellent ni les mœurs ni la personne. Ils aiment
                         des attitudes forcées ou immodestes, une manière dure, sauvage, étrangère,
-                        qui font un capitan d’un jeune abbé, et un matamore d’un homme de robe ; une
+                        qui font un capitan d’un jeune abbé, et un <seg> matamore </seg> <note> Faux brave, vantard</note>d’un homme de robe ; une
                         Diane d’une femme de ville ; comme d’une femme simple et timide une amazone
                         ou une Pallas ; une Laïs d’une honnête fille ; un Scythe, un Attila, d’un
-                        prince qui est bon et magnanime. </p>
+                        prince qui est bon et magnanime.<pb source= "#Paris_1694_Huitieme"></pb> </p>
                     <p> Une mode a à peine détruit une autre mode, qu’elle est abolie par une plus
                         nouvelle, qui cède elle-même à celle qui la suit, et qui ne sera pas la
                         dernière : telle est notre légèreté. Pendant ces révolutions, un siècle
-                        s’est écoulé, qui a mis toutes ces parures au rang des choses passées et qui
+                        s’est <pb source= "#Paris_1694_Sixieme"></pb>écoulé, qui a mis toutes ces parures au rang des choses passées et qui
                         ne sont plus. La mode alors la plus curieuse et qui fait plus de plaisir à
                         voir, c’est la plus ancienne : aidée du temps et des années, elle a le même
                         agrément dans les portraits qu’a la saye ou l’habit romain sur les théâtres,
-                        qu’on la <seg> mante, le voile et la tiare <desc> Ici, trois astérix différentes sont mises sur chacun des mots mais renvoient toutes à la même note.  </desc><note source="#Paris_1691_Sixieme #Paris_1692_Septieme"> Habits des Orientaux</note> </seg> dans nos tapisseries et dans nos
-                        peintures. </p>
+                        qu’on la <seg> mante, le voile et la tiare <desc> Ici, trois astérix
+                                différentes sont mises sur chacun des mots mais renvoient toutes à
+                                la même note. </desc><note
+                                source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme"> Habits des
+                                Orientaux</note>
+                        </seg> dans nos tapisseries et dans nos peintures. </p>
                     <p> Nos pères nous ont transmis, avec la connaissance de leurs personnes, celle
-                        de leurs habits, de leurs coiffures, de leurs <seg> armes <note>Offensives et défensives</note></seg>, et des autres ornements
-                        qu’ils ont aimés pendant leur vie. Nous ne saurions bien reconnaître cette
-                        sorte de bienfait qu’en traitant de même nos descendants. </p>
+                        de leurs habits, de leurs coiffures, de leurs <seg> armes <note source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme">Offensives
+                                et défensives</note></seg>, et des autres ornements qu’ils ont aimés
+                        pendant leur vie. Nous ne saurions bien reconnaître cette sorte de bienfait
+                        qu’en traitant de même nos descendants. </p>
                 </div2>
                 <div2 n="16"
                     source="#Paris_1688_Premiere #Paris_1688_Troisieme #Paris_1689_Quatrieme #Paris_1690_Cinquieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
                     <p>
                         <g ref="#pieddemouche"/> Le courtisan autrefois avait ses cheveux, étaient
-                        en chausses et en pourpoint, portait de larges canons, et il était libertin.
+                        en chausses et en pourpoint, portait de larges canons, et il <pb source= "#Paris_1694_Huitieme"></pb>était libertin.
                         Cela ne sied plus : il porte une perruque, l’habit serré, le bas uni, et il
                         est dévot : tout se règle par la mode. </p>
                 </div2>
@@ -698,7 +714,7 @@
                     <p>
                         <g ref="#pieddemouche"/>Celui qui depuis quelque temps à la cour était
                         dévot, et par là, contre toute raison, peu éloigné du ridicule, pouvait-il
-                        espérer de devenir à la mode ? </p>
+                        espérer de devenir à la mode ? <pb source= "#Paris_1694_Sixieme"></pb> </p>
                 </div2>
                 <div2 n="18"
                     source="#Paris_1688_Premiere #Paris_1690_Cinquieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
@@ -724,7 +740,7 @@
                     source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
                     <p>
                         <g ref="#pieddemouche"/>Celui qui a pénétré la cour connaît ce que c’est que
-                        vertu et ce que c’est que dévotion : il ne peut plus s’y tromper. </p>
+                        vertu et ce que c’est que <seg> dévotion </seg> <note> Fausse dévotion </note>: il ne peut plus s’y tromper. </p> <pb source= "#Paris_1694_Huitieme"></pb> <pb source= "#Paris_1694_Sixieme"></pb>
                 </div2>
             </div1>
 
