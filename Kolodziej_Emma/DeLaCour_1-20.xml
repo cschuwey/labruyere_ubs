@@ -202,6 +202,7 @@
                     (l'édition 6) est mise dans un "rdg" sans sources.</item>
                 <item>
                     <date when="2022-10-31">31 octobre 2022</date>Ajout des notes ainsi que de la correction au sein des remarques.</item>
+                    <item><date when="2022-11-06">06 novembre 2022</date>Modifications des notes et ajout de la pagination.</item>
             </list>
         </revisionDesc>
     </teiHeader>
@@ -295,7 +296,7 @@
                 <div2 n="4" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/><app>
-                            <lem>Se dérober à la cour un seul moment, c’est y renoncer : le
+                            <lem>Se dérober à la cour un seul<pb n="199" source="#PARIS_1689_4"/> mo<pb n="247" source="#PARIS_1691_6"/>ment, c’est y renoncer : le
                                 courtisan qui l’a vue le matin la voit le soir pour la reconnaître
                                 le lendemain, ou afin que lui-même y soit connu.</lem>
                             <rdg>Se dérober à la Cour un ſeul moment, c’eſt y renoncer : le
@@ -369,7 +370,7 @@
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6"/><app>
                             <lem>La cour est comme un édifice bâti de marbre : je veux dire qu’elle
-                                est composée d’hommes fort durs, mais fort polis.</lem>
+                                est composée d’hommes fort durs, mais fort polis.<pb n="248" source="#PARIS_1691_6"/></lem>
                             <rdg>La Cour eſt comme un édifice bâti de marbre, je veux dire qu’elle
                                 eſt compoſée d’hommes fort durs, mais fort polis.</rdg>
                         </app></p>
@@ -377,7 +378,7 @@
                 <div2 n="11" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/><app>
-                            <lem>L’on va quelquefois à la cour pour en revenir, et se faire par là
+                            <lem>L’on va quelquefois à la cour pour en revenir, et se faire par là<pb n="200" source="#PARIS_1689_4"/>
                                 respecter du noble de sa province, ou de son diocésain.</lem>
                             <rdg>L’on va quelquefois à la Cour pour en revenir, &amp; ſe faire par
                                 là reſpecter du noble de ſa Province, ou de ſon Dioceſain.</rdg>
@@ -420,13 +421,13 @@
                                 traits ſont alterez, &amp; leur contenance eſt avilie : les gens
                                 fiers &amp; superbes sont les plus défaits, car ils perdent plus du
                                 leur ; celuy qui eſt honnête &amp; modeste s’y ſoûtient mieux : il
-                                n’a rien à réformer.</rdg>
+                                n’a rien à réformer.<pb n="249" source="#PARIS_1691_6"/></rdg>
                         </app></p>
                 </div2>
                 <div2 n="14" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/><app>
-                            <lem>L’air de cour est contagieux : il se prend à V**<note resp="#EK">De
+                            <lem>L’air de cour est contagieux : il<pb n="201" source="#PARIS_1689_4"/> se prend à V**<note resp="#EK">De
                                     qui parle-t-il?</note>, comme l’accent normand à Rouen ou à
                                 Falaise ; on l’entrevoit en des fourriers, en de petits contrôleurs,
                                 et en des chefs de fruiterie : l’on peut avec une portée d’esprit
@@ -465,7 +466,7 @@
                                 eux-mêmes, protestent qu’ils ont dans leur art toute l’habileté qui
                                 manque aux autres, et qui sont crus sur leur parole. Ils profitent
                                 cependant de l’erreur publique, ou de l’amour qu’ont les hommes pour
-                                la nouveauté : ils percent la foule, et parviennent jusqu’à
+                                la nouveauté : ils percent la <pb n="250" source="#PARIS_1691_6"/>foule, et parviennent jusqu’à<pb n="202" source="#PARIS_1689_4"/>
                                 l’oreille du prince, à qui le courtisan les voit parler, pendant
                                 qu’il se trouve heureux d’en être vu. Ils ont cela de commode pour
                                 les grands qu’ils en sont soufferts sans conséquence, et congédiés
@@ -513,8 +514,8 @@
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/><app>
                             <lem>Les cours ne sauraient se passer d’une certaine espèce de
-                                courtisans, hommes flatteurs, complaisants, insinuants, dévoués aux
-                                femmes, dont ils ménagent les plaisirs, étudient les faibles et
+                                courtisans, hommes flatteurs, complaisants, insi<pb n="251" source="#PARIS_1691_6"/>nuants, dévoués aux
+                                fem<pb n="203" source="#PARIS_1689_4"/>mes, dont ils ménagent les plaisirs, étudient les faibles et
                                 flattent toutes les passions : ils leur soufflent à l’oreille des
                                 grossièretés, leur parlent de leurs maris et de leurs amants dans
                                 les termes convenables, devinent leurs chagrins, leurs maladies, et
@@ -532,7 +533,7 @@
                                 à des heures où les grands n’osent se faire voir : ceux-ci, avec de
                                 longs services, bien des plaies sur le corps, de beaux emplois ou de
                                 grandes dignités, ne montrent pas un visage si assuré, ni une
-                                contenance si libre. Ces gens ont l’oreille des plus grands princes,
+                                contenance si libre.<pb n="252" source="#PARIS_1691_6"/> Ces gens ont l’oreille des plus grands <pb n="204" source="#PARIS_1689_4"/>princes,
                                 sont de tous leurs plaisirs et de toutes leurs fêtes, ne sortent pas
                                 du Louvre ou du Château, où ils marchent et agissent comme chez eux
                                 et dans leur domestique, semblent se multiplier en mille endroits,
@@ -573,7 +574,7 @@
                 <div2 n="19" source="#PARIS_1691_6">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6"/><app>
-                            <lem>Ne croirait-on pas de Cimon et de Clitandre qu’ils sont seuls
+                            <lem>Ne croirait-on pas de Cimon et de Clitandre<note resp="#EK">Pour varier les effets sur le lecteur, La Bruyère met en scène des personnages comme ci-présent.</note> qu’ils sont seuls
                                 chargés des détails de tout l’État, et que seuls aussi ils en
                                 doivent répondre ? L’un a du moins les affaires de terre, et l’autre
                                 les maritimes. Qui pourrait les représenter exprimerait
@@ -581,7 +582,7 @@
                                 peindre le mouvement. On ne les a jamais vus assis, jamais fixes et
                                 arrêtés : qui même les a vus marcher ? on les voit courir, parler en
                                 courant, et vous interroger sans attendre de réponse. Ils ne
-                                viennent d’aucun endroit, ils ne vont nulle part : ils passent et
+                                viennent d’aucun endroit, ils ne vont nulle <pb n="253" source="#PARIS_1691_6"/>part : ils passent et
                                 ils repassent. Ne les retardez pas dans leur course précipitée, vous
                                 démonteriez leur machine ; ne leur faites pas de questions, ou
                                 donnez-leur du moins le temps de respirer et de se ressouvenir
@@ -598,7 +599,7 @@
                                 ignorer ; il ne leur manque aucun des talents nécessaires pour
                                 s’avancer médiocrement. Gens néanmoins éveillés et alertes sur tout
                                 ce qu’ils croient leur convenir, un peu entreprenants, légers et
-                                précipités. Le dirai-je ? ils portent au vent, attelés tous deux au
+                                précipités. <pb n="254" source="#PARIS_1691_6"/>Le dirai-je ? ils portent au vent, attelés tous deux au
                                 char de la Fortune, et tous deux fort éloignés de s’y voir
                                 assis.</lem>
                             <rdg>Ne croiroit-on pas de Cimon &amp; de Clitandre qu’ils ſont ſeuls
@@ -641,13 +642,13 @@
                                 Princes Lorrains, aux Rohans, aux Chastillons, aux Montmorencis, et,
                                 s’il se peut, aux Princes Du Sang ; ne parler que de ducs, de
                                 cardinaux et de ministres ; faire entrer dans toutes les
-                                conversations ses aïeuls paternels et maternels, et y trouver place
+                                conversations ses aïeuls paternels et maternels, et y <pb n="205" source="#PARIS_1689_4"/>trouver place
                                 pour l’oriflamme et pour les croisades ; avoir des salles parées
                                 d’arbres généalogiques, d’écussons chargés de seize quartiers, et de
                                 tableaux de ses ancêtres et des alliés de ses ancêtres ; se piquer
-                                d’avoir un ancien château à tourelles, à créneaux et à mâchecoulis ;
+                                d’avoir un ancien château à tourelles, à créneaux et à mâchecoulis <note resp="#EK">Larousse : "Galerie en encorbellement au sommet des murailles médiévales et dont le plancher ajouré permettait de laisser tomber des projectiles pour battre le pied des murs."</note>
                                 dire en toute rencontre : ma race, ma branche, mon nom et mes armes
-                                ; dire de celui-ci qu’il n’est pas homme de qualité ; de celle-là,
+                                ; dire de celui-ci qu’il n’est pas <pb n="255" source="#PARIS_1691_6"/>homme de qualité ; de celle-là,
                                 qu’elle n’est pas demoiselle ; ou si on lui dit qu’Hyacinthe a eu le
                                 gros lot, demander s’il est gentilhomme. Quelques-uns riront de ces
                                 contre-temps, mais il les laissera rire ; d’autres en feront des
