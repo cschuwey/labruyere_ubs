@@ -66,7 +66,8 @@
             <charDecl>
                 <glyph xml:id="pied_de_mouche">
                     <glyphName>pied de mouche</glyphName>
-                    <desc>¶</desc><charProp>
+                    <desc>¶</desc>
+                        <charProp>
                         <localName>entity</localName>
                         <value>pied de mouche</value>
                     </charProp>
@@ -127,7 +128,10 @@
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="30"> <p>
                     <g ref="pied_de_mouche"></g>
-                    Les froideurs et les relâchements dans l’amitié ont leurs causes. En amour, il n’y a guerre d’autre raison de ne s’aimer plus que de s’être trop aimés./</p></div2>
+                    Les froideurs et les relâchements dans l’amitié ont leurs causes. En amour, il n’y a guerre d’autre raison de ne s’aimer plus que de s’être trop aimés./
+                    <note type="glossaire" resp="LR" source="#Paris_1694_8 #Paris_1699_10">
+                    Dans ces deux anciennes éditions, la conjonction de coordination "et" est inexistante, elle est transcrite sous la forme de l'esperluette "&", et ce, dans toute la partie "Du Coeur" que nous étudions. </note> 
+                    </p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="31"> <p>
                     <g ref="pied_de_mouche"></g>
@@ -253,7 +257,11 @@
                         <rdg wit="#Paris_1699_10">nous_même</rdg>
                     </app>
                     
-                    qui nous met en la place des malheureux, pourquoi tirent-ils de nous si peu de soulagement dans leurs misères ? Il vaut mieux s’exposer à l’ingratitude que de manquer aux misérables. </p></div2>
+                    qui nous met en la place des malheureux, pourquoi tirent-ils de nous si peu de soulagement dans leurs misères ? Il vaut mieux s’exposer à l’ingratitude que de manquer aux misérables. 
+                    
+                    <note type="glossaire" resp="LR" source="#Paris_1694_8 #Paris_1699_10">
+                    Dans les deux anciennes éditions, c'est un point virgule suit "la place des malheureux", et non une virgule. </note>
+                    </p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="49"> <p>
                     <g ref="#pied_de_mouche"></g>
@@ -264,8 +272,14 @@
                         <rdg wit="#Paris_1694_8">l'ingratitude</rdg>
                         <rdg wit="#Paris_1699_10">l'indulgence</rdg>
                     </app>  
+
+                                     
+                    pour soi et la dureté pour les autres n’est qu’un seul et même vice. 
                     
-                    pour soi et la dureté pour les autres n’est qu’un seul et même vice. </p></div2>
+                    <note type="glossaire" resp="LR" source="#Paris_1694_8 #Paris_1699_10">
+                    La Bruyère, en modifiant le terme "ingratitude" dans la huitième version - qui signifie absence de reconnaissance - par le terme "indulgence" dans la dixième version - qui signifie facilité à pardonner, vient modifier le sens de sa citation.</note>
+                    
+                    </p></div2>
                 
                 
                 
@@ -275,3 +289,4 @@
     
     
 </TEI>
+
