@@ -15,6 +15,7 @@
                 <respStmt>
                     <name>Sarah Fontaine-Demay</name>
                     <resp xml:id="Editrice">Éditrice</resp>
+                    <resp xml:id="Proprietaire-edition">Propriétaire inconnu de l'édition</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -221,6 +222,7 @@
                 <date when="2022-10-16">Ajout de sources et ressencement sources des différentes remarques</date>
                 <date when="2022-10-29">Ajout de sources</date>
                 <date when="2022-10-30">Déclaration des sources pour chaque remarques et ajout des app</date>
+                <date when="2022-11-06">Ajout des pages breaks pour les éditions 9 et 10 ainsi que de notes de glossaire</date>
             </change>
         </revisionDesc>
     </teiHeader>
@@ -256,7 +258,7 @@
                     source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
                     <p><g ref="#Pied_de_mouche_seul"/>Il y a peu de galanteries secrètes 
                         <app><lem wit="#Ed_19e_origine">. Bien</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">: bien</rdg></app>
-                        des femmes ne sont pas mieux désignées par le nom de leurs maris que
+                        des femmes ne sont pas mieux désignées par le nom de leurs <pb n="83" source="#Paris_1699_ed10"/> maris que
                         par <app><lem wit="#Ed_19e_origine">celui</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">celuy</rdg></app>
                         de leurs <app><lem wit="#Ed_19e_origine">amants</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">amans</rdg></app>.</p>
                 </div2>
@@ -291,8 +293,8 @@
                     <p><g ref="#Pied_de_mouche_seul" source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"/>
                         <g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/>Une femme
                         inconstante est celle qui n’aime plus ; une légère, celle qui déjà en aime
-                        un autre ; une volage, celle qui ne sait si elle aime et ce qu’elle aime ;
-                        une indifférente, celle qui n’aime rien.</p>
+                        un autre ; une volage, celle qui ne sait si elle aime et ce <pb n="84" source="#Paris_1699_ed10"/> qu’elle aime ;
+                        une indifférente, celle qui n’aime rien.<pb n="53" source="#Paris_1696_ed9"/></p>
                 </div2>
                 <div2 n="25"
                     source="#Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
@@ -321,22 +323,17 @@
                     source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
                     <p><g ref="#Pied_de_mouche_seul"/>A juger de cette femme par sa beauté, sa
                         jeunesse, sa fierté et ses dédains, il n’y a personne qui doute que ce ne
-                        soit un <app>
-                            <lem wit="#Ed_19e_origine">héros</lem>
-                            <rdg
-                                wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"
-                                >Héros</rdg>
-                        </app> qui doive un jour la charmer. Son choix est fait : c’est un petit
+                        soit un <app><lem wit="#Ed_19e_origine">héros</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Héros</rdg></app>
+                        qui doive un jour la charmer. Son choix est fait : c’est un petit
                         monstre qui manque d’esprit.</p>
                 </div2>
                 <div2 n="28"
                     source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9">
-                    <p><g ref="#Pied_de_mouche_seul"/>Il y a des femmes déjà flétries, qui par leur
+                    <p><g ref="#Pied_de_mouche_seul"/>Il y a des femmes déjà flétries, <pb n="85" source="#Paris_1699_ed10"/> qui par leur
                         complexion ou par leur mauvais caractère sont naturellement la ressource des
-                        jeunes gens qui n’ont pas assez de bien. Je ne sais qui est
-                        <pb n="187" source="#Paris_1688_ed1"/>plus à plaindre,
+                        jeunes gens qui n’ont pas assez de bien. Je ne sais qui est plus à plaindre,
                         ou d’une femme avancée en âge qui a besoin d’un cavalier, ou d’un cavalier
-                        qui a besoin d’une vieille.</p>
+                        qui a besoin d’une vieille. <note source="#Paris_1694_ed8_N1" resp="#Proprietaire-edition" place="right" type="ms" hand="Inconnu">Illisible</note> </p>
                 </div2>
                 <div2 n="29 30" source="#Paris_1696_ed9">
                     <p><g ref="#Pied_de_mouche_seul" source="#Paris_1696_ed9"/>Le rebut de la cour
@@ -344,7 +341,7 @@
                         cravate et en habit gris, ainsi que le bourgeois en baudrier, les écarte et
                         devient maître de la place : il est écouté, il est aimé ; on ne tient guère
                         plus d’un moment contre une écharpe d’or et une plume blanche, contre un
-                        homme qui parle au Roi et voit les ministres. Il fait des jaloux et des
+                        homme qui parle au Roi et voit les ministres. <pb n="54" source="#Paris_1696_ed9"/> Il fait des jaloux et des
                         jalouses : on l’admire, il fait envie : à quatre lieues de là, il fait
                         pitié.</p>
                     <p>Un homme de la ville est pour une femme de province ce qu’est pour une femme
@@ -352,8 +349,7 @@
                 </div2>
                 <div2 n="29"
                     source="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"
-                            source="#Paris_1689_ed4 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10"/>
+                    <p><g ref="#Pied_de_mouche_seul" source="#Paris_1689_ed4 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10"/>
                         <g ref="#Pied_de_mouche_simple" source="#Paris_1689_ed5"/> Le rebut de la
                         cour est reçu à la ville dans une ruelle, où il défait le magistrat même en
                         cravate et en habit gris, ainsi que le bourgeois en baudrier, les écarte et
@@ -361,12 +357,11 @@
                         plus d’un moment contre une écharpe d’or et une plume blanche, contre un
                         homme qui parle au Roi et voit les ministres. Il fait des jaloux et des
                         jalouses : on l’admire, il fait envie : à quatre lieues de là, il fait
-                        pitié. </p>
+                        pitié. <note source="#Paris_1694_ed8_N1" resp="#Proprietaire-edition" place="right" type="ms" hand="Inconnu">Illisible</note> </p>
                 </div2>
                 <div2 n="30"
                     source="#Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"
-                            source="#Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10"/>
+                    <p><g ref="#Pied_de_mouche_seul" source="#Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1699_ed10"/>
                         <app>
                             <lem wit="#Ed_19e_origine">Un</lem>
                             <rdg wit="#Paris_1691_ed6">Une</rdg>
@@ -378,7 +373,7 @@
                     source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
                     <p><g ref="#Pied_de_mouche_seul"/>A un homme vain, indiscret, qui est grand
                         parleur et mauvais plaisant, qui parle de soi avec confiance et des autres
-                        avec mépris, impétueux, altier, entreprenant, sans mœurs ni probité, de nul
+                        avec mépris, impétueux, <pb n="86" source="#Paris_1699_ed10"/> altier, entreprenant, sans mœurs ni probité, de nul
                         jugement et d’une imagination très libre, il ne lui manque plus, pour être
                         adoré de bien des femmes, que de beaux traits et la taille belle.</p>
                 </div2>
@@ -391,7 +386,8 @@
                 </div2>
                 <div2 n="33"
                     source="#Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"/>Roscius entre sur la scène de bonne grâce :
+                    <p><g ref="#Pied_de_mouche_seul"/> <note source="#Paris_1694_ed8_N1" resp="#Proprietaire-edition" place="left" type="ms" hand="Inconnu">... La fille de ...</note> 
+                        Roscius entre sur la scène de bonne grâce :
                         oui, Lélie ; et j’ajoute encore qu’il a les jambes bien tournées, qu’il joue
                         bien, et de longs rôles, et que pour déclamer parfaitement il ne lui manque,
                         comme on le dit, que de parler avec la bouche ; mais est-il le seul qui ait
@@ -400,33 +396,35 @@
                         être à vous, il est à une autre ; et quand cela ne serait pas ainsi, il est
                         retenu : Claudie attend, pour l’avoir, qu’il se soit dégoûté de Messaline.
                         Prenez Bathylle, Lélie : où trouverez-vous, je ne dis pas dans l’ordre des
-                        chevaliers, que vous dédaignez, mais même parmi les farceurs un jeune homme
+                        chevaliers, que vous dédaignez, mais même parmi les farceurs <pb n="87" source="#Paris_1699_ed10"/> un jeune homme
                         qui s’élève si haut en dansant, et qui passe mieux la capriole ?
                         Voudriez-vous le sauteur Cobus, qui, jetant ses pieds en avant, tourne une
                         fois en l’air avant que de tomber à terre ? Ignorez-vous qu’il n’est plus
-                        jeune ? Pour Bathylle, dites-vous, la presse y est trop grande, et il refuse
-                        plus de femmes qu’il n’en agrée ; mais vous avez Dracon, le joueur de flûte
-                        : nul autre de son métier n’enfle plus décemment ses joues en soufflant dans
-                        le hautbois ou le flageolet, car c’est une chose infinie que le nombre des
+                        jeune ? Pour <pb n="55" source="#Paris_1696_ed9"/> Bathylle, dites-vous, la presse y est trop grande, et il refuse
+                        plus de femmes qu’il n’en agrée ; mais vous avez Dracon <note source="#Paris_1694_ed8_N1" resp="#Proprietaire-edition" place="right" type="ms" hand="Inconnu">Beauchamps</note>
+                        , le joueur de flûte : nul autre de son métier n’enfle plus décemment ses joues en soufflant dans
+                        le hautbois ou le flageolet, car c’est une chose infinie que le nombre des <note source="#Paris_1694_ed8_N1" resp="#Proprietaire-edition" place="right" type="ms" hand="Inconnu">Illisible</note>
                         instruments qu’il fait parler ; plaisant d’ailleurs, il fait rire jusqu’aux
                         enfants et aux femmelettes. Qui mange et qui boit mieux que Dracon en un
                         seul repas ? Il enivre toute une compagnie, et il se rend le dernier. Vous
                         soupirez, Lélie : est-ce que Dracon aurait fait un choix, ou que
                         malheureusement on vous aurait prévenue ? Se serait-il enfin engagé à
-                        Césonie, qui l’a tant couru, qui lui a sacrifié une si grande foule
+                        Césonie <note source="#Paris_1694_ed8_N1" resp="#Proprietaire-edition" place="right" type="ms" hand="Inconnu">La Debusier d'aumont ou la fille du...</note>
+                        , qui l’a tant couru, qui lui a sacrifié une si grande foule
                         d’amants, je dirai même toute la fleur des Romains ? à Césonie, qui est
-                        d’une famille patricienne, qui est si jeune, si belle, et si sérieuse ? Je
+                        d’une famille patricienne, qui est <pb n="88" source="#Paris_1699_ed10"/> si jeune, si belle, et si sérieuse ? Je
                         vous plains, Lélie, si vous avez pris par contagion ce nouveau goût qu’ont
                         tant de femmes romaines pour ce qu’on appelle des hommes publics, et exposés
                         par leur condition à la vue des autres. Que ferez-vous, lorsque le meilleur
-                        en ce genre vous est enlevé ? Il reste encore Bronte, le questionnaire : le
+                        en ce genre vous est enlevé ? Il reste encore Bronte <note source="#Paris_1694_ed8_N1" resp="#Proprietaire-edition" place="left" type="ms" hand="Inconnu">Leboureau</note>, le questionnaire : le
                         peuple ne parle que de sa force et de son adresse ; c’est un jeune homme qui
                         a les épaules larges et la taille ramassée, un nègre d’ailleurs, un homme
                         noir. </p>
                 </div2>
                 <div2 n="34"
                     source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"/>Pour les femmes du monde, un 
+                    <p><g ref="#Pied_de_mouche_seul"/><note source="#Paris_1694_ed8_N1" resp="#Proprietaire-edition" place="left" type="ms" hand="Inconnu">Me. de ...</note>
+                        Pour les femmes du monde, un 
                         <app><lem wit="#Ed_19e_origine">jardinier</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Jardinier</rdg></app>
                         est un <app><lem wit="#Ed_19e_origine">jardinier</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Jardinier</rdg></app>
                         , et un <app><lem wit="#Ed_19e_origine">maçon</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Masson</rdg></app> 
@@ -436,15 +434,17 @@
                         est un homme. Tout est tentation à qui la craint.</p>
                 </div2>
                 <div2 n="35" source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"/>Quelques femmes donnent aux couvents et à
+                    <p><g ref="#Pied_de_mouche_seul"/><note source="#Paris_1694_ed8_N1" resp="#Proprietaire-edition" place="left" type="ms" hand="Inconnu">Duchette d'...</note>
+                        Quelques femmes donnent aux couvents et à
                         leurs amants : galantes et bienfactrices, elles ont jusque dans l’enceinte
                         de <app><lem wit="#Ed_19e_origine">l'autel</lem><rdg wit="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">l'Autel</rdg></app> 
-                        des tribunes et des oratoires où elles lisent des billets
-                        tendres, et où personne ne voit qu’elles ne prient point Dieu.</p>
+                        des tribu <pb n="56" source="#Paris_1696_ed9"/> nes et des oratoires où elles lisent des billets
+                        tendres <note resp="#Editrice">Selon le Littré : "Missive, petit lettre qui n'a pas les formules usitées dans les lettres ordinaires [...] Billet doux, billet d'amour et de galanterie"</note>, et où personne ne voit qu’elles ne prient point Dieu.</p>
                 </div2>
                 <div2 n="36" source="#Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"/>Qu’est-ce qu’une femme que l’on dirige ?
-                        Est-ce une femme plus complaisante pour son mari, plus douce pour ses
+                    <p><g ref="#Pied_de_mouche_seul"/> <note source="#Paris_1694_ed8_N1" resp="#Proprietaire-edition" place="left" type="ms" hand="Inconnu">Illisible</note>
+                        Qu’est-ce qu’une femme que l’on dirige ?
+                        Est-ce une femme plus com <pb n="89" source="#Paris_1699_ed10"/> plaisante pour son mari, plus douce pour ses
                         domestiques, plus appliquée à sa famille et à ses affaires, plus ardente et
                         plus sincère pour ses amis ; qui soit moins esclave de son humeur, moins
                         attachée à ses intérêts ; qui aime moins les commodités de la vie ; je ne
@@ -477,11 +477,11 @@
                 <div2 n="38" source="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
                     <p><g ref="#Pied_de_mouche_seul"/>Le capital pour une femme n’est pas d’avoir un
                         <app><lem wit="#Ed_19e_origine">directeur</lem><rdg wit="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Directeur</rdg></app>
-                        , mais de vivre si uniment qu’elle s’en puisse passer.</p>
+                        , mais de vivre si uniment qu’elle s’en puisse passer.<pb n="90" source="#Paris_1699_ed10"/></p>
                 </div2>
                 <div2 n="39" source="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
-                    <p><g ref="#Pied_de_mouche_seul"/>Si une femme pouvait dire à son <app><lem wit="#Ed_19e_origine">confesseur</lem><rdg wit="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Confesseur</rdg></app> 
-                        , avec ses autres faiblesses, celles qu’elle a pour son <app><lem wit="#Ed_19e_origine">directeur</lem><rdg wit="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Directeur</rdg></app>
+                    <p><g ref="#Pied_de_mouche_seul"/>Si une femme pouvait dire à son <app><lem wit="#Ed_19e_origine">confesseur</lem><rdg wit="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Confesseur</rdg><note resp="#Editrice">Selon le Littré : "Prêtre à qui l'on se confesse"</note></app> 
+                        , avec ses autres faiblesses, celles qu’elle a pour son <app><lem wit="#Ed_19e_origine">directeur</lem><rdg wit="#Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">Directeur</rdg><note resp="#Editrice">Selon le Littré : "Directeur de conscience, ou, simplement, directeur ecclésiastique qui dirige la conscience d'une personne</note></app>
                         ; et le temps qu’elle perd dans son entretien, peut-être lui serait-il donné pour
                         pénitence d’y renoncer.</p>
                 </div2>
@@ -489,7 +489,7 @@
                     <p><g ref="#Pied_de_mouche_seul" source="#Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10"/>
                         <g ref="#Pied_de_mouche_double" source="#Paris_1689_ed5"/>Je voudrais qu’il me fût permis de crier de
                         toute ma force à ces hommes saints qui ont été autrefois blessés des femmes
-                        : "Fuyez les femmes, ne les dirigez point, laissez à d’autres le soin de
+                        : "Fuyez les <pb n="57" source="#Paris_1696_ed9"/> femmes, ne les dirigez point, laissez à d’autres le soin de
                         leur salut."</p>
                 </div2>
                 <div2 n="41" source="#Paris_1688_ed1 #Paris_1688_ed3 #Paris_1689_ed4 #Paris_1689_ed5 #Paris_1691_ed6 #Paris_1692_ed7 #Paris_1694_ed8 #Paris_1696_ed9 #Paris_1699_ed10">
