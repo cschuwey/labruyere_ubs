@@ -24,33 +24,7 @@
                 <authority></authority>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct >
-                    <monogr xml:id="Paris_1691_6_1">
-                        <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
-                        <author>Jean de La Bruyère</author>                     
-                        <edition></edition>
-                        <idno>ark:/12148/bpt6k8712342k</idno>
-                        <imprint>
-                            <publisher>Estienne Michallet</publisher>
-                            <pubPlace>Paris</pubPlace>
-                            <date>1691</date>
-                        </imprint>                       
-                    </monogr>
-                </biblStruct>
-                <biblStruct >
-                    <monogr xml:id="Tours_1876_EC_1">
-                        <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
-                        <author>Jean de La Bruyère</author>                     
-                        <edition>Edition classique</edition>
-                        <idno>ark:/12148/cb11942641d</idno>
-                        <imprint>
-                            <publisher>A. Mame</publisher>
-                            <pubPlace>Tours</pubPlace>
-                            <date>1876</date>
-                        </imprint>                       
-                    </monogr>
-                </biblStruct>
-                <biblStruct>
+             <biblStruct>
                     <monogr  xml:id="Paris_1688_1_1">
                         <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
                         <author>Jean de La Bruyère</author>                     
@@ -62,8 +36,17 @@
                             <date>1688</date>
                         </imprint>                       
                     </monogr>
-                </biblStruct>
-                <biblStruct >
+                    <monogr xml:id="Paris_1691_6_1">
+                        <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>                     
+                        <edition></edition>
+                        <idno>ark:/12148/bpt6k8712342k</idno>
+                        <imprint>
+                            <publisher>Estienne Michallet</publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date>1691</date>
+                        </imprint>                       
+                    </monogr>
                     <monogr xml:id="Paris_1699_10_1">
                         <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
                         <author>Jean de La Bruyère</author>                     
@@ -76,8 +59,13 @@
                         </imprint>                       
                     </monogr>
                     <monogr xml:id="Paris_1692_7_1">
+                        <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>                     
+                        <edition>septième édition</edition>
                         <imprint>
-                            <pubPlace></pubPlace>
+                            <publisher>Estienne Michallet</publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date>1692</date>
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1689_4_1">
@@ -90,7 +78,56 @@
                             <date>1689</date>
                         </imprint>
                     </monogr>
-                    
+                    <monogr xml:id="Paris_1688_3_1">
+                        <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>                     
+                        <edition>troisième édition</edition>
+                        <imprint>
+                            <publisher>Estienne Michallet</publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date>1688</date>
+                        </imprint>
+                    </monogr>
+                     <monogr xml:id="Paris_1690_5_1">
+                        <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>                     
+                        <edition>cinquième édition</edition>
+                        <imprint>
+                            <publisher>Estienne Michallet</publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date>1690</date>
+                        </imprint>
+                    </monogr>
+                     <monogr xml:id="Paris_1694_8_1">
+                        <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>                     
+                        <edition>huitième édition</edition>
+                        <imprint>
+                            <publisher>Estienne Michallet</publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date>1694</date>
+                        </imprint>
+                    </monogr>
+                     <monogr xml:id="Paris_1691_6_1">
+                        <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>                     
+                        <edition>sixième édition</edition>
+                        <imprint>
+                            <publisher>Estienne Michallet</publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date>1691</date>
+                        </imprint>
+                    </monogr>
+                     <monogr xml:id="Paris_1696_9_1">
+                        <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>                     
+                        <edition>neuvième édition</edition>
+                        <imprint>
+                            <publisher>Estienne Michallet</publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date>1696</date>
+                        </imprint>
+                    </monogr>
                 </biblStruct>
                 
                 
@@ -104,6 +141,9 @@
                 </glyph>
                 <glyph xml:id="PDM_parenthese">
                     <desc>(¶)</desc>
+                </glyph>
+                <glyph xml:id="PDM_Double">
+                    <desc>((¶))</desc>
                 </glyph>
             </charDecl>
         </encodingDesc>
@@ -150,42 +190,44 @@
             <div1></div1>
             <div1>
                 <head>Des Biens de Fortune</head>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" n="1"> 
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="1"> 
                     <p> (1)
                         Un homme fort riche peut manger des entremets<note resp="#CP">c'est un dessert selon moi</note>,
-                        faire peindre ses lambris et ses <app><lem>alcôves</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">alcoves</rdg></app>,
-                        <app><lem>jouir</lem> <rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">joüir</rdg></app> d’un <app><lem>palais</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">Palais</rdg></app> à la campagne et d’un autre à la ville,
+                        faire peindre ses lambris et ses <app><lem>alcôves</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">alcoves</rdg></app>,
+                        <app><lem>jouir</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">joüir</rdg></app> d’un <app><lem>palais</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">Palais</rdg></app> à la campagne et d’un autre à la ville,
                         avoir un grand équipage,
-                        mettre un <app><lem>duc</lem> <rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">Duc</rdg></app> dans sa famille,
-                        et faire de son fils un grand <app><lem>seigneur</lem> <rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">Seigneur</rdg></app> :
-                        cela est juste et de son ressort ;
+                        mettre un <app><lem>duc</lem> <rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">Duc</rdg></app> dans sa famille,
+                        et faire de son fils un grand <app><lem>seigneur</lem> <rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">Seigneur</rdg></app> :
+                        cela est juste et de son ressort <app><lem>;</lem><rdg wit="#Paris_1690_5_1">:</rdg></app>
                         mais il appartient peut-être à d’autres de vivre contents.
                     </p>
+                    <pb source="#Paris_1690_5_1"/>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="2">
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="2">
                     <p> (2)
-                        <g ref="#pied_de_mouche"/>Une grande naissance ou une grande fortune annonce le <app><lem>mérite</lem> <rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">merite</rdg></app>, et le fait <app><lem>plus tôt</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">plutôt</rdg></app> remarquer.
+                        <g ref="#pied_de_mouche"/><seg>Une grande naissance<note resp="#CP">Cela veut dire une naissance dans l'aristocratie</note></seg> ou une grande fortune annonce le <app><lem>mérite</lem> <rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">merite</rdg></app><app><lem>,</lem><rdg wit="#Paris_1690_5_1"/></app> et le fait <app><lem>plus tôt</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">plutôt</rdg><rdg wit="#Paris_1690_5_1">plûtost</rdg></app> remarquer.
                     </p>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="3">
-                    <p> (3)<g ref="#pied_de_mouche"/>
-                        Ce qui disculpe le fat ambitieux de son ambition <app><lem/><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">,</rdg></app> est le soin que l’on prend,
-                        s’il a fait une grande fortune, de <app><lem>lui</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">luy</rdg></app> trouver un mérite qu’il n’a jamais eu,
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="3">
+                    <p> (3)<g source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" ref="#pied_de_mouche"/><g source="#Paris_1690_5_1" ref="#PDM_parenthese"/>
+                        Ce qui disculpe le fat ambitieux de son ambition <app><lem/><rdg wit="#Paris_1692_7_1 #Paris_1690_5_1 #Paris_1689_4_1">,</rdg></app> est le soin que l’on prend,
+                        s’il a fait une grande fortune, de <app><lem>lui</lem><rdg wit="#Paris_1692_7_1 #Paris_1690_5_1 #Paris_1689_4_1">luy</rdg></app> trouver un mérite qu’il n’a jamais eu,
                         et aussi grand qu’il croit l’avoir.
                     </p>
                 </div2>
-                <div2 source="#Paris_1692_7_1  #Paris_1689_4_1"  n="4">
+                <div2 source="#Paris_1692_7_1 #Paris_1690_5_1 #Paris_1689_4_1"  n="4">
                     <p> (4) <g ref="#pied_de_mouche"/>
                         A mesure que la faveur et les grands biens se retirent d’un homme,
-                        ils laissent voir en <app><lem>lui</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">luy</rdg></app> le ridicule qu’ils <app><lem>couvraient</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">couvroient</rdg></app>,
-                        et qui y <app><lem>était</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">étoit</rdg></app> sans que personne s’en aperçût.
+                        ils laissent voir en <app><lem>lui</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">luy</rdg></app> le ridicule qu’ils <app><lem>couvraient</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">couvroient</rdg></app>,
+                        et qui y <app><lem>était</lem><rdg wit="#Paris_1692_7_1">étoit</rdg><rdg wit="#Paris_1689_4_1 #Paris_1690_5_1">estoit</rdg><pb source="#Paris_1689_4_1">/</app> sans que personne s’en aperçût.
                     </p>
+                    <app><pb source="#Paris_1699_10_1"/></app>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="5">
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="5">
                     <p>
                         (5) <g ref="#pied_de_mouche"/>
-                        Si l’on ne le <app><lem>voyait</lem><rdg>voyoit</rdg></app> de ses yeux,
-                        <app><lem>pourrait-on</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">pourroit-on</rdg></app> jamais s’imaginer l’étrange disproportion que le plus ou le moins de pièces de <app><lem>monnaie</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">monnoye</rdg></app> met entre les hommes <app><lem>?</lem><rdg>.</rdg></app>
+                        Si l’on ne le <app><lem>voyait</lem><rdg wit="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1">voyoit</rdg></app> de ses yeux<app><lem>,</lem><rdg wit="#Paris_1692_7_1">;</rdg><pb source="#Paris_1692_7_1"/></app> 
+                        <app><lem>pourrait-on</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">pourroit-on</rdg></app> jamais s’imaginer l’étrange disproportion que le plus ou le moins de <app><lem>pièces</lem><rdg wit="#Paris_1690_5_1">pieces</rdg></app> de <app><lem>monnaie</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">monnoye</rdg></app> met entre les hommes <app><lem>?</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">.</rdg></app>
                     </p>
                     <p>
                         Ce plus ou ce moins détermine à l’épée,
@@ -212,140 +254,143 @@
                 <div2 source="#Paris_1692_7_1" n="8">
                     <p>  (8) <g ref="#pied_de_mouche"/>
                         Quelques-uns ont fait dans leur jeunesse l’apprentissage d’un certain métier,
-                        pour en exercer un autre, et fort différent, le reste de leur vie.
+                        pour en exercer un autre, et fort différent, le reste de leur vie.<app><pb source="#Paris_1692_7_1"/></app>
                     </p>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="9">
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="9">
                     <p> (9) <g ref="#pied_de_mouche"/>
-                        Un homme est laid, de petite taille, et a peu d’esprit<app><lem>.</lem><rdg wit="#Paris_1689_4_1">,</rdg><rdg wit="#Paris_1692_7_1">;</rdg></app>
-                        <app><lem>L’on me dit à l’oreille :</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">l'on me dit à l'oreille,</rdg></app> "Il a cinquante mille livres de rente<app><lem>.</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">:</rdg></app>
-                        <app><lem>Cela</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">cela</rdg></app> le concerne tout seul, et il ne m’en fera jamais <app><lem>ni pis ni</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">ny pis ny</rdg></app> mieux <app><lem>;</lem><rdg wit="#Paris_1692_7_1">,</rdg></app>
+                        Un homme est laid, de petite taille, et a peu d’esprit<app><lem>.</lem><rdg wit="#Paris_1689_4_1">,</rdg><rdg wit="#Paris_1692_7_1 #Paris_1690_5_1">;</rdg></app>
+                        <app><lem>L’on me dit à l’oreille : "Il</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">l'on me dit à l'oreille, il</rdg></app>  a cinquante mille livres de rente<app><lem>.</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">:</rdg></app>
+                        <app><lem>Cela</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">cela</rdg></app> le concerne tout seul, et il ne m’en fera jamais <app><lem>ni pis ni</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">ny pis ny</rdg></app> mieux <app><lem>;</lem><rdg wit="#Paris_1692_7_1">,</rdg></app>
                         si je commence à le regarder avec d’autres yeux, 
-                        et si je ne suis pas maître de faire autrement, quelle sottise !
+                        et si je ne suis <pb source="#Paris_1690_5_1"/> pas maître de faire autrement, quelle sottise !
                     </p>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="10">
-                    <p>  (10) <g ref="#pied_de_mouche"/>
-                        Un projet assez vain <app><lem>serait</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">seroit</rdg></app> de vouloir tourner un homme <app><lem>fort sot et fort riche</lem><rdg wit="#Paris_1689_4_1">fort riche et fort sot</rdg></app> en ridicule ;
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="10">
+                    <p>  (10) <g source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" ref="#pied_de_mouche"/><g source="#Paris_1690_5_1" ref="#PDM_parenthese"/>
+                        Un projet assez vain <app><lem>serait</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">seroit</rdg></app> de vouloir tourner un homme <app><lem>fort sot et fort riche</lem><rdg wit="#Paris_1689_4_1 #Paris_1690_5_1">fort riche et fort sot</rdg></app> en ridicule ;
                         les rieurs sont de son côté.
                     </p>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="11">
-                    <p>  (11) <g ref="#pied_de_mouche"/>
-                        N**, avec un portier rustre, farouche,
-                        tirant sur le Suisse<app><lem>,</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">;</rdg></app>
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="11">
+                    <p>  (11) <g source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" ref="#pied_de_mouche"/><g source="#Paris_1690_5_1" ref="#PDM_parenthese"/>
+                        N**, avec un portier rustre,<app><pb source="#Paris_1689_4_1"></app> farouche,
+                        tirant sur le Suisse<app><lem>,</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">;</rdg></app>
                         avec un vestibule et une antichambre,
-                        pour peu qu’il y fasse languir quelqu’un et se morfondre<app><lem>,</lem><rdg wit="#Paris_1692_7_1">:</rdg><rdg wit="#Paris_1689_4_1">;</rdg></app>
-                        qu’il <app><lem>paraisse</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">paroisse</rdg></app> enfin avec une mine grave et une démarche mesurée, 
-                        qu’il écoute un peu et ne reconduise point <app><lem>:</lem><rdg wit="#Paris_1692_7_1">;</rdg><rdg wit="#Paris_1689_4_1">,</rdg></app> quelque subalterne qu’il soit d’ailleurs,
-                        il fera sentir de <app><lem>lui-même</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">luy-même</rdg></app> quelque chose qui approche de la considération.
+                        pour peu qu’il y fasse languir quelqu’un et se morfondre<app><lem>,</lem><rdg wit="#Paris_1692_7_1">:</rdg><rdg wit="#Paris_1689_4_1 #Paris_1690_5_1">;</rdg></app>
+                        qu’il <app><lem>paraisse</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">paroisse</rdg></app> enfin avec une mine grave et une démarche mesurée, 
+                        qu’il écoute un peu et ne reconduise point <app><lem>:</lem><rdg wit="#Paris_1692_7_1">;</rdg><rdg wit="#Paris_1689_4_1 #Paris_1690_5_1">,</rdg></app> quelque subalterne qu’il soit d’ailleurs,
+                        il fera sentir de <app><lem>lui-même</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">luy-même</rdg></app> quelque chose qui approche de la <app><lem>considération</lem><rdg wit="#Paris_1690_5_1">consideration</rdg></app>.
                     </p>
                 </div2>
-                <div2 n="12">
+                <div2 source="#Paris_1699_10_1" n="12">
                     <p> (12) <g ref="#pied_de_mouche"/>
-                        Je vais, Clitiphon, à votre porte ; 
-                        le besoin que j’ai de vous me chasse de mon lit et de ma chambre : 
-                        plût aux Dieux que je ne fusse ni votre client ni votre fâcheux !
-                        Vos esclaves me disent que vous êtes enfermé, et que vous ne pouvez m’écouter que d’une heure entière.
-                        Je reviens avant le temps qu’ils m’ont marqué, et ils me disent que vous êtes sorti.
-                        Que faites-vous, Clitiphon, dans cet endroit le plus reculé de votre appartement,
-                        de si laborieux, qui vous empêche de m’entendre ? Vous enfilez quelques mémoires,
-                        vous collationnez un registre, vous signez, vous parafez. Je n’avais qu’une chose à vous demander,
-                        et vous n’aviez qu’un mot à me répondre, oui, ou non. Voulez-vous être rare ?
-                        Rendez service à ceux qui dépendent de vous : 
-                        vous le serez davantage par cette conduite que par ne vous pas laisser voir.
+                        Je vais<app><lem>,</lem><rdg wit="#Paris_1699_10_1"/></app> Clitiphon<app><lem>,</lem><rdg wit="#Paris_1699_10_1"/></app> à <app><lem>votre</lem><rdg wit="#Paris_1699_10_1">vôtre</rdg></app> porte <app><lem>;</lem><rdg wit="#aris_1699_10_1">,</rdg></app>  
+                        le besoin que <app><lem>j’ai</lem><rdg wit="#Paris_1699_10_1">j'ay</rdg></app> de vous me chasse de mon lit et de ma chambre : 
+                        plût aux Dieux que je ne fusse <app><lem>ni votre client ni votre fâcheux !</lem><rdg wit="#Paris_1699_10_1">ny vôtre client<pb source="#Paris_1699_10_1"/>ny vôtre fâcheaux :</rdg></app> 
+                        <app><lem>Vos</lem><rdg wit="#Paris_1699_10_1">vos</rdg></app>  esclaves me disent que vous <app><lem>êtes</lem><rdg wit="#Paris_1699_10_1">étes</rdg></app> enfermé, et que vous ne pouvez m’écouter que d’une heure <app><lem>entière. Je</lem><rdg wit="#Paris_1699_10_1">entiere : je</rdg></app>
+                        reviens avant le temps qu’ils m’ont marqué, et ils me disent que vous <app><lem>êtes</lem><rdg wit="#Paris_1699_10_1">étes</rdg></app> sorti.
+                        Que faites-vous, Clitiphon, dans cet endroit le plus reculé de <app><lem>votre</lem><rdg wit="#Paris_1699_10_1">vôtre</rdg></app> appartement,
+                        de si laborieux, qui vous empêche de m’entendre ? Vous enfilez quelques <app><lem>mémoires</lem><rdg wit="#Paris_1699_10_1">memoires</rdg></app>,
+                        vous collationnez un registre, vous signez, vous parafez<app><lem>. Je n’avais</lem><rdg wit="#Paris_1699_10_1">; je n'avois</rdg></app> qu’une chose à vous demander,
+                        et vous n’aviez qu’un mot à me répondre, <app><lem>oui,</lem><rdg wit="#Paris_1699_10_1">oüy ,</rdg></app> ou non<app><lem>. Voulez-vous</lem><rdg wit="#Paris_1699_10_1">: voulez-vous</rdg></app> être rare <app><lem>? Rendez</lem><rdg wit="#Paris_1699_10_1">, rendez</rdg></app> service à ceux qui dépendent de vous <app><lem>:</lem><rdg wit="#Paris_1699_10_1">,</rdg></app>
+                        vous le serez davantage par cette conduite que par ne vous pas laisser voir<app><lem>.</lem><rdg wit="#Paris_1699_10_1">:</rdg></app>
                         O homme important et chargé d’affaires, 
-                        qui à votre tour avez besoin de mes offices,
-                        venez dans la solitude de mon cabinet : le philosophe est accessible ; 
-                        je ne vous remettrai point à un autre jour. 
-                        Vous me trouverez sur les livres de Platon qui traitent de la spiritualité de l’âme
-                        et de sa distinction d’avec le corps, ou la plume à la main pour calculer les distances de Saturne et de Jupiter :
-                        j’admire Dieu dans ses ouvrages, et je cherche, par la connaissance de la vérité,
-                        à régler mon esprit et devenir meilleur. Entrez, toutes les portes vous sont ouvertes ;
-                        mon antichambre n’est pas faite pour s’y ennuyer en m’attendant ; 
-                        passez jusqu’à moi sans me faire avertir. 
+                        qui à <app><lem>votre</lem><rdg wit="#Paris_1699_10_1">vôtre</rdg></app> tour avez besoin de mes offices<app><lem>,</lem><rdg wit="#Paris_1699_10_1">!</rdg></app>
+                        venez dans la solitude de mon cabinet <app><lem>: le philosophe est accessible ;</lem><rdg wit="#Paris_1699_10_1">, la Philosophie est accessible ,</rdg></app> 
+                        je ne vous <app><lem>remettrai</lem><rdg wit="#Paris_1699_10_1">remettray</rdg></app> point à un autre jour<app><lem>. Vous</lem><rdg wit="#Paris_1699_10_1">; vous</rdg></app> 
+                        me trouverez sur les <app><lem>livres</lem><rdg wit="#Paris_1699_10_1">Livres</rdg></app> de Platon qui traitent de la spiritualité de <app><lem>l’âme</lem><rdg wit="#Paris_1699_10_1">l'ame</rdg></app>
+                        et de sa distinction d’avec le corps, <app><lem>ou</lem><rdg wit="#Paris_1699_10_1">où</rdg></app> la plume à la main pour calculer les distances de Saturne et de Jupiter <app><lem>:</lem><rdg wit="#Paris_1699_10_1">,</rdg></app>
+                        j’admire Dieu dans ses ouvrages, et je cherche, par la <app><lem>connaissance</lem><rdg wit="#Paris_1699_10_1">connoissance</rdg></app> de la vérité<app><lem>,</lem><rdg wit="#Paris_1699_10_1"/></app>
+                        à régler mon esprit et devenir meilleur<app><lem>. Entrez</lem><rdg wit="#Paris_1699_10_1">; entrez</rdg></app>, toutes les portes vous sont ouvertes <app><lem>;</lem><rdg wit="#Paris_1699_10_1">,</rdg></app>
+                        mon antichambre n’est pas faite pour s’y ennuyer en m’attendant <app><lem>;</lem><rdg wit="#Paris_1699_10_1">,</rdg></app> 
+                        passez jusqu’à <app><lem>moi</lem><rdg wit="#Paris_1699_10_1">moy</rdg></app> sans me faire avertir<app><lem>.</lem><rdg wit="#Paris_1699_10_1">;</rdg></app> 
                         Vous m’apportez quelque chose de plus précieux que l’argent et l’or, 
-                        si c’est une occasion de vous obliger. Parlez, que voulez-vous que je fasse pour vous ? 
-                        Faut-il quitter mes livres, mes études, mon ouvrage, cette ligne qui est commencée ?
-                        Quelle interruption heureuse pour moi que celle qui vous est utile ! 
-                        Le manieur d’argent, l’homme d’affaires est un ours qu’on ne saurait apprivoiser ;
-                        on ne le voit dans sa loge qu’avec peine : que dis-je ? on ne le voit point ;
-                        car d’abord on ne le voit pas encore, et bientôt on le voit plus.
-                        L’homme de lettres au contraire est trivial comme une borne au coin des places ; 
+                        si c’est une occasion de vous obliger<app><lem>. Parlez</lem><rdg wit="#Paris_1699_10_1">; parlez</rdg></app>, que voulez-vous que je fasse pour vous ? 
+                        <app><lem>Faut-il</lem><rdg wit="#Paris_1699_10_1">faut-il</rdg></app> quitter mes livres, mes études, mon ouvrage, cette ligne qui est commencée ?
+                        <app><lem>Quelle</lem><rdg wit="#Paris_1699_10_1">quelle</rdg></app> interruption heureuse pour <app><lem>moi</lem><rdg wit="#Paris_1699_10_1">moy</rdg></app> que celle qui vous est utile ! 
+                        Le manieur d’argent, l’homme d’affaires est un <app><lem>ours</lem><rdg wit="#Paris_1699_10_1">Ours</rdg></app> qu’on ne <app><lem>saurait</lem><rdg wit="#Paris_1699_10_1">sçauroit</rdg></app> apprivoiser <app><lem>;</lem><rdg wit="#Paris_1699_10_1">,</rdg></app>
+                        on ne le voit dans sa loge qu’avec peine<app><lem> :  que dis-je ? on ne le voit point ;</lem><rdg wit="#Paris_1699_10_1">, que dis-je, on ne le voit point, </rdg></app>
+                        car d’abord on ne le voit pas encore, et <app><lem>bientôt</lem><rdg wit="#Paris_1699_10_1">bien-tôt</rdg></app> on le voit plus<app><lem>. L’homme</lem><rdg wit="#Paris_1699_10_1"> : l'homme</rdg></app>
+                        de lettres au contraire est trivial comme une borne au coin des places ; 
                         il est vu de tous, et à toute heure, et en tous états, à table,
-                        au lit, nu, habillé, sain ou malade : il ne peut être important, et il ne le veut point être.
+                        au lit, <app><lem>nu</lem><rdg wit="#Paris_1699_10_1">nud</rdg></app>, habillé, sain ou malade <app><lem>:</lem><rdg wit="#Paris_1699_10_1">;</rdg></app> il ne peut être important, et il ne le veut point être.
                     </p>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="13">
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="13">
                     <p>  (13) <g ref="#pied_de_mouche"/>
-                        N’envions point à une sorte de gens leurs grandes richesses <app><lem>;</lem><rdg wit="#Paris_1689_4_1">,</rdg></app>
+                        N’envions point à une sorte de gens leurs grandes richesses <app><lem>;</lem><rdg wit="#Paris_1689_4_1 #Paris_1690_5_1">,</rdg></app>
                         ils les ont à titre onéreux, et qui ne nous accommoderait point :
-                        ils ont mis leur repos, leur santé<app><lem>,</lem><rdg wit="#Paris_1689_4_1">;</rdg></app> leur honneur et leur conscience pour les avoir ;
+                        ils ont mis leur repos, leur santé<app><lem>,</lem><rdg wit="#Paris_1689_4_1">;</rdg></app> leur honneur<app><pb source="#Paris_1692_7_1"/></app>
+                        et leur conscience pour les avoir ;
                         cela est trop cher, et il n’y a rien à gagner à un tel marché.
                     </p>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="14">
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="14">
                     <p>
                         (14) <g ref="#pied_de_mouche"/>
-                        Les P. T. S. nous font sentir toutes les passions l’une <app><lem>après</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">aprés</rdg></app> l’autre : 
+                        Les P. T. S. nous font sentir toutes les passions l’une <app><lem>après</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">aprés</rdg></app> l’autre : 
                         l’on commence par le mépris, à cause de leur obscurité ;
-                        on les envie ensuite, on les hait, on les craint, on les estime quelquefois,
+                        on les envie <app><lem>ensuite</lem><rdg wit="#Paris_1690_5_1">en-<pb source="#Paris_1690_5_1"/>suite</rdg></app>, on les hait, on les craint, on les estime quelquefois,
                         et on les respecte ; l’on vit assez pour finir à leur égard par la compassion.
                     </p>
+
+                    <app><pb source="#Paris_1689_4_1"></app>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="15">
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="15">
                     <p>  (15) <g ref="#pied_de_mouche"/>
-                        Sosie de livrée a passé par une petite recette à une <app><lem>sous-ferme</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">sousferme</rdg></app> <app><lem>;</lem><rdg wit="#Paris_1689_4_1">,</rdg></app>
+                        Sosie de livrée a passé par une petite recette à une <app><lem>sous-ferme</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">sousferme</rdg></app> <app><lem>;</lem><rdg wit="#Paris_1689_4_1">,</rdg></app>
                         et par les concussions, la violence, et l’abus qu’il a fait de ses pouvoirs, 
                         il s’est enfin, sur les ruines de plusieurs familles, élevé à quelque grade.
                         Devenu noble par une charge, il ne lui manquait que d’être homme de bien :
                         une place de marguillier a fait ce prodige.
                     </p>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="16">
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="16">
                     <p>
-                        (16) <g ref="#pied_de_mouche"/>
+                        (16) <g source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" ref="#pied_de_mouche"/>
                         Arfure <app><lem>cheminait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">cheminoit</rdg></app> seule et à pied vers le grand portique de Saint <app><lem/><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">**</rdg></app><app><lem>,</lem><rdg wit="#Paris_1689_4_1">;</rdg></app>
                         <app><lem>entendait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">entendoit</rdg></app> de loin le <app><lem>sermon</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Sermon</rdg></app> d’un <app><lem>carme</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Carme</rdg></app> ou d’un <app><lem>docteur</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Docteur</rdg></app> qu’elle ne <app><lem>voyait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">voyoit</rdg></app> qu’obliquement,
                         et dont elle <app><lem>perdait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1"></rdg></app> bien des paroles<app><lem>. Sa vertu était</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">; sa vertu étoit</rdg></app> obscure,
-                        et sa dévotion <app><lem>connue</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">connuë</rdg></app> comme sa personne<app><lem>. Son</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1"></rdg></app> mari est entré dans le huitième denier :
+                        et sa dévotion <app><lem>connue</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">connuë</rdg><pb source="#Paris_1689_4_1"></app> comme sa personne<app><lem>. Son</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">: son</rdg></app> mari est<app><pb source="#Paris_1692_7_1"/></app>
+                        entré dans le huitième denier <app><lem>:</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">;</rdg></app>
                         quelle monstrueuse fortune en moins de six années !
-                        Elle n’arrive à l’église que dans un char ; on lui porte une lourde queue ;
-                        l’orateur s’interrompt pendant qu’elle se place ; 
-                        elle le voit de front, n’en perd pas une seule parole ni le moindre geste.
-                        Il y a une brigue entre les prêtres pour la confesser ; tous veulent l’absoudre, et le curé l’emporte.
+                        Elle n’arrive à l’<app><lem>église</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Eglise</rdg></app> que dans un char <app><lem>; on lui</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">, on luy</rdg></app> porte une lourde <app><lem>queue ;</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">queuë ,</rdg></app>
+                        <app><lem>l’orateur</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">l'Orateur</rdg></app> s’interrompt pendant qu’elle se place <app><lem>;</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">,</rdg></app> 
+                        elle le voit de front, n’en perd pas une seule <app><lem>parole</lem><rdg wit="#Paris_1690_5_1">pa-<pb source="#Paris_1690_5_1"/>role</rdg></app> <app><lem>ni</lem><rdg wit="#Paris_1692_7_1">ny</rdg></app> le moindre geste<app><lem>.</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">;</rdg></app>
+                        Il y a une brigue entre les <app><lem>prêtres</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Prêtres</rdg></app> pour la confesser <app><lem>;</lem><rdg wit="#Paris_1692_7_1">,</rdg></app> tous veulent l’absoudre, et le <app><lem>curé</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Curé</rdg></app> l’emporte.
                         
                     </p>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="17">
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="17">
                     <p>   (17) <g ref="#pied_de_mouche"/>
-                        L’on porte Crésus au cimetière : de toutes ses immenses richesses,
-                        que le vol et la concussion lui avaient acquises,
-                        et qu’il a épuisées par le luxe et par la bonne chère,
-                        il ne lui est pas demeuré de quoi se faire enterrer ; 
-                        il est mort insolvable, sans biens, et ainsi privé de tous les secours ;
+                        L’on porte <app><lem>Crésus</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Cresus</rdg></app> au cimetière <note resp="#CP">lieu où on enterre les morts</note> : de toutes ses immenses richesses<app><lem>,</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1"/></app>
+                        que le vol et la concussion <app><lem>lui avaient</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">luy avoient</rdg></app> acquises,
+                        et qu’il a épuisées par le luxe et par la bonne <app><lem>chère</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">chere</rdg></app>,
+                        il ne <app><lem>lui</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">luy</rdg></app> est pas demeuré de <app><lem>quoi</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">quoy</rdg></app> se faire enterrer ; 
+                        il est mort insolvable, sans biens, et ainsi privé de tous les secours <app><lem>;</lem><rdg wit="#Paris_1692_7_1">:</rdg></app>
                         l’on n’a vu chez lui ni julep, ni cordiaux, ni médecins, 
                         ni le moindre docteur qui l’ait assuré de son salut.
                     </p>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="18">
-                    <p>  (18) <g ref="#pied_de_mouche"/>
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="18">
+                    <p>  (18) <g source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" ref="#pied_de_mouche"/>
                         Champagne, au sortir d’un long dîner qui lui enfle l’estomac,
                         et dans les douces fumées d’un vin d’Avenay ou de Sillery,
-                        signe un ordre qu’on lui présente, qui ôterait le pain à toute une province si l’on n’y remédiait.
-                        Il est excusable : quel moyen de comprendre, <seg>dans la première heure de la digestion<note resp="#CP">celle qui est juste après manger !</note></seg>,
+                        signe un ordre qu’on lui présente, qui ôterait le pain à toute une province si l’on n’y <app><lem>remédiait.</lem><rdg wit="#Paris_1689_4_1">reme-<pb source="#Paris_1689_4_1"/>dioit</rdg><rdg wit="#Paris_1692_7_1">remedioit</rdg></app>
+                        Il est excusable : quel moyen de <app><lem>comprendre</lem><rdg wit="#Paris_1692_7_1">com-<pb source="#Paris_1692_7_1"/>prendre</rdg></app>, <seg>dans la première heure de la digestion<note resp="#CP">celle qui est juste après manger !</note></seg>,
                         qu’on puisse quelque part mourir de faim ?
                     </p>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1" n="19">
-                    <p>(19) <g ref="#pied_de_mouche"/>
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1" n="19">
+                    <p>(19) <g source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" ref="#pied_de_mouche"/>
                         Sylvain de ses deniers acquis de la naissance et un autre nom :
-                        il est seigneur de la paroisse où ses aïeuls payaient la taille ;
-                        il n’aurait pu autrefois entrer page chez Cléobule, et il est son gendre.
+                        il est seigneur de la paroisse où ses aïeuls payaient la taille <app><lem>;</lem><rdg wit="#Paris_1690_5_1">:</rdg></app>
+                        il n’aurait pu <app><lem>autrefois</lem><rdg wit="#Paris_1690_5_1">au-<pb source="#Paris_1690_5_1"/>trefois</rdg></app> entrer page chez Cléobule, et il est son gendre.
                     </p>
                 </div2>
-                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1  #Paris_1689_4_1" n="20">
-                    <p>   (20) <g ref="#pied_de_mouche"/>
+                <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="20">
+                    <p>   (20) <g source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" ref="#pied_de_mouche"/><g source="#Paris_1690_5_1" ref="#PDM_parenthese"/>
                         Dorus passe en litière par la voie Appienne,
                         précédé de ses affranchis et de ses esclaves,
                         qui détournent le peuple et font faire place ;
