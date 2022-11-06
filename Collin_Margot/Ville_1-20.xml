@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
     <fileDesc>
         <titleStmt>
@@ -32,74 +32,331 @@
     <text><front><titlePage><docTitle><titlePart>Les</titlePart><titlePart>caractères</titlePart><titlePart>de Theophraste</titlePart><titlePart>traduit du grec.</titlePart><titlePart>avec</titlePart><titlePart>les caractères</titlePart><titlePart>ou</titlePart>les moeurs de ce siecle. <!-- que fait ce bloc de texte ? --> 
         
         <docDate when="1688">MCLXXVIII</docDate>    
+        <docAuthor source="#paris_1688, #paris_1689, #paris_1692"> </docAuthor>
         
     </titlePart></docTitle>
     </titlePage></front>
-        <body><div1><head>de la ville</head>
-            <div2 source="#paris_1688_1"><p>L’on se donne à Paris, sans se parler, comme un rendez-vous public, mais fort exact, tous les soirs au Cours ou aux Tuileries, pour se regarder au visage et se désapprouver les uns les autres.
-        </p><p>L’on ne peut se passer de ce même monde que l’on n’aime point, et dont l’on se moque.
-        L’on s’attend au passage réciproquement dans une promenade publique ; l’on y passe en revue l’un devant l’autre : carrosse, chevaux, livrées, armoiries, rien n’échappe aux yeux, tout est curieusement ou malignement observé ; et selon le plus ou le moins de l’équipage, ou l’on respecte les personnes, ou on les dédaigne.</p></div2>
+        <body>
+        <div1>
+        <head>de la ville</head>
+
+            <div2 n="1" source="#paris_1688 #paris_1689 #paris_1692">
+            <p>
+            <g ref="#fr_pieddemouche"></g>
+            L’on se donne à Paris, sans se parler, comme un rendez-vous public, 
+            mais fort exact, tous les soirs au Cours ou aux Tuileries, pour se regarder
+            au visage et se désapprouver les uns les autres.
+            L’on ne peut se passer de ce même monde que l’on n’aime point, et dont l’on se moque.
+            L’on s’attend au passage réciproquement dans une promenade publique ; l’on y passe en 
+            revue l’un devant l’autre : carrosse, chevaux, livrées, armoiries, rien n’échappe aux yeux, 
+            tout est curieusement ou malignement observé ; et selon le plus ou le moins de l’équipage, 
+            ou l’on respecte les personnes, ou on les dédaigne.
+        </p>
+
+        <app> 
+        <lem wit="#p1">general</lem>
+        <rdg wit="#p3">public</rdg>
+        </app>
+
+        <app>
+        <lem wit="#p1">mefme</lem>
+        <rdg wit="#p3">même</rdg>
+        </app>
+
+        </div2>
         
-       <div2>(2)
-           Tout le monde connaît cette longue levée qui borne et qui resserre le lit de la Seine, du côté où elle entre à Paris avec la Marne, qu’elle vient de recevoir : les hommes s’y baignent au pied pendant les chaleurs de la canicule ; on les voit de fort près se jeter dans l’eau ; on les en voit sortir : c’est un amusement. Quand cette saison n’est pas venue, les femmes de la ville ne s’y promènent pas encore ; et quand elle est passée, elles ne s’y promènent plus.</div2>
+       <div2 n="2" source="#paris_1692" >
+       <p> 
+       <g ref="#fr_pieddemouche"></g>
+           Tout le monde connaît cette longue levée qui borne et qui resserre le lit de la Seine, 
+           du côté où elle entre à Paris avec la Marne, qu’elle vient de recevoir : les hommes 
+           s’y baignent au pied pendant les chaleurs de la canicule ; on les voit de fort près 
+           se jeter dans l’eau ; on les en voit sortir : c’est un amusement. Quand cette saison 
+           n’est pas venue, les femmes de la ville ne s’y promènent pas encore ; et quand elle 
+           est passée, elles ne s’y promènent plus.
+           </p>
+           </div2>
         
-        <div2>(3)
-            Dans ces lieux d’un concours général, où les femmes se rassemblent pour montrer une belle étoffe, et pour recueillir le fruit de leur toilette, on ne se promène pas avec une compagne par la nécessité de la conversation ; on se joint ensemble pour, se rassurer sur le théâtre, s’apprivoiser avec le public, et se raffermir contre la critique : c’est là précisément qu’on se parle sans se rien dire, ou plutôt qu’on parle pour les passants, pour ceux même en faveur de qui l’on hausse sa voix, l’on gesticule et l’on badine, l’on penche négligemment la tête, l’on passe et l’on repasse.</div2>
+        <div2 n="3" source="#paris_1692">
+            <p>
+            <g ref="#fr_pieddemouche"></g>
+            Dans ces lieux d’un concours général, où les femmes se rassemblent pour montrer 
+            une belle étoffe, et pour recueillir le fruit de leur toilette, on ne se promène 
+            pas avec une compagne par la nécessité de la conversation ; on se joint ensemble 
+            pour, se rassurer sur le théâtre, s’apprivoiser avec le public, et se raffermir contre
+             la critique : c’est là précisément qu’on se parle sans se rien dire, ou plutôt qu’on 
+             parle pour les passants, pour ceux même en faveur de qui l’on hausse sa voix, l’on 
+             gesticule et l’on badine, l’on penche négligemment la tête, l’on passe et l’on repasse.
+            </p>
+            </div2>
         
-        (4)
-        La ville est partagée en diverses sociétés, qui sont comme autant de petites républiques, qui ont leurs lois, leurs usages, leur jargon, et leurs mots pour rire. Tant que cet assemblage est dans sa force, et que l’entêtement subsiste, l’on ne trouve rien de bien dit ou de bien fait que ce qui part des siens, et l’on est incapable de goûter ce qui vient d’ailleurs : cela va jusques au mépris pour les gens qui ne sont pas initiés dans leurs mystères. L’homme du monde d’un meilleur esprit, que le hasard a porté au milieu d’eux, leur est étranger : il se trouve là comme dans un pays lointain, dont il ne connaît ni les routes, ni la langue ni les mœurs, ni la coutume ; il voit un peuple qui cause, bourdonne, parle à l’oreille, éclate de rire, et qui retombe ensuite dans un morne silence ; il y perd son maintien, ne trouve pas où placer un seul mot, et n’a pas même de quoi écouter. Il ne manque jamais là un mauvais plaisant qui domine, et qui est comme le héros de la société : celui-ci s’est chargé de la joie des autres, et fait toujours rire avant que d’avoir parlé. Si quelquefois une femme survient qui n’est point de leurs plaisirs, la bande joyeuse ne peut comprendre qu’elle ne sache point rire des choses qu’elle n’entend point, et paraisse insensible à des fadaises qu’ils n’entendent eux-mêmes que parce qu’ils les ont faites : ils ne lui pardonnent ni son ton de voix, ni son silence, ni sa taille, ni son visage, ni son habillement, ni son entrée, ni la manière dont elle est sortie. Deux années cependant ne passent point sur une même coterie : il y a toujours, dès la première année, des semences de division pour rompre dans celle qui doit suivre ; l’intérêt de la beauté, les incidents du jeu, l’extravagance des repas, qui, modestes au commencement, dégénèrent bientôt en pyramides de viandes et en banquets somptueux, dérangent la république, et lui portent enfin le coup mortel : il n’est en fort peu de temps non plus parlé de cette nation que des mouches de l’année passée.
-        
-        (5)
-        Il y a dans la ville la grande et la petite robe ; et la première se venge sur l’autre des dédains de la cour, et des petites humiliations qu’elle y essuie. De savoir quelles sont leurs limites, où la grande finit, et où la petite commence, ce n’est pas une chose facile. Il se trouve même un corps considérable qui refuse d’être du second ordre, et à qui l’on conteste le premier : il ne se rend pas néanmoins, il cherche au contraire, par la gravité et par la dépense, à s’égaler à la magistrature, ou ne lui cède qu’avec peine : on l’entend dire que la noblesse de son emploi, l’indépendance de sa profession, le talent de la parole et le mérite personnel balancent au moins les sacs de mille francs que le fils du partisan ou du banquier a su payer pour son office.
-        
-        (6)
-        Vous moquez-vous de rêver en carrosse, ou peut-être de vous y reposer ? Vite, prenez votre livre ou vos papiers, lisez, ne saluez qu’à peine ces gens qui passent dans leur équipage ; ils vous en croiront plus occupé ; ils diront : "Cet homme est laborieux, infatigable ; il lit, il travaille jusque dans les rues ou sur la route." Apprenez du moindre avocat qu’il faut paraître accablé d’affaires, froncer le sourcil, et rêver à rien très profondément ; savoir à propos perdre le boire et le manger ; ne faire qu’apparoir dans sa maison, s’évanouir et se perdre comme un fantôme dans le sombre de son cabinet ; se cacher au public, éviter le théâtre, le laisser à ceux qui ne courent aucun risque à s’y montrer, qui en ont à peine le loisir, aux Gomons, aux Duhamels.
-        
-        (7)
-        Il y a un certain nombre de jeunes magistrats que les grands biens et les plaisirs ont associés à quelques-uns de ceux qu’on nomme à la cour de petits-maîtres : ils les imitent, ils se tiennent fort au-dessus de la gravité de la robe, et se croient dispensés par leur âge et par leur fortune d’être sages et modérés. Ils prennent de la cour ce qu’elle a de pire : ils s’approprient la vanité, la mollesse, l’intempérance, le libertinage, comme si tous ces vices leur étaient dus, et, affectant ainsi un caractère éloigné de celui qu’ils ont à soutenir, ils deviennent enfin, selon leurs souhaits, des copies fidèles de très méchants originaux.
-        
-        (8)
-        Un homme de robe à la ville, et le même à la cour, ce sont deux hommes. Revenu chez soi, il reprend ses mœurs, sa taille et son visage, qu’il y avait laissés : il n’est plus ni si embarrassé, ni si honnête.
-        
-        (9)
-        Les Crispins se cotisent et rassemblent dans leur famille jusques à six chevaux pour allonger un équipage, qui, avec un essaim de gens de livrées, où ils ont fourni chacun leur part, les fait triompher au Cours ou à Vincennes, et aller de pair avec les nouvelles mariées, avec Jason, qui se ruine, et avec Thrason, qui veut se marier, et qui a consigné.
-        
-        (10)
-        J’entends dire des Sannions : "Même nom, mêmes armes ; la branche aînée, la branche cadette, les cadets de la seconde branche ; ceux-là, portent les armes pleines, ceux-ci brisent d’un lambel, et les autres d’une bordure dentelée." Ils ont avec les Bourbons, sur une même couleur, un même métal ; ils portent, comme eux, deux et une : ce ne sont pas des fleurs de lis, mais ils s’en consolent ; peut-être dans leur cœur trouvent-ils leurs pièces aussi honorables, et ils les ont communes avec de grands seigneurs qui en sont contents : on les voit sur les litres et sur les vitrages, sur la porte de leur château, sur le pilier de leur haute-justice, où ils viennent de faire pendre un homme qui méritait le bannissement ; elles s’offrent aux yeux de toutes parts, elles sont sur les meubles et sur les serrures, elles sont semées sur les carrosses ; leurs livrées ne déshonorent point leurs armoiries. Je dirais volontiers aux Sannions : "Votre folie est prématurée ; attendez du moins que le siècle s’achève sur votre race ; ceux qui ont vu votre grand-père, qui lui ont parlé, sont vieux, et ne sauraient plus vivre longtemps. Qui pourra dire comme eux : "Là il étalait, et vendait très cher" ?
-        Les Sannions et les Crispins veulent encore davantage que l’on dise d’eux qu’ils font une grande dépense, qu’ils n’aiment à la faire. Ils font un récit long et ennuyeux d’une fête ou d’un repas qu’ils ont donné ; ils disent l’argent qu’ils ont perdu au jeu, et ils plaignent fort haut celui qu’ils n’ont pas songé à perdre. Ils parlent jargon et mystère sur de certaines femmes ; ils ont réciproquement cent choses plaisantes à se conter ; ils ont fait depuis peu des découvertes ; ils se passent les uns aux autres qu’ils sont gens à belles aventures. L’un d’eux, qui s’est couché tard à la campagne, et qui voudrait dormir, se lève matin, chausse des guêtres, endosse un habit de toile, passe un cordon où pend le fourniment, renoue ses cheveux, prend un fusil : le voilà chasseur, s’il tirait bien. Il revient de nuit, mouillé et recru, sans avoir tué. Il retourne à la chasse le lendemain, et il passe tout le jour à manquer des grives ou des perdrix.
-        Un autre, avec quelques mauvais chiens, aurait envie de dire : Ma meute. Il sait un rendez-vous de chasse, il s’y trouve ; il est au laisser-courre ; il entre dans le fort, se mêle avec les piqueurs ; il a un cor. Il ne dit pas, comme Ménalippe : Ai-je du plaisir ? Il croit en avoir. Il oublie lois et procédure : c’est un Hippolyte. Ménandre, qui le vit hier sur un procès qui est en ses mains, ne reconnaîtrait pas aujourd’hui son rapporteur. Le voyez-vous le lendemain à sa chambre, où l’on va juger une cause grave et capitale ? il se fait entourer de ses confrères, il leur raconte comme il n’a point perdu le cerf de meute, comme il s’est étouffé de crier après les chiens qui étaient en défaut, ou après ceux des chasseurs qui prenaient le change, qu’il a vu donner les six chiens. L’heure presse ; il achève de leur parler des abois et de la curée, et il court s’asseoir avec les autres pour juger.
-        
-        (11)
-        Quel est l’égarement de certains particuliers, qui riches, du négoce de leurs pères, dont ils viennent de recueillir la succession, se moulent sur les princes pour leur garde-robe et pour leur équipage, excitent, par une dépense excessive et par un faste ridicule ; les traits et la raillerie de toute une ville, qu’ils croient éblouir, et se ruinent ainsi à se faire moquer de soi !
-        Quelques-uns n’ont pas même le triste avantage de répandre leurs folies plus loin que le quartier où ils habitent : c’est le seul théâtre de leur vanité. L’on ne sait point dans l’Ile qu’André brille au Marais, et qu’il y dissipe son patrimoine : du moins, s’il était connu dans toute la ville et dans ses faubourgs, il serait difficile qu’entre un si grand nombre de citoyens qui ne savent pas tous juger sainement de toutes choses, il ne s’en trouvât quelqu’un qui dirait de lui : Il est magnifique, et qui lui tiendrait compte des régals qu’il fait à Xanthe et à Ariston, et des fêtes qu’il donne à Elamire ; mais il se ruine obscurément : ce n’est qu’en faveur de deux ou trois personnes qui ne l’estiment point, qu’il court à l’indigence, et qu’aujourd’hui en carrosse, il n’aura pas dans six mois le moyen d’aller à pied.
-        
-        (12)
-        Narcisse se lève le matin pour se coucher le soir ; il a ses heures de toilette comme une femme ; il va tous les jours fort régulièrement à la belle messe aux Feuillants ou aux Minimes ; il est homme d’un bon commerce, et l’on compte sur lui au quartier de pour un tiers ou pour un cinquième à l’hombre ou au reversi. Là il tient le fauteuil quatre heures de suite chez Aricie, où il risque chaque soir cinq pistoles d’or. Il lit exactement la Gazette de Hollande et le Mercure galant ; il a lu Bergerac, des Marets, Lesclache, les Historiettes de Barbin, et quelques recueils de poésies. Il se promène avec des femmes à la Plaine ou au Cours, et il est d’une ponctualité religieuse sur les visites. Il fera demain ce qu’il fait aujourd’hui et ce qu’il fit hier ; et il meurt ainsi après avoir vécu.
-        
-        (13)
-        Voilà un homme, dites-vous, que j’ai vu quelque part : de savoir où, il est difficile ; mais son visage m’est familier.- Il l’est à bien d’autres ; et je vais, s’il se peut, aider votre mémoire. Est-ce au boulevard sur un strapontin, ou aux Tuileries dans la grande allée, ou dans le balcon à la comédie ? Est-ce au sermon, au bal, à Rambouillet ? Où pourriez-vous ne l’avoir point vu ? où n’est-il point ? S’il y a dans la place une fameuse exécution, ou un feu de joie, il paraît à une fenêtre de l’Hôtel de ville ; si l’on attend une magnifique entrée, il a sa place sur un échafaud ; s’il se fait un carrousel, le voilà entré, et placé sur l’amphithéâtre ; si le Roi reçoit des ambassadeurs, il voit leur marche, il assiste à leur audience, il est en haie quand ils reviennent de leur audience. Sa présence est aussi essentielle aux serments des ligues suisses que celle du chancelier et des ligues mêmes. C’est son visage que l’on voit aux almanachs représenter le peuple ou l’assistance. Il y a une chasse publique, une Saint-Hubert, le voilà à cheval ; on parle d’un camp et d’une revue, il est à Ouilles, il est à Achères. Il aime les troupes, la milice, la guerre ; il la voit de près, et jusques au fort de Bernardi. Chanley sait les marches, Jacquier les vivres, Du Metz l’artillerie : celui-ci voit, il a vieilli sous le harnois en voyant, il est spectateur de profession ; il ne fait rien de ce qu’un homme doit faire, il ne sait rien de ce qu’il doit savoir ; mais il a vu, dit-il, tout ce qu’on peut voir, et il n’aura point regret de mourir. Quelle perte alors pour toute la ville ! Qui dira après lui : "Le Cours est fermé, on ne s’y promène point ; le bourbier de Vincennes est desséché et relevé, on n’y versera plus" ? Qui annoncera un concert, un beau salut, un prestige de la Foire ? Qui vous avertira que Beaumavielle mourut hier ; que Rochois est enrhumée, et ne chantera de huit jours ? Qui connaîtra comme lui un bourgeois à ses armes et à ses livrées ? Qui dira : "Scapin porte des fleurs de lis", et qui en sera plus édifié ? Qui prononcera avec plus de vanité et d’emphase le nom d’une simple bourgeoise ? Qui sera mieux fourni de vaudevilles ? Qui prêtera aux femmes les Annales galantes et le Journal amoureux ? Qui saura comme lui chanter à table tout un dialogue de l’Opéra, et les fureurs de Roland dans une ruelle ? Enfin, puisqu’il y a à la ville comme ailleurs de fort sottes gens, des gens fades, oisifs, désoccupés, qui pourra aussi parfaitement leur convenir ?
-        
-        (14)
-        Théramène était riche et avait du mérite ; il a hérité, il est donc très riche et d’un très grand mérite. Voilà toutes les femmes en campagne pour l’avoir pour galant, et toutes les filles pour épouseur. Il va de maisons en maisons faire espérer aux mères qu’il épousera. Est-il assis, elles se retirent, pour laisser à leurs filles toute la liberté d’être aimables, et à Théramène de faire ses déclarations. Il tient ici contre le mortier ; là il efface le cavalier ou le gentilhomme. Un jeune homme fleuri, vif, enjoué, spirituel n’est pas souhaité plus ardemment ni mieux reçu ; on se l’arrache des mains, on a à peine le loisir de sourire à qui se trouve avec lui dans une même visite. Combien de galants va-t-il mettre en déroute ! quels bons partis ne fera-t-il point manquer ? Pourra-t-il suffire à tant d’héritières qui le recherchent ? Ce n’est pas seulement la terreur des maris, c’est l’épouvantail de tous ceux qui ont envie de l’être, et qui attendent d’un mariage à remplir le vide de leur consignation. On devrait proscrire de tels personnages si heureux, si pécunieux, d’une ville bien policée, ou condamner le sexe, sous peine de folie ou d’indignité, à ne les traiter pas mieux que s’ils n’avaient que du mérite.
-        
-        (15)
-        Paris, pour l’ordinaire le singe de la cour, ne sait pas toujours la contrefaire ; il ne l’imite en aucune manière dans ces dehors agréables et caressants que quelques courtisans, et surtout les femmes, y ont naturellement pour un homme de mérite, et qui n’a même que du mérite : elles ne s’informent ni de ses contrats ni de ses ancêtres ; elles le trouvent à la cour, cela leur suffit ; elles le souffrent, elles l’estiment ; elles ne demandent pas s’il est venu en chaise ou à pied, s’il a une charge, une terre ou un équipage : comme elles regorgent de train, de splendeur et de dignités, elles se délassent volontiers avec la philosophie ou la vertu. Une femme de ville entend-elle le bruissement d’un carrosse qui s’arrête à sa porte, elle pétille de goût et de complaisance pour quiconque est dedans, sans le connaître ; mais si elle a vu de sa fenêtre un bel attelage, beaucoup de livrées, et que plusieurs rangs de clous parfaitement dorés l’aient éblouie, quelle impatience n’a-t-elle pas de voir déjà dans sa chambre le cavalier ou le magistrat ! quelle charmante réception ne lui fera-t-elle point ! ôtera-t-elle les yeux de dessus lui ? Il ne perd rien auprès d’elle : on lui tient compte des doubles soupentes et des ressorts qui le font rouler plus mollement ; elle l’en estime davantage, elle l’en aime mieux.
-        
-        (16)
-        Cette fatuité de quelques femmes de la ville, qui cause en elles une mauvaise imitation de celles de la cour, est quelque chose de pire que la grossièreté des femmes du peuple, et que la rusticité des villageoises : elle a sur toutes deux l’affectation de plus.
-        
-        (17)
-        La subtile invention, de faire de magnifiques présents de noces qui ne coûtent rien, et qui doivent être rendus en espèce !
-        
-        (18)
-        L’utile et la louable pratique, de perdre en frais de noces le tiers de la dot qu’une femme apporte ! de commencer par s’appauvrir de concert par l’amas et l’entassement de choses superflues, et de prendre déjà sur son fonds de quoi payer Gaultier, les meubles et la toilette !
-        
-        (19)
-        Le bel et le judicieux usage que celui qui, préférant une sorte d’effronterie aux bienséances et à la pudeur, expose une femme d’une seule nuit sur un lit comme sur un théâtre, pour y faire pendant quelques jours un ridicule personnage, et la livre en cet état à la curiosité des gens de l’un et de l’autre sexe, qui, connus ou inconnus, accourent de toute une ville à ce spectacle pendant qu’il dure ! Que manque-t-il à une telle coutume, pour être entièrement bizarre et incompréhensible, que d’être lue dans quelque relation de la Mingrélie ?
-        
-        (20)
-        Pénible coutume, asservissement incommode ! se chercher incessamment les unes les autres avec l’impatience de ne se point rencontrer ; ne se rencontrer que pour se dire des riens, que pour s’apprendre réciproquement des choses dont on est également instruite, et dont il importe peu que l’on soit instruite ; n’entrer dans une chambre précisément que pour en sortir ; ne sortir de chez soi l’après-dînée que pour y rentrer le soir, fort satisfaite d’avoir vu en cinq petites heures trois suisses, une femme que l’on connaît à peine, et une autre que l’on n’aime guère ! Qui considérerait bien le prix du temps, et combien sa perte est irréparable, pleurerait amèrement sur de si grandes misères.</p></div1></body></text>
-    
+        <div2 n="4" source="#paris_1688 #paris_1689 #paris_1692">
+        <p>
+        <g ref="#fr_pieddemouche"></g>
+        La ville est partagée en diverses sociétés, qui sont comme autant de petites républiques, 
+        qui ont leurs lois, leurs usages, leur jargon, et leurs mots pour rire. Tant que cet assemblage
+        est dans sa force, et que l’entêtement subsiste, l’on ne trouve rien de bien dit ou de bien 
+        fait que ce qui part des siens, et l’on est incapable de goûter ce qui vient d’ailleurs : 
+        cela va jusques au mépris pour les gens qui ne sont pas initiés dans leurs mystères. L’homme
+        du monde d’un meilleur esprit, que le hasard a porté au milieu d’eux, leur est étranger : 
+        il se trouve là comme dans un pays lointain, dont il ne connaît ni les routes, ni la langue 
+        ni les mœurs, ni la coutume ; il voit un peuple qui cause, bourdonne, parle à l’oreille, 
+        éclate de rire, et qui retombe ensuite dans un morne silence ; il y perd son maintien, 
+        ne trouve pas où placer un seul mot, et n’a pas même de quoi écouter. Il ne manque jamais 
+        là un mauvais plaisant qui domine, et qui est comme le héros de la société : celui-ci s’est 
+        chargé de la joie des autres, et fait toujours rire avant que d’avoir parlé. Si quelquefois
+         une femme survient qui n’est point de leurs plaisirs, la bande joyeuse ne peut comprendre 
+        qu’elle ne sache point rire des choses qu’elle n’entend point, et paraisse insensible à des
+        fadaises qu’ils n’entendent eux-mêmes que parce qu’ils les ont faites : ils ne lui pardonnent
+        ni son ton de voix, ni son silence, ni sa taille, ni son visage, ni son habillement, ni son
+        entrée, ni la manière dont elle est sortie. Deux années cependant ne passent point sur une
+        même coterie : il y a toujours, dès la première année, des semences de division pour rompre
+        dans celle qui doit suivre ; l’intérêt de la beauté, les incidents du jeu, l’extravagance 
+        des repas, qui, modestes au commencement, dégénèrent bientôt en pyramides de viandes et en
+        banquets somptueux, dérangent la république, et lui portent enfin le coup mortel : il 
+        n’est en fort peu de temps non plus parlé de cette nation que des mouches de l’année passée.
+        </p>
+        </div2>
+
+        <div2 n="5" source="#paris_1689 #paris_1692">
+        <p>
+        <g ref="#fr_pieddemouche"></g>
+        Il y a dans la ville la grande et la petite robe ; et la première se venge sur l’autre
+        des dédains de la cour, et des petites humiliations qu’elle y essuie. De savoir quelles
+        sont leurs limites, où la grande finit, et où la petite commence, ce n’est pas une 
+        chose facile. Il se trouve même un corps considérable qui refuse d’être du second 
+        ordre, et à qui l’on conteste le premier : il ne se rend pas néanmoins, il cherche
+        au contraire, par la gravité et par la dépense, à s’égaler à la magistrature, ou ne
+        lui cède qu’avec peine : on l’entend dire que la noblesse de son emploi, l’indépendance
+        de sa profession, le talent de la parole et le mérite personnel balancent au moins 
+        les sacs de mille francs que le fils du partisan ou du banquier a su payer pour son office.
+        </p>
+        </div2>
+
+        <div2 n="6" source="#paris_1692">
+        <p>
+        <g ref="#fr_pieddemouche"></g>
+        Vous moquez-vous de rêver en carrosse, ou peut-être de vous y reposer ? Vite, prenez votre
+        livre ou vos papiers, lisez, ne saluez qu’à peine ces gens qui passent dans leur équipage ;
+        ils vous en croiront plus occupé ; ils diront : "Cet homme est laborieux, infatigable ; il
+        lit, il travaille jusque dans les rues ou sur la route." Apprenez du moindre avocat qu’il
+        faut paraître accablé d’affaires, froncer le sourcil, et rêver à rien très profondément ; 
+        savoir à propos perdre le boire et le manger ; ne faire qu’apparoir dans sa maison, 
+        s’évanouir et se perdre comme un fantôme dans le sombre de son cabinet ; se cacher au
+        public, éviter le théâtre, le laisser à ceux qui ne courent aucun risque à s’y montrer, 
+        qui en ont à peine le loisir, aux Gomons, aux Duhamels.
+        </p>
+        </div2>
+
+        <div2 n="7" source="#paris_1692">
+        <p>
+        <g ref="#fr_pieddemouche"></g>
+        Il y a un certain nombre de jeunes magistrats que les grands biens et les plaisirs ont
+        associés à quelques-uns de ceux qu’on nomme à la cour de petits-maîtres : ils les imitent, 
+        ils se tiennent fort au-dessus de la gravité de la robe, et se croient dispensés par leur 
+        âge et par leur fortune d’être sages et modérés. Ils prennent de la cour ce qu’elle a de 
+        pire : ils s’approprient la vanité, la mollesse, l’intempérance, le libertinage, comme si
+        tous ces vices leur étaient dus, et, affectant ainsi un caractère éloigné de celui qu’ils
+        ont à soutenir, ils deviennent enfin, selon leurs souhaits, des copies fidèles de très méchants originaux.
+        </p>
+        </div2>
+
+        <div2 n="8" source="#paris_1692">
+        <p>
+        <g ref="#fr_pieddemouche"></g>
+        Un homme de robe à la ville, et le même à la cour, ce sont deux hommes. Revenu chez soi, 
+        il reprend ses mœurs, sa taille et son visage, qu’il y avait laissés : il n’est plus ni 
+        si embarrassé, ni si honnête.
+        </p>
+        </div2>
+
+        <div2 n="9" source="#paris_1692">
+        <p>
+        <g ref="#fr_pieddemouche"></g>
+        Les Crispins se cotisent et rassemblent dans leur famille jusques à six chevaux pour allonger
+        un équipage, qui, avec un essaim de gens de livrées, où ils ont fourni chacun leur part, les
+        fait triompher au Cours ou à Vincennes, et aller de pair avec les nouvelles mariées, avec 
+        Jason, qui se ruine, et avec Thrason, qui veut se marier, et qui a consigné.
+        </p>
+        </div2>
+
+        <div2 n="10" source="#paris_1692">
+        <p>
+        <g ref="#fr_pieddemouche"></g>
+        J’entends dire des Sannions : "Même nom, mêmes armes ; la branche aînée, la branche cadette, 
+        les cadets de la seconde branche ; ceux-là, portent les armes pleines, ceux-ci brisent d’un 
+        lambel, et les autres d’une bordure dentelée." Ils ont avec les Bourbons, sur une même couleur, 
+        un même métal ; ils portent, comme eux, deux et une : ce ne sont pas des fleurs de lis, mais ils
+        s’en consolent ; peut-être dans leur cœur trouvent-ils leurs pièces aussi honorables, et ils 
+        les ont communes avec de grands seigneurs qui en sont contents : on les voit sur les litres 
+        et sur les vitrages, sur la porte de leur château, sur le pilier de leur haute-justice, où 
+        ils viennent de faire pendre un homme qui méritait le bannissement ; elles s’offrent aux 
+        yeux de toutes parts, elles sont sur les meubles et sur les serrures, elles sont semées 
+        sur les carrosses ; leurs livrées ne déshonorent point leurs armoiries. Je dirais 
+        volontiers aux Sannions : "Votre folie est prématurée ; attendez du moins que le siècle
+        s’achève sur votre race ; ceux qui ont vu votre grand-père, qui lui ont parlé, sont vieux,
+        et ne sauraient plus vivre longtemps. Qui pourra dire comme eux : "Là il étalait, et vendait très cher" ?
+        Les Sannions et les Crispins veulent encore davantage que l’on dise d’eux qu’ils font une grande dépense, 
+        qu’ils n’aiment à la faire. Ils font un récit long et ennuyeux d’une fête ou d’un repas qu’ils ont donné ; 
+        ils disent l’argent qu’ils ont perdu au jeu, et ils plaignent fort haut celui qu’ils n’ont pas songé à perdre. 
+        Ils parlent jargon et mystère sur de certaines femmes ; ils ont réciproquement cent choses plaisantes à se 
+        conter ; ils ont fait depuis peu des découvertes ; ils se passent les uns aux autres qu’ils sont gens à belles
+        aventures. L’un d’eux, qui s’est couché tard à la campagne, et qui voudrait dormir, se lève matin, chausse des
+        guêtres, endosse un habit de toile, passe un cordon où pend le fourniment, renoue ses cheveux, prend un fusil :
+        le voilà chasseur, s’il tirait bien. Il revient de nuit, mouillé et recru, sans avoir tué. Il retourne à la 
+        chasse le lendemain, et il passe tout le jour à manquer des grives ou des perdrix.
+        Un autre, avec quelques mauvais chiens, aurait envie de dire : Ma meute. Il sait un rendez-vous 
+        de chasse, il s’y trouve ; il est au laisser-courre ; il entre dans le fort, se mêle avec les piqueurs ;
+        il a un cor. Il ne dit pas, comme Ménalippe : Ai-je du plaisir ? Il croit en avoir. Il oublie lois et 
+        procédure : c’est un Hippolyte. Ménandre, qui le vit hier sur un procès qui est en ses mains, ne reconnaîtrait 
+        pas aujourd’hui son rapporteur. Le voyez-vous le lendemain à sa chambre, où l’on va juger une cause grave et 
+        capitale ? il se fait entourer de ses confrères, il leur raconte comme il n’a point perdu le cerf de meute, 
+        comme il s’est étouffé de crier après les chiens qui étaient en défaut, ou après ceux des chasseurs qui 
+        prenaient le change, qu’il a vu donner les six chiens. L’heure presse ; il achève de leur parler des abois 
+        et de la curée, et il court s’asseoir avec les autres pour juger.
+        </p>
+        </div2>
+
+        <div2 n="11" source="#paris_1692">
+        <p>
+        Quel est l’égarement de certains particuliers, qui riches, du négoce de leurs pères, dont ils viennent 
+        de recueillir la succession, se moulent sur les princes pour leur garde-robe et pour leur équipage, excitent,
+        par une dépense excessive et par un faste ridicule ; les traits et la raillerie de toute une ville, qu’ils 
+        croient éblouir, et se ruinent ainsi à se faire moquer de soi !
+        Quelques-uns n’ont pas même le triste avantage de répandre leurs folies plus loin que le quartier où ils 
+        habitent : c’est le seul théâtre de leur vanité. L’on ne sait point dans l’Ile qu’André brille au Marais, 
+        et qu’il y dissipe son patrimoine : du moins, s’il était connu dans toute la ville et dans ses faubourgs, 
+        il serait difficile qu’entre un si grand nombre de citoyens qui ne savent pas tous juger sainement de toutes 
+        choses, il ne s’en trouvât quelqu’un qui dirait de lui : Il est magnifique, et qui lui tiendrait compte des 
+        régals qu’il fait à Xanthe et à Ariston, et des fêtes qu’il donne à Elamire ; mais il se ruine obscurément : 
+        ce n’est qu’en faveur de deux ou trois personnes qui ne l’estiment point, qu’il court à l’indigence, et qu’aujourd’hui
+        en carrosse, il n’aura pas dans six mois le moyen d’aller à pied.
+        </p>
+        </div2>
+
+        <div2 n="12" source="#paris_1688 #paris_1689 #paris_1692">
+        <p>
+        Narcisse se lève le matin pour se coucher le soir ; il a ses heures de toilette comme une femme ; il va 
+        tous les jours fort régulièrement à la belle messe aux Feuillants ou aux Minimes ; il est homme d’un bon 
+        commerce, et l’on compte sur lui au quartier de pour un tiers ou pour un cinquième à l’hombre ou au reversi. 
+        Là il tient le fauteuil quatre heures de suite chez Aricie, où il risque chaque soir cinq pistoles d’or. 
+        Il lit exactement la Gazette de Hollande et le Mercure galant ; il a lu Bergerac, des Marets, Lesclache, 
+        les Historiettes de Barbin, et quelques recueils de poésies. Il se promène avec des femmes à la Plaine 
+        ou au Cours, et il est d’une ponctualité religieuse sur les visites. Il fera demain ce qu’il fait 
+        aujourd’hui et ce qu’il fit hier ; et il meurt ainsi après avoir vécu.
+        </p>
+        </div2>
+
+        <div2 n="13" source="#paris_1692">
+        <p>
+        Voilà un homme, dites-vous, que j’ai vu quelque part : de savoir où, il est difficile ; mais son 
+        visage m’est familier.- Il l’est à bien d’autres ; et je vais, s’il se peut, aider votre mémoire. 
+        Est-ce au boulevard sur un strapontin, ou aux Tuileries dans la grande allée, ou dans le balcon 
+        à la comédie ? Est-ce au sermon, au bal, à Rambouillet ? Où pourriez-vous ne l’avoir point vu ? 
+        où n’est-il point ? S’il y a dans la place une fameuse exécution, ou un feu de joie, il paraît à 
+        une fenêtre de l’Hôtel de ville ; si l’on attend une magnifique entrée, il a sa place sur un 
+        échafaud ; s’il se fait un carrousel, le voilà entré, et placé sur l’amphithéâtre ; si le Roi 
+        reçoit des ambassadeurs, il voit leur marche, il assiste à leur audience, il est en haie quand 
+        ils reviennent de leur audience. Sa présence est aussi essentielle aux serments des ligues suisses
+        que celle du chancelier et des ligues mêmes. C’est son visage que l’on voit aux almanachs représenter
+        le peuple ou l’assistance. Il y a une chasse publique, une Saint-Hubert, le voilà à cheval ; on parle
+        d’un camp et d’une revue, il est à Ouilles, il est à Achères. Il aime les troupes, la milice, la guerre ; 
+        il la voit de près, et jusques au fort de Bernardi. Chanley sait les marches, Jacquier les vivres, Du Metz
+        l’artillerie : celui-ci voit, il a vieilli sous le harnois en voyant, il est spectateur de profession ; il 
+        ne fait rien de ce qu’un homme doit faire, il ne sait rien de ce qu’il doit savoir ; mais il a vu, dit-il, 
+        tout ce qu’on peut voir, et il n’aura point regret de mourir. Quelle perte alors pour toute la ville ! 
+        Qui dira après lui : "Le Cours est fermé, on ne s’y promène point ; le bourbier de Vincennes est desséché 
+        et relevé, on n’y versera plus" ? Qui annoncera un concert, un beau salut, un prestige de la Foire ? Qui 
+        vous avertira que Beaumavielle mourut hier ; que Rochois est enrhumée, et ne chantera de huit jours ? 
+        Qui connaîtra comme lui un bourgeois à ses armes et à ses livrées ? Qui dira : "Scapin porte des fleurs 
+        de lis", et qui en sera plus édifié ? Qui prononcera avec plus de vanité et d’emphase le nom d’une 
+        simple bourgeoise ? Qui sera mieux fourni de vaudevilles ? Qui prêtera aux femmes les Annales galantes 
+        et le Journal amoureux ? Qui saura comme lui chanter à table tout un dialogue de l’Opéra, et les fureurs 
+        de Roland dans une ruelle ? Enfin, puisqu’il y a à la ville comme ailleurs de fort sottes gens, des gens 
+        fades, oisifs, désoccupés, qui pourra aussi parfaitement leur convenir ?
+        </p>
+        </div2>
+
+        <div2 n="14" source="#paris_1692">
+        <p>
+        Théramène était riche et avait du mérite ; il a hérité, il est donc très riche et d’un très grand mérite. 
+        Voilà toutes les femmes en campagne pour l’avoir pour galant, et toutes les filles pour épouseur. Il va 
+        de maisons en maisons faire espérer aux mères qu’il épousera. Est-il assis, elles se retirent, pour laisser 
+        à leurs filles toute la liberté d’être aimables, et à Théramène de faire ses déclarations. Il tient ici 
+        contre le mortier ; là il efface le cavalier ou le gentilhomme. Un jeune homme fleuri, vif, enjoué, 
+        spirituel n’est pas souhaité plus ardemment ni mieux reçu ; on se l’arrache des mains, on a à peine le 
+        loisir de sourire à qui se trouve avec lui dans une même visite. Combien de galants va-t-il mettre en 
+        déroute ! quels bons partis ne fera-t-il point manquer ? Pourra-t-il suffire à tant d’héritières qui 
+        le recherchent ? Ce n’est pas seulement la terreur des maris, c’est l’épouvantail de tous ceux qui 
+        ont envie de l’être, et qui attendent d’un mariage à remplir le vide de leur consignation. On 
+        devrait proscrire de tels personnages si heureux, si pécunieux, d’une ville bien policée, ou condamner 
+        le sexe, sous peine de folie ou d’indignité, à ne les traiter pas mieux que s’ils n’avaient que du mérite.
+        </p>
+        </div2>
+
+        <div2 n="15" source="#paris_1692">
+        <p>
+        Paris, pour l’ordinaire le singe de la cour, ne sait pas toujours la contrefaire ; il ne l’imite en aucune 
+        manière dans ces dehors agréables et caressants que quelques courtisans, et surtout les femmes, y ont 
+        naturellement pour un homme de mérite, et qui n’a même que du mérite : elles ne s’informent ni de ses 
+        contrats ni de ses ancêtres ; elles le trouvent à la cour, cela leur suffit ; elles le souffrent, elles 
+        l’estiment ; elles ne demandent pas s’il est venu en chaise ou à pied, s’il a une charge, une terre ou 
+        un équipage : comme elles regorgent de train, de splendeur et de dignités, elles se délassent volontiers 
+        avec la philosophie ou la vertu. Une femme de ville entend-elle le bruissement d’un carrosse qui s’arrête 
+        à sa porte, elle pétille de goût et de complaisance pour quiconque est dedans, sans le connaître ; mais 
+        si elle a vu de sa fenêtre un bel attelage, beaucoup de livrées, et que plusieurs rangs de clous parfaitement 
+        dorés l’aient éblouie, quelle impatience n’a-t-elle pas de voir déjà dans sa chambre le cavalier ou le 
+        magistrat ! quelle charmante réception ne lui fera-t-elle point ! ôtera-t-elle les yeux de dessus lui ? 
+        Il ne perd rien auprès d’elle : on lui tient compte des doubles soupentes et des ressorts qui le font 
+        rouler plus mollement ; elle l’en estime davantage, elle l’en aime mieux.
+        </p>
+        </div2>
+
+        <div2 n="16" source="#paris_1692">
+        <p>
+        Cette fatuité de quelques femmes de la ville, qui cause en elles une mauvaise imitation de celles 
+        de la cour, est quelque chose de pire que la grossièreté des femmes du peuple, et que la rusticité 
+        des villageoises : elle a sur toutes deux l’affectation de plus.
+        </p>
+        </div2>
+
+        <div2 n="17" source="#paris_1692">
+        <p>
+        La subtile invention, de faire de magnifiques présents de noces qui ne coûtent rien, et qui doivent 
+        être rendus en espèce !
+        </p>
+        </div2>
+
+        <div2 n="18" source="#paris_1692">
+        <p>
+        L’utile et la louable pratique, de perdre en frais de noces le tiers de la dot qu’une femme apporte ! 
+        de commencer par s’appauvrir de concert par l’amas et l’entassement de choses superflues, et de prendre 
+        déjà sur son fonds de quoi payer Gaultier, les meubles et la toilette !
+        </p>
+        </div2>
+
+        <div2 n="19" source="#paris_1692">
+        <p>
+        Le bel et le judicieux usage que celui qui, préférant une sorte d’effronterie aux bienséances et à la 
+        pudeur, expose une femme d’une seule nuit sur un lit comme sur un théâtre, pour y faire pendant quelques 
+        jours un ridicule personnage, et la livre en cet état à la curiosité des gens de l’un et de l’autre sexe, 
+        qui, connus ou inconnus, accourent de toute une ville à ce spectacle pendant qu’il dure ! Que manque-t-il 
+        à une telle coutume, pour être entièrement bizarre et incompréhensible, que d’être lue dans quelque relation de la Mingrélie ?
+        </p>
+        </div2>
+
+        <div2 n="20" source="#paris_1688 #paris_1689 #paris_1692">
+        <p>
+        Pénible coutume, asservissement incommode ! se chercher incessamment les unes les autres avec l’impatience de 
+        ne se point rencontrer ; ne se rencontrer que pour se dire des riens, que pour s’apprendre réciproquement des 
+        choses dont on est également instruite, et dont il importe peu que l’on soit instruite ; n’entrer dans une 
+        chambre précisément que pour en sortir ; ne sortir de chez soi l’après-dînée que pour y rentrer le soir, fort 
+        satisfaite d’avoir vu en cinq petites heures trois suisses, une femme que l’on connaît à peine, et une autre 
+        que l’on n’aime guère ! Qui considérerait bien le prix du temps, et combien sa perte est irréparable, pleurerait 
+        amèrement sur de si grandes misères.
+        </p></div1></body></text>
+    </p>
+    </div2>
     
     
     
