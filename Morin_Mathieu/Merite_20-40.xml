@@ -8,7 +8,7 @@
                 <title>Les caractères de Théophraste, traduits du grec, avec les caractères ou les moeurs de ce siècle</title>
                 <respStmt xml:id="Bruyere">
                     <name>Jean de la Bruyère</name>
-                    <resp>auteur</resp>
+                    <resp></resp>
                 </respStmt>
             </titleStmt>
             
@@ -16,11 +16,11 @@
                 <edition></edition>
                     <respStmt xml:id="MM">
                         <name>Mathieu Morin</name>
-                        <resp>éditeur</resp>
+                        <resp></resp>
                     </respStmt>
                     <respStmt xml:id="Imprimeur">
                         <name>Imprimeur</name>
-                        <resp>imprimeur</resp>
+                        <resp></resp>
                     </respStmt>
             </editionStmt>
             
@@ -134,6 +134,15 @@
                 <item>
                     <date when="2022-10-19">19 octobre 2022</date>Encodage des remarques 22, 23 et 24
                 </item>
+                <item>
+                    <date when="2022-10-31">31 octobre 2022</date>Encodage de la note imprimeur de la remarque 33
+                </item>
+                <item>
+                    <date when="2022-11-04">4 novembre 2022</date>Encodage de trois notes glossaire de Mathieu Morin sur les remarques 38 et 39
+                </item>
+                <item>
+                    <date when="2022-11-04">4 novembre 2022</date>Encodage de deux notes imprimeur de la remarque 27
+                </item>
             </list>
         </revisionDesc>
         
@@ -212,7 +221,7 @@
                         <app>
                             <lem>si</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">ſi</rdg>
-                        </app> vous en avez.</p>
+                        </app> vous en avez.<pb n="148" source="#Paris_1692_7"/></p>
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
@@ -249,7 +258,7 @@
                         <app>
                             <lem>sait</lem>
                             <rdg wit="#Paris_1692_7 #Paris_1699_10">ſçait</rdg>
-                        </app> encore moins ce qu’elles deviennent 
+                        </app> encore moins ce qu’elles deviennent<pb n="147" source="#Paris_1699_10"/> 
                         <app>
                             <lem>après avoir disparu</lem>
                             <rdg wit="#Paris_1692_7 #Paris_1699_10">aprés avoir diſparu</rdg>
@@ -311,7 +320,11 @@
                         <app>
                             <lem>lui</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">luy</rdg>
-                        </app> donne toute la perfection dont il 
+                        </app> donne toute la 
+                        <app>
+                            <lem>perf<pb n="161" source="#Paris_1689_4"/>ection</lem>
+                            <rdg wit="#Paris_1689_4">perf-ection</rdg>
+                        </app> dont il 
                         <app>
                             <lem>est</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſt</rdg>
@@ -347,7 +360,7 @@
                         <app>
                             <lem>Mignard est Mignard, Lulli est Lulli, et Corneille est Corneille.</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">MIGNARD eſt MIGNARD. LULLY eſt LULLY ; &amp; CORNEILLE eſt CORNEILLE</rdg>
-                        </app></p>
+                        </app><pb n="188" source="#Paris_1688_3"/></p>
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
@@ -361,14 +374,14 @@
                             <lem>esprit</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſprit</rdg>
                         </app> ; peut s’élever au-dessus de sa fortune, se mêler dans le monde, 
-                        et aller de pair avec les plus honnêtes gens. Cela est moins facile à celui qui est engagé : 
+                        et al<pb n="149" source="#Paris_1692_7"/>ler de pair avec les plus honnêtes gens. Cela est moins facile à celui qui est engagé : 
                         il semble que le mariage met tout le monde dans son ordre.</p>
                 </div2>
                 
                 <div2 source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="26"><g ref="#pieddemouche"></g>
                         Après le mérite personnel, il faut l’avouer, 
-                        ce sont les éminentes dignité et les grands titres dont les hommes tirent plus de distinction et plus 
+                        ce sont les éminentes dignité et les grands titres dont les<pb n="148" source="#Paris_1699_10"/> hommes tirent plus de distinction et plus 
                         d’éclat ; et qui ne sait être un Erasme doit penser à être évêque. Quelques-uns, 
                         pour étendre leur renommée, entassent sur leurs personnes des pairies, des colliers d’ordre, 
                         des primaties, la pourpre, et ils auraient besoin d’une tiare ; 
@@ -382,10 +395,12 @@
                         — Le sont-elles moins toutes déployées dans les boutiques et à la pièce ? 
                         — Mais la broderie et les ornements y ajoutent encore la magnificence. 
                         — Je loue donc le travail de l’ouvrier. — Si on lui demande quelle heure il est, 
-                        il tire une montre qui est un chef-d’œuvre ; la garde de son épée est un onyx ; 
+                        il tire une montre qui est un chef-d’œuvre ; la<pb n="150" source="#Paris_1692_7"/> garde de son épée est un onyx
+                            <note source="#Paris_1699_10" style="*" type="footnote" place="right" resp="imprimeur">Agathe</note>
+                            <note source="#Paris_1688_7" style="✝" type="footnote" place="right" resp="#Imprimeur">Agathe</note> ; 
                         il a au doigt un gros diamant qu’il fait briller aux yeux, et qui est parfait ; 
                         il ne lui manque aucune de ces curieuses bagatelles que l’on porte sur soi autant pour la vanité que 
-                        pour l’usage, et il ne se plaint non plus toute sorte de parure qu’un jeune homme qui a épousé une riche 
+                        pour l’usage, et il ne se plaint non plus toute sorte de parure qu’un jeune<pb n="149" source="#Paris_1699_10"/> homme qui a épousé une riche 
                         vieille. — Vous m’inspirez enfin de la curiosité ; il faut voir du moins des choses si précieuses : 
                         envoyez-moi cet habit et ces bijoux de Philémon ; je vous quitte de la personne.
                         Tu te trompes, Philémon, si avec ce carrosse brillant, ce grand nombre de coquins qui te suivent, 
@@ -398,13 +413,13 @@
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="28"><g ref="#pieddemouche"></g>
-                        Un homme à la cour, et souvent à la ville, 
+                        Un homme à la cour, et souvent<pb n="162" source="#Paris_1689_4"/> à la ville, 
                         qui a un long manteau de soie ou de drap de Hollande, une ceinture large et placée haut sur l’estomac, 
                         le soulier de maroquin, la calotte de même, d’un beau grain, un collet bien fait et bien empesé, 
-                        les cheveux arrangés et le teint vermeil, 
+                        les cheveux arrangés et le teint vermeil,<pb n="150" source="#Paris_1699_10"/> 
                         qui avec cela se souvient de quelques distinctions métaphysiques, 
                         explique ce que c’est que la lumière de gloire, et sait précisément comment l’on voit Dieu, 
-                        cela s’appelle un docteur. Une personne humble, qui est ensevelie dans le cabinet, qui a médité, 
+                        cela s’appelle<pb n="189" source="#Paris_1688_3"/> un docteur. Une personne humble, qui est ensevelie dans le cabinet, qui a médité, 
                         cherché, consulté, confronté, lu ou écrit pendant toute sa vie, est un homme docte.</p>
                 </div2>
                 
@@ -418,15 +433,15 @@
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="30"><g ref="#pieddemouche"></g>
                         Il semble que le héros est d’un seul métier, qui est celui de la guerre, 
-                        et que le grand homme est de tous les métiers, ou de la robe, ou de l’épée, ou du cabinet, ou de la cour : 
+                        et que le grand homme est de tous les métiers, ou de la robe, ou<pb n="152" source="#Paris_1692_7"/> de l’épée, ou du cabinet, ou de la cour :<pb n="163" source="#Paris_1689_4"/> 
                         l’un et l’autre mis ensemble ne pèsent pas un homme de bien.</p>
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="31"><g ref="#pieddemouche"></g>
                         Dans la guerre, la distinction entre le héros et le grand homme est délicate : 
-                        toutes les vertus militaires font l’un et l’autre. Il semble néanmoins que le premier soit jeune, 
-                        entreprenant, d’une haute valeur, ferme dans les périls, intrépide ; 
+                        toutes les ver<pb n="190" source="#Paris_1688_3"/>tus militaires font l’un et l’autre. Il semble néanmoins que le premier soit jeune, 
+                        en<pb n="151" source="#Paris_1699_10"/>treprenant, d’une haute valeur, ferme dans les périls, intrépide ; 
                         que l’autre excelle par un grand sens, par une vaste prévoyance, par une haute capacité, 
                         et par une longue expérience. Peut-être qu’Alexandre n’était qu’un héros, 
                         et que César était un grand homme.</p>
@@ -440,10 +455,10 @@
                         et qu’à se livrer à son génie. Il a fait, il a agi, avant que de savoir, 
                         ou plutôt il a su ce qu’il n’avait jamais appris. 
                         Dirai-je que les jeux de son enfance ont été plusieurs victoires ? 
-                        Une vie accompagnée d’un extrême bonheur joint à une longue expérience serait illustre par les seules 
+                        Une vie accompagnée d’un extrême bonheur joint à une longue expérience<pb n="153" source="#Paris_1692_7"/> serait illustre par les seules 
                         actions qu’il avait achevées dès sa jeunesse. Toutes les occasions de vaincre qui se sont depuis offertes, 
                         il les a embrassées ; et celles qui n’étaient pas, sa vertu et son étoile les ont fait naître : 
-                        admirable même et par les choses qu’il a faites, et par celles qu’il aurait pu faire. 
+                        admirable même et par les choses qu’il a faites, et par celles qu’il<pb n="152" source="#Paris_1699_10"/> aurait pu faire. 
                         On l’a regardé comme un homme incapable de céder à l’ennemi, 
                         de plier sous le nombre ou sous les obstacles ; comme une âme du premier ordre, 
                         pleine de ressources et de lumières, et qui voyait encore où personne ne voyait plus ; comme celui qui, 
@@ -453,17 +468,17 @@
                         l’on ne met qu’après les batailles gagnées et les villes prises) ; 
                         qui était rempli de gloire et de modestie ; on lui a entendu dire : Je fuyais, 
                         avec la même grâce qu’il disait : Nous les battîmes ; un homme dévoué à l’État, à sa famille, 
-                        au chef de sa famille ; sincère pour Dieu et pour les hommes, 
+                        au chef<pb n="154" source="#Paris_1692_7"/> de sa famille ; sincère pour Dieu et pour les hommes, 
                         autant admirateur du mérite que s’il lui eût été moins propre et moins familier ; un homme vrai, simple, 
                         magnanime, à qui il n’a manqué que les moindres vertus.</p>
                 </div2>
                 
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="33"><g ref="#pieddemouche"></g> 
-                        <seg>Les enfants des Dieux
-                            <note source="#Paris_1688_3" style="*" place="below" resp="#Imprimeur">Fils. Petit-fils. Iſſus de Rois.</note>
-                            <note source="#Paris_1689_4 #Paris_1699_10" style="*" place="right" resp="#Imprimeur">Fils. Petit-fils. Iſſus de Rois.</note>
-                            <note source="#Paris_1688_7" style="✝" place="right" resp="#Imprimeur">Fils. Petit-fils. Iſſus de Rois.</note>
+                        <seg>Les enfants des Dieux<pb n="153" source="#Paris_1699_10"/>
+                            <note source="#Paris_1688_3" style="*" type="footnote" place="below" resp="#Imprimeur">Fils. Petit-fils. Iſſus de Rois.</note>
+                            <note source="#Paris_1689_4 #Paris_1699_10" style="*" type="footnote" place="right" resp="#Imprimeur">Fils. Petit-fils. Iſſus de Rois.</note>
+                            <note source="#Paris_1688_7" style="✝" type="footnote" place="right" resp="#Imprimeur">Fils. Petit-fils. Iſſus de Rois.</note>
                         </seg>, pour ainsi dire, se tirent des règles de la nature, 
                         et en sont comme l’exception. Ils n’attendent presque rien du temps et des années. 
                         Le mérite chez eux devance l’âge. Ils naissent instruits, 
@@ -476,7 +491,7 @@
                         ne peuvent comprendre cette universalité de talents que l’on remarque quelquefois dans un même sujet : 
                         où ils voient l’agréable, ils en excluent le solide ; où ils croient découvrir les grâces du corps, 
                         l’agilité, la souplesse, la dextérité, ils ne veulent plus y admettre les dons de l’âme, la profondeur, 
-                        la réflexion, la sagesse : ils ôtent de l’histoire de Socrate qu’il ait dansé.</p>
+                        la réflexion, la sagesse : ils ôtent de l’histoire de Socrate qu’il ait dansé.<pb n="155" source="#Paris_1692_7"/></p>
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
@@ -488,8 +503,8 @@
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="36"><g ref="#pieddemouche"></g>
                         Un homme d’esprit et d’un caractère simple et droit peut tomber dans quelque pièce ; 
-                        il ne pense pas que personne veuille lui en dresser, et le choisir pour être sa dupe : 
-                        cette confiance le rend moins précautionné, et les mauvais plaisants l’entament par cet endroit. 
+                        il ne pense pas<pb n="154" source="#Paris_1699_10"/> que personne veuille lui en dresser, et le choisir pour être sa dupe : 
+                        cette confiance le rend moins précautionné,<pb n="164" source="#Paris_1689_4"/> et les mauvais plaisants l’entament par cet endroit. 
                         Il n’y a qu’à perdre pour ceux qui en viendraient à une seconde charge : il n’est trompé qu’une fois.
                         J’éviterai avec soin d’offenser personne, si je suis équitable ; mais sur toutes choses un homme d’esprit, 
                         si j’aime le moins du monde mes intérêts.</p>
@@ -499,20 +514,23 @@
                     <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="37"><g ref="#pieddemouche"></g>
                         Il n’y a rien de si délié, de si simple et de si imperceptible, 
                         où il n’entre des manières qui nous décèlent. Un sot ni n’entre, ni ne sort, ni ne s’assied, 
-                        ni ne se lève, ni ne se tait, ni n’est sur ses jambes, comme un homme d’esprit.</p>
+                        ni ne se lève, ni ne se tait, ni n’est sur ses jambes, comme un homme d’esprit.<pb n="192" source="#Paris_1688_3"/></p>
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1692_7 #Paris_1699_10" n="38"><g ref="#pieddemouche"></g>
                         Je connais Mopse d’une visite qu’il m’a rendue sans me connaître ; 
-                        il prie des gens qu’il ne connaît point de le mener chez d’autres dont il n’est pas connu ; 
+                        il prie des gens qu’il ne connaît point<pb n="156" source="#Paris_1692_7"/> de le mener chez d’autres dont il n’est pas connu ; 
                         il écrit à des femmes qu’il connaît de vue. Il s’insinue dans un cercle de personnes respectables, 
-                        et qui ne savent quel il est, et là, sans attendre qu’on l’interroge, ni sans sentir qu’il interrompt, 
+                        et qui ne savent quel il est, et là, sans attendre qu’on l’in<pb n="155" source="#Paris_1699_10"/>terroge, ni sans sentir qu’il interrompt, 
                         il parle, et souvent, et ridiculement. Il entre une autre fois dans une assemblée, 
                         se place où il se trouve, sans nulle attention aux autres, ni à soi-même ; 
                         on l’ôte d’une place destinée à un ministre, il s’assied à celle du duc et pair ; 
                         il est là précisément celui dont la multitude rit, et qui seul est grave et ne rit point. 
-                        Chassez un chien du fauteuil du Roi, il grimpe à la chaire du prédicateur ; 
+                        Chassez un chien du fauteuil du Roi, il grimpe à la chaire du 
+                        <seg>prédicateur
+                            <note source="#Paris_1692_7 #Paris_1699_10" type="gloss" resp="#MM">personne qui prêche la parole de dieu</note>
+                        </seg> ; 
                         il regarde le monde indifféremment, sans embarras, sans pudeur ; il n’a pas, non plus que le sot, 
                         de quoi rougir.</p>
                 </div2>
@@ -521,24 +539,30 @@
                     <p source="#Paris_1692_7 #Paris_1699_10" n="39"><g ref="#pieddemouche"></g>
                         Celse est d’un rang médiocre, mais des grands le souffrent ; il n’est pas savant, 
                         il a relation avec des savants ; il a peu de mérite, mais il connaît des gens qui en ont beaucoup ; 
-                        il n’est pas habile, mais il a une langue qui peut servir de truchement, 
-                        et des pieds qui peuvent le porter d’un lieu à un autre. C’est un homme né pour les allées et venues, 
+                        il n’est pas habile, mais il a une langue qui peut servir de 
+                        <seg>truchement
+                            <note source="#Paris_1692_7 #Paris_1699_10" type="gloss" resp="#MM">interprète</note>
+                        </seg>, 
+                        et des pieds qui peuvent le<pb n="157" source="#Paris_1692_7"/> porter d’un lieu à un autre. C’est un homme né pour les allées et venues, 
                         pour écouter des propositions et les rapporter, pour en faire d’office, 
                         pour aller plus loin que sa commission et en être désavoué, 
-                        pour réconcilier des gens qui se querellent à leur première entrevue ; 
+                        pour ré<pb n="156" source="#Paris_1699_10"/>concilier des gens qui se querellent à leur première entrevue ; 
                         pour réussir dans une affaire et en manquer mille, pour se donner toute la gloire de la réussite, 
                         et pour détourner sur les autres la haine d’un mauvais succès. Il sait les bruits communs, 
-                        les historiettes de la ville ; il ne fait rien, il dit ou il écoute ce que les autres font, 
+                        les 
+                        <seg>historiettes
+                            <note source="#Paris_1692_7 #Paris_1699_10" type="gloss" resp="#MM">anecdote</note>
+                        </seg> de la ville ; il ne fait rien, il dit ou il écoute ce que les autres font, 
                         il est nouvelliste ; il sait même le secret des familles : il entre dans de plus hauts mystères : 
                         il vous dit pourquoi celui-ci est exilé, et pourquoi on rappelle cet autre ; 
                         il connaît le fond et les causes de la brouillerie des deux frères, et de la rupture des deux ministres. 
                         N’a-t-il pas prédit aux premiers les tristes suites de leur mésintelligence ? 
                         N’a-t-il pas dit de ceux-ci que leur union ne serait pas longue ? 
                         N’était-il pas présent à de certaines paroles qui furent dites ? 
-                        N’entra-t-il pas dans une espèce de négociation ? Le voulut-on croire ? fut-il écouté ? 
+                        N’entra-t-il pas dans une espèce de négo<pb n="158" source="#Paris_1692_7"/>ciation ? Le voulut-on croire ? fut-il écouté ? 
                         A qui parlez-vous de ces choses ? Qui a eu plus de part que Celse à toutes ces intrigues de cour ? 
                         Et si cela n’était ainsi, s’il ne l’avait du moins ou rêvé ou imaginé, 
-                        songerait-il à vous le faire croire ? 
+                        songe<pb n="157" source="#Paris_1699_10"/>rait-il à vous le faire croire ? 
                         aurait-il l’air important et mystérieux d’un homme revenu d’une ambassade ?</p>
                 </div2>
                 
@@ -553,10 +577,10 @@
                         dégénère, perd le peu de lustre qu’un peu de mémoire lui donnait, et montre la corde. 
                         Lui seul ignore combien il est au-dessous du sublime et de l’héroïque ; 
                         et, incapable de savoir jusqu’où l’on peut avoir de l’esprit, 
-                        il croit naïvement que ce qu’il en a est tout ce que les hommes en sauraient avoir : 
+                        il croit naïvement que ce qu’il en a est tout ce que les hom<pb n="159" source="#Paris_1692_7"/>mes en sauraient avoir : 
                         aussi a-t-il l’air et le maintien de celui qui n’a rien à désirer sur ce chapitre, 
                         et qui ne porte envie à personne. Il se parle souvent à soi-même, et il ne s’en cache pas, 
-                        ceux qui passent le voient, et qu’il semble toujours prendre un parti, 
+                        ceux qui passent le voient, et<pb n="158" source="#Paris_1699_10"/> qu’il semble toujours prendre un parti, 
                         ou décider qu’une telle chose est sans réplique. Si vous le saluez quelquefois, 
                         c’est le jeter dans l’embarras de savoir s’il doit rendre le salut ou non ; et pendant qu’il délibère, 
                         vous êtes déjà hors de portée. Sa vanité l’a fait honnête homme, l’a mis au-dessus de lui-même, 
