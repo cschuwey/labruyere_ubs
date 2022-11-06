@@ -1,7 +1,6 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
        <teiheader>
-              
-         <fileDesc>
+          <fileDesc>
             <titleStmt>
                 <title>Les caractères de Théophraste, traduits du grec, avec les caractères ou les moeurs de ce siècle</title>
                 <respStmt xml:id="Bruyere">
@@ -47,42 +46,120 @@
                         <author>Jean de La Bruyère</author>
                         <author>Théophrastre</author>
                         <edition>Septième édition</edition>
-                        <date>1692</date>
-                        <publisher>Chez Estienne Michallet à Paris</publisher>
-                        <imprint xml:id="Paris_1692_Septieme"></imprint>
+                        <imprint xml:id="Paris_1692_Septieme">
+                            <date>1692</date>
+                            <publisher>Chez Estienne Michallet à Paris</publisher>
+                        </imprint>
                     </monogr>
-        </teiHeader>   
-          <text>   
-        <front></front>
-        <body>
-            <titlePage>
-                        <docTitle>
-                            <titlePart type="main">Les caractères de Theophraste traduits du grec : avec les caractères ou les moeurs de ce siècle</titlePart>
-                            <docedition m="5">Cinquième édition augmentée de plusieurs remarques </docedition>
-                        </docTitle>
-                        <docAuthor source=#"Paris_1688_1_1">Jean de la Bruyère</docAuthor>
-                            <docImprint>
-                                <name>PARIS</name>, <name>Estienne Michallet</name>premier imprimeur du roy
-                                <name> rue Saint Jacques, à l'image S.Paul</name>
-                            </docImprint>
-                            <docDate when="1688">MDCXC</docDate>
-                            <imprimature>Avec privilège de sa majesté</imprimature>
-                    </titlePage>
-                </front>
-                
-                
-                <body>
-                    <div1 n="1" type="chapitre">
-                        <head>Les femmes</head>
-                        
-                  <div2>
-                   <p>(40) Je voudrais qu’il me fût permis de crier de toute ma force à ces hommes saints qui ont été autrefois blessés des femmes : "Fuyez les femmes, ne les dirigez point, laissez à d’autres le soin de leur salut."</p>
-                      
-                  </div2>
+               </biblStruct>
+                   
+                </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <creation>
+                <date>1670</date>Du Mérite Personnel est le deuxième chapitre de l'ouvrage
+            </creation>
+            
+            <langUsage>
+                <language ident="fra">Français du XVIIème siècle</language>
+                <language ident="lat">Latin</language>
+            </langUsage> 
+               
+            <textDesc n="recueil de remarques">
+                <channel></channel>
+                <constitution type="unknown"></constitution>
+                <derivation></derivation>
+                <domain></domain>
+                <factuality type="mixed"></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc>
+            
+        </profileDesc>
+        
+        <encodingDesc>
+            <charDecl>
+                <glyph xml:id="pieddemouche">
+                    <desc>¶</desc>
+                </glyph>
+                <glyph xml:id="p-pieddemouche">
+                    <desc>(¶)</desc>
+                </glyph>
+                <glyph xml:id="pp-pieddemouche">
+                    <desc>((¶))</desc>
+                </glyph>
+            </charDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Remplacement des "ſ" par des "s"</p>
+                </correction>
+            </editorialDecl>
+        </encodingDesc>  
+              
+        <revisionDesc>
+            <list>
+                <change>
+                    <date when="2022-10-10">10 octobre 2022</date>Ajout d'une source nouvelle pour faire des comparaisons et ajout de sources supplémentaires
+                </change>
+                   
+                <change>
+                    <date when="2022-10-13">13 octobre 2022</date>Encodage de remarques et ajout des éditions présentant les remarques dans l'élément "source"
+                </change>
 
+                <change>
+                    <date when="2022-10-17">17 octobre 2022</date>Encodage de remarques 
+                </change>
+                   
+                <change>
+                    <date when="2022-10-19">19 octobre 2022</date>Mise en place des pieds-de-mouche
+                </change>
+                   
+                <change>
+                    <date when="2022-10-19">19 octobre 2022</date>Encodage de remarques
+                </change>
+              </list>
+        </revisionDesc>
+              
+        </teiHeader>   
+       
+       <text>   
+         <front>
+            <titlePage>
+                <docTitle>
+                      <titlePart type="main">Les caractères de Theophraste traduits du grec : avec les caractères ou les moeurs de ce siècle</titlePart>
+                      <docedition m="5">Cinquième édition augmentée de plusieurs remarques </docedition>
+                </docTitle>
+                <docAuthor source=#"Paris_1688_1_1">Jean de la Bruyère</docAuthor>
+                <docImprint>
+                        <name>PARIS</name>, <name>Estienne Michallet</name>premier imprimeur du roy
+                        <name> rue Saint Jacques, à l'image S.Paul</name>
+                 </docImprint>
+                        <docDate when="1688">MDCXC</docDate>
+                        <imprimature>Avec privilège de sa majesté</imprimature>
+               </titlePage>
+             </front>
+                
+                
+             <body>
+                <div1 n="1" type="chapitre">
+                <head>Les femmes</head>
                         
+                 <div2 n="40" source="#Paris_1688_Premiere Remarque absente source=" #Paris_1692_Septieme>
+                    <app>
+                       <lem>Je voudrais qu’il me fût permis de crier de toute ma force à ces hommes saints qui ont été autrefois blessés des femmes :
+                        "Fuyez les femmes, ne les dirigez point, laissez à d’autres le soin de leur salut."</lem>
+                        <rdg wit="Edition de 1692">
+                        <g ref="#pieddemouche"/>
+                        <p>Je voudrois qu'il me fût permis de crier de toute ma force à ces hommes saints qui ont été autrefois blessez des femmes, 
+                         Fuyez les femmes, ne les dirigez point,laissez à d'autres le soin de leur salut.</p>
+                      </app>
+                   </div2>
+
                        
-                          <div2 n="41" source="#Paris_1688_Premiere #Paris_1692_Septieme>
+                      <div2 n="41" source="#Paris_1688_Premiere #Paris_1692_Septieme>
                             <app>
                                 <lem>C'est trop contre un mari d’etre coquette et dévote ; une femme devrait opter.</lem>
                                 <rdg wit="Edition de 1688">
@@ -129,7 +206,7 @@
                                      elles parlent peu ; elles pensent encore & assez bien d’elles-mêmes, comme assez mal des autres ; il y a chez elles 
                                      une émulation de vertu et de réforme qui tient quelque chose de la jalousie ; elles ne haïssent pas de primer dans ce
                                      nouveau genre de vie, comme elles faisaient dans celui qu’elles viennent de quitter par politique ou par dégoût. 
-                                     Elles se perdoient gayement par la galanterie, par la bonne chère & par l’oysiveté ; & elles se perdent tristement 
+                                     Elles se perdoient gayement <foreign>gaiement</foreign> par la galanterie, par la bonne chère & par l’oysiveté ; & elles se perdent tristement 
                                      par la présomption & par l’envie.</p>
                                  </p>
                                </app>
@@ -147,8 +224,8 @@
                                       <p>Si j’épouse, Hermas, une femme avare, elle ne me ruinera point : si une joueuse, elle pourra s’enrichir ;
                                          si une fçavante, elle fçaura m’instruire ; si une prude, elle ne sera point emportée : si une emportée,
                                          elle exercera ma patience : si une coquette, elle voudra me plaire : si une galante, elle le sera peut-être
-                                         jusqu’à m’aimer : si une dévote, répondez, Hermas, que dois-je attendre de celle qui veut tromper Dieu, &
-                                         qui se trompe elle-même ,</p>
+                                         jusqu’à m’aimer : si une dévote, répondez, Hermas<note>Frère de l'évèque de Rome Pie 1er,le 10ème pape</note>, 
+                                         que dois-je attendre de celle qui veut tromper Dieu, qui se trompe elle-même ,</p>
                                 </app>
                                </div2>
 
