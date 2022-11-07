@@ -14,8 +14,7 @@
                         <resp xml:id="Éditrice">Éditrice</resp>                     
                     </respStat>
  </edition>
- <editionStmt>                            
-                </editionStmt>
+    <editionStmt> <p></p></editionStmt>
             </titleStmt>
 
             <publicationStmt>
