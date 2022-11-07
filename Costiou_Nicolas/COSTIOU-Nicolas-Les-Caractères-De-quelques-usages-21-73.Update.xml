@@ -54,15 +54,38 @@
                     </monogr>
 
                 </biblStruct>
-               
-                <listWit>
-                    <witness xmlns="http://www.tei-c.org/ns/1.0"></witness>
-                    <witness xml:id=""></witness>
-                    <witness xml:id=""></witness>
-                </listWit>
-               
-       
+            
             </sourceDesc>
+            
+            <bibl type="cle"
+                xml:id "..."/>
+            
+            <listPersons>
+                <person sex="H" ag="adult" xml:id="Tite">
+                    <name>
+                        Titus
+                    </name>
+                </person>
+                
+                <person ag="adult" xml:id="Aristippe">
+                    <name>
+                        Aristippe
+                    </name>
+                   
+                   <persName ref="Mle Fodel">
+                   
+                </person>
+                
+                <person sex="H" ag="adult" xml:id="Ambreville">
+                    <name>
+                        Ambreville
+                    </name>
+                </person>
+                
+            </listPersons>
+            
+            <listPlacer></listPlacer>
+            
         </fileDesc>
 
         <encodingDesc>
@@ -76,6 +99,16 @@
             </projectDesc>
 
         </encodingDesc>
+        
+        <classDecl>
+            
+            <taxonomy>
+                
+                <category xml></category>
+                
+            </taxonomy>
+            
+        </classDecl>
 
         <profileDesc>
 
@@ -141,80 +174,43 @@
 
                 <div2 n="21" source="#Paris-1690, #Paris-1696">
 
-                    <p> Quelle idée plus bizarre que de se représenter une foule de chrétiens de
-                        l’un et de l’autre sexe, qui se rassemblent à certains jours dans une salle
-                        pour y applaudir à une troupe d’excommuniés, qui ne le sont que par le
+                    <p> Quelle idée plus bizarre que de se représenter une foule de <app><lem>chrétiens</lem><rdg>Chrétiens</rdg></app> de
+                        l’un et de l’autre sexe, qui se <app><lem>rassemblent</lem><rdg>Raffemblent</rdg></app> à certains jours dans une salle
+                        pour y applaudir à une troupe d’<app><lem>excommuniés</lem><rdg>excommuniez</rdg></app>, qui ne le sont que par le
                         plaisir qu’ils leur donnent, 
                         
                         <pb n="448" source="#Paris-1690"/>
                         
                         et qui est déjà payé d’avance ? Il me semble
-                        qu’il faudrait ou fermer les théâtres, ou prononcer moins sévèrement sur
-                        l’état des comédiens.
-
-                    <app><lem>chrétiens</lem><rdg>Chrétiens</rdg></app>
-                    
-                    <app><lem>faudrait</lem><rdg>faudroit</rdg></app>
-                    
-                    <app><lem>rassemblent</lem><rdg>Raffemblent</rdg></app>
-                    
-                    <app><lem>excommuniés</lem><rdg>excommuniez</rdg></app>
-                    
-                    <app><lem>comédiens</lem><rdg>Comédiens</rdg></app>
-                        
-                    <note hand="inconnue">Une note manuscrite</note>
-                                       
+                        qu’il <app><lem>faudrait</lem><rdg>faudroit</rdg></app> ou fermer les théâtres, ou prononcer moins sévèrement sur
+                        l’état des <app><lem>comédiens</lem><rdg>Comédiens</rdg></app>.
+                     
                     </p>             
                                      
                 </div2>
 
                 <div2 n="22" source="#Paris-1690, #Paris-1696">
 
-                    <p> Dans ces jours qu’on appelle saints le moine confesse, pendant que le curé
-                        tonne en chaire contre le moine et ses adhérents ; telle femme pieuse sort
-                        de l’autel, qui entend au prône qu’elle vient de faire un sacrilège. N’y
+                    <p> Dans ces jours qu’on appelle <app><lem>saint</lem><rdg>Faints</rdg></app> le moine confesse, pendant que le curé
+                        tonne en chaire contre le <app><lem>moine</lem><rdg>Moine</rdg></app> et ses adhérents ; telle femme pieuse sort
+                        de l’<app><lem>autel</lem><rdg>Autel</rdg></app>, qui entend au <app><lem>prone</lem><rdg>Prone</rdg></app> qu’elle vient de faire un sacrilège. N’y
                         a-t-il point dans l’Eglise une puissance à qui il appartienne ou de faire
-                        taire le pasteur, ou de suspendre pour un temps le pouvoir du barnabite ?
+                        taire le <app><lem>pasteur</lem><rdg>Pasteur</rdg></app>, ou de suspendre pour un temps le pouvoir du barnabite ?
 
-
-                    <app><lem>saint</lem><rdg>Faints</rdg></app>
-                    
-                    <app><lem>moine</lem><rdg>Moine</rdg></app>
-                    
-                    <app><lem>autel</lem><rdg>Autel</rdg></app>
-                    
-                    <app><lem>prone</lem><rdg>Prone</rdg></app>
-                    
-                    <app><lem>pasteur</lem><rdg>Pasteur</rdg></app>
-                    
-                    <note hand="inconnue">Une note manuscrite</note>
-                        
                     </p>
                     
                 </div2>
 
                 <div2 n="23" source="#Paris-1690, #Paris-1696">
 
-                    <p> Il y a plus de rétribution dans les paroisses pour un mariage que pour un
-                        baptême, et plus pour un baptême que pour la confession : l’on dirait que ce
-                        soit un taux sur les sacrements, qui semblent par là être appréciés. Ce
+                    <p> Il y a plus de rétribution dans les <app><lem>paroisses</lem><rdg>Paroisse</rdg></app> pour un mariage que pour un
+                        baptême, et plus pour un baptême que pour la confession : l’on <app><lem>dirait</lem><rdg>diroit</rdg></app> que ce
+                        <app><lem>soit</lem><rdg>Foit</rdg></app> un taux sur les <app><lem>sacrements</lem><rdg>Sacremens</rdg></app>, qui <app><lem>semblent</lem><rdg>Femblent</rdg></app> par là être appréciés. Ce
                         n’est rien au fond que cet usage ; et ceux qui reçoivent pour les choses
                         saintes ne croient point les vendre, comme ceux qui donnent ne pensent point
                         à les acheter : ce sont peut-être des apparences qu’on pourrait épargner aux
                         simples et aux indévots.
 
-                    <app><lem>paroisses</lem><rdg>Paroisse</rdg></app>
-                    
-                    <app><lem>dirait</lem><rdg>diroit</rdg></app>
-                    
-                    <app><lem>soit</lem><rdg>Foit</rdg></app>
-                    
-                    <app><lem>sacrements</lem><rdg>Sacremens</rdg></app>
-                    
-                    <app><lem>semblent</lem><rdg>Femblent</rdg></app>
-                    
-                    <note hand="inconnue">Une note manuscrite</note>
-                    
                     </p>
                     
                 </div2>
@@ -253,23 +249,16 @@
                         
                         <pb n="449" ed="#Paris-1690"/>
                         
-                        Tite, par vingt années de service dans une seconde place, n’est pas encore
-                        digne de la première, qui est vacante : ni ses talents, ni sa doctrine, ni
+                        <persName >Tite</persName>, par vingt années de <app><lem>service</lem><rdg>Fervice</rdg></app> dans une <app><lem>seconde</lem><rdg>Feconde</rdg></app> place, n’est pas encore
+                        digne de la première, qui est vacante : <app><lem>ny</lem><rdg>ni</rdg></app> ses <app><lem>talents</lem><rdg>talens</rdg></app>, ni sa doctrine, ni
                         une vie exemplaire, ni les vœux des paroissiens ne sauraient l’y faire
-                        asseoir. Il naît de dessous terre un autre clerc pour la remplir. Tite est
+                        asseoir. Il naît de dessous terre un autre clerc
+                        
+                        <segm><note place="marge" source="#Paris-1690" resp="author" n="clerc">Ecclesiastique</note></segm>
+                        
+                        pour la remplir. <persName >Tite</persName> est
                         reculé ou congédié : il ne se plaint pas ; c’est l’usage.
                     
-                    <app><lem>service</lem><rdg>Fervice</rdg></app>
-                    
-                    <app><lem>seconde</lem><rdg>Feconde</rdg></app>
-                    
-                    <app><lem>ny</lem><rdg>ni</rdg></app>
-                    
-                    <app><lem>fes</lem><rdg>fes</rdg></app>
-                    
-                    <app><lem>talents</lem><rdg>talens</rdg></app>
-                    
-                    <note place="marge" source="#Paris-1690" resp="author" n="clerc">Ecclesiastique</note>
                     
                      <note place="marge" source="#Paris-1696" resp="author" n="clerc">Ecclesiastique</note>
                     
@@ -328,12 +317,17 @@
 
                 <div2 n="28" source="#Paris-1690, #Paris-1696">
 
-                    <p> La fille d’Aristippe est malade et en péril ; elle envoie vers son père,
+                    <p> La fille d’<persName type="pseudo">Aristippe</persName> est malade et en péril ; elle envoie vers son père,
                         veut se réconcilier avec lui et mourir dans ses bonnes grâces. Cet homme si
                         sage, le conseil de toute une ville, fera-t-il de lui-même cette démarche si
                         raisonnable ? y entraînera-t-il sa femme ? ne faudra-t-il point pour les
-                        remuer tous deux la machine du directeur ? 
-                    
+                        remuer tous deux la machine du directeur ?
+                        
+                        <app><lem wit=""</lem><rdg wit= ""
+                            
+                            
+                            </lem></app>
+                        
                         <note place="marge" resp="transcriber">L'auteur utilise des noms d'origine grecque : ainsi Aristippe. On connait un philosophe antique grec portant ce nom et développant une philosophie du plaisir comme le fit ensuite Epicure.</note>
                     
                     </p>
@@ -352,8 +346,10 @@
                 <div2 n="30" source="#Paris-1696">
 
                     <p> Un homme joue et se ruine : il marie néanmoins l’aînée de ses deux filles de
-                        ce qu’il a pu sauver des mains d’un Ambreville ; la cadette est sur le point
-                        de faire ses vœux, qui n’a point d’autre vocation que le jeu de son père. </p>
+                        ce qu’il a pu sauver des mains d’un <persName type="pseudo">Ambreville</persName> ; la cadette est sur le point
+                        de faire ses vœux, qui n’a point d’autre vocation que le jeu de son père. 
+                    
+                    </p>
 
                 </div2>
 
@@ -374,9 +370,9 @@
 
                 <div2 n="33" source="#Paris-1690, #Paris-1696">
 
-                    <p> Faire une folie et se marier par amourette, c’est épouser Mélite, qui est
+                    <p> Faire une folie et se marier par amourette, c’est épouser <persName>Mélite</persName>, qui est
                         jeune, belle, sage, économe, qui plaît, qui vous aime, qui a moins de bien
-                        qu’Aegine qu’on vous propose, et qui avec une riche dot apporte de riches
+                        qu’<persName>Aegine</persName> qu’on vous propose, et qui avec une riche dot apporte de riches
                         dispositions à la consumer, et tout votre fonds avec sa dot. </p>
 
                 </div2>
@@ -486,7 +482,7 @@
 
                 <div2 n="41" source="#Paris-1690, #Paris-1696">
 
-                    <p> Orante plaide depuis dix ans entiers en règlement de juges pour une affaire
+                    <p> <persName>Orante</persName> plaide depuis dix ans entiers en règlement de juges pour une affaire
                         juste, capitale, et où il y va de toute sa fortune : elle saura peut-être
                         dans cinq années quels seront ses juges, et dans quel tribunal elle doit
                         plaider le reste de sa vie. </p>
@@ -701,7 +697,7 @@
 
                 <div2 n="59" source="#Paris-1690, #Paris-1696">
 
-                    <p> Titius assiste à la lecture d’un testament avec des yeux rouges et humides,
+                    <p> <persName>Titius</persName> assiste à la lecture d’un testament avec des yeux rouges et humides,
                         et le cœur serré de la perte de celui dont il espère recueillir la
                         succession. Un article lui donne la charge, un autre les rentes de la ville,
                         un troisième le rend maître d’une terre à la campagne ; il y a une clause
@@ -710,9 +706,9 @@
                         lui coulent des yeux. Le moyen de les contenir ? Il se voit officier, logé
                         aux champs et à la ville, meublé de même ; il se voit une bonne table et un
                         carrosse : Y avait-il au monde un plus honnête homme que le défunt, un
-                        meilleur homme ? Il y a un codicille, il faut le lire : il fait Maevius
-                        légataire universel, et il renvoie Titius dans son faubourg, sans rentes,
-                        sans titres, et le met à pied. Il essuie ses larmes : c’est à Maevius à
+                        meilleur homme ? Il y a un codicille, il faut le lire : il fait <persName>Maevius</persName>
+                        légataire universel, et il renvoie <persName>Titius</persName> dans son faubourg, sans rentes,
+                        sans titres, et le met à pied. Il essuie ses larmes : c’est à <persName>Maevius</persName> à
                         s’affliger. </p>
 
                 </div2>
@@ -760,7 +756,7 @@
 
                 <div2 n="62" source="#Paris-1690, #Paris-1696">
 
-                    <p> Typhon fournit un grand de chiens et de chevaux ; que ne lui fournit-il
+                    <p> <persName>Typhon</persName> fournit un grand de chiens et de chevaux ; que ne lui fournit-il
                         point ? Sa protection le rend audacieux ; il est impunément dans sa province
                         tout ce qui lui plaît d’être, assassin, parjure ; il brûle ses voisins, et
                         il n’a pas besoin d’asile. Il faut enfin que le Prince se mêle lui-même de
@@ -787,7 +783,7 @@
 
                 <div2 n="64">
 
-                    <p> Hermippe est l’esclave de ce qu’il appelle ses petites commodités ; il leur
+                    <p> <persName>Hermippe</persName> est l’esclave de ce qu’il appelle ses petites commodités ; il leur
                         sacrifie l’usage reçu, la coutume, les modes, la bienséance. Il les cherche
                         en toutes choses, il quitte une moindre pour une plus grande, il ne néglige
                         aucune de celles qui sont praticables, il s’en fait une étude, et il ne se
@@ -849,7 +845,7 @@
 
                 <div2 n="68">
 
-                    <p> Carro Carri débarque avec une recette qu’il appelle un prompt remède, et qui
+                    <p> <persName>Carro Carri</persName> débarque avec une recette qu’il appelle un prompt remède, et qui
                         quelquefois est un poison lent ; c’est un bien de famille, mais amélioré en
                         ses mains : de spécifique qu’il était contre la colique, il guérit de la
                         fièvre quarte, de la pleurésie, de l’hydropisie, de l’apoplexie, de
