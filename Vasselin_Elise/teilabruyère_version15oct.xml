@@ -97,7 +97,18 @@
                        
                 </biblStruct>
             
-                
+            
+                <listPerson> 
+                       <person xml:id="Théophile"> <name> Théophile </name></person>
+                       <person xml:id="Théagène"> <name>Théàgène </name></person>
+                       <person xml:id="Téléphon"> <name>Théléphon</name> </person>
+                       <person xml:id="Socrate"> <name>Socrate </name> </person>   
+                       <person xml:id="Philante"> <name> Philante</name> </person>  
+                       <person xml:id="Aristide"> <name> Aristide</name> </person>
+                </listPerson>
+            
+            <bibl xml:id="Escola_clés_Bruyère"> </bibl>
+            
             
             </sourceDesc>
            
@@ -221,7 +232,8 @@
                         <rdg wit="#Paris_1688_1"> de ses Princes est si aveugle</rdg> 
                         </app>
                         et l’entêtement pour leur geste, leur visage, 
-                        leur ton de voix et leurs manières si général, que, s’ils s’avisaient d’être bons, cela irait à l’idolâtrie.
+                        leur ton de voix et leurs manières si général, que, s’ils s’avisaient d’être bons, cela irait 
+                        à l’idolâtrie
                         <app>
                         <lem> . </lem>
                         <rdg wit="#Paris_1688_1"> , le seul mal sous ce règne que l'on pouvait craindre.</rdg>
@@ -234,12 +246,22 @@
                     <div2 n="2" source="#Paris_unknown #Paris_1692_7 #Paris_1699_10"> 
                     <p>
                     <g ref="#p_d_m_1"> </g>
-                        Si vous êtes né vicieux, ô Théagène, je vous plains ; si vous le devenez par faiblesse pour ceux qui ont 
-                        intérêt que vous le soyez, qui ont juré entre eux de vous corrompre, et qui se vantent déjà de pouvoir 
-                        y réussir, souffrez que je vous méprise. Mais si vous êtes sage, tempérant, modeste, civil, généreux, 
-                        reconnaissant, laborieux, d’un rang d’ailleurs et d’une naissance à donner des exemples plutôt qu’à les 
-                        prendre d’autrui, et à faire les règles plutôt qu’à les recevoir, convenez avec cette sorte de gens de suivre 
-                        par complaisance leurs dérèglements, leurs vices et leur folie, quand ils auront, par la déférence qu’ils vous 
+                        Si vous êtes né vicieux, ô 
+                        <app type="clé"> <lem wit="#Paris_1692_7"> 
+                        <persName ref="#Théagène">Théagène</persName> 
+                        </lem> <rdg wit="#Paris_1692_7_1"> texte d'Escola </rdg> </app>
+                        , je vous plains ; 
+                        si vous le devenez par faiblesse pour ceux qui ont 
+                        intérêt que vous le soyez, qui ont juré entre eux de vous corrompre, et qui se vantent 
+                        déjà de pouvoir 
+                        y réussir, souffrez que je vous méprise. Mais si vous êtes sage, tempérant, modeste, 
+                        civil, généreux, 
+                        reconnaissant, laborieux, d’un rang d’ailleurs et d’une naissance à donner des exemples 
+                        plutôt qu’à les 
+                        prendre d’autrui, et à faire les règles plutôt qu’à les recevoir, convenez avec cette 
+                        sorte de gens de suivre 
+                        par complaisance leurs dérèglements, leurs vices et leur folie, quand ils auront, par 
+                        la déférence qu’ils vous 
                         doivent, exercé toutes 
                         
                         <pb n="289" ed="#Paris_1699_1"/>
@@ -257,7 +279,8 @@
                         <pb n="171" ed="#Paris_unknown"/>
 <!-- Page 171 in edition "?" starts here --> 
                         
-                        sûreté, à renverser tous leurs projets, et à les jeter dans le parti de continuer d’être ce qu’ils sont, et 
+                        sûreté, à renverser tous leurs projets, et à les jeter dans le parti de continuer d’être ce 
+                        qu’ils sont, et 
                         de vous laisser tel que vous êtes.
                    
                     </p>
@@ -268,9 +291,12 @@
                     <div2 n="3" source="#Paris_unknown #Paris_1688_1 #Paris_1692_7 #Paris_1699_10">
                     <p>
                     <g ref="#p_d_m_1"> </g>
-                        L’avantage des grands sur les autres hommes est immense par un endroit : je leur cède leur bonne chère, leurs 
-                        riches ameublements, leurs chiens, leurs chevaux, leurs singes, leurs nains, leurs fous et leurs flatteurs ; 
-                        mais je leur envie le bonheur d’avoir à leur service des gens qui les égalent par le cœur et par l’esprit, et 
+                        L’avantage des grands sur les autres hommes est immense par un endroit : je leur cède leur 
+                        bonne chère, leurs 
+                        riches ameublements, leurs chiens, leurs chevaux, leurs singes, leurs nains, leurs fous et 
+                        leurs flatteurs ; 
+                        mais je leur envie le bonheur d’avoir à leur service des gens qui les égalent par le cœur et 
+                        par l’esprit, et 
                         qui les 
                        
                         <pb n="253" ed="#Paris_1688_1"/>
@@ -286,9 +312,12 @@
                     <div2 n="4" source="#Paris_unknown #Paris_1688_1 #Paris_1692_7 #Paris_1699_10"> 
                     <p>
                     <g ref="#p_d_m_1"> </g>
-                        Les grands se piquent d’ouvrir une allée dans une forêt, de soutenir des terres par de longues murailles, 
-                        de dorer des plafonds, de faire venir dix pouces d’eau, de meubler une orangerie ; mais de rendre un cœur 
-                        content, de combler une âme de joie, de prévenir d’extrêmes besoins ou d’y remédier, leur curiosité ne s’étend 
+                        Les grands se piquent d’ouvrir une allée dans une forêt, de soutenir des terres par de longues
+                        murailles, 
+                        de dorer des plafonds, de faire venir dix pouces d’eau, de meubler une orangerie ; mais de rendre 
+                        un cœur 
+                        content, de combler une âme de joie, de prévenir d’extrêmes besoins ou d’y remédier, leur curiosité 
+                        ne s’étend 
                         point jusque-là.
                    
                     </p>
@@ -311,26 +340,32 @@
                         
                         
                         ges, on n’y 
-                        remarquerait pas un mélange ou une espèce de compensation de bien et de mal, qui établirait entre elles l’égalité, 
+                        remarquerait pas un mélange ou une espèce de compensation de bien et de mal, qui établirait entre 
+                        elles l’égalité, 
                         ou qui ferait du moins que l’un ne serait guère plus désirable que l’autre.
                      
                         <app>
                         <lem> . Celui qui </lem>
                         <rdg wit="#Paris_unknown #Paris_1692_7"> : celui qui </rdg>
                         </app>
-                       est puissant, riche, et à qui il ne manque rien, peut former cette question ; mais il faut que ce soit un 
+                       est puissant, riche, et à qui il ne manque rien, peut former cette question ; mais il faut que ce 
+                       soit un 
                         homme pauvre qui la décide.
                     </p>
 
                     <p>
-                        Il ne laisse pas d’y avoir comme un charme attaché à chacune des différentes conditions, et qui y demeure 
+                        Il ne laisse pas d’y avoir comme un charme attaché à chacune des différentes conditions, et qui y 
+                        demeure 
                         <app>
                         <lem> jusques à </lem>
                         <rdg wit="#Paris_unknown"> jusqu'à </rdg>
                         </app> 
-                        ce que la misère l’en ait ôté. Ainsi les grands se plaisent dans l’excès, et les petits aiment la modération ; 
-                        ceux-là ont le goût de dominer et de commander, et ceux-ci sentent du plaisir et même de la vanité à les servir et à 
-                        leur obéir ; les grands sont entourés, salués, respectés ; les petits entourent, saluent, se prosternent ; et tous 
+                        ce que la misère l’en ait ôté. Ainsi les grands se plaisent dans l’excès, et les petits aiment la 
+                        modération ; 
+                        ceux-là ont le goût de dominer et de commander, et ceux-ci sentent du plaisir et même de la vanité 
+                        à les servir et à 
+                        leur obéir ; les grands sont entourés, salués, respectés ; les petits entourent, saluent, se 
+                        prosternent ; et tous 
                         sont contents.
                      </p>
                     </div2>   
@@ -373,7 +408,8 @@
                         <app>
                         <lem> il s’est crevé à me suivre : qu’en faire ? » </lem>
                             <note type= "glossaire" resp= "#EV" source ="#Paris_unknown #Paris_1692_7"> 
-                           Comme souvent entre les sept premières éditions et la dixième, la ponctuation varie : les deux points deviennent point virgule
+                           Comme souvent entre les sept premières éditions et la dixième, la ponctuation varie : les deux 
+                           points deviennent point virgule
                             et la virgule, deux point comme suit : ": il s'est crevé à me suivre, qu'en faire ?" </note> 
                                     
                         </app>
@@ -388,10 +424,14 @@
                     <p>
                     <g ref="#p_d_m_1"> </g>
                        
-                        « Je ne sais, dites-vous avec un air froid et dédaigneux, Philante a du mérite, de l’esprit, de l’agrément, de 
-                        l’exactitude sur son devoir, de la fidélité et de l’attachement pour son maître, et il en est médiocrement considéré ; 
-                        il ne plaît pas, il n’est pas goûté. » — Expliquez-vous : est-ce Philanthe, ou le grand qu’il sert, que vous condamnez ?
-                        <note type= "glossaire" resp= "#EV" source ="#Paris_unknown #Paris_1692_7"> Dans ces deux précédentes éditions, 
+                        « Je ne sais, dites-vous avec un air froid et dédaigneux, <persName ref="#Philante">Philante</persName> 
+                        a du mérite, de l’esprit, de l’agrément, de 
+                        l’exactitude sur son devoir, de la fidélité et de l’attachement pour son maître, et il en est 
+                        médiocrement considéré ; 
+                        il ne plaît pas, il n’est pas goûté. » — Expliquez-vous : est-ce <persName ref="#Philante">Philanthe</persName>, 
+                        ou le grand qu’il sert, que vous condamnez ?
+                        <note type= "glossaire" resp= "#EV" source ="#Paris_unknown #Paris_1692_7"> Dans ces deux précédentes 
+                            éditions, 
                         les guillemets ne sont pas utilisés, ni le tiret de parole. </note>
                         
                           
@@ -427,8 +467,10 @@
                     <div2 n="11" source="#Paris_unknown #Paris_1692_7 #Paris_1699_10">  
                     <p>  
                     <g ref="#p_d_m_1">  </g>
-                        Les grands sont si heureux, qu’ils n’essuient pas même, dans toute leur vie, l’inconvénient de regretter la perte de 
-                        leurs meilleurs serviteurs, ou des personnes illustres dans leur genre, et dont ils ont tiré le plus de 
+                        Les grands sont si heureux, qu’ils n’essuient pas même, dans toute leur vie, l’inconvénient 
+                        de regretter la perte de 
+                        leurs meilleurs serviteurs, ou des personnes illustres dans leur genre, et dont ils ont tiré 
+                        le plus de 
                         
                        <pb n="292" ed="#Paris_1699_1"/>
 <!-- Page 292 in edition "10" starts here --> 
@@ -438,15 +480,18 @@
 
 
                         plaisir et le plus 
-                        d’utilité. La première chose que la flatterie sait faire, après la mort de ces hommes uniques, et qui ne se réparent point, 
+                        d’utilité. La première chose que la flatterie sait faire, après la mort de ces hommes uniques, 
+                        et qui ne se réparent point, 
                         est de leur supposer des endroits faibles, dont elle prétend que ceux qui leur succèdent sont 
                    
                         <app>
                         <lem> très exempts </lem>
                         <rdg wit="#Paris_unknown #Paris_1692_7"> très-exempts </rdg>
                         </app>
-                        très exempts : elle assure que l’un, avec toute la capacité et toutes les lumières de l’autre, dont il prend la place, n’en a 
-                        point les défauts ; et ce style sert aux princes à se consoler du grand et de l’excellent par le médiocre.
+                        très exempts : elle assure que l’un, avec toute la capacité et toutes les lumières de l’autre, 
+                        dont il prend la place, n’en a 
+                        point les défauts ; et ce style sert aux princes à se consoler du grand et de l’excellent par 
+                        le médiocre.
                     </p>
                     </div2>
                    
@@ -455,8 +500,10 @@
                     <div2 n="12" source="#Paris_unknown #Paris_1688_1 #Paris_1692_7 #Paris_1699_10">  
                     <p>
                     <g ref="#p_d_m_1"></g>
-                        Les grands dédaignent les gens d’esprit qui n’ont que de l’esprit ; les gens d’esprit méprisent les grands qui n’ont que 
-                        de la grandeur. Les gens de bien plaignent les uns et les autres, qui ont ou de la grandeur ou de l’esprit, sans nulle vertu.
+                        Les grands dédaignent les gens d’esprit qui n’ont que de l’esprit ; les gens d’esprit méprisent 
+                        les grands qui n’ont que 
+                        de la grandeur. Les gens de bien plaignent les uns et les autres, qui ont ou de la grandeur ou 
+                        de l’esprit, sans nulle vertu.
                     
                     </p>
                     </div2>
@@ -464,8 +511,10 @@
             
                     <div2 n="13" source="#Paris_1692_7 #Paris_1699_10">    
                     <p> <g ref="#p_d_m_1"></g>
-                        Quand je vois d’une part auprès des grands, à leur table, et quelquefois dans leur familiarité, de ces hommes alertes, 
-                        empressés, intrigants, aventuriers, esprits dangereux et nuisibles, et que je considère d’autre part quelle peine 
+                        Quand je vois d’une part auprès des grands, à leur table, et quelquefois dans leur familiarité, 
+                        de ces hommes alertes, 
+                        empressés, intrigants, aventuriers, esprits dangereux et nuisibles, et que je considère d’autre 
+                        part quelle peine 
                         
                         <pb n="173" ed="#Paris_unknown"/>
 <!-- Page 173 in edition "?" starts here --> 
@@ -483,8 +532,10 @@
                         
                         
                         soient soufferts par intérêt, 
-                        ou que les gens de bien soient regardés comme inutiles ; je trouve plus mon compte à me confirmer dans cette pensée, que 
-                        grandeur et discernement sont deux choses différentes, et l’amour pour la vertu et pour les vertueux une troisième chose.
+                        ou que les gens de bien soient regardés comme inutiles ; je trouve plus mon compte à me confirmer 
+                        dans cette pensée, que 
+                        grandeur et discernement sont deux choses différentes, et l’amour pour la vertu et pour les 
+                        vertueux une troisième chose.
                     
                     </p>
                     </div2>
@@ -494,12 +545,14 @@
                     <div2 n="14" source="#Paris_unknown #Paris_1692_7 #Paris_1699_10">    
                     <p> 
                     <g ref="#p_d_m_1"></g>
-                        Lucile aime mieux user sa vie à se faire supporter de quelques grands, que d’être réduit à vivre familièrement avec ses égaux.
+                        Lucile aime mieux user sa vie à se faire supporter de quelques grands, que d’être réduit à vivre 
+                        familièrement avec ses égaux.
                     
                     </p>
 
                     <p>
-                        La règle de voir de plus grands que soi doit avoir ses restrictions. Il faut quelquefois d’étranges talents pour la réduire 
+                        La règle de voir de plus grands que soi doit avoir ses restrictions. Il faut quelquefois d’étranges 
+                        talents pour la réduire 
                         en pratique. 
                     </p>
                     </div2> 
@@ -509,32 +562,40 @@
                     <div2 n="15" source="#Paris_unknown #Paris_1692_7 #Paris_1699_10">   
                     <p>
                     <g ref="#p_d_m_1"></g>  
-                        Quelle est l’incurable maladie de Théophile ? 
+                        Quelle est l’incurable maladie de <persName ref="#Théophile">Théophile</persName> ? 
                      
                         <app>
                         <lem> Elle </lem>
                         <rdg wit="#Paris_unknown #Paris_1692_7"> elle </rdg>
                         </app>
-                        Elle lui dure depuis plus de trente années, il ne guérit point : il a voulu, 
-                        il veut, et il voudra gouverner les grands ; la mort seule lui ôtera avec la vie cette soif d’empire et d’ascendant sur les 
+                        lui dure depuis plus de trente années, il ne guérit point : il a voulu, 
+                        il veut, et il voudra gouverner les grands ; la mort seule lui ôtera avec la vie cette soif d’empire 
+                        et d’ascendant sur les 
                         esprits. 
                         <app>
                         <lem> Est-ce </lem>
                         <rdg wit="#Paris_unknown #Paris_1692_7"> est-ce </rdg>
                         </app>
-                        Est-ce en lui zèle du prochain ? est-ce habitude ? est-ce une excessive opinion de soi-même ? Il n’y a point de 
-                        palais où il ne s’insinue ; ce n’est pas au milieu d’une chambre qu’il s’arrête : il passe à une embrasure ou au cabinet 
+                        en lui zèle du prochain ? est-ce habitude ? est-ce une excessive opinion de soi-même ? Il n’y a 
+                        point de 
+                        palais où il ne s’insinue ; ce n’est pas au milieu d’une chambre qu’il s’arrête : il passe à une 
+                        embrasure ou au cabinet 
                         
                         <pb n="294" ed="#Paris_1699_1"/>
 <!-- Page 294 in edition "10" starts here -->
                         <pb n="331" ed="#Paris_1692_7"/>
 <!-- Page 331 in edition "7" starts here --> 
                         ; 
-                        on attend qu’il ait parlé, et longtemps et avec action, pour avoir audience, pour être vu. Il entre dans le secret des 
-                        familles ; il est de quelque chose dans tout ce qui leur arrive de triste ou d’avantageux ; il prévient, il s’offre, il se 
-                        fait de fête, il faut l’admettre. Ce n’est pas assez pour remplir son temps ou son ambition, que le soin de dix mille âmes 
-                        dont il répond à Dieu comme de la sienne propre : il y en a d’un plus haut rang et d’une plus grande distinction dont il ne 
-                        doit aucun compte, et dont il se charge plus volontiers. Il écoute, il veille sur tout ce qui peut servir de pâture à son 
+                        on attend qu’il ait parlé, et longtemps et avec action, pour avoir audience, pour être vu. 
+                        Il entre dans le secret des 
+                        familles ; il est de quelque chose dans tout ce qui leur arrive de triste ou d’avantageux ; 
+                        il prévient, il s’offre, il se 
+                        fait de fête, il faut l’admettre. Ce n’est pas assez pour remplir son temps ou son ambition, 
+                        que le soin de dix mille âmes 
+                        dont il répond à Dieu comme de la sienne propre : il y en a d’un plus haut rang et d’une plus 
+                        grande distinction dont il ne 
+                        doit aucun compte, et dont il se charge plus volontiers. Il écoute, il veille sur tout ce qui 
+                        peut servir de pâture à son 
                         esprit d’intrigue, de médiation et de 
                         <app>
                         <lem> manège </lem>
@@ -542,7 +603,8 @@
                         <rdg wit="#Paris_1692_7"> manege </rdg>
                         </app>
                         . À peine un grand est-il débarqué, qu’il l’empoigne et s’en saisit ; on entend 
-                        plus tôt dire à Théophile qu’il le gouverne, qu’on n’a pu soupçonner qu’il pensait à le gouverner.
+                        plus tôt dire à  <persName ref="#Théophile"> Théophile </persName>
+                        qu’il le gouverne, qu’on n’a pu soupçonner qu’il pensait à le gouverner.
 
                     <pb n="174" ed="#Paris_unknown"/>
 <!-- Page 174 in edition "?" starts here --> 
@@ -582,8 +644,7 @@
 <!-- Page 295 in edition "10" starts here -->
                         <pb n="332" ed="#Paris_1692_7"/>
 <!-- Page 332 in edition "7" starts here --> 
-                        apprivoise ; ils en viennent, par cette disgrâce, 
-                        jusqu’à rendre le salut ; 
+                        apprivoise ; ils en viennent, par cette disgrâce jusqu’à rendre le salut ; 
                       
                         <app>
                         <lem> ; </lem>
@@ -604,14 +665,15 @@
                         <lem> indifférents </lem>
                         <rdg wit="#Paris_1692_7"> indifferens </rdg>
                         </app> 
-                        indifférents sur les flatteries ou sur les louanges qu’ils en reçoivent, 
-                        et tempère leur vanité. 
+                       sur les flatteries ou sur les louanges qu’ils en reçoivent, et tempère leur vanité
                         <app>
-                        <lem> . De même </lem>
-                        <note type= "glossaire" resp= "#EV" source ="#Paris_unknown #Paris_1692_7"> Dans ces deux précédentes éditions, 
-                             beaucoup de phrase sont raccourcies de la sorte : les deux points sont remplacés pard des points puis majuscule.    </note>
+                        <lem>. De même </lem>
+                        <note type= "glossaire" resp= "#EV" source ="#Paris_unknown #Paris_1692_7"> Dans ces deux précédentes 
+                            éditions, 
+                        beaucoup de phrases sont raccourcies de la sorte : les deux points sont remplacés par des points 
+                        puis majuscule.</note>
                         </app> 
-                        De même les princes, loués sans fin et sans relâche des grands ou des courtisans, en seraient plus 
+                        les princes, loués sans fin et sans relâche des grands ou des courtisans, en seraient plus 
                         vains s’ils estimaient davantage ceux qui les louent.
                     </p>
                     </div2> 
@@ -622,20 +684,20 @@
                     <p> 
                     <g ref="#p_d_m_1"> </g>
                         Les grands croient être seuls parfaits, n’admettent qu’à peine dans les autres hommes la droiture d’esprit, l’habileté, la 
-                        délicatesse, et s’emparent de ces riches talents comme de choses dues à leur naissance. 
+                        délicatesse, et s’emparent de ces riches talents comme de choses dues à leur naissance
                         
                         <app>
-                        <lem> . C'est </lem>
+                        <lem>. C'est </lem>
                         <rdg wit="#Paris_unknown #Paris_1688_1 #Paris_1692_7"> : c'est </rdg>
                         </app>
-                        C’est cependant en eux une erreur 
+                        cependant en eux une erreur 
                         grossière de se nourrir de si fausses préventions : ce qu’il y a jamais eu de mieux pensé, de mieux dit, de mieux écrit, et 
-                        peut-être d’une conduite plus délicate, ne nous est pas toujours venu de leur fonds. 
+                        peut-être d’une conduite plus délicate, ne nous est pas toujours venu de leur fonds
                         <app>
-                        <lem> . Ils </lem>
+                        <lem>. Ils </lem>
                         <rdg wit="#Paris_unknown #Paris_1688_1 #Paris_1692_7"> : ils </rdg>
                         </app>
-                        Ils ont de grands domaines, et une longue 
+                        ont de grands domaines, et une longue 
                         suite d’ancêtres : cela ne leur peut être contesté.
                     </p>
                     </div2>
@@ -659,15 +721,15 @@
                         <lem> Elles </lem>
                         <rdg wit="#Paris_unknown #Paris_1692_7"> elles </rdg>
                         </app> 
-                        Elles me sont suspectes, et je les récuse. 
+                        me sont suspectes, et je les récuse 
                         <app>
                         <lem> . Me </lem>
                         <rdg wit="#Paris_unknown #Paris_1692_7"> , me </rdg>
                         </app> 
-                        Me laisserai-je éblouir par un air de capacité 
+                        laisserai-je éblouir par un air de capacité 
                         ou de hauteur qui vous met au-dessus de tout ce qui se fait, de ce qui se dit et de ce qui s’écrit ; qui vous rend sec sur les 
                         louanges, et empêche qu’on ne puisse arracher de vous la moindre approbation ? Je conclus de là plus naturellement que vous avez 
-                        de la faveur, du crédit et de grandes richesses. Quel moyen de vous définir, Téléphon ? on n’approche de vous que comme du feu, et 
+                        de la faveur, du crédit et de grandes richesses. Quel moyen de vous définir, <persName ref="#Téléphon ">Téléphon </persName>? on n’approche de vous que comme du feu, et 
                         dans une certaine distance, et il faudrait vous développer, vous manier, vous confronter avec vos pa-
                         
                         <pb n="175" ed="#Paris_unknown"/>
@@ -679,8 +741,8 @@
                         <lem> . Votre </lem>
                         <rdg wit="#Paris_unknown #Paris_1692_7"> : votre </rdg>
                         </app> 
-                        Votre homme de confiance, qui est dans votre familiarité, dont vous prenez conseil, pour qui vous 
-                        quittez Socrate et Aristide, avec qui vous riez, et qui rit plus haut que vous, Dave enfin, m’est très connu : serait-ce assez 
+                        homme de confiance, qui est dans votre familiarité, dont vous prenez conseil, pour qui vous 
+                        quittez <persName ref="#Socrate">Socrate</persName> et <persName ref="#Aristide">Aristide</persName>, avec qui vous riez, et qui rit plus haut que vous, Dave enfin, m’est très connu : serait-ce assez 
                         pour vous bien connaître ?
 
                         <pb n="297" ed="#Paris_1699_1"/>
