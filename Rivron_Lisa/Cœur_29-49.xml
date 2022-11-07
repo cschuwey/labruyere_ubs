@@ -24,7 +24,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
-                    <monogr>
+                      <monogr>
                         <title> Les Caractères </title>
                         <author> La Bruyère </author>
                         <edition> édition classique </edition>
@@ -62,12 +62,17 @@
             </textDesc>
         </profileDesc>
         <encodingDesc>
+            <classDecl>
+                <taxonomy><category xml:id="jalousie"></category></taxonomy>
+                <taxonomy><category xml:id="amour"></category></taxonomy>
+                <taxonomy><category xml:id="faiblesse"></category></taxonomy>
+            </classDecl>
             <projectDesc><p></p></projectDesc>
             <charDecl>
                 <glyph xml:id="pied_de_mouche">
                     <glyphName>pied de mouche</glyphName>
                     <desc>¶</desc>
-                        <charProp>
+                    <charProp>
                         <localName>entity</localName>
                         <value>pied de mouche</value>
                     </charProp>
@@ -113,9 +118,9 @@
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="29"> <p>
                     <g ref="pied_de_mouche"></g>
-                    Il semble que, s’il y a un soupçon injuste, bizarre et sans fondement, qu’on ait une fois appelé jalousie, cette autre jalousie qui est un sentiment juste, naturel, fondé en raison et sur l’expérience, mériterait un autre nom./ 
-                    Le tempérament a beaucoup de part à la jalousie, et elle ne suppose pas toujours une grande passion. C’est cependant un paradoxe qu’un violent amour sans délicatesse./ 
-                    Il arrive souvent que l’on souffre tout seul de la délicatesse; L’on souffre de la jalousie, et l’on fait souffrir les autres
+                    Il semble que, s’il y a un soupçon injuste, bizarre et sans fondement, qu’on ait une fois appelé <term ref="#jalousie">jalousie</term> , cette autre <term ref="#jalousie">jalousie</term>qui est un sentiment juste, naturel, fondé en raison et sur l’expérience, mériterait un autre nom./ 
+                    Le tempérament a beaucoup de part à la <term ref="#jalousie">jalousie</term>, et elle ne suppose pas toujours une grande passion. C’est cependant un paradoxe qu’un violent amour sans délicatesse./ 
+                    Il arrive souvent que l’on souffre tout seul de la délicatesse; L’on souffre de la <term ref="#jalousie">jalousie</term>, et l’on fait souffrir les autres
                     
                     <app>
                         <lem>.</lem>
@@ -123,19 +128,19 @@
                         <rdg wit="#Paris_1699_10">.</rdg>
                     </app>    
                     
-                    Celles qui ne nous ménagent sur rien, et ne nous épargnent nulles occasion de jalousie, ne mériteraient de nous aucune jalousie, si l’on se réglait plus par leurs sentiments et leur conduite que par son
+                    Celles qui ne nous ménagent sur rien, et ne nous épargnent nulles occasion de <term ref="#jalousie">jalousie</term>, ne mériteraient de nous aucune <term ref="#jalousie">jalousie</term>, si l’on se réglait plus par leurs sentiments et leur conduite que par son
                     coeur. </p> </div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="30"> <p>
                     <g ref="pied_de_mouche"></g>
-                    Les froideurs et les relâchements dans l’amitié ont leurs causes. En amour, il n’y a guerre d’autre raison de ne s’aimer plus que de s’être trop aimés./
+                    Les froideurs et les relâchements dans l’amitié ont leurs causes. En <term ref="#amour">amour</term>, il n’y a guerre d’autre raison de ne s’<term ref="#amour">aimer</term> plus que de s’être trop <term ref="#amour">aimés</term>./
                     <note type="glossaire" resp="LR" source="#Paris_1694_8 #Paris_1699_10">
-                    Dans ces deux anciennes éditions, la conjonction de coordination "et" est inexistante, elle est transcrite sous la forme de l'esperluette "&amp;", et ce, dans toute la partie "Du Coeur" que nous étudions. </note> 
-                    </p></div2>
+                        Dans ces deux anciennes éditions, la conjonction de coordination "et" est inexistante, elle est transcrite sous la forme de l'esperluette "&amp;", et ce, dans toute la partie "Du Coeur" que nous étudions. </note> 
+                </p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="31"> <p>
                     <g ref="pied_de_mouche"></g>
-                    L’on n’est pas plus maître de toujours aimer qu’on l’a été de ne pas aimer.</p></div2>
+                    L’on n’est pas plus maître de toujours <term ref="#amour">aimer</term> qu’on l’a été de ne pas<term ref="#amour">aimer</term>.</p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="32"> <p>
                     <g ref="pied_de_mouche"></g>
@@ -143,16 +148,16 @@
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="33"> <p>
                     <g ref="pied_de_mouche"></g>
-                    Le commencement et le déclin de l’amour se font sentir par l’embarras où l’on est de se trouver seuls.</p></div2> 
+                    Le commencement et le déclin de <term ref="#amour">l'amour</term>se font sentir par l’embarras où l’on est de se trouver seuls.</p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="34"> <p>
                     <g ref="#pied_de_mouche"></g>
-                    Cesser d’aimer, preuve sensible que l’homme est borné, et que le cœur a
+                    Cesser d’<term ref="#amour">aimer</term>, preuve sensible que l’homme est borné, et que le cœur a
                     ses limites./ 
-                    C’est faiblesse que d’aimer ; c’est souvent une autre faiblesse que de
+                    C’est faiblesse que d’<term ref="#amour">aimer</term> ; c’est souvent une autre faiblesse que de
                     guérir./ 
                     On guérit comme on se console : on n’a pas dans le cœur de quoi toujours
-                    pleurer et toujours aimer./ </p></div2> 
+                    pleurer et toujours <term ref="#amour">aimer</term>./ </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1694_10" n="35"> <p> 
                     <g ref="#pied_de_mouche"></g>
@@ -160,7 +165,7 @@
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="36"> <p> 
                     <g ref="#pied_de_mouche"></g>
-                    Si une laide se fait aimer, ce ne peut être qu’éperdument ; car il faut que ce soit ou par une étrange faiblesse de son amant, ou par de plus secrets et de plus invincibles charmes que ceux de la beauté. </p></div2> 
+                    Si une laide se fait <term ref="#amour">aimer</term>, ce ne peut être qu’éperdument ; car il faut que ce soit ou par une étrange <term ref="#faiblesse">faiblesse</term>de son <term ref="#amour">amant</term>, ou par de plus secrets et de plus invincibles charmes que ceux de la beauté. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="37"> <p>
                     <g ref="#pied_de_mouche"></g>
@@ -172,11 +177,11 @@
                         <rdg wit= "#Paris_1699_10">habïtude</rdg>
                     </app>
                     
-                    , et à se dire de bouche que l’on s’aime, après que les manières disent qu’on ne s’aime plus. </p></div2> 
+                    , et à se dire de bouche que l’on s’<term ref="#amour">aime</term>, après que les manières disent qu’on ne s’<term ref="#amour">aime</term> plus. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="38"> <p> 
                     <g ref="#pied_de_mouche"></g>
-                    Vouloir oublier quelqu’un, c’est y penser. L’amour a cela de commun avec les scrupules, qu’il s’aigrit par les réflexions et les retours que l’on fait pour s’en délivrer. Il faut, s’il se peut, ne point songer sa passion pour l’affaiblir. </p></div2> 
+                    Vouloir oublier quelqu’un, c’est y penser. L’<term ref="#amour">amour</term> a cela de commun avec les scrupules, qu’il s’aigrit par les réflexions et les retours que l’on fait pour s’en délivrer. Il faut, s’il se peut, ne point songer sa <term ref="#amour">passion</term> pour l’affaiblir. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="39"> <p>
                     <g ref="#pied_de_mouche"></g>
@@ -202,7 +207,7 @@
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="44"> <p>
                     <g ref="#pied_de_mouche"></g>
                     On a dit en latin qu’il coûte moins cher de 
-                                        
+                    
                     <app>
                         <lem>haïr</lem>
                         <rdg wit="#Paris_1694_8">haït</rdg>
@@ -260,8 +265,8 @@
                     qui nous met en la place des malheureux, pourquoi tirent-ils de nous si peu de soulagement dans leurs misères ? Il vaut mieux s’exposer à l’ingratitude que de manquer aux misérables. 
                     
                     <note type="glossaire" resp="LR" source="#Paris_1694_8 #Paris_1699_10">
-                    Dans les deux anciennes éditions, c'est un point virgule suit "la place des malheureux", et non une virgule. </note>
-                    </p></div2>
+                        Dans les deux anciennes éditions, c'est un point virgule suit "la place des malheureux", et non une virgule. </note>
+                </p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="49"> <p>
                     <g ref="#pied_de_mouche"></g>
@@ -272,14 +277,14 @@
                         <rdg wit="#Paris_1694_8">l'ingratitude</rdg>
                         <rdg wit="#Paris_1699_10">l'indulgence</rdg>
                     </app>  
-
-                                     
+                    
+                    
                     pour soi et la dureté pour les autres n’est qu’un seul et même vice. 
                     
                     <note type="glossaire" resp="LR" source="#Paris_1694_8 #Paris_1699_10">
-                    La Bruyère, en modifiant le terme "ingratitude" dans la huitième version - qui signifie absence de reconnaissance - par le terme "indulgence" dans la dixième version - qui signifie facilité à pardonner, vient modifier le sens de sa citation.</note>
+                        La Bruyère, en modifiant le terme "ingratitude" dans la huitième version - qui signifie absence de reconnaissance - par le terme "indulgence" dans la dixième version - qui signifie facilité à pardonner, vient modifier le sens de sa citation.</note>
                     
-                    </p></div2>
+                </p></div2>
                 
                 
                 
