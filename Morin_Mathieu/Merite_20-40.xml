@@ -65,6 +65,31 @@
                     </monogr>
                 </biblStruct>
                 
+                <bibl>
+                    
+                </bibl>
+                
+                <listPerson>
+                    <person xml:id="Pyrame"></person>
+                    <person xml:id="Mignard"></person>
+                    <person xml:id="Lulli"></person>
+                    <person xml:id="Corneille"></person>
+                    <person xml:id="Erasme"></person>
+                    <person xml:id="Philémon"></person>
+                    <person xml:id="Agathe"></person>
+                    <person xml:id="Alexandre"></person>
+                    <person xml:id="César"></person>
+                    <person xml:id="Aemile"></person>
+                    <person xml:id="Socrate"></person>
+                    <person xml:id="Mopse"></person>
+                    <person xml:id="Celse"></person>
+                    <person xml:id="Ménippe"></person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="Hollande"></place>
+                </listPlace>
+                
             </sourceDesc>
         </fileDesc>
         
@@ -340,11 +365,11 @@
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">&amp;</rdg>
-                        </app> de plus relevé. V** 
+                        </app> de plus relevé. <persName>V**</persName> 
                         <app>
                             <lem>est un peintre,</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſt un Peintre.</rdg>
-                        </app> C** un 
+                        </app> <persName>C**</persName> un 
                         <app>
                             <lem>musicien,</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">Muſicien,</rdg>
@@ -352,14 +377,14 @@
                         <app>
                             <lem>et l’auteur</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">&amp; l'Auteur</rdg>
-                        </app> de Pyrame 
+                        </app> de <persName>Pyrame</persName> 
                         <app>
                             <lem>est un poète</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſt un Poëte</rdg>
                         </app> ; mais
                         <app>
-                            <lem>Mignard est Mignard, Lulli est Lulli, et Corneille est Corneille.</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">MIGNARD eſt MIGNARD. LULLY eſt LULLY ; &amp; CORNEILLE eſt CORNEILLE</rdg>
+                            <lem><persName>Mignard</persName> est <persName>Mignard</persName>, <persName>Lulli</persName> est <persName>Lulli</persName>, et <persName>Corneille</persName> est <persName>Corneille</persName>.</lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10"><persName>MIGNARD</persName> eſt <persName>MIGNARD</persName>. <persName>LULLY</persName> eſt <persName>LULLY</persName> ; &amp; <persName>CORNEILLE</persName> eſt <persName>CORNEILLE</persName></rdg>
                         </app><pb n="188" source="#Paris_1688_3"/></p>
                 </div2>
                 
@@ -382,7 +407,7 @@
                     <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="26"><g ref="#pieddemouche"></g>
                         Après le mérite personnel, il faut l’avouer, 
                         ce sont les éminentes dignité et les grands titres dont les<pb n="148" source="#Paris_1699_10"/> hommes tirent plus de distinction et plus 
-                        d’éclat ; et qui ne sait être un Erasme doit penser à être évêque. Quelques-uns, 
+                        d’éclat ; et qui ne sait être un <persName>Erasme</persName> doit penser à être évêque. Quelques-uns, 
                         pour étendre leur renommée, entassent sur leurs personnes des pairies, des colliers d’ordre, 
                         des primaties, la pourpre, et ils auraient besoin d’une tiare ; 
                         mais quel besoin a Trophime d’être cardinal ?</p>
@@ -390,20 +415,20 @@
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1692_7 #Paris_1699_10" n="27"><g ref="#pieddemouche"></g>
-                        L’or éclate, dites-vous, sur les habits de Philémon. 
+                        L’or éclate, dites-vous, sur les habits de <persName>Philémon</persName>. 
                         — Il éclate de même chez les marchands. — Il est habillé des plus belles étoffes. 
                         — Le sont-elles moins toutes déployées dans les boutiques et à la pièce ? 
                         — Mais la broderie et les ornements y ajoutent encore la magnificence. 
                         — Je loue donc le travail de l’ouvrier. — Si on lui demande quelle heure il est, 
                         il tire une montre qui est un chef-d’œuvre ; la<pb n="150" source="#Paris_1692_7"/> garde de son épée est un onyx
-                            <note source="#Paris_1699_10" style="*" type="footnote" place="right" resp="imprimeur">Agathe</note>
-                            <note source="#Paris_1688_7" style="✝" type="footnote" place="right" resp="#Imprimeur">Agathe</note> ; 
+                        <note source="#Paris_1699_10" style="*" type="footnote" place="right" resp="imprimeur"><persName>Agathe</persName></note>
+                        <note source="#Paris_1688_7" style="✝" type="footnote" place="right" resp="#Imprimeur"><persName>Agathe</persName></note> ; 
                         il a au doigt un gros diamant qu’il fait briller aux yeux, et qui est parfait ; 
                         il ne lui manque aucune de ces curieuses bagatelles que l’on porte sur soi autant pour la vanité que 
                         pour l’usage, et il ne se plaint non plus toute sorte de parure qu’un jeune<pb n="149" source="#Paris_1699_10"/> homme qui a épousé une riche 
                         vieille. — Vous m’inspirez enfin de la curiosité ; il faut voir du moins des choses si précieuses : 
-                        envoyez-moi cet habit et ces bijoux de Philémon ; je vous quitte de la personne.
-                        Tu te trompes, Philémon, si avec ce carrosse brillant, ce grand nombre de coquins qui te suivent, 
+                        envoyez-moi cet habit et ces bijoux de <persName>Philémon</persName> ; je vous quitte de la personne.
+                        Tu te trompes, <persName>Philémon</persName>, si avec ce carrosse brillant, ce grand nombre de coquins qui te suivent, 
                         et ces six bêtes qui te traînent, tu penses que l’on t’en estime davantage : 
                         l’on écarte tout cet attirail qui t’est étranger, pour pénétrer jusques à toi, qui n’es qu’un fat.
                         Ce n’est pas qu’il ne faut quelquefois pardonner à celui qui, avec un grand cortège, 
@@ -414,7 +439,7 @@
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="28"><g ref="#pieddemouche"></g>
                         Un homme à la cour, et souvent<pb n="162" source="#Paris_1689_4"/> à la ville, 
-                        qui a un long manteau de soie ou de drap de Hollande, une ceinture large et placée haut sur l’estomac, 
+                        qui a un long manteau de soie ou de drap de <placeName>Hollande</placeName>, une ceinture large et placée haut sur l’estomac, 
                         le soulier de maroquin, la calotte de même, d’un beau grain, un collet bien fait et bien empesé, 
                         les cheveux arrangés et le teint vermeil,<pb n="150" source="#Paris_1699_10"/> 
                         qui avec cela se souvient de quelques distinctions métaphysiques, 
@@ -443,13 +468,13 @@
                         toutes les ver<pb n="190" source="#Paris_1688_3"/>tus militaires font l’un et l’autre. Il semble néanmoins que le premier soit jeune, 
                         en<pb n="151" source="#Paris_1699_10"/>treprenant, d’une haute valeur, ferme dans les périls, intrépide ; 
                         que l’autre excelle par un grand sens, par une vaste prévoyance, par une haute capacité, 
-                        et par une longue expérience. Peut-être qu’Alexandre n’était qu’un héros, 
-                        et que César était un grand homme.</p>
+                        et par une longue expérience. Peut-être qu’<persName>Alexandre</persName> n’était qu’un héros, 
+                        et que <persName>César</persName> était un grand homme.</p>
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1692_7 #Paris_1699_10" n="32"><g ref="#pieddemouche"></g>
-                        Aemile était né ce que les plus grands hommes ne deviennent qu’à force de règles, 
+                        <persName>Aemile</persName> était né ce que les plus grands hommes ne deviennent qu’à force de règles, 
                         de méditation et d’exercice. 
                         Il n’a eu dans ses premières années qu’à remplir des talents qui étaient naturels, 
                         et qu’à se livrer à son génie. Il a fait, il a agi, avant que de savoir, 
@@ -491,7 +516,7 @@
                         ne peuvent comprendre cette universalité de talents que l’on remarque quelquefois dans un même sujet : 
                         où ils voient l’agréable, ils en excluent le solide ; où ils croient découvrir les grâces du corps, 
                         l’agilité, la souplesse, la dextérité, ils ne veulent plus y admettre les dons de l’âme, la profondeur, 
-                        la réflexion, la sagesse : ils ôtent de l’histoire de Socrate qu’il ait dansé.<pb n="155" source="#Paris_1692_7"/></p>
+                        la réflexion, la sagesse : ils ôtent de l’histoire de <persName>Socrate</persName> qu’il ait dansé.<pb n="155" source="#Paris_1692_7"/></p>
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
@@ -519,7 +544,7 @@
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1692_7 #Paris_1699_10" n="38"><g ref="#pieddemouche"></g>
-                        Je connais Mopse d’une visite qu’il m’a rendue sans me connaître ; 
+                        Je connais <persName>Mopse</persName> d’une visite qu’il m’a rendue sans me connaître ; 
                         il prie des gens qu’il ne connaît point<pb n="156" source="#Paris_1692_7"/> de le mener chez d’autres dont il n’est pas connu ; 
                         il écrit à des femmes qu’il connaît de vue. Il s’insinue dans un cercle de personnes respectables, 
                         et qui ne savent quel il est, et là, sans attendre qu’on l’in<pb n="155" source="#Paris_1699_10"/>terroge, ni sans sentir qu’il interrompt, 
@@ -537,7 +562,7 @@
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1692_7 #Paris_1699_10" n="39"><g ref="#pieddemouche"></g>
-                        Celse est d’un rang médiocre, mais des grands le souffrent ; il n’est pas savant, 
+                        <persName>Celse</persName> est d’un rang médiocre, mais des grands le souffrent ; il n’est pas savant, 
                         il a relation avec des savants ; il a peu de mérite, mais il connaît des gens qui en ont beaucoup ; 
                         il n’est pas habile, mais il a une langue qui peut servir de 
                         <seg>truchement
@@ -560,7 +585,7 @@
                         N’a-t-il pas dit de ceux-ci que leur union ne serait pas longue ? 
                         N’était-il pas présent à de certaines paroles qui furent dites ? 
                         N’entra-t-il pas dans une espèce de négo<pb n="158" source="#Paris_1692_7"/>ciation ? Le voulut-on croire ? fut-il écouté ? 
-                        A qui parlez-vous de ces choses ? Qui a eu plus de part que Celse à toutes ces intrigues de cour ? 
+                        A qui parlez-vous de ces choses ? Qui a eu plus de part que <persName>Celse</persName> à toutes ces intrigues de cour ? 
                         Et si cela n’était ainsi, s’il ne l’avait du moins ou rêvé ou imaginé, 
                         songe<pb n="157" source="#Paris_1699_10"/>rait-il à vous le faire croire ? 
                         aurait-il l’air important et mystérieux d’un homme revenu d’une ambassade ?</p>
@@ -568,7 +593,7 @@
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1692_7 #Paris_1699_10" n="40"><g ref="#pieddemouche"></g>
-                        Ménippe est l’oiseau paré de divers plumages qui ne sont pas à lui. 
+                        <persName>Ménippe</persName>est l’oiseau paré de divers plumages qui ne sont pas à lui. 
                         Il ne parle pas, il ne sent pas ; il répète des sentiments et des discours, 
                         se sert même si naturellement de l’esprit des autres qu’il y est le premier trompé, 
                         et qu’il croit souvent dire son goût ou expliquer sa pensée, 
