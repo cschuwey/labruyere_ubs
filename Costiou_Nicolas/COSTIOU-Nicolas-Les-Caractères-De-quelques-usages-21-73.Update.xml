@@ -146,34 +146,22 @@
                         pour y applaudir à une troupe d’excommuniés, qui ne le sont que par le
                         plaisir qu’ils leur donnent, et qui est déjà payé d’avance ? Il me semble
                         qu’il faudrait ou fermer les théâtres, ou prononcer moins sévèrement sur
-                        l’état des comédiens. </p>
+                        l’état des comédiens.
 
-                    <app>
-                        <lem wit="#p1">chrétiens</lem>
-                        <rdg wit="#p2">Chrétiens</rdg>   
-                    </app>
+                    <app><lem>chrétiens</lem><rdg>Chrétiens</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">faudrait</lem>
-                        <rdg wit="#p2">faudroit</rdg>   
-                    </app>
+                    <app><lem>faudrait</lem><rdg>faudroit</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">rassemblent</lem>
-                        <rdg wit="#p2">Raffemblent</rdg>   
-                    </app>
+                    <app><lem>rassemblent</lem><rdg>Raffemblent</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">excommuniés</lem>
-                        <rdg wit="#p2">excommuniez</rdg>   
-                    </app>
+                    <app><lem>excommuniés</lem><rdg>excommuniez</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">comédiens</lem>
-                        <rdg wit="#p2">Comédiens</rdg>   
-                    </app>
-                    
-               
+                    <app><lem>comédiens</lem><rdg>Comédiens</rdg></app>
+                        
+                    <note hand="inconnue">Une note manuscrite</note>
+                                       
+                    </p>             
+                                     
                 </div2>
 
                 <div2 n="22" source="#Paris-1690, #Paris-1696">
@@ -182,34 +170,23 @@
                         tonne en chaire contre le moine et ses adhérents ; telle femme pieuse sort
                         de l’autel, qui entend au prône qu’elle vient de faire un sacrilège. N’y
                         a-t-il point dans l’Eglise une puissance à qui il appartienne ou de faire
-                        taire le pasteur, ou de suspendre pour un temps le pouvoir du barnabite ? </p>
+                        taire le pasteur, ou de suspendre pour un temps le pouvoir du barnabite ?
 
-                    <app>
-                        <lem wit="#p1">saint</lem>
-                        <rdg wit="#p2">Faints</rdg>     
-                    </app>
 
-                    <app>
-                        <lem wit="#p1">moine</lem>
-                        <rdg wit="#p2">Moine</rdg>     
-                    </app>
+                    <app><lem>saint</lem><rdg>Faints</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">autel</lem>
-                        <rdg wit="#p2">Autel</rdg>   
-                    </app>
+                    <app><lem>moine</lem><rdg>Moine</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">prone</lem>
-                        <rdg wit="#p2">Prone</rdg>   
-                    </app>
+                    <app><lem>autel</lem><rdg>Autel</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">pasteur</lem>
-                        <rdg wit="#p2">Pasteur</rdg>   
-                    </app>
-
-
+                    <app><lem>prone</lem><rdg>Prone</rdg></app>
+                    
+                    <app><lem>pasteur</lem><rdg>Pasteur</rdg></app>
+                    
+                    <note hand="inconnue">Une note manuscrite</note>
+                        
+                    </p>
+                    
                 </div2>
 
                 <div2 n="23" source="#Paris-1690, #Paris-1696">
@@ -220,33 +197,22 @@
                         n’est rien au fond que cet usage ; et ceux qui reçoivent pour les choses
                         saintes ne croient point les vendre, comme ceux qui donnent ne pensent point
                         à les acheter : ce sont peut-être des apparences qu’on pourrait épargner aux
-                        simples et aux indévots. </p>
+                        simples et aux indévots.
 
-                    <app>
-                        <lem wit="#p1">paroisse</lem>
-                        <rdg wit="#p2">Paroisse</rdg>   
-                    </app>
+                    <app><lem>paroisses</lem><rdg>Paroisse</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">dirait</lem>
-                        <rdg wit="#p2">diroit</rdg>   
-                    </app>
+                    <app><lem>dirait</lem><rdg>diroit</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">soit</lem>
-                        <rdg wit="#p2">Foit</rdg>   
-                    </app>
+                    <app><lem>soit</lem><rdg>Foit</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">sacrements</lem>
-                        <rdg wit="#p2">Sacremens</rdg>   
-                    </app>
+                    <app><lem>sacrements</lem><rdg>Sacremens</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">semblent</lem>
-                        <rdg wit="#p2">Femblent</rdg>   
-                    </app>
-
+                    <app><lem>semblent</lem><rdg>Femblent</rdg></app>
+                    
+                    <note hand="inconnue">Une note manuscrite</note>
+                    
+                    </p>
+                    
                 </div2>
 
                 <div2 n="24" source="#Paris-1696">
@@ -279,33 +245,24 @@
                         digne de la première, qui est vacante : ni ses talents, ni sa doctrine, ni
                         une vie exemplaire, ni les vœux des paroissiens ne sauraient l’y faire
                         asseoir. Il naît de dessous terre un autre clerc pour la remplir. Tite est
-                        reculé ou congédié : il ne se plaint pas ; c’est l’usage. </p>
-
-                    <app>
-                        <lem wit="#p1">service</lem>
-                        <rdg wit="#p2">Fervice</rdg>   
-                    </app>
+                        reculé ou congédié : il ne se plaint pas ; c’est l’usage.
                     
-                    <app>
-                        <lem wit="#p1">seconde</lem>
-                        <rdg wit="#p2">Feconde</rdg>   
-                    </app>
+                    <app><lem>service</lem><rdg>Fervice</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">ny</lem>
-                        <rdg wit="#p2">ni</rdg>   
-                    </app>
+                    <app><lem>seconde</lem><rdg>Feconde</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">fes</lem>
-                        <rdg wit="#p2">fes</rdg>   
-                    </app>
+                    <app><lem>ny</lem><rdg>ni</rdg></app>
                     
-                    <app>
-                        <lem wit="#p1">talents</lem>
-                        <rdg wit="#p2">talens</rdg>   
-                    </app>
-
+                    <app><lem>fes</lem><rdg>fes</rdg></app>
+                    
+                    <app><lem>talents</lem><rdg>talens</rdg></app>
+                    
+                    <note place="marge" source="#Paris-1690" resp="author" n="clerc">Ecclesiastique</note>
+                    
+                     <note place="marge" source="#Paris-1696" resp="author" n="clerc">Ecclesiastique</note>
+                    
+                    </p>
+            
                 </div2>
 
                 <div2 n="26" source="#Paris-1690, #Paris-1696">
@@ -328,7 +285,11 @@
                         mélodie, qui réveille les chantres et les enfants de chœur, endort les
                         chanoines, les plonge dans un sommeil doux et facile, et qui ne leur procure
                         que de beaux songes : ils se lèvent tard, et vont à l’église se faire payer
-                        d’avoir dormi. </p>
+                        d’avoir dormi. 
+                    
+                    <note place="marge" resp="transcriber">L'auteur critique ici certains hommes d'église qui profitent de leur situation et rejetent des responsabilités sur autrui.</note>
+                       
+                    </p>
 
                 </div2>
 
@@ -341,7 +302,11 @@
                         par des larmes, par des mouvements qui les mettent en sueur et qui les
                         jettent dans l’épuisement, fassent enfin consentir un homme chrétien et
                         raisonnable, dont la maladie est sans ressource, à ne se point perdre et à
-                        faire son salut ? </p>
+                        faire son salut ? 
+                    
+                        <note place="marge" resp="transcriber">Félicité : terme vieilli, peu utilisé à présent.</note>
+                    
+                    </p>
 
                 </div2>
 
@@ -351,7 +316,11 @@
                         veut se réconcilier avec lui et mourir dans ses bonnes grâces. Cet homme si
                         sage, le conseil de toute une ville, fera-t-il de lui-même cette démarche si
                         raisonnable ? y entraînera-t-il sa femme ? ne faudra-t-il point pour les
-                        remuer tous deux la machine du directeur ? </p>
+                        remuer tous deux la machine du directeur ? 
+                    
+                        <note place="marge" resp="transcriber">L'auteur utilise des noms d'origine grecque : ainsi Aristippe. On connait un philosophe antique grec portant ce nom et développant une philosophie du plaisir comme le fit ensuite Epicure.</note>
+                    
+                    </p>
 
                 </div2>
 
@@ -447,7 +416,13 @@
 
                     <p> Il y a depuis longtemps dans le monde une manière de faire valoir son bien,
                         qui continue toujours d’être pratiquée par d’honnêtes gens, et d’être
-                        condamnée par d’habiles docteurs. </p>
+                        condamnée par d’habiles docteurs. 
+                    
+                        <note place="marge" source="#Paris-1690" resp="author" n="manière">Billets et obligations</note>
+                        
+                        <note place="marge" source="#Paris-1696" resp="author" n="manière">Billets et obligations</note>
+                                    
+                    </p>
 
                 </div2>
 
@@ -461,7 +436,13 @@
                         et qui ne les rend pas ; ou si elles les rend, c’est par des conduits
                         secrets et souterrains, sans qu’il y paraisse, ou qu’elle en soit moins
                         grosse et moins enflée ; ce n’est qu’après en avoir joui longtemps, et
-                        qu’elle ne peut plus les retenir. </p>
+                        qu’elle ne peut plus les retenir.
+                        
+                        <note place="marge" source="#Paris-1690" resp="author" n="">Greffe, consignation</note>
+                        
+                        <note place="marge" source="#Paris-1696" resp="author">Greffe, consignation</note>
+                        
+                    </p>
 
                 </div2>
 
@@ -511,7 +492,13 @@
                         celle de l’expédition : il est seulement à désirer qu’elle fût moins oubliée
                         en toute autre rencontre, qu’elle réglât au contraire les bureaux comme les
                         audiences, et qu’on cherchât une fin aux écritures, comme on a fait aux
-                        plaidoyers. </p>
+                        plaidoyers.
+                        
+                        <note place="marge" source="#Paris-1690" resp="author" n="écritures">Procez par écrit</note>
+                        
+                        <note place="marge" source="#Paris-1696" resp="author" n="écritures">Procez par écrit</note>
+                        
+                        </p>
 
                 </div2>
 
