@@ -204,7 +204,7 @@
             </langUsage>
             <textDesc n="comédie sociale">
                 <channel/>
-               <constitution> 16 chapitres dans lesquels se trouvent un certain nombre de remarques <constitution/>
+               <constitution> 16 chapitres dans lesquels se trouvent un certain nombre de remarques </constitution>
                 <derivation type="original"> </derivation>
                 <domain/>
                 <factuality type="fact"/>
@@ -212,7 +212,7 @@
                 <preparedness/>
                 <purpose/>
             </textDesc>
-
+            
         </profileDesc>
         <encodingDesc>
             <charDecl>
@@ -228,9 +228,23 @@
                 
             </charDecl>
 
-
             <p> Choix de ne pas garder le s long</p>
             <p>Choix de ne pas garder les esperluettes</p>
+            
+            <classDecl>
+                <taxonomy>
+                   <category xml:id="joie">
+                    <catDesc> </catDesc>
+                   </category>
+                    <category xml:id="haine">
+                        <catDesc> </catDesc>
+                    </category>
+                    <category xml:id="mort">
+                        <catDesc> </catDesc>
+                    </category>
+                    
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <list>
@@ -264,6 +278,10 @@
                 <item>
                     <date when="2022-11-05">05 novembre 2022</date> Insertion de notes personnelles en tant qu'éditrice.
                 </item>
+                <item>
+                    <date when="2022-11-07">07 novembre 2022</date> Encodage d'un personnage anonyme et de concepts
+                </item>
+                
                 
                 
                 
@@ -276,7 +294,7 @@
     </teiHeader>
     <text>
         <front>
-            <titlePage>
+            <titlePage >
                 <docAuthor>
                     <note style="written"/> La Bruyère, Jean de </docAuthor>
                 <docTitle>
@@ -306,7 +324,7 @@
                         <g ref="#Pied_de_mouche_simple"> </g> 
                         
                         Il y a de certaines gens qui veulent
-                        si ardemment et si déterminément une certaine chose, que de peur de la
+                        si ardemment et si déterminément une certaine chose, que de <term>peur</term> de la
                         manquer, ils n’oublient rien de ce qu’il faut faire pour la manquer.</p>
                 </div2>
 
@@ -322,7 +340,7 @@
                         </app> 
                         
                         dans le temps ni dans les circonstances où elles auraient fait un
-                        extrême plaisir. </p>
+                        extrême <term>plaisir</term>. </p>
                 </div2>
 
                 <div2 n="63" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
@@ -335,14 +353,14 @@
                             <rdg wit="#Paris_1684_edition_4 #Paris_1690_edition_5"> d'estre </rdg>
                         </app> 
                         
-                        heureux, de peur de mourir sans avoir ri. </p>
+                        heureux, de <term>peur</term> de <term>mourir</term> sans avoir ri. </p>
                     
                 </div2>
 
                 <div2 n="64" source="#XIXe_édition #Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p>  <g ref="#Pied_de_mouche_simple"> </g> 
                         
-                        La vie est courte, si elle ne mérite <pb n="126" source="#Paris_1699_edition_10"></pb> ce nom que lorsqu’elle est agréable,<pb n="150" source="#Paris_1699_edition_4"></pb>
+                        La <term>vie</term> est courte, si elle ne mérite <pb n="126" source="#Paris_1699_edition_10"></pb> ce nom que lorsqu’elle est agréable,<pb n="150" source="#Paris_1699_edition_4"></pb>
                         puisque si l’on cousait ensemble toutes les heures que l’on passe avec ce
                         qui 
                         
@@ -351,7 +369,7 @@
                             <rdg wit="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5"> plaist </rdg>
                         </app> 
                         
-                        , l’on ferait à peine d’un grand nombre d’années une vie de
+                        , l’on ferait à peine d’un grand nombre d’années une <term>vie</term> de
                         quelques mois. </p>
                 </div2>
 
@@ -371,9 +389,9 @@
                 <div2 n="66" source="#XIXe_édition #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g> 
                         
-                        On ne pourrait se défendre de quelque joie à voir périr un méchant homme :
-                        l’on jouirait alors du fruit de sa haine, et l’on tirerait de lui tout ce
-                        qu’on en peut espérer, qui est le plaisir de sa perte. Sa mort enfin arrive,
+                        On ne pourrait se défendre de quelque <term ref="#joie">joie</term> à voir périr un méchant homme :
+                        l’on jouirait alors du fruit de sa <term ref="#haine">haine</term>, et l’on tirerait de lui tout ce
+                        qu’on en peut espérer, qui est le <term>plaisir</term> de sa <term>perte</term>. Sa <term ref="#mort">mort</term> enfin arrive,
                         mais dans une conjoncture où nos
                         
                         <app>
@@ -395,8 +413,8 @@
                 <div2 n="67" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>
                         
-                        Il est pénible à un homme fier de pardonner à celui qui le surprend en
-                        faute, et qui se plaint de lui avec raison : sa fierté ne s’adoucit que
+                        Il est pénible à un homme <term>fier</term> de pardonner à celui qui le surprend en
+                        faute, et qui se plaint de lui avec <term>raison</term> : sa <term>fierté</term> ne s’adoucit que
                         lorsqu’il reprend ses avantages, et qu’il met l’autre dans son tort. </p>
                 </div2>
 
@@ -418,31 +436,31 @@
                 <div2 n="69" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"/>
                       
-                        Il est également difficile d’étouffer dans les commencements le sentiment
+                      Il est également difficile d’étouffer dans les commencements le <term>sentiment </term>
                         des injures et de le conserver après un certain nombre d’années. </p>
                 </div2>
 
                 <div2 n="70" source="#XIXe_édition #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
                       
-                        C’est par faiblesse que l’on 
+                        C’est par <term>faiblesse</term> que l’on 
                         
                         <app>
                         <lem wit="#Paris_1699_edition_10"> hait </lem>
                         <rdg wit="#Paris_1696_edition_9 "> haït </rdg>
                         </app>  
                         
-                        un ennemi, et que l’on songe à s’en venger ; et c’est par paresse que l’on s’apaise, et qu’on ne se venge point.</p>
+                        un <term>ennemi</term>, et que l’on songe à s’en venger ; et c’est par <term>paresse</term> que l’on s’apaise, et qu’on ne se venge point.</p>
                 </div2>
 
                 <div2 n="71" source="#XIXe_édition #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
                         
-                        Il y a bien autant de paresse que de faiblesse à se laisser gouverner. Il ne
+                        Il y a bien autant de <term>paresse</term> que de <term>faiblesse</term> à se laisser gouverner. Il ne
                         faut pas penser à gouverner un homme tout d’un coup, et sans autre
                         préparation, dans une affaire importante et qui serait capitale à lui ou aux
                         siens ; il sentirait d’abord l’empire et l’ascendant qu’on veut prendre sur
-                        son esprit, et il secouerait le joug <note resp=#"LG" type="glossaire"> "secouer le joug" est une expression au sens figuré qui désigne le fait de s'affranchir de toute domination ou autorité </note>  par honte ou par caprice : il faut
+                        son <term>esprit</term>, et il secouerait le joug <note resp="#LG" type="glossaire" > "secouer le joug" est une expression au sens figuré qui désigne le fait de s'affranchir de toute domination ou autorité </note>  par honte ou par caprice : il faut
                         tenter auprès de lui les petites choses, et de là le progrès jusqu’aux plus
                         grandes est immanquable. Tel ne pouvait au plus dans les commencements
                         qu’entreprendre de le faire partir pour la campagne ou retourner à la ville,
@@ -451,7 +469,7 @@
                         légère, et ne lui faire sentir que le moins qu’il se peut sa dépendance.
                         Tels se laissent gouverner jusqu’à un certain point, qui au delà sont
                         intraitables et ne se gouvernent plus : on perd tout à coup la route de leur
-                        cœur et de leur esprit ; ni hauteur ni souplesse, ni force ni industrie ne
+                        <term>cœur</term> et de leur <term>esprit</term> ; ni hauteur ni souplesse, ni force ni industrie ne
                         les peuvent dompter : avec cette différence que 
                         
                         <app>
@@ -460,39 +478,39 @@
                         </app>  
                         
                         sont ainsi
-                        faits par raison et avec fondement, et quelques autres par tempérament et
-                        par humeur. Il se trouve des hommes qui n’écoutent ni la raison ni les bons
-                        conseils, et qui s’égarent volontairement par la crainte qu’ils ont d’être
-                        gouvernés. D’autres consentent d’être gouvernés par leurs amis en des choses
-                        presque indifférentes, et s’en font un droit de les gouverner à leur tour en
-                        des choses graves et de conséquence. Drance<note resp="Lecteur" source="#Paris_1694_edition_8" hand="texte en partie illisible " type="commentaire dont la visée est sûrement de faire un parallèle entre le personnage de Drance et des figures ayant réellement existé. En effet, nous pouvons déchiffrer "Le chevalier de Lorraine" qui peut faire référence à Philippe de Lorraine qui a vécu à l'époque de La Bruyère."  place="gauche et en bas de la page"> [...] ou le chevalier de Lorraine </note> veut passer pour gouverner son
+                        faits par <term>raison</term> et avec fondement, et quelques autres par <term>tempérament</term> et
+                        par <term>humeur</term>. Il se trouve des hommes qui n’écoutent ni la <term>raison</term> ni les bons
+                        conseils, et qui s’égarent volontairement par la <term>crainte</term> qu’ils ont d’être
+                        gouvernés. D’autres consentent d’être gouvernés par leurs <term>amis</term> en des choses
+                        presque indifférentes, et s’en font un <term>droit</term> de les gouverner à leur tour en
+                        des choses graves et de conséquence. <seg><persName type="pseudo">Drance</persName><note resp="Lecteur" source="#Paris_1694_edition_8" style="written" hand="texte en partie illisible" type="commentaire"  place="gauche et en bas de la page"> [...] ou le chevalier de Lorraine. La visée du commentaire est sûrement de faire un parallèle entre le personnage de Drance et des figures ayant réellement existé. En effet, nous pouvons déchiffrer Le chevalier de Lorraine qui peut faire référence à Philippe de Lorraine qui a vécu à l'époque de La Bruyère. </note> veut passer pour gouverner son
                         maître, qui n’en croit rien, non plus que le public ; parler sans cesse à un
-                        grand que l’on sert, en des lieux et en des temps où il convient le <pb n="129" source="#Paris_1699_edition_10"></pb> moins,
+                        grand que l’on sert, en des lieux et en des temps où il convient le <pb n="129" source="#Paris_1699_edition_10"/> moins,
                         lui parler à l’oreille ou en des termes mystérieux, rire jusqu’à éclater en
                         sa présence, lui couper la parole, se mettre entre lui et ceux qui lui
                         parlent, dédaigner ceux qui viennent faire leur cour ou attendre
                         impatiemment qu’ils se retirent, se mettre proche de lui en une posture trop
-                        libre, figurer avec lui le dos appuyé à une cheminée, le tirer par son
+                            <term>libre</term>, figurer avec lui le dos appuyé à une cheminée, le tirer par son
                         habit, lui marcher sur les talons, faire le familier, prendre des libertés,
-                        marquent mieux un fat qu’un favori. <note resp="#LG" type="commentaire"> La Bruyère réalise une éthopée de "Drance" jusqu'à "favori" dans la mesure où il peint les moeurs et le caractère de Drance </note> Un homme sage ni ne se laisse gouverner,
-                        ni ne cherche à gouverner les autres : il veut que la raison gouverne seule
-                        et toujours. Je ne haïrais pas d’être livré par la confiance à une personne
-                        raisonnable, et d’en être gouverné en toutes choses, et absolument, et
+                        marquent mieux un fat qu’un favori. <note resp="#LG" type="commentaire"> La Bruyère réalise une éthopée de "Drance" jusqu'à "favori" dans la mesure où il peint les moeurs et le caractère de Drance </note></seg> Un homme sage ni ne se laisse gouverner,
+                        ni ne cherche à gouverner les autres : il veut que la <term>raison</term> gouverne seule
+                        et toujours. Je ne <term>haïrais</term> pas d’être livré par la <term>confiance</term> à une personne
+                        <term>raisonnable</term>, et d’en être gouverné en toutes choses, et absolument, et
                         toujours : je serais sûr de bien faire, sans avoir le son de délibérer ; je
-                        jouirais de la tranquillité de celui qui est gouverné par la raison. </p>
+                        jouirais de la <term>tranquillité</term> de celui qui est gouverné par la <term>raison</term>. </p>
                 </div2>
 
                 <div2 n="72" source="#XIXe_édition #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g>
-                        <seg> Toutes les passions sont menteuses : elles se déguisent autant qu’elles le
+                        <seg> Toutes les<term> passions</term> sont menteuses : elles se déguisent autant qu’elles le
                         peuvent aux yeux des autres ; elles <pb n="130" source="#Paris_1699_edition_10"></pb> se cachent à 
                         <app>
                         <lem wit="#Paris_1699_edition_10"> elles-mêmes </lem>
                         <rdg wit="#Paris_1690_edition_5"> elles-mesmes</rdg>
                         </app>
                         Il n’y a point
-                        de vice qui n’ait une fausse ressemblance avec quelque vertu, et qui ne s’en
-                            aide.<note resp=#"LG" type="commentaire"> À travers la définition satirique que La Bruyère réalise des passions, l'auteur critique les moeurs de son époque. </note> </seg> <pb n="157" source="#Paris_1691_edition_6"></pb></p>
+                        de <term>vice</term> qui n’ait une fausse ressemblance avec quelque <term>vertu</term>, et qui ne s’en
+                            aide.<note resp="#LG" type="commentaire"> À travers la définition satirique que La Bruyère réalise des passions, l'auteur critique les moeurs de son époque. </note> </seg> <pb n="157" source="#Paris_1691_edition_6"></pb></p>
                 </div2>
 
                 <div2 n="73" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
@@ -509,7 +527,7 @@
                         <rdg wit="#Paris_1684_edition_4"> Oseray je</rdg>
                         </app>
                         
-                        dire que le cœur seul concilie
+                        dire que le <term>cœur</term> seul concilie
                         les choses contraires, et admet les incompatibles 
                         <app>
                         <lem wit="#Paris_1699_edition_10"> ? </lem>
@@ -519,9 +537,9 @@
 
                 <div2 n="74" source="#XIXe_édition #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> 
-                        Les hommes rougissent moins de leurs crimes que de leurs faiblesses et de
-                        leur vanité. Tel est ouvertement injuste, violent, perfide, calomniateur,
-                        qui cache son amour ou son ambition, sans autre
+                        Les hommes rougissent moins de leurs crimes que de leurs <term>faiblesses</term> et de
+                        leur <term>vanité</term>. Tel est ouvertement injuste, violent, perfide, calomniateur,
+                        qui cache son <term>amour</term> ou son <term>ambition</term>, sans autre
                         <app>
                             <lem wit="#Paris_1699_edition_10"> vûë </lem>
                         <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1696_edition_9">veuë </rdg>
@@ -541,15 +559,15 @@
                             <lem wit="#Paris_1699_edition_10"> j'étois </lem>
                             <rdg wit="#Paris_1690_edition_5"> j'estois </rdg>
                         </app>
-                        ambitieux" ; ou on ne
+                        <term>ambitieux</term>" ; ou on ne
                         l’est point, ou on l’est toujours ; mais le temps vient où l’on avoue que
-                        l’on a aimé.</p>
+                        l’on a <term>aimé</term>.</p>
                 </div2>
 
                 <div2 n="76" source="#XIXe_édition #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g>
-                        Les hommes commencent par l’amour, finissent par l’ambition, et ne se
-                        trouvent souvent dans une assiette plus tranquille que lorsqu’ils meurent.
+                        Les hommes commencent par <term>l’amour</term>, finissent par <term>l’ambition</term>, et ne se
+                        trouvent souvent dans une assiette plus <term>tranquille</term> que lorsqu’ils meurent.
                     </p>
                 </div2>
 
@@ -560,10 +578,10 @@
                         <lem wit="#Paris_1699_edition_10"> coûte </lem>
                         <rdg wit="#Paris_1696_edition_9"> coute </rdg>
                         </app>
-                        moins à la passion que de se mettre au-dessus de la rai <pb n="126" source="#Paris_1699_edition_10"></pb>son :
+                        moins à la <term>passion</term> que de se mettre au-dessus de la <term>rai <pb n="126" source="#Paris_1699_edition_10"></pb>son</term> :
                         son grand triomphe est de l’emporter sur 
                         <app>
-                        <lem wit="#Paris_1699_edition_10"> l'interêt </lem>
+                            <lem wit="#Paris_1699_edition_10"> <term>l'interêt</term> </lem>
                         <rdg wit="#Paris_1690_edition_5"> l’interest </rdg>
                         </app>
                         .
@@ -572,20 +590,20 @@
 
                 <div2 n="78" source="#XIXe_édition #Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
-                        L’on est plus sociable et d’un meilleur commerce par le cœur que par
-                        l’esprit. <pb n="151" source="#Paris_1699_edition_4 #Paris_1691_edition_6"></pb>  </p>
+                        L’on est plus sociable et d’un meilleur commerce par le <term>cœur</term> que par
+                        <term>l’esprit</term>. <pb n="151" source="#Paris_1699_edition_4 #Paris_1691_edition_6"></pb>  </p>
                 </div2>
 
                 <div2 n="79" source="#XIXe_édition #Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
-                        Il y a de certains grands sentiments, de certaines actions nobles et
+                        Il y a de certains grands <term>sentiments</term>, de certaines actions nobles et
                         élevées, que nous devons moins à la force de 
                          <app>
                              <lem wit="#Paris_1699_edition_10"> nostre </lem>
                              <rdg wit="#Paris_1688_edition_1"> nôstre </rdg>
                         <rdg wit="#Paris_1684_edition_4 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9"> nôtre </rdg>
                         </app>
-                        esprit qu’à la bonté de
+                        <term>esprit</term> qu’à la <term>bonté</term> de
                         <app>
                         <lem wit="#Paris_1688_edition_1"> nôstre </lem>
                         <rdg wit="#Paris_1688_edition_3 #Paris_1690_edition_5 #Paris_1699_edition_10"> nostre </rdg>
@@ -613,7 +631,7 @@
                         <rdg wit="#Paris_1684_edition_4"> denüé </rdg>  
                         <rdg wit="#Paris_1690_edition_5"> dénüé </rdg>
                         </app>
-                        d’esprit, si l’amour, la malignité, la nécessité
+                        d’<term>esprit</term>, si <term>l’amour</term>, la malignité, la nécessité
                         n’en font pas trouver.</p>
                 </div2>
 
@@ -624,6 +642,5 @@
         </body>
     </text>
 </TEI>
-
 
 
