@@ -150,9 +150,23 @@
                             </pubPlace>
                         </imprint>
                     </monogr>
-
-
+   
                 </biblStruct>
+                
+                <listPerson>
+                    <person xml:id="Hozier"></person>
+                    <person xml:id="Godefroy_deBouillon"></person>
+                    <person xml:id="Venus" source="https://www.worldhistory.org/trans/fr/1-462/venus/"></person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="Paris"></place>
+                    <place xml:id="Terre-Sainte"></place>
+                    <place xml:id="palais_Farnèse"></place>
+                </listPlace>
+                
+                <bibl type="clé" xml:id="E1687"></bibl>
+                
             </sourceDesc>
         </fileDesc>
 
@@ -233,7 +247,11 @@
                 <head> De quelques usages </head>
                 <div2 n="1"
                     source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
-                    <p>Il y a des gens qui n’ont pas le moyen d’être nobles. </p>
+                    <p><pb n="513" source="#Paris-edition6"/>
+                        <!-- Page 513 dans l'édition 6 première remarque commence -->
+                        <pb n="272" source="#Paris-edition1"/>
+                        <!-- Page 272 dans l'édition 1 première remarque commence -->
+                        Il y a des gens qui n’ont pas le moyen d’être nobles. </p>
 
                     <p> Il y en a de tels que, s’ils eussent obtenu six mois de délai de leurs
                         créanciers, ils étaient nobles.<note resp="#JB" source="#Paris-edition8"
@@ -332,7 +350,7 @@
                         use de tant de pré<pb n="516" source="#Paris-edition6"/>
                         <!-- Page 516 dans l'édition 6 commence en coupant le mot pré-cautions--><pb n="597" source="#Paris-edition8"/>
                         <!-- Page 597 dans l'édition 8 commence en coupant le mot pré-cautions-->cautions, qu’à force de beaux noms, de disputes sur le
-                        rang et les préséances, de nouvelles armes, et d’une généalogie que D’Hozier <app>
+                        rang et les préséances, de nouvelles armes, et d’une généalogie que <persName>D’Hozier</persName> <app>
                             <lem wit="#Edition-ref19e"/>
                             <rdg wit="#Paris-edition4">D'HOZIER tout en majuscule</rdg>
                         </app> ne lui a pas faite, il devient enfin un petit prince.</p>
@@ -372,7 +390,7 @@
                         honte, pour en adopter de plus beaux, où ils n’ont qu’à perdre par la
                         comparaison que l’on fait toujours d’eux qui les portent, avec les grands
                         hommes qui les ont portés. Il s’en trouve enfin qui, nés à l’ombre des
-                        clochers de Paris, veulent être Flamands ou Italiens, comme si la roture
+                        clochers de <placeName>Paris</placeName>, veulent être Flamands ou Italiens, comme si la roture
                         n’était pas de tout pays, allongent leurs noms français d’une terminaison
                         étrangère, et croient que venir de bon lieu c’est venir de loin.</p>
                 </div2>
@@ -381,10 +399,14 @@
 
                 <div2 n="10"
                     source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
-                    <p><g ref="#pied_demouche1"/>Le besoin d’argent a réconcilié la noblesse avec la
-                        roture, et a fait évanouir la preuve<pb n="273" source="#Paris-edition3"/>
+                    <p><g ref="#pied_demouche1"/>Le besoin d’argent a réconcilié la noblesse 
+                        <app><lem wit="#Edition-ref19e">la noblesse</lem>
+                        <rdg wit="#E1687">le mariage du maréchal de Tourville avec Mlle Laugeois 
+                            ou celui du maréchal de Lorges avec Mlle Frémont</rdg></app>
+                        avec la roture, et a fait évanouir la preuve<pb n="273" source="#Paris-edition3"/>
                         <!-- Page 273 dans l'édition 3 commence en coupant le mot preu-ve--><pb n="325" source="#Paris-edition1"/>
-                        <!-- Page 325 dans l'édition 1 commence en coupant le mot preu-ve--> des quatre quartiers</p>
+                        <!-- Page 325 dans l'édition 1 commence en coupant le mot preu-ve--> des quatre quartiers<app><lem wit="#Edition-ref19e">princes</lem>
+                            <rdg wit="#Paris-edition8">Princes</rdg></app></p>
                 </div2>
 
 
@@ -434,8 +456,8 @@
                             <rdg wit="#Paris-edition8">Grand</rdg></app> me trouve digne de ses soins, si je fais enfin une belle fortune, il y
                         a un Geoffroy de la Bruyère, que toutes les <app><lem wit="#Edition-ref19e">chroniques</lem>
                             <rdg wit="#Paris-edition8">Chroniques</rdg></app> rangent au nombre des
-                        plus grands seigneurs de France qui suivirent Godefroy de Bouillon à la
-                        conquête de la Terre-Sainte : voilà alors de qui je descends en ligne
+                        plus grands seigneurs de France qui suivirent <persName>Godefroy de Bouillon</persName> à la
+                        conquête de la <placeName>Terre-Sainte</placeName> : voilà alors de qui je descends en ligne
                         directe.</p>
                 </div2>
 
@@ -471,11 +493,11 @@
 
                 <div2 n="17"
                     source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
-                    <p><g ref="#pied_demouche1"/>Que les saletés des Dieux, la Vénus, le <app><lem wit="#Edition-ref19e">Ganymède</lem>
+                    <p><g ref="#pied_demouche1"/>Que les saletés des Dieux, la <persName>Vénus</persName>, le <app><lem wit="#Edition-ref19e">Ganymède</lem>
                         <rdg wit="#Paris-edition1">Ganumede</rdg></app> et
                         les autres nudités du <app><lem wit="#Edition-ref19e">Carrache</lem>
                             <rdg wit="#Paris-edition1">Carache</rdg></app> aient été faites pour des princes de
-                        l’Eglise, et qui se disent successeurs des Apôtres, le palais Farnèse en est
+                        l’Eglise, et qui se disent successeurs des Apôtres, le <placeName>palais Farnèse</placeName> en est
                         la preuve.</p>
                 </div2>
 
