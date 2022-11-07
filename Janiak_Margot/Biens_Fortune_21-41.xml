@@ -15,6 +15,7 @@
                 <respStmt>
                     <name>Margot Janiak</name>
                     <resp xml:id="Éditrice">Éditrice</resp>
+                    <resp xml:id="Lecteur">Propriétaire inconnu de l'édition</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -92,8 +93,18 @@
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575660</pubPlace>
                         </imprint>
                     </monogr>
-
                 </biblStruct>
+                <bibl type="clé" xml:id="E1687"></bibl>
+                <listPerson>
+                    <person xml:id="Périandre"></person>
+                    <person xml:id="Ergaste"></person>
+                    <person xml:id="Criton"></person>
+                    <person xml:id="Brontin"></person>
+                    <person xml:id="Orphée"></person>
+                </listPerson>
+                <listPlace>
+                    <place></place>
+                </listPlace>
             </sourceDesc>
         </fileDesc>   
         <encodingDesc>
@@ -124,9 +135,16 @@
             <refsDecl>
                 <p> Le texte "lem" est basé sur la dixième édition des Caractères dans sa forme de
                     français moderne. </p>
-            </refsDecl>
-
+            </refsDecl> 
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc></catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
+        
         <profileDesc>
             <langUsage>
                 <language ident="fra">Français classique</language>
@@ -145,7 +163,9 @@
         </profileDesc>
 
         <revisionDesc>
-            <change/>
+            <change>
+                <date when="2022-11-07"> Ajout...</date>
+            </change>
         </revisionDesc>
 
     </teiHeader>
@@ -178,7 +198,7 @@
                 <div2 n="21" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
                        <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
-                        On ne peut mieux user de sa fortune que fait Périandre : elle <app><lem wit="#Ed_19e_origine">lui</lem><rdg wit="#Paris_1694_ed8">luy<note resp="#Editrice">Ancienne graphie</note></rdg></app>
+                        On ne peut mieux user de sa fortune que fait <persName type="Pseudo">Périandre</persName> : elle <app><lem wit="#Ed_19e_origine">lui</lem><rdg wit="#Paris_1694_ed8">luy<note resp="#Editrice">Ancienne graphie</note></rdg></app>
                         rang, du crédit, de l’autorité ; déjà on ne le prie plus d’accorder son
                         amitié, on implore sa protection. Il a commencé par dire de <app><lem wit="#Ed_19e_origine">soi-même</lem><rdg wit="#Paris_1694_ed8">soy-même<note resp="#Editrice">Ancienne graphie</note></rdg></app> : un
                         homme de ma sorte ; il passe à dire : un homme de ma qualité ; il se donne
@@ -192,7 +212,7 @@
                         dames du voisinage. Tout se soutient dans cet homme ; rien encore ne se
                         dément dans cette grandeur qu’il a acquise, dont il ne doit rien, qu’il a
                         payée. Que son père, si vieux et si caduc, n’est-il mort il y a vingt ans et
-                        avant qu’il se fît dans le monde aucune mention de Périandre ! Comment
+                        avant qu’il se fît dans le monde aucune mention de <persName type="Pseudo">Périandre</persName> ! Comment
                         pourra-t-il soutenir ces odieuses pancartes qui déchiffrent les conditions
                         et qui souvent font rougir la veuve et les héritiers ? Les supprimera-t-il
                         aux yeux de toute une ville jalouse, maligne, clairvoyante, et aux dépens de
@@ -244,7 +264,7 @@
                 </div2>
 
                 <div2 n="26" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> <note hand="inconnu"></note> Ce garçon si frais, si fleuri et d’une si belle santé est seigneur d’une
+                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> <note hand="Lecteur">Illisible</note> Ce garçon si frais, si fleuri et d’une si belle santé est seigneur d’une
                         abbaye et de dix autres bénéfices : tous ensemble lui rapportent six vingt
                         mille livres de revenu, dont il n’est payé qu’en médailles d’or. Il y a
                         ailleurs six vingt familles indigentes qui ne se chauffent point pendant
@@ -256,7 +276,7 @@
                 <div2 n="27" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> 
                        <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
-                        Chrysippe, homme nouveau, et le premier noble de sa race, <app><lem wit="#Ed_19e_origine">aspirait</lem><rdg wit="#Paris_1694_ed8">aspiroit<note resp="#Editrice">Ancien français</note></rdg></app>, il y a
+                        <persName type="Pseudo">Chrysippe</persName>, homme nouveau, et le premier noble de sa race, <app><lem wit="#Ed_19e_origine">aspirait</lem><rdg wit="#Paris_1694_ed8">aspiroit<note resp="#Editrice">Ancien français</note></rdg></app>, il y a
                         trente années, à se voir un jour deux mille <app><lem wit="#Ed_19e_origine">mille</lem><rdg wit="#Paris_1689_ed5">mil<note resp="#Editrice">Ancienne graphie</note></rdg></app> livres de rente pour tout bien :
                         c’était là le comble de ses souhaits et sa plus haute ambition ; il l’a dit
                         ainsi, et on s’en souvient. Il arrive, je ne sais par quels chemins, jusques
@@ -272,22 +292,22 @@
                 <div2 n="28" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> 
                        <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/>
-                        Laissez faire Ergaste, et il exigera un droit de tous ceux qui boivent de
+                        Laissez faire <persName type="Pseudo">Ergaste</persName>, et il exigera un droit de tous ceux qui boivent de
                         l’eau de la rivière, ou qui marchent sur la terre ferme : il sait convertir
                         en or jusques aux roseaux, aux joncs et à l’ortie. Il écoute tous les avis,
                         et propose tous ceux qu’il a écoutés. Le prince ne donne aux autres qu’aux
-                        dépens d’Ergaste, et ne leur fait de grâces que celles qui lui <app><lem wit="#Ed_19e_origine">étaient dues</lem><rdg wit="#Paris_1689_ed5">étoient dûës<note resp="#Editrice">Ancien français</note></rdg></app>.
+                        dépens d’<persName type="Pseudo">Ergaste</persName>, et ne leur fait de grâces que celles qui lui <app><lem wit="#Ed_19e_origine">étaient dues</lem><rdg wit="#Paris_1689_ed5">étoient dûës<note resp="#Editrice">Ancien français</note></rdg></app>.
                         C’est une faim insatiable d’avoir et de posséder. Il trafiquerait des arts
                         et des sciences, et mettrait en parti jusques à l’harmonie : il faudrait,
                         s’il en était cru, que le peuple, pour avoir le plaisir de le voir riche, de
                         lui voir une meute et une écurie, pût perdre le souvenir de la musique
-                        d’Orphée, et se contenter de la sienne. </p>
+                        d’<persName xml:id="Mythologie">Orphée</persName>, et se contenter de la sienne. </p>
                 </div2>
 
                 <div2 n="29" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> 
                        <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
-                        Ne traitez pas avec Criton, il n’est touché que de ses seuls avantages. Le
+                        Ne traitez pas avec <persName>Criton</persName>, il n’est touché que de ses seuls avantages. Le
                         piège est tout dressé à ceux à qui sa charge, sa terre, ou ce qu’il possède
                         feront envie : il vous imposera des conditions extravagantes. Il n’y a nul
                         ménagement et nulle composition à attendre d’un homme si plein de ses
@@ -297,7 +317,7 @@
                 <div2 n="30" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="pieddemouche" source="#Paris_1689_ed8"/> 
                        <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/>
-                        Brontin, dit le peuple, fait des retraites, <app><lem wit="#Ed_19e_origine">et</lem><rdg wit="#Paris_1689_ed8 #Paris_1691_ed6 #Paris_1689_ed5">&amp;</rdg></app> s’enferme huit jours avec des
+                        <persName type="Pseudo">Brontin</persName>, dit le peuple, fait des retraites, <app><lem wit="#Ed_19e_origine">et</lem><rdg wit="#Paris_1689_ed8 #Paris_1691_ed6 #Paris_1689_ed5">&amp;</rdg></app> s’enferme huit jours avec des
                         saints : ils ont leurs méditations, <app><lem wit="#Ed_19e_origine">et</lem><rdg wit="#Paris_1689_ed8 #Paris_1691_ed6 #Paris_1689_ed5">&amp;</rdg></app> il a les siennes. </p>
                 </div2>
 
