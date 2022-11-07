@@ -66,6 +66,21 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
+                <bibl type="clé" xml:id="Coste"> Clés des seules éditions Coste (mentionées dans l'ouvrage d'Escola) </bibl>
+                <bibl type="clé" xml:id="Escola"> Clés prises dans l'ouvrage d'Escola </bibl>
+                <listPerson>
+                    <person xml:id="Lise" sex="F">
+                        <name> Lise </name>
+                        <age> Femme d'âge mur </age>
+                        <persona>
+                            <p> portrait de la Coquette, caractère dans la tradition théophrastienne
+                            </p>
+                        </persona>
+                    </person>
+                    <person xml:id="Clarice" sex="F">
+                        <name> Clarice </name>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -153,8 +168,8 @@
 
         </front>
         <body>
-<pb n="137" source="#Paris_1690_5_1"/>
-<pb n="76" source="#Paris_1690_10_1"/>
+            <pb n="137" source="#Paris_1690_5_1"/>
+            <pb n="76" source="#Paris_1690_10_1"/>
             <div1>
                 <head> Des femmes </head>
 
@@ -181,10 +196,9 @@
                         quelques autres une grandeur simple, naturelle, indépendante du geste et de
                         la démarche, qui a sa source dans le cœur, et qui est comme une suite de
                         leur haute naissance ; un mérite paisible, mais solide, accompagné de mille
-                        vertus qu’elles ne peuvent couvrir de toute 
-                        <pb n="138" source="#Paris_1690_5_1"/> 
-                        <pb n="77" source="#Paris_1690_10_1"/>
-                        leur modestie, qui <app>
+                        vertus qu’elles ne peuvent couvrir de toute <pb n="138"
+                            source="#Paris_1690_5_1"/>
+                        <pb n="77" source="#Paris_1690_10_1"/> leur modestie, qui <app>
                             <lem> échappent </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> echapent </rdg>
                         </app> , et qui se montrent à ceux qui ont des yeux. </p>
@@ -244,9 +258,9 @@
                         : c’est chercher à imposer aux yeux, et vouloir <app>
                             <lem>paraître </lem>
                             <rdg wit="#Paris_1699_10_1"> paroître </rdg>
-                        </app> selon l’extérieur contre la vérité ; c’est une espèce de menterie. 
-                        <pb n="78" source="#Paris_1690_10_1"/>
-                        Il faut juger des femmes depuis la chaussure jusqu’à la <app>
+                        </app> selon l’extérieur contre la vérité ; c’est une espèce de menterie.
+                            <pb n="78" source="#Paris_1690_10_1"/> Il faut juger des femmes depuis
+                        la chaussure jusqu’à la <app>
                             <lem> coiffure </lem>
                             <rdg wit="#Paris_1699_10_1"> coëffure </rdg>
                         </app> exclusivement, à peu près comme on mesure le poisson entre <app>
@@ -266,24 +280,23 @@
                         qu’elles se fardent ou qu’elles s’enluminent, <app>
                             <lem> j’ai recueilli </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> j'ay recüilly </rdg>
-                        </app>  
-                        <pb n="139" source="#Paris_1690_5_1"/> 
-                        les voix, et je leur prononce, de la part de tous les hommes ou de la
-                        plus grande partie, <seg> que <seg> le blanc et le rouge <note resp="#MC">
-                                    Le blanc et le rouge sont le maquillage. </note></seg> les rend
-                            affreuses et dégoûtantes ; que le rouge seul les vieillit et les déguise
-                            ; qu’ils haïssent autant à les voir avec de la céruse sur le visage,
-                            qu’avec de fausses dents en la bouche, et des boules de cire dans les
-                            mâchoires ; qu’ils protestent sérieusement contre tout l’artifice dont
-                            elles usent <note resp="#MC"> Jean de La Bruyère explique que les hommes
-                                détestent lorsque les femmes se maquillent. Il compare le maquillage
-                                à des défauts du visage telles que des fausses dents. </note></seg>
+                        </app>
+                        <pb n="139" source="#Paris_1690_5_1"/> les voix, et je leur prononce, de la
+                        part de tous les hommes ou de la plus grande partie, <seg> que <seg> le
+                                blanc et le rouge <note resp="#MC"> Le blanc et le rouge sont le
+                                    maquillage. </note></seg> les rend affreuses et dégoûtantes ;
+                            que le rouge seul les vieillit et les déguise ; qu’ils haïssent autant à
+                            les voir avec de la céruse sur le visage, qu’avec de fausses dents en la
+                            bouche, et des boules de cire dans les mâchoires ; qu’ils protestent
+                            sérieusement contre tout l’artifice dont elles usent <note resp="#MC">
+                                Jean de La Bruyère explique que les hommes détestent lorsque les
+                                femmes se maquillent. Il compare le maquillage à des défauts du
+                                visage telles que des fausses dents. </note></seg>
                         <app>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> , </rdg>
                         </app> pour se rendre laides ; et que bien loin d’en répondre devant Dieu,
-                        il semble au contraire qu’il leur ait réservé ce dernier et infailli- 
-                        <pb n="79" source="#Paris_1690_10_1"/>
-                        ble moyen de <app>
+                        il semble au contraire qu’il leur ait réservé ce dernier et infailli- <pb
+                            n="79" source="#Paris_1690_10_1"/> ble moyen de <app>
                             <lem> guérir </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> guerir </rdg>
                         </app>des femmes. </p>
@@ -317,17 +330,39 @@
                 </div2>
 
                 <div2 source="#Paris_1699_10_1" n="8">
-                    <p> Lise entend dire d’une autre coquette qu’elle se <app>
+                    <p>
+                        <app type="clé">
+                            <lem>
+                                <persName type="pseudo" ref="#Lise"> Lise </persName>
+                            </lem>
+                            <rdg wit="#Coste">
+                                <persName type="pseudo" ref="#Lise"> la présidente d'Ons-En-Bray,
+                                    femme de M. Bocquemare, président en la seconde des enquêtes du
+                                    Palais </persName>
+                            </rdg>
+                            <rdg wit="#Escola">
+                                <persName type="pseudo" ref="#Lise"> comtesse d'Olonne </persName>
+                            </rdg>
+                        </app> entend dire d’une autre coquette qu’elle se <app>
                             <lem> moque </lem>
                             <rdg> mocque </rdg>
                         </app> de se piquer de jeunesse, et de vouloir user d’ajustements qui ne
                         conviennent plus à une femme de quarante ans <app>
                             <lem> . </lem>
                             <rdg wit="#Paris_1699_10_1"> ; </rdg>
-                        </app> Lise les 
-                        <pb n="80" source="#Paris_1690_10_1"/> 
-                        a accomplis 
-                        <app>
+                        </app>
+                        <app type="clé">
+                            <lem>
+                                <persName type="pseudo" ref="#Lise"> Lise </persName>
+                            </lem>
+                            <rdg wit="#Coste">
+                                <persName type="pseudo" ref="#Lise"> la présidente d'Ons-En-Bray,
+                                    femme de M. Bocquemare, président en la seconde des enquêtes du
+                                    Palais </persName> </rdg>
+                                <rdg wit="#Escola">
+                                    <persName type="pseudo" ref="#Lise"> comtesse d'Olonne </persName>
+                                </rdg>
+                        </app> les <pb n="80" source="#Paris_1690_10_1"/> a accomplis <app>
                             <lem> ; </lem>
                             <rdg wit="#Paris_1699_10_1"> , </rdg>
                         </app> mais les années pour elle ont moins de douze mois, et ne la
@@ -339,7 +374,8 @@
                                 resp="#MC"> Petit morceau de taffetas noir que les femmes mettaient
                                 sur la peau pour en faire ressortir la blancheur. </note></seg> ,
                         elle convient qu’il n’est pas permis à un certain âge de faire la jeune, et
-                        que Clarice en effet, avec ses mouches et son rouge, est ridicule. </p>
+                        que <persName type="pseudo" ref="#Clarice"> Clarice </persName> en effet,
+                        avec ses mouches et son rouge, est ridicule. </p>
                 </div2>
 
                 <div2 source="#Paris_1699_10_1 #Paris_1690_5_1" n="9">
@@ -350,9 +386,8 @@
                             <lem> amants </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> amans </rdg>
                         </app>, si elles les attendent ; mais si elles en sont surprises, elles
-                        oublient à leur arrivée l’état où elles 
-                        <pb n="140" source="#Paris_1690_5_1"/> 
-                        se trouvent ; elles ne se <app>
+                        oublient à leur arrivée l’état où elles <pb n="140" source="#Paris_1690_5_1"
+                        /> se trouvent ; elles ne se <app>
                             <lem> voient </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> voyent </rdg>
                         </app> plus. Elles ont plus de loisir avec les <app>
@@ -394,9 +429,8 @@
 
                 <div2 source="#Paris_1699_10_1 #Paris_1690_5_1" n="12">
                     <p>
-                        <g ref="#fr_pieddemouche"/> L’on peut être touché de certai- 
-                        <pb n="81" source="#Paris_1690_10_1"/> nes 
-                        <app>
+                        <g ref="#fr_pieddemouche"/> L’on peut être touché de certai- <pb n="81"
+                            source="#Paris_1690_10_1"/> nes <app>
                             <lem> beautés </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> beautez </rdg>
                         </app> si parfaites et d’un mérite si éclatant, que l’on se borne à les voir
@@ -432,9 +466,8 @@
                             <lem> Il </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> il </rdg>
                         </app> n’échappe presque rien aux hommes ; leurs caresses sont volontaires ;
-                        ils 
-                        <pb n="141" source="#Paris_1690_5_1"/> 
-                        parlent, ils agissent, ils sont empressés, et persuadent moins. </p>
+                        ils <pb n="141" source="#Paris_1690_5_1"/> parlent, ils agissent, ils sont
+                        empressés, et persuadent moins. </p>
                 </div2>
 
                 <div2 source="#Paris_1699_10_1 #Paris_1690_5_1" n="15">
@@ -470,9 +503,9 @@
                         <g ref="#fr_pieddemouche"/> Une femme qui n’a qu’un <app>
                             <lem> galant </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> galand </rdg>
-                        </app> 
-                        <pb n="82" source="#Paris_1690_10_1"/>
-                        croit n’être point coquette ; celle qui a plusieurs <app>
+                        </app>
+                        <pb n="82" source="#Paris_1690_10_1"/> croit n’être point coquette ; celle
+                        qui a plusieurs <app>
                             <lem> galants </lem>
                             <rdg wit="#Paris_1699_10_1"> galands </rdg>
                             <rdg wit="#Paris_1690_5_1"> galans </rdg>
@@ -500,9 +533,8 @@
                     <p> Un ancien <app>
                             <lem> galant </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> galand </rdg>
-                    </app> craint ou méprise un nouveau rival, selon le caractère 
-                    <pb n="142" source="#Paris_1690_5_1"/> 
-                    de la personne qu’il sert. </p>
+                        </app> craint ou méprise un nouveau rival, selon le caractère <pb n="142"
+                            source="#Paris_1690_5_1"/> de la personne qu’il sert. </p>
                     <p> Il ne manque souvent à un ancien <app>
                             <lem> galant </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> galand </rdg>
