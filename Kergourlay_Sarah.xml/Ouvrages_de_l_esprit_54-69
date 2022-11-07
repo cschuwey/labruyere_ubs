@@ -127,7 +127,9 @@
                     texte déjà ajoutées</change>
                 <change when="2022-10-31">Correction du balisage des remarques selon les différentes
                     versions du texte déjà ajoutées, ajout de notes</change>
-                <change when="2022-11-05">Ajout de la pagination du texte pour deux édition et ajout de notes.</change>
+                <change when="2022-11-05">Ajout de la pagination du texte pour deux édition et ajout
+                    de notes.</change>
+                <change when="2022-10-06">Ajout des variantes de l'édition 4 des remarques 54 à 60.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -166,221 +168,216 @@
                 <div2 n="54" source="#Paris_1696_9 #Paris_1689_4 #Paris_1688_1">
                     <p><g ref="#pied_de_mouche" source="#Paris_1688_1 #Paris_1696_9"/><app>
                             <lem>Corneille</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">CORNEILLE</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">CORNEILLE</rdg>
                         </app> ne <app>
-                            <lem>peut être</lem>
+                            <lem wit="#Paris_1689_4">peut être</lem>
                             <rdg wit="#Paris_1688_1">peut estre</rdg>
                             <rdg wit="#Paris_1696_9">peut-être</rdg>
                         </app> é<pb n="167" source="#Paris_1688_1"/>galé dans les endroits où il excelle<app>
                             <lem> :</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">,</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">,</rdg>
                         </app> il a pour lors un <app>
                             <lem>caractère</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">caractere<note resp="#SK"
-                                    type="analyse" place="bottom" style="italic">Dans les éditions
-                                    du XVIIème siècle, nous pouvons remarquer que la plupart des
-                                    accents du français moderne ne sont pas présents, ou ne sont pas
-                                    les mêmes que maintenant.</note></rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">caractere<note
+                                    resp="#SK" type="analyse" place="bottom" style="italic">Dans les
+                                    éditions du XVIIème siècle, nous pouvons remarquer que la
+                                    plupart des accents du français moderne ne sont pas présents, ou
+                                    ne sont pas les mêmes que maintenant.</note></rdg>
                         </app> original <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> inimitable ; mais il est inégal<app>
                             <lem>. Ses premières comédies</lem>
                             <rdg wit="#Paris_1688_1">, ses premieres Comedies</rdg>
-                            <rdg wit="#Paris_1696_9"> ; ses premieres comedies</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4"> ; ses premieres comedies</rdg>
                         </app> sont <app>
-                            <lem>sèches ; </lem>
+                            <lem>sèches ;</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">seches,</rdg>
+                            <rdg wit="#Paris_1689_4">séches,</rdg>
                         </app> languissantes, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app>ne <app>
                             <lem>laissaient</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">laissoient</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">laissoient</rdg>
                         </app> pas <app>
                             <lem>espérer</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">esperer</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">esperer</rdg>
                         </app> qu’il <app>
-                            <lem>dût ensuite</lem>
-                            <rdg wit="#Paris_1696_9">dût ensuite</rdg>
+                            <lem wit="#Paris_1696_9 #Paris_1689_4">dût ensuite</lem>
                             <rdg wit="#Paris_1688_1">dût jamais ensuite</rdg>
                         </app> aller si loin <app>
-                            <lem>; comme ses dernières font qu’on s’étonne qu’il ait pu tomber de si
-                                haut. Dans</lem>
-                            <rdg wit="#Paris_1696_9">; comme ses dernières font qu’on s’étonne qu’il
-                                ait pu tomber de si haut. Dans</rdg>
+                            <lem wit="#Paris_1696_9">; comme ses dernières font qu’on s’étonne qu’il
+                                ait pu tomber de si haut. Dans</lem>
+                            <rdg wit="#Paris_1689_4">; comme ses dernières font qu’on s’étonne qu’il
+                                ait pû tomber de si haut. Dans</rdg>
                             <rdg wit="#Paris_1688_1">; dans</rdg>
                         </app> quelques-unes de ses meilleurs <app>
                             <lem>pièces, il</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">pieces il</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">pieces il</rdg>
                         </app> y a des fautes inexcusables contre les mœurs<app>
-                            <lem>,</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> ;</rdg>
-                        </app> un <app>
-                            <lem>style</lem>
-                            <rdg wit="#Paris_1688_1">style</rdg>
-                            <rdg wit="#Paris_1696_9">stile</rdg>
+                            <lem>, un style</lem>
+                            <rdg wit="#Paris_1688_1"> ; un style</rdg>
+                            <rdg wit="#Paris_1689_4"> ; Un stile</rdg>
+                            <rdg wit="#Paris_1696_9"> ; un stile</rdg>
                         </app>
                         <pb n="25" source="#Paris_1696_9"/>de <app>
                             <lem>déclamateur</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">declamateur</rdg>
+                            <rdg wit="#Paris_1689_4">Declamateur</rdg>
                         </app> qui <app>
-                            <lem>arrête</lem>
-                            <rdg wit="#Paris_1696_9">arrête</rdg>
+                            <lem wit="#Paris_1696_9 #Paris_1689_4">arrête</lem>
                             <rdg wit="#Paris_1688_1">arreste</rdg>
                         </app> l’action<app>
                             <lem> et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">, &amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">, &amp;</rdg>
                         </app> la fait languir<app>
-                            <lem>,</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> ;</rdg>
-                        </app> des <app>
-                            <lem>négligences</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">negligences</rdg>
+                            <lem>, des négligences</lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> ; des negligences</rdg>
+                            <rdg wit="#Paris_1689_4"> ; Des negligences</rdg>
                         </app> dans les vers <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> dans l’expression qu’on ne peut comprendre en un si grand homme. Ce
                         qu’il y a <app>
-                            <lem>eu</lem>
-                            <rdg wit="#Paris_1688_1">eu</rdg>
-                            <rdg wit="#Paris_1696_9">eû</rdg>
+                            <lem wit="#Paris_1688_1">eu</lem>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">eû</rdg>
                         </app> en <app>
                             <lem>lui</lem>
                             <rdg wit="#Paris_1696_9">lui</rdg>
-                            <rdg wit="#Paris_1688_1">luy</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1689_4">luy</rdg>
                         </app> de plus éminent<app>
-                            <lem>, </lem>
-                            <rdg wit="#Paris_1688_1"> </rdg>
+                            <lem wit="#Paris_1696_9">, </lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1689_4"> </rdg>
                         </app>c’est l’esprit, qu’il <app>
                             <lem>avait</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">avoit</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">avoit</rdg>
                         </app> sublime, <app>
                             <lem>auquel</lem>
-                            <rdg wit="#Paris_1696_9">auquel</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">auquel</rdg>
                             <rdg wit="#Paris_1688_1">à qui</rdg>
                         </app> il a <app>
                             <lem>été</lem>
                             <rdg wit="#Paris_1696_9">été</rdg>
-                            <rdg wit="#Paris_1688_1">esté</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1689_4">esté</rdg>
                         </app> redevable de certains vers<app>
                             <lem>, </lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> </rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"> </rdg>
                         </app>les plus heureux qu’on ait jamais <app>
                             <lem>lus</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">lû</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">lû</rdg>
                         </app> ailleurs, de la conduite de son <app>
                             <lem>théâtre,</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">theatre</rdg>
                         </app> qu’il a quelquefois <app>
-                            <lem>hasardée</lem>
-                            <rdg wit="#Paris_1688_1">hasardée</rdg>
-                            <rdg wit="#Paris_1696_9">hazardée</rdg>
+                            <lem wit="#Paris_1688_1">hasardée</lem>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">hazardée</rdg>
                         </app><app>
-                            <lem> </lem>
+                            <lem wit="#Paris_1696_9 #Paris_1689_4"> </lem>
                             <rdg wit="#Paris_1688_1"> &amp; </rdg>
                         </app>contre les <app>
                             <lem>règles</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">regles</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">regles</rdg>
                         </app> des <app>
                             <lem>anciens</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">Anciens</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Anciens</rdg>
                         </app>, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> enfin de ses <app>
                             <lem>dénouements</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">dénoüemens</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">dénoüemens</rdg>
                         </app> ; car il ne s’est<pb n="168" source="#Paris_1688_1"/> pas <app>
                             <lem>toujours</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">toûjours</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">toûjours</rdg>
                         </app> assujetti au <app>
                             <lem>goût</lem>
-                            <rdg wit="#Paris_1696_9">goût</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">goût</rdg>
                             <rdg wit="#Paris_1688_1">goust</rdg>
                         </app> des Grecs<app>
                             <lem> et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">, &amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">, &amp;</rdg>
                         </app> à leur<app>
-                            <lem> grande </lem>
-                            <rdg wit="#Paris_1688_1"> grande </rdg>
+                            <lem wit="#Paris_1688_1 #Paris_1689_4"> grande </lem>
                             <rdg wit="#Paris_1696_9"> </rdg>
-                        </app>simplicité <app>
-                            <lem>:</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">;</rdg>
+                        </app>simplicité<app>
+                            <lem> :</lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> ;</rdg>
+                            <rdg wit="#Paris_1689_4">,</rdg>
                         </app> il a aimé au contraire à charger la <app>
                             <lem>scène </lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">scene </rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">scene </rdg>
                         </app><app>
                             <lem>d'événements</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">d'évenemens</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">d'évenemens</rdg>
                         </app> dont il est presque <app>
                             <lem>toujours</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">toûjours</rdg>
-                        </app> sorti avec <app>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">toûjours</rdg>
+                        </app> sorti avec<pb n="104" source="#Paris_1689_4"/>
+                        <app>
                             <lem>succès ;</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">succés :</rdg>
+                            <rdg wit="#Paris_1689_4">succez :</rdg>
                         </app> admirable <app>
                             <lem>surtout</lem>
                             <rdg wit="#Paris_1688_1">certes</rdg>
-                            <rdg wit="#Paris_1696_9">sur tout</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">sur tout</rdg>
                         </app> par l’extrême <app>
                             <lem>variété et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">varieté &amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">varieté &amp;</rdg>
                         </app> le peu de rapport qui se trouve pour le dessein entre un si grand
                         nombre de <app>
                             <lem>poèmes</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">Poëmes</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Poëmes</rdg>
                         </app> qu’il a <app>
                             <lem>composés</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">composez</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">composez</rdg>
                         </app>. Il semble qu’il y ait plus de ressemblance dans ceux de <app>
                             <lem>Racine</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">RACINE</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">RACINE</rdg>
                         </app>, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> qui tendent un peu plus à une <app>
-                            <lem>même</lem>
-                            <rdg wit="#Paris_1696_9">même</rdg>
+                            <lem wit="#Paris_1696_9 #Paris_1689_4">même</lem>
                             <rdg wit="#Paris_1688_1">mesme</rdg>
                         </app> chose ; mais il est égal, <app>
                             <lem>soutenu</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">soûtenu</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">soûtenu</rdg>
                         </app>, <app>
                             <lem>toujours</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">toûjours</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">toûjours</rdg>
                         </app> le <app>
                             <lem>même partout,</lem>
-                            <rdg wit="#Paris_1696_9">même par tout,</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">même par tout,</rdg>
                             <rdg wit="#Paris_1688_1">mesme par tout ;</rdg>
                         </app> soit pour le dessein <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> la conduite de ses <app>
                             <lem>pièces,</lem>
-                            <rdg wit="#Paris_1688_1">pieces,</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1689_4">pieces,</rdg>
                             <rdg wit="#Paris_1696_9">pieces</rdg>
                         </app> qui sont justes, <app>
                             <lem>régulières</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">regulieres</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">regulieres</rdg>
                         </app>, prises dans le bon sens <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> dans la nature, soit pour la versification, qui est correcte, riche
                         dans ses rimes, <app>
                             <lem>élégante</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">élegante</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">élegante</rdg>
                         </app>, nombreuse, harmonieuse : exact imitateur des <app>
                             <lem>anciens</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">Anciens</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Anciens</rdg>
                         </app>, dont il a suivi scrupuleusement la netteté <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> la simplicité<pb n="169" source="#Paris_1688_1"/> de l’action ; à qui
                         le grand <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> le merveilleux n’ont pas même manqué, ainsi qu’à <seg>Corneille<note
                                 resp="#SK" type="analyse" place="bottom" style="italic">Nous pouvons
                                 ici remarquer que l'auteur écrit le nom de Corneille avec uniquement
@@ -389,60 +386,61 @@
                                 du XVIIème siècle, tout comme celui de Racine.</note></seg><app>
                             <lem>, ni</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9"> ny</rdg>
+                            <rdg wit="#Paris_1689_4"> ni</rdg>
                         </app> le touchant <app>
-                            <lem>ni</lem>
+                            <lem wit="#Paris_1689_4">ni</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">ny</rdg>
                         </app> le <app>
                             <lem>pathétique</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">patetique</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">patetique</rdg>
                         </app><app>
                             <lem wit="#Paris_1696_9">. Quelle</lem>
-                            <rdg wit="#Paris_1688_1"> ; quelle</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1689_4"> ; quelle</rdg>
                         </app> plus grande tendresse que celle qui est <app>
                             <lem>répandue</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">répanduë</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">répanduë</rdg>
                         </app> dans tout le Cid, dans Polyeucte <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> dans les Horaces <app>
-                            <lem>? quelle</lem>
+                            <lem wit="#Paris_1689_4 #Paris_1696_9">? quelle</lem>
                             <rdg wit="#Paris_1688_1">! quelle</rdg>
                         </app> grandeur ne se remarque point en <app>
                             <lem>Mithridate</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">Mitridate</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Mitridate</rdg>
                         </app>, en Porus<app>
                             <lem> et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">, &amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">, &amp;</rdg>
                         </app> en Burrhus ? Ces passions encore favorites des <app>
                             <lem>anciens</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">Anciens</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Anciens</rdg>
                         </app>, que les tragiques <app>
                             <lem>aimaient</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">aimoient</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">aimoient</rdg>
                         </app> à exciter sur les <app>
                             <lem>théâtres</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">theatres</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">theatres</rdg>
                         </app>, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> qu’on nomme la terreur <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
-                        </app> la pitié, ont <app>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
+                        </app> la pitié,<pb n="105" source="#Paris_1689_4"/> ont <app>
                             <lem wit="#Paris_1696_9">été</lem>
-                            <rdg wit="#Paris_1688_1">esté</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1689_4">esté</rdg>
                         </app>
                         <app>
                             <lem>connues</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">connuës</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">connuës</rdg>
                         </app> de ces deux <app>
                             <lem>poètes.</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">Poëtes ;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1689_4">Poëtes ;</rdg>
                             <rdg wit="#Paris_1696_9">Poëtes :</rdg>
                         </app> Oreste,<pb n="26" source="#Paris_1696_9"/> dans l’Andromaque de
                         Racine, <app>
                             <lem>et Phèdre</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp; Phedre</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp; Phedre</rdg>
                         </app> du <app>
                             <lem>même auteur</lem>
                             <rdg wit="#Paris_1688_1">mesme <seg>Auteur<note resp="#SK"
@@ -451,229 +449,242 @@
                                         l'écrivain. Cela est rendu visible par l'usage d'une
                                         majuscule pour la première lettre du mot, ce qui est aussi
                                         fait pour le Lecteur.</note></seg></rdg>
-                            <rdg wit="#Paris_1696_9">même Auteur</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">même Auteur</rdg>
                         </app>, comme l’Œdipe <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> les Horaces de Corneille<app>
                             <lem>, </lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> </rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"> </rdg>
                         </app>en sont la preuve. Si cependant il est permis de faire <app>
                             <lem>entre eux</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">entr'eux</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">entr'eux</rdg>
                         </app> quelque comparaison, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> les marquer l’un <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> l’autre par ce qu’ils ont eu de plus propre <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_1">&amp;</rdg>
-                            <rdg wit="#Paris_1696_9">, &amp;</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">, &amp;</rdg>
                         </app> par<pb n="170" source="#Paris_1688_1"/> ce qui éclate le plus
                         ordinairement dans leurs ouvrages, <app>
-                            <lem wit="#Paris_1696_9">peut-être</lem>
+                            <lem wit="#Paris_1696_9 #Paris_1689_4">peut-être</lem>
                             <rdg wit="#Paris_1688_1">peut-estre</rdg>
                         </app> qu’on <app>
                             <lem>pourrait</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">pourroit</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">pourroit</rdg>
                         </app> parler ainsi<app>
                             <lem> :« </lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">. </rdg>
+                            <rdg wit="#Paris_1689_4"> : </rdg>
                         </app>Corneille nous assujettit à ses <app>
                             <lem>caractères et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">caracteres &amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">caracteres
+                                &amp;</rdg>
                         </app> à ses idées<app>
                             <lem>, Racine se conforme</lem>
                             <rdg wit="#Paris_1688_1"> ; Racine descend jusques</rdg>
-                            <rdg wit="#Paris_1696_9">; Racine se conforme</rdg>
-                        </app> aux nôtres ; <app>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">; Racine se conforme</rdg>
+                        </app> aux <app>
+                            <lem wit="#Paris_1688_1 #Paris_1696_9">nôtres ;</lem>
+                            <rdg wit="#Paris_1689_4">nostres :</rdg>
+                        </app>
+                        <app>
                             <lem wit="#Paris_1696_9">celui-là</lem>
-                            <rdg wit="#Paris_1688_1">celuy-là</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1689_4">celuy-là</rdg>
                         </app> peint les hommes comme ils <app>
                             <lem>devraient être, celui-ci</lem>
-                            <rdg wit="#Paris_1688_1">devroient estre ; celuy-cy</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1689_4">devroient estre ; celuy-cy</rdg>
                             <rdg wit="#Paris_1696_9">devroient être ; celui-cy</rdg>
                         </app> les peint tels qu’ils sont<app>
                             <lem>. Il</lem>
                             <rdg wit="#Paris_1688_1"> ; il</rdg>
-                            <rdg wit="#Paris_1696_9"> : il</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4"> : il</rdg>
                         </app> y a plus dans le premier de ce que l’on admire, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> de ce que l’on doit <app>
                             <lem wit="#Paris_1696_9">même</lem>
-                            <rdg wit="#Paris_1688_1">mesme</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1689_4">mesme</rdg>
                         </app> imiter ; il y a plus dans le second de ce que l’on <app>
                             <lem>reconnaît</lem>
                             <rdg wit="#Paris_1688_1">reconnoist</rdg>
-                            <rdg wit="#Paris_1696_9">reconnoît</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">reconnoît</rdg>
                         </app> dans les autres, ou de ce que l’on éprouve dans <app>
                             <lem>soi-même. L’un élève</lem>
-                            <rdg wit="#Paris_1688_1">soy-mesme : l'un éleve</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1689_4">soy-mesme : l'un éleve</rdg>
                             <rdg wit="#Paris_1696_9">soy-même : l'un éleve</rdg>
                         </app>, étonne, maîtrise, instruit ; l’autre plaît, <app>
                             <lem>remue</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">remuë</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">remuë</rdg>
                         </app>, touche, <app>
                             <lem>pénètre. Ce</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">penetre : ce</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">penetre : ce</rdg>
                         </app> qu’il y a de plus beau, de plus noble <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> de plus <app>
                             <lem>impérieux</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">imperieux</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">imperieux</rdg>
                         </app> dans la raison<app>
                             <lem>, </lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> </rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"> </rdg>
                         </app>est manié par le premier ; <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> par l’autre<app>
                             <lem>, </lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> </rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"> </rdg>
                         </app>ce qu’il y a de plus flatteur <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> de plus délicat dans la passion<app>
                             <lem>. Ce</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> : ce</rdg>
-                        </app> sont dans <app>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"> : ce</rdg>
+                        </app> sont dans<pb n="106" source="#Paris_1689_4"/>
+                        <app>
                             <lem wit="#Paris_1696_9">celui-là</lem>
-                            <rdg wit="#Paris_1688_1">celuy_là</rdg>
+                            <rdg wit="#Paris_1688_1">celuy-là</rdg>
                         </app> des maximes,<pb n="171" source="#Paris_1688_1"/> des <app>
                             <lem>règles</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">regles</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">regles</rdg>
                         </app>, des <app>
                             <lem>préceptes</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">preceptes</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">preceptes</rdg>
                         </app> ; <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> dans <app>
                             <lem wit="#Paris_1696_9">celui-ci,</lem>
                             <rdg wit="#Paris_1688_1">celuy cy</rdg>
+                            <rdg wit="#Paris_1689_4">celuy-cy</rdg>
                         </app> du <app>
                             <lem>goût et</lem>
                             <rdg wit="#Paris_1688_1">goust &amp;</rdg>
-                            <rdg wit="#Paris_1696_9">goût &amp;</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">goût &amp;</rdg>
                         </app> des <app>
                             <lem>sentiments. L’on</lem>
-                            <rdg wit="#Paris_1688_1">sentimens : l'on</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1689_4">sentimens : l'on</rdg>
                             <rdg wit="#Paris_1696_9">sentimens - l'on</rdg>
                         </app> est plus occupé aux <app>
                             <lem>pièces</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">pieces</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">pieces</rdg>
                         </app> de Corneille ; l’on est plus ébranlé <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> plus attendri à celles de Racine<app>
                             <lem>.</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> :</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"> :</rdg>
                         </app> Corneille est plus moral, Racine plus naturel<app>
                             <lem>. Il</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> : il</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"> : il</rdg>
                         </app> semble que l’un imite <app>
                             <lem>Sophocle,et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">SOPHOCLE ; &amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">SOPHOCLE ;
+                                &amp;</rdg>
                         </app> que l’autre doit plus à <app>
                             <lem>Euripide » </lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">EURIPIDE</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">EURIPIDE</rdg>
                         </app>.</p>
                 </div2>
                 <div2 n="55" source="#Paris_1696_9 #Paris_1689_4 Paris_1688_1">
                     <p><g ref="#pied_de_mouche" source="#Paris_1688_1 #Paris_1696_9"/>Le peuple
                         appelle <app>
                             <lem>éloquence</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">Eloquence</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Eloquence</rdg>
                         </app> la facilité que quelques-uns ont de parler seuls <app>
                             <lem>et longtemps</lem>
                             <rdg wit="#Paris_1688_1">&amp; lomptemps</rdg>
                             <rdg wit="#Paris_1696_9">&amp; lomptems</rdg>
+                            <rdg wit="#Paris_1689_4">&amp; long-temps</rdg>
                         </app>, jointe à l’emportement du geste, à l’éclat de la voix, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> à la force des <app>
                             <lem>poumons</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">poulmons</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">poulmons</rdg>
                         </app>. Les <app>
                             <lem>pédants</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">Pedans</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Pedans</rdg>
                         </app> ne l’admettent aussi que dans le discours oratoire, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> ne la distinguent pas de l’entassement des figures, de l’usage des
                         grands mots, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> de la rondeur des <app>
                             <lem>périodes</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">periodes</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">periodes</rdg>
                         </app>.<pb n="27" source="#Paris_1696_9"/> Il semble que la <app>
                             <lem>logique</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">Logique</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Logique</rdg>
                         </app> est l’art de convaincre de quelque vérité <app>
                             <lem>; et l’éloquence</lem>
                             <rdg wit="#Paris_1688_1">&amp; l'Eloquence</rdg>
-                            <rdg wit="#Paris_1696_9">; &amp; l'Eloquence</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">; &amp; l'Eloquence</rdg>
                         </app> un don<pb n="172" source="#Paris_1688_1"/> de <app>
                             <lem>l'âme</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">l'ame</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">l'ame</rdg>
                         </app>, lequel nous rend maîtres du cœur <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> de l’esprit des autres<app>
-                            <lem wit="#Paris_1696_9"> ;</lem>
+                            <lem wit="#Paris_1696_9 #Paris_1689_4"> ;</lem>
                             <rdg wit="#Paris_1688_1">,</rdg>
                         </app> qui fait que nous leur inspirons ou que nous leur persuadons tout ce
                         qui nous <app>
-                            <lem wit="#Paris_1696_9">plaît</lem>
+                            <lem wit="#Paris_1696_9 #Paris_1689_4">plaît</lem>
                             <rdg wit="#Paris_1688_1">plaist</rdg>
                         </app>. <app>
                             <lem>L'éloquence</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">L'Eloquence</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">L'Eloquence</rdg>
                         </app> peut se trouver dans les entretiens <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> dans tout genre d’écrire<app>
                             <lem>. Elle</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> ; elle</rdg>
-                        </app> est rarement où on la cherche, <app>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"> ; elle</rdg>
+                        </app> est rarement où on la<pb n="107" source="#Paris_1689_4"/> cherche, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> elle est quelquefois où on ne la cherche point.<app>
                             <lem>
                                 <app>
                                     <lem>L’éloquence</lem>
-                                    <rdg wit="#Paris_1696_9">L’Eloquence</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">L’Eloquence</rdg>
                                 </app> est au sublime ce que le tout est à sa partie. Qu’est-ce que
                                 le sublime ? Il ne <app>
                                     <lem>paraît</lem>
-                                    <rdg wit="#Paris_1696_9">paroît</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">paroît</rdg>
                                 </app> pas qu’on l’ait défini<app>
                                     <lem>. Est-ce</lem>
-                                    <rdg wit="#Paris_1696_9"> ; est-ce</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4"> ; est-ce</rdg>
                                 </app> une figure ? <app>
                                     <lem>Naît-il</lem>
                                     <rdg wit="#Paris_1696_9">naît-il</rdg>
+                                    <rdg wit="#Paris_1689_4">naist-il</rdg>
                                 </app> des figures, ou du moins de quelques figures ? <app>
                                     <lem>Tout</lem>
-                                    <rdg wit="#Paris_1696_9">tout</rdg>
-                                </app> genre d’écrire reçoit-il le sublime, ou s’il n’y a que les
-                                grands sujets qui en soient capables ? <app>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">tout</rdg>
+                                </app> genre d’écrire reçoit-il le sublime<app>
+                                    <lem wit="#Paris_1696_9">, ou</lem>
+                                    <rdg wit="#Paris_1689_4"> ? ou</rdg>
+                                </app> s’il n’y a que les grands sujets qui en soient capables ? <app>
                                     <lem>Peut-il</lem>
-                                    <rdg wit="#Paris_1696_9">peut-il</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">peut-il</rdg>
                                 </app> briller autre chose dans <app>
                                     <lem>l'églogue</lem>
-                                    <rdg wit="#Paris_1696_9">l'Eglogue</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">l'Eglogue</rdg>
                                 </app> qu’un beau naturel, <app>
                                     <lem>et</lem>
-                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                                 </app> dans les lettres <app>
                                     <lem>familières</lem>
-                                    <rdg wit="#Paris_1696_9">familieres</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">familieres</rdg>
                                 </app> comme dans les conversations qu’une grande délicatesse ? ou <app>
                                     <lem>plutôt</lem>
                                     <rdg wit="#Paris_1696_9">plûtôt<note resp="#SK" type="analyse"
@@ -682,120 +693,136 @@
                                             entre notre "plutôt" actuel et la version ancienne "plus
                                             tost", qui montre une évolution de la langue française,
                                             encore très changeante à cette époque.</note></rdg>
-                                </app> le naturel <app>
+                                    <rdg wit="#Paris_1689_4">plûtost</rdg>
+                                </app> le <app>
+                                    <lem wit="#Paris_1696_9">naturel</lem>
+                                    <rdg wit="#Paris_1689_4">naïf</rdg>
+                                </app>
+                                <app>
                                     <lem>et</lem>
-                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                                 </app> le délicat ne sont-ils pas le sublime des ouvrages dont ils
                                 font la perfection ? <app>
                                     <lem>Qu’est-ce</lem>
-                                    <rdg wit="#Paris_1696_9">qu'est-ce</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">qu'est-ce</rdg>
                                 </app> que le sublime ? <app>
                                     <lem>Où</lem>
-                                    <rdg wit="#Paris_1696_9">où</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">où</rdg>
                                 </app> entre le sublime ? Les <app>
                                     <lem>synonymes</lem>
                                     <rdg wit="#Paris_1696_9">synonimes</rdg>
+                                    <rdg wit="#Paris_1689_4">sinonimes</rdg>
                                 </app> sont plusieurs dictions<app>
                                     <lem> </lem>
-                                    <rdg wit="#Paris_1696_9">, </rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">, </rdg>
                                 </app>ou plusieurs phrases <app>
                                     <lem>différentes</lem>
-                                    <rdg wit="#Paris_1696_9">differentes</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">differentes</rdg>
                                 </app> qui signifient une même chose. <app>
                                     <lem>L'antithèse</lem>
-                                    <rdg wit="#Paris_1696_9">L'antithese</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">L'antithese</rdg>
                                 </app> est une opposition de deux <app>
                                     <lem>vérités</lem>
-                                    <rdg wit="#Paris_1696_9">veritez</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">veritez</rdg>
                                 </app> qui se donnent du jour l’une à l’autre. La <app>
                                     <lem>métaphore</lem>
-                                    <rdg wit="#Paris_1696_9">metaphore</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">metaphore</rdg>
                                 </app> ou la comparaison emprunte, d’une chose <app>
                                     <lem>étrangère</lem>
-                                    <rdg wit="#Paris_1696_9">étrangere</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">étrangere</rdg>
                                 </app> une image sensible <app>
                                     <lem>et</lem>
-                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                                 </app> naturelle d’une <app>
                                     <lem>vérité</lem>
                                     <rdg wit="#Paris_1696_9">verité</rdg>
                                 </app>. <app>
                                     <lem>L'hyperbole</lem>
-                                    <rdg wit="#Paris_1696_9">L'hiperbole</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">L'hiperbole</rdg>
                                 </app> exprime au delà de la <app>
                                     <lem>vérité</lem>
-                                    <rdg wit="#Paris_1696_9">verité</rdg>
-                                </app> pour ramener l’esprit à la mieux <app>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">verité</rdg>
+                                </app> pour rame<pb n="108" source="#Paris_1689_4"/>ner l’esprit à
+                                la mieux <app>
                                     <lem>connaître</lem>
                                     <rdg wit="#Paris_1696_9">connoître</rdg>
+                                    <rdg wit="#Paris_1689_4">connoistre</rdg>
                                 </app>. Le sublime ne peint que la <app>
                                     <lem>vérité</lem>
-                                    <rdg wit="#Paris_1696_9">verité</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">verité</rdg>
                                 </app>, mais en un sujet noble<app>
                                     <lem> ;</lem>
-                                    <rdg wit="#Paris_1696_9">, </rdg>
-                                </app> il la peint tout <app>
-                                    <lem>entière</lem>
-                                    <rdg wit="#Paris_1696_9">entiere</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">, </rdg>
+                                </app> il la peint <app>
+                                    <lem> tout entière</lem>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">toute entiere</rdg>
                                 </app>, dans sa cause <app>
                                     <lem>et</lem>
-                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                                 </app> dans son effet ; il est l’expression<app>
                                     <lem> </lem>
-                                    <rdg wit="#Paris_1696_9">, </rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">, </rdg>
                                 </app>ou l’image la plus digne de cette <app>
                                     <lem>vérité</lem>
-                                    <rdg wit="#Paris_1696_9">verité</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">verité</rdg>
                                 </app>. Les esprits <app>
                                     <lem>médiocres</lem>
-                                    <rdg wit="#Paris_1696_9">mediocres</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">mediocres</rdg>
                                 </app> ne trouvent point<pb n="28" source="#Paris_1696_9"/> l’unique expression<app>
                                     <lem>, et</lem>
                                     <rdg wit="#Paris_1696_9">,</rdg>
+                                    <rdg wit="#Paris_1689_4">, &amp;</rdg>
                                 </app> usent de <app>
                                     <lem>synonymes</lem>
-                                    <rdg wit="#Paris_1696_9">synonimes</rdg>
-                                </app>. Les jeunes gens sont <app>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">synonimes</rdg>
+                                </app>. Les <app>
+                                    <lem wit="#Paris_1696_9">jeunes</lem>
+                                    <rdg wit="#Paris_1689_4">Jeunes</rdg>
+                                </app> gens sont <app>
                                     <lem>éblouis</lem>
                                     <rdg wit="#Paris_1696_9">ebloüis</rdg>
+                                    <rdg wit="#Paris_1689_4">ébloüis</rdg>
                                 </app> de l’éclat de <app>
                                     <lem>l'antithèse</lem>
-                                    <rdg wit="#Paris_1696_9">l'ntithese</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">l'antithese</rdg>
                                 </app>, <app>
                                     <lem>et</lem>
-                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                                 </app> s’en servent. Les esprits justes, <app>
                                     <lem>et</lem>
-                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                                 </app> qui aiment à faire des images qui soient précises, donnent
                                 naturellement dans la comparaison <app>
                                     <lem>et</lem>
-                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                                 </app> la <app>
                                     <lem>métaphore</lem>
-                                    <rdg wit="#Paris_1696_9">metaphore</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">metaphore</rdg>
                                 </app>. Les esprits vifs, pleins de feu, <app>
                                     <lem>et</lem>
-                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                                 </app> qu’une vaste imagination emporte hors des <app>
                                     <lem>règles et</lem>
                                     <rdg wit="#Paris_1696_9">regles &amp;</rdg>
+                                    <rdg wit="#Paris_1689_4">regles, &amp;</rdg>
                                 </app> de la justesse<app>
                                     <lem>, ne</lem>
                                     <rdg wit="#Paris_1696_9"> </rdg>
+                                    <rdg wit="#Paris_1689_4"> ne</rdg>
                                 </app>peuvent s’assouvir de <app>
-                                    <lem>l'hyperbole</lem>
+                                    <lem wit="#Paris_1689_4">l'hyperbole</lem>
                                     <rdg wit="#Paris_1696_9">l'hiperbole</rdg>
                                 </app>. Pour le sublime, il n’y a<app>
                                     <lem>, </lem>
-                                    <rdg wit="#Paris_1696_9"> </rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4"> </rdg>
                                 </app>même entre les grands <app>
                                     <lem>génies,</lem>
-                                    <rdg wit="#Paris_1696_9">genies</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">genies</rdg>
                                 </app> que les plus <app>
                                     <lem>élevés</lem>
-                                    <rdg wit="#Paris_1696_9">élevez</rdg>
+                                    <rdg wit="#Paris_1696_9 #Paris_1689_4">élevez</rdg>
                                 </app> qui en soient capables.</lem>
+                            <rdg wit="#Paris_1688_1"/>
                         </app></p>
                 </div2>
                 <div2 n="56" source="#Paris_1696_9">
@@ -831,59 +858,65 @@
                         </app>, mais parce qu’on est en effet intelligible.</p>
                 </div2>
                 <div2 n="57" source="#Paris_1696_9 #Paris_1689_4">
-                    <p><g ref="#pied_de_mouche" source="#Paris_1696_9"/>L’on n’écrit que pour être
-                        entendu ; mais il faut du moins en écrivant faire entendre de belles choses<app>
+                    <p><g ref="#pied_de_mouche" source="#Paris_1696_9 #Paris_1689_4"/>L’on n’écrit
+                        que pour être entendu ; mais il faut du moins en écrivant faire entendre de
+                        belles choses<app>
                             <lem>. L'on</lem>
-                            <rdg wit="#Paris_1696_9"> : l'on</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4"> : l'on</rdg>
                         </app> doit avoir une diction pure, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> user de termes qui soient propres, il est vrai ; mais il faut que ces
-                        termes si propres expriment des pensées nobles, vives, solides, <app>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
+                        </app> user de termes qui soient propres, il est <app>
+                            <lem wit="#Paris_1696_9">vrai ;</lem>
+                            <rdg wit="#Paris_1689_4">vray,</rdg>
+                        </app> mais il faut que ces termes si propres expriment des pensées
+                        nobles, vives, solides, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> qui renferment un <app>
                             <lem>très beau</lem>
-                            <rdg wit="#Paris_1696_9">tres-beau</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">tres-beau</rdg>
                         </app> sens<app>
                             <lem>. C'est</lem>
                             <rdg wit="#Paris_1696_9">, c'est</rdg>
+                            <rdg wit="#Paris_1689_4"> ; c'est</rdg>
                         </app> faire de la pureté <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> de la clarté du discours un mauvais usage que de les faire servir à
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
+                        </app><pb n="109" source="#Paris_1689_4"/> de la clarté du discours un mauvais usage que de les faire servir à
                         une <app>
                             <lem>matière</lem>
-                            <rdg wit="#Paris_1696_9">matiere</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">matiere</rdg>
                         </app> aride, infructueuse, qui est sans sel, sans utilité, sans nouveauté<app>
                             <lem>. Que</lem>
-                            <rdg wit="#Paris_1696_9"> : que</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4"> : que</rdg>
                         </app> sert aux <app>
-                            <lem>lecteurs</lem>
+                            <lem wit="#Paris_1689_4">lecteurs</lem>
                             <rdg wit="#Paris_1696_9">Lecteurs</rdg>
                         </app> de comprendre aisément <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> sans peine des choses frivoles <app>
                             <lem>et puériles</lem>
-                            <rdg wit="#Paris_1696_9">&amp; pueriles</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp; pueriles</rdg>
                         </app>, quelquefois fades et communes, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> d’être moins incertains de la pensée d’un <app>
                             <lem>auteur qu'ennuyés</lem>
                             <rdg wit="#Paris_1696_9">Auteur qu'ennuyez</rdg>
+                            <rdg wit="#Paris_1689_4">Auteur, qu'ennuyez</rdg>
                         </app> de son ouvrage<app>
-                            <lem> ?</lem>
+                            <lem wit="#Paris_1689_4"> ?</lem>
                             <rdg wit="#Paris_1696_9">.</rdg>
                         </app> Si l’on jette quelque profondeur dans cer<pb n="29"
                             source="#Paris_1696_9"/>tains écrits, si l’on affecte une finesse de
                         tour, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> quelquefois une trop grande délicatesse, ce n’est que par la bonne
                         opinion qu’on a de ses <app>
-                            <lem>lecteurs</lem>
+                            <lem wit="#Paris_1689_4">lecteurs</lem>
                             <rdg wit="#Paris_1696_9">Lecteurs</rdg>
                         </app>.</p>
                 </div2>
@@ -948,37 +981,37 @@
                         </app> de quelques autres, c’est de n’écrire point.</p>
                 </div2>
                 <div2 n="60" source="#Paris_1696_9 #Paris_1689_4">
-                    <p><g ref="#pied_de_mouche" source="#Paris_1696_9"/>L’on écrit <app>
+                    <p><g ref="#pied_de_mouche" source="#Paris_1696_9 #Paris_1689_4"/>L’on écrit <app>
                             <lem>régulièrement</lem>
-                            <rdg wit="#Paris_1696_9">regulierement</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">regulierement</rdg>
                         </app> depuis vingt années ; l’on est esclave de la construction ; l’on a
                         enrichi la langue de nouveaux mots, <app>
                             <lem>secoué</lem>
-                            <rdg wit="#Paris_1696_9">secoüé</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">secoüé</rdg>
                         </app> le joug du <app>
                             <lem>latinisme, et réduit</lem>
-                            <rdg wit="#Paris_1696_9">Latinisme, &amp; reduit</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">Latinisme, &amp; reduit</rdg>
                         </app> le style à la phrase purement <app>
                             <lem>française</lem>
-                            <rdg wit="#Paris_1696_9">Françoise</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">Françoise</rdg>
                         </app> ; l’on a presque retrouvé le nombre que <app>
                             <lem>Malherbe et Balzac avaient</lem>
-                            <rdg wit="#Paris_1696_9">MALHERBE &amp; BALZAC avoient</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">MALHERBE &amp; BALZAC avoient</rdg>
                         </app> les premiers rencontré, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> que tant <app>
-                            <lem>d'auteurs</lem>
+                            <lem wit="#Paris_1689_4">d'auteurs</lem>
                             <rdg wit="#Paris_1696_9">d'Auteurs</rdg>
                         </app> depuis eux ont laissé perdre ; l’on a mis enfin dans le discours tout
                         l’ordre <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> toute la netteté dont il est capable : cela conduit insensiblement à
-                        y mettre de l’esprit.</p>
+                        y mettre de l’esprit.<pb n="110" source="#Paris_1689_4"/></p>
                 </div2>
                 <div2 n="61" source="#Paris_1696_9 #Paris_1689_4">
-                    <p><g ref="#pied_de_mouche" source="#Paris_1696_9"/>Il y a des artisans ou des
+                    <p><g ref="#pied_de_mouche" source="#Paris_1696_9 #Paris_1689_4"/>Il y a des artisans ou des
                         habiles dont l’esprit est aussi vaste que l’art <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1696_9">&amp;</rdg>
@@ -1242,11 +1275,11 @@
                         point mettre un ridicule où il n’y en a point<app>
                             <lem wit="#Paris_1688_1"> :</lem>
                             <rdg wit="#Paris_1696_9">,</rdg>
-                        </app> c’est se gâter le <seg>goût<note resp="#SK" type="analyse" place="bottom"
-                                style="italic">Il est intéressant de remarquer cette écriture de
-                                goût, nottamment dans la première édition de 1688, où la plupart des
-                                occurences de ces mots sont notées "goust".</note></seg>, c’est
-                        corrompre son jugement <app>
+                        </app> c’est se gâter le <seg>goût<note resp="#SK" type="analyse"
+                                place="bottom" style="italic">Il est intéressant de remarquer cette
+                                écriture de goût, nottamment dans la première édition de 1688, où la
+                                plupart des occurences de ces mots sont notées
+                        "goust".</note></seg>, c’est corrompre son jugement <app>
                             <lem>et celui</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp; celuy</rdg>
                         </app> des autres ; mais le ridicule qui est quelque part, il faut l’y voir,
