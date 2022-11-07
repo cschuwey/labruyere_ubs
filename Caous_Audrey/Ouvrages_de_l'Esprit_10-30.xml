@@ -46,7 +46,6 @@
 
 
                     <monogr xml:id="Paris_1688_1">
-                        <textLang>Français</textLang>
                         <edition>1ère edition</edition>
                         <imprint xml:id="Paris_1688_1_1">
                             <publisher>Estienne Michallet</publisher>
@@ -59,7 +58,6 @@
                     
                     
                     <monogr xml:id="Paris_1688_3">
-                        <textLang>Français</textLang>
                         <edition>3eme edition</edition>
                         <imprint xml:id="Paris_1688_3_1">
                             <publisher>Estienne Michallet</publisher>
@@ -69,7 +67,6 @@
                     </monogr>
                     
                     <monogr xml:id="Paris_1689_4">
-                        <textLang>Français</textLang>
                         <edition>3eme edition</edition>
                         <imprint xml:id="Paris_1689_4_1">
                             <publisher>Estienne Michallet</publisher>
@@ -79,7 +76,6 @@
                     </monogr>
                     
                      <monogr xml:id="Paris_1690_5">
-                        <textLang>Français</textLang>
                         <edition>7eme edition</edition>
                         <imprint xml:id="Paris_1690_5_1">
                             <publisher>Estienne Michallet</publisher>
@@ -89,7 +85,6 @@
                     </monogr>
                     
                      <monogr xml:id="Paris_1691_6">
-                        <textLang>Français</textLang>
                         <edition>7eme edition</edition>
                         <imprint xml:id="Paris_1691_6_1">
                             <publisher>Estienne Michallet</publisher>
@@ -99,7 +94,6 @@
                     </monogr>
 
                     <monogr xml:id="Paris_1692_7">
-                        <textLang>Français</textLang>
                         <edition>7eme edition</edition>
                         <imprint xml:id="Paris_1692_7_1">
                             <publisher>Estienne Michallet</publisher>
@@ -110,7 +104,6 @@
 
 
                     <monogr xml:id="Paris_1694_8">
-                        <textLang>Français</textLang>
                         <edition>8eme edition</edition>
                         <imprint xml:id="Paris_1694_8_1">
                             <publisher>Estienne Michallet</publisher>
@@ -121,7 +114,6 @@
 
 
                     <monogr xml:id="Paris_1696_9">
-                        <textLang>Français</textLang>
                         <edition>9eme edition</edition>
                         <imprint xml:id="Paris_1696_9_1">
                             <publisher>Estienne Michallet</publisher>
@@ -131,7 +123,6 @@
                     </monogr>
                     
                     <monogr xml:id="Paris_1699_10">
-                        <textLang>Français</textLang>
                         <edition>10 eme edition</edition>
                         <imprint xml:id="Paris_1699_10_1">
                             <publisher>Estienne Michallet</publisher>
@@ -141,6 +132,25 @@
                     </monogr>
 
                 </biblStruct>
+                
+                <bibl type="clé" xml:id="E_1690"/>
+                    
+                
+                
+                <listPerson>
+                    <person xml:id="Homère"></person>
+                    <person xml:id="Virgile"></person>
+                    <person xml:id="Platon"></person>
+                    <person xml:id="Horace"></person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="Rome"></place>
+                    <place xml:id="Grèce"></place>
+                    <place xml:id="France"></place>
+                    <place xml:id="Europe"></place>
+                    <place xml:id="Zoile"></place>
+                </listPlace>
             </sourceDesc>
         </fileDesc>
 
@@ -280,7 +290,7 @@
                 <div2 n="14" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="pied_de_mouche_simple"/>  
                         Tout l’esprit d’un auteur consiste à bien définir et à bien peindre. <seg><note source="#Paris_1694_8 #Paris_1688_3 #Paris_1696_9 #Paris_1699_10" resp="#JB" type="comm" place="left" style="*">Quand meſme on ne le considère pas comme un homme qui a écrit</note><app> <lem wit="#Paris_1694_8"> Moïse</lem>  <rdg wit="#Paris_1688_1"> Moyse </rdg></app></seg>,
-                        Homere, Platon, Virgile, Horace ne sont au-dessus des autres écrivains que
+                        <persName ref="Homère" type="philosophe"><name>Homere</name></persName>,<persName ref="Platon" type="philosophe"><name>Platon</name></persName>,<persName ref="Virgile" type="philosophe"><name>Virgile</name></persName>,<persName ref="Horace" type="poète"><name>Horace</name></persName>ne sont au-dessus des autres écrivains que
                         par leurs expressions et par leurs images : il faut exprimer le vrai pour
                         écrire naturellement, fortement, délicatement.<pb n="172" source="#Paris_1688_3"/></p>
                 </div2>
@@ -290,8 +300,8 @@
                         On a dû faire du style ce qu’on a fait de l’architecture. On a entièrement
                         abandonné l’ordre gothique, que la barbarie avait introduit pour les palais
                         et pour les temples ; on a rappelé le dorique, l’ionique et le <pb n="100" source="#Paris_1694_8"/><pb n="106" source="#Paris_1691_6"/> <pb n="104" source="#Paris_1692_7"/> corinthien :
-                        ce qu’on ne voyait plus que dans les ruines de l’ancienne Rome et de la
-                        vieille Grèce, devenu moderne, éclate dans nos portiques et dans nos
+                        ce qu’on ne voyait plus que dans les ruines de l’ancienne <placeName ref="Rome"><name>Rome</name></placeName> et de la
+                        vieille <placeName ref="Grèce"><name>Grèce</name></placeName>, devenu moderne, éclate dans nos portiques et dans nos
                         péristyle. De même, on ne saurait en écrivant rencontrer le parfait, et s’il
                         se peut, surpasser les anciens que par leur imitation. <app><lem wit="#Paris_1694_8"> pas de nouveau paragraphe ni pied de mouche avant ''Combien'' </lem> <rdg wit="#Paris_1688_1"> <g ref="pied de mouche simple"></g></rdg></app>
                         <app><lem wit="#Paris_1694_8">Combien de siècles se sont écoulés avant que les hommes, dans les sciences et dans les arts, aient
@@ -304,10 +314,10 @@
                         : il tire la raison de son goût particulier, et l’exemple de ses ouvrages. <pb n="101" source="#Paris_1694_8"/><pb n="107" source="#Paris_1691_6"/><pb n="105" source="#Paris_1692_7"/>
                         Il avoue que les anciens, quelque inégaux et peu corrects qu’ils soient, ont
                         de beaux traits ; il les cite, et ils sont si beaux qu’ils font lire sa
-                        critique. <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="left"></note>
+                        critique. <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="left">texte illisible</note>
                         Quelques habiles prononcent en faveur des anciens contre les
                         modernes ; mais ils sont suspects et semblent juger en leur propre cause,
-                        tant leurs ouvrages sont faits sur le goût de l’antiquité : on les
+                        tant leurs ouvrages sont faits sur le goût de <date>l’antiquité</date> : on les
                         récuse<note source="#Paris_1694_8" resp="AC" type="gloss" place="right" style="*">on refuse leur jugement ou témoignage car il serait biaisé</note>.</lem> <rdg wit="#Paris_1688_1">Combien de siècles se sont écoulés avant que les hommes, dans les sciences et dans les arts, aient
                         pu revenir au goût des anciens et reprendre enfin le simple et le naturel !</rdg></app>
                         </p>
@@ -348,7 +358,7 @@
 
                 <div2 n="19" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/>  
-                        « L’on m’a engagé, dit Ariste, à lire mes ouvrages à <app> <lem wit="#Paris_1694_8"> Zoïle</lem> <rdg wit="#Paris_1688_1 #Paris_1689_4">Zelotes</rdg></app> : je l’ai fait.
+                        « L’on m’a engagé, dit Ariste, à lire mes ouvrages à <app> <lem wit="#Paris_1694_8"> <placeName ref="Zoile"><name>Zoïle</name></placeName></lem> <rdg wit="#Paris_1688_1 #Paris_1689_4">Zelotes</rdg></app> : je l’ai fait.
                         Ils l’ont saisi d’abord et avant qu’il ait eu le loisir de<pb n="174" source="#Paris_1688_3"/> les trouver
                         mauvais ; il les a loués modestement en ma présence, et il ne les a pas
                         loués de<pb n="103" source="#Paris_1694_8"/><pb n="107" source="#Paris_1692_7"/>puis<pb n="109" source="#Paris_1691_6"/> devant personne. Je l’excuse, et je n’en demande pas davantage
@@ -387,10 +397,10 @@
                             qu’il en aura pour cette pièce ; phrase outrées, dégoûtantes, qui sentent la
                             pension ou l’abbaye, nuisibles à cela même qui est louable et qu’on veut
                             louer. Que ne disiez-vous seulement :« Voilà un bon livre » ? Vous le dites,
-                            il est vrai, avec toute la France, avec les étrangers comme avec vos
-                            compatriotes, quand il est imprimé par toute l’Eu<pb n="105" source="Paris_1694_8"/>rope et qu’il est traduit
-                            en plusieurs langues <pb n="109" source="#Paris_1692_7"/> : il n’est plus temps.</lem> <rdg wit="#Paris_1688_1"> </rdg></app> <rdg wit="#Paris_1688_3"> </rdg><app><lem wit="#Paris_1694_8"></lem><app><lem wit="#Paris_1694_8">approu<pb n="104" source="#Paris_1694_8"></pb> <pb n="108" source="#Paris_1692_7"/> vé</lem> <rdg wit="#Paris_1689_4">aprouvé</rdg></app> cet ouvrage, et que le public est de leur avis.</rdg></app>
-                        </p>
+                            il est vrai, avec toute la <placeName ref="France"><name>France</name></placeName>, avec les étrangers comme avec vos
+                            compatriotes, quand il est imprimé par toute <placeName ref="Europe"><name>Europe</name>l’Eu<pb n="105" source="Paris_1694_8"/>rope</placeName> et qu’il est traduit
+                            en plusieurs langues <pb n="109" source="#Paris_1692_7"/> : il n’est plus temps.</lem> <rdg wit="#Paris_1688_1 #Paris_1688_3"> </rdg></app> <app><lem wit="#Paris_1694_8">approu<pb n="104" source="#Paris_1694_8"/></lem></app><pb n="108" source="#Paris_1692_7"/>vé</lem> <rdg wit="#Paris_1689_4">aprouvé</rdg></app> cet ouvrage, et que le public est de leur avis.</rdg></app>
+                    </p>
                 </div2>
 
                 <div2 n="22" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
@@ -408,7 +418,7 @@
 
                 <div2 n="23" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/> 
-                        « Que dites-vous du livre d’Hermodore ? —Qu’il est mauvais, répond
+                        « Que dites-vous du livre d’<app type="clé"><lem wit="#Paris_1694_8">Hermodore</lem> <rdg></rdg></app> ? —Qu’il est mauvais, répond
                         Anthime.—Qu’il est mauvais ? —Qu’il est tel, continue-t-il, que ce n’est pas
                         un livre, ou qui mérite du moins que le monde en parle.—Mais l’avez-vous lu
                         ? —Non », dit <app><lem wit="#Paris_1694_8">Anthime</lem> <rdg><desc>style="italics"</desc>Anthime</rdg></app>. Que n’ajoute-t-il que Fulvie et Mélanie l’ont
@@ -512,7 +522,7 @@
                         celle du Cid.</p>
                 </div2>
 
-                <div2 n="30" source="Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
+                <div2 n="30" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                             
                     <p> <g ref="pied_de_mouche_simple"/>
                             Quelle prodigieuse distance entre un bel ouvrage et un ouvrage parfait
