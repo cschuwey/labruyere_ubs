@@ -6,11 +6,11 @@
                 <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les
                     moeurs de ce siècle</title>
                 <respStmt xml:id="auteur">
-                    <name>Jean de la Bruyère</name>
+                    <persName ref="#auteur">Jean de la Bruyère</persName>
                     <resp>auteur</resp>
                 </respStmt>
                 <respStmt xml:id="editeur">
-                    <name>Etienne Michallet</name>
+                    <persName ref="#editeur">Etienne Michallet</persName>
                     <resp>Editeur original</resp>
                 </respStmt>
                 <respStmt xml:id="lecteurice">
@@ -26,8 +26,8 @@
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-                <publisher>Etienne Michallet</publisher>
-                <pubPlace>Paris</pubPlace>
+                <publisher ref="#editeur">Etienne Michallet</publisher>
+                <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                 <date when="1688">Entre 1688 et 1699</date>
                 <availability status="free" source="https://shorturl.at/csEFI">
                     <p>Cette oeuvre est disponible, dans plusieurs de ses éditions, en libre accès
@@ -41,69 +41,69 @@
                     <monogr xml:id="Paris_1688_1">
                         <title>Les caractères de Théophraste, traduits du grec, avec Les caractères
                             ou les moeurs de ce siècle</title>
-                        <author>Jean de la Bruyère</author>
-                        <editor>Etienne Michallet</editor>
+                        <author ref="#auteur">Jean de la Bruyère</author>
+                        <editor ref="#editeur">Etienne Michallet</editor>
                         <edition>1ère édition</edition>
                         <idno type="ark">https://gallica.bnf.fr/ark:/12148/bpt6k105077m</idno>
                         <imprint xml:id="Paris_1688_1_1">
                             <date>1688</date>
                             <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                            <pubPlace>Paris</pubPlace>
+                            <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1688_3">
                         <title>Les caractères de Théophraste, traduits du grec, avec Les caractères
                             ou les moeurs de ce siècle</title>
-                        <author>Jean de la Bruyère</author>
-                        <editor>Etienne Michallet</editor>
+                        <author ref="#auteur">Jean de la Bruyère</author>
+                        <editor ref="#editeur">Etienne Michallet</editor>
                         <edition>3ème édition</edition>
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372427436</idno>
                         <imprint xml:id="Paris_1688_3_1">
                             <date>1688</date>
                             <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                            <pubPlace>Paris</pubPlace>
+                            <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1689_4">
                         <title type="main">Les caractères de Théophraste, traduits du grec, avec Les
                             caractères ou les moeurs de ce siècle</title>
                         <title type="sub">corrigée et argumentée</title>
-                        <author>Jean de la Bruyère</author>
-                        <editor>Etienne Michallet</editor>
+                        <author ref="#auteur">Jean de la Bruyère</author>
+                        <editor ref="#editeur">Etienne Michallet</editor>
                         <edition>4ème édition</edition>
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb37243134t</idno>
                         <imprint xml:id="Paris_1689_4_1">
                             <date>1689</date>
                             <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                            <pubPlace>Paris</pubPlace>
+                            <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1690_5">
                         <title type="main">Les caractères de Théophraste, traduits du grec, avec Les
                             caractères ou les moeurs de ce siècle</title>
                         <title type="sub">augmentée de plusiers Remarques</title>
-                        <author>Jean de la Bruyère</author>
-                        <editor>Etienne Michallet</editor>
+                        <author ref="#auteur">Jean de la Bruyère</author>
+                        <editor ref="#editeur">Etienne Michallet</editor>
                         <edition>5ème édition</edition>
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb37243134t</idno>
                         <imprint xml:id="Paris_1690_5_1">
                             <date>1690</date>
                             <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                            <pubPlace>Paris</pubPlace>
+                            <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1691_6">
                         <title type="main">Les caractères de Théophraste, traduits du grec, avec Les
                             caractères ou les moeurs de ce siècle</title>
                         <title type="sub">augmentée de plusiers Remarques</title>
-                        <author>Jean de la Bruyère</author>
-                        <editor>Etienne Michallet</editor>
+                        <author ref="#auteur">Jean de la Bruyère</author>
+                        <editor ref="#editeur">Etienne Michallet</editor>
                         <edition>6ème édition</edition>
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb307059875</idno>
                         <imprint xml:id="Paris_1691_6_1">
                             <date>1691</date>
                             <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                            <pubPlace>Paris</pubPlace>
+                            <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1692_7">
@@ -113,14 +113,14 @@
                                 <lem>et</lem>
                                 <rdg wit="#Paris_1692_7">&amp;</rdg>
                             </app> corrigée</title>
-                        <author>Jean de la Bruyère</author>
-                        <editor>Etienne Michallet</editor>
+                        <author ref="#auteur">Jean de la Bruyère</author>
+                        <editor ref="#editeur">Etienne Michallet</editor>
                         <edition>7ème édition</edition>
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372432134</idno>
                         <imprint xml:id="Paris_1692_7_1">
                             <date>1692</date>
                             <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                            <pubPlace>Paris</pubPlace>
+                            <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1694_8">
@@ -130,14 +130,14 @@
                                 <lem>et</lem>
                                 <rdg wit="#Paris_1694_8">&amp;</rdg>
                             </app> augmentée</title>
-                        <author>Jean de la Bruyère</author>
-                        <editor>Etienne Michallet</editor>
+                        <author ref="#auteur">Jean de la Bruyère</author>
+                        <editor ref="#editeur">Etienne Michallet</editor>
                         <edition>8ème édition</edition>
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372432254</idno>
                         <imprint xml:id="Paris_1694_8_1">
                             <date>1694</date>
                             <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                            <pubPlace>Paris</pubPlace>
+                            <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1694_8_key_edition">
@@ -147,13 +147,13 @@
                                 <lem>et</lem>
                                 <rdg wit="#Paris_1694_8_key_edition">&amp;</rdg>
                             </app> augmentée</title>
-                        <author>Jean de la Bruyère</author>
-                        <editor>Etienne Michallet</editor>
+                        <author ref="#auteur">Jean de la Bruyère</author>
+                        <editor ref="#editeur">Etienne Michallet</editor>
                         <edition>8ème édition</edition>
                         <imprint xml:id="Paris_1694_8_2">
                             <date>1694</date>
                             <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                            <pubPlace>Paris</pubPlace>
+                            <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1696_9">
@@ -163,46 +163,46 @@
                                 <lem>et</lem>
                                 <rdg wit="#Paris_1696_9">&amp;</rdg>
                             </app> augmentée</title>
-                        <author>Jean de la Bruyère</author>
-                        <editor>Etienne Michallet</editor>
+                        <author ref="#auteur">Jean de la Bruyère</author>
+                        <editor ref="#editeur">Etienne Michallet</editor>
                         <edition>9ème édition</edition>
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb37240408c</idno>
                         <imprint xml:id="Paris_1696_9_1">
                             <date>1696</date>
                             <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                            <pubPlace>Paris</pubPlace>
+                            <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
                     <monogr xml:id="Paris_1699_10">
                         <title type="main">Les caractères de Théophraste, traduits du grec, avec Les
                             caractères ou les moeurs de ce siècle</title>
-                        <author>Jean de la Bruyère</author>
-                        <editor>Etienne Michallet</editor>
+                        <author ref="#auteur">Jean de la Bruyère</author>
+                        <editor ref="#editeur">Etienne Michallet</editor>
                         <edition>10ème édition</edition>
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372404358</idno>
                         <imprint xml:id="Paris_1699_10_1">
                             <date>1699</date>
                             <distributor>l'imprimeur l'Image Saint Paul</distributor>
-                            <pubPlace>Paris</pubPlace>
+                            <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
                     <monogr xml:id="Lyon_1694_8">
                         <title>Les caractères de Théophraste, traduits du grec, avec Les caractères
                             ou les moeurs de ce siècle</title>
-                        <author>Jean de la Bruyère</author>
+                        <author ref="#auteur">Jean de la Bruyère</author>
                         <editor>Thomas Amaulry</editor>
                         <edition>8ème édition</edition>
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372432312</idno>
                         <imprint xml:id="Lyon_1694_8_1">
                             <date>1694</date>
                             <distributor>Mercure Galant</distributor>
-                            <pubPlace>Lyon</pubPlace>
+                            <pubPlace><placeName ref="#Lyon">Lyon</placeName></pubPlace>
                         </imprint>
                     </monogr>
                     <monogr xml:id="La_Haye_1696_9">
                         <title>Les caractères de Théophraste, traduits du grec, avec Les caractères
                             ou les moeurs de ce siècle</title>
-                        <author>Jean de la Bruyère</author>
+                        <author ref="#auteur">Jean de la Bruyère</author>
                         <editor>Adrian Moetjens</editor>
                         <edition>9ème édition</edition>
                         <idno type="ark"
@@ -211,20 +211,122 @@
                             <date>1696</date>
                             <distributor>Adrian Moetjens, marchand Libraire prés la
                                 Cour</distributor>
-                            <pubPlace>La Haye</pubPlace>
+                            <pubPlace><placeName ref="#La_Haye">La Haye</placeName></pubPlace>
                         </imprint>
                     </monogr>
                 </biblStruct>
                 <listPerson xml:id="pers_reel">
+                    <person xml:id="Bazins">
+                        <persName>Les Bazins</persName>
+                        <note>nom de famille</note>
+                    </person>
+                    <person xml:id="GdB">
+                        <persName>Godefroy de Bouillon</persName>
+                        <note>chevalier franc à qui on va proposer de devenir le premier souverain
+                            de Jérusalem à la suite de la <date>Première Croisade</date>, il va
+                            cependant refuser ce titre.</note>
+                    </person>
+                    <person xml:id="GdlB">
+                        <persName>Geoffroy de la Bruyère</persName>
+                        <note>personnage connu de l'Histoire de <placeName ref="#France">France</placeName>, ils n'ont cependant aucun
+                            lien de parenté.</note>
+                    </person>
+                    <person xml:id="Camus">
+                        <persName>Le Camus</persName>
+                        <note>nom de famille</note>
+                    </person>
+                    <personGrp xml:id="Carracci">
+                        <persName>Carrachi</persName>
+                        <note>Cités dans le texte sous leur nom francisé "Carache", famille de
+                            peintres italiens très connus au <date>16ème siècle</date> avec les
+                            frères <persName ref="#Carracci_1">Annibale</persName> et
+                            <persName ref="#Carracci_2">Agostino</persName> et leur
+                            cousin <persName ref="#Carracci_3">Lodovico</persName>
+                        </note>
+                    </personGrp>
+                    <person xml:id="Carracci_1">
+                        <persName>Annibale Caracci</persName>
+                        <birth>1560</birth>
+                        <death>1609</death>
+                    </person>
+                    <person xml:id="Carracci_2">
+                        <persName>Agostino Caracci</persName>
+                        <birth>1557</birth>
+                        <death>1602</death>
+                    </person>
+                    <person xml:id="Carracci_3">
+                        <persName>Lodovico Caracci</persName>
+                        <birth>1555</birth>
+                        <death>1619</death>
+                    </person>
+                    <person xml:id="Celessins">
+                        <persName>Celessins</persName>
+                        <note>nom de famille</note>
+                    </person>
                     <person xml:id="Hozier">
                         <persName>D'Hozier</persName>
+                        <note>nom de famille célèbre de généalogistes. Le chef de cette famille a
+                            d'ailleurs écrit un ouvrage de 150 volumes manuscrits et conservés dans
+                            la Bibliothèque impériale.</note>
                     </person>
                 </listPerson>
                 <listPerson xml:id="pers_fictive">
-                    <person xml:id="Vénus"/>
-                    <person xml:id="Syrus"/>
+                    <person xml:id="Christ">
+                        <persName>Jésus Christ</persName>
+                    </person>
+                    <person xml:id="Cyrus">
+                        <note>nom de famille francisé</note>
+                    </person>
+                    <person xml:id="Ganymede">
+                        <persName>Ganymède</persName>
+                        <note>jeune mortel succèdant à la déesse <persName ref="Hebe"
+                                >Hébé</persName>, dans la mythologie grecque, dans sa fonction
+                            d'échanson (personne de confiance, pour éviter les empoissonnements,
+                            chargée de servir les boissons aux Dieux).</note>
+                    </person>
+                    <person xml:id="Hebe">
+                        <persName>Hébé</persName>
+                        <note>déesse de la mythologie grecque ayant eu pour fonction d'être échanson
+                            (personne de confiance, pour éviter les empoissonnements, chargée de
+                            servir les boissons aux Dieux).</note>
+                    </person>
+                    <person xml:id="Syrus">
+                        <note>nom de famille francisé</note>
+                    </person>
+                    <person xml:id="Vénus">
+                        <note>assimilée à déesse grecque <persName ref="#Venus"
+                            >Aphrodite</persName>, elle est la déesse de l'amour, de la séduction et
+                            de la beauté féminine dans la mythologie romaine.</note>
+                    </person>
                 </listPerson>
-
+                <listPlace>
+                    <place xml:id="France">
+                        <country><placeName>France</placeName></country>
+                    </place>
+                    <place xml:id="Jerusalem">
+                        <placeName>Jérusalem</placeName>
+                    </place>
+                    <place xml:id="La_Haye">
+                        <placeName>La Haye</placeName>
+                    </place>
+                    <place xml:id="Lyon">
+                        <placeName>Lyon</placeName>
+                    </place>
+                    <place xml:id="palais_farnese">
+                        <placeName>Palais Farnèse</placeName>
+                        <note>palais dont les plans, les décorations et les fresques ont été
+                            réalisés par quelques grands artistes de la <date>Renaissance
+                                Italienne</date>, notamment les frères <persName ref="#Carracci"
+                                >Carraci</persName> qui y sont à l'origine de la peinture de
+                            fresques à la fin du <date>16ème siècle</date>.</note>
+                    </place>
+                    <place xml:id="Paris">
+                        <placeName>Paris</placeName>
+                    </place>
+                    <place xml:id="Terre_sainte">
+                        <placeName>Terre Sainte</placeName>
+                    </place>
+                </listPlace>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -244,9 +346,11 @@
                     <p>Les annotations "originales" portent sur des notes de l'auteur ou de
                         l'éditeur apparaissant dans l'oeuvre originale et ses éditions
                         correspondantes. Les ajouts "manuscrits" viennent d'un(e) lecteur.ice
-                        inconnu(e). Les notes renseignées comme des ajouts viennent de moi pour
+                        inconnue). Les notes renseignées comme des ajouts viennent de moi pour
                         aider à la compréhension du texte, qu'elles soient de type "glossaire" ou
                         "analyse".</p>
+                    <p>Des notes décrivant les diverses clés utilisées dans les remarques ont été ajoutées et elles proviennent de "LES CARACTERES DE THEOPHRASTE TRADUITS DU GREC AVEC LES CARACTERES OU LES MOEURS DE CE SIECLE.
+                        Edition critique par Marc Escola, publié en 1999 à <placeName ref="#Paris">Paris</placeName>, édition Honoré Champion</p>
                 </interpretation>
                 <normalization>
                     <p>Nous avons tenté de garder au maximum la mise en page et la typographie
@@ -368,6 +472,16 @@
                     </figure>
                 </glyph>
             </charDecl>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="Date">
+                        <catDesc>Dates ou périodes cités dans le texte</catDesc>
+                        <catDesc>Première croisade</catDesc>
+                        <catDesc>Renaissance italienne</catDesc>
+                        <catDesc>16ème siècle</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
         <profileDesc>
             <creation>
@@ -410,7 +524,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change>
+            <change when="2022">
                 <date>2022.10.03</date>
                 <p>Ajout de la section "bibliStruct", dans "fileDesc" et remplissage de quelques-uns
                     de ses éléments à propos de "xml:id="Paris_1688_1""</p>
@@ -472,7 +586,12 @@
                 <p>Correction des dernières erreurs empêchant la validation du document (attributs
                     en trop ou inexistants, trop de guillemets) dans mes div2.</p>
                 <date>2022.11.07</date>
-                <p>Ouverture du fichier sur les postes de l'Université et il ne valide plus. Après application du fichier "tei.all", cela valide.</p>
+                <p>Ouverture du fichier sur les postes de l'Université et il ne valide plus. Après
+                    application du fichier "tei.all", cela valide.</p>
+                <p>Ajout des entitées nommées présentes dans le corps du textes et encodage en
+                    fonction dans le "encodingDesc"</p>
+                <p>Tentative d'ajout de clés dans le fichier mais difficile à appliquer dans mes
+                    caractères.</p>
             </change>
         </revisionDesc>
     </teiHeader>
@@ -520,13 +639,13 @@
                 </docTitle>
                 <docDate when="1688" style="#centered">MDCLXXXVIII</docDate>
                 <imprimatur style="#italic">Avec Privilège de Sa Majesté</imprimatur>
-                <docEdition style="#upper_case #black #small_medium #bold #italic" n="3"> </docEdition>
+                <docEdition style="#upper_case #black #small_medium #bold #italic" n="3"/>
                 <docImprint>
                     <country>France</country>
                     <placeName style="#upper_case #black #small_medium #bold #centered">A
                         Paris</placeName>
-                    <persName style="#black #small">Chez E S T I E N N E M I C H A L L E
-                        T</persName>
+                    <persName ref="#editeur" style="#black #small">Chez E S T I E N N E M I C H A L
+                        L E T</persName>
                     <roleName style="#black">premier Imprimeur du Roy, </roleName>
                     <addName style="#black #small">ruë S.Jacques à l'Image <app>
                             <lem>S</lem>
@@ -668,7 +787,7 @@
                                 <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                             </app>établie à qui il manque des<note type="ajout_manuscrit"
                                 place="droite" resp="#lecteurice" hand="inconnue"
-                                source="#Paris_1694_8_2">lazin, maitre des requeres </note></seg>
+                                source="#Paris_1694_8_2">lazin, maitre des requeres</note></seg>
                         <pb n="570" source="#Paris_1692_7"/>
                         <pb n="595" source="#Paris_1694_8_2"/>armes, <app>
                             <lem>et</lem>
@@ -692,14 +811,23 @@
                         comtale ; <app type="clé">
                             <lem
                                 wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"
-                                >quelques-uns même ne vont pas la chercher</lem> <rdg wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"><persName ref="Camus">Le Camus</persName></rdg>
-                            <rdg wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"><persName ref="Bazins">les Bazins</persName></rdg>
+                                >quelques-uns même ne vont pas la chercher</lem>
+                            <rdg
+                                wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"
+                                    ><note>
+                                        
+                                    </note>
+                                <persName ref="Camus">Le Camus</persName></rdg>
+                            <rdg
+                                wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"
+                                    ><persName ref="Bazins">les Bazins</persName></rdg>
                         </app> fort loin, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app> la font passer de <seg>leur enseigne à leur carrosse.<note
                                 type="ajout_manuscrit" place="gauche" resp="#lecteurice"
-                                hand="inconnue" source="#Paris_1694_8_2"><persName ref="Bazins">Les bazins</persName></note></seg></p>
+                                hand="inconnue" source="#Paris_1694_8_2"><persName ref="Bazins">Les
+                                    bazins</persName></note></seg></p>
                 </div2>
 
                 <div2
@@ -746,7 +874,7 @@
                         </app> les préséances, de nouvelles armes, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1699_10">&amp;</rdg>
-                        </app>d’une généalogie que <persName>D’Hozier</persName><note
+                        </app>d’une généalogie que <persName ref="#Hozier">D’Hozier</persName><note
                             type="glossaire" resp="#J_M">nom de famille célèbre de généalogistes. Le
                             chef de cette famille a d'ailleurs écrit un ouvrage de 150 volumes
                             manuscrits et conservés dans la Bibliothèque impériale.</note> ne lui a
@@ -785,8 +913,8 @@
                     <p><g ref="#pied_de_mouche"/><seg>Certaines gens portent trois noms, de peur
                             d’en manquer<note type="ajout_manuscrit" place="droite"
                                 resp="#lecteurice" hand="inconnue" source="#Paris_1694_8_2">mrs del
-                                rieu maisre dozel du roy Loyeois sonnin</note></seg> : ils en ont
-                        pour la campagne <app>
+                                rieu maisre dozel du roy Loyeois sonnin (illisible)</note></seg> :
+                        ils en ont pour la campagne <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app> pour la ville, pour les lieux de leur service ou de leur emploi.
@@ -797,16 +925,18 @@
                         travestit, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>de <persName>Syrus</persName> devient <persName>Cyrus</persName>.
-                        Plusieurs suppriment leurs noms, qu’ils pourraient conserver sans honte,
-                        pour en adopter de plus beaux, où ils n’ont qu’à perdre par la comparaison
-                        que l’on fait toujours d’eux qui les portent, avec les grands hommes qui les
-                        ont portés. Il s’en trouve enfin qui, nés à l’ombre des <seg>clochers de
-                            Paris, veulent être Fla-<note type="ajout_manuscrit" place="gauche"
+                        </app>de <persName ref="#Syrus">Syrus</persName> devient <persName
+                            ref="#Cyrus">Cyrus</persName>. Plusieurs suppriment leurs noms, qu’ils
+                        pourraient conserver sans honte, pour en adopter de plus beaux, où ils n’ont
+                        qu’à perdre par la comparaison que l’on fait toujours d’eux qui les portent,
+                        avec les grands hommes qui les ont portés. Il s’en trouve enfin qui, nés à
+                        l’ombre des <seg>clochers de <placeName ref="#Paris">Paris</placeName>,
+                            veulent être Fla-<note type="ajout_manuscrit" place="gauche"
                                 resp="#lecteurice" hand="inconnue" source="#Paris_1694_8_2"
-                                >niacalaïx?</note></seg>mands ou Italiens, comme si la roture
-                        n’était pas de tout pays, allongent <pb n="572" source="#Paris_1692_7"/>
-                        leurs noms français d’une terminaison étrangère, <app>
+                                >niacalaïx? (illisible)</note></seg>mands ou Italiens, comme si la
+                        roture n’était pas de tout pays, allongent <pb n="572"
+                            source="#Paris_1692_7"/> leurs noms français d’une terminaison
+                        étrangère, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app>croient que venir de bon lieu c’est venir de loin.</p>
@@ -856,15 +986,15 @@
                             franchises, immunités, exemptions, privilèges, que manque-t-il à ceux
                             qui ont un titre ? Croyez-vous<note type="ajout_manuscrit"
                                 place="droite" resp="#lecteurice" hand="inconnue"
-                                source="#Paris_1694_8_2">Les Celessins de
-                                    <placeName>paris</placeName> le long pais</note></seg> que ce
-                        soit pour la noblesse que des solitaires<note type="originale"
-                            style="astérisque" place="gauche" resp="#editeur" source="#Paris_1692_7"
-                            >Maison Religieuse Secrétaire du Roy</note> se sont faits nobles ? ils
-                        ne sont pas si vains : c’est pour le profit qu’ils en reçoivent. Cela ne
-                        leur sied-il pas mieux que d’entrer dans les gabelles ? je ne dis pas à
-                        chacun en particulier, leurs vœux s’y opposent, je dis même à la
-                        communauté.</p>
+                                source="#Paris_1694_8_2"><persName ref="#Celessins">Les
+                                    Celessins</persName> de <placeName ref="#Paris"
+                                    >paris</placeName> le long pais</note></seg> que ce soit pour la
+                        noblesse que des solitaires<note type="originale" style="astérisque"
+                            place="gauche" resp="#editeur" source="#Paris_1692_7">Maison Religieuse
+                            Secrétaire du Roy</note> se sont faits nobles ? ils ne sont pas si vains
+                        : c’est pour le profit qu’ils en reçoivent. Cela ne leur sied-il pas mieux
+                        que d’entrer dans les gabelles ? je ne dis pas à chacun en particulier,
+                        leurs vœux s’y opposent, je dis même à la communauté.</p>
                 </div2>
 
                 <div2
@@ -875,16 +1005,18 @@
                             <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app>que personne un <pb n="573" source="#Paris_1692_7"/> jour n’en soit
                         surpris : s’il arrive jamais que quelque grand me trouve digne de ses soins,
-                        si je fais enfin une belle fortune, il y a un <persName>Geoffroy de la
-                            Bruyère</persName><note type="glossaire" resp="#J_M">personnage connu de
-                            l'Histoire de France, ils n'ont cependant aucun lien de parenté.</note>
-                        que toutes les chroniques rangent au nombre des plus grands seigneurs de
-                        France qui suivirent <persName>Godefroy de Bouillon</persName><note
-                            type="glossaire" resp="#J_M">chevalier franc à qui on va proposer de
-                            devenir le premier souverain de Jérusalem à la suite de la
+                        si je fais enfin une belle fortune, il y a un <persName ref="#GdlB">Geoffroy
+                            de la Bruyère</persName><note type="glossaire" resp="#J_M">personnage
+                            connu de l'Histoire de France, ils n'ont cependant aucun lien de
+                            parenté.</note> que toutes les chroniques rangent au nombre des plus
+                        grands seigneurs de France qui suivirent <persName ref="#GdB">Godefroy de
+                            Bouillon</persName><note type="glossaire" resp="#J_M">chevalier franc à
+                            qui on va proposer de devenir le premier souverain de <placeName
+                                ref="#Jerusalem">Jérusalem</placeName> à la suite de la
                                 <date>Première Croisade</date>, il va cependant refuser ce
-                            titre.</note> à la conquête de la <placeName>Terre-Sainte</placeName> :
-                        voilà alors de qui je descends en ligne directe.</p>
+                            titre.</note> à la conquête de la <placeName ref="#Terre_sainte"
+                            >Terre-Sainte</placeName> : voilà alors de qui je descends en ligne
+                        directe.</p>
                 </div2>
 
                 <div2
@@ -961,35 +1093,37 @@
                 <div2
                     source="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"
                     n="17">
-                    <p><g ref="#pied_de_mouche"/><lb/> Que les saletés des Dieux, <lb/>la
-                            <persName>Vénus</persName><note type="glossaire" resp="#J_M">assimilée à
-                            déesse grecque <persName>Aphrodite</persName>, elle est la déesse de
-                            l'amour, de la séduction et de la beauté féminine dans la mythologie
-                            romaine.</note>, le <persName>Ganymède</persName>
+                    <p><g ref="#pied_de_mouche"/><lb/> Que les saletés des Dieux, <lb/>la <persName
+                            ref="#Venus">Vénus</persName><note type="glossaire" resp="#J_M"
+                            >assimilée à déesse grecque <persName ref="#Venus">Aphrodite</persName>,
+                            elle est la déesse de l'amour, de la séduction et de la beauté féminine
+                            dans la mythologie romaine.</note>, le <persName ref="Ganymede"
+                            >Ganymède</persName>
                         <note type="glossaire" resp="#J_M">jeune mortel succèdant à la déesse
-                                <persName>Hébé</persName>, dans la mythologie grecque, dans sa
-                            fonction d'échanson (personne de confiance, pour éviter les
+                                <persName ref="Hebe">Hébé</persName>, dans la mythologie grecque,
+                            dans sa fonction d'échanson (personne de confiance, pour éviter les
                             empoissonnements, chargée de servir les boissons aux Dieux).</note>
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10"
                                 >&amp;</rdg>
                         </app>les <lb/>autres nudités du<persName>Carache</persName><note
-                            type="glossaire" resp="#J_M">nom francisé de la famille
-                                <persName>Carracci</persName>, soit des peintres italiens avec les
-                            frères <persName>Annibale (1560-1609)</persName> et <persName>Agostino
-                                (1557-1602)</persName> et leur cousin <persName>Lodovico
-                                (1555-1619)</persName>.</note>
+                            type="glossaire" resp="#J_M">nom francisé de la famille <persName
+                                ref="#Carracci">Carracci</persName>, soit des peintres italiens avec
+                            les frères <persName ref="#Carracci_1">Annibale</persName> et
+                            <persName ref="#Carracci_2">Agostino</persName> et leur
+                            cousin <persName ref="#Carracci_3">Lodovico</persName>.</note>
                         <lb source="#Paris_1688_3"/>aient été faites pour des prin- <lb
                             source="#Paris_1688_3"/>ces de l’Eglise, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10"
                                 >&amp;</rdg>
-                        </app>qui se disent successeurs des Apôtres, le <placeName>palais
-                            Farnè-<lb/>se</placeName><note type="glossaire" resp="#J_M">palais dont
-                            les plans, les décorations et les fresques ont été réalisés par quelques
-                            grands artistes de la <date>Renaissance Italienne</date>, notamment les
-                            frères <persName>Carraci</persName> qui y sont à l'origine de la
+                        </app>qui se disent successeurs des Apôtres, le <placeName
+                            ref="#palais_farnese">palais Farnè-<lb/>se</placeName><note
+                            type="glossaire" resp="#J_M">palais dont les plans, les décorations et
+                            les fresques ont été réalisés par quelques grands artistes de la
+                                <date>Renaissance Italienne</date>, notamment les frères <persName
+                                ref="#Carracci">Carraci</persName> qui y sont à l'origine de la
                             peinture de fresques à la fin du <date>16ème siècle</date>.</note> en
                         est la preuve.</p>
                 </div2>
@@ -1015,7 +1149,7 @@
                                 source="#Paris_1688_3">Des tapisseries.</note> profanes<note
                                 type="originale" style="astérisque" place="gauche" resp="#editeur"
                                 source="#Paris_1692_7">Des tapisseries.</note></seg> dans les Tem-
-                            <lb source="#Paris_1688_3"/>ples; <lb/>un CHRIST par exemple <app>
+                            <lb source="#Paris_1688_3"/>ples; <lb/>un <persName ref="#Christ">CHRIST</persName> par exemple <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app> le Jugement de Paris dans le même sanctuaire, ni à des personnes
@@ -1039,7 +1173,7 @@
                                 uit en vers François par (illisible)</note></seg><seg><note
                                 type="ajout_manuscrit" place="droite" resp="#lecteurice"
                                 hand="inconnue" source="#Paris_1694_8_2">Conters qui le fesois par
-                                lauron tany ous theusins aparis</note></seg> comme au théâtre, les
+                                lauron tany ous theusins a<placeName ref="#Paris">paris</placeName></note></seg> comme au théâtre, les
                         entrevues <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
