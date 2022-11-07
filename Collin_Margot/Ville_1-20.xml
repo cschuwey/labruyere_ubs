@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="UTF-8"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
     <fileDesc>
         <titleStmt>
@@ -6,16 +6,24 @@
         </titleStmt>
         <publicationStmt><authority></authority></publicationStmt>
         <sourceDesc>
+            
+            <listPers></listPers>
+            <listName></listName>
+            
             <biblStruct>
-                <monogr xml:id="paris_1920_6_1"><author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/">De La Bruyère, Jean</author><author>théophraste</author>
+                <monogr xml:id="paris_1920_6_1"><author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/">De La Bruyère, Jean</author>
+                    <author>théophraste</author>
                     <title>Les caractères ou les moeurs de ce siècle</title>
                     <edition>1876</edition>
                     <editor>garnier frères</editor>
-                    <imprint xml:id="paris_1920_6_1"> <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k3045520q</pubPlace>
+                    <imprint xml:id="paris_1920_6_1"> 
+                        <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k3045520q</pubPlace>
                     </imprint>
-                </monogr><monogr xml:id="paris_1688_1"></monogr>
+                </monogr>
+                <monogr xml:id="paris_1688_1"></monogr>
             </biblStruct>
-            <bibl></bibl></sourceDesc>
+            <bibl></bibl>
+        </sourceDesc>
     </fileDesc> <profileDesc><langUsage>
         <language ident="fra">français classique</language>
     </langUsage><textDesc>
@@ -29,7 +37,6 @@
         <purpose></purpose>
     </textDesc></profileDesc>
 </teiHeader>
-    <text><front><titlePage><docTitle><titlePart>Les</titlePart><titlePart>caractères</titlePart><titlePart>de Theophraste</titlePart><titlePart>traduit du grec.</titlePart><titlePart>avec</titlePart><titlePart>les caractères</titlePart><titlePart>ou</titlePart>les moeurs de ce siecle. <!-- que fait ce bloc de texte ? --> 
         
         <docDate when="1688">MCLXXVIII</docDate>    
         <docAuthor source="#paris_1688, #paris_1689, #paris_1692"> </docAuthor>
@@ -43,8 +50,8 @@
             <div2 n="1" source="#paris_1688 #paris_1689 #paris_1692">
             <p>
             <g ref="#fr_pieddemouche"></g>
-            L’on se donne à Paris, sans se parler, comme un rendez-vous public, 
-            mais fort exact, tous les soirs au Cours ou aux Tuileries, pour se regarder
+            L’on se donne à <placeName> Paris </placeName>, sans se parler, comme un rendez-vous public, 
+            mais fort exact, tous les soirs au <placeName>Cours</placeName> ou aux <placeName>Tuileries</placeName>, pour se regarder
             au visage et se désapprouver les uns les autres.
             L’on ne peut se passer de ce même monde que l’on n’aime point, et dont l’on se moque.
             L’on s’attend au passage réciproquement dans une promenade publique ; l’on y passe en 
@@ -68,8 +75,8 @@
        <div2 n="2" source="#paris_1692" >
        <p> 
        <g ref="#fr_pieddemouche"></g>
-           Tout le monde connaît cette longue levée qui borne et qui resserre le lit de la Seine, 
-           du côté où elle entre à Paris avec la Marne, qu’elle vient de recevoir : les hommes 
+           Tout le monde connaît cette longue levée qui borne et qui resserre le lit de <placeName>la Seine</placeName>, 
+           du côté où elle entre à <placeName>Paris</placeName> avec <placeName>la Marne</placeName>, qu’elle vient de recevoir : les hommes 
            s’y baignent au pied pendant les chaleurs de la canicule ; on les voit de fort près 
            se jeter dans l’eau ; on les en voit sortir : c’est un amusement. Quand cette saison 
            n’est pas venue, les femmes de la ville ne s’y promènent pas encore ; et quand elle 
@@ -84,9 +91,9 @@
             une belle étoffe, et pour recueillir le fruit de leur toilette, on ne se promène 
             pas avec une compagne par la nécessité de la conversation ; on se joint ensemble 
             pour, se rassurer sur le théâtre, s’apprivoiser avec le public, et se raffermir contre
-             la critique : c’est là précisément qu’on se parle sans se rien dire, ou plutôt qu’on 
-             parle pour les passants, pour ceux même en faveur de qui l’on hausse sa voix, l’on 
-             gesticule et l’on badine, l’on penche négligemment la tête, l’on passe et l’on repasse.
+            la critique : c’est là précisément qu’on se parle sans se rien dire, ou plutôt qu’on 
+            parle pour les passants, pour ceux même en faveur de qui l’on hausse sa voix, l’on 
+            gesticule et l’on badine, l’on penche négligemment la tête, l’on passe et l’on repasse.
             </p>
             </div2>
         
@@ -143,8 +150,8 @@
         faut paraître accablé d’affaires, froncer le sourcil, et rêver à rien très profondément ; 
         savoir à propos perdre le boire et le manger ; ne faire qu’apparoir dans sa maison, 
         s’évanouir et se perdre comme un fantôme dans le sombre de son cabinet ; se cacher au
-        public, éviter le théâtre, le laisser à ceux qui ne courent aucun risque à s’y montrer, 
-        qui en ont à peine le loisir, aux Gomons, aux Duhamels.
+        public, éviter <placeName>le théâtre</placeName>, le laisser à ceux qui ne courent aucun risque à s’y montrer, 
+        qui en ont à peine le loisir, aux <placeName>Gomons</placeName>, aux <placeName>Duhamels</placeName>.
         </p>
         </div2>
 
@@ -173,12 +180,19 @@
         <div2 n="9" source="#paris_1692">
         <p>
         <g ref="#fr_pieddemouche"></g>
-        Les Crispins se cotisent et rassemblent dans leur famille jusques à six chevaux pour allonger
+        <persName>Les Crispins</persName> se cotisent et rassemblent dans leur famille jusques à six chevaux pour allonger
         un équipage, qui, avec un essaim de gens de livrées, où ils ont fourni chacun leur part, les
-        fait triompher au Cours ou à Vincennes, et aller de pair avec les nouvelles mariées, avec 
+        fait triompher au Cours ou à <placeName>Vincennes</placeName>, et aller de pair avec les nouvelles mariées, avec 
         Jason, qui se ruine, et avec Thrason, qui veut se marier, et qui a consigné.
         </p>
         </div2>
+            
+            <app> 
+                <lem wit="">Les Crispins</lem>
+                <rdg wit=""clés">MM.Charpentier</rdg> <rdg wit="#clé">Mallot</rdg>
+                <rdg wit="#clé1720">trois frères</rdg>
+                <rdg wit="#cléServois">malot</rdg>
+            </app>
 
         <div2 n="10" source="#paris_1692">
         <p>
@@ -193,10 +207,10 @@
         ils viennent de faire pendre un homme qui méritait le bannissement ; elles s’offrent aux 
         yeux de toutes parts, elles sont sur les meubles et sur les serrures, elles sont semées 
         sur les carrosses ; leurs livrées ne déshonorent point leurs armoiries. Je dirais 
-        volontiers aux Sannions : "Votre folie est prématurée ; attendez du moins que le siècle
+        volontiers aux <persName>Sannions</persName> : "Votre folie est prématurée ; attendez du moins que le siècle
         s’achève sur votre race ; ceux qui ont vu votre grand-père, qui lui ont parlé, sont vieux,
         et ne sauraient plus vivre longtemps. Qui pourra dire comme eux : "Là il étalait, et vendait très cher" ?
-        Les Sannions et les Crispins veulent encore davantage que l’on dise d’eux qu’ils font une grande dépense, 
+        <persName>Les Sannions</persName> et <persName>les Crispins</persName> veulent encore davantage que l’on dise d’eux qu’ils font une grande dépense, 
         qu’ils n’aiment à la faire. Ils font un récit long et ennuyeux d’une fête ou d’un repas qu’ils ont donné ; 
         ils disent l’argent qu’ils ont perdu au jeu, et ils plaignent fort haut celui qu’ils n’ont pas songé à perdre. 
         Ils parlent jargon et mystère sur de certaines femmes ; ils ont réciproquement cent choses plaisantes à se 
@@ -207,8 +221,8 @@
         chasse le lendemain, et il passe tout le jour à manquer des grives ou des perdrix.
         Un autre, avec quelques mauvais chiens, aurait envie de dire : Ma meute. Il sait un rendez-vous 
         de chasse, il s’y trouve ; il est au laisser-courre ; il entre dans le fort, se mêle avec les piqueurs ;
-        il a un cor. Il ne dit pas, comme Ménalippe : Ai-je du plaisir ? Il croit en avoir. Il oublie lois et 
-        procédure : c’est un Hippolyte. Ménandre, qui le vit hier sur un procès qui est en ses mains, ne reconnaîtrait 
+        il a un cor. Il ne dit pas, comme <persName>Ménalippe</persName> : Ai-je du plaisir ? Il croit en avoir. Il oublie lois et 
+        procédure : c’est un Hippolyte. <persName>Ménandre</persName>, qui le vit hier sur un procès qui est en ses mains, ne reconnaîtrait 
         pas aujourd’hui son rapporteur. Le voyez-vous le lendemain à sa chambre, où l’on va juger une cause grave et 
         capitale ? il se fait entourer de ses confrères, il leur raconte comme il n’a point perdu le cerf de meute, 
         comme il s’est étouffé de crier après les chiens qui étaient en défaut, ou après ceux des chasseurs qui 
@@ -216,6 +230,11 @@
         et de la curée, et il court s’asseoir avec les autres pour juger.
         </p>
         </div2>
+            <app>
+                <lem wit="">Les Sannions</lem>
+                <rdg wit="#cléServois">Clers de Leseville</rdg>
+                <rdg wit="#cléCochin">MM.de Lesseville</rdg>
+            </app>
 
         <div2 n="11" source="#paris_1692">
         <p>
@@ -224,11 +243,11 @@
         par une dépense excessive et par un faste ridicule ; les traits et la raillerie de toute une ville, qu’ils 
         croient éblouir, et se ruinent ainsi à se faire moquer de soi !
         Quelques-uns n’ont pas même le triste avantage de répandre leurs folies plus loin que le quartier où ils 
-        habitent : c’est le seul théâtre de leur vanité. L’on ne sait point dans l’Ile qu’André brille au Marais, 
+        habitent : c’est le seul théâtre de leur vanité. L’on ne sait point dans l’Ile qu’<persName>André</persName> brille au <placeName>Marais</placeName>, 
         et qu’il y dissipe son patrimoine : du moins, s’il était connu dans toute la ville et dans ses faubourgs, 
         il serait difficile qu’entre un si grand nombre de citoyens qui ne savent pas tous juger sainement de toutes 
         choses, il ne s’en trouvât quelqu’un qui dirait de lui : Il est magnifique, et qui lui tiendrait compte des 
-        régals qu’il fait à Xanthe et à Ariston, et des fêtes qu’il donne à Elamire ; mais il se ruine obscurément : 
+        régals qu’il fait à <persName>Xanthe</persName> et à <persName>Ariston</persName>, et des fêtes qu’il donne à <persName>Elamire</persName> ; mais il se ruine obscurément : 
         ce n’est qu’en faveur de deux ou trois personnes qui ne l’estiment point, qu’il court à l’indigence, et qu’aujourd’hui
         en carrosse, il n’aura pas dans six mois le moyen d’aller à pied.
         </p>
@@ -236,42 +255,48 @@
 
         <div2 n="12" source="#paris_1688 #paris_1689 #paris_1692">
         <p>
-        Narcisse se lève le matin pour se coucher le soir ; il a ses heures de toilette comme une femme ; il va 
+        <persName>Narcisse</persName> se lève le matin pour se coucher le soir ; il a ses heures de toilette comme une femme ; il va 
         tous les jours fort régulièrement à la belle messe aux Feuillants ou aux Minimes ; il est homme d’un bon 
         commerce, et l’on compte sur lui au quartier de pour un tiers ou pour un cinquième à l’hombre ou au reversi. 
         Là il tient le fauteuil quatre heures de suite chez Aricie, où il risque chaque soir cinq pistoles d’or. 
-        Il lit exactement la Gazette de Hollande et le Mercure galant ; il a lu Bergerac, des Marets, Lesclache, 
-        les Historiettes de Barbin, et quelques recueils de poésies. Il se promène avec des femmes à la Plaine 
-        ou au Cours, et il est d’une ponctualité religieuse sur les visites. Il fera demain ce qu’il fait 
+        Il lit exactement <title>la Gazette de Hollande</title> et <title>le Mercure galant</title> ; il a lu <persName>Bergerac</persName>, des Marets, Lesclache, 
+        <title>les Historiettes de Barbin</title>, et quelques recueils de poésies. Il se promène avec des femmes à <placeName>la Plaine</placeName>
+        ou au <placeName>Cours</placeName>, et il est d’une ponctualité religieuse sur les visites. Il fera demain ce qu’il fait 
         aujourd’hui et ce qu’il fit hier ; et il meurt ainsi après avoir vécu.
         </p>
         </div2>
+            
+            <app>
+                <lem wit="">Narcisse</lem>
+                <rdg wit="#clé1697">L'abbé de Villars</rdg>
+                <rdg wit="#cléXVIII">M.Garnier</rdg>
+            </app>
 
         <div2 n="13" source="#paris_1692">
         <p>
         Voilà un homme, dites-vous, que j’ai vu quelque part : de savoir où, il est difficile ; mais son 
         visage m’est familier.- Il l’est à bien d’autres ; et je vais, s’il se peut, aider votre mémoire. 
-        Est-ce au boulevard sur un strapontin, ou aux Tuileries dans la grande allée, ou dans le balcon 
-        à la comédie ? Est-ce au sermon, au bal, à Rambouillet ? Où pourriez-vous ne l’avoir point vu ? 
+        Est-ce au boulevard sur un strapontin, ou aux <placeName>Tuileries</placeName> dans la grande allée, ou dans le balcon 
+        à la comédie ? Est-ce au sermon, au bal, à <placeName>Rambouillet</placeName> ? Où pourriez-vous ne l’avoir point vu ? 
         où n’est-il point ? S’il y a dans la place une fameuse exécution, ou un feu de joie, il paraît à 
-        une fenêtre de l’Hôtel de ville ; si l’on attend une magnifique entrée, il a sa place sur un 
-        échafaud ; s’il se fait un carrousel, le voilà entré, et placé sur l’amphithéâtre ; si le Roi 
-        reçoit des ambassadeurs, il voit leur marche, il assiste à leur audience, il est en haie quand 
+        une fenêtre de <placeName>l’Hôtel de ville</placeName> ; si l’on attend une magnifique entrée, il a sa place sur un 
+        échafaud ; s’il se fait un carrousel, le voilà entré, et placé sur l’amphithéâtre ; si <persName>le Roi</persName>
+        reçoit des <roleName>ambassadeurs</roleName>, il voit leur marche, il assiste à leur audience, il est en haie quand 
         ils reviennent de leur audience. Sa présence est aussi essentielle aux serments des ligues suisses
         que celle du chancelier et des ligues mêmes. C’est son visage que l’on voit aux almanachs représenter
         le peuple ou l’assistance. Il y a une chasse publique, une Saint-Hubert, le voilà à cheval ; on parle
-        d’un camp et d’une revue, il est à Ouilles, il est à Achères. Il aime les troupes, la milice, la guerre ; 
-        il la voit de près, et jusques au fort de Bernardi. Chanley sait les marches, Jacquier les vivres, Du Metz
+        d’un camp et d’une revue, il est à <placeName>Ouilles</placeName>, il est à <placeName>Achères</placeName>. Il aime les troupes, la milice, la guerre ; 
+        il la voit de près, et jusques au fort de <persName>Bernardi</persName>. <persName>Chanley</persName> sait les marches, <persName>Jacquier</persName> les vivres, Du <placeName>Metz</placeName>
         l’artillerie : celui-ci voit, il a vieilli sous le harnois en voyant, il est spectateur de profession ; il 
         ne fait rien de ce qu’un homme doit faire, il ne sait rien de ce qu’il doit savoir ; mais il a vu, dit-il, 
         tout ce qu’on peut voir, et il n’aura point regret de mourir. Quelle perte alors pour toute la ville ! 
-        Qui dira après lui : "Le Cours est fermé, on ne s’y promène point ; le bourbier de Vincennes est desséché 
+        Qui dira après lui : "Le Cours est fermé, on ne s’y promène point ; le bourbier de <placeName>Vincennes</placeName> est desséché 
         et relevé, on n’y versera plus" ? Qui annoncera un concert, un beau salut, un prestige de la Foire ? Qui 
-        vous avertira que Beaumavielle mourut hier ; que Rochois est enrhumée, et ne chantera de huit jours ? 
-        Qui connaîtra comme lui un bourgeois à ses armes et à ses livrées ? Qui dira : "Scapin porte des fleurs 
+        vous avertira que <persName>Beaumavielle</persName> mourut hier ; que <persName>Rochois</persName> est enrhumée, et ne chantera de huit jours ? 
+        Qui connaîtra comme lui un bourgeois à ses armes et à ses livrées ? Qui dira : "<persName>Scapin</persName> porte des fleurs 
         de lis", et qui en sera plus édifié ? Qui prononcera avec plus de vanité et d’emphase le nom d’une 
-        simple bourgeoise ? Qui sera mieux fourni de vaudevilles ? Qui prêtera aux femmes les Annales galantes 
-        et le Journal amoureux ? Qui saura comme lui chanter à table tout un dialogue de l’Opéra, et les fureurs 
+        simple bourgeoise ? Qui sera mieux fourni de vaudevilles ? Qui prêtera aux femmes <title>les Annales galantes</title> 
+        et <title>le Journal amoureux</title> ? Qui saura comme lui chanter à table tout un dialogue de l’Opéra, et les fureurs 
         de Roland dans une ruelle ? Enfin, puisqu’il y a à la ville comme ailleurs de fort sottes gens, des gens 
         fades, oisifs, désoccupés, qui pourra aussi parfaitement leur convenir ?
         </p>
@@ -279,11 +304,11 @@
 
         <div2 n="14" source="#paris_1692">
         <p>
-        Théramène était riche et avait du mérite ; il a hérité, il est donc très riche et d’un très grand mérite. 
+        <persName>Théramène</persName> était riche et avait du mérite ; il a hérité, il est donc très riche et d’un très grand mérite. 
         Voilà toutes les femmes en campagne pour l’avoir pour galant, et toutes les filles pour épouseur. Il va 
         de maisons en maisons faire espérer aux mères qu’il épousera. Est-il assis, elles se retirent, pour laisser 
-        à leurs filles toute la liberté d’être aimables, et à Théramène de faire ses déclarations. Il tient ici 
-        contre le mortier ; là il efface le cavalier ou le gentilhomme. Un jeune homme fleuri, vif, enjoué, 
+        à leurs filles toute la liberté d’être aimables, et à <persName>Théramène</persName> de faire ses déclarations. Il tient ici 
+        contre le mortier ; là il efface le <roleName>cavalier</roleName> ou le gentilhomme. Un jeune homme fleuri, vif, enjoué, 
         spirituel n’est pas souhaité plus ardemment ni mieux reçu ; on se l’arrache des mains, on a à peine le 
         loisir de sourire à qui se trouve avec lui dans une même visite. Combien de galants va-t-il mettre en 
         déroute ! quels bons partis ne fera-t-il point manquer ? Pourra-t-il suffire à tant d’héritières qui 
@@ -293,10 +318,14 @@
         le sexe, sous peine de folie ou d’indignité, à ne les traiter pas mieux que s’ils n’avaient que du mérite.
         </p>
         </div2>
+            <app>
+                <lem wit="">Théramène</lem>
+                <rdg wit="#clé1697">M.de Terrat</rdg>
+            </app>
 
         <div2 n="15" source="#paris_1692">
         <p>
-        Paris, pour l’ordinaire le singe de la cour, ne sait pas toujours la contrefaire ; il ne l’imite en aucune 
+        <placeName>Paris</placeName>, pour l’ordinaire le singe de la cour, ne sait pas toujours la contrefaire ; il ne l’imite en aucune 
         manière dans ces dehors agréables et caressants que quelques courtisans, et surtout les femmes, y ont 
         naturellement pour un homme de mérite, et qui n’a même que du mérite : elles ne s’informent ni de ses 
         contrats ni de ses ancêtres ; elles le trouvent à la cour, cela leur suffit ; elles le souffrent, elles 
@@ -305,8 +334,8 @@
         avec la philosophie ou la vertu. Une femme de ville entend-elle le bruissement d’un carrosse qui s’arrête 
         à sa porte, elle pétille de goût et de complaisance pour quiconque est dedans, sans le connaître ; mais 
         si elle a vu de sa fenêtre un bel attelage, beaucoup de livrées, et que plusieurs rangs de clous parfaitement 
-        dorés l’aient éblouie, quelle impatience n’a-t-elle pas de voir déjà dans sa chambre le cavalier ou le 
-        magistrat ! quelle charmante réception ne lui fera-t-elle point ! ôtera-t-elle les yeux de dessus lui ? 
+        dorés l’aient éblouie, quelle impatience n’a-t-elle pas de voir déjà dans sa chambre le <roleName>cavalier</roleName> ou le 
+        <roleName>magistrat</roleName> ! quelle charmante réception ne lui fera-t-elle point ! ôtera-t-elle les yeux de dessus lui ? 
         Il ne perd rien auprès d’elle : on lui tient compte des doubles soupentes et des ressorts qui le font 
         rouler plus mollement ; elle l’en estime davantage, elle l’en aime mieux.
         </p>
@@ -331,7 +360,7 @@
         <p>
         L’utile et la louable pratique, de perdre en frais de noces le tiers de la dot qu’une femme apporte ! 
         de commencer par s’appauvrir de concert par l’amas et l’entassement de choses superflues, et de prendre 
-        déjà sur son fonds de quoi payer Gaultier, les meubles et la toilette !
+        déjà sur son fonds de quoi payer <persName>Gaultier</persName>, les meubles et la toilette !
         </p>
         </div2>
 
