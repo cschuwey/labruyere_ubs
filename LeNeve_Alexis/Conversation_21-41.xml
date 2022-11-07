@@ -47,6 +47,12 @@
                     </monogr>
                 </biblStruct>
                 
+             <listPerson>
+                 <person xml:id="Cléon"></person>
+                 <person xml:id="Euthyphron"></person>
+                 <person xml:id="Eutyphrons"></person>
+                 <person xml:id="Théodème"></person>
+             </listPerson>   
             </sourceDesc>
            
         </fileDesc>
@@ -60,10 +66,9 @@
         
         <profileDesc>
             <langUsage>
-                <language ident="fra">
+                <language ident="fra"></language>
                 <language ident= "lat">
                   
-                </language>
                 </language>
             </langUsage>
             <textDesc>
@@ -84,17 +89,16 @@
                 <glyph xml:id="pieddemouche"></glyph></charDecl>
       </encodingDesc>
         
-        <revisionDesc> La Bruyère y dénonce l'hypocrisie, les abus de pouvoir, et la fausse dévotion du peuple envers son roi. </revisionDesc>
+        <revisionDesc> <change>La Bruyère y dénonce l'hypocrisie, les abus de pouvoir, et la fausse dévotion du peuple envers son roi.</change></revisionDesc>
         
         
-        <sourceDesc><bibl></bibl></sourceDesc> 
     </teiHeader>
     
     <text>
         <front>
             <titlePage>
                 <docTitle>
-                    <titlePart type="Les caractères de Théophraste">Les caractères de Théophraste traduits du grec avec les caractères ou les moeurs de ce siècle</titlePart>
+                    <titlePart>Les caractères de Théophraste traduits du grec avec les caractères ou les moeurs de ce siècle</titlePart>
                 </docTitle>
                 <docAuthor source= "#Paris_1699_1_1"> La Bruyère, Jean de </docAuthor>
                 <docDate when="1699">MDXCII</docDate>
@@ -112,34 +116,29 @@
                     <p> (21) <g ref="#pied"/>Celui qui dit incessament qu'il a de l'honneur 
                         <app><lem>et</lem><rdg>&amp;</rdg></app>de la probité, qu'il ne nuit à personne, qu'il consent que le mal qu'il fait aux autres lui arrive, 
                         <app><lem>et</lem><rdg>&amp;</rdg></app>qui jure pour le faire froire, ne sait pas même contrefaire de bien.
-                        <insert>"¶"</insert>Un homme de bien ne saurait empêcher par toute sa modestie qu'on ne dise de lui ce qu'un malhonnête homme sait dire de soi.
+                        <app><lem></lem><rdg>&amp;</rdg></app>Un homme de bien ne saurait empêcher par toute sa modestie qu'on ne dise de lui ce qu'un malhonnête homme sait dire de soi.
                         <pb n="170" ed="ed6"/>
                         <pb n="147" ed="ed10"/></p>
                         </div2>
                 <div2 source="#Paris_1691_4 #Paris-1691-6 #Paris-1699-10">
-                    <p> (22)<g ref="#pied"/> Cléon parle peu obligeammant ou peu juste, c'est l'un ou l'autre; mais il ajoute qu'il est fait ainsi, 
-                        <app><lem>et</lem><rdg>&amp;</rdg></app>qu'il dit ce qu'il pense.
-                        <pb n="171" ed="ed6"/>
-                        <pb n="147" ed="ed10"/></p>
+                    <p> (22)<g ref="#pied"/> <persName ref="#listPers">Cléon</persName>parle peu obligeammant ou peu juste, c'est l'un ou l'autre; mais il ajoute qu'il est fait ainsi, 
+                        <app><lem>et</lem><rdg>&amp;</rdg></app>qu'il dit ce qu'il pense.></p>
                     <note resp="#ALN"> La Bruyère critique Cléon mais est ouvert à l'idée d'écouter ce qu'il a à dire, même si ces propose ne vont pas en son sens.</note>
                 </div2>
                 
                 <div2 source="#Paris_1691_4 #Paris-1691-6 #Paris-1699-10">
                     <p> (23) <g ref="#pied"/> Il y a parler bien, parler aisément, parler juste, parler à propos. C'est pécher contre ce dernier genre que de s'étendre sur un repas magnifique que l'on vient de faire, devant des gens qui sont réduits à épargner leur pain ; de dire merveilles de sa santé devant des infirmes ; d'entretenir de ses richesses, de ses revenus 
                         <app><lem>et</lem><rdg>&amp;</rdg></app>de ses ameublements un homme qui n'a ni rentes ni domicile ; en un mot, de parler de son bonheur devant des misérables : cette conversation est trop forte pour eux, <app><lem>et</lem><rdg>&amp;</rdg></app>
-                        la comparaison qu'ils font alors leur état au vôtre est odieuse.
-                        <pb n="171" ed="ed6"/>
-                        <pb n="147" ed="ed10"/></p>
+                        la comparaison qu'ils font alors leur état au vôtre est odieuse.</p>
                 </div2>
                 
                 <div2 source="#Paris_1691_4 #Paris-1691-6 #Paris-1699-10">
-                    <p> (24) <g ref="#pied"/>"Pour vous, dit Euthyphron, vous êtes riche, ou vous devez l'être: dix mille livres de rente, 
+                    <p> (24) <g ref="#pied"/>"Pour vous, dit <persName ref="#listPers">Euthyphron</persName>, vous êtes riche, ou vous devez l'être: dix mille livres de rente, 
                         <app><lem>et</lem><rdg>&amp;</rdg></app>en fonds de terre, cela est beau, cela est doux, 
                         <app><lem>et</lem><rdg>&amp;</rdg></app>l'on est heureux à moins", pendant que lui qui parle ainsi a cinquante mille livres de revenu, 
                         <app><lem>et</lem><rdg>&amp;</rdg></app>qu'il croit n'avoir que la moitié de ce qu'il mérite. Il vous taxse, il vous apprécie, il fixe votre dépense 
                         <app><lem>et</lem><rdg>&amp;</rdg></app>s'il vous jugeait digne d'une meilleure fortune, 
-                        <app><lem>et</lem><rdg>&amp;</rdg></app>de celle même où il aspire, il ne manquerait pas de vous la souhaiter. Il n'est pas le seul qui fasse de si mauvaises estimations ou des comparaisons si désobligeantes: le monde est plein d'Euthphrons.
-                        <pb n="171" ed="ed6"/>
+                        <app><lem>et</lem><rdg>&amp;</rdg></app>de celle même où il aspire, il ne manquerait pas de vous la souhaiter. Il n'est pas le seul qui fasse de si mauvaises estimations ou des comparaisons si désobligeantes: le monde est plein d'<persName ref="#listPers">Euthyphrons</persName>.
                         <pb n="148" ed="ed10"/></p>
                     <note resp="#ALN">La Bruyère introduit le personnage de Euthyphron pour critiquer la noblesse et les inégalités de richesse.</note>
                 </div2>
@@ -147,10 +146,10 @@
                 <div2 source="#Paris_1691_4 #Paris-1691-6 #Paris-1699-10">
                     <p> (25) <g ref="#pied"/> Quelqu’un, suivant la pente de la coutume qui veut qu’on loue, 
                     <app><lem>et</lem><rdg>&amp;</rdg></app>par l’habitude qu’il a à la flatterie 
-                    <app><lem>et</lem><rdg>&amp;</rdg></app>à l’exagération, congratule Théodème sur un discours qu’il n’a point entendu,
+                    <app><lem>et</lem><rdg>&amp;</rdg></app>à l’exagération, congratule <persName ref="#listPers">Théodème</persName> sur un discours qu’il n’a point entendu,
                     <app><lem>et</lem><rdg>&amp;</rdg></app>dont personne n’a pu encore lui rendre compte : il ne laisse pas de lui parler de son génie, de son geste, 
                     <app><lem>et</lem><rdg>&amp;</rdg></app>surtout de la fidélité de sa mémoire ;
-                    <app><lem>et</lem><rdg>&amp;</rdg></app>il est vrai que Théodème est demeuré court.
+                    <app><lem>et</lem><rdg>&amp;</rdg></app>il est vrai que <persName ref="#listPers">Théodème</persName> est demeuré court.
                     <pb n="171" ed="ed6"/>
                     <pb n="149" ed="ed10"/> </p>
                 </div2>
@@ -159,9 +158,7 @@
                     <p> (26) <g ref="#pied"/>L’on voit des gens brusques, inquiets, suffisants, qui bien qu’oisifs
                     <app><lem>et</lem><rdg>&amp;</rdg></app>sans aucune affaire qui les appelle ailleurs, vous expédient, pour ainsi dire, en peu de paroles,
                     <app><lem>et</lem><rdg>&amp;</rdg> </app>ne songent qu’à se dégager de vous ; on leur parle encore, qu’ils sont partis
-                    <app><lem>et</lem><rdg>&amp;</rdg></app>ont disparu. Ils ne sont pas moins impertinents que ceux qui vous arrêtent seulement pour vous ennuyer : ils sont peut-être moins incommodes.
-                    <pb n="172" ed="ed6"/>
-                    <pb n="149" ed="ed10"/> </p>
+                    <app><lem>et</lem><rdg>&amp;</rdg></app>ont disparu. Ils ne sont pas moins impertinents que ceux qui vous arrêtent seulement pour vous ennuyer : ils sont peut-être moins incommodes.</p>
                     <note resp="#ALN">La Bruyère nous indiquent que les personnes les plus égoistes qui nous entourent ne sont pas forcément les plus insupportables.</note>
                 </div2>
                 
@@ -176,9 +173,7 @@
                 </div2>
                 
                 <div2 source="#Paris_1691_4 #Paris-1691-6 #Paris-1699-10">
-                    <p> (28) <g ref="#pied"/>Il y a des gens d’une certaine étoffe ou d’un certain caractère avec qui il ne faut jamais se commettre, de qui l’on ne doit se plaindre que le moins qu’il est possible, contre qui il n’est pas même permis d’avoir raison.
-                    <pb n="173" ed="ed6"/>
-                    <pb n="150" ed="ed10"/></p>
+                    <p> (28) <g ref="#pied"/>Il y a des gens d’une certaine étoffe ou d’un certain caractère avec qui il ne faut jamais se commettre, de qui l’on ne doit se plaindre que le moins qu’il est possible, contre qui il n’est pas même permis d’avoir raison.</p>
                 </div2>
                 
                 <div2 source="#Paris_1691_4 #Paris-1691-6 #Paris-1699-10">
@@ -214,7 +209,6 @@
                     <p> (31)<g ref="#pied"/> Avec de la vertu, de la capacité, 
                     <app><lem>et</lem><rdg>&amp;</rdg></app>une bonne conduite, l’on peut être insupportable. Les manières, que l’on néglige comme de petites choses, sont souvent ce qui fait que les hommes décident de vous en bien ou en mal : une légère attention à les avoir douces 
                     <app><lem>et</lem><rdg>&amp;</rdg></app>polies prévient leurs mauvais jugements. Il ne faut presque rien pour être cru fier, incivil, méprisant, désobligeant : il faut encore moins pour être estimé tout le contraire.
-                    <pb n="175" ed="ed6"/>
                     <pb n="152" ed="ed10"/></p>
                 </div2>
                 
@@ -227,38 +221,29 @@
                 
                 <div2 source="#Paris_1691_4 #Paris-1691-6 #Paris-1699-10">
                     <p> (33)<g ref="#pied"/> C’est une faute contre la politesse que de louer immodérément, en présence de ceux que vous faites chanter ou toucher un instrument, quelque autre personne qui a ces mêmes talents ; comme devant ceux qui vous lisent leurs vers, un autre poète.
-                    <pb n="176" ed="ed6"/>
-                    <pb n="154" ed="ed10"/></p>
+                    <pb n="176" ed="ed6"/></p>
                 </div2>
                 
                 <div2 source="#Paris_1691_4 #Paris-1691-6 #Paris-1699-10">
                     <p> (34)<g ref="#pied"/> Dans les repas ou les fêtes que l’on donne aux autres, dans les présents qu’on leur fait, 
                     <app><lem>et</lem><rdg>&amp;</rdg></app>dans tous les plaisirs qu’on leur procure, il y a faire bien, 
-                    <app><lem>et</lem><rdg>&amp;</rdg></app>faire selon leur goût : le dernier est préférable.
-                    <pb n="177" ed="ed6"/>
-                    <pb n="154" ed="ed10"/></p>
+                    <app><lem>et</lem><rdg>&amp;</rdg></app>faire selon leur goût : le dernier est préférable.</p>
                 </div2>
                 
                 <div2 source="#Paris_1691_4 #Paris-1691-6 #Paris-1699-10">
-                    <p> (35)<g ref="#pied"/> Il y aurait une espèce de férocité à rejeter indifféremment toute sorte de louanges : l’on doit être sensible à celles qui nous viennent des gens de bien, qui louent en nous sincèrement des choses louables.
-                    <pb n="177" ed="ed6"/>
-                    <pb n="154" ed="ed10"/></p>
+                    <p> (35)<g ref="#pied"/> Il y aurait une espèce de férocité à rejeter indifféremment toute sorte de louanges : l’on doit être sensible à celles qui nous viennent des gens de bien, qui louent en nous sincèrement des choses louables.</p>
                 </div2>
                 
                 <div2 source="#Paris_1691_4 #Paris-1691-6 #Paris-1699-10">
                     <p> (36) <g ref="#pied"/>Un homme d’esprit, 
                     <app><lem>et</lem><rdg>&amp;</rdg></app>qui est né fier, ne perd rien de sa fierté 
                     <app><lem>et</lem><rdg>&amp;</rdg></app>de sa raideur pour se trouver pauvre ; si quelque chose au contraire doit amollir son humeur, le rendre plus doux 
-                    <app><lem>et</lem><rdg>&amp;</rdg></app>plus sociable, c’est un peu de prospérité.
-                    <pb n="177" ed="ed6"/>
-                    <pb n="154" ed="ed10"/></p>
+                    <app><lem>et</lem><rdg>&amp;</rdg></app>plus sociable, c’est un peu de prospérité.</p>
                 </div2>
                 
                 <div2 source="#Paris_1691_4 #Paris-1691-6 #Paris-1699-10">
                     <p> (37) <g ref="#pied"/>Ne pouvoir supporter tous les mauvais caractères dont le monde est plein n’est pas un fort bon caractère : il faut dans le commerce des pièces d’or 
-                    <app><lem>et</lem><rdg>&amp;</rdg></app>de la monnaie.
-                    <pb n="177" ed="ed6"/>
-                    <pb n="154" ed="ed10"/></p>
+                    <app><lem>et</lem><rdg>&amp;</rdg></app>de la monnaie.</p>
                 </div2>
                 
                 <div2 source="#Paris_1691_4 #Paris-1691-6 #Paris-1699-10">
@@ -267,8 +252,7 @@
                     <app><lem>et</lem><rdg>&amp;</rdg></app>d’autre les plaintes réciproques, c’est, pour ainsi dire, ne pas sortir de l’audience, 
                     <app><lem>et</lem><rdg>&amp;</rdg></app>entendre du matin au soir plaider 
                     <app><lem>et</lem><rdg>&amp;</rdg></app>parler procès.
-                    <pb n="177" ed="ed6"/>
-                    <pb n="155" ed="ed10"/></p>
+                    <pb n="177" ed="ed6"/></p>
                 </div2>
                 
                 <div2 source="#Paris_1691_5 #Paris-1691-8 #Paris-1699-10">
@@ -276,7 +260,6 @@
                      <app><lem>et</lem><rdg>&amp;</rdg></app>finir leur société ; ils n’avaient plus qu’un jour à vivre, 
                      <app><lem>et</lem><rdg>&amp;</rdg></app>ils n’ont osé entreprendre de le passer ensemble ; ils se sont dépêchés de rompre avant que de mourir ; ils n’avaient de fonds pour la complaisance que jusque-là. Ils ont trop vécu pour le bon exemple : un moment plus tôt ils mouraient sociables, 
                      <app><lem>et</lem><rdg>&amp;</rdg></app>laissaient après eux un rare modèle de la persévérance dans l’amitié.
-                    <pb n="178" ed="ed6"/>
                     <pb n="155" ed="ed10"/></p>
                 </div2>
                 
@@ -367,4 +350,4 @@
             
         </p></text>
     
-</TEI>   
+</TEI>  
