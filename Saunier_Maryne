@@ -122,9 +122,40 @@
                         </imprint>
                     </monogr>
             </biblStruct>
+                <bibl xml:id="Cles_Escola"></bibl>
+                <bibl xml:id="Cles_Escola_XVIIe"></bibl>
+                <listPerson xml:id="éditeurs">
+                    <person xml:id="Cramoisy"></person>
+                </listPerson>
+                <listPerson xml:id="auteurs">
+                    <person xml:id="Ronsard"></person>
+                    <person xml:id="Molière"></person>
+                    <person xml:id="Malherbe"></person>
+                    <person xml:id="Théophile"></person>
+                    <person xml:id="Marot"></person>
+                    <person xml:id="Rabelais"></person>
+                    <person xml:id="Montaigne"></person>
+                    <person xml:id="Amyot"></person>
+                    <person xml:id="Coeffeteau"></person>
+                </listPerson>
+                <listPerson>
+                    <person xml:id="autres"></person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="La_forêt_de_Chantilly">
+                    </place>
+                    <place xml:id="Labyrinthe_de_Chantilly"></place>
+                </listPlace>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="Opéra"></category>
+                    <category xml:id="Grands"></category>
+                    <category xml:id="Tragédies"></category>
+                </taxonomy>
+            </classDecl>
             <charDecl>
                 <glyph xml:id="fr_pieds_de_mouche">
                     <glyphName>Pieds de mouche de La Bruyère - 7 édition de 1692</glyphName>
@@ -254,10 +285,10 @@
             </div1>
             <div1>
                 <div2 source="#Paris_1692_7 #Paris_1690_5" n="33"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses"/>
-                Le devoir du ?ouvelliste est de dire :/
-                « Il y a un tel livre qui court, et qui est imprimé chez Cramoisy en tel caractère,/
+                Le devoir du Nouvelliste est de dire :/
+                « Il y a un tel livre qui court, et qui est imprimé chez <persName style="italic">Cramoisy</persName> en tel caractère,/
                 il est bien relié et en beau papier, il se vend tant » ;/
-                il doit savoir jusques à l’enseigne du Libraire <pb n="113" source="#Paris_1692_7"/> qui le débite :/
+                il doit savoir jusques à l’enseigne du Libraire <pb n="114" source="#Paris_1692_7"/> qui le débite :/
                 sa folie est d’en vouloir faire la critique./
                 Le sublime du Nouvelliste est le raisonnement creux sur la politique./
                 Le Nouvelliste se couche le soir tranquillement sur une nouvelle qui se corrompt la nuit,/
@@ -277,7 +308,7 @@
                         <rdg wit="#Paris_1692_7">trouvé</rdg>
                     </app>
                 dans tout le jour nécessaire/
-                pour faire l’impression qui <pb n="141" source="#Paris_1690_5"/> doit servir à son dessein./
+                pour faire l’impression qui <pb n="142" source="#Paris_1690_5"/> doit servir à son dessein./
                 Quelques Lecteurs croient néanmoins le payer avec usure,/
                 s’ils disent magistralement qu’ils ont lu son livre, et qu’il y a de l’esprit
                     <app>
@@ -296,7 +327,7 @@
                         <rdg wit="#Paris_1692_7">succés</rdg>
                     </app>
                 que les louanges,/
-                et même <pb n="114" source="#Paris_1692_7"/> que les récompenses, qui est de les rendre meilleurs.</p></div2>
+                et même <pb n="115" source="#Paris_1692_7"/> que les récompenses, qui est de les rendre meilleurs.</p></div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1690_5" n="35"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses"/>
                     Les sots lisent un livre, et ne l’entendent point ;
@@ -327,13 +358,13 @@
                         <rdg wit="#Paris_1690_5">:</rdg>
                         <rdg wit="#Paris_1692_7">.</rdg>
                     </app>
-                    Les personnes d’esprit ont en eux les semences de toutes les vérités et de tous les senti<pb n="142" source="#Paris_1690_5"/>ments,/
+                    Les personnes d’esprit ont en eux les semences de toutes les vérités et de tous les senti<pb n="143" source="#Paris_1690_5"/>ments,/
                 rien ne leur est nouveau ; ils admirent peu, ils approuvent.</p></div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1690_5" n="37"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses"/>Je ne sais si l’on pourra jamais mettre dans des lettres plus d’esprit,/
-                plus de tour, plus d’agrément et plus de style que l’on en voit dans celles de Balzac et de Voiture ;/
+                    plus de tour, plus d’agrément et plus de style que l’on en voit dans celles de <persName style="big_black">Balzac</persName> et de <persName style="big_black">Voiture</persName> ;/
                 elles sont vides de sentiments qui n’ont régné que depuis leur temps,/
-                et qui doivent aux femmes leur naissance. <pb n="115" source="#Paris_1692_7"/> /
+                et qui doivent aux femmes leur naissance. <pb n="116" source="#Paris_1692_7"/> /
                 Ce sexe va plus loin que le nôtre dans ce genre d’écrire. /
                 Elles trouvent sous leur plume des tours et des expressions qui souvent en nous ne sont l’effet/
                 que d’un long travail et d’une pénible recherche ; elles sont heureuses dans le choix des termes,/
@@ -347,11 +378,11 @@
                         <rdg wit="#Paris_1692_7">!</rdg>
                     </app>
                 Si les femmes étaient toujours correctes,/
-                j’oserais <pb n="143" source="#Paris_1690_5"/> dire que les lettres de quelques-unes d’entre elles seraient peut-être/
+                j’oserais <pb n="144" source="#Paris_1690_5"/> dire que les lettres de quelques-unes d’entre elles seraient peut-être/
                 ce que nous avons dans notre langue de mieux écrit.</p></div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1690_5" n="38"><p><g ref="#fr_pieds_de_mouche"/> <g ref="#fr_pieds_de_mouche_parenthèses"/>
-                    Il n’a manqué à Térence que d’être moins froid :/
+                    Il n’a manqué à <persName style ="big_black">Térence</persName> que d’être moins froid :/
                     quelle pureté<app>
                         <rdg wit="#Paris_1690_5">?</rdg>
                         <rdg wit="#Paris_1692_7">!</rdg>
@@ -368,7 +399,7 @@
                         <rdg wit="#Paris_1690_5">?</rdg>
                         <rdg wit="#Paris_1692_7">!</rdg>
                     </app>/
-                    Il n’a manqué à Molière que d’éviter le jargon et le barbarisme, et d’écrire purement : <pb n="116" source="#Paris_1692_7"/>
+                    Il n’a manqué à <persName style="big_black">Molière</persName> que d’éviter le jargon et le barbarisme, et d’écrire purement : <pb n="117" source="#Paris_1692_7"/>
                 quel feu<app>
                     <rdg wit="#Paris_1690_5">?</rdg>
                     <rdg wit="#Paris_1692_7">!</rdg>
@@ -394,103 +425,118 @@
                         <rdg wit="#Paris_1692_7">!</rdg>
                     </app></p></div2>
                 
-                <div2 source="#Paris_1692_7 #Paris_1690_5" n="39"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/>J’ai lu Malherbe et Théophile./
+                <div2 source="#Paris_1692_7 #Paris_1690_5" n="39"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/>J’ai lu <persName style="big_black">Malherbe</persName> et <persName style="big_black">Théophile</persName>./
                 Ils ont tous deux connu la nature, avec cette différence que le premier d’un style plein et/
                 uniforme,/
                 montre tout à la fois ce qu’elle a de plus beau et de plus noble,/
                 de plus naïf et de plus simple ;/
                 il en fait la peinture ou l’histoire. L’autre, sans choix, sans exactitude, d’une plume libre et inégale,/
                 tantôt charge ses descriptions, s’appesantit sur les détails ; il fait une anatomie ;/
-                tantôt il feint, il exagère, il passe le vrai <pb n="144" source="#Paris_1690_5"/> dans la nature ; il en fait le roman.</p></div2>
+                tantôt il feint, il exagère, il passe le vrai <pb n="145" source="#Paris_1690_5"/> dans la nature ; il en fait le roman.</p></div2>
                 
-                <div2 source="#Paris_1692_7 #Paris_1690_5" n="40"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/>Ronsard et Balzac ont eu, chacun dans leur genre,/
+                <div2 source="#Paris_1692_7 #Paris_1690_5" n="40"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/><persName style="big_black">Ronsard</persName> et <persName style="big_black">Balzac</persName> ont eu, chacun dans leur genre,/
                     assez de bon et de mauvais pour former après eux de très grands hommes en vers et en prose.</p></div2>
                 
-                <div2 source="#Paris_1692_7 #Paris_1690_5" n="41"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/>Marot, par son tour et par son style, semble avoir écrit depuis Ronsard :/
-                    il n’y a guère, entre ce premier et nous, que la différence de quelques mots.<pb n="117" source="#Paris_1692_7"/></p></div2>
+                <div2 source="#Paris_1692_7 #Paris_1690_5" n="41"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/><persName style="big_black">Marot</persName>, par son tour et par son style, semble avoir écrit depuis <persName>Ronsard</persName> :/
+                    il n’y a guère, entre ce premier et nous, que la différence de quelques mots.<pb n="118" source="#Paris_1692_7"/></p></div2>
                 
-                <div2 source="#Paris__1692_7 #Paris__1690_5" n="42"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/>Ronsard et les Auteurs ses contemporains ont plus nui au style qu’ils ne lui ont servi :/
+                <div2 source="#Paris__1692_7 #Paris__1690_5" n="42"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/><persName style="big_black">Ronsard</persName> et les Auteurs ses contemporains ont plus nui au style qu’ils ne lui ont servi :/
                 ils l’ont retardé dans le chemin de la perfection ;/
                 ils l’ont exposé à la manquer pour toujours et n’y plus revenir./
-                Il est étonnant que les ouvrages de Marot, si naturels et si faciles, n’aient su faire de Ronsard,/
-                d’ailleurs plein de verve et d’enthousiasme, un plus grand poète que Ronsard et que Marot ;/
-                et, au contraire, que Belleau, Jodelle, et du Bartas, aient été sitôt suivis d’un Racan et d’un Malherbe,/
+                Il est étonnant que les ouvrages de <persName  style="big_black">Marot</persName>, si naturels et si faciles, n’aient su faire de <persName>Ronsard</persName>,/
+                d’ailleurs plein de verve et d’enthousiasme, un plus grand poète que Ronsard et que <persName>Marot</persName> ;/
+                    et, au contraire, que <persName style="italic">Belleau</persName>, <persName style="italic">Jodelle</persName><app>
+                        <lem>, et du <persName>Bartas</persName></lem>
+                        <rdg wit="#Paris_1690_5">&amp; <persName style="italic"> Saint Gelais</persName></rdg>
+                        <rdg wit="#Paris_1692_7">&amp; <persName style="italic"> Saint Gelais</persName></rdg>
+                    </app>, aient été sitôt suivis d’un <persName style="big_black">Racan</persName> et d’un <persName style="big_black">Malherbe</persName>,/
                 et que notre langue, à peine <app>
                     <lem>corrompue</lem>
                     <rdg wit="#Paris_1690_5 #Paris_1692_7">corrompuë</rdg>
                 </app>, se soit vue réparée.</p></div2>
                 
-                <div2 source="#Paris_1692_7 #Paris_1690_5" n="43"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/>Marot et Rabelais sont inexcusables d’avoir semé l’ordure dans <pb n="145" source="#Paris_1690_5"/> leurs écrits :/
+                <div2 source="#Paris_1692_7 #Paris_1690_5" n="43"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/><persName style="big_black">Marot</persName> et <persName style="big_black">Rabelais</persName> sont inexcusables d’avoir semé l’ordure dans <pb n="146" source="#Paris_1690_5"/> leurs écrits :/
                 tous deux avaient assez de génie et de naturel pour pouvoir s’en passer,/
                 même à l’égard de ceux qui cherchent moins à admirer qu’à rire dans un <app>
                     <rdg wit="#Paris_1690_5">auteur</rdg>
                     <rdg wit="#Paris_1692_7">Auteur</rdg>
                 </app>./
-                Rabelais surtout est incompréhensible : son livre est une énigme, quoi qu’on veuille dire, inexplicable ;/
+                <persName>Rabelais</persName> surtout est incompréhensible : son livre est une énigme, quoi qu’on veuille dire, inexplicable ;/
                 c’est une chimère, c’est le visage d’une belle femme avec des pieds et une queue de serpent,/
-                ou de quelque autre bête plus difforme ;<pb n="118" source="#Paris_1692_7"/> c’est un monstrueux assemblage d’une morale fine et ingénieuse,/
+                ou de quelque autre bête plus difforme ;<pb n="119" source="#Paris_1692_7"/> c’est un monstrueux assemblage d’une morale fine et ingénieuse,/
                 et d’une sale corruption. Où il est mauvais, il passe bien loin au delà du pire, c’est le charme de la canaille ;/
                 où il est bon, il va jusques à l’exquis et à l’excellent, il peut être le mets des plus délicats.</p></div2>
                 
-                <div2 source="#Paris_1692_7 #Paris__1690_5" n="44"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/>Deux Ecrivains dans leurs ouvrages ont blâmé Montaigne, que je ne crois pas, aussi bien qu’eux,/
+                <div2 source="#Paris_1692_7 #Paris__1690_5" n="44"><p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/>
+                    <app>
+                        <lem><persName type="pseudo">Deux Ecrivains</persName></lem>
+                        <rdg wit="#Cles_Escola">le janséniste Pierre Nicole &amp; le philosophe Malebranche</rdg>
+                    </app>
+                    dans leurs ouvrages ont blâmé <persName style="big_black">Montaigne</persName>, que je ne crois pas, aussi bien qu’eux,/
                 exempt de toute sorte de blâme : il paraît que tous deux ne l’ont estimé en nulle manière./
-                L’un ne pensait pas assez pour goûter un auteur qui pense beaucoup ;/
+                
+                    <app>
+                        <lem>L’un ne pensait pas assez</lem>
+                        <rdg wit="#Cles_Escola">Pierre Nicole</rdg>
+                        <rdg wit="#Cles_Escola_XVIIe">La Mothe Le Vayer</rdg>
+                    </app>
+                pour goûter un auteur qui pense beaucoup ;/
                 l’autre pense trop subtilement pour s’accommoder de pensées qui sont naturelles.</p></div2>
                 
-                <div2 source="#Paris_1692_7 #Paris__1690_5" n="45"><p><g ref="#fr_pieds_de_mouche"/> <g ref="#fr_pieds_de_mouche_parenthèses_deux"/>Un style grave, sérieux, scru<pb n="146" source="#Paris_1690_5"/>puleux, va fort loin : on lit Amyot et Coeffeteau ;/
-                lequel lit-on de leurs contemporains ? Balzac, pour les termes et pour l’expression,/
-                est moins vieux que Voiture, mais si ce dernier, pour le tour, <app>
+                <div2 source="#Paris_1692_7 #Paris__1690_5" n="45"><p><g ref="#fr_pieds_de_mouche"/> <g ref="#fr_pieds_de_mouche_parenthèses_deux"/>Un style grave, sérieux, scru<pb n="147" source="#Paris_1690_5"/>puleux, va fort loin : on lit <persName style="big_black">Amyot</persName> et <persName style="big_black">Coeffeteau</persName> ;/
+                    lequel lit-on de leurs contemporains ? <persName style="big_black">Balzac</persName>, pour les termes et pour l’expression,/
+                    est moins vieux que <persName style="big_black">Voiture</persName>, mais si ce dernier, pour le tour, <app>
                     <rdg wit="#Paris_1690_5">l'esprit &amp; le naturel</rdg>
                     <rdg wit="#Paris_1692_7">pour l'esprit &amp; pour le naturel</rdg>
                 </app> ;/
                 n’est pas moderne, et ne ressemble en rien à nos Ecrivains,/
                 c’est qu’il leur a été plus facile de le négliger que de l’imiter ;/
-                et que le petit <pb n="119" source="#Paris_1692_7"/> nombre de ceux qui courent après luy ne peut l’atteindre.</p></div2>
+                et que le petit <pb n="120" source="#Paris_1692_7"/> nombre de ceux qui courent après luy ne peut l’atteindre.</p></div2>
                 
-                <div2 source="#Paris_1692_7 #Paris__1690_5" n="46"><p><g ref="#fr_pieds_de_mouche"></g>Le <app>
+                <div2 source="#Paris_1692_7 #Paris__1690_5" n="46"><p><g ref="#fr_pieds_de_mouche"></g>Le <persName style="big_black"><app>
                     <rdg wit="#Paris_1690_5">H</rdg>
                     <rdg wit="#Paris_1692_7">M</rdg>
-                </app>** G** est immédiatement au-dessous de rien./
+                </app>**</persName> <persName style="big_black">G**</persName> est immédiatement au-dessous de rien./
                 Il y a bien d’autres ouvrages qui lui ressemblent./
                 Il y a autant d’invention à s’enrichir par un sot livre qu’il y a de sottise à l’acheter :/
                 c’est ignorer le goût du peuple que de ne pas hasarder quelquefois de grandes fadaises.</p></div2>
                 
-                <div2 source="#Paris_1692_7 #Paris_1690_5" n="47"><p><g ref="#fr_pieds_de_mouche"></g>L’on voit bien que l’Opéra est l’ébauche d’un grand spectacle; il en donne l’idée./
+                <div2 source="#Paris_1692_7 #Paris_1690_5" n="47"><p><g ref="#fr_pieds_de_mouche"></g>L’on voit bien que <term  style="italic">l’Opéra</term> est l’ébauche d’un grand spectacle; il en donne l’idée./
                 
-                Je ne sais pas comment l’Opéra, avec une musique si parfaite et une dépense toute royale,/
+                Je ne sais pas comment <term style="italic">l’Opéra</term>, avec une musique si parfaite et une dépense toute royale,/
                 a pu réussir à m’ennuyer.
                 
-                Il y a des endroits dans l’Opéra qui laissent en désirer d’autres ;/
-                il échappe quelquefois <pb n="147" source="#Paris_1690_5"/> de souhaiter <app>
+                Il y a des endroits dans <term style="italic">l’Opéra</term> qui laissent en désirer d’autres ;/
+                il échappe quelquefois <pb n="148" source="#Paris_1690_5"/> de souhaiter <app>
                     <lem>la</lem>
                     <rdg wit="#Paris__1692_7">là</rdg>
                 </app> fin de tout le spectacle :/
                 c’est faute de théâtre, d’action, et de choses qui intéressent./
                 
-                L’Opéra jusques à ce jour n’est pas un <app>
+                    <term style="italic">l’Opéra</term> jusques à ce jour n’est pas un <app>
                     <lem>poème</lem>
                     <rdg wit="#Paris_1690_5 #Paris_1692_7">Poëme</rdg>
                 </app><app>
                     <rdg wit="#Paris_1690_5">,</rdg>
                     <rdg wit="#Paris_1692_7">;</rdg>
                 </app> ce sont des vers ;/
-                ni un spectacle, depuis que les machines ont disparu par le bon ménage d’Amphion et de sa race :/
-                c’est un <pb n="120" source="#Paris_1692_7"/> concert, ou ce sont des voix soutenues par des instruments:/
+                    ni un spectacle, depuis que les machines ont disparu par le bon ménage d’<persName style="italic">Amphion</persName> et de sa race :/
+                c’est un <pb n="121" source="#Paris_1692_7"/> concert, ou ce sont des voix soutenues par des instruments:/
                 c’est prendre le change, et cultiver un mauvais goût, que de dire, comme l’on fait,/
-                que la machine n’est qu’un amusement d’enfants, et qui ne convient qu’aux Marionnettes ;/
+                que la machine n’est qu’un amusement d’enfants, et qui ne convient qu’aux <term style="italic">Marionnettes</term> ;/
                 elle augmente et embellit la fiction,/
                 soutient dans les spectateurs cette douce illusion qui est tout le plaisir du théâtre <app>
                     <rdg wit="#Paris_1692_7">,</rdg>
                 </app>/
                 où elle jette encore le merveilleux. Il ne faut point de vols, ni de chars, ni de changements,/
-                aux Bérénices et à Pénélope : il en faut aux Opéras, et le propre de ce spectacle est de tenir les esprits,/
+                aux <persName style="italic">Bérénices</persName> et à <persName style="italic">Pénélope</persName> : il en faut aux <term style="italic">Opéras</term>, et le propre de ce spectacle est de tenir les esprits,/
                 les yeux et les oreilles dans un égal enchantement.</p></div2>
                 
                 <div2 source="#Paris_1692_7 #Paris__1690_5" n="48"><p><g ref="#fr_pieds_de_mouche"/> <g ref="#fr_pieds_de_mouche_parenthèses"/>Ils ont fait le théâtre ces <app>
                     <lem>empressés</lem>
                     <rdg wit="#Paris_1690_5 #Paris__1692_7">empressez</rdg>
                 </app>, les machines, les ballets, les vers, la musique, tout le spectacle,/
-                    jusqu’à la salle où s’est donné le spe<pb n="148" source="#Paris_1690_5"/>ctacle, j’entends le toit et les quatre murs <app>
+                    jusqu’à la salle où s’est donné le spe<pb n="149" source="#Paris_1690_5"/>ctacle, j’entends le toit et les quatre murs <app>
                         <lem>dès</lem>
                         <rdg wit="#Paris_1690_5">des</rdg>
                         <rdg wit="#Paris_1692_7">dés</rdg>
@@ -498,17 +544,17 @@
                 qui doute que 
                 <seg>
                     la chasse sur l’eau
-                    <note source="#Paris_1692_7" resp="#Estienne_Michallet" style="✝" place="droite">Rendez-vous de chasse dans la forêt de Chantilly</note>
-                    <note source="#Paris_1690_5" resp="#Estienne_Michallet" style="✝" place="gauche">Rendez-vous de chasse dans la forêt de Chantilly</note>
+                    <note source="#Paris_1692_7" resp="#Estienne_Michallet" style="✝" place="droite">Rendez-vous de chasse dans <placeName>la forêt de Chantilly</placeName></note>
+                    <note source="#Paris_1690_5" resp="#Estienne_Michallet" style="✝" place="gauche">Rendez-vous de chasse dans <placeName>la forêt de Chantilly</placeName></note>
                 </seg>la chasse sur l’eau, <seg>
                     l’enchantement de la Table
                     <note source="#Paris_1690_5" resp="#Jean_de_la_Bruyère" style="*" place="gauche">
-                        Collation très ingénieuse donnée dans le Labyrinthe de Chantilly
+                        Collation très ingénieuse donnée dans le <placeName>Labyrinthe de Chantilly</placeName>
                     </note>
-                    <note source="#Paris_1692_7" resp="#Jean_de_la_Bruyère" style="*" place="droite">Collation très ingénieuse donnée dans le Labyrinthe de Chantilly</note>
+                    <note source="#Paris_1692_7" resp="#Jean_de_la_Bruyère" style="*" place="droite">Collation très ingénieuse donnée dans le <placeName>Labyrinthe de Chantilly</placeName></note>
                 </seg>,/
                 la merveille du Labyrinthe ne soient encore de leur invention ?/
-                J’en juge par le mouvement qu’ils se donnent, et par l’air content dont ils s’applaudissent sur tout le <pb n="121" source="#Paris_1692_7"/> succès./
+                J’en juge par le mouvement qu’ils se donnent, et par l’air content dont ils s’applaudissent sur tout le <pb n="122" source="#Paris_1692_7"/> succès./
                 Si je me trompe, et qu’ils n’aient contribué en rien à cette fête si superbe, si galante, si longtemps soutenue,/
                 et où un seul a suffi pour le projet et pour la dépense, j’admire deux choses :/
                 la tranquillité et le flegme de celui qui a tout remué,/
@@ -525,7 +571,7 @@
                     <rdg wit="#Paris_1692_7">.</rdg>
                 </app>/
                 Ils nuisent également, par cette chaleur à défendre leurs préventions,/
-                et à la faction opposée et à leur propre ca<pb n="149" source="#Paris_1690_5"/>bale <app>
+                et à la faction opposée et à leur propre ca<pb n="150" source="#Paris_1690_5"/>bale <app>
                     
                     <rdg wit="#Paris_1690_5">;</rdg>
                     <rdg wit="#Paris_1692_7">:</rdg>
@@ -533,7 +579,7 @@
                 ils découragent par mille contradictions les poètes et les musiciens,/
                 retardent les progrès des sciences et des arts,/
                 en leur ôtant le fruit qu’ils pourraient tirer de l’émulation et de la liberté/
-                qu’auraient plusieurs excellens Maîtres de faire, chacun dans leur genre et selon leur génie, <pb n="122" source="#Paris_1692_7"/>/
+                qu’auraient plusieurs excellens Maîtres de faire, chacun dans leur genre et selon leur génie, <pb n="123" source="#Paris_1692_7"/>/
                 de <app>
                     <rdg wit="#Paris_1690_5">très-beaux</rdg>
                     <rdg wit="#Paris_1692_7">très beaux</rdg>
@@ -544,7 +590,7 @@
                 Est-il moins dans la nature de s’attendrir sur le pitoyable que d’éclater sur le ridicule ?/
                 Est-ce l’altération des traits qui nous retient ?/
                 Elle est plus grande dans un ris immodéré que dans la plus amère douleur,/
-                et l’on détourne son visage pour rire comme pour pleurer en la présence des Grands et de tous ceux/
+                et l’on détourne son visage pour rire comme pour pleurer en la présence des <term>Grands</term> et de tous ceux/
                 que l’on respecte : Est-ce une peine que l’on sent à laisser voir que l’on est tendre,/
                 et à marquer quelque faiblesse, surtout en un sujet faux, et dont il semble que l’on soit la dupe ?/
                     <app>
@@ -555,7 +601,7 @@
                     <app>
                         <rdg wit="#Paris_1692_7">qui</rdg>
                     </app>
-                    se les dé<pb n="141" source="#Paris_1690_5"/>fendent également
+                    se les dé<pb n="151" source="#Paris_1690_5"/>fendent également
                     <app>
                         <rdg wit="#Paris_1690_5">;</rdg>
                         <rdg wit="#Paris_1692_7">:</rdg>
@@ -573,7 +619,7 @@
                         <rdg wit="#Paris_1692_7">?</rdg>
                     </app>/
                 L’âme ne va-t-elle pas jusqu’au vrai dans l’un et l’autre genre avant que de s’émouvoir ?/
-                est-elle même si aisée à <pb n="123" source="#Paris_1692_7"/> contenter ? ne lui faut-il pas encore le vraisemblable ?/
+                est-elle même si aisée à <pb n="124" source="#Paris_1692_7"/> contenter ? ne lui faut-il pas encore le vraisemblable ?/
                 Comme donc ce n’est point une chose bizarre d’entendre s’élever de tout un amphithéâtre un ris universel/
                 sur quelque endroit d’une Comédie, et que cela suppose au contraire qu’il est plaisant/
                 et très naïvement exécuté; aussi l’extrême violence que chacun se fait à contraindre ses larmes,/
@@ -590,19 +636,19 @@
                         <rdg wit="#Paris__1690_5">éprouve</rdg>
                     <rdg wit="#Paris_1692_7">éprouverait</rdg>
                     </app> encore qu’il y a souvent moins lieu de craindre de pleurer au théâtre,/
-                    que de s’y morfondre.<pb n="141" source="#Paris_1690_5"/></p></div2>
+                    que de s’y morfondre.<pb n="152" source="#Paris_1690_5"/></p></div2>
                 
                 <div2 source="#Paris_1692_7" n="51"><p><g ref="#fr_pieds_de_mouche"></g>Le Poème tragique vous serre le cœur dès son commencement;/
                 vous laisse à peine dans tout son progrès la liberté de respirer et le temps de vous remettre;/
                 ou s’il vous donne quelque relâche, c’est pour vous replonger dans de nouveaux abîmes et/
-                dans de nouvelles alarmes : il vous <pb n="124" source="#Paris_1692_7"/> conduit à la terreur par la pitié, ou réciproquement à la pitié par/
+                dans de nouvelles alarmes : il vous <pb n="125" source="#Paris_1692_7"/> conduit à la terreur par la pitié, ou réciproquement à la pitié par/
                 le terrible; vous mène par les larmes, par les sanglots, par l’incertitude, par l’espérance, par la crainte,/
                 par les surprises et par l’horreur jusqu’à la catastrophe : ce n’est donc pas un tissu de jolis sentiments,/
                 de déclarations tendres, d’entretiens galants, de portraits agréables, de mots doucereux,/
                 ou quelquefois assez plaisants pour faire rire, suivi à la vérité d’une dernière scène où/
                 les <seg>
                     mutins
-                    <note source="#Paris_1692_7" resp="#Jean_de_la_Bruyère" style="*" place="droite">Séditions, dénouements vulgaires des Tragédies.</note>
+                    <note source="#Paris_1692_7" resp="#Jean_de_la_Bruyère" style="*" place="droite">Séditions, dénouements vulgaires des <term>Tragédies</term>.</note>
                 </seg> n’entendent aucune raison, et où pour la bienséance il y a enfin du sang répandu,/
                 et quelque malheureux à qui il en coûte la vie.</p></div2>
                 
@@ -619,7 +665,7 @@
                     <rdg wit="#Paris_1690_5">païsan</rdg>
                     <rdg wit="#Paris_1692_7">Païsan</rdg>
                 </app> ou l’ivrogne fournit quelques scènes à un farceur , il n’entre qu’à peine dans le vrai comique ;/
-                    comment pourrait-<pb n="125" source="#Paris_1692_7"/>il faire le fond ou l’action principale de la comédie ?/
+                    comment pourrait-<pb n="126" source="#Paris_1692_7"/>il faire le fond ou l’action principale de la comédie ?/
                 « Ces caractères, dit-on, sont naturels. » Ainsi, par cette règle,/
                 on occupera bientôt tout l’<app>
                     <rdg wit="#Paris_1690_5">Amphithéâtre</rdg>
@@ -639,7 +685,7 @@
                     <rdg wit="#Paris_1690_5">;</rdg>
                     <rdg wit="#Paris_1692_7">,</rdg>
                 </app> deux actes,/
-                plus il sera naturel et conforme à son <pb n="141" source="#Paris_1690_5"/> original ; mais plus aussi il sera froid et insipide.</p></div2>
+                plus il sera naturel et conforme à son <pb n="153" source="#Paris_1690_5"/> original ; mais plus aussi il sera froid et insipide.</p></div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1690_5" n="53"><p><g ref="#fr_pieds_de_mouche"></g>Il semble que le <app>
                     <rdg wit="#Paris_1690_5">Roman</rdg>
@@ -664,11 +710,9 @@
                         <rdg wit="#Paris__1692_7">veuë</rdg>
                     </app> sur tout ce qui/
                 l’entoure, ne trouvant que des sujets indignes et fort au-dessous de ce qu’elle vient d’admirer,/
-                je m’é<pb n="126" source="#Paris_1692_7"/>tonne qu’elle soit capable pour eux de la moindre faiblesse.</p></div2>
+                je m’é<pb n="127" source="#Paris_1692_7"/>tonne qu’elle soit capable pour eux de la moindre faiblesse.</p></div2>
             </div1>
         </body>
         <back></back>
     </text>
 </TEI>
-
-
