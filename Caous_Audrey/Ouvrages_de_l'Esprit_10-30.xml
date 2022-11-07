@@ -16,10 +16,6 @@
                     <name>Audrey CAOUS</name>
                     <resp>éditrice de commentaires imprimés</resp>
                 </respStmt>
-            </editionStmt>
-
-            <editionStmt>
-                <edition></edition>
                 <respStmt xml:id="lecteurice">
                     <name>Lecteurice</name>
                     <resp>éditeurice inconnu.e qui rajoute des commentaires manuscrits</resp>
@@ -191,11 +187,11 @@
                     <p>Changer toutes les lettres y en i modernisé</p>
                 </normalization>
 
-                <normalization type="gloss"> 
+                <normalization> 
                     <p>Les remarques de type glossaire sont éditées par le resp AC (Audrey CAOUS), éditrice des remarques</p>
                 </normalization>
 
-                  <normalization type="comm"> 
+                  <normalization> 
                     <p>Les remarques de type comm sont éditées par le resp JB (Jean de la Bruyère), auteur de l'ouvrage</p>
                 </normalization>
             </editorialDecl>
@@ -393,7 +389,7 @@
                             louer. Que ne disiez-vous seulement :« Voilà un bon livre » ? Vous le dites,
                             il est vrai, avec toute la France, avec les étrangers comme avec vos
                             compatriotes, quand il est imprimé par toute l’Eu<pb n="105" source="Paris_1694_8"/>rope et qu’il est traduit
-                            en plusieurs langues <pb n="109" source="#Paris_1692_7"/> : il n’est plus temps.</lem> <rdg wit="#Paris_1688_1"> </rdg></app> <rdg wit=#Paris_1688_3><app><lem wit="#Paris_1694_8"><app><lem wit="#Paris_1694_8">approu<pb n="104" source="#Paris_1694_8"/> <pb n="108" source="#Paris_1692_7"/> vé</lem> <rdg wit="#Paris_1689_4">aprouvé</rdg> </app> cet ouvrage, et que le public est de leur avis.</rdg></app>
+                            en plusieurs langues <pb n="109" source="#Paris_1692_7"/> : il n’est plus temps.</lem> <rdg wit="#Paris_1688_1"> </rdg></app> <rdg wit="#Paris_1688_3"> </rdg><app><lem wit="#Paris_1694_8"></lem><app><lem wit="#Paris_1694_8">approu<pb n="104" source="#Paris_1694_8"></pb> <pb n="108" source="#Paris_1692_7"/> vé</lem> <rdg wit="#Paris_1689_4">aprouvé</rdg></app> cet ouvrage, et que le public est de leur avis.</rdg></app>
                         </p>
                 </div2>
 
@@ -538,3 +534,5 @@
         </body>
     </text>
 </TEI>
+
+
