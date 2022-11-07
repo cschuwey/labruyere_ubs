@@ -20,7 +20,7 @@
                 <authority/>
             </publicationStmt>
             <sourceDesc>
-                <bibl/>
+                <bibl type="clé" xml:id="something"/>
                 <biblStruct>
                     <monogr xml:id="Paris_1688_1">
                         <title> Les caractères de Théophraste traduits du grec ; avec les caractères
@@ -78,6 +78,22 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
+                <listPerson>
+                    <person xml:id="Corneille"/>
+                    <person xml:id="Racine"/>
+                    <person xml:id="Horace"/>
+                    <person xml:id="Oreste"/>
+                    <person xml:id="Euripide"/>
+                    <person xml:id="Sophocle"/>
+                    <person xml:id="Malherbe"/>
+                    <person xml:id="Balzac"/>
+                    <person xml:id="Despreaux"/>
+                    <person xml:id="Polyeucte"></person>
+                    <person xml:id="Phedre"></person>
+                    <person xml:id="Horaces"></person>
+                    <person xml:id="Burrhus"></person>
+                    <person xml:id="Mithridate"></person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -129,7 +145,9 @@
                     versions du texte déjà ajoutées, ajout de notes</change>
                 <change when="2022-11-05">Ajout de la pagination du texte pour deux édition et ajout
                     de notes.</change>
-                <change when="2022-10-06">Ajout des variantes de l'édition 4 des remarques 54 à 60.</change>
+                <change when="2022-10-06">Ajout des variantes de l'édition 4 des remarques 54 à
+                    60.</change>
+                <change when="2022-10-07">Ajout des variantes de l'édition 4 de la remarque 61 et codage des auteurs cités.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -167,8 +185,9 @@
                 <head/>
                 <div2 n="54" source="#Paris_1696_9 #Paris_1689_4 #Paris_1688_1">
                     <p><g ref="#pied_de_mouche" source="#Paris_1688_1 #Paris_1696_9"/><app>
-                            <lem>Corneille</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">CORNEILLE</rdg>
+                            <lem><persName ref="#Corneille" type="auteur">Corneille</persName></lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"><persName
+                                    ref="#Corneille" type="auteur">CORNEILLE</persName></rdg>
                         </app> ne <app>
                             <lem wit="#Paris_1689_4">peut être</lem>
                             <rdg wit="#Paris_1688_1">peut estre</rdg>
@@ -333,8 +352,9 @@
                             <lem>composés</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">composez</rdg>
                         </app>. Il semble qu’il y ait plus de ressemblance dans ceux de <app>
-                            <lem>Racine</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">RACINE</rdg>
+                            <lem><persName ref="#Racine" type="auteur">Racine</persName></lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"><persName
+                                    ref="#Racine" type="auteur">RACINE</persName></rdg>
                         </app>, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
@@ -378,9 +398,10 @@
                         le grand <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
-                        </app> le merveilleux n’ont pas même manqué, ainsi qu’à <seg>Corneille<note
-                                resp="#SK" type="analyse" place="bottom" style="italic">Nous pouvons
-                                ici remarquer que l'auteur écrit le nom de Corneille avec uniquement
+                        </app> le merveilleux n’ont pas même manqué, ainsi qu’à <seg><persName
+                                ref="#Corneille" type="auteur">Corneille</persName><note resp="#SK"
+                                type="analyse" place="bottom" style="italic">Nous pouvons ici
+                                remarquer que l'auteur écrit le nom de Corneille avec uniquement
                                 l'initiale en majuscule, alors qu'au début et à la fin du texte, le
                                 nom de l'auteur est noté entièrement en majuscule dans les éditions
                                 du XVIIème siècle, tout comme celui de Racine.</note></seg><app>
@@ -399,19 +420,27 @@
                         </app> plus grande tendresse que celle qui est <app>
                             <lem>répandue</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">répanduë</rdg>
-                        </app> dans tout le Cid, dans Polyeucte <app>
+                        </app> dans tout le <persName ref="#cid" type="fictionnel" style="italic"
+                            >Cid</persName>, dans <persName ref="#Polyeucte" type="fictionnel"
+                            style="italic">Polyeucte</persName>
+                        <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
-                        </app> dans les Horaces <app>
+                        </app> dans les <persName ref="#Horaces" type="fictionnel" style="italic"
+                            >Horaces</persName>
+                        <app>
                             <lem wit="#Paris_1689_4 #Paris_1696_9">? quelle</lem>
                             <rdg wit="#Paris_1688_1">! quelle</rdg>
                         </app> grandeur ne se remarque point en <app>
-                            <lem>Mithridate</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Mitridate</rdg>
+                            <lem><persName ref="#Mithridate" type="fictionnel" style="italic"
+                                    >Mithridate</persName></lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"><persName
+                                    ref="#Mithridate" type="fictionnel" style="italic"
+                                    >Mitridate</persName></rdg>
                         </app>, en Porus<app>
                             <lem> et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">, &amp;</rdg>
-                        </app> en Burrhus ? Ces passions encore favorites des <app>
+                        </app> en <persName ref="#Burrhus" type="fictionnel">Burrhus</persName> ? Ces passions encore favorites des <app>
                             <lem>anciens</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Anciens</rdg>
                         </app>, que les tragiques <app>
@@ -437,10 +466,12 @@
                             <lem>poètes.</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1689_4">Poëtes ;</rdg>
                             <rdg wit="#Paris_1696_9">Poëtes :</rdg>
-                        </app> Oreste,<pb n="26" source="#Paris_1696_9"/> dans l’Andromaque de
-                        Racine, <app>
-                            <lem>et Phèdre</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp; Phedre</rdg>
+                        </app>
+                        <persName ref="#Oreste" type="fictionnel">Oreste</persName>,<pb n="26"
+                            source="#Paris_1696_9"/> dans l’<title style="italic">Andromaque</title> de <persName ref="#Racine"
+                            type="auteur">Racine</persName>, <app>
+                                <lem>et <persName ref="#Phedre" type="fictionnel" style="italic">Phèdre</persName></lem>
+                                <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp; <persName ref="#phedre" type="fictionnel" style="italic">Phedre</persName></rdg>
                         </app> du <app>
                             <lem>même auteur</lem>
                             <rdg wit="#Paris_1688_1">mesme <seg>Auteur<note resp="#SK"
@@ -453,7 +484,8 @@
                         </app>, comme l’Œdipe <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
-                        </app> les Horaces de Corneille<app>
+                        </app> les Horaces de <persName ref="#Corneille" type="auteur"
+                            >Corneille</persName><app>
                             <lem>, </lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"> </rdg>
                         </app>en sont la preuve. Si cependant il est permis de faire <app>
@@ -480,14 +512,18 @@
                             <lem> :« </lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">. </rdg>
                             <rdg wit="#Paris_1689_4"> : </rdg>
-                        </app>Corneille nous assujettit à ses <app>
+                        </app><persName ref="#Corneille" type="auteur">Corneille</persName> nous
+                        assujettit à ses <app>
                             <lem>caractères et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">caracteres
                                 &amp;</rdg>
                         </app> à ses idées<app>
-                            <lem>, Racine se conforme</lem>
-                            <rdg wit="#Paris_1688_1"> ; Racine descend jusques</rdg>
-                            <rdg wit="#Paris_1696_9 #Paris_1689_4">; Racine se conforme</rdg>
+                            <lem>, <persName ref="#Racine" type="auteur">Racine</persName> se
+                                conforme</lem>
+                            <rdg wit="#Paris_1688_1"> ; <persName ref="#Racine" type="auteur"
+                                    >Racine</persName> descend jusques</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">; <persName ref="#Racine"
+                                    type="auteur">Racine</persName> se conforme</rdg>
                         </app> aux <app>
                             <lem wit="#Paris_1688_1 #Paris_1696_9">nôtres ;</lem>
                             <rdg wit="#Paris_1689_4">nostres :</rdg>
@@ -572,22 +608,28 @@
                         </app> est plus occupé aux <app>
                             <lem>pièces</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">pieces</rdg>
-                        </app> de Corneille ; l’on est plus ébranlé <app>
+                        </app> de <persName ref="#Corneille" type="auteur">Corneille</persName> ;
+                        l’on est plus ébranlé <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
-                        </app> plus attendri à celles de Racine<app>
+                        </app> plus attendri à celles de <persName ref="#Racine" type="auteur"
+                            >Racine</persName><app>
                             <lem>.</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"> :</rdg>
-                        </app> Corneille est plus moral, Racine plus naturel<app>
+                        </app>
+                        <persName ref="#Corneille" type="auteur">Corneille</persName> est plus
+                        moral, <persName ref="#Racine" type="auteur">Racine</persName> plus naturel<app>
                             <lem>. Il</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"> : il</rdg>
                         </app> semble que l’un imite <app>
-                            <lem>Sophocle,et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">SOPHOCLE ;
-                                &amp;</rdg>
+                            <lem><persName ref="#Sophocle" type="auteur"
+                                >Sophocle</persName>,et</lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"><persName
+                                    ref="#Sophocle" type="auteur">SOPHOCLE</persName> ; &amp;</rdg>
                         </app> que l’autre doit plus à <app>
-                            <lem>Euripide » </lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">EURIPIDE</rdg>
+                            <lem><persName ref="#Euripide" type="auteur">Euripide</persName> » </lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"><persName
+                                    ref="#Euripide" type="auteur">EURIPIDE</persName></rdg>
                         </app>.</p>
                 </div2>
                 <div2 n="55" source="#Paris_1696_9 #Paris_1689_4 Paris_1688_1">
@@ -869,8 +911,8 @@
                         </app> user de termes qui soient propres, il est <app>
                             <lem wit="#Paris_1696_9">vrai ;</lem>
                             <rdg wit="#Paris_1689_4">vray,</rdg>
-                        </app> mais il faut que ces termes si propres expriment des pensées
-                        nobles, vives, solides, <app>
+                        </app> mais il faut que ces termes si propres expriment des pensées nobles,
+                        vives, solides, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> qui renferment un <app>
@@ -883,8 +925,8 @@
                         </app> faire de la pureté <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
-                        </app><pb n="109" source="#Paris_1689_4"/> de la clarté du discours un mauvais usage que de les faire servir à
-                        une <app>
+                        </app><pb n="109" source="#Paris_1689_4"/> de la clarté du discours un
+                        mauvais usage que de les faire servir à une <app>
                             <lem>matière</lem>
                             <rdg wit="#Paris_1696_9 #Paris_1689_4">matiere</rdg>
                         </app> aride, infructueuse, qui est sans sel, sans utilité, sans nouveauté<app>
@@ -995,8 +1037,12 @@
                             <lem>française</lem>
                             <rdg wit="#Paris_1696_9 #Paris_1689_4">Françoise</rdg>
                         </app> ; l’on a presque retrouvé le nombre que <app>
-                            <lem>Malherbe et Balzac avaient</lem>
-                            <rdg wit="#Paris_1696_9 #Paris_1689_4">MALHERBE &amp; BALZAC avoient</rdg>
+                            <lem><persName ref="#Malherbe" type="auteur">Malherbe</persName> et
+                                    <persName ref="#Balzac" type="auteur">Balzac</persName>
+                                avaient</lem>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4"><persName ref="#Malherbe"
+                                    type="auteur">MALHERBE</persName> &amp; <persName ref="#Balzac"
+                                    type="auteur">BALZAC</persName> avoient</rdg>
                         </app> les premiers rencontré, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
@@ -1011,63 +1057,76 @@
                         y mettre de l’esprit.<pb n="110" source="#Paris_1689_4"/></p>
                 </div2>
                 <div2 n="61" source="#Paris_1696_9 #Paris_1689_4">
-                    <p><g ref="#pied_de_mouche" source="#Paris_1696_9 #Paris_1689_4"/>Il y a des artisans ou des
-                        habiles dont l’esprit est aussi vaste que l’art <app>
+                    <p><g ref="#pied_de_mouche" source="#Paris_1696_9 #Paris_1689_4"/>Il y a des
+                        artisans ou des habiles dont l’esprit est aussi vaste que l’art <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> la science qu’ils professent ; ils lui rendent avec avantage, par
-                            le<pb n="30" source="#Paris_1696_9"/>
+                            <rdg wit="#Paris_1689_4">ou</rdg>
+                        </app> la science qu’ils professent ; ils <app>
+                            <lem wit="#Paris_1696_9">lui</lem>
+                            <rdg wit="#Paris_1689_4">luy</rdg>
+                        </app> rendent avec avantage, par le<pb n="30" source="#Paris_1696_9"/>
                         <app>
                             <lem>génie et</lem>
-                            <rdg wit="#Paris_1696_9">genie &amp;</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">genie &amp;</rdg>
                         </app> par l’invention, ce qu’ils tiennent d’elle <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> de ses principes ; ils sortent de l’art pour l’ennoblir, s’écartent
                         des <app>
                             <lem>règles</lem>
-                            <rdg wit="#Paris_1696_9">regles</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">regles</rdg>
                         </app> si elles ne les conduisent pas au grand <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> au sublime ; ils marchent seuls <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> sans compagnie, mais ils vont fort haut et <app>
-                            <lem>pénètrent</lem>
-                            <rdg wit="#Paris_1696_9">pénetrent</rdg>
-                        </app> fort loin, toujours sûrs <app>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
+                        </app> sans compagnie, mais ils vont fort haut <app>
+                            <lem>et pénètrent</lem>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp; pénetrent</rdg>
+                        </app> fort loin, <app>
                             <lem>toujours sûrs et confirmés</lem>
-                            <rdg wit="#Paris_1696_9">toûjours seurs &amp; confirmez</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">toûjours seurs &amp;
+                                confirmez</rdg>
                         </app> par le <app>
                             <lem>succès</lem>
-                            <rdg wit="#Paris_1696_9">succés</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">succés</rdg>
                         </app> des avantages que l’on tire quelquefois de <app>
                             <lem>l'irrégularité</lem>
-                            <rdg wit="#Paris_1696_9">l'irregularité</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">l'irregularité</rdg>
                         </app>. Les esprits justes, doux, <app>
                             <lem>modérés</lem>
-                            <rdg wit="#Paris_1696_9">moderez</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">moderez</rdg>
                         </app>, non seulement ne les atteignent pas, ne les admirent pas, mais ils
                         ne les comprennent point, <app>
                             <lem>et voudraient</lem>
-                            <rdg wit="#Paris_1696_9">&amp; voudroient</rdg>
-                        </app> encore moins les imiter ; ils demeurent tranquilles dans l’étendue de
-                        leur sphère, vont jusques à un certain point qui fait les bornes de leur
-                        capacité <app>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp; voudroient</rdg>
+                        </app> encore moins les imiter ; ils demeurent tranquilles dans <app>
+                            <lem wit="#Paris_1696_9">l'étendue</lem>
+                            <rdg wit="#Paris_1689_4">l'étenduë</rdg>
+                        </app> de leur <app>
+                            <lem wit="#Paris_1696_9">sphère</lem>
+                            <rdg wit="#Paris_1689_4">sphere</rdg>
+                        </app>, vont jusques à un certain point qui fait les bornes de leur capacité <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
                         </app> de leurs <app>
                             <lem>lumières</lem>
-                            <rdg wit="#Paris_1696_9">lumieres</rdg>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">lumieres</rdg>
                         </app> ; ils ne vont pas<app>
-                            <lem> plus </lem>
+                            <lem wit="#Paris_1689_4"> plus </lem>
                             <rdg wit="#Paris_1696_9"> </rdg>
-                        </app>loin, parce qu’ils ne voient rien au delà ; ils ne peuvent au plus
-                        qu’être les premiers d’une seconde classe, <app>
+                        </app>loin, parce qu’ils ne voient rien au delà ; ils ne peuvent au plus <app>
+                            <lem wit="#Paris_1696_9">qu’être</lem>
+                            <rdg wit="#Paris_1689_4">qu'estre</rdg>
+                        </app> les premiers d’une seconde classe, <app>
                             <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> exceller dans le médiocre.</p>
+                            <rdg wit="#Paris_1696_9 #Paris_1689_4">&amp;</rdg>
+                        </app> exceller dans le <app>
+                            <lem wit="#Paris_1696_9">médiocre</lem>
+                            <rdg wit="#Paris_1689_4">mediocre</rdg>
+                        </app>.</p>
                 </div2>
                 <div2 n="62" source="#Paris_1696_9">
                     <p><app>
@@ -1224,10 +1283,19 @@
                         </app> vain <app>
                             <lem>et puéril</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp; puerile</rdg>
-                        </app>, de peur de ressembler à Dorilas <app>
+                        </app>, de peur de ressembler à <app type="clé">
+                            <lem wit="#Paris_1688_1 #Paris_1696_9">Dorilas</lem>
+                            <rdg wit="clé"/>
+                        </app>
+                        <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp; à</rdg>
-                        </app> Handburg <app>
+                        </app>
+                        <app type="clé">
+                            <lem wit="#Paris_1688_1 #Paris_1696_9">Handburg</lem>
+                            <rdg wit="clé"/>
+                        </app>
+                        <app>
                             <lem wit="#Paris_1696_9">:</lem>
                             <rdg wit="#Paris_1688_1">;</rdg>
                         </app> l’on peut au contraire en une sorte d’écrits <app>
@@ -1296,8 +1364,12 @@
                 </div2>
                 <div2 n="69" source="#Paris_1696_9 #Paris_1689_4 #Paris_1688_1">
                     <p><g ref="#pied_de_mouche" source="#Paris_1688_1 #Paris_1696_9"/><app>
-                            <lem>Horace ou Despréaux</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">HORACE ou DESPREAUX</rdg>
+                            <lem><persName ref="#Horace" type="auteur">Horace</persName> ou
+                                    <persName ref="#Despreaux" type="auteur"
+                                >Despréaux</persName></lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9"><persName ref="#Horace"
+                                    type="auteur">HORACE</persName> ou <persName ref="#Despreaux"
+                                    type="auteur">DESPREAUX</persName></rdg>
                         </app> l’a dit avant vous<app>
                             <lem>.— Je</lem>
                             <rdg wit="#Paris_1688_1">; je</rdg>
