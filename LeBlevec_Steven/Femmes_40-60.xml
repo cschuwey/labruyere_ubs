@@ -12,7 +12,7 @@
                 
             <editionStmt>
                 <edition></edition>
-                    <respStmt xml:id=Stev>
+                    <respStmt xml:id="Stev">
                         <name>Steven</name>
                         <resp></resp>
                         <resp>éditeur</resp>
@@ -59,7 +59,7 @@
         <profileDesc>
             
             <creation>
-                <date>1670</date>Du Mérite Personnel est le deuxième chapitre de l'ouvrage
+                <date>1670</date>Des femmes est le troisième chapitre de l'ouvrage
             </creation>
             
             <langUsage>
@@ -95,6 +95,7 @@
             <editorialDecl>
                 <correction>
                     <p>Remplacement des "ſ" par des "s"</p>
+                    <p>Remplacement des "&" par des "et"</p>
                 </correction>
             </editorialDecl>
         </encodingDesc>  
@@ -147,39 +148,23 @@
                 <div1 n="1" type="chapitre">
                 <head>Les femmes</head>
                         
-                 <div2 n="40" source="#Paris_1688_Premiere Remarque absente source=" #Paris_1692_Septieme>
-                    <app>
-                       <lem>Je voudrais qu’il me fût permis de crier de toute ma force à ces hommes saints qui ont été autrefois blessés des femmes :
-                        "Fuyez les femmes, ne les dirigez point, laissez à d’autres le soin de leur salut."</lem>
-                        <rdg wit="Edition de 1692">
-                        <g ref="#pieddemouche"/>
+                   <div2 source="#Paris_1692_Septieme">
+                     <p source="#Paris_1692_Septieme" n="40"><g ref="#pieddemouche"></g>
                         <p><pb n="141" source="#Paris_1692_Septième/>Je voudrois qu'il me fût permis de crier de toute ma force à ces hommes
                          saints qui ont été autrefois blessez des femmes, 
                          Fuyez les femmes, ne les dirigez point,laissez à d'autres le soin de leur salut.</p>
-                      </app>
                    </div2>
 
                        
-                      <div2 n="41" source="#Paris_1688_Premiere #Paris_1692_Septieme>
-                            <app>
-                                <lem>C'est trop contre un mari d’etre coquette et dévote ; une femme devrait opter.</lem>
-                                <rdg wit="Edition de 1688">
-                                <g ref="#pieddemouche"/>
-                                <pb n="189" source="#Paris_1688_Première/>
-                                <p>C'eft trop contre un mary d’estre coquette & dévote ; une femme devroit opter.</p>
-                                <rdg wit="Edition de 1692">
-                                <g ref="#pieddemouche"/>
-                                <pb n="141" source="#Paris_1688_Septième/>
-                                <p>C'eft trop contre un mary d’estre coquette & dévote ; une femme devroit opter.</p>
-                            </app>
+                           <div2 source="#Paris_1688_Première #Paris_1692_Septieme">
+                              <p source="#Paris_1688_Première #Paris_1692_Septieme" n="41"><g ref="#pieddemouche"></g>
+                                <p>C'eft trop contre un mary d’estre coquette et dévote ; une femme devroit opter.</p>
                            </div2>
 
-                            <div2 n="42" source="#Paris_1688_Premiere Remarque absente source=" #Paris_1692_Septieme>
-                                <app>
-                                    <rdg wit="Edition de 1692"/>
-                                    <g ref="#pieddemouche"/>
-                                    <p><pb n="141" source="#Paris_1692_Septieme/>J’ay différé à le dire,& amp j’en ay souffert ; mais enfin il 
-                                     m’échape, & j’espère même que ma franchise
+                          <div2 source="#Paris_1692_Septieme">
+                              <p source="#Paris_1692_Septieme" n="42"><g ref="#pieddemouche"></g>
+                                    <p><pb n="141" source="#Paris_1692_Septieme/>J’ay différé à le dire,et j’en ay souffert ; mais enfin il 
+                                     m’échape, et j’espère même que ma franchise
                                      sera utile à celles qui n’ayant pas assez d’un confesseur pour leur conduite, n’usent d’aucun discernement
                                      dans le choix de leurs directeurs. Je ne sors pas d’admiration et d’étonnement à la vue de certains personnages
                                      que je ne nomme point ; j’ouvre de fort grands yeux sur eux ; je les contemple : ils parlent, je prê-
@@ -194,363 +179,195 @@
                                      je le comprends encore moins.
                                      Je vois bien que le goût qu'il y a à devenir le depositaire du secret des familles, à le rendre necessaire pour
                                      les reconciliations, à procurer des commissions ou à placer des domesti-<pb n="143" source="#Paris_1692_Septieme/></p>
-                                     -ques, à trouver toutes les portes ouvertes dans les maisons des GRands, à manger souvent à de bonnes ta-bles, à le 
-                                     promener en carosse dans une grande ville, & à faire de delicieuses retraites à la campagne, à voir plusieurs 
-                                     personnes de nom & de distinction s'interesser à la vie & à la santé, & à ménager pour les autres & pour soy-même
+                                     -ques, à trouver toutes les portes ouvertes dans les maisons des Grands, à manger souvent à de bonnes ta-bles, à le 
+                                     promener en carosse dans une grande ville, et à faire de delicieuses retraites à la campagne, à voir plusieurs 
+                                     personnes de nom et de distinction s'interesser à la vie et à la santé, et à ménager pour les autres et pour soy-même
                                      tous les interets humains : je vois ben en-core une fois que cela seul a fait imaginer le specieux<foreign>spécial</foreign>
-                                     & irreprehensi-ble prétexte du soin des ames, & semé dans le monde cette pepiniere intarissable de Directeurs
-                                </app>
+                                     et irreprehensi-ble prétexte du soin des ames, et semé dans le monde cette pepiniere intarissable de Directeurs</p>
                             </div2>
 
-                            <div2 n="43" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme> >
-                                <app>
-                                  <rdg wit="Edition de 1692">
-                                  <g ref="#pieddemouche"/>
+                            <div2 source="#Paris_1692_Septieme">
+                               <p source="#Paris_1692_Septieme" n="43"><g ref="#pieddemouche"></g>
                                   <p>La dévotion vient à quelques-uns, et surtout aux femmes, comme une passion, ou comme le faible d’un certain âge,
                                      ou comme un mode qu’il faut suivre : Elles comptoient autrefois une semaine par les jours de jeu, de spectacle, 
                                      de concert, de mascarade, ou d’un joli sermon ; elles allaient le lundy perdre leur argent chez Ismène, le mardy
                                      leur temps chez Climène, et le mercredi leur réputation chez Climène ; elles fçavoient dès la veille toute la joye
                                      <pb n="144" source="#Paris_1692_Septieme/>
-                                     qu’elles devoient avoir le jour d’après & le lendemain ; elles jouissoient tout à la fois du plaisir present & de celuy
+                                     qu’elles devoient avoir le jour d’après et le lendemain ; elles jouissoient tout à la fois du plaisir present & de celuy
                                      qui ne leur pouvoit manquer ; elles auroient souhaité de les pouvoir rassembler tous en un seul jour , c’étoit
-                                     alors leur unique inquiétude & tout le sujet de leurs distractions ; & si elles se trouvoient quelquefois à l’Opéra,
-                                     elles y regretoient la comédie. Autres temps, autres mœurs : elles outrent l’austérité & la retraite ; elles n’ouvrent
+                                     alors leur unique inquiétude et tout le sujet de leurs distractions ; et si elles se trouvoient quelquefois à l’Opéra,
+                                     elles y regretoient la comédie. Autres temps, autres mœurs : elles outrent l’austérité et la retraite ; elles n’ouvrent
                                      plus les yeux qui leur sont donnez pour voir ; elles ne mettent plus leurs sens à aucun usage ; et chose incroyable !
-                                     elles parlent peu ; elles pensent encore & assez bien d’elles-mêmes, comme assez mal des autres ; il y a chez elles 
+                                     elles parlent peu ; elles pensent encore et assez bien d’elles-mêmes, comme assez mal des autres ; il y a chez elles 
                                      une émulation de vertu et de réforme qui tient quelque chose de la jalousie ; elles ne haïssent pas de primer dans ce
                                      nouveau genre de vie, comme elles faisaient dans celui qu’elles viennent de quitter par politique ou par dégoût. 
-                                     Elles se perdoient gayement <foreign>gaiement</foreign> par la galanterie, par la bonne chère & par l’oysiveté ; 
-                                     & elles se perdent tristement par la présomption & par l’envie.</p>
-                                 </p>
-                               </app>
+                                     Elles se perdoient gayement <foreign>gaiement</foreign> par la galanterie, par la bonne chère et par l’oysiveté ; 
+                                     et elles se perdent tristement par la présomption et par l’envie.</p>
+
                             </div2>
 
-                            <div2 n="44" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
-                               <app>
-                                 <lem>Si j’épouse, Hermas, une femme avare, elle ne me ruinera point ; si une joueuse, elle pourra s’enrichir ; 
-                                      si une savante, elle saura m’instruire ; si une prude, elle ne sera point emportée ; si une emportée, 
-                                      elle exercera ma patience ; si une coquette, elle voudra me plaire ; si une galante, elle le sera peut-être
-                                      jusqu’à m’aimer ; si une dévote, répondez, Hermas, que dois-je attendre de celle qui veut tromper Dieu, et
-                                      qui se trompe elle-même ?</lem>
-                                 <rdg wit="Edition de 1692">
-                                     <g ref="#pieddemouche" "si"/>
+                               <div2 source="#Paris_1692_Septieme">
+                                    <p source="#Paris_1692_Septieme" n="44"><g ref="#pieddemouche"></g>
                                       <p><pb n="145" source="#Paris_1692_Septieme/>Si j’épouse, Hermas, une femme avare, elle ne me ruinera point :
                                          si une joueuse, elle pourra s’enrichir ;
                                          si une fçavante, elle fçaura m’instruire ; si une prude, elle ne sera point emportée : si une emportée,
                                          elle exercera ma patience : si une coquette, elle voudra me plaire : si une galante, elle le sera peut-être
                                          jusqu’à m’aimer : si une dévote, répondez, Hermas<note>Frère de l'évèque de Rome Pie 1er,le 10ème pape</note>, 
                                          que dois-je attendre de celle qui veut tromper Dieu, qui se trompe elle-même ,</p>
-                                </app>
                                </div2>
 
-                               <div2 n="45" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
-                                 <app>
-                                   <lem>Une femme est aisée à gouverner, pourvu que ce soit un homme qui s’en donne la peine : Un seul même
-                                        en gouverne plusieurs ; il cultive leur esprit et leur mémoire, fixe et détermine leur religion ; 
-                                        il entreprend même de régler leur cœur. Elles n’approuvent & ne désapprouvent, ne louent et ne condamnent,
-                                        qu’après avoir consulté ses yeux et son visage. Il est le dépositaire de leurs joies et de leurs chagrins,
-                                        de leurs désirs, de leurs jalousies, de leurs haines et de leurs amours il les fait rompre avec leurs galants ;
-                                        il les brouille et les réconcilie avec leurs maris, et il profite des interrègnes. Il prend soin de leurs
-                                        affaires, sollicite leurs procès, et voit leurs juges ; il leur donne son médecin, son marchand, ses ouvriers ;
-                                        il s’ingère de les loger, de les meubler, et il ordonne de leur équipage. On le voit avec elles dans leurs
-                                        carrosses, dans les rues d’une ville et aux promenades, ainsi que dans leur banc à un sermon, et dans leur
-                                        loge à la comédie ; il fait avec elles les mêmes visites ; il les accompagne au bain, aux eaux, dans les voyages ;
-                                        il a le plus commode appartement chez elles à la campagne. Il vieillit sans déchoir de son autorité : un peu
-                                        d’esprit et beaucoup de temps à perdre lui suffit pour la conserver ; les enfants, les héritiers, la bru,
-                                        la nièce, les domestiques, tout en dépend. Il a commencé par se faire estimer ; il finit par se faire craindre.
-                                        Cet ami si ancien, si nécessaire, meurt sans qu’on le pleure ; et dix femmes dont il était le tyran héritent par
-                                        sa mort de la liberté.</lem>
-                             <rdg wit="Edition de 1692">
-                                 <g ref="#pieddemouche"/>
+                             <div2 source="#Paris_1692_Septieme">
+                                    <p source="#Paris_1692_Septieme" n="45"><g ref="#pieddemouche"></g>
                                      <p>Une femme est aisée à gouverner, pourvû que ce soit un homme qui s’en donne la peine. Un seul même en gouverne
-                                        plusieurs ; il cultive leur esprit & leur mémoire, fixe & détermine leur religion ; il entreprend même de régler 
-                                        leur cœur. Elles n’approuvent & ne désapprouvent, ne louent & ne condamnent, qu’après avoir consulté ses yeux &
+                                        plusieurs ; il cultive leur esprit et leur mémoire, fixe & détermine leur religion ; il entreprend même de régler 
+                                        leur cœur. Elles n’approuvent et ne désapprouvent, ne louent et ne condamnent, qu’après avoir consulté ses yeux et
                                         son visage. Il est le dépositaire de leurs joyes et de leurs chagrins, de leurs désirs, de leurs jalousies, de
-                                        leurs haines & de leurs amours il les fait rompre avec leurs galants ; il les brouille & les réconcilie avec leurs
+                                        leurs haines et de leurs amours il les fait rompre avec leurs galants ; il les brouille et les réconcilie avec leurs
                                         <pb n="146" source="#Paris_1692_Septieme/>maris, & il profite des interrègnes. Il prend soin de leurs affaires, 
-                                        sollicite leurs procès, & voit leurs juges ;
-                                        il leur donne son médecin, son marchand, ses ouvriers ; il s’ingere de les loger, de les meubler, & il ordonne
+                                        sollicite leurs procès, et voit leurs juges ;
+                                        il leur donne son médecin, son marchand, ses ouvriers ; il s’ingere de les loger, de les meubler, et il ordonne
                                         de leur équipage. On le voit avec elles dans leurs carrosses, dans les rues d’une ville et aux promenades, ainsi
-                                        que dans leur banc à un sermon, & dans leur loge à la comédie : il fait avec elles les mêmes visites ; il les
+                                        que dans leur banc à un sermon, et dans leur loge à la comédie : il fait avec elles les mêmes visites ; il les
                                         accompagne au bain, aux eaux, dans les voyages ; il a le plus commode appartement chez elles à la campagne.
                                         Il vieillit sans déchoir de son autorité , un peu d’esprit & beaucoup de temps à perdre luy suffit pour la
                                         conserver ; les enfans, les héritiers, la bru, la nièce, les domestiques, tout en dépend. Il a commencé par
                                         se faire estimer ; il finit par se faire craindre. Cet ami si ancien, si nécessaire, meurt sans qu’on le pleure ;
-                                        & dix femmes dont il étoit le tyran héritent par sa mort de la liberté.</p>
-                              </app>
+                                        et dix femmes dont il étoit le tyran héritent par sa mort de la liberté.</p>
                             </div2>
-
-                            <div2 n="46" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
-                              <app>
-                                <lem>Quelques femmes ont voulu cacher leur conduite sous les dehors de la modestie ; et tout ce que chacune a pu
-                                     gagner par une continuelle affectation, et qui ne s’est jamais démentie, a été de faire dire de soi : On 
-                                     l’aurait prise pour une vestale.</lem>
-                                  <rdg wit="Edition de 1692">
-                                      <g ref="#pieddemouche"/>
+                                                            
+                            <div2 source="#Paris_1692_Septieme">
+                                    <p source="#Paris_1692_Septieme" n="46"><g ref="#pieddemouche"></g>
                                        <p>Quelques femmes ont voulu cacher leur conduite sous les dehors<pb n="147" source="#Paris_1692_Septieme/>
-                                          de la modestie ; & tout ce que chacune
-                                          a pû gagner par une continuelle affectation, & qui ne s’est jamais démentie, a été de faire dire de soy :
+                                          de la modestie ; et tout ce que chacune
+                                          a pû gagner par une continuelle affectation, et qui ne s’est jamais démentie, a été de faire dire de soy :
                                           On l’aurait prise pour une vestale.</p>
-                                       <note resp="#ALN">
+
                             </div2>
 
-                            <div2 n="47" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
-                               <app>
-                                <lem>C’est dans les femmes une violente preuve d’une réputation bien nette et bien établie, qu’elle ne soit pas
-                                     même effleurée par la familiarité de quelques-unes qui ne leur ressemblent point ; et qu’avec toute la pente
-                                     qu’on a aux malignes explications, on ait recours à une tout autre raison de ce commerce qu’à celle de la
-                                     convenance des mœurs.</lem>
-                                <rdg wit="Edition de 1692">
-                                   <g ref="#pieddemouche"/>
-                                     <p>C’est dans les femmes une violente preuve d’une reputation bien nette & bien établie, qu’elle ne soit 
-                                        pas même effleurée par la familiarité de quelques-unes qui ne leur ressemblent point ; & qu’avec toute
+                             <div2 source="#Paris_1692_Septieme">
+                                   <p source="#Paris_1692_Septieme" n="47"><g ref="#pieddemouche"></g>
+                                     <p>C’est dans les femmes une violente preuve d’une reputation bien nette et bien établie, qu’elle ne soit 
+                                        pas même effleurée par la familiarité de quelques-unes qui ne leur ressemblent point ; et qu’avec toute
                                         la pente qu’on a aux malignes explications, on ait recours à une tout autre raison de ce commerce qu’à
                                         celle de la convenance des mœurs.</p>
-                                </app>
                              </div2>
 
-                             <div2 n="48" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
-                                <p> (48) Un comique outre sur la scène ses personnages ; un poète charge ses descriptions ; un peintre qui fait
-                                         d’après nature force et exagère une passion, un contraste, des attitudes ; et celui qui copie, s’il ne
-                                         mesure au compas les grandeurs et les proportions, grossit ses figures, donne à toutes les pièces qui
-                                         entrent dans l’ordonnance de son tableau plus de volume que n’en ont celles de l’original : de même la
-                                         pruderie est une imitation de la sagesse.
-                                         Il y a une fausse modestie qui est vanité, une fausse gloire qui est légèreté, une fausse grandeur qui
-                                         est petitesse ; une fausse vertu qui est hypocrisie, une fausse sagesse qui est pruderie. 
-                                         Une femme prude paye de maintien et de parole ; une femme sage paye de conduite : celle-là suit son 
-                                         humeur & sa complexion, celle-cy sa raison & son cœur. L’une est sérieuse et austère ; l’autre est dans
-                                         les diverses rencontres précisément ce qu’il faut qu’elle soit , la première cache des faibles sous de 
-                                         plausibles dehors ; la seconde couvre un riche fonds sous un air libre et naturel. La pruderie contraint
-                                         l’esprit, ne cache ni l’âge ni la laideur ; souvent elle les suppose : la sagesse au contraire pallie les
-                                         défauts du corps, ennoblit l’esprit, ne rend la jeunesse que plus piquante et la beauté que plus périlleuse.</p>
-                                <app>
-                                <lem>Un comique outre sur la scène ses personnages ; un poète charge ses descriptions ; un peintre qui fait
-                                         d’après nature force et exagère une passion, un contraste, des attitudes ; et celui qui copie, s’il ne
-                                         mesure au compas les grandeurs et les proportions, grossit ses figures, donne à toutes les pièces qui
-                                         entrent dans l’ordonnance de son tableau plus de volume que n’en ont celles de l’original : de même la
-                                         pruderie est une imitation de la sagesse.
-                                         Il y a une fausse modestie qui est vanité, une fausse gloire qui est légèreté, une fausse grandeur qui
-                                         est petitesse ; une fausse vertu qui est hypocrisie, une fausse sagesse qui est pruderie. 
-                                         Une femme prude paye de maintien et de parole ; une femme sage paye de conduite : celle-là suit son 
-                                         humeur & sa complexion, celle-cy sa raison & son cœur. L’une est sérieuse et austère ; l’autre est dans
-                                         les diverses rencontres précisément ce qu’il faut qu’elle soit , la première cache des faibles sous de 
-                                         plausibles dehors ; la seconde couvre un riche fonds sous un air libre et naturel. La pruderie contraint
-                                         l’esprit, ne cache ni l’âge ni la laideur ; souvent elle les suppose : la sagesse au contraire pallie les
-                                         défauts du corps, ennoblit l’esprit, ne rend la jeunesse que plus piquante et la beauté que plus périlleuse.</lem>
-                                <rdg wit="Edition de 1692">
-                                    <g ref="#pieddemouche"/>
+                             <div2 source="#Paris_1692_Septieme">
+                                    <p source="#Paris_1692_Septieme" n="48"><g ref="#pieddemouche"></g>
                                        <p>Un comique outre sur la scène ses personnages ; un poëte charge ses descriptions ; un peintre qui fait d’après
-                                          nature force & exagere une passion, un contraste, des attitudes ; & celuy qui copie, s’il ne mesure au compas
-                                          les grandeurs & les proportions, grossit ses figures, donne à toutes les pièces qui entrent dans l’ordonnance
+                                          nature force et exagere une passion, un contraste, des attitudes ; et celuy qui copie, s’il ne mesure au compas
+                                          les grandeurs et les proportions, grossit ses figures, donne à toutes les pièces qui entrent dans l’ordonnance
                                           de son tableau plus de volume que n’en ont celles de l’original : de même la pruderie est une imitation de la
                                           sagesse.
                                           Il y a une fausse modestie qui est va-<pb n="148" source="#Paris_1692_Septieme/>
                                           nité, une fausse gloire qui est légereté, une fausse grandeur qui est 
                                           petitesse ; une fausse vertu qui est hipocrisie, une fausse sagesse qui est pruderie. 
-                                          Une femme prude paye de maintien & de parole ; une femme sage paye de conduite. Celle-là suit son humeur et
+                                          Une femme prude paye de maintien et de parole ; une femme sage paye de conduite. Celle-là suit son humeur et
                                           sa complexion, celle-ci sa raison et son cœur. L’une est sérieuse et austere ; l’autre est dans les diverses
                                           rencontres précisément ce qu’il faut qu’elle soit : la première cache des faibles sous de plausibles dehors ;
-                                          la seconde couvre un riche fonds sous un air libre & naturel. La pruderie contraint l’esprit, ne cache ni l’âge
+                                          la seconde couvre un riche fonds sous un air libre et naturel. La pruderie contraint l’esprit, ne cache ni l’âge
                                           ni la laideur ; souvent elle les suppose ; la sagesse au contraire pallie les défauts du corps, ennoblit l’esprit,
-                                          ne rend la jeunesse que plus piquante , & la beauté que plus périlleuse.</p>
-                                <app>
+                                          ne rend la jeunesse que plus piquante , et la beauté que plus périlleuse.</p>
                              </div2>
 
-                             <div2 n="49" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
-                               <app>
-                                   <lem>Pourquoi s’en prendre aux hommes de ce que les femmes ne sont pas savantes ? Par quelles lois, par quels édits,
-                                        par quels rescrits leur a-t-on défendu d’ouvrir les yeux et de lire, de retenir ce qu’elles ont lu, et d’en
-                                        rendre compte ou dans leur conversation ou par leurs ouvrages ? Ne se sont-elles pas au contraire établies
-                                        elles-mêmes dans cet usage de ne rien fçavoir, ou par la faiblesse de leur complexion, ou par la paresse de
-                                        leur esprit ou par le soin de leur beauté, ou par une certaine légèreté qui les empêche de suivre une longue étude,
-                                        ou par le talent & le génie qu’elles ont seulement pour les ouvrages de la main, ou par les distractions que
-                                        donnent les détails d’un domestique, ou par un éloignement naturel des choses pénibles et sérieuses, ou par
-                                        une curiosité toute différente de celle qui contente l’esprit, ou par un tout autre goût que celui d’exercer
-                                        leur mémoire ? Mais à quelque cause que les hommes puissent devoir cette ignorance des femmes, ils sont heureux
-                                        que les femmes, qui les dominent d’ailleurs par tant d’endroits, aient sur eux cet avantage de moins. On regarde
-                                        une femme savante comme on fait une belle arme : elle est ciselée artistement, d’une polissure admirable et d’un
-                                        travail fort recherché ; c’est une pièce de cabinet, que l’on montre aux curieux, qui n’est pas d’usage, qui ne
-                                        sert ni à la guerre ni à la chasse, non plus qu’un cheval de manège, quoique le mieux instruit du monde.
-                                        Si la science et la sagesse se trouvent unies en un même sujet, je ne m’informe plus du sexe, j’admire ; et si
-                                        vous me dites qu’une femme sage ne songe guère à être savante, ou qu’une femme savante n’est guère sage, vous
-                                        avez déjà oublié ce que vous venez de lire, que les femmes ne sont détournées des sciences que par de certains
-                                        défauts : concluez donc vous-même que moins elles auraient de ces défauts, plus elles seraient sages, et
-                                        qu’ainsi une femme sage n’en serait que plus propre à devenir savante, ou qu’une femme savante, n’étant telle
-                                        que parce qu’elle aurait pu vaincre beaucoup de défauts, n’en est que plus sage.</lem>
-                                    <rdg wit="Edition de 1692">
-                                      <g ref="#pieddemouche"/>
+                             <div2 source="#Paris_1692_Septieme">
+                                    <p source="#Paris_1692_Septieme" n="49"><g ref="#pieddemouche"></g>
                                         <p>Pourquoy s’en prendre aux hommes de ce que les femmes ne sont pas fçavantes ? Par quelles loix, par quels
-                                           édits, par quels rescripts leur a-t-on défendu d’ouvrir les yeux & de lire, de retenir ce qu’elles ont lû,
-                                           & d’en rendre compte ou dans leur<pb n="149" source="#Paris_1692_Septieme/> conversation ou par leurs ouvrages ? 
+                                           édits, par quels rescripts leur a-t-on défendu d’ouvrir les yeux et de lire, de retenir ce qu’elles ont lû,
+                                           et d’en rendre compte ou dans leur<pb n="149" source="#Paris_1692_Septieme/> conversation ou par leurs ouvrages ? 
                                            Ne se sont-elles pas au contraire
                                            établies elles-mêmes dans cet usage de ne rien savoir, ou par la faiblesse de leur complexion, ou par la
                                            paresse de leur esprit ou par le soin de leur beauté, ou par une certaine légèreté qui les empêche de 
                                            suivre une longue étude, ou par le talent et le génie qu’elles ont seulement pour les ouvrages de la main,
                                            ou par les distractions que donnent les détails d’un domestique, ou par un éloignement naturel des choses
-                                           pénibles & sérieuses, ou par une curiosité toute différente de celle qui contente l’esprit, ou par un tout
+                                           pénibles et sérieuses, ou par une curiosité toute différente de celle qui contente l’esprit, ou par un tout
                                            autre goût que celuy d’exercer leur mémoire : mais à quelque cause que les hommes puissent devoir cette 
                                            ignorance des femmes, ils sont heureux que les femmes, qui les dominent d’ailleurs par tant d’endroits, 
                                            ayent sur eux cet avantage de moins. On regarde une femme fçavante comme on fait une belle arme : elle
-                                           est ciselée artistement, d’une polissure admirable & d’un travail fors recherché ; c’est une pièce de 
+                                           est ciselée artistement, d’une polissure admirable et d’un travail fors recherché ; c’est une pièce de 
                                            cabinet, que l’on montre aux curieux, qui n’est pas d’usage, qui ne sert ny à la guerre ny à la chasse,
                                            non plus qu’un cheval de manège, quoique le mieux instruit du monde.
-                                           Si la science & la sagesse se trouvent unies en un même sujet, je ne m’informe plus du sexe, j’admire ;
-                                           & si vous me dites qu’une femme sage ne songe guère à être savante, ou qu’une femme fçavante n’est guère
+                                           Si la science et la sagesse se trouvent unies en un même sujet, je ne m’informe plus du sexe, j’admire ;
+                                           et si vous me dites qu’une femme sage ne songe guère à être savante, ou qu’une femme fçavante n’est guère
                                            sage, vous avez déjà oublié ce que vous venez de lire, que les femmes ne sont détournées des sciences 
                                            que par de certains défauts : concluez donc vous-même que moins elles auraient de ces défauts, plus elles
                                            seraient sages, et qu’ainsi une femme sage n’en serait que plus propre à devenir fçavante, ou qu’une femme
                                            fçavante, n’étant telle que parce qu’elle aurait pu vaincre beaucoup de défauts, n’en est que plus sage.</p>
-                                </app>
                              </div2>
 
-                             <div2 n="50" source="#Paris_1688_Première #Paris_1692_Septieme>
-                               <app>
-                               <lem>La neutralité entre des femmes qui nous sont également amies, quoiqu’elles aient rompu pour des intérêts où 
-                                    nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes
-                                    deux.</lem>
-                               <rdg wit="Edition de 1688">
-                                  <g ref="#pieddemouche"/>
-                                      <p><pb n="189" source="#Paris_1688_Première/>La neutralité entre des femmes qui nous sont également amies, quoy qu’elles ayent rompu pour des intérêts où
-                                         nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes deux.</p>
-                               <rdg wit="Edition de 1692">
-                                  <g ref="#pieddemouche"/>
+                             <div2 source="#Paris_1688_Première #Paris_1692_Septieme">
+                                    <p source="#Paris_1688_Première #Paris_1692_Septieme" n="50"><g ref="#pieddemouche"></g>
                                       <p>La neutralité entre des femmes qui nous sont également amies, quoy qu’elles ayent rompu pour des intérêts où
                                          nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes deux.</p>
                                       <note resp="#ALN">La neutralité est un allié mais à un moment il faut chosir entre la neutralité ou bien la femme</note resp="#ALN">
                              </div2>
-
-                             <div2 n="51" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme >
-                               <app>
-                               <lem>Il y a telle femme qui aime mieux son argent que ses amis, et ses amants que son argent.</lem>
-                               <rdg wit="Edition de 1692">
-                                  <g ref="#pieddemouche"/>
-                                    <p><pb n="151" source="#Paris_1692_Septieme/>Il y a telle femme qui aime mieux son argent que ses amis, & ses amans que son argent.</p>
+                                            
+                             <div2 source="#Paris_1692_Septieme">
+                                 <p source="#Paris_1692_Septieme" n="51"><g ref="#pieddemouche"></g>
+                                     <p><pb n="151" source="#Paris_1692_Septieme/>Il y a telle femme qui aime mieux son argent que ses amis, & ses amans que son argent.</p>
                                     <note resp="#ALN">Il y a deux sortes de femmes : celles qui aiment l'argent et celle qui prefère avoir un amant</note resp="#ALN">
-                               </app>
                              </div2>
 
-                             <div2 n="52" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
-                               <app>
-                                  <lem>Il est étonnant de voir dans le cœur de certaines femmes quelque chose de plus vif de plus fort que l’amour
-                                       pour les hommes, je veux dire l’ambition et le jeu : de telles femmes rendent les hommes chastes ; elles
-                                       n’ont de leur sexe que les habits.</lem>
-                                  <rdg wit="Edition de 1692">
-                                     <g ref="#pieddemouche"/>
+
+                              <div2 source="#Paris_1692_Septieme">
+                                    <p source="#Paris_1692_Septieme" n="52"><g ref="#pieddemouche"></g>
                                         <p>Il est étonnant de voir dans le cœur de certaines femmes quelque chose de plus vif & de plus fort
-                                           que l’amour pour les hommes, je veux dire l’ambition & le jeu : de telles femmes rendent les hommes
+                                           que l’amour pour les hommes, je veux dire l’ambition et le jeu : de telles femmes rendent les hommes
                                            chastes ; elles n’ont de leur sexe que les habits.</p>
-                               </app>
-                             </div2>
+                           </div2>
 
-                             <div2 n="53" source="#Paris_1688_Première #Paris_1692_Septieme>
-                               <app>
-                               <lem>Les femmes sont extrêmes : elles sont meilleures ou pires que les hommes.</lem>
-                               <rdg wit="Edition de 1688"/>
-                                  <g ref="#pieddemouche"/>
-                                   <p><pb n="190" source="#Paris_1688_Première/>Les femmes sont extrêmes : elles sont ou meilleures, ou pires que les hommes.</p>
-                               <rdg wit="Edition de 1692"/>
-                                  <g ref="#pieddemouche"/>
+                           <div2 source="#Paris_1688_Première #Paris_1692_Septieme">
+                                    <p source="#Paris_1688_Première #Paris_1692_Septieme" n="53"><g ref="#pieddemouche"></g>
                                      <p>Les femmes sont extrêmes : elles sont meilleures, ou pires que les hommes.</p>
                                      <note resp="#ALN">En somme, les femmes sont capables du pire comme du meilleur</note resp="#ALN">
-                               </app>
-                              </div2>
+                          </div2>
 
-                             <div2 n="54" source="#Paris_1688_Première #Paris_1692_Septieme>
-                              <app>
-                                 <lem>La plupart des femmes n’ont guère de principes ; elles se conduisent par le cœur, & dépendent
-                                      pour leurs mœurs de ceux qu’elles aiment.</lem>
-                                 <rdg wit="Edition de 1688"/>
-                                    <g ref="#pieddemouche"/>
-                                      <p><pb n="190" source="#Paris_1688_Première/>La plûpart des femmes n’ont guere de principes , elles se conduisent par le cœur, et dépendent
-                                         pour leurs mœurs de ceux qu’elles aiment.</p>
-                                 <rdg wit="Edition de 1692">
-                                     <g ref="#pieddemouche"/>
+
+                             <div2 source="#Paris_1688_Première #Paris_1692_Septieme">
+                                    <p source="#Paris_1688_Première #Paris_1692_Septieme" n="54"><g ref="#pieddemouche"></g>
                                         <p>La plûpart des femmes n’ont guere de principes , elles se conduisent par le cœur, et dépendent
                                            pour leurs mœurs de ceux qu’elles aiment.</p>
-                               </app>
                              </div2>
 
-                             <div2 n="55" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
-                              <app>
-                               <lem>Les femmes vont plus loin en amour que la plupart des hommes ; mais les hommes l’emportent sur elles en amitié. 
-                                    Les hommes sont cause que les femmes ne s’aiment point.</lem>
-                                   <rdg wit="Edition de 1692"/>
-                                      <g ref="#pieddemouche"/>
+                             <div2 source="#Paris_1692_Septieme">
+                                    <p source="#Paris_1688_Première #Paris_1692_Septieme" n="55"><g ref="#pieddemouche"></g>
                                          <p>Les femmes vont plus loin en amour que la plûpart des hommes : mais les hommes l’emportent sur elles en amitié. 
                                             Les hommes sont cause que les femmes ne s’aiment point.</p>
-                                 </app>
                              </div2>
 
-                             <div2 n="56" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
-                               <app>
-                                <lem>Il y a du péril à contrefaire. Lise, déjà vieille, veut rendre une jeune femme ridicule, et elle-même devient
-                                     difforme ; elle me fait peur. Elle use pour l’imiter de grimaces et de contorsions : la voilà aussi laide qu’il
-                                     faut pour embellir celle dont elle se moque.</lem>
-                                <rdg wit="Edition de 1692"/>
-                                    <g ref="#pieddemouche"/>
+                            <div2 source="#Paris_1692_Septieme">
+                                    <p source="#Paris_1692_Septieme" n="56"><g ref="#pieddemouche"></g>
                                         <p>Il y a du péril à contrefaire. Lise, déjà vieille, veut rendre une jeune femme ridicule, & elle-même
                                            devient difforme ; elle me fait peur ; elle use pour l’imiter de grimaces & de contorsions : la voilà
                                            aussi laide<pb n="152" source="#Paris_1692_Septieme/> qu’il faut pour embellir celle dont elle se mocque.</p>
-                                </app>
-                             </div2>
+                            </div2>
 
-                              <div2 n="57" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
-                               <app>
-                                <lem>On veut à la ville que bien des idiots et des idiotes aient de l’esprit ; on veut à la cour que bien des
-                                        gens manquent d’esprit qui en ont beaucoup ; et entre les personnes de ce dernier genre une belle femme
-                                        ne se sauve qu’à peine avec d’autres femmes.</lem>
-                                <rdg wit="Edition de 1692"/>
-                                    <g ref="#pieddemouche"/>
-                                       <p>On veut à la ville que bien des idiots & des idiotes ayent de l’esprit ; on veut à la cour que bien
-                                          des gens manquent d’esprit qui en ont beaucoup ; & entre ceux-cy une belle femme ne se sauve qu’à
+                              <div2 source="#Paris_1692_Septieme">
+                                    <p source="#Paris_1692_Septieme" n="57"><g ref="#pieddemouche"></g>
+                                       <p>On veut à la ville que bien des idiots et des idiotes ayent de l’esprit ; on veut à la cour que bien
+                                          des gens manquent d’esprit qui en ont beaucoup ; et entre ceux-cy une belle femme ne se sauve qu’à
                                           peine avec d’autres femmes.</p>
-                                    </app>
                                </div2>
 
-                             <div2 n="58" source="#Paris_1688_Première #Paris_1692_Septieme>
-                                <lem>Un homme est plus fidèle au secret d’autrui qu’au sien propre ; une femme au contraire garde mieux
-                                     son secret que celui d’autrui.</lem>
-                                 <rdg wit="Edition de 1688"/>
-                                     <g ref="#pieddemouche"/>
-                                       <p><pb n="189" source="#Paris_1688_Première/>Un homme est plus fidelle au secret d’autruy qu’au sien propre ; une femme au contraire garde
-                                            mieux son secret que celuy d’autruy.</p>
-                                 <rdg wit="Edition de 1692"/>
-                                     <g ref="#pieddemouche"/>
+                            <div2 source="#Paris_1688_Première #Paris_1692_Septieme">
+                                    <p source="#Paris_1688_Première #Paris_1692_Septieme" n="58"><g ref="#pieddemouche"></g>
                                          <p>Un homme est plus fidelle au secret d’autruy qu’au sien propre ; une femme au contraire garde
                                             mieux son secret que celuy d’autruy.</p>
                                          <note resp="#ALN">Les hommes ont tendence a mieux cacher le secret des autres que le leur. Les femmes, elles font le contraire. 
                                                            En soit, une femme ne peut garder le secret de quelqu'un.</note resp="#ALN">
-                                </app>
-                             </div2>
-
-                             <div2 n="58" source="#Paris_1688_Première #Paris_1692_Septieme>
-                               <app>
-                                <lem>Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel l’intérêt ou l’ambition
-                                     n’ajoute quelque chose.</p>
-                                <rdg wit="Edition de 1688">
-                                    <g ref="#pieddemouche"/>
-                                       <p><pb n="191" source="#Paris_1688_Première/>Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel l’intérêt ou l’ambition
-                                          n’ajoûte quelque chose.</p>
-                                <rdg wit="Edition de 1692">
-                                    <g ref="#pieddemouche"/>
+           
+                             <div2 source="#Paris_1692_Septieme">
+                                    <p source="#Paris_1688_Première #Paris_1692_Septieme" n="59"><g ref="#pieddemouche"></g>
                                        <p>Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel l’intérêt ou l’ambition
                                           n’ajoûte quelque chose.</p>
-                                 </app>
-                             </div2>
+                            </div2>
 
-                             <div2 n="60" source="#Paris_1688_Premiere Remarque absente #Paris_1692_Septieme>
-                               <app>
-                                   <lem>Il y a un temps où les filles les plus riches doivent prendre parti ; elles n’en laissent guère échapper
-                                        les premières occasions sans se préparer un long repentir : il semble que la réputation des biens diminue
-                                        en elles avec celle de leur beauté. Tout favorise au contraire une jeune personne, jusques à l’opinion des hommes,
-                                        qui aiment à lui accorder tous les avantages qui peuvent la rendre plus souhaitable.</lem>
-                                    <rdg wit="Edition de 1692">
-                                       <g ref="#pieddemouche"/>
+                            <div2 source="#Paris_1692_Septieme">
+                                    <p source="Paris_1692_Septieme" n="60"><g ref="#pieddemouche"></g>
                                          <p>Il y a un temps où les filles les plus riches doivent prendre parti elles n’en laissent guère échapper
                                             les premières occasions sans se préparer un long repentir : il semble que la réputation des biens diminuë
                                             en elles avec celle de leur beauté. Tout favorise au contraire une jeune personne, jusques à l’opinion des
                                             hommes, qui aiment à luy accorder tous les avantages qui peuvent la rendre plus souhaitable.</p>
-                                </app>
-                             </div2>  
+                           </div2>  
                         </body> 
 </TEI>
