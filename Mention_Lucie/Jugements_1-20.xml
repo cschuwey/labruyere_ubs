@@ -125,6 +125,16 @@
                     <person xml:id="Medecins"></person>
                     <person xml:id="Phoenix"></person>
                     <person xml:id="Quinau"></person>
+                    <person xml:id="Comédiens"></person>
+                    <person xml:id="Romains"></person>
+                    <person xml:id="Grecs"></person>
+                    <person xml:id="Bathylle"></person>
+                    <person xml:id="Dames Romaines"></person>
+                    <person xml:id="Rhoé"></person>
+                    <person xml:id="Roscie"></person>
+                    <person xml:id="Nérine"></person>
+                    <person xml:id="Comedienne"></person>
+                    <person xml:id=""></person>
                     <person xml:id=""></person>
                     <person xml:id=""></person>
                 </listPerson>
@@ -182,8 +192,8 @@
                     <category xml:id="chantante">
                         <desc>Qui chante, a un rôle mélodique.</desc>
                     </category>
-                    <category xml:id="">
-                        <desc>dire ce que c'est le mot, on fait une category pour les term et les date</desc>
+                    <category xml:id="Pantomime">
+                        <desc>Jeu, spectacle de mime.</desc>
                     </category>
                     <category xml:id="">
                         <desc>dire ce que c'est le mot, on fait une category pour les term et les date</desc>
@@ -255,7 +265,7 @@
                 
                 <date>08.11.2022</date>
                 <p>mise a jour des persname du n°1 au n°14, et ajout de persname et term</p>
-                <p>ajout de person et de category dans le teiHeider</p>
+                <p>ajout de listPerson et de category dans le teiHeider</p>
                 <p>ajout de clé dans n°13</p>
             </change>
         </revisionDesc>
@@ -408,22 +418,22 @@
                         <g ref="#fr_pieddemouche"></g>
                         (14)
                         <app><lem>C. P. était fort riche, et C. N. ne l’était pas</lem><rdg wit="#PARIS_1691_6 #PARIS_1694_8"><app type="clé"><lem><persName ref="#Chapelain #Corneille" type="pseudo">C. P. étoit riche, &amp; C. N. ne l'étoit pas</persName></lem><rdg wit="#PARIS_1694_8_1">Chapelin étoit riche, &amp; Corneille ne l'étoit pas</rdg></app></rdg><rdg wit="#PARIS_1689_4">Chapelain<persName ref="#Chapelain">Chapelain</persName> étoit riche, &amp; Corneille<persName ref="#Corneille">Corneille</persName> ne l'étoit pas</rdg></app> : la Pucelle et Rodogune méritaient chacune une autre aventure. Ainsi l’on a <app><lem>toujours</lem><rdg wit="#PARIS_1691_6">toûjours</rdg><rdg wit="#PARIS_1689_4">toûiours</rdg></app> demandé pourquoi, dans telle ou <supplied resp="#JLB" source="#PARIS_1689_4" style="handwritten-note">ou</supplied> telle profession, celui-ci avait fait sa fortune, et cet autre l’avait manquée ;
-                        et en cela les hommes cherchent la raison de leurs <app><lem>propres</lem><rdg wit="#PARIS_1691_6">ptopres</rdg><rdg wit="#PARIS_1689_4">propres</rdg></app> caprices, qui dans les conjonctures pressantes de leurs affaires, de leurs plaisirs, de leur santé et de leur vie, leur font souvent laisser les meilleurs et prendre les pires.<note resp="inconnu" type="handwritten-note" place="margin-left" source="#PARIS_1694_8">Note manuscrite illisible</note>
+                        et en cela les hommes cherchent la raison de leurs <app><lem>propres</lem><rdg wit="#PARIS_1691_6">ptopres</rdg><rdg wit="#PARIS_1689_4">propres</rdg></app> caprices, qui dans les conjonctures pressantes de leurs affaires, de leurs plaisirs, de leur santé et de leur vie, leur font souvent laisser les meilleurs et prendre les pires.<note resp="inconnu" type="handwritten-note" place="margin-left" source="#PARIS_1694_8">Chapelain, Corneille</note>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (15)
-                        La condition des comédiens était infâme chez les Romains et honorable chez les Grecs : qu’est-elle chez nous ? On pense d’eux comme les Romains, on vit avec eux comme les Grecs.
+                        La condition des comédiens<persName>Comédiens</persName> était infâme chez les Romains<persName ref="#Romains">Romains</persName> et honorable chez les Grecs<persName ref="#Grecs">Grecs</persName> : qu’est-elle chez nous ? On pense d’eux comme les Romains<persName ref="#Romains">Romains</persName>, on vit avec eux comme les Grecs<persName ref="#Grecs">Grecs</persName>.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (16)
-                        Il suffisait à Bathylle d’être pantomime pour <app><lem>être</lem><rdg wit="#PARIS_1691_6">eftre</rdg><rdg wit="#PARIS_1689_4">être</rdg></app> couru des dames romaines ; à Rhoé de danser au théâtre ; à Roscie et à Nérine de représenter dans <app><lem>les chœurs, pour</lem><rdg wit="#PARIS_1691_6">les choeurs, pour</rdg><rdg wit="#PARIS_1689_4">les choeurs pour</rdg></app> s’attirer une foule d’amants.
-                        La vanité et l’audace, suites d’une trop grande puissance, avaient ôté aux Romains le goût du secret et du mystère ; ils se plaisaient à faire du théâtre public celui de leurs amours ; ils n’étaient point jaloux de l’amphithéâtre, et partageaient avec la multitude les charmes de leurs maîtresses. Leur goût n’allait qu’à laisser voir qu’ils aimaient, non pas une belle personne ou une <app><lem>excellente</lem><rdg wit="#PARIS_1691_6">excellente</rdg><rdg wit="#PARIS_1689_4">exce lente</rdg></app> comédienne, mais une comédienne.<note resp="inconnu" type="handwritten-note" place="margin-left" source="#PARIS_1694_8">Note manuscrite illisible</note>
+                        Il suffisait à Bathylle<persName style="italic">Bathylle</persName><app type"clé" source="#PARIS_1694_8"><lem>Bathylle</lem><persName ref="#Bathylle" type="pseudo">Latorilliom</persName></app> d’être pantomime<term ref="#Pantomime">Pantomime</term> pour <app><lem>être</lem><rdg wit="#PARIS_1691_6">eftre</rdg><rdg wit="#PARIS_1689_4">être</rdg></app> couru des dames romaines<persName>Dames Romaines</persName> ; à Rhoé<persName style="italic">Rhoé</persName> de danser au théâtre ; à Roscie<persName style="italic">Roscie</persName> et à Nérine<persName style="italic">Nérine</persName> de représenter dans <app><lem>les chœurs, pour</lem><rdg wit="#PARIS_1691_6">les choeurs, pour</rdg><rdg wit="#PARIS_1689_4">les choeurs pour</rdg></app> s’attirer une foule d’amants.
+                        La vanité et l’audace, suites d’une trop grande puissance, avaient ôté aux Romains<persName ref="#Romains">Romains</persName> le goût du secret et du mystère ; ils se plaisaient à faire du théâtre public celui de leurs amours ; ils n’étaient point jaloux de l’amphithéâtre, et partageaient avec la multitude les charmes de leurs maîtresses. Leur goût n’allait qu’à laisser voir qu’ils aimaient, non pas une belle personne ou une <app><lem>excellente</lem><rdg wit="#PARIS_1691_6">excellente</rdg><rdg wit="#PARIS_1689_4">exce lente</rdg></app> comédienne<persName source="#PARIS_1691_6 #PARIS_1694_8">Comedienne</persName>, mais une comédienne<persName style="italic">Comedienne</persName>.<note resp="inconnu" type="handwritten-note" place="margin-left" source="#PARIS_1694_8">Latorilliom</note>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6 #PARIS_1689_4">
