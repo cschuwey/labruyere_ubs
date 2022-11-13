@@ -66,14 +66,25 @@
                     </monogr>
                 </biblStruct>
 
+                                  
                 <listPerson>
 
-                    <person xml:id="S.Augustin">S. Augustin <floruit when="Antiquité"/></person>
-                    <person xml:id="Platon">Platon<floruit when="Antiquité"/></person>
-                    <person xml:id="Cicéron">Cicéron<floruit when="Antiquité"/></person>
-                    <person xml:id="César">César<floruit when="Antiquité"/></person>
-                    <person xml:id="religion">Dieu</person>
+                    <person xml:id="S.Augustin"><floruit period="Antiquité"/></person>
+                    <person xml:id="Platon"><floruit period="Antiquité"/></person>
+                    <person xml:id="Cicéron"><floruit period="Antiquité"/></person>
+                    <person xml:id="César"><floruit period="Antiquité"/></person>
+                    <person xml:id="Machiavel"><floruit period="Renaissance"></floruit></person>
+                    <person xml:id="religion"></person>
                 </listPerson>
+              
+                <listTerm>
+                    <term type="religion">Dieu</term>
+                </listTerm>
+                
+                <listPlace>
+                    <place></place>
+                </listPlace>
+                
             </sourceDesc>
 
         </fileDesc>
@@ -231,18 +242,18 @@
                     <p source="#Paris_1699"><g source="#pilcrow"/> Toute musique n’est pas propre à
                         louer Dieu et à être entendue dans le <app><lem>sanctuaire</lem>
                             <rdg wit="#Paris_1688 #Paris_1691">fanctuaire</rdg></app> ; toute
-                        philosophie ne parle pas dignement de <persName type="religion"
-                            >Dieu</persName>, de sa puissance, des principes de ses opérations et de
+                        philosophie ne parle pas dignement de <term type="religion"
+                            >Dieu</term>, de sa puissance, des principes de ses opérations et de
                         ses mystères : plus cette philosophie est subtile et idéale, plus elle est
                         vaine et inutile pour expliquer des choses qui ne demandent des hommes qu’un
                         sens droit pour être connues jusques à un certain point, et qui au delà sont
-                        inexplicables. Vouloir rendre raison de <persName type="religion"
-                            >Dieu</persName>, de ses perfections, et si j’ose ainsi parler, de ses
+                        inexplicables. Vouloir rendre raison de <term type="religion"
+                            >Dieu</term>, de ses perfections, et si j’ose ainsi parler, de ses
                         actions, c’est aller plus loin que les anciens philosophes, que les Apôtres,
                         que les premiers docteurs, mais ce n’est pas rencontrer si juste ; c’est
                         creuser longtemps et profondément, sans trouver les sources de la vérité.
                         Dès qu’on a abandonné les termes de bonté, de miséricorde, de justice et de
-                        toute-puissance, qui donnent de <persName type="religion">Dieu</persName> de
+                        toute-puissance, qui donnent de <term type="religion">Dieu</term> de
                         si hautes et de si aimables idées, quelque grand effort d’imagination qu’on
                         puisse faire, il faut recevoir les expressions sèches, stériles, vides de
                         sens ; admettre les pensées creuses, écartées des notions communes, ou tout
@@ -297,15 +308,14 @@
                         du moins qui croient l’être, et les hypocrites ou faux dévots, c’est-à-dire
                         ceux qui ne veulent pas être crus libertins : les derniers dans ce genre-là
                         sont les meilleurs. Le faux dévot ou ne croit pas en Dieu, ou se moque de
-                            <persName type="religion">Dieu</persName> ; parlons de lui obligeamment
-                        : il ne croit pas en <persName type="religion">Dieu</persName>.</p>
+                            <term type="religion">Dieu</term> ; parlons de lui obligeamment
+                        : il ne croit pas en <term type="religion">Dieu</term>.</p>
                 </div2>
 
                 <div2 n="28">
                     <p source="Paris_1699"><g source="#pilcrow #Paris_1688 #Paris_1691 "/>Si toute
                         religion est une crainte respectueuse de la Divinité, que penser de ceux qui
-                        osent la blesser dans sa plus vive image, qui est <title auhor="Machiavel"
-                            >le Prince</title> ?</p>
+                        osent la blesser dans sa plus vive image, qui est <title source="#Machiavel">le Prince</title> ?</p>
                 </div2>
 
                 <div2 n="29">
@@ -314,11 +324,10 @@
                             <lem>affuroit</lem>
                             <note resp="AC">ancêtre du mot assurait</note>
                             <rdg wit="#Paris_1699">assurait</rdg>
-                        </app> que le <pb n="293" source="#Paris_1688"/> motif secret de <placeName
-                            where="royaume d'Ayutthaya" when="1686">l’ambassade des
-                            Siamois</placeName> a été d’exciter le <persName type="pseudo">Roi
+                        </app> que le <pb n="293" source="#Paris_1688"/> motif secret de <placeName nymRef="royaume d'Ayutthaya/Siam" when="1686">l’ambassade des
+                            Siamois</placeName> a été d’exciter le <persName type="pseudo" nymRef="François Ier">Roi
                             Très-Chrétien</persName> à renoncer au christianisme, à permettre
-                        l’entrée de son royaume aux Talapoins <note> Nom donné aux moines
+                        l’entrée de son royaume aux Talapoins<note> Nom donné aux moines
                             bouddhistes de la Birmanie et de la Thaïlande par les Européens, au xvii
                             et au xviiie </note>, qui eussent pénétré dans nos maisons pour
                         persuader leur religion <note>il s'agit du boudhisme</note> à nos femmes, à
@@ -330,7 +339,7 @@
                         villes, où ils eussent placé des figures de métal pour être adorées, avec
                         quelles risées et quel étrange mépris n’entendrions-nous pas des choses si
                         extravagantes ! Nous faisons cependant six mille lieues de mer pour la
-                        conversion des <placeName>Indes</placeName>, des <placeName where="Asie">royaumes de Siam</placeName>, de la<placeName where="Asie"> Chine</placeName> et du <placeName where="Asie">Japon</placeName>,
+                        conversion des <placeName>Indes</placeName>, des <placeName nymRef="royaume d'Ayutthaya/Siam">royaumes de Siam</placeName><note>Il s'agit de la Thaïlande actuelle</note>, de la<placeName where="Asie"> Chine</placeName> et du <placeName where="Asie">Japon</placeName>,
                         c’est-à-dire pour faire très sérieusement à tous ces peuples des
                         propositions qui doivent leur <pb n="294" source="#Paris_1688"/>
                         <app><lem>paraître très folles</lem>
@@ -374,13 +383,13 @@
                         s’ennuie de tout, il ne s’ennuie point de vivre ; il consentirait peut-être
                         à vivre toujours. Ce qu’il voit de la mort le frappe plus violemment que ce
                         qu’il en sait : la maladie, la douleur, le cadavre le dégoûtent de la
-                        connaissance d’un autre monde. Il faut tout le sérieux de la religion pour
+                        connaissance d’un autre monde. Il faut tout le sérieux de la <term>religion</term> pour
                         le réduire.</p>
                 </div2>
 
                 <div2 n="33">
                     <p source="#Paris_1688 #Paris_1691">
-                        <seg type="pilcrow"/> Si <persName type="religion">Dieu</persName> avait donné le choix ou de mourir ou de
+                        <seg type="pilcrow"/> Si <term type="religion">Dieu</term> avait donné le choix ou de mourir ou de
                         toujours vivre, après avoir médité profondément ce que c’est que de ne voir
                         nulle fin à la pauvreté, à la dépendance, à l’ennui, à la maladie, ou de <pb
                             n="296" source="#Paris_1688"/> n’essayer des richesses, de la grandeur,
@@ -388,12 +397,12 @@
                         la révolution des temps en leurs contraires et être ainsi le jouet des biens
                         et des maux, l’on ne saurait guère à quoi se résoudre. La nature nous fixe
                         et nous ôte l’embarras de choisir ; et la mort qu’elle nous rend nécessaire
-                        est encore adoucie par la religion.</p>
+                        est encore adoucie par la <term type="religion">religion</term>.</p>
                 </div2>
 
                 <div2 n="34">
                     <p source="#Paris_1691">
-                        <seg type="pilcrow"/>Si ma religion était fausse, je l’avoue, voilà le piège
+                        <seg type="pilcrow"/>Si ma <term type="religion">religion</term> était fausse, je l’avoue, voilà le piège
                         le mieux dressé qu’il soit possible d’imaginer : il était inévitable de ne
                         pas donner tout au travers, et de n’y être pas pris. Quelle majesté, quel
                         éclat des mystères ! quelle suite et quel enchaînement de toute la doctrine
@@ -404,18 +413,18 @@
                         d’une même vérité soutient dans l’exil, dans les fers, contre la vue de la
                         mort et du dernier supplice ! Prenez l’histoire, ouvrez, remontez jusques au
                         commencement du monde, jusques à la veille de sa naissance : y a-t-il eu
-                        rien de semblable dans tous les temps ? <persName type="religion">Dieu</persName> même pouvait-il jamais mieux
+                        rien de semblable dans tous les temps ? <term type="religion">Dieu</term> même pouvait-il jamais mieux
                         rencontrer pour me séduire ? Par où échapper ? où aller, où me jeter, je ne
                         dis pas pour trouver rien de meilleur, mais quelque chose qui en approche ?
                         S’il faut périr, c’est par là que je veux périr : il m’est plus doux de nier
-                        Dieu que de l’accorder avec une tromperie si spécieuse et si entière. Mais
+                        <term type="religion">Dieu</term> que de l’accorder avec une tromperie si spécieuse et si entière. Mais
                         je l’ai approfondi, je ne puis être athée ; je suis donc ramené et entraîné
-                        dans ma religion ; c’en est fait.</p>
+                        dans ma <term type="religion">religion</term> ; c’en est fait.</p>
                 </div2>
 
                 <div2 n="35">
                     <p source="#Paris_1688 #Paris_1691">
-                        <seg type="pilcrow"/>La religion est vraie, ou elle est fausse : si elle
+                        <seg type="pilcrow"/>La <term type="religion">religion</term> est vraie, ou elle est fausse : si elle
                         n’est qu’une vaine fiction, voilà, si l’on veut, soixante années perdues
                         pour l’homme de bien, pour le chartreux ou le solitaire : ils ne courent pas
                         un autre risque. Mais si elle est fondée sur la vérité même, c’est alors un
@@ -423,13 +432,13 @@
                         prépare me trou <pb n="297" source="#Paris_1688"/> ble l’imagination ; la
                         pensée est trop faible pour les concevoir, et les paroles trop vaines pour
                         les exprimer. Certes, en supposant même dans le monde moins de certitude
-                        qu’il ne s’en trouve en effet sur la vérité de la religion, il n’y a point
-                        pour l’homme un meilleur parti que la vertu.</p>
+                        qu’il ne s’en trouve en effet sur la vérité de la <term type="religion">religion</term>, il n’y a point
+                        pour l’homme un meilleur parti que la <term>vertu</term>.</p>
                 </div2>
 
                 <div2 n="36">
                     <p source="#Paris_1688 #Paris_1691">
-                        <seg type="pilcrow"/>Je ne sais si ceux qui osent nier <persNames type="religion">Dieu</persNames> méritent qu’on
+                        <seg type="pilcrow"/>Je ne sais si ceux qui osent nier <term type="religion">Dieu</term> méritent qu’on
                         s’efforce de le leur prouver, et qu’on les traite plus sérieusement que l’on
                         n’a fait dans ce chapitre : l’ignorance, qui est leur caractère, les rend
                         incapables des principes les plus clairs et des raisonnements les mieux
@@ -450,14 +459,14 @@
                         <note resp="#11910249/jean_de_la_bruyere/" type="annotation"
                             place="en marge droite">Objection ou système des libertins</note>
                         <app><lem>Mais</lem><rdg wit="#Paris_1699">mais</rdg></app> cette nature, ou
-                        elle est seulement esprit ; et c’est <persName type="religion">Dieu</persName> ; ou elle est matière, et ne peut
+                        elle est seulement esprit ; et c’est <term type="religion">Dieu</term> ; ou elle est matière, et ne peut
                         par conséquent avoir créé mon esprit ; ou elle est un composé de matière et
                         d’esprit, et alors <pb n="299" source="#Paris_1688"/> ce qui est esprit dans
-                        la nature, je l’appelle Dieu.</p>
+                        la nature, je l’appelle <term type="religion">Dieu</term>.</p>
                     <p source="#Paris_1688 #Paris_1691">Peut-être aussi que ce que j’appelle mon
                         esprit n’est qu’une portion de matière qui existe par la force d’une nature
                         universelle qui est aussi matière, qui a toujours été, et qui sera toujours
-                        telle que nous la voyons, et qui n’est point <persNames type="religion">Dieu</persNames> <note source="#Paris_1699"
+                        telle que nous la voyons, et qui n’est point <term type="religion">Dieu</term> <note source="#Paris_1699"
                             resp="#11910249/jean_de_la_bruyere/" type="annotation"
                             place="en marge droite">Influence des libertins</note>. Mais du moins
                         faut-il m’accorder que ce que j’appelle <term>mon esprit</term>, quelque chose que ce
@@ -502,16 +511,16 @@
                         dans la matière, ainsi qu’il a été démontré, alors je ne dispute point des
                         noms ; mais cette source originaire de tout esprit, qui est esprit
                         elle-même, et qui est plus excellente que tout esprit, je l’appelle
-                        Dieu.</p>
+                        <term type="religion">Dieu</term>.</p>
                     <pb n="303" source="#Paris_1688"/>
 
-                    <p source="#Paris_1688 #Paris_1691">En un mot, je pense, donc Dieu existe ; car
+                    <p source="#Paris_1688 #Paris_1691">En un mot, je pense, donc <term type="religion">Dieu</term> existe ; car
                         ce qui pense en moi, je ne le dois point à moi-même, parce qu’il n’a pas
                         plus dépendu de moi de me le donner une première fois, qu’il dépend encore
                         de moi de me le conserver un seul instant. Je ne le dois point à un être qui
                         soit au-dessus de moi, et qui soit matière, puisqu’il est impossible que la
                         matière soit au-dessus de ce qui pense : je le dois donc à un être qui est
-                        au-dessus de moi et qui n’est point matière ; et c’est Dieu.</p>
+                        au-dessus de moi et qui n’est point matière ; et c’est <term type="religion">Dieu</term>.</p>
                 </div2>
 
                 <div2 n="37">
@@ -525,7 +534,7 @@
                         grande exclusion de matière, puisque cette exclusion dans l’un et l’autre de
                         ces deux êtres est aussi grand qu’elle peut être et comme infinie, et qu’il
                         est autant impossible que ce qui pense en moi soit matière, qu’il est
-                        inconcevable que Dieu soit matière : ainsi, comme Dieu est esprit, mon âme
+                        inconcevable que <term type="religion">Dieu</term> soit matière : ainsi, comme <term type="religion">Dieu</term> est esprit, mon âme
                         aussi est esprit. </p>
                 </div2>
 
