@@ -66,6 +66,7 @@
                 <taxonomy><category xml:id="jalousie"></category></taxonomy>
                 <taxonomy><category xml:id="amour"></category></taxonomy>
                 <taxonomy><category xml:id="faiblesse"></category></taxonomy>
+                <taxonomy><category xml:id="malheur"></category></taxonomy>
             </classDecl>
             <projectDesc><p></p></projectDesc>
             <charDecl>
@@ -185,15 +186,15 @@
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="39"> <p>
                     <g ref="#pied_de_mouche"></g>
-                    L’on veut faire tout le bonheur, ou si cela ne se peut ainsi, tout le malheur de ce qu’on aime. </p></div2>
+                    L’on veut faire tout le bonheur, ou si cela ne se peut ainsi, tout le <term ref="malheur">malheur</term> de ce qu’on <term ref="#amour">aime</term>. </p></div2>
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="40"> <p>
                     <g ref="#pied_de_mouche"></g>
-                    Regretter ce que l’on aime est un bien, en comparaison de vivre avec ce que l’on hait. </p></div2> 
+                    Regretter ce que l’on <term ref="#amour">aime</term> est un bien, en comparaison de vivre avec ce que l’on hait. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="41"> <p>
                     <g ref="#pied_de_mouche"></g>
-                    Quelque désintéressement qu’on ait à l’égard de ceux qu’on aime, il faut quelquefois se contraindre pour eux, et avoir la générosité de recevoir./ 
+                    Quelque désintéressement qu’on ait à l’égard de ceux qu’on<term ref="#amour">aime</term>, il faut quelquefois se contraindre pour eux, et avoir la générosité de recevoir./ 
                     Celui-là peut prendre, qui goûte un plaisir aussi délicat à recevoir que son ami en sent à lui donner. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="42"> <p> 
@@ -202,7 +203,7 @@
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="43" > <p> 
                     <g ref="#pied_de_mouche"></g>
-                    Si l’on a donné à ceux que l’on aimait, quelque chose qu’il arrive, il n’y a plus d’occasions où l’on doive songer à ses bienfaits. </p></div2> 
+                    Si l’on a donné à ceux que l’on <term ref="#amour">aimait</term>, quelque chose qu’il arrive, il n’y a plus d’occasions où l’on doive songer à ses bienfaits. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="44"> <p>
                     <g ref="#pied_de_mouche"></g>
@@ -214,7 +215,7 @@
                         <rdg wit="#Paris_1699_10">haïr</rdg>
                     </app>
                     
-                    que d’aimer, ou si l’on veut, que l’amitié est plus à charge que la haine. Il est vrai qu’on est dispensé de donner à ses ennemis ; mais ne coûte-t-il rien de s’en venger ? Ou s’il est doux et naturel de faire du mal à ce que l’on hait, l’est-il moins de faire du bien à ce qu’on aime ? Ne serait-il pas
+                    que d’<term ref="#amour">aimer</term>, ou si l’on veut, que l’amitié est plus à charge que la haine. Il est vrai qu’on est dispensé de donner à ses ennemis ; mais ne coûte-t-il rien de s’en venger ? Ou s’il est doux et naturel de faire du mal à ce que l’on hait, l’est-il moins de faire du bien à ce qu’on <term ref="#amour">aime</term>? Ne serait-il pas
                     
                     <app>
                         <lem>dur</lem>
@@ -262,7 +263,7 @@
                         <rdg wit="#Paris_1699_10">nous_même</rdg>
                     </app>
                     
-                    qui nous met en la place des malheureux, pourquoi tirent-ils de nous si peu de soulagement dans leurs misères ? Il vaut mieux s’exposer à l’ingratitude que de manquer aux misérables. 
+                    qui nous met en la place des <term ref="#malheur">malheureux</term>, pourquoi tirent-ils de nous si peu de soulagement dans leurs misères ? Il vaut mieux s’exposer à l’ingratitude que de manquer aux<term ref="#malheureux">misérables</term>. 
                     
                     <note type="glossaire" resp="LR" source="#Paris_1694_8 #Paris_1699_10">
                         Dans les deux anciennes éditions, c'est un point virgule suit "la place des malheureux", et non une virgule. </note>
