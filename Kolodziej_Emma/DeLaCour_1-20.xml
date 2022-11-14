@@ -21,12 +21,78 @@
                 <authority/>
             </publicationStmt>
             <sourceDesc>
+                <listPerson>
+                    <person xml:id="Duché_Lorrain">
+                        <persName>Princes Lorrains</persName>
+                        <note>Référence au duché de Lorraine</note>
+                        <birth>959</birth>
+                        <death>1766</death>
+                        <idno type="blason">Blason_Lorraine.svg</idno>
+                    </person>
+                    <person xml:id="Duché_Rohan">
+                        <persName>Rohans</persName>
+                        <note>Référence au duché de Rohan</note>
+                        <birth>1626</birth>
+                        <idno type="blason">Blason_fam_fr_Rohan.svg</idno>
+                    </person>
+                    <person xml:id="Duché_Savoie">
+                        <persName>Chastillons</persName>
+                        <note>Référence au duché de Savoie</note>
+                        <birth>1416</birth>
+                        <death>1713</death>
+                        <idno type="blason">Blason_duche_fr_Savoie.svg</idno>
+                    </person>
+                    <person xml:id="Maison_Montmorency">
+                        <persName>Montmorencis</persName>
+                        <note>Référence à la maison noble de Montmorency</note>
+                        <birth>Xe siècle</birth>
+                        <death>1878</death>
+                        <idno type="blason">Blason_Mathieu_II_de_Montmorency.svg</idno>
+                    </person>
+                    <person xml:id="Famille_Royale">
+                        <persName>Princes Du Sang</persName>
+                        <note>Définition du dictionnaire Larousse : "prince issu d'une famille
+                            souveraine par les mâles."</note>
+                    </person>
+                </listPerson>
+                <bibl type="clé" xml:id="E1689" source="#ESCOLA_PARIS_1999">
+                    <persName>M. d'Aubigné, frère de Mme de Maintenon et le baron de Beauvais</persName>
+                </bibl>
+                <bibl type="clé" xml:id="E1688" source="#ESCOLA_PARIS_1999">
+                    <persName>Le marquis de Caretti, médecin empirique</persName>
+                    <note>Il fut discrédité par ses anciens patients et trouvé comme ridicule pour son obsession nobilitaire</note>
+                </bibl>
+                <bibl type="clé" xml:id="E1697" source="#ESCOLA_PARIS_1999">
+                    <persName>Langlée</persName>
+                    <note>"Il devait sa fortune à ses talents de joueur et sa familiarité avec les femmes à son homosexualité" Le nom de Dangeau fut aussi retenu plusieurs fois.</note>
+                </bibl>
+                <bibl type="clé" xml:id="M1689" source="#ESCOLA_PARIS_1999">
+                    <persName>Duc de Bouillon et à son château de Sedan</persName>
+                    <note>"Mais Sedan n'appartenait plus à cette date à cette famille de Bouillon."</note>
+                </bibl>
+                <bibl type="clé" xml:id="M1697" source="#ESCOLA_PARIS_1999">
+                    <persName>Monsieur de Tonnerre, évêque de Noyon</persName>
+                    <note>"célèbre par sa vanité"</note>
+                </bibl>
+                <biblStruct>
+                    <monogr xml:id="ESCOLA_PARIS_1999">
+                        <title>LES CARACTERES DE THEOPHRASTE TRADUITS DU GREC AVEC LES CARACTERES OU LES MOEURS DE CE SIECLE.</title>
+                        <author ref="https://data.bnf.fr/12548441">Marc Escola</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11887698">Théophraste</author>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Honoré Champion</publisher>
+                            <date>1999</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
                 <biblStruct>
                     <monogr xml:id="CAMBRIDGE_1688_3">
-                        <title> Les caractères de Théophraste traduits du grec ; avec les caractères
-                            ou les moeurs de ce siècle </title>
-                        <author ref="https://data.bnf.fr/11910249"> La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11887698"> Théophraste</author>
+                        <title>Les caractères de Théophraste traduits du grec ; avec les caractères
+                            ou les moeurs de ce siècle</title>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11887698">Théophraste</author>
                         <editor>Etienne Michallet</editor>
                         <imprint xml:id="CAMBRIDGE_1688_3_384592">
                             <pubPlace>Cambridge</pubPlace>
@@ -40,8 +106,8 @@
                     <monogr xml:id="CAMBRIDGE_1699_1">
                         <title>Les caractères ou Les moeurs de ce siècle. précédé de Les caractères
                             de Théophraste</title>
-                        <author ref="https://data.bnf.fr/11910249"> La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11887698"> Théophraste</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11887698">Théophraste</author>
                         <editor>Etienne Michallet</editor>
                         <imprint xml:id="CAMBRIDGE_1699_1_1">
                             <pubPlace>Cambridge</pubPlace>
@@ -53,10 +119,10 @@
                 </biblStruct>
                 <biblStruct>
                     <monogr xml:id="PARIS_1699_10">
-                        <title> Les caractères ou Les moeurs de ce siècle. précédé de Les caractères
+                        <title>Les caractères ou Les moeurs de ce siècle. précédé de Les caractères
                             de Théophraste</title>
-                        <author ref="https://data.bnf.fr/11910249"> La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11887698"> Théophraste</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11887698">Théophraste</author>
                         <editor>Etienne Michallet</editor>
                         <imprint xml:id="PARIS_1699_10_1">
                             <pubPlace>Paris</pubPlace>
@@ -67,10 +133,10 @@
                 </biblStruct>
                 <biblStruct type="version_originale">
                     <monogr xml:id="CAMBRIDGE_1689_4">
-                        <title> Les caractères de Théophraste traduits du grec ; avec Les caractères
-                            ou Les moeurs de ce siècle </title>
-                        <author ref="https://data.bnf.fr/11910249"> La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11887698"> Théophraste</author>
+                        <title>Les caractères de Théophraste traduits du grec ; avec Les caractères
+                            ou Les moeurs de ce siècle</title>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11887698">Théophraste</author>
                         <editor>Etienne Michallet</editor>
                         <edition>
                             <note>Version corrigée et augmentée</note>
@@ -88,8 +154,8 @@
                     <monogr xml:id="PARIS_1876">
                         <title>Oeuvres complètes de J. de La Bruyère. Les Caractères : I-XII / de J.
                             de La Bruyère</title>
-                        <author ref="https://data.bnf.fr/11910249"> La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11887698"> Théophraste</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11887698">Théophraste</author>
                         <editor>Garnier frères</editor>
                         <imprint xml:id="PARIS_1876_1">
                             <pubPlace>Paris</pubPlace>
@@ -101,8 +167,8 @@
                     <monogr xml:id="PARIS_1691_6">
                         <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères
                             ou moeurs de ce siècle. [Par J. de La Bruyère.]</title>
-                        <author ref="https://data.bnf.fr/11910249"> La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11887698"> Théophraste</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11887698">Théophraste</author>
                         <editor>Estienne Michallet</editor>
                         <imprint xml:id="PARIS_1691_6_52383">
                             <pubPlace>Paris</pubPlace>
@@ -114,8 +180,8 @@
                     <monogr xml:id="PARIS_1689_4">
                         <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères
                             ou moeurs de ce siècle. [Par J. de La Bruyère.]</title>
-                        <author ref="https://data.bnf.fr/11910249"> La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11887698"> Théophraste</author>
+                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11887698">Théophraste</author>
                         <editor>Estienne Michallet</editor>
                         <imprint xml:id="PARIS_1689_4_1">
                             <pubPlace>Paris</pubPlace>
@@ -142,6 +208,71 @@
                 <p>Corpus de certaines éditions réalisées par Etienne Michallet et imprimées à
                     Cambridge</p>
             </samplingDecl>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="Louvre">
+                        <catDesc>
+                            <address>
+                                <street>Rue de Rivoli</street>
+                                <postCode>75001</postCode>
+                                <settlement type="city">Paris</settlement>
+                                <district type="arrondissement">Ier</district>
+                                <district type="région">Île-de-France</district>
+                                <country key="FR"/>
+                            <location>
+                                <geo>48° 51′ 40″ N, 2° 20′ 09″ E</geo>
+                            </location>
+                            </address> 
+                        </catDesc>
+                    </category>
+                    <category xml:id="Château">
+                        <catDesc>
+                            <address>
+                              <street>Place d'Armes</street>
+                                <postCode>78000</postCode>  
+                                <settlement type="city">Versailles</settlement>
+                                <district type="département">Yvelines</district>
+                                <district type="région">Île-de-France</district>
+                                <country key="FR"/>
+                            <location>
+                                <geo>48° 48′ 17,26″ N, 2° 07′ 13,34″ E</geo>
+                            </location></address>
+                         </catDesc>
+                    </category>
+                    <category xml:id="Rouen">
+                        <catDesc>
+                            <address>
+                                <settlement type="city">Rouen</settlement>
+                                <district type="département">Seine-Maritime</district>
+                                <district type="région">Normandie</district>
+                                <country key="FR"/>
+                                <location>
+                                    <geo>49° 26′ 36″ nord, 1° 06′ 00″ est</geo>
+                                </location>
+                            </address>
+                            <terrain>
+                                <desc>21,38 km²</desc>
+                            </terrain>
+                        </catDesc>
+                    </category>
+                    <category xml:id="Falaise">
+                        <catDesc>
+                            <address>
+                                <settlement type="city">falaise</settlement>
+                                <district type="département">Calvados</district>
+                                <district type="région">Normandie</district>
+                                <country key="FR"/>
+                                <location>
+                                    <geo>48° 53′ 32″ nord, 0° 11′ 36″ ouest</geo>
+                                </location>
+                            </address>
+                            <terrain>
+                                <desc>11,84 km²</desc>
+                            </terrain>
+                        </catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -160,14 +291,30 @@
                 <purpose type="inform" degree="high"/>
             </textDesc>
             <particDesc>
-                <person n="1">
-                    <p>Décrite par un V** dans la remarque 14, son identité laisse place à de
-                        nombreuses interprétations.</p>
-                </person>
-                <person n="2">
-                    <p>Décrite par un N** dans la remarque 15, son identité laisse place à de
-                        nombreuses interprétations.</p>
-                </person>
+                <listPerson>
+                    <person xml:id="Anonyme_1">
+                        <persName>V**</persName>
+                        <note>Décrite par un "V**" dans la remarque 14, son identité laisse place à
+                            de nombreuses interprétations.</note>
+                    </person>
+                    <person xml:id="Anonyme_2">
+                        <persName>N**</persName>
+                        <note>Décrite par un "N**" dans la remarque 15, son identité laisse place à
+                            de nombreuses interprétations.</note>
+                    </person>
+                    <person xml:id="Pseudo_1">
+                        <persName>Cimon</persName>
+                        <bibl></bibl>
+                    </person>
+                    <person xml:id="Pseudo_2">
+                        <persName>Clitandre</persName>
+                        <bibl></bibl>
+                    </person>
+                    <person xml:id="Pseudo_3">
+                        <persName>Hyacinthe</persName>
+                        <bibl></bibl>
+                    </person>
+                </listPerson>
             </particDesc>
             <textDesc>
                 <channel/>
@@ -201,8 +348,11 @@
                     texte en français moderne est mis dans les "lem", la version de référence
                     (l'édition 6) est mise dans un "rdg" sans sources.</item>
                 <item>
-                    <date when="2022-10-31">31 octobre 2022</date>Ajout des notes ainsi que de la correction au sein des remarques.</item>
-                    <item><date when="2022-11-06">06 novembre 2022</date>Modifications des notes et ajout de la pagination.</item>
+                    <date when="2022-10-31">31 octobre 2022</date>Ajout des notes ainsi que de la
+                    correction au sein des remarques.</item>
+                <item><date when="2022-11-06">06 novembre 2022</date>Modifications des notes et
+                    ajout de la pagination.</item>
+                <item><date when="2022-11-14">14 novembre 2022</date>Ajout des références aux personnes et lieux cités</item>
             </list>
         </revisionDesc>
     </teiHeader>
@@ -296,9 +446,10 @@
                 <div2 n="4" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/><app>
-                            <lem>Se dérober à la cour un seul<pb n="199" source="#PARIS_1689_4"/> mo<pb n="247" source="#PARIS_1691_6"/>ment, c’est y renoncer : le
-                                courtisan qui l’a vue le matin la voit le soir pour la reconnaître
-                                le lendemain, ou afin que lui-même y soit connu.</lem>
+                            <lem>Se dérober à la cour un seul<pb n="199" source="#PARIS_1689_4"/>
+                                    mo<pb n="247" source="#PARIS_1691_6"/>ment, c’est y renoncer :
+                                le courtisan qui l’a vue le matin la voit le soir pour la
+                                reconnaître le lendemain, ou afin que lui-même y soit connu.</lem>
                             <rdg>Se dérober à la Cour un ſeul moment, c’eſt y renoncer : le
                                 Courtiſan</rdg>
                             <rdg wit="#PARIS_1689_4">courtiſan</rdg>
@@ -370,7 +521,8 @@
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6"/><app>
                             <lem>La cour est comme un édifice bâti de marbre : je veux dire qu’elle
-                                est composée d’hommes fort durs, mais fort polis.<pb n="248" source="#PARIS_1691_6"/></lem>
+                                est composée d’hommes fort durs, mais fort polis.<pb n="248"
+                                    source="#PARIS_1691_6"/></lem>
                             <rdg>La Cour eſt comme un édifice bâti de marbre, je veux dire qu’elle
                                 eſt compoſée d’hommes fort durs, mais fort polis.</rdg>
                         </app></p>
@@ -378,8 +530,9 @@
                 <div2 n="11" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/><app>
-                            <lem>L’on va quelquefois à la cour pour en revenir, et se faire par là<pb n="200" source="#PARIS_1689_4"/>
-                                respecter du noble de sa province, ou de son diocésain.</lem>
+                            <lem>L’on va quelquefois à la cour pour en revenir, et se faire par
+                                    là<pb n="200" source="#PARIS_1689_4"/> respecter du noble de sa
+                                province, ou de son diocésain.</lem>
                             <rdg>L’on va quelquefois à la Cour pour en revenir, &amp; ſe faire par
                                 là reſpecter du noble de ſa Province, ou de ſon Dioceſain.</rdg>
                         </app></p>
@@ -427,12 +580,20 @@
                 <div2 n="14" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/><app>
-                            <lem>L’air de cour est contagieux : il<pb n="201" source="#PARIS_1689_4"/> se prend à V**<note resp="#EK">De
-                                    qui parle-t-il?</note>, comme l’accent normand à Rouen ou à
-                                Falaise ; on l’entrevoit en des fourriers, en de petits contrôleurs,
-                                et en des chefs de fruiterie : l’on peut avec une portée d’esprit
-                                fort médiocre y faire de grands progrès. Un homme d’un génie élevé
-                                et d’un mérite solide ne fait pas assez de cas de cette espèce de
+                            <lem>L’air de cour est contagieux : il<pb n="201" source="#PARIS_1689_4"
+                                /> se prend à <app>
+                                    <lem>
+                                        V**
+                                    </lem>
+                                    <rdg wit="#E1689">V**</rdg>
+                                    <rdg><persName ref="#Anonyme_1">V**</persName></rdg>
+                                </app><note
+                                    resp="#EK">De qui parle-t-il?</note>, comme l’accent normand à
+                                    <placeName ref="#Rouen">Rouen</placeName> ou à <placeName ref="#Falaise">Falaise</placeName>
+                                ; on l’entrevoit en des fourriers, en de petits contrôleurs, et en
+                                des chefs de fruiterie : l’on peut avec une portée d’esprit fort
+                                médiocre y faire de grands progrès. Un homme d’un génie élevé et
+                                d’un mérite solide ne fait pas assez de cas de cette espèce de
                                 talent pour faire son capital de l’étudier et se le rendre propre ;
                                 il l’acquiert sans réflexion, et il ne pense point à s’en
                                 défaire.</lem>
@@ -444,15 +605,21 @@
                                 cas de cette eſpece de talent pour faire ſon capital de l’étudier
                                 &amp; ſe le rendre propre ; il l’acquiert ſans reflexion, &amp; il
                                 ne penſe point à s’en défaire.</rdg>
+                            
                         </app></p>
                 </div2>
                 <div2 n="15" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/><app>
-                            <lem>N**<note resp="#EK">De qui parle-t-il?</note> arrive avec grand
-                                bruit ; il écarte le monde, se fait faire place ; il gratte, il
-                                heurte presque ; il se nomme : on respire, et il n’entre qu’avec la
-                                foule.</lem>
+                            <lem>
+                                <app>
+                                    <lem>N**</lem>
+                                    <rdg wit="#E1688">N**</rdg>
+                                    <rdg><persName ref="#Anonyme_2">N**</persName></rdg>
+                                </app><note resp="#EK">De qui
+                                    parle-t-il?</note> arrive avec grand bruit ; il écarte le monde,
+                                se fait faire place ; il gratte, il heurte presque ; il se nomme :
+                                on respire, et il n’entre qu’avec la foule.</lem>
                             <rdg>N** arrive avec grand bruit, il écarte le monde, ſe fait faire
                                 place, il gratte, il heurte preſque, il ſe nomme ; on reſpire, &amp;
                                 il n’entre qu’avec la foule.</rdg>
@@ -466,7 +633,8 @@
                                 eux-mêmes, protestent qu’ils ont dans leur art toute l’habileté qui
                                 manque aux autres, et qui sont crus sur leur parole. Ils profitent
                                 cependant de l’erreur publique, ou de l’amour qu’ont les hommes pour
-                                la nouveauté : ils percent la <pb n="250" source="#PARIS_1691_6"/>foule, et parviennent jusqu’à<pb n="202" source="#PARIS_1689_4"/>
+                                la nouveauté : ils percent la <pb n="250" source="#PARIS_1691_6"
+                                />foule, et parviennent jusqu’à<pb n="202" source="#PARIS_1689_4"/>
                                 l’oreille du prince, à qui le courtisan les voit parler, pendant
                                 qu’il se trouve heureux d’en être vu. Ils ont cela de commode pour
                                 les grands qu’ils en sont soufferts sans conséquence, et congédiés
@@ -490,11 +658,30 @@
                 <div2 n="17" source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/><app>
-                            <lem>Vous voyez des gens qui entrent sans saluer que légèrement, qui
-                                marchent des épaules, et qui se rengorgent comme une femme : ils
-                                vous interrogent sans vous regarder ; ils parlent d’un ton élevé, et
-                                qui marque qu’ils se sentent au-dessus de ceux qui se trouvent
-                                présents ; ils s’arrêtent, et on les entoure ; ils ont la parole,
+                            <lem>Vous voyez des <app>
+                                <lem>gens</lem>
+                                <rdg wit="#E1697">gens</rdg>
+                            </app> qui entrent sans saluer que légèrement, qui
+                                marchent des épaules, et qui se rengorgent comme une femme : <app>
+                                    <lem>ils</lem>
+                                    <rdg wit="#E1697">ils</rdg>
+                                </app>
+                                vous interrogent sans vous regarder ; <app>
+                                    <lem>ils</lem>
+                                    <rdg wit="#E1697">ils</rdg>
+                                </app> parlent d’un ton élevé, et
+                                qui marque qu’<app>
+                                    <lem>ils</lem>
+                                    <rdg wit="#E1697">ils</rdg>
+                                </app>se sentent au-dessus de ceux qui se trouvent
+                                présents ; <app>
+                                    <lem>ils</lem>
+                                    <rdg wit="#E1697">ils</rdg>
+                                </app>s’arrêtent, et on les entoure ; 
+                                <app>
+                                    <lem>ils</lem>
+                                    <rdg wit="#E1697">ils</rdg>
+                                </app> ont la parole,
                                 président au cercle, et persistent dans cette hauteur ridicule et
                                 contrefaite, jusqu’à ce qu’il survienne un grand, qui, la faisant
                                 tomber tout d’un coup par sa présence, les réduise à leur naturel,
@@ -514,33 +701,37 @@
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/><app>
                             <lem>Les cours ne sauraient se passer d’une certaine espèce de
-                                courtisans, hommes flatteurs, complaisants, insi<pb n="251" source="#PARIS_1691_6"/>nuants, dévoués aux
-                                fem<pb n="203" source="#PARIS_1689_4"/>mes, dont ils ménagent les plaisirs, étudient les faibles et
-                                flattent toutes les passions : ils leur soufflent à l’oreille des
-                                grossièretés, leur parlent de leurs maris et de leurs amants dans
-                                les termes convenables, devinent leurs chagrins, leurs maladies, et
-                                fixent leurs couches ; ils font les modes, raffinent sur le luxe et
-                                sur la dépense, et apprennent à ce sexe de prompts moyens de
-                                consumer de grandes sommes en habits, en meubles et en équipages ;
-                                ils ont eux-mêmes des habits où brillent l’invention et la richesse,
-                                et ils n’habitent d’anciens palais qu’après les avoir renouvelés et
-                                embellis ; ils mangent délicatement et avec réflexion ; il n’y a
-                                sorte de volupté qu’ils n’essayent, et dont ils ne puissent rendre
-                                compte. Ils doivent à eux-mêmes leur fortune, et ils la soutiennent
-                                avec la même adresse qu’ils l’ont élevée. Dédaigneux et fiers, ils
-                                n’abordent plus leurs pareils, ils ne les saluent plus ; ils parlent
-                                où tous les autres se taisent, entrent, pénètrent en des endroits et
-                                à des heures où les grands n’osent se faire voir : ceux-ci, avec de
-                                longs services, bien des plaies sur le corps, de beaux emplois ou de
-                                grandes dignités, ne montrent pas un visage si assuré, ni une
-                                contenance si libre.<pb n="252" source="#PARIS_1691_6"/> Ces gens ont l’oreille des plus grands <pb n="204" source="#PARIS_1689_4"/>princes,
-                                sont de tous leurs plaisirs et de toutes leurs fêtes, ne sortent pas
-                                du Louvre ou du Château, où ils marchent et agissent comme chez eux
-                                et dans leur domestique, semblent se multiplier en mille endroits,
-                                et sont toujours les premiers visages qui frappent les nouveaux
-                                venus à une cour ; ils embrassent, ils sont embrassés ; ils rient,
-                                ils éclatent, ils sont plaisants, ils font des contes : personnes
-                                commodes, agréables, riches, qui prêtent, et qui sont sans
+                                courtisans, hommes flatteurs, complaisants, insi<pb n="251"
+                                    source="#PARIS_1691_6"/>nuants, dévoués aux fem<pb n="203"
+                                    source="#PARIS_1689_4"/>mes, dont ils ménagent les plaisirs,
+                                étudient les faibles et flattent toutes les passions : ils leur
+                                soufflent à l’oreille des grossièretés, leur parlent de leurs maris
+                                et de leurs amants dans les termes convenables, devinent leurs
+                                chagrins, leurs maladies, et fixent leurs couches ; ils font les
+                                modes, raffinent sur le luxe et sur la dépense, et apprennent à ce
+                                sexe de prompts moyens de consumer de grandes sommes en habits, en
+                                meubles et en équipages ; ils ont eux-mêmes des habits où brillent
+                                l’invention et la richesse, et ils n’habitent d’anciens palais
+                                qu’après les avoir renouvelés et embellis ; ils mangent délicatement
+                                et avec réflexion ; il n’y a sorte de volupté qu’ils n’essayent, et
+                                dont ils ne puissent rendre compte. Ils doivent à eux-mêmes leur
+                                fortune, et ils la soutiennent avec la même adresse qu’ils l’ont
+                                élevée. Dédaigneux et fiers, ils n’abordent plus leurs pareils, ils
+                                ne les saluent plus ; ils parlent où tous les autres se taisent,
+                                entrent, pénètrent en des endroits et à des heures où les grands
+                                n’osent se faire voir : ceux-ci, avec de longs services, bien des
+                                plaies sur le corps, de beaux emplois ou de grandes dignités, ne
+                                montrent pas un visage si assuré, ni une contenance si libre.<pb
+                                    n="252" source="#PARIS_1691_6"/> Ces gens ont l’oreille des plus
+                                grands <pb n="204" source="#PARIS_1689_4"/>princes, sont de tous
+                                leurs plaisirs et de toutes leurs fêtes, ne sortent pas du
+                                    <placeName ref="#Louvre">Louvre</placeName> ou du
+                                    <placeName ref="#Château">Château</placeName>, où ils marchent et agissent
+                                comme chez eux et dans leur domestique, semblent se multiplier en
+                                mille endroits, et sont toujours les premiers visages qui frappent
+                                les nouveaux venus à une cour ; ils embrassent, ils sont embrassés ;
+                                ils rient, ils éclatent, ils sont plaisants, ils font des contes :
+                                personnes commodes, agréables, riches, qui prêtent, et qui sont sans
                                 conséquence.</lem>
                             <rdg>Les Cours ne ſçauroient ſe paſſer d’une certaine eſpece de
                                 Courtiſans, hommes flateurs, complaiſans, inſinuants, dévoüez aux
@@ -574,15 +765,28 @@
                 <div2 n="19" source="#PARIS_1691_6">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6"/><app>
-                            <lem>Ne croirait-on pas de Cimon et de Clitandre<note resp="#EK">Pour varier les effets sur le lecteur, La Bruyère met en scène des personnages comme ci-présent.</note> qu’ils sont seuls
-                                chargés des détails de tout l’État, et que seuls aussi ils en
-                                doivent répondre ? L’un a du moins les affaires de terre, et l’autre
-                                les maritimes. Qui pourrait les représenter exprimerait
-                                l’empressement, l’inquiétude, la curiosité, l’activité, saurait
-                                peindre le mouvement. On ne les a jamais vus assis, jamais fixes et
-                                arrêtés : qui même les a vus marcher ? on les voit courir, parler en
-                                courant, et vous interroger sans attendre de réponse. Ils ne
-                                viennent d’aucun endroit, ils ne vont nulle <pb n="253" source="#PARIS_1691_6"/>part : ils passent et
+                            <lem>Ne croirait-on pas de 
+                                <app>
+                                    <lem>Cimon</lem>
+                                    <rdg wit="#M1689">Cimon</rdg>
+                                    <rdg><persName ref="#Pseudo_1">Cimon</persName></rdg>
+                                </app> et de
+                                <app>
+                                    <lem>Clitandre</lem>
+                                    <rdg wit="#M1697">Clitandre</rdg>
+                                    <rdg><persName ref="#Pseudo_2">Clitandre</persName></rdg>
+                                </app>
+                                    <note resp="#EK">Pour varier les
+                                    effets sur le lecteur, La Bruyère met en scène des personnages
+                                    comme ci-présent.</note> qu’ils sont seuls chargés des détails
+                                de tout l’État, et que seuls aussi ils en doivent répondre ? L’un a
+                                du moins les affaires de terre, et l’autre les maritimes. Qui
+                                pourrait les représenter exprimerait l’empressement, l’inquiétude,
+                                la curiosité, l’activité, saurait peindre le mouvement. On ne les a
+                                jamais vus assis, jamais fixes et arrêtés : qui même les a vus
+                                marcher ? on les voit courir, parler en courant, et vous interroger
+                                sans attendre de réponse. Ils ne viennent d’aucun endroit, ils ne
+                                vont nulle <pb n="253" source="#PARIS_1691_6"/>part : ils passent et
                                 ils repassent. Ne les retardez pas dans leur course précipitée, vous
                                 démonteriez leur machine ; ne leur faites pas de questions, ou
                                 donnez-leur du moins le temps de respirer et de se ressouvenir
@@ -599,9 +803,9 @@
                                 ignorer ; il ne leur manque aucun des talents nécessaires pour
                                 s’avancer médiocrement. Gens néanmoins éveillés et alertes sur tout
                                 ce qu’ils croient leur convenir, un peu entreprenants, légers et
-                                précipités. <pb n="254" source="#PARIS_1691_6"/>Le dirai-je ? ils portent au vent, attelés tous deux au
-                                char de la Fortune, et tous deux fort éloignés de s’y voir
-                                assis.</lem>
+                                précipités. <pb n="254" source="#PARIS_1691_6"/>Le dirai-je ? ils
+                                portent au vent, attelés tous deux au char de la Fortune, et tous
+                                deux fort éloignés de s’y voir assis.</lem>
                             <rdg>Ne croiroit-on pas de Cimon &amp; de Clitandre qu’ils ſont ſeuls
                                 chargez des détails de tout l’Etat, &amp; que ſeuls auſſi ils en
                                 doivent répondre : l’un a du moins les affaires de terre, &amp;
@@ -639,22 +843,30 @@
                                 sous un meilleur ; mais s’il l’a tel qu’il ose le porter, il doit
                                 alors insinuer qu’il est de tous les noms le plus illustre, comme sa
                                 maison de toutes les maisons la plus ancienne : il doit tenir aux
-                                Princes Lorrains, aux Rohans, aux Chastillons, aux Montmorencis, et,
-                                s’il se peut, aux Princes Du Sang ; ne parler que de ducs, de
-                                cardinaux et de ministres ; faire entrer dans toutes les
-                                conversations ses aïeuls paternels et maternels, et y <pb n="205" source="#PARIS_1689_4"/>trouver place
-                                pour l’oriflamme et pour les croisades ; avoir des salles parées
-                                d’arbres généalogiques, d’écussons chargés de seize quartiers, et de
-                                tableaux de ses ancêtres et des alliés de ses ancêtres ; se piquer
-                                d’avoir un ancien château à tourelles, à créneaux et à mâchecoulis <note resp="#EK">Larousse : "Galerie en encorbellement au sommet des murailles médiévales et dont le plancher ajouré permettait de laisser tomber des projectiles pour battre le pied des murs."</note>
-                                dire en toute rencontre : ma race, ma branche, mon nom et mes armes
-                                ; dire de celui-ci qu’il n’est pas <pb n="255" source="#PARIS_1691_6"/>homme de qualité ; de celle-là,
-                                qu’elle n’est pas demoiselle ; ou si on lui dit qu’Hyacinthe a eu le
-                                gros lot, demander s’il est gentilhomme. Quelques-uns riront de ces
-                                contre-temps, mais il les laissera rire ; d’autres en feront des
-                                contes, et il leur permettra de conter : il dira toujours qu’il
-                                marche après la maison régnante ; et à force de le dire, il sera
-                                cru.</lem>
+                                    <persName ref="#Duché_Lorrain">Princes Lorrains</persName>, aux
+                                    <persName ref="#Duché_Rohan">Rohans</persName>, aux <persName
+                                    ref="#Duché_Savoie">Chastillons</persName>, aux <persName
+                                    ref="#Maison_Montmorency">Montmorencis</persName>, et, s’il se
+                                peut, aux <persName ref="#Famille_Royale">Princes Du Sang</persName>
+                                ; ne parler que de ducs, de cardinaux et de ministres ; faire entrer
+                                dans toutes les conversations ses aïeuls paternels et maternels, et
+                                y <pb n="205" source="#PARIS_1689_4"/>trouver place pour l’oriflamme
+                                et pour les croisades ; avoir des salles parées d’arbres
+                                généalogiques, d’écussons chargés de seize quartiers, et de tableaux
+                                de ses ancêtres et des alliés de ses ancêtres ; se piquer d’avoir un
+                                ancien château à tourelles, à créneaux et à mâchecoulis <note
+                                    resp="#EK">Larousse : "Galerie en encorbellement au sommet des
+                                    murailles médiévales et dont le plancher ajouré permettait de
+                                    laisser tomber des projectiles pour battre le pied des
+                                    murs."</note> dire en toute rencontre : ma race, ma branche, mon
+                                nom et mes armes ; dire de celui-ci qu’il n’est pas <pb n="255"
+                                    source="#PARIS_1691_6"/>homme de qualité ; de celle-là, qu’elle
+                                n’est pas demoiselle ; ou si on lui dit
+                                    qu’<persName ref="#Pseudo_3">Hyacinthe</persName> a eu le gros lot, demander
+                                s’il est gentilhomme. Quelques-uns riront de ces contre-temps, mais
+                                il les laissera rire ; d’autres en feront des contes, et il leur
+                                permettra de conter : il dira toujours qu’il marche après la maison
+                                régnante ; et à force de le dire, il sera cru.</lem>
                             <rdg>Un homme de la Cour qui n’a pas un aſſez beau nom, doit l’enſevelir
                                 ſous un meilleur ; mais s’il l’a tel qu’il oſe le porter, il doit
                                 alors inſinuer qu’il eſt de tous les noms le plus illuſtre, comme ſa
