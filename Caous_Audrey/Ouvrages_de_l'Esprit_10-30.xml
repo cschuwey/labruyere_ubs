@@ -138,10 +138,78 @@
                 
                 
                 <listPerson>
-                    <person xml:id="Homère"></person>
-                    <person xml:id="Virgile"></person>
-                    <person xml:id="Platon"></person>
-                    <person xml:id="Horace"></person>
+                    <person xml:id="Homère">
+                        <link target="https://data.bnf.fr/11907688/homere/"/>
+                        <figure><graphic url="https://upload.wikimedia.org/wikipedia/commons/c/c6/Homeros_MFA_Munich_272.jpg"></graphic></figure>
+                        <persName>Homère, dit Homerus (latin) </persName>
+                    </person>
+                    
+                    <person xml:id="Virgile">
+                        <link target="https://data.bnf.fr/11887823/virgile/"/>
+                        <figure><graphic url="https://upload.wikimedia.org/wikipedia/commons/8/85/Virgilio.png"></graphic></figure>
+                        <persName>Virgile, dit Publius Vergilius Maro (latin) </persName>
+                    </person>
+                    
+                    <person xml:id="Platon">
+                        <link target="https://data.bnf.fr/11920019/platon/"/>
+                        <figure><graphic url="https://upload.wikimedia.org/wikipedia/commons/d/da/Plato_Pio-Clemetino_Inv305.jpg"></graphic></figure>
+                        <persName>Platon, dit Plato (latin) </persName>
+                    </person>
+                    
+                    <person xml:id="Horace">
+                        <persName>nom inconnu</persName>
+                        <note>Personne visée par la Bruyère, la clé n'a pas été trouvée</note>
+                    </person>
+                    
+                    <person xml:id="Ariste">
+                        <persName>nom inconnu</persName>
+                        <note>Personne visée par la Bruyère, la clé n'a pas été trouvée</note>  
+                    </person>
+                    
+                    <person xml:id="Zelotes">
+                        <link target="https://moodle.univ-ubs.fr/pluginfile.php/600860/mod_resource/content/0/Bruy%C3%A8re%20-%20Cles%20-%20Escola.pdf"/>
+                        <link target="https://data.bnf.fr/12269173/louis_cousin/"/>
+                        <figure><graphic url="https://fr.wikipedia.org/wiki/Louis_Cousin#/media/Fichier:Louis_Cousin_-_Versailles_MV_2943.png"></graphic></figure>
+                        <persName>Louis Cousin</persName>
+                    </person>
+                    
+                    <person xml:id="Hermodore">
+                        <persName>nom inconnu</persName>
+                        <note>Personne visée par la Bruyère, la clé n'a pas été trouvée</note>
+                    </person>
+                    
+                    <person xml:id="Anthime">
+                        <persName>nom inconnu</persName>
+                        <note>Personne visée par la Bruyère, la clé n'a pas été trouvée</note>
+                    </person>
+                    
+                    <person xml:id="Fulvie">
+                        <persName>nom inconnu</persName>
+                        <note>Personne visée par la Bruyère, la clé n'a pas été trouvée</note>
+                    </person>
+                    
+                    <person xml:id="Mélanie">
+                        <persName>nom inconnu</persName>
+                        <note>Personne visée par la Bruyère, la clé n'a pas été trouvée</note>
+                    </person>
+                    
+                    <person xml:id="Arsène">
+                        <persName>nom inconnu</persName>
+                        <note>Personne visée par la Bruyère, la clé n'a pas été trouvée</note>
+                    </person>
+                    
+                    <person xml:id="Théocrine">
+                        <link target="https://moodle.univ-ubs.fr/pluginfile.php/600860/mod_resource/content/0/Bruy%C3%A8re%20-%20Cles%20-%20Escola.pdf"/>
+                        <link target="https://data.bnf.fr/12004544/louis_de_courcillon_de_dangeau/"/>
+                        <figure><graphic url="https://upload.wikimedia.org/wikipedia/commons/e/ef/Louis_de_Courcillon_from_Louis_XIV_recevant_le_serment_du_marquis_de_Dangeau_%28cropped%29.jpg"></graphic></figure>
+                        <persName>Louis de Courcillon de Dangeau</persName>         
+                    </person>
+                    
+                    <person xml:id="Le_Cid">
+                        <persName>nom inconnu</persName>
+                        <note>Personne visée par la Bruyère, la clé n'a pas été trouvée</note>
+                    </person>
+                    
                 </listPerson>
                 
                 <listPlace>
@@ -181,6 +249,19 @@
                 </glyph>
 
             </charDecl>
+            
+            <classDecl>
+                <taxonomy>
+                    
+                    <category xml:id="les_anciens">
+                        <catDesc> Se rapporte aux grands écrivains de l'ancien temps, c'est à dire les classiques connus et présents dans la culture générale de l'époque</catDesc>
+                    </category>
+                    
+                    <category xml:id="les_habiles">
+                        <catDesc>Fait sûrement référence aux personnes douées en écriture et dans le domaine dont parle la Bruyère. Interprétation du resp "AC"</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
             <appInfo>
                 <application version="21" ident="OxygenXML">
                     <desc>Document traité et codé avec Oxygen Xml Editor</desc>
@@ -290,7 +371,7 @@
                 <div2 n="14" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="pied_de_mouche_simple"/>  
                         Tout l’esprit d’un auteur consiste à bien définir et à bien peindre. <seg><note source="#Paris_1694_8 #Paris_1688_3 #Paris_1696_9 #Paris_1699_10" resp="#JB" type="comm" place="left" style="*">Quand meſme on ne le considère pas comme un homme qui a écrit</note><app> <lem wit="#Paris_1694_8"> Moïse</lem>  <rdg wit="#Paris_1688_1"> Moyse </rdg></app></seg>,
-                        <persName ref="Homère" type="philosophe"><name>Homere</name></persName>,<persName ref="Platon" type="philosophe"><name>Platon</name></persName>,<persName ref="Virgile" type="philosophe"><name>Virgile</name></persName>,<persName ref="Horace" type="poète"><name>Horace</name></persName>ne sont au-dessus des autres écrivains que
+                        <persName ref="Homère" type="philosophe"><name>Homere</name></persName>,<persName ref="Platon" type="philosophe"><name>Platon</name></persName>,<persName ref="Virgile" type="philosophe"><name>Virgile</name></persName>,Horace ne sont au-dessus des autres écrivains que
                         par leurs expressions et par leurs images : il faut exprimer le vrai pour
                         écrire naturellement, fortement, délicatement.<pb n="172" source="#Paris_1688_3"/></p>
                 </div2>
@@ -358,7 +439,7 @@
 
                 <div2 n="19" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/>  
-                        « L’on m’a engagé, dit Ariste, à lire mes ouvrages à <app> <lem wit="#Paris_1694_8"> <placeName ref="Zoile"><name>Zoïle</name></placeName></lem> <rdg wit="#Paris_1688_1 #Paris_1689_4">Zelotes</rdg></app> : je l’ai fait.
+                        « L’on m’a engagé, dit <app type="clé"><lem source="Paris_1694_8">Ariste</lem><rdg wit="#Ariste"></rdg></app>, à lire mes ouvrages à <app> <lem wit="#Paris_1694_8">Zoïle</lem> <rdg wit="#Paris_1688_1 #Paris_1689_4">Zelotes</rdg> <rdg wit="#Zelotes">Louis Cousin</rdg></app> : je l’ai fait.
                         Ils l’ont saisi d’abord et avant qu’il ait eu le loisir de<pb n="174" source="#Paris_1688_3"/> les trouver
                         mauvais ; il les a loués modestement en ma présence, et il ne les a pas
                         loués de<pb n="103" source="#Paris_1694_8"/><pb n="107" source="#Paris_1692_7"/>puis<pb n="109" source="#Paris_1691_6"/> devant personne. Je l’excuse, et je n’en demande pas davantage
@@ -391,7 +472,7 @@
                             leurs mains, c’est un premier ouvrage, l’auteur ne s’est pas encore fait un
                             grand nom, il n’a rien qui prévienne en sa faveur, il ne s’agit point de
                             faire sa cour ou de flatter les grands en applaudissant à ses écrits ; on ne
-                            vous demande pas, Zélotes, de vous récrier : C’est un chef-d’œuvre de
+                            vous demande pas, <app type="clé"><lem wit="#Paris_1694_8">Zélotes</lem> <rdg wit="#Zelotes">Louis Cousin</rdg></app>, de vous récrier : C’est un chef-d’œuvre de
                             l’esprit ; l’humanité ne va pas plus loin ; c’est jusqu’où la parole humaine
                             peut s’élever ; on ne jugera à l’avenir du goût de quelqu’un qu’à proportion
                             qu’il en aura pour cette pièce ; phrase outrées, dégoûtantes, qui sentent la
@@ -418,17 +499,17 @@
 
                 <div2 n="23" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/> 
-                        « Que dites-vous du livre d’<app type="clé"><lem wit="#Paris_1694_8">Hermodore</lem> <rdg></rdg></app> ? —Qu’il est mauvais, répond
-                        Anthime.—Qu’il est mauvais ? —Qu’il est tel, continue-t-il, que ce n’est pas
+                        « Que dites-vous du livre d’<app type="clé"><lem wit="#Paris_1694_8">Hermodore</lem> <rdg wit="#Hermodore"></rdg></app> ? —Qu’il est mauvais, répond
+                        <app type="clé"><lem wit="#Paris_1694_8">Anthime</lem> <rdg wit="#Anthime"></rdg></app>.—Qu’il est mauvais ? —Qu’il est tel, continue-t-il, que ce n’est pas
                         un livre, ou qui mérite du moins que le monde en parle.—Mais l’avez-vous lu
-                        ? —Non », dit <app><lem wit="#Paris_1694_8">Anthime</lem> <rdg><desc>style="italics"</desc>Anthime</rdg></app>. Que n’ajoute-t-il que Fulvie et Mélanie l’ont
-                        condamné sans l’avoir lu, et qu’il est ami de Fulvie et de Mélanie ? </p>
+                        ? —Non », dit <app><lem wit="#Paris_1694_8">Anthime</lem> <rdg><desc>style="italics"</desc>Anthime</rdg></app>. Que n’ajoute-t-il que <app type="clé"><lem wit="#Paris_1694_8">Fulvie et Mélanie</lem><rdg wit="#Fulvie #Mélanie"></rdg></app> l’ont
+                        condamné sans l’avoir lu, et qu’il est ami de <app type="clé"><lem wit="#Paris_1694_8">Fulvie et de Mélanie</lem> <rdg wit="#Fulvie #Mélanie"></rdg></app> ? </p>
                 </div2>
 
                 <div2 n="24" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/> 
                         <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="left">texte illisible</note>
-                        Arsène, du plus haut de son esprit, contemple les hommes, et dans
+                        <app><lem wit="#Paris_1694_8">Arsène</lem><rdg wit="#Arsène"></rdg></app>, du plus haut de son esprit, contemple les hommes, et dans
                         l’éloignement d’où il les voit, il est <app><lem wit="#Paris_1694_8">comme <pb n="106" source="#Paris_1694_8"/> comme</lem> <rdg wit="#Paris_1689_4">comme </rdg></app> effrayé de leur petitesse ;
                         loué, <pb n="110" source="#Paris_1692_7"/> exalté, et porté jusqu’aux <app><lem wit="#Paris_1694_8">cieux</lem> <rdg wit="#Paris1689_4">Cieux</rdg></app> par de certaines gens qui se sont
                         promis <pb n="112" source="#Paris_1691_6"/> de s’admirer réciproquement, il croit, avec quelque mérite qu’il a,
@@ -446,7 +527,7 @@
 
                 <div2 n="25" source="#Paris_1694_8 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/> 
-                        Théocrine sait des choses assez inutiles ; il a des sentiments toujours
+                        <app type="clé"><lem wit="#Paris_1694_8">Théocrine</lem> <rdg wit="#Théocrine">Louis de Courcillon de Dangeau</rdg></app> sait des choses assez inutiles ; il a des sentiments toujours
                         singuliers ; il est moins profond que méthodique ; il n’exerce que sa
                         mémoire ; il est abstrait, dédaigneux, <pb n="107" source="#Paris_1694_8"/> et il semble toujours rire en
                         lui-mê<pb n="111" source="#Paris_1692_7"/>me de ceux qu’il croit ne le valoir pas. Le hasard fait que je lui lis
@@ -511,7 +592,7 @@
                         beau. Quelle prodigieuse distance entre un bel ouvrage, et un ouvrage
                         parfait ou régulier ! Je ne sais s’il s’en est encore trouvé de ce dernier
                         genre. Il est peut-être moins difficile aux rares génies de rencontrer le
-                        grand et le sublime, que d’éviter toute sorte de fautes. Le Cid n’a eu
+                        grand et le sublime, que d’éviter toute sorte de fautes. <app type="clé"><lem wit="#Paris_1694_8">Le Cid</lem> <rdg wit="#Le_Cid"></rdg></app> n’a eu
                         qu’une voix pour lui à sa naissance, qui a été celle de l’admiration ; il
                         s’est vu plus fort que l’autorité et la politique, qui ont tenté vainement
                         de le détruire ; il a réuni en sa faveur des esprits toujours partagés
@@ -519,7 +600,7 @@
                         à le savoir de mémoire, et à prévenir au théâtre les acteurs qui le
                         récitent. Le Cid enfin est l’un des plus beaux poèmes que l’on puisse faire
                         ; et l’une des meilleurs critiques qui aient été faites sur aucun sujet est
-                        celle du Cid.</p>
+                        celle du <app type="clé"><lem wit="#Paris_1694_8">Cid</lem> <rdg wit="#Le_Cid"></rdg></app>.</p>
                 </div2>
 
                 <div2 n="30" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
@@ -534,9 +615,9 @@
                             vainement de le détruire ; il a réuni en sa faveur des esprits toujours
                             partagés d’opinions et de sentiments : les grands et le peuple ; ils
                             s’accordent tous à le savoir de mémoire et à prévenir au théâtre les
-                            acteurs qui le récitent. Le Cid, enfin, est l’un des plus beaux poèmes
+                            acteurs qui le récitent. <app><lem wit="#Paris_1694_8">Le Cid</lem><rdg wit="#Le_Cid"></rdg></app>, enfin, est l’un des plus beaux poèmes
                             que l’on puisse faire, et l’une des meilleures critiques qui ait été
-                            faite sur aucun sujet est celle du Cid.</p>
+                            faite sur aucun sujet est celle du <app type="clé"><lem wit="#Paris_1694_8">Cid</lem> <rdg wit="#Le_Cid"></rdg></app>.</p>
                 </div2>
 
             </div1>
@@ -544,6 +625,7 @@
         </body>
     </text>
 </TEI>
+
 
 
 
