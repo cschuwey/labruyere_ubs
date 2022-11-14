@@ -66,16 +66,29 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
-                <bibl type="clé" xml:id="Coste"> Clés des seules éditions Coste (mentionées dans l'ouvrage d'Escola) </bibl>
+                <bibl type="clé" xml:id="Coste"> Clés des seules éditions Coste (mentionées dans
+                    l'ouvrage d'Escola) </bibl>
                 <bibl type="clé" xml:id="Escola"> Clés prises dans l'ouvrage d'Escola </bibl>
                 <listPerson>
                     <person xml:id="Lise" sex="F">
                         <name> Lise </name>
                         <age> Femme d'âge mur </age>
                         <persona>
-                            <p> portrait de la Coquette, caractère dans la tradition théophrastienne
-                            </p>
+                            <p> portrait de la Coquette, caractère dans la tradition
+                                théophrastienne</p>
                         </persona>
+                        <socecStatus> Lise serait une femme de la haute société </socecStatus>
+                        <nationality> Française </nationality>
+                        <interp> Selon les interprétations, Lise est soit la présidente
+                            d'Ons-En-Bray, femme de M. Bocquemare, président en la seconde des
+                            enquêtes du Palais ou Catherine Henriette d'Angennes, la comtesse
+                            d'Olonne. </interp>
+                        <figure>
+                            <head> Portrait de la comtesse d'Olonne </head>
+                            <graphic
+                                url="https://gw.geneanet.org/public/img/media/deposits/f2/36/15445458/medium.jpg?t=1550944799"
+                            />
+                        </figure>
                     </person>
                     <person xml:id="Clarice" sex="F">
                         <name> Clarice </name>
@@ -135,6 +148,27 @@
                     <desc> ((¶)) </desc>
                 </glyph>
             </charDecl>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="Beauté">
+                        <desc> La beauté est un concept qui revient beaucoup dans le chapitre sur
+                            les femmes. Il est toujours associé aux femmes. Jean De La Bruyère
+                            préfère une beauté naturelle et trouve que le maquillage ne rend pas
+                            forcément beau. Il explique aussi que la beauté d'une femme peut faire
+                            peur à un homme et être destructrice.</desc>
+                    </category>
+                    <category xml:id="Galanterie">
+                        <desc> La définition de galanterie est : Courtoisie empressée auprès des
+                            femmes. Cependant, La Bruyère qualifie aussi certaines femmes de
+                            galantes. Les galants sont aussi décrits comme des amants. </desc>
+                    </category>
+                    <category xml:id="Coquetterie">
+                        <desc> La Coquetterie est le souci de plaire. Dans ce texte, être coquet ou
+                            coquette est décrit comme quelque chose de négatif, notamment pour les
+                            hommes.</desc>
+                    </category>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change> </change>
@@ -235,7 +269,7 @@
                         </app> ces dons du <app>
                             <lem> ciel </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> Ciel </rdg>
-                        </app>, si rares et si fragiles, par des manières affectées et par une
+                        </app> , si rares et si fragiles, par des manières affectées et par une
                         mauvaise imitation : leur son de voix et leur démarche sont empruntés ;
                         elles se composent, elles se recherchent, regardent dans un miroir si elles
                         s’éloignent assez de leur naturel <app>
@@ -250,8 +284,8 @@
                         parer et se farder n’est pas, je <app>
                             <lem> l’avoue </lem>
                             <rdg wit="#Paris_1699_10_1"> avoüe </rdg>
-                        </app>, parler contre sa pensée ; c’est plus aussi que le travestissement et
-                        la mascarade, où l’on ne se donne point pour ce que l’on <app>
+                        </app>, parler contre sa pensée ; c’est plus aussi que <term ref="#Coquetterie"> le travestissement </term> et
+                        <term ref="#Coquetterie"> la mascarade </term>, où l’on ne se donne point pour ce que l’on <app>
                             <lem> paraît</lem>
                             <rdg wit="#Paris_1699_10_1"> paroît </rdg>
                         </app> être, mais où l’on pense seulement à se cacher et à se faire ignorer
@@ -276,7 +310,7 @@
                         veulent seulement être belles à leurs propres yeux et se plaire à
                         elles-mêmes, elles peuvent sans doute, dans la manière de s’embellir, dans
                         le choix des ajustements et de la parure, suivre leur goût et leur caprice ;
-                        mais si c’est aux hommes qu’elles désirent de plaire, si c’est pour eux
+                        mais si c’est aux hommes qu’elles <term ref="#Coquetterie"> désirent de plaire </term>, si c’est pour eux
                         qu’elles se fardent ou qu’elles s’enluminent, <app>
                             <lem> j’ai recueilli </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> j'ay recüilly </rdg>
@@ -314,19 +348,19 @@
 
                 <div2 source="#Paris_1699_10_1" n="7">
                     <p>
-                        <g ref="#fr_pieddemouche"/> Une femme coquette ne se rend point sur la
-                        passion de plaire, et sur l’opinion qu’elle a de sa beauté : elle regarde le
-                        temps et les années comme quelque chose seulement qui ride et qui enlaidit
-                        les autres femmes ; elle oublie du moins que l’âge est écrit sur le visage.
-                            <seg> La même parure qui a autrefois embelli sa jeunesse, défigure enfin
-                            sa personne, éclaire les défauts de sa vieillesse <note resp="#MC"> Jean
-                                De La Bruyère explique que les bijoux et le maquillage que les
-                                femmes portaient en étant jeune les enlaidissent lorsqu'elles sont
-                                plus vieilles. Il sous-entend qu'une femme plus âgée ne devrait plus
-                                se maquiller. </note></seg>. La <seg> mignardise <note resp="#MC">
-                                Délicatesse, grâce affectée. </note></seg> et l’affectation
-                        l’accompagnent dans la douleur et dans la fièvre : elle meurt parée et en
-                        rubans de couleur. </p>
+                        <g ref="#fr_pieddemouche"/> Une femme <term ref="#Coquetterie"> coquette </term> ne se rend point sur la
+                        passion de plaire, et sur l’opinion qu’elle a de sa <term ref="#Beauté">
+                            beauté </term> : elle regarde le temps et les années comme quelque chose
+                        seulement qui ride et qui enlaidit les autres femmes ; elle oublie du moins
+                        que l’âge est écrit sur le visage. <seg> La même parure qui a autrefois
+                            embelli sa jeunesse, défigure enfin sa personne, éclaire les défauts de
+                            sa vieillesse <note resp="#MC"> Jean De La Bruyère explique que les
+                                bijoux et le maquillage que les femmes portaient en étant jeune les
+                                enlaidissent lorsqu'elles sont plus vieilles. Il sous-entend qu'une
+                                femme plus âgée ne devrait plus se maquiller. </note></seg>. La
+                            <seg> mignardise <note resp="#MC"> Délicatesse, grâce affectée.
+                            </note></seg> et l’affectation l’accompagnent dans la douleur et dans la
+                        fièvre : elle meurt parée et en rubans de couleur. </p>
                 </div2>
 
                 <div2 source="#Paris_1699_10_1" n="8">
@@ -343,7 +377,7 @@
                             <rdg wit="#Escola">
                                 <persName type="pseudo" ref="#Lise"> comtesse d'Olonne </persName>
                             </rdg>
-                        </app> entend dire d’une autre coquette qu’elle se <app>
+                        </app> entend dire d’une autre <term ref="#Coquetterie"> coquette </term> qu’elle se <app>
                             <lem> moque </lem>
                             <rdg> mocque </rdg>
                         </app> de se piquer de jeunesse, et de vouloir user d’ajustements qui ne
@@ -358,10 +392,11 @@
                             <rdg wit="#Coste">
                                 <persName type="pseudo" ref="#Lise"> la présidente d'Ons-En-Bray,
                                     femme de M. Bocquemare, président en la seconde des enquêtes du
-                                    Palais </persName> </rdg>
-                                <rdg wit="#Escola">
-                                    <persName type="pseudo" ref="#Lise"> comtesse d'Olonne </persName>
-                                </rdg>
+                                    Palais </persName>
+                            </rdg>
+                            <rdg wit="#Escola">
+                                <persName type="pseudo" ref="#Lise"> comtesse d'Olonne </persName>
+                            </rdg>
                         </app> les <pb n="80" source="#Paris_1690_10_1"/> a accomplis <app>
                             <lem> ; </lem>
                             <rdg wit="#Paris_1699_10_1"> , </rdg>
@@ -369,7 +404,7 @@
                         vieillissent point <app>
                             <lem> : </lem>
                             <rdg wit="#Paris_1699_10_1"> ; </rdg>
-                        </app> elle le croit ainsi, et pendant qu’elle se regarde au miroir, qu’elle
+                        </app> elle le croit ainsi, et pendant qu’elle <term ref="#Coquetterie"> se regarde au miroir </term>, qu’elle
                         met du rouge sur son visage et qu’elle place des <seg> mouches <note
                                 resp="#MC"> Petit morceau de taffetas noir que les femmes mettaient
                                 sur la peau pour en faire ressortir la blancheur. </note></seg> ,
@@ -402,8 +437,8 @@
 
                 <div2 source="#Paris_1699_10_1 #Paris_1690_5_1" n="10">
                     <p>
-                        <g ref="#fr_pieddemouche"/> Un beau visage est le plus beau de tous les
-                        spectacles <app>
+                        <g ref="#fr_pieddemouche"/> Un <term ref="#Beauté"> beau </term> visage est
+                        le plus beau de tous les spectacles <app>
                             <lem> ; </lem>
                             <rdg wit="#Paris_1699_10_1"> : </rdg>
                         </app> et l’harmonie la plus douce est le son de voix de celle que l’on
@@ -423,23 +458,26 @@
                                 agréables. </note>
                         </seg>est arbitraire <app>
                             <rdg wit="#Paris_1690_5_1 #Paris_1699_10_1"> : </rdg>
-                        </app>la beauté est quelque chose de plus réel et de plus indépendant du
-                        goût et de l’opinion. </p>
+                        </app>la <term ref="#Beauté"> beauté </term> est quelque chose de plus réel
+                        et de plus indépendant du goût et de l’opinion. </p>
                 </div2>
 
                 <div2 source="#Paris_1699_10_1 #Paris_1690_5_1" n="12">
                     <p>
                         <g ref="#fr_pieddemouche"/> L’on peut être touché de certai- <pb n="81"
-                            source="#Paris_1690_10_1"/> nes <app>
-                            <lem> beautés </lem>
-                            <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> beautez </rdg>
-                        </app> si parfaites et d’un mérite si éclatant, que l’on se borne à les voir
+                            source="#Paris_1690_10_1"/> nes <term ref="#Beauté">
+                            <app>
+                                <lem> beautés </lem>
+                                <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> beautez </rdg>
+                            </app>
+                        </term>si parfaites et d’un mérite si éclatant, que l’on se borne à les voir
                         et à leur parler. </p>
                 </div2>
 
                 <div2 source="#Paris_1699_10_1 #Paris_1690_5_1" n="13">
                     <p>
-                        <g ref="#fr_pieddemouche"/> Une belle femme qui a les <app>
+                        <g ref="#fr_pieddemouche"/> Une <term ref="#Beauté"> belle </term> femme qui
+                        a les <app>
                             <lem> qualités </lem>
                             <rdg wit="#Paris_1690_5_1 #Paris_1699_10_1"> qualitez </rdg>
                         </app> d’un honnête homme est ce qu’il y a au monde d’un commerce plus
@@ -474,8 +512,8 @@
                     <p>
                         <g source="#Paris_1699_10_1" ref="#fr_pieddemouche"/>
                         <g source="#Paris_1690_5_1" ref="#fr_pieddemouche_pa"/> Le caprice est dans
-                        les femmes tout proche de la beauté, pour être son contre-poison, et afin
-                        qu’elle nuise moins aux hommes, qui n’en <app>
+                        les femmes tout proche de la <term ref="#Beauté"> beauté </term> , pour être
+                        son contre-poison, et afin qu’elle nuise moins aux hommes, qui n’en <app>
                             <lem> guériraient </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> gueriroient </rdg>
                         </app> pas sans remède. </p>
@@ -504,23 +542,27 @@
                             <lem> galant </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> galand </rdg>
                         </app>
-                        <pb n="82" source="#Paris_1690_10_1"/> croit n’être point coquette ; celle
+                        <pb n="82" source="#Paris_1690_10_1"/> croit n’être point <term ref="#Coquetterie"> coquette </term> ; celle
                         qui a plusieurs <app>
                             <lem> galants </lem>
                             <rdg wit="#Paris_1699_10_1"> galands </rdg>
                             <rdg wit="#Paris_1690_5_1"> galans </rdg>
-                        </app> croit n’être que coquette. </p>
-                    <p> Telle femme évite d’être coquette par un ferme attachement à un seul, qui
-                        passe pour folle par son mauvais choix. </p>
+                        </app> croit n’être que <term ref="#Coquetterie"> coquette </term>. </p>
+                    <p> Telle femme évite d’être <term ref="#Coquetterie"> coquette </term> par un
+                        ferme attachement à un seul, qui passe pour folle par son mauvais choix.
+                    </p>
                 </div2>
 
                 <div2 source="#Paris_1699_10_1 #Paris_1690_5_1" n="19">
                     <p>
                         <g source="#Paris_1699_10_1" ref="#fr_pieddemouche"/>
-                        <g source="#Paris_1690_5_1" ref="#fr_pieddemouche_pa"/> Un ancien <app>
-                            <lem> galant </lem>
-                            <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> galand </rdg>
-                        </app> tient à si peu de chose, qu’il cède à un nouveau mari ; et <app>
+                        <g source="#Paris_1690_5_1" ref="#fr_pieddemouche_pa"/> Un ancien <term
+                            ref="#Galanterie">
+                            <app>
+                                <lem> galant </lem>
+                                <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> galand </rdg>
+                            </app>
+                        </term> tient à si peu de chose, qu’il cède à un nouveau mari ; et <app>
                             <lem> celui-ci </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> celuy-cy </rdg>
                         </app> dure si peu, qu’un nouveau <app>
@@ -535,10 +577,12 @@
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> galand </rdg>
                         </app> craint ou méprise un nouveau rival, selon le caractère <pb n="142"
                             source="#Paris_1690_5_1"/> de la personne qu’il sert. </p>
-                    <p> Il ne manque souvent à un ancien <app>
-                            <lem> galant </lem>
-                            <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> galand </rdg>
-                        </app>, auprès d’une femme qui l’attache, que le nom de <app>
+                    <p> Il ne manque souvent à un ancien <term ref="#Galanterie">
+                            <app>
+                                <lem> galant </lem>
+                                <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> galand </rdg>
+                            </app>
+                        </term>, auprès d’une femme qui l’attache, que le nom de <app>
                             <lem> mari </lem>
                             <rdg wit="#Paris_1699_10_1"> mary </rdg>
                         </app> : c’est beaucoup, et il <app>
@@ -551,14 +595,15 @@
                     <p>
                         <g source="#Paris_1699_10_1" ref="#fr_pieddemouche"/>
                         <g source="#Paris_1690_5_1" ref="#fr_pieddemouche_pa"/> Il semble que la
-                        galanterie dans une femme <app>
+                            <term ref="#Galanterie"> galanterie </term> dans une femme <app>
                             <lem> ajoute </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> ajoûte </rdg>
-                        </app> à la coquetterie. Un homme coquet au contraire est quelque chose de
+                            </app> à la <term ref="#Coquetterie"> coquetterie </term>. Un homme <term ref="#Coquetterie"> coquet </term> au contraire est quelque chose de
                         pire qu’un homme <app>
                             <lem> galant </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> galand </rdg>
-                        </app>. L’homme coquet et la femme galante vont assez de pair. </p>
+                        </app>. L’homme <term ref="#Coquetterie"> coquet </term> et la femme <term ref="#Galanterie"> galante </term>
+                        vont assez de pair. </p>
                 </div2>
             </div1>
         </body>
