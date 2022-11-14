@@ -193,7 +193,9 @@
                         
                     </monogr>
                 </biblStruct>
-
+<listPerson> 
+    <person xml:id="Drance"/>
+</listPerson>
             </sourceDesc>
 
         </fileDesc>
@@ -231,18 +233,101 @@
             <p> Choix de ne pas garder le s long</p>
             <p>Choix de ne pas garder les esperluettes</p>
             
-            <classDecl>
+            <p>définitions des concepts issus du Trésor de la Langue Française informatisé </p> 
+            <classDecl> 
+               
                 <taxonomy>
+                    
                    <category xml:id="joie">
-                    <catDesc> </catDesc>
+                       <catDesc>  Émotion vive, agréable, limitée dans le temps; sentiment de plénitude qui affecte l'être entier au moment où ses aspirations, ses ambitions, ses désirs ou ses rêves viennent à être satisfaits d'une manière effective ou imaginaire. </catDesc>
                    </category>
                     <category xml:id="haine">
-                        <catDesc> </catDesc>
+                        <catDesc>  Sentiment de profonde antipathie à l'égard de quelqu'un </catDesc>
                     </category>
                     <category xml:id="mort">
-                        <catDesc> </catDesc>
+                        <catDesc> Cessation de la vie </catDesc>
                     </category>
-                    
+                    <category xml:id="peur">
+                        <catDesc> État affectif plus ou moins durable, pouvant débuter par un choc émotif, fait d'appréhension </catDesc>
+                    </category>
+                    <category xml:id="plaisir">
+                        <catDesc> État affectif agréable, durable, que procure la satisfaction d'un besoin, d'un désir ou l'accomplissement d'une activité gratifiante </catDesc>
+                    </category>
+                    <category xml:id="vie">
+                        <catDesc> Fait de vivre; ensemble des phénomènes et des fonctions essentielles se manifestant de la naissance à la mort et caractérisant les êtres vivants. </catDesc>
+                    </category>
+                    <category xml:id="perte">
+                        <catDesc> Fait de n'avoir plus quelqu'un auprès de soi (par suite de mort, d'absence, d'abandon). </catDesc>
+                    </category>
+                    <category xml:id="fierté">
+                        <catDesc> Souci de sa dignité, respect de soi-même.  </catDesc>
+                    </category>
+                    <category xml:id="raison">
+                        <catDesc> Principe pensant; mode de pensée. Faculté qu'a l'esprit humain d'organiser ses relations avec le réel; son activité considérée en général tant dans le domaine pratique que dans le domaine conceptuel.  </catDesc>
+                    </category>
+                    <category xml:id="sentiment">
+                        <catDesc> État affectif complexe, assez stable et durable, composé d'éléments intellectuels, émotifs ou moraux, et qui concerne soit le « moi » (orgueil, jalousie...) soit autrui (amour, envie, haine...).</catDesc>
+                    </category>
+                    <category xml:id="faiblesse">
+                        <catDesc> Manque de volonté ou de fermeté; incapacité de soutenir l'adversité ou de résister à ses passions.  </catDesc>
+                    </category>
+                    <category xml:id="inimitié">
+                        <catDesc> Sentiment d'aversion, d'hostilité à l'égard de quelqu'un ou d'une collectivité. </catDesc>
+                    </category>
+                    <category xml:id="paresse">
+                        <catDesc> Propension à ne rien faire, répugnance au travail, à l'effort physique ou intellectuel; faiblesse de caractère qui porte à l'inaction, à l'oisiveté.Manque d'énergie en face d'une activité quelconque. </catDesc>
+                    </category>
+                    <category xml:id="esprit">
+                        <catDesc> Principe de la pensée et de l'activité réfléchie de l'homme. </catDesc>
+                    </category>
+                    <category xml:id="tempérament">
+                        <catDesc> Humeur, disposition particulière d'une personne. </catDesc>
+                    </category>
+                    <category xml:id="humeur">
+                        <catDesc> Disposition, particularité constante ou momentanée du caractère, du tempérament d'une personne. </catDesc>
+                    </category>
+                    <category xml:id="crainte">
+                        <catDesc>  Sentiment d'inquiétude déterminé par l'idée d'un mal à venir, d'un danger existant ou possible. </catDesc>
+                    </category>
+                    <category xml:id="amitié">
+                        <catDesc> Relation d'amis  </catDesc>
+                    </category>
+                    <category xml:id="droit">
+                        <catDesc>Fondement des règles régissant les rapports des hommes en société, et impliquant une répartition équitable des biens, des prérogatives et des libertés.  </catDesc>
+                    </category>
+                    <category xml:id="confiance">
+                        <catDesc>  Croyance spontanée ou acquise en la valeur morale, affective, professionnelle... d'une autre personne, qui fait que l'on est incapable d'imaginer de sa part tromperie, trahison ou incompétence.  </catDesc>
+                    </category>
+                    <category xml:id="tranquilité">
+                        <catDesc> État d'un individu qui n'éprouve aucune inquiétude morale, qui n'est affecté par aucun souci, qui connaît le repos du corps et de l'esprit.  </catDesc>
+                    </category>
+                    <category xml:id="passion">
+                        <catDesc> Disposition, particularité constante ou momentanée du caractère, du tempérament d'une personne. </catDesc>
+                    </category>
+                    <category xml:id="vice">
+                        <catDesc> Disposition habituelle à faire ce qui est considéré comme moralement et/ou socialement mal; fait de se conduire d'une manière jugée culturellement comme gravement immorale. </catDesc>
+                    </category>
+                    <category xml:id="vertu">
+                        <catDesc> Disposition habituelle, comportement permanent, force avec laquelle l'individu se porte volontairement vers le bien, vers son devoir, se conforme à un idéal moral, religieux, en dépit des obstacles qu'il rencontre. </catDesc>
+                    </category>
+                    <category xml:id="cœur">
+                        <catDesc> Mode de connaissance intuitif, gén. opposé à l'intelligence rationnelle, discursive </catDesc>
+                    </category>
+                    <category xml:id="vanité">
+                        <catDesc> Caractère d'une personne satisfaite d'elle-même et étalant complaisamment son plaisir de paraître.  </catDesc>
+                    </category>
+                    <category xml:id="amour">
+                        <catDesc> Attirance, affective ou physique, qu'en raison d'une certaine affinité, un être éprouve pour un autre être, auquel il est uni ou qu'il cherche à s'unir par un lien généralement étroit.  </catDesc>
+                    </category>
+                    <category xml:id="ambition">
+                        <catDesc> Désir d'accomplir, de réaliser une grande chose, en y engageant sa fierté, son honneur. </catDesc>
+                    </category>
+                    <category xml:id="intérêt">
+                        <catDesc> Ce qui importe à quelqu'un. Objectivement, avec l'idée d'avantage </catDesc>
+                    </category>
+                    <category xml:id="bonté">
+                        <catDesc> Caractère de ce qui est conforme au bon, au bien, aux valeurs morales reconnues favorables à l'épanouissement de l'Homme. </catDesc>
+                    </category>
                 </taxonomy>
             </classDecl>
         </encodingDesc>
@@ -280,6 +365,9 @@
                 </item>
                 <item>
                     <date when="2022-11-07">07 novembre 2022</date> Encodage d'un personnage anonyme et de concepts
+                </item>
+                <item>
+                    <date when="2022-11-14">14 novembre 2022</date> Encodage de l'ensemble des "terms", enrichississement de la taxonomie avec les définitions des concepts qui correspondent à leur emploi et création d'un référentiel d'autorité.
                 </item>
                 
                 
@@ -324,7 +412,7 @@
                         <g ref="#Pied_de_mouche_simple"> </g> 
                         
                         Il y a de certaines gens qui veulent
-                        si ardemment et si déterminément une certaine chose, que de <term>peur</term> de la
+                        si ardemment et si déterminément une certaine chose, que de <term ref="#peur">peur</term> de la
                         manquer, ils n’oublient rien de ce qu’il faut faire pour la manquer.</p>
                 </div2>
 
@@ -340,7 +428,7 @@
                         </app> 
                         
                         dans le temps ni dans les circonstances où elles auraient fait un
-                        extrême <term>plaisir</term>. </p>
+                        extrême <term ref="#plaisir">plaisir</term>. </p>
                 </div2>
 
                 <div2 n="63" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
@@ -353,14 +441,14 @@
                             <rdg wit="#Paris_1684_edition_4 #Paris_1690_edition_5"> d'estre </rdg>
                         </app> 
                         
-                        heureux, de <term>peur</term> de <term>mourir</term> sans avoir ri. </p>
+                        heureux, de <term ref="#peur">peur</term> de <term ref="#mort">mourir</term> sans avoir ri. </p>
                     
                 </div2>
 
                 <div2 n="64" source="#XIXe_édition #Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p>  <g ref="#Pied_de_mouche_simple"> </g> 
                         
-                        La <term>vie</term> est courte, si elle ne mérite <pb n="126" source="#Paris_1699_edition_10"></pb> ce nom que lorsqu’elle est agréable,<pb n="150" source="#Paris_1699_edition_4"></pb>
+                        La <term ref="#vie">vie</term> est courte, si elle ne mérite <pb n="126" source="#Paris_1699_edition_10"></pb> ce nom que lorsqu’elle est agréable,<pb n="150" source="#Paris_1699_edition_4"></pb>
                         puisque si l’on cousait ensemble toutes les heures que l’on passe avec ce
                         qui 
                         
@@ -369,7 +457,7 @@
                             <rdg wit="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5"> plaist </rdg>
                         </app> 
                         
-                        , l’on ferait à peine d’un grand nombre d’années une <term>vie</term> de
+                        , l’on ferait à peine d’un grand nombre d’années une <term ref="#vie">vie</term> de
                         quelques mois. </p>
                 </div2>
 
@@ -391,7 +479,7 @@
                         
                         On ne pourrait se défendre de quelque <term ref="#joie">joie</term> à voir périr un méchant homme :
                         l’on jouirait alors du fruit de sa <term ref="#haine">haine</term>, et l’on tirerait de lui tout ce
-                        qu’on en peut espérer, qui est le <term>plaisir</term> de sa <term>perte</term>. Sa <term ref="#mort">mort</term> enfin arrive,
+                        qu’on en peut espérer, qui est le <term ref="#plaisir">plaisir</term> de sa <term ref="#perte">perte</term>. Sa <term ref="#mort">mort</term> enfin arrive,
                         mais dans une conjoncture où nos
                         
                         <app>
@@ -413,8 +501,8 @@
                 <div2 n="67" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>
                         
-                        Il est pénible à un homme <term>fier</term> de pardonner à celui qui le surprend en
-                        faute, et qui se plaint de lui avec <term>raison</term> : sa <term>fierté</term> ne s’adoucit que
+                        Il est pénible à un homme <term ref="#fierté">fier</term> de pardonner à celui qui le surprend en
+                        faute, et qui se plaint de lui avec <term ref="#raison">raison</term> : sa <term ref="#fierté">fierté</term> ne s’adoucit que
                         lorsqu’il reprend ses avantages, et qu’il met l’autre dans son tort. </p>
                 </div2>
 
@@ -436,31 +524,31 @@
                 <div2 n="69" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"/>
                       
-                      Il est également difficile d’étouffer dans les commencements le <term>sentiment </term>
+                      Il est également difficile d’étouffer dans les commencements le <term ref="#sentiment">sentiment </term>
                         des injures et de le conserver après un certain nombre d’années. </p>
                 </div2>
 
                 <div2 n="70" source="#XIXe_édition #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
                       
-                        C’est par <term>faiblesse</term> que l’on 
+                      C’est par <term ref="#faiblesse">faiblesse</term> que l’on 
                         
                         <app>
                         <lem wit="#Paris_1699_edition_10"> hait </lem>
                         <rdg wit="#Paris_1696_edition_9 "> haït </rdg>
                         </app>  
                         
-                        un <term>ennemi</term>, et que l’on songe à s’en venger ; et c’est par <term>paresse</term> que l’on s’apaise, et qu’on ne se venge point.</p>
+                        un <term ref="#inimitié">ennemi</term>, et que l’on songe à s’en venger ; et c’est par <term ref="#paresse">paresse</term> que l’on s’apaise, et qu’on ne se venge point.</p>
                 </div2>
 
                 <div2 n="71" source="#XIXe_édition #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
                         
-                        Il y a bien autant de <term>paresse</term> que de <term>faiblesse</term> à se laisser gouverner. Il ne
+                        Il y a bien autant de <term ref="#paresse">paresse</term> que de <term ref="#faiblesse">faiblesse</term> à se laisser gouverner. Il ne
                         faut pas penser à gouverner un homme tout d’un coup, et sans autre
                         préparation, dans une affaire importante et qui serait capitale à lui ou aux
                         siens ; il sentirait d’abord l’empire et l’ascendant qu’on veut prendre sur
-                        son <term>esprit</term>, et il secouerait le joug <note resp="#LG" type="glossaire" > "secouer le joug" est une expression au sens figuré qui désigne le fait de s'affranchir de toute domination ou autorité </note>  par honte ou par caprice : il faut
+                        son <term ref="#esprit">esprit</term>, et il secouerait le joug <note resp="#LG" type="glossaire" > "secouer le joug" est une expression au sens figuré qui désigne le fait de s'affranchir de toute domination ou autorité </note>  par honte ou par caprice : il faut
                         tenter auprès de lui les petites choses, et de là le progrès jusqu’aux plus
                         grandes est immanquable. Tel ne pouvait au plus dans les commencements
                         qu’entreprendre de le faire partir pour la campagne ou retourner à la ville,
@@ -469,7 +557,7 @@
                         légère, et ne lui faire sentir que le moins qu’il se peut sa dépendance.
                         Tels se laissent gouverner jusqu’à un certain point, qui au delà sont
                         intraitables et ne se gouvernent plus : on perd tout à coup la route de leur
-                        <term>cœur</term> et de leur <term>esprit</term> ; ni hauteur ni souplesse, ni force ni industrie ne
+                        <term ref="#cœur">cœur</term> et de leur <term ref="#esprit">esprit</term> ; ni hauteur ni souplesse, ni force ni industrie ne
                         les peuvent dompter : avec cette différence que 
                         
                         <app>
@@ -478,38 +566,37 @@
                         </app>  
                         
                         sont ainsi
-                        faits par <term>raison</term> et avec fondement, et quelques autres par <term>tempérament</term> et
-                        par <term>humeur</term>. Il se trouve des hommes qui n’écoutent ni la <term>raison</term> ni les bons
-                        conseils, et qui s’égarent volontairement par la <term>crainte</term> qu’ils ont d’être
-                        gouvernés. D’autres consentent d’être gouvernés par leurs <term>amis</term> en des choses
-                        presque indifférentes, et s’en font un <term>droit</term> de les gouverner à leur tour en
-                        des choses graves et de conséquence. <seg><persName type="pseudo">Drance</persName><note resp="Lecteur" source="#Paris_1694_edition_8" style="written" hand="texte en partie illisible" type="commentaire"  place="gauche et en bas de la page"> [...] ou le chevalier de Lorraine. La visée du commentaire est sûrement de faire un parallèle entre le personnage de Drance et des figures ayant réellement existé. En effet, nous pouvons déchiffrer Le chevalier de Lorraine qui peut faire référence à Philippe de Lorraine qui a vécu à l'époque de La Bruyère. </note> veut passer pour gouverner son
+                        faits par <term ref="#raison">raison</term> et avec fondement, et quelques autres par <term ref="#tempérament">tempérament</term> et
+                        par <term ref="#humeur">humeur</term>. Il se trouve des hommes qui n’écoutent ni la <term>raison</term> ni les bons
+                        conseils, et qui s’égarent volontairement par la <term ref="#crainte">crainte</term> qu’ils ont d’être
+                        gouvernés. D’autres consentent d’être gouvernés par leurs <term ref="#amitié">amis</term> en des choses
+                        presque indifférentes, et s’en font un <term ref="#droit">droit</term> de les gouverner à leur tour en
+                        des choses graves et de conséquence. <seg><persName type="pseudo" ref="#Drance">Drance</persName><note resp="Lecteur" source="#Paris_1694_edition_8" style="written" hand="texte en partie illisible" type="commentaire"  place="gauche et en bas de la page"> [...] ou le chevalier de Lorraine. La visée du commentaire est sûrement de faire un parallèle entre le personnage de Drance et des figures ayant réellement existé. En effet, nous pouvons déchiffrer Le chevalier de Lorraine qui peut faire référence à Philippe de Lorraine qui a vécu à l'époque de La Bruyère. </note> veut passer pour gouverner son
                         maître, qui n’en croit rien, non plus que le public ; parler sans cesse à un
                         grand que l’on sert, en des lieux et en des temps où il convient le <pb n="129" source="#Paris_1699_edition_10"/> moins,
                         lui parler à l’oreille ou en des termes mystérieux, rire jusqu’à éclater en
                         sa présence, lui couper la parole, se mettre entre lui et ceux qui lui
                         parlent, dédaigner ceux qui viennent faire leur cour ou attendre
-                        impatiemment qu’ils se retirent, se mettre proche de lui en une posture trop
-                            <term>libre</term>, figurer avec lui le dos appuyé à une cheminée, le tirer par son
+                        impatiemment qu’ils se retirent, se mettre proche de lui en une posture trop libre, figurer avec lui le dos appuyé à une cheminée, le tirer par son
                         habit, lui marcher sur les talons, faire le familier, prendre des libertés,
                         marquent mieux un fat qu’un favori. <note resp="#LG" type="commentaire"> La Bruyère réalise une éthopée de "Drance" jusqu'à "favori" dans la mesure où il peint les moeurs et le caractère de Drance </note></seg> Un homme sage ni ne se laisse gouverner,
-                        ni ne cherche à gouverner les autres : il veut que la <term>raison</term> gouverne seule
-                        et toujours. Je ne <term>haïrais</term> pas d’être livré par la <term>confiance</term> à une personne
-                        <term>raisonnable</term>, et d’en être gouverné en toutes choses, et absolument, et
+                        ni ne cherche à gouverner les autres : il veut que la <term ref="#raison">raison</term> gouverne seule
+                        et toujours. Je ne haïrais pas d’être livré par la <term ref="#confiance">confiance</term> à une personne
+                        <term ref="#raison">raisonnable</term>, et d’en être gouverné en toutes choses, et absolument, et
                         toujours : je serais sûr de bien faire, sans avoir le son de délibérer ; je
-                        jouirais de la <term>tranquillité</term> de celui qui est gouverné par la <term>raison</term>. </p>
+                        jouirais de la <term ref="#tranquillité">tranquillité</term> de celui qui est gouverné par la <term ref="#raison">raison</term>. </p>
                 </div2>
 
                 <div2 n="72" source="#XIXe_édition #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g>
-                        <seg> Toutes les<term> passions</term> sont menteuses : elles se déguisent autant qu’elles le
+                        <seg> Toutes les<term ref="#passion"> passions</term> sont menteuses : elles se déguisent autant qu’elles le
                         peuvent aux yeux des autres ; elles <pb n="130" source="#Paris_1699_edition_10"></pb> se cachent à 
                         <app>
                         <lem wit="#Paris_1699_edition_10"> elles-mêmes </lem>
                         <rdg wit="#Paris_1690_edition_5"> elles-mesmes</rdg>
                         </app>
                         Il n’y a point
-                        de <term>vice</term> qui n’ait une fausse ressemblance avec quelque <term>vertu</term>, et qui ne s’en
+                        de <term ref="#vice">vice</term> qui n’ait une fausse ressemblance avec quelque <term ref="#vertu">vertu</term>, et qui ne s’en
                             aide.<note resp="#LG" type="commentaire"> À travers la définition satirique que La Bruyère réalise des passions, l'auteur critique les moeurs de son époque. </note> </seg> <pb n="157" source="#Paris_1691_edition_6"></pb></p>
                 </div2>
 
@@ -527,7 +614,7 @@
                         <rdg wit="#Paris_1684_edition_4"> Oseray je</rdg>
                         </app>
                         
-                        dire que le <term>cœur</term> seul concilie
+                        dire que le <term ref="#cœur">cœur</term> seul concilie
                         les choses contraires, et admet les incompatibles 
                         <app>
                         <lem wit="#Paris_1699_edition_10"> ? </lem>
@@ -537,9 +624,9 @@
 
                 <div2 n="74" source="#XIXe_édition #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> 
-                        Les hommes rougissent moins de leurs crimes que de leurs <term>faiblesses</term> et de
-                        leur <term>vanité</term>. Tel est ouvertement injuste, violent, perfide, calomniateur,
-                        qui cache son <term>amour</term> ou son <term>ambition</term>, sans autre
+                        Les hommes rougissent moins de leurs crimes que de leurs <term ref="#faiblesse">faiblesses</term> et de
+                        leur <term ref="#vanité">vanité</term>. Tel est ouvertement injuste, violent, perfide, calomniateur,
+                        qui cache son <term ref="#amour">amour</term> ou son <term ref="#ambition">ambition</term>, sans autre
                         <app>
                             <lem wit="#Paris_1699_edition_10"> vûë </lem>
                         <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1696_edition_9">veuë </rdg>
@@ -559,15 +646,15 @@
                             <lem wit="#Paris_1699_edition_10"> j'étois </lem>
                             <rdg wit="#Paris_1690_edition_5"> j'estois </rdg>
                         </app>
-                        <term>ambitieux</term>" ; ou on ne
+                        <term ref="#ambition">ambitieux</term>" ; ou on ne
                         l’est point, ou on l’est toujours ; mais le temps vient où l’on avoue que
-                        l’on a <term>aimé</term>.</p>
+                        l’on a <term ref="#amour">aimé</term>.</p>
                 </div2>
 
                 <div2 n="76" source="#XIXe_édition #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g>
-                        Les hommes commencent par <term>l’amour</term>, finissent par <term>l’ambition</term>, et ne se
-                        trouvent souvent dans une assiette plus <term>tranquille</term> que lorsqu’ils meurent.
+                        Les hommes commencent par <term ref="#amour">l’amour</term>, finissent par <term ref="#ambition">l’ambition</term>, et ne se
+                        trouvent souvent dans une assiette plus <term ref="#tranquillité">tranquille</term> que lorsqu’ils meurent.
                     </p>
                 </div2>
 
@@ -578,10 +665,10 @@
                         <lem wit="#Paris_1699_edition_10"> coûte </lem>
                         <rdg wit="#Paris_1696_edition_9"> coute </rdg>
                         </app>
-                        moins à la <term>passion</term> que de se mettre au-dessus de la <term>rai <pb n="126" source="#Paris_1699_edition_10"></pb>son</term> :
+                        moins à la <term ref="#passion">passion</term> que de se mettre au-dessus de la <term ref="#raison">rai <pb n="126" source="#Paris_1699_edition_10"></pb>son</term> :
                         son grand triomphe est de l’emporter sur 
                         <app>
-                            <lem wit="#Paris_1699_edition_10"> <term>l'interêt</term> </lem>
+                            <lem wit="#Paris_1699_edition_10"> <term ref="#intérêt">l'interêt</term> </lem>
                         <rdg wit="#Paris_1690_edition_5"> l’interest </rdg>
                         </app>
                         .
@@ -590,20 +677,20 @@
 
                 <div2 n="78" source="#XIXe_édition #Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
-                        L’on est plus sociable et d’un meilleur commerce par le <term>cœur</term> que par
-                        <term>l’esprit</term>. <pb n="151" source="#Paris_1699_edition_4 #Paris_1691_edition_6"></pb>  </p>
+                        L’on est plus sociable et d’un meilleur commerce par le <term ref="#cœur">cœur</term> que par
+                        <term ref="#esprit">l’esprit</term>. <pb n="151" source="#Paris_1699_edition_4 #Paris_1691_edition_6"></pb>  </p>
                 </div2>
 
                 <div2 n="79" source="#XIXe_édition #Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
-                        Il y a de certains grands <term>sentiments</term>, de certaines actions nobles et
+                        Il y a de certains grands <term ref="#sentiment">sentiments</term>, de certaines actions nobles et
                         élevées, que nous devons moins à la force de 
                          <app>
                              <lem wit="#Paris_1699_edition_10"> nostre </lem>
                              <rdg wit="#Paris_1688_edition_1"> nôstre </rdg>
                         <rdg wit="#Paris_1684_edition_4 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9"> nôtre </rdg>
                         </app>
-                        <term>esprit</term> qu’à la <term>bonté</term> de
+                        <term>esprit</term> qu’à la <term ref="#bonté">bonté</term> de
                         <app>
                         <lem wit="#Paris_1688_edition_1"> nôstre </lem>
                         <rdg wit="#Paris_1688_edition_3 #Paris_1690_edition_5 #Paris_1699_edition_10"> nostre </rdg>
@@ -631,7 +718,7 @@
                         <rdg wit="#Paris_1684_edition_4"> denüé </rdg>  
                         <rdg wit="#Paris_1690_edition_5"> dénüé </rdg>
                         </app>
-                        d’<term>esprit</term>, si <term>l’amour</term>, la malignité, la nécessité
+                        d’<term ref="#esprit">esprit</term>, si <term ref="#amour">l’amour</term>, la malignité, la nécessité
                         n’en font pas trouver.</p>
                 </div2>
 
@@ -642,5 +729,7 @@
         </body>
     </text>
 </TEI>
+
+
 
 
