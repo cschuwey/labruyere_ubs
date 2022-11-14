@@ -252,7 +252,7 @@
                 </div2>
                 <div2 source="#Paris_1692_7_1 #Paris_1691_6_1" n="6">
                     <p>  (6) <g ref="#pied_de_mouche"/>
-                        Deux <app><lem>marchands</lem><rdg wit="#Paris_1692_7_1">Marchands</rdg></app> <app><lem>étaient</lem><rdg wit="#Paris_1692_7_1">étoient</rdg></app> voisins et <app><lem>faisaient</lem><rdg wit="#Paris_1692_7_1">faisoient</rdg></app> le même commerce,
+                        Deux <app type="clé"><lem><app><lem>marchands</lem><rdg wit="#Paris_1692_7_1">Marchands</rdg></app></lem><rdg wit="#Cle_Escola">référence au mariage de Jeanne Gilbert, fille d'un marchand de draps et Joseph-Jean Baptiste Fleuriau d'Armenonville, nommé conseiller d'Etat ordinaire et intendant des Finance en 1690</rdg></app> <app><lem>étaient</lem><rdg wit="#Paris_1692_7_1">étoient</rdg></app> voisins et <app><lem>faisaient</lem><rdg wit="#Paris_1692_7_1">faisoient</rdg></app> le même commerce,
                         qui ont eu dans la suite une fortune toute différente.
                         Ils <app><lem>avaient</lem><rdg wit="#Paris_1692_7_1">avoient</rdg></app> chacun une fille unique ;
                         elles ont été nourries ensemble, 
@@ -275,7 +275,7 @@
                 </div2>
                 <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="9">
                     <p> (9) <g ref="#pied_de_mouche"/>
-                        Un homme est laid, de petite taille, et a peu d’esprit<app><lem>.</lem><rdg wit="#Paris_1689_4_1">,</rdg><rdg wit="#Paris_1692_7_1 #Paris_1690_5_1">;</rdg></app>
+                        <app type="clé"><lem>Un homme est laid, de petite taille, et a peu d’esprit</lem><rdg wit="#Cle_Escola">Louis-Charles de Lévi, duc de Ventadour, Pair de France</rdg></app><app><lem>.</lem><rdg wit="#Paris_1689_4_1">,</rdg><rdg wit="#Paris_1692_7_1 #Paris_1690_5_1">;</rdg></app>
                         <app><lem>L’on me dit à l’oreille : "Il</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">l'on me dit à l'oreille, il</rdg></app>  a cinquante mille livres de rente<app><lem>.</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">:</rdg></app>
                         <app><lem>Cela</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">cela</rdg></app> le concerne tout seul, et il ne m’en fera jamais <app><lem>ni pis ni</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">ny pis ny</rdg></app> mieux <app><lem>;</lem><rdg wit="#Paris_1692_7_1">,</rdg></app>
                         si je commence à le regarder avec d’autres yeux, 
@@ -301,7 +301,7 @@
                 </div2>
                 <div2 source="#Paris_1699_10_1" n="12">
                     <p> (12) <g ref="#pied_de_mouche"/>
-                        Je vais<app><lem>,</lem><rdg wit="#Paris_1699_10_1"/></app> <persName>Clitiphon</persName><app><lem>,</lem><rdg wit="#Paris_1699_10_1"/></app> à <app><lem>votre</lem><rdg wit="#Paris_1699_10_1">vôtre</rdg></app> porte <app><lem>;</lem><rdg wit="#aris_1699_10_1">,</rdg></app>  
+                        Je vais<app><lem>,</lem><rdg wit="#Paris_1699_10_1"/></app> <app><lem><persName>Clitiphon</persName></lem><rdg wit="#Cle_Escola">Référence à un ou aux trois petits-fils de Nicolas Le Camus, marchand à l'enseigne du Pélican</rdg></app><app><lem>,</lem><rdg wit="#Paris_1699_10_1"/></app> à <app><lem>votre</lem><rdg wit="#Paris_1699_10_1">vôtre</rdg></app> porte <app><lem>;</lem><rdg wit="#aris_1699_10_1">,</rdg></app>  
                         le besoin que <app><lem>j’ai</lem><rdg wit="#Paris_1699_10_1">j'ay</rdg></app> de vous me chasse de mon lit et de ma chambre : 
                         plût aux Dieux que je ne fusse <app><lem>ni votre client ni votre fâcheux !</lem><rdg wit="#Paris_1699_10_1">ny vôtre client<pb source="#Paris_1699_10_1"/>ny vôtre fâcheaux :</rdg></app> 
                         <app><lem>Vos</lem><rdg wit="#Paris_1699_10_1">vos</rdg></app>  esclaves me disent que vous <app><lem>êtes</lem><rdg wit="#Paris_1699_10_1">étes</rdg></app> enfermé, et que vous ne pouvez m’écouter que d’une heure <app><lem>entière. Je</lem><rdg wit="#Paris_1699_10_1">entiere : je</rdg></app>
@@ -355,7 +355,7 @@
                 </div2>
                 <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="15">
                     <p>  (15) <g ref="#pied_de_mouche"/>
-                        <persName>Sosie de livrée</persName> a passé par une petite recette à une <app><lem>sous-ferme</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">sousferme</rdg></app> <app><lem>;</lem><rdg wit="#Paris_1689_4_1">,</rdg></app>
+                        <app type="clé"><lem><persName>Sosie</persName></lem><rdg wit="#Cle_Escola">Dappougny, fermier général et marguillier à Saint-Jean en gève</rdg><rdg wit="#Cle_Escola">Delpech, fermier général et économe de l'abbaye de Saint-Denys</rdg><rdg wit="#Cle_Escola">Berrier, marguillier à Saint-Eustache</rdg></app> de livrée a passé par une petite recette à une <app><lem>sous-ferme</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">sousferme</rdg></app> <app><lem>;</lem><rdg wit="#Paris_1689_4_1">,</rdg></app>
                         et par les concussions, la violence, et l’abus qu’il a fait de ses pouvoirs, 
                         il s’est enfin, sur les ruines de plusieurs familles, élevé à quelque grade.
                         Devenu noble par une charge, il ne lui manquait que d’être homme de bien :
@@ -365,7 +365,7 @@
                 <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="16">
                     <p>
                         (16) <g source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" ref="#pied_de_mouche"/>
-                        <persName>Arfure</persName> <app><lem>cheminait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">cheminoit</rdg></app> seule et à pied vers le grand portique de Saint <app><lem/><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">**</rdg></app><app><lem>,</lem><rdg wit="#Paris_1689_4_1">;</rdg></app>
+                        <app><lem><persName>Arfure</persName></lem><rdg wit="#Cle_Escola">Mme de Belzani</rdg></app> <app><lem>cheminait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">cheminoit</rdg></app> seule et à pied vers le grand portique de Saint <app><lem/><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">**</rdg></app><app><lem>,</lem><rdg wit="#Paris_1689_4_1">;</rdg></app>
                         <app><lem>entendait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">entendoit</rdg></app> de loin le <app><lem>sermon</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Sermon</rdg></app> d’un <app><lem>carme</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Carme</rdg></app> ou d’un <app><lem>docteur</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Docteur</rdg></app> qu’elle ne <app><lem>voyait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">voyoit</rdg></app> qu’obliquement,
                         et dont elle <app><lem>perdait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1"></rdg></app> bien des paroles<app><lem>. Sa vertu était</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">; sa vertu étoit</rdg></app> obscure,
                         et sa dévotion <app><lem>connue</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">connuë</rdg></app><pb source="#Paris_1689_4_1"/> comme sa personne<app><lem>. Son</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">: son</rdg></app> mari est<pb source="#Paris_1692_7_1"/>
@@ -380,38 +380,38 @@
                 </div2>
                 <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="17">
                     <p>   (17) <g ref="#pied_de_mouche"/>
-                        L’on porte <persName><app><lem>Crésus</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Cresus</rdg></app></persName> au cimetière <note resp="#CP">lieu où on enterre les morts</note> : de toutes ses immenses richesses<app><lem>,</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1"/></app>
+                        L’on porte <app><lem><persName style="italic"><app><lem>Crésus</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Cresus</rdg></app></persName></lem><rdg wit="#Cle_Escola">Aubert</rdg></app> au <app><lem>cimetière</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Cimetiere :</rdg></app> <note resp="#CP">lieu où on enterre les morts</note> : de toutes ses immenses richesses<app><lem>,</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1"/></app>
                         que le vol et la concussion <app><lem>lui avaient</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">luy avoient</rdg></app> acquises,
                         et qu’il a épuisées par le luxe et par la bonne <app><lem>chère</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">chere</rdg></app>,
                         il ne <app><lem>lui</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">luy</rdg></app> est pas demeuré de <app><lem>quoi</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">quoy</rdg></app> se faire enterrer ; 
                         il est mort insolvable, sans biens, et ainsi privé de tous les secours <app><lem>;</lem><rdg wit="#Paris_1692_7_1">:</rdg></app>
-                        l’on n’a vu chez lui ni julep, ni cordiaux, ni médecins, 
-                        ni le moindre docteur qui l’ait assuré de son salut.
+                        l’on n’a <app><lem>vu</lem><rdg wit="#Paris_1692_7_1">vù</rdg><rdg wit="#Paris_1689_4_1">veu</rdg></app> <app><lem> chez lui ni julep, ni cordiaux, ni médecins, ni le moindre docteur</lem><rdg wit="#Paris_1689_4_1">chez luy ni Julep, ni Cordiaux, ni Medecin, ni le moindre Docteur</rdg><rdg wit="#Paris_1692_7_1">chez luy ny Julep, ny Cordiaux, ny Medecin, ny le moindre Docteur</rdg></app>
+                         qui l’ait assuré de son salut.
                     </p>
                 </div2>
                 <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="18">
                     <p>  (18) <g source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" ref="#pied_de_mouche"/>
-                        <persName>Champagne</persName>, au sortir d’un long dîner qui lui enfle l’estomac,
-                        et dans les douces fumées d’un vin d’<placeName>Avenay</placeName> ou de <placeName>Sillery</placeName>,
-                        signe un ordre qu’on lui présente, qui ôterait le pain à toute une province si l’on n’y <app><lem>remédiait.</lem><rdg wit="#Paris_1689_4_1">reme-<pb source="#Paris_1689_4_1"/>dioit</rdg><rdg wit="#Paris_1692_7_1">remedioit</rdg></app>
-                        Il est excusable : quel moyen de <app><lem>comprendre</lem><rdg wit="#Paris_1692_7_1">com-<pb source="#Paris_1692_7_1"/>prendre</rdg></app>, <seg>dans la première heure de la digestion<note resp="#CP">celle qui est juste après manger !</note></seg>,
+                        <app><lem><persName style="italic">Champagne</persName></lem><rdg wit="#Cle_Escola">Monnerot</rdg></app>, au sortir d’un long dîner qui <app><lem>lui</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">luy</rdg></app> enfle l’estomac,
+                        et dans les douces fumées d’un vin d’<placeName style="italic">Avenay</placeName> ou de <placeName style="italic">Sillery</placeName>,
+                        signe un ordre qu’on <app><lem>lui</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">luy</rdg></app> présente, qui <app><lem>ôterait</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">ôteroit</rdg></app> le pain à toute une <app><lem>province</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Province</rdg></app> si l’on n’y <app><lem>remédiait.</lem><rdg wit="#Paris_1689_4_1">reme-<pb source="#Paris_1689_4_1"/>dioit</rdg><rdg wit="#Paris_1692_7_1">remedioit</rdg></app>
+                        Il est excusable <app><lem>:</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">,</rdg></app> quel moyen de <app><lem>comprendre</lem><rdg wit="#Paris_1692_7_1">com-<pb source="#Paris_1692_7_1"/>prendre</rdg></app>, <seg>dans la <app><lem>première</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">premiere</rdg></app> heure de la digestion<note resp="#CP">celle qui est juste après manger !</note></seg>,
                         qu’on puisse quelque part mourir de faim ?
                     </p>
                 </div2>
                 <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1" n="19">
-                    <p>(19) <g source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" ref="#pied_de_mouche"/>
-                        <app type="clé"><lem><persName ref="#Sylvain">Sylvain</persName></lem><rdg wit="#Cle_Escola">Pierre George</rdg></app> de ses deniers acquis de la naissance et un autre nom :
-                        il est seigneur de la paroisse où ses aïeuls payaient la taille <app><lem>;</lem><rdg wit="#Paris_1690_5_1">:</rdg></app>
-                        il n’aurait pu <app><lem>autrefois</lem><rdg wit="#Paris_1690_5_1">au-<pb source="#Paris_1690_5_1"/>trefois</rdg></app> entrer page chez <persName>Cléobule</persName>, et il est son gendre.
+                    <p>(19) <g source="#Paris_1692_7_1 #Paris_1691_6_1" ref="#pied_de_mouche"/>
+                        <app type="clé"><lem><persName ref="#Sylvain" style="italic">Sylvain</persName></lem><rdg wit="#Cle_Escola">Pierre George</rdg></app> de ses deniers <app><lem/><rdg wit="#Paris_1692_7_1">a</rdg></app>acquis de la naissance et un autre nom <app><lem>:</lem><rdg wit="#Paris_1692_7_1">;</rdg></app>
+                        il est <app><lem>seigneur de la paroisse où ses aïeuls payaient la taille</lem><rdg wit="#Paris_1692_7_1">Seigneur de la Paroisse où ses ayeuls payoient la taille</rdg></app> <app><lem>;</lem><rdg wit="#Paris_1690_5_1 #Paris_1692_7_1">:</rdg></app>
+                        il <app><lem>n’aurait pu</lem><rdg wit="#Paris_1692_7_1">n'auroit pû</rdg></app> <app><lem>autrefois</lem><rdg wit="#Paris_1690_5_1">au-<pb source="#Paris_1690_5_1"/>trefois</rdg></app> entrer <app><lem>page</lem><rdg wit="#Paris_1692_7_1">Page</rdg></app> chez <persName style="italic">Cléobule</persName>, et il est son gendre.
                     </p>
                 </div2>
                 <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="20">
                     <p>   (20) <g source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" ref="#pied_de_mouche"/><g source="#Paris_1690_5_1" ref="#PDM_parenthese"/>
-                        <app type="clé"><lem><persName ref="#Dorus">Dorus</persName></lem><rdg wit="#Cle_Escola">Claude Guéguenaud</rdg></app> passe en litière par la <placeName>voie Appienne</placeName>,
-                        précédé de ses affranchis et de ses esclaves,
-                        qui détournent le peuple et font faire place ;
-                        il ne lui manque que des licteurs ; il entre à <placeName>Rome</placeName> avec ce cortège,
-                        où il semble triompher de la bassesse et de la pauvreté de son père <persName>Sanga</persName>.
+                        <app type="clé"><lem><persName ref="#Dorus" style="italic">Dorus</persName></lem><rdg wit="#Cle_Escola">Claude Guéguenaud</rdg></app> passe en litière par la <placeName><app><lem>voie</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">voye</rdg></app> Appienne</placeName>,
+                        précédé de ses affranchis et de ses esclaves<app><lem>,</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1"/></app>
+                        qui détournent le peuple <app><lem/><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">,</rdg></app> et font faire place <app><lem>;</lem><rdg wit="#Paris_1692_7_1">,</rdg></app>
+                        il ne <app><lem>lui</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">luy</rdg></app> manque que des licteurs ; il entre à <app><lem><placeName>Rome</placeName></lem><rdg wit="#Paris_1692_7_1"><placeName style="italic">Rome</placeName></rdg></app> avec ce <app><lem>cortège</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">cortege</rdg></app>,
+                        où il semble triompher de la bassesse et de la pauvreté de son <app><lem>père</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">pere</rdg></app> <persName style="italic">Sanga</persName>.
                     </p>
                 </div2>
                 
@@ -424,4 +424,5 @@
     
     
 </TEI>       
+
 
