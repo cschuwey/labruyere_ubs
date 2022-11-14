@@ -4,7 +4,8 @@
 
     <teiHeader>
 
-        <fileDesc>
+<fileDesc>
+            
             <titleStmt>
                 <title>Les Caractères De Théophraste traduit du Grec avec Les Caractères ou moeurs
                     de ce siècle</title>
@@ -18,7 +19,8 @@
                 <authority>Université de Lorient</authority>
                 <date>2022</date>
             </publicationStmt>
-            <sourceDesc>
+            
+<sourceDesc>
 
                 <biblStruct>
                     <monogr xml:id="Tours_1867">
@@ -54,63 +56,26 @@
                     </monogr>
 
                 </biblStruct>
+                          
+</sourceDesc>
             
-            </sourceDesc>
-            
-            <bibl type="cle"
-                xml:id "..."/>
-            
-            <listPersons>
-                <person sex="H" ag="adult" xml:id="Tite">
-                    <name>
-                        Titus
-                    </name>
-                </person>
-                
-                <person ag="adult" xml:id="Aristippe">
-                    <name>
-                        Aristippe
-                    </name>
-                   
-                   <persName ref="Mle Fodel">
-                   
-                </person>
-                
-                <person sex="H" ag="adult" xml:id="Ambreville">
-                    <name>
-                        Ambreville
-                    </name>
-                </person>
-                
-            </listPersons>
-            
-            <listPlacer></listPlacer>
             
         </fileDesc>
 
-        <encodingDesc>
+<encodingDesc>
 
-            <projectDesc>
+<projectDesc>
 
                 <p> Projet d'édition des Caractères de la Bruyère en intégrant les variantes des
                     versions du livre. Outre le texte de base conventionnel, nous utilisons deux
                     versions : la cinquième et la neuvième. </p>
 
-            </projectDesc>
+</projectDesc>
 
-        </encodingDesc>
+</encodingDesc>
         
-        <classDecl>
-            
-            <taxonomy>
-                
-                <category xml></category>
-                
-            </taxonomy>
-            
-        </classDecl>
-
-        <profileDesc>
+  
+<profileDesc>
 
             <langUsage>
                 <language ident="Fra"/>
@@ -126,16 +91,27 @@
                 <purpose/>
             </textDesc>
 
+<particDesc>
+    
+    <listPerson>
+    
+            <person sex="H" age="adult" xml:id="Tite"><name>Titus</name></person>
+            
+            <person age="adult" xml:id="Aristippe"><name>Aristippe</name><persName ref="Mle Fodel"></persName></person>
+            
+            <person sex="H" age="adult" xml:id="Ambreville"><name>Ambreville</name></person>
+            
+        </listPerson>
+        
+</particDesc>
 
-        </profileDesc>
+</profileDesc>
 
-
-
-        <revisionDesc>
+<revisionDesc>
 
             <change/>
 
-        </revisionDesc>
+</revisionDesc>
 
     </teiHeader>
 
@@ -249,19 +225,12 @@
                         
                         <pb n="449" ed="#Paris-1690"/>
                         
-                        <persName >Tite</persName>, par vingt années de <app><lem>service</lem><rdg>Fervice</rdg></app> dans une <app><lem>seconde</lem><rdg>Feconde</rdg></app> place, n’est pas encore
+                        <persName>Tite</persName>, par vingt années de <app><lem>service</lem><rdg>Fervice</rdg></app> dans une <app><lem>seconde</lem><rdg>Feconde</rdg></app> place, n’est pas encore
                         digne de la première, qui est vacante : <app><lem>ny</lem><rdg>ni</rdg></app> ses <app><lem>talents</lem><rdg>talens</rdg></app>, ni sa doctrine, ni
                         une vie exemplaire, ni les vœux des paroissiens ne sauraient l’y faire
-                        asseoir. Il naît de dessous terre un autre clerc
-                        
-                        <segm><note place="marge" source="#Paris-1690" resp="author" n="clerc">Ecclesiastique</note></segm>
-                        
-                        pour la remplir. <persName >Tite</persName> est
+                        asseoir. Il naît de dessous terre un autre clerc <note place="marge" source="#Paris-1690" resp="author" n="clerc">Ecclesiastique</note> pour la remplir. <persName >Tite</persName> est
                         reculé ou congédié : il ne se plaint pas ; c’est l’usage.
-                    
-                    
-                     <note place="marge" source="#Paris-1696" resp="author" n="clerc">Ecclesiastique</note>
-                    
+                     
                     </p>
             
                 </div2>
@@ -305,7 +274,11 @@
                         félicité, et qu’on ait besoin de gens d’un certain habit, qui par un
                         discours préparé, tendre et pathétique, par de certaines inflexions de voix,
                         par des larmes, par des mouvements qui les mettent en sueur et qui les
-                        jettent dans l’épuisement, fassent enfin consentir un homme chrétien et
+                        jettent dans l’épuisement, fassent 
+                        
+                        <pb n="451" source="#Paris-1690"/>
+                        
+                        enfin consentir un homme chrétien et
                         raisonnable, dont la maladie est sans ressource, à ne se point perdre et à
                         faire son salut ? 
                     
@@ -322,12 +295,7 @@
                         sage, le conseil de toute une ville, fera-t-il de lui-même cette démarche si
                         raisonnable ? y entraînera-t-il sa femme ? ne faudra-t-il point pour les
                         remuer tous deux la machine du directeur ?
-                        
-                        <app><lem wit=""</lem><rdg wit= ""
-                            
-                            
-                            </lem></app>
-                        
+    
                         <note place="marge" resp="transcriber">L'auteur utilise des noms d'origine grecque : ainsi Aristippe. On connait un philosophe antique grec portant ce nom et développant une philosophie du plaisir comme le fit ensuite Epicure.</note>
                     
                     </p>
@@ -370,6 +338,8 @@
 
                 <div2 n="33" source="#Paris-1690, #Paris-1696">
 
+                    <pb n="452" source="#Paris-1690"/>
+
                     <p> Faire une folie et se marier par amourette, c’est épouser <persName>Mélite</persName>, qui est
                         jeune, belle, sage, économe, qui plaît, qui vous aime, qui a moins de bien
                         qu’<persName>Aegine</persName> qu’on vous propose, et qui avec une riche dot apporte de riches
@@ -396,9 +366,14 @@
                         incompréhensible. Mais quelle mauvaise honte fait rougir un homme de sa
                         propre femme, et l’empêche de paraître dans le public avec celle qu’il s’est
                         choisie pour sa compagne inséparable, qui doit faire sa joie, ses délices et
-                        toute sa société ; avec celle qu’il aime et qu’il estime, qui est son
+                        toute 
+                        
+                        <pb n="453" source="#Paris-1690"/>
+                        
+                        sa société ; avec celle qu’il aime et qu’il estime, qui est son
                         ornement, dont l’esprit, le mérite, la vertu, l’alliance lui font honneur ?
-                        Que ne commence-t-il par rougir de son mariage ? Je connais la force de la
+                        Que ne commence-t-il par rougir de son mariage ? 
+                        Je connais la force de la
                         coutume, et jusqu’où elle maîtrise les esprits et contraint les mœurs, dans
                         les choses même les plus dénuées de raison et de fondement ; je sens
                         néanmoins que j’aurais l’impudence de me promener au Cours, et d’y passer en
@@ -414,7 +389,11 @@
                         découvrent qu’elle est la dupe d’un hypocrite et d’un ingrat. Si la fiction
                         est excusable, c’est où il faut feindre de l’amitié ; s’il est permis de
                         tromper, c’est dans une occasion où il y aurait de la dureté à être sincère.
-                        — Mais elle vit longtemps. — Aviez-vous stipulé qu’elle mourût après avoir
+                        — Mais elle vit longtemps. — Aviez-vous stipulé qu’el
+                        
+                        <pb n="454" source="#Paris-1690"/>
+                        
+                        le mourût après avoir
                         signé votre fortune et l’acquit de toutes vos dettes ? N’a-t-elle plus après
                         ce grand ouvrage qu’à retenir son haleine, qu’à prendre de l’opium ou de la
                         ciguë ? A-t-elle tort de vivre ? Si même vous mourez avant celle dont vous
@@ -482,6 +461,8 @@
 
                 <div2 n="41" source="#Paris-1690, #Paris-1696">
 
+                    <pb n="455" source="#Paris-1690"/>
+
                     <p> <persName>Orante</persName> plaide depuis dix ans entiers en règlement de juges pour une affaire
                         juste, capitale, et où il y va de toute sa fortune : elle saura peut-être
                         dans cinq années quels seront ses juges, et dans quel tribunal elle doit
@@ -499,16 +480,15 @@
                         prononcé les plus beaux traits de leurs discours, qui bannit l’éloquence du
                         seul endroit où elle est en sa place, et va faire du Parlement une muette
                         juridiction, on l’autorise par une raison solide et sans réplique, qui est
-                        celle de l’expédition : il est seulement à désirer qu’elle fût moins oubliée
+                        celle de l’expédition : il est seulement à dési
+                        
+                        <pb n="456" source="#Paris-1690"/>
+                        
+                        
+                        rer qu’elle fût moins oubliée
                         en toute autre rencontre, qu’elle réglât au contraire les bureaux comme les
-                        audiences, et qu’on cherchât une fin aux écritures, comme on a fait aux
-                        plaidoyers.
-                        
-                        <note place="marge" source="#Paris-1690" resp="author" n="écritures">Procez par écrit</note>
-                        
-                        <note place="marge" source="#Paris-1696" resp="author" n="écritures">Procez par écrit</note>
-                        
-                        </p>
+                        audiences, et qu’on cherchât une fin aux écritures<note place="marge" source="#Paris-1690" resp="author" n="écritures">Procez par écrit</note><note place="marge" source="#Paris-1696" resp="author" n="écritures">Procez par écrit</note>, comme on a fait aux
+                        plaidoyers. </p>
 
                 </div2>
 
@@ -545,6 +525,8 @@
                 </div2>
 
                 <div2 n="47" source="#Paris-1690, #Paris-1696">
+                    
+                    <pb n="457" source="#Paris-1690"/>
 
                     <p> Il s’en faut peu que la religion et la justice n’aillent de pair dans la
                         république, et que la magistrature ne consacre les hommes comme la prêtrise.
@@ -565,7 +547,11 @@
                         qui ne semble naître et durer que par la confusion et le désordre, a ses
                         préceptes ; on ne se massacre pas par pelotons et par troupes en rase
                         campagne sans l’avoir appris, et l’on s’y tue méthodiquement. Il y a l’école
-                        de la guerre : où est l’école du magistrat ? Il y a un usage, des lois, des
+                        de la guerre : où est l’école du magistrat ? Il y a un 
+                        
+                        <pb n="458" source="#Paris-1690"/>
+                        
+                        usage, des lois, des
                         coutumes : où est le temps, et le temps assez long que l’on emploie à les
                         digérer et à s’en instruire ? L’essai et l’apprentissage d’un jeune
                         adolescent qui passe de la férule à la pourpre, et dont la consignation a
@@ -593,7 +579,11 @@
                         plus, et conséquemment il perd sa somme, ou il est incontestablement déchu
                         de son droit ; or il oubliera cette formalité. » Voilà ce que j’appelle une
                         conscience de praticien. Une belle maxime pour le palais, utile au public,
-                        remplie de raison, de sagesse et d’équité, ce serait précisément la
+                        remplie de rai
+                        
+                        <pb n="459" source="#Paris-1690"/>
+                        
+                        son, de sagesse et d’équité, ce serait précisément la
                         contradictoire de celle qui dit que la forme emporte le fond. </p>
 
                 </div2>
@@ -662,7 +652,12 @@
 
                 <div2 n="57" source="#Paris-1690, #Paris-1696">
 
-                    <p> Il est vrai qu’il y a des hommes dont on peut dire que la mort fixe moins la
+                    <p> Il est vrai qu’il y a des hom
+                        
+                        <pb n="460" source="#Paris-1690"/>
+                        
+                        
+                        mes dont on peut dire que la mort fixe moins la
                         dernière volonté qu’elle ne leur ôte avec la vie l’irrésolution et
                         l’inquiétude. Un dépit, pendant qu’ils vivent, les fait tester ; ils
                         s’apaisent et déchirent leur minute, la voilà en cendre. Ils n’ont pas moins
@@ -681,7 +676,11 @@
 
                     <p> S’il n’y avait point de testaments pour régler le droit des héritiers, je ne
                         sais si l’on aurait besoin de tribunaux pour régler les différends des
-                        hommes : les juges seraient presque réduits à la triste fonction d’envoyer
+                        hommes : les juges seraient presque réduits à la triste fonction 
+                        
+                        <pb n="461" source="#Paris-1690"/>
+                        
+                        d’envoyer
                         au gibet les voleurs et les incendiaires. Qui voit-on dans les lanternes des
                         chambres, au parquet, à la porte ou dans la salle du magistrat ? des
                         héritiers ab intestat ? Non, les lois ont pourvu à leurs partages. On y voit
@@ -701,7 +700,11 @@
                         et le cœur serré de la perte de celui dont il espère recueillir la
                         succession. Un article lui donne la charge, un autre les rentes de la ville,
                         un troisième le rend maître d’une terre à la campagne ; il y a une clause
-                        qui, bien entendue, lui accorde une maison située au milieu de Paris, comme
+                        qui, bien entendue, lui accorde une maison située au milieu de 
+                        
+                        <pb n="462" source="#Paris-1690"/>
+                        
+                        Paris, comme
                         elle se trouve, et avec les meubles : son affliction augmente, les larmes
                         lui coulent des yeux. Le moyen de les contenir ? Il se voit officier, logé
                         aux champs et à la ville, meublé de même ; il se voit une bonne table et un
@@ -735,7 +738,11 @@
                         qui vole l’argent que son maître lui envoie porter ? On aurait tort : y
                         a-t-il de l’infamie à ne pas faire une libéralité, et à conserver pour soi
                         ce qui est à soi ? Etrange embarras, horrible poids que le fidéicommis ! Si
-                        par la révérence des lois on se l’approprie, il ne faut plus passer pour
+                        par la révérence des lois on se 
+                        
+                        <pb n="464" source="#Paris-1690"/>
+                        
+                        l’approprie, il ne faut plus passer pour
                         homme de bien ; si par le respect d’un ami mort l’on suit ses intentions en
                         le rendant à sa veuve, on est confidentiaire, on blesse la loi. — Elle cadre
                         donc bien mal avec l’opinion des hommes ? — Cela peut être ; et il ne me
@@ -823,7 +830,11 @@
                         leurs filles, placent leurs fils aux parlements et dans la prélature, et les
                         railleurs eux-mêmes fournissent l’argent. Ceux qui se portent bien
                         deviennent malades ; il leur faut des gens dont le métier soit de les
-                        assurer qu’ils ne mourront point. Tant que les hommes pourront mourir, et
+                        as
+                        
+                        <pb n="465" source="#Paris-1690"/>
+                        
+                        surer qu’ils ne mourront point. Tant que les hommes pourront mourir, et
                         qu’ils aimeront à vivre, le médecin sera raillé, et bien payé. </p>
 
                 </div2>
@@ -898,6 +909,8 @@
 
                 <div2 n="70" source="#Paris-1690, #Paris-1696">
 
+                    <pb n="466" source="#Paris-1690"/>
+
                     <p> Que penser de la magie et du sortilège ? La théorie en est obscure, les
                         principes vagues, incertains, et qui approchent du visionnaire ; mais il y a
                         des faits embarrassants, affirmés par des hommes graves qui les ont vus, ou
@@ -927,6 +940,8 @@
                         de désirs, et que l’on est déterminé à de longs travaux par ceux de qui l’on
                         dépend. Je suis persuadé que le petit nombre d’habiles, ou le grand nombre
                         de gens superficiels, vient de l’oubli de cette pratique. </p>
+                    
+                    <pb n="467" source="#Paris-1690"/>
 
                 </div2>
 
