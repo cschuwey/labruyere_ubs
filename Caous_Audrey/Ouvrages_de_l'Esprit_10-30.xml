@@ -399,7 +399,7 @@
                             louer. Que ne disiez-vous seulement :« Voilà un bon livre » ? Vous le dites,
                             il est vrai, avec toute la <placeName ref="France"><name>France</name></placeName>, avec les étrangers comme avec vos
                             compatriotes, quand il est imprimé par toute <placeName ref="Europe"><name>Europe</name>l’Eu<pb n="105" source="Paris_1694_8"/>rope</placeName> et qu’il est traduit
-                            en plusieurs langues <pb n="109" source="#Paris_1692_7"/> : il n’est plus temps.</lem> <rdg wit="#Paris_1688_1 #Paris_1688_3"> </rdg></app> <app><lem wit="#Paris_1694_8">approu<pb n="104" source="#Paris_1694_8"/></lem></app><pb n="108" source="#Paris_1692_7"/>vé</lem> <rdg wit="#Paris_1689_4">aprouvé</rdg></app> cet ouvrage, et que le public est de leur avis.</rdg></app>
+                            en plusieurs langues <pb n="109" source="#Paris_1692_7"/> : il n’est plus temps.</lem> <rdg wit="#Paris_1688_1 #Paris_1688_3"> </rdg></app> <app><lem wit="#Paris_1694_8">approu<pb n="104" source="#Paris_1694_8"/></lem></app><pb n="108" source="#Paris_1692_7"/>vé</lem> <rdg wit="#Paris_1689_4">aprouvé</rdg></app> cet ouvrage, et que le public est de leur avis.
                     </p>
                 </div2>
 
@@ -544,5 +544,7 @@
         </body>
     </text>
 </TEI>
+
+
 
 
