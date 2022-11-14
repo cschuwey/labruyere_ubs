@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0"> 
     
     <teiHeader>
@@ -16,6 +15,8 @@
                     <name> Elise Vasselin </name>
                     <resp>éditrice</resp>
                 </respStmt>
+                <!-- je note l'identité de Jean de la Bruyère même s'il n'y a 
+                    pas de notes de sa part dans les vingts remarques sélectionnées.-->
                 <respStmt xml:id="JB"> 
                     <name> Jean de la Bruyère </name>
                     <resp>auteur</resp>
@@ -29,7 +30,8 @@
             
             <sourceDesc>
                 <biblStruct>
-                    
+                    <!-- édition trouvée en librairie, date de publication de cet exemplaire 1
+                        difficile de connaissance, supposément étant celle de 1869 après avoir consulté la BNF-->
                         <monogr xml:id="Paris_unknown">
                             <title> Les caractères ou les moeurs de ce siècle. </title>
                              <author> Jean de La Bruyère </author>
@@ -37,7 +39,7 @@
                             <note> Suivis du discours à l'académie et de la traduction de Théophrase précédés d'une introduction 
                                 par M. Sainte-Beuve. Nouvelle édition enrichie de nombreux dessins dans le texte par Pinguilly, Granville, J. David, etc. </note>
                            <edition>nouvelle édition </edition>
-                            <idno> Librairie Garnier Frères </idno>
+                            <idno> une librairie nantaise et l'aide de la BNF </idno>
                             <imprint xml:id="Paris_unknown_1"> 
                                 <pubPlace> 6, rue des Saints-Pères,6 Paris </pubPlace>
                                 <distributor> Librairie Garnier Frères </distributor> 
@@ -90,7 +92,7 @@
                             <imprint xml:id="Paris_1699_10_1"> 
                                 <pubPlace> ruë St Jacques à l'Image St Paul, Paris </pubPlace>
                                 <distributor> Estienne Michallet </distributor>
-                                <note> deux tampons ajoutés dont l'un de la "city of washignton" </note>
+                                <note> deux tampons ajoutés dont l'un de la "City of Washignton" </note>
                                 <date> 1699 </date>  
                             </imprint>
                         </monogr>
@@ -99,9 +101,13 @@
             
             
                 <listPerson> 
-                       <person xml:id="Théophile"> <name> Théophile </name></person>
-                       <person xml:id="Théagène"> <name>Théàgène </name></person>
-                       <person xml:id="Téléphon"> <name>Théléphon</name> </person>
+                    
+                       <person xml:id="Théophile"> <name> Théophile, 
+                           Gabriel de Roquette, 1623-1707</name></person>
+                       <person xml:id="Théagène"> <name>Théàgène, 
+                           Phillipe de Vendôme, 1655-1727</name></person>
+                       <person xml:id="Téléphon"> <name>Théléphon,
+                           Monsieur de la Feuillade ou Louis d'Aubasson ?</name></person>
                        <person xml:id="Socrate"> <name>Socrate </name> </person>   
                        <person xml:id="Philante"> <name> Philante</name> </person>  
                        <person xml:id="Aristide"> <name> Aristide</name> </person>
@@ -154,8 +160,11 @@
             <editorialDecl>
                 <normalization>
                     <p>
-                        On choisit le texte actuel de La Bruyère que l'on compare majoritairement avec la première édition et la septième, pour bien voir les évolutions.
-                        On choisit aussi une édition trouvée dans une librairie d'occasion, mais cette édition n'est pas datée, ou alors cela a été effacé. On l'estime cependant entre la troisième et la septième édition.
+                        On choisit le texte actuel de La Bruyère (soit l'édition 10) que l'on compare majoritairement avec la première édition et 
+                        la septième, pour bien voir les évolutions.
+                        On choisit aussi une édition trouvée dans une librairie d'occasion, 
+                        mais cette édition n'est pas datée, ou alors cela a été effacé dans l'exemplaire choisi.
+                        On l'estime cependant entre la troisième et la septième édition.
                     </p>
                 </normalization>
             </editorialDecl>
@@ -179,29 +188,30 @@
         
         
     </teiHeader>   
-    <!--Absence de note, de note manuscrite et de mot en langue étrangère-->
+    <!--Absence de notes, de notes manuscrites et de mots en langue étrangères-->
     <text>
         
         <front> 
-            
+            <!-- on prend les information de l'édition 10 exempalire 1-->
             <titlePage>
                 <docTitle>
-                    <titlePart type="main">Les caractères ou les moeurs de ce siècle </titlePart>
-                    <titlePart style="bold_black"> Les caractères de Théophraste </titlePart>
+                    <titlePart type="main">Les caractères de Théophraste </titlePart>
+                    <titlePart type="sub">traduits du grec. </titlePart>
+                    <titlePart style="italic"> AVEC </titlePart>
                     <titlePart style="bold_black"> Les caractères ou les moeurs </titlePart>
-                    <titlePart type="sub">Les caractères de Théophraste traduits du grec : avec </titlePart>
+                    <titlePart style="sub"> de ce siècle. </titlePart>
                 </docTitle>
-                <docEdition n="1"> première édition </docEdition>
+                <docEdition n="10"> dixième édition </docEdition>
                 <byline>Par <docAuthor> Jean de la Bruyère </docAuthor>
                 </byline>
                 <docImprint>
-                    <name>PARIS</name>, <name> Estienne Michallet </name> 
+                    <placeName>PARIS</placeName>, <name> Estienne Michallet </name> 
                     <name> ruë St Jacques, à l'Image saint Paul</name>
                 </docImprint>
-                <docDate when="1688">MDCLXXXVIII</docDate>  
+                <docDate when="1699">M. DC. XCIX.</docDate>  
                 <imprimatur style="italique"> Avec privilèges de sa Majesté </imprimatur>
                 
-                <docAuthor source="#Paris_1688_1">  </docAuthor>
+                <docAuthor source="#Paris_1699_1">  </docAuthor>
             </titlePage>
             
         </front>
@@ -229,7 +239,7 @@
                         La prévention du peuple en faveur 
                         <app>
                         <lem> des grands est si aveugle </lem>
-                        <rdg wit="#Paris_1688_1"> de ses Princes est si aveugle</rdg> 
+                        <rdg wit="#Paris_1688_1"> de ses Princes est si aveugle </rdg> 
                         </app>
                         et l’entêtement pour leur geste, leur visage, 
                         leur ton de voix et leurs manières si général, que, s’ils s’avisaient d’être bons, cela irait 
@@ -249,7 +259,8 @@
                         Si vous êtes né vicieux, ô 
                         <app type="clé"> <lem wit="#Paris_1692_7"> 
                         <persName ref="#Théagène">Théagène</persName> 
-                        </lem> <rdg wit="#Paris_1692_7_1"> texte d'Escola </rdg> </app>
+                        </lem> <rdg wit="#Paris_1699_10_1" resp="#Escola_clés_Bruyère"> "Tardive, la remarque serait "un conseil 
+                            discrètement et indirectement donné par l'auteur à son ancien élève", qui avait alors 23 ans. (Servois, ii, 450.)"</rdg> </app>
                         , je vous plains ; 
                         si vous le devenez par faiblesse pour ceux qui ont 
                         intérêt que vous le soyez, qui ont juré entre eux de vous corrompre, et qui se vantent 
@@ -404,8 +415,11 @@
                     <div2 n="7" source="#Paris_unknown #Paris_1692_7 #Paris_1699_10">   
                     <p>
                     <g ref="#p_d_m_1"></g>
-                        « Il est vieux et usé, dit un grand ;
-                        <app>
+                        « Il est vieux et usé, dit un 
+                        <app> <lem> grand ; </lem><rdg wit="#Paris_1699_10_1" resp="#Escola_clés_Bruyère"> "Louis XIV est donné par les clés du XVIIIème siècle 
+                            comme l'exemple même de ces "grands", et Louvois comme un des "serviteurs" qui fut peu regretté. Louvois mourrut en 1691, soit deux ans
+                            après l'apparition de la remarque."</rdg>
+                        </app><app>
                         <lem> il s’est crevé à me suivre : qu’en faire ? » </lem>
                             <note type= "glossaire" resp= "#EV" source ="#Paris_unknown #Paris_1692_7"> 
                            Comme souvent entre les sept premières éditions et la dixième, la ponctuation varie : les deux 
