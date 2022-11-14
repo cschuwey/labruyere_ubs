@@ -216,9 +216,23 @@
                     </monogr>
                 </biblStruct>
                 <listPerson xml:id="pers_reel">
+                    <person xml:id="archeveque_de_Paris">
+                        <persName>l'archevêque de <placeName ref="#Paris">Paris</placeName></persName>
+                    </person>
                     <person xml:id="Bazins">
                         <persName>Les Bazins</persName>
-                        <note>nom de famille</note>
+                        <note>nom de famille pouvant faire référence à <persName ref="#Bazins_1">Claude Bazin</persName> ou son fils <persName ref="#Bazins_2">Louis Bazin de Bezons</persName>.</note>
+                    </person>
+                    <person xml:id="Bazins_1">
+                        <persName>Claude Bazin de Bezons</persName>
+                        <birth>1617</birth>
+                        <death>1684</death>
+                        <note>académicien, père de Louis Bazin de Bezons</note>
+                    </person>
+                    <person xml:id="Bazins_2">
+                        <persName>Louis Bazin de Bezons</persName>
+                        <death>1700</death>
+                        <note> agistrat et haut fonctionnaire français, fils de <persName ref="#Bazins_1">Claude Bazin de Bezons</persName>.</note>
                     </person>
                     <person xml:id="GdB">
                         <persName>Godefroy de Bouillon</persName>
@@ -231,9 +245,16 @@
                         <note>personnage connu de l'Histoire de <placeName ref="#France">France</placeName>, ils n'ont cependant aucun
                             lien de parenté.</note>
                     </person>
+                    <person xml:id="Bourbon">
+                        <persName>Bourbon</persName>
+                        <note>scindée en plusieurs branches, cette maison a, entre autres, donné la dynastie du même nom dont sont issus plusieurs rois en <placeName ref="#Europe">Europe</placeName>.</note>
+                    </person>
                     <person xml:id="Camus">
                         <persName>Le Camus</persName>
-                        <note>nom de famille</note>
+                        <note>nom de famille. Plus tôt dans l'oeuvre dans "Des Biens de Fortune", ils sont appelés par la clé (le nom fictif) "Clitiphon".</note>
+                    </person>
+                    <person xml:id="cardinal_Bouillon">
+                        <persName>cardinal de Bouillon</persName>
                     </person>
                     <personGrp xml:id="Carracci">
                         <persName>Carrachi</persName>
@@ -259,15 +280,88 @@
                         <birth>1555</birth>
                         <death>1619</death>
                     </person>
-                    <person xml:id="Celessins">
-                        <persName>Celessins</persName>
+                    <person xml:id="Célestins">
+                        <persName>Célestins</persName>
+                        <note>type de croyants</note>
+                    </person>
+                    <person xml:id="chevalier_Lorraine">
+                        <persName>chevalier de <placeName ref="#Lorraine">Lorraine</placeName></persName>
+                    <birth>1643</birth>
+                    <death>1702</death>
+                        <note> maréchal de camp (<date>1688</date>) et célèbre favori du <persName ref="#Phil_Orleans">duc d'Orléans</persName>; il était aussi abbbé de <placeName ref="#St_Jean_des_Vignes_">Saint-Jean des Vignes à <placeName ref="#Soissons">Soissons</placeName></placeName>, de l'abbaye de <placeName ref="#Tiron">Tiron</placeName>, de celles de <placeName ref="#St_Pere_en_Vallée">Saint-Père en Vallée</placeName> et de <placeName ref="#Fleury_sur_Loire">Fleury-sur-Loire</placeName></note>
+                    </person>
+                    <person xml:id="Delrieu">
+                        <persName>Delrieu</persName>
+                        <note>Maître d'hôtel du roi</note>
+                    </person>
+                    <person xml:id="princes_condé">
+                        <persName>Princes de Condé</persName>
+                        <note>princes apaprtenant à une branche cadette de la maison de <persName ref="#Bourbon">Bourbon</persName>.</note>
+                    </person>
+                    <person xml:id="enfants_roi_soleil">
+                        <persName>Enfants de <persName ref="#roi_soleil">Louis XIV</persName></persName>
+                    </person>
+                    <person xml:id="Fremont">
+                        <persName>Frémont</persName>
                         <note>nom de famille</note>
+                    </person>
+                    <person xml:id="Jesuites">
+                        <persName>Jésuites</persName>
+                        <note>type de croyants</note>
+                    </person>
+                    <person xml:id="Laugeois">
+                        <persName>Laugeois</persName>
+                        <note>fils du receveur aux confiscations du <placeName ref="#Chatelet">Châtelet</placeName>, qui se faisait appeler <persName ref="#Laugeois">d'Imbercourt</persName></note>
+                    </person>
+                    <person xml:id="Lorenzani">
+                        <persName>Lorenzani</persName>
+                    </person>
+                    <person xml:id="Louis_de_Fr">
+                        <persName>Louis de France</persName>
+                        <birth>1661</birth>
+                       <death>1711</death>
+                        <note>fils de <persName ref="#roi_soleil">Louis XIV</persName>, il est compris dans le groupe des <persName ref="#enfants_roi_soleil">"enfants de France"</persName>. Il n'a jamais régné car il est décédé avant de pouvoir le faire et alors que son père <persName ref="#roi_soleil"/> était encore en vie.</note>
                     </person>
                     <person xml:id="Hozier">
                         <persName>D'Hozier</persName>
                         <note>nom de famille célèbre de généalogistes. Le chef de cette famille a
                             d'ailleurs écrit un ouvrage de 150 volumes manuscrits et conservés dans
                             la Bibliothèque impériale.</note>
+                    </person>
+                    <person xml:id="marechal_Tourville">
+                        <persName>maréchal de Tourville</persName>
+                    </person>
+                    <person xml:id="marechal_Lorges">
+                        <persName>maréchal de de Lorges</persName>
+                    </person>
+                    <person xml:id="Nicolai">
+                        <persName >Nicolaï</persName>
+                        <note>marquis de <placeName ref="#Goussainville">Goussainville</placeName>, président de la Chambre des comptes depuis <date>1686</date>.</note>
+                    </person>
+                    <person xml:id="roi_soleil">
+                        <persName>Louis XIV</persName>
+                        <birth>1638</birth>
+                        <death>1715</death>
+                        <note>Communément considéré comme le plus célèbres des rois de France, frère de <persName ref="#Phil_Orleans">Philippe d'Orléans</persName></note>
+                    </person>
+                    <person xml:id="Phil_Orleans">
+                        <persName>Philippe d'Orléans</persName>
+                        <death>1701</death>
+                        <note>frère de <persName ref="#roi_soleil">Louis XIV</persName></note>
+                    </person>
+                    <person xml:id="St_Simon">
+                        <persName>Louis de Rouvroy, duc de Saint-Simon</persName>
+                        <note>mémorialiste ayant revu les "Caractères" de la Bruyère pour en déduire les différentes clés.</note>
+                    </person>
+                    <person xml:id="Seignelay">
+                        <persName>Seignelay</persName>
+                    </person>                    
+                    <person xml:id="Servois">
+                        <persName>Gustave Servois</persName>
+                        <note>Editeur à l'origine de nouvelles éditions des "Caractères" de la Bruyère ayant notamment fourni des clés pour aider à comprendre l'oeuvre.</note>
+                    </person>
+                    <person xml:id="Sonning">
+                        <persName>Sonning ou Sonnin ou Sonningen</persName>
                     </person>
                 </listPerson>
                 <listPerson xml:id="pers_fictive">
@@ -299,7 +393,31 @@
                             de la beauté féminine dans la mythologie romaine.</note>
                     </person>
                 </listPerson>
+                <listPerson xml:id="clé">
+                    <person xml:id="Clitiphon">
+                        <persName>Clitiphon</persName>
+                        <note>nom à clé donné plusieurs fois aux <persName ref="#Camus">Le Camus</persName></note>
+                    </person>
+                </listPerson>
                 <listPlace>
+                    <place xml:id="Chatelet">
+                        <placeName>Châtelet</placeName>
+                    </place>
+                    <place xml:id="Comedie">
+                        <placeName ref="#Comedie">Comédie</placeName>
+                    </place>
+                    <place xml:id="Europe">
+                        <placeName>Europe</placeName>
+                    </place>
+                    <place xml:id="Goussainville">
+                        <placeName>Goussainville</placeName>
+                    </place>
+                    <place xml:id="Lorraine">
+                        <placeName>Lorraine</placeName>
+                    </place>
+                    <place xml:id="Fleury_sur_Loire">
+                        <placeName>Fleury-sur-Loire</placeName>
+                    </place>
                     <place xml:id="France">
                         <country><placeName>France</placeName></country>
                     </place>
@@ -312,6 +430,9 @@
                     <place xml:id="Lyon">
                         <placeName>Lyon</placeName>
                     </place>
+                    <place xml:id="Opera">
+                        <placeName>l'Opéra</placeName>
+                    </place>
                     <place xml:id="palais_farnese">
                         <placeName>Palais Farnèse</placeName>
                         <note>palais dont les plans, les décorations et les fresques ont été
@@ -323,10 +444,27 @@
                     <place xml:id="Paris">
                         <placeName>Paris</placeName>
                     </place>
+                    <place xml:id="Soissons">
+                        <placeName>Soissons</placeName>
+                    </place>
+                    <place xml:id="St_Jean_des_Vignes">
+                        <placeName>Saint-Jean des Vignes</placeName>
+                    </place>
+                    <place xml:id="St_Pere_en_Valee">
+                        <placeName>Saint-Père en Vallée</placeName>
+                    </place>
                     <place xml:id="Terre_sainte">
                         <placeName>Terre Sainte</placeName>
                     </place>
                 </listPlace>
+                <listObject>
+                    <object xml:id="Mercure_Galant">
+                        <objectIdentifier>
+                            <msName>Mercure Galant</msName>
+                        </objectIdentifier>
+                        <note>revue française fondée en <date>1672</date> et qui après plusieurs formules et équipes éditoriales, disparaît en 1965</note>
+                    </object>
+                </listObject>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -592,6 +730,9 @@
                     fonction dans le "encodingDesc"</p>
                 <p>Tentative d'ajout de clés dans le fichier mais difficile à appliquer dans mes
                     caractères.</p>
+                <date>2022.11.14</date>
+                <p>Ajout de clés pour les caractères concernés.</p>
+                <p>Trois requêtes XPath ont été effectuées comme les devoirs le demandent.</p>
             </change>
         </revisionDesc>
     </teiHeader>
@@ -782,8 +923,8 @@
                 <div2
                     source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"
                     n="5">
-                    <p><g ref="#pied_de_mouche"/><seg>Quelle est la roture un peu heureuse <app>
-                                <lem>et</lem>
+                    <p><g ref="#pied_de_mouche"/><seg>Quelle est la roture un peu heureuse
+                        <app><lem>et</lem>
                                 <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                             </app>établie à qui il manque des<note type="ajout_manuscrit"
                                 place="droite" resp="#lecteurice" hand="inconnue"
@@ -814,13 +955,14 @@
                                 >quelques-uns même ne vont pas la chercher</lem>
                             <rdg
                                 wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"
-                                    ><note>
-                                        
-                                    </note>
-                                <persName ref="Camus">Le Camus</persName></rdg>
+                                    ><note type="clé">
+                                        allusion au pélican que portent pour armes MM. <persName ref="#Camus">Le Camus</persName>, selon les clés du XVIIIème siècle. Sur les trois <persName ref="#Camus">Le Camus</persName>, <p style="#italic">cf.</p> "Des Biens de Fortune", <g ref="#pied_de_mouche"/>12 <persName ref="#Clitiphon" style="#italic">Clitiphon</persName> et clé.</note>
+                                <note type="clé">L'attaque vise plutôt, selon <persName ref="#Servois">Servois</persName> (III-1, 375), les <persName ref="#Bazins">Bazins</persName> qui avaient pris pour armes les trois couronnes de leur enseigne.</note>
+                                <note type="clé"><p style="#italic">Cf. </p><persName ref="#St_Simon">Saint-Simon</persName> (IV, 690; V, 662). <persName ref="#Bazins_1">Claude Bazin</persName>, sieur de <persName ref="#Bazins">Besons</persName>.</note>
+                                </rdg>
                             <rdg
                                 wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"
-                                    ><persName ref="Bazins">les Bazins</persName></rdg>
+                                    ><persName ref="#Bazins">les Bazins</persName></rdg>
                         </app> fort loin, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
@@ -885,12 +1027,21 @@
                     source="#Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"
                     n="8">
                     <p><g ref="#pied_de_mouche"/>Les grands en toutes choses se <g
-                            ref="#manicule_gauche" source="#Paris_1694_8_2"/> forment <app>
+                            ref="#manicule_gauche" source="#Paris_1694_8_2"/> forment
+                        <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app> se moulent sur de plus grands, qui de leur part, pour n’avoir rien de
-                        commun avec leurs inférieurs, renoncent volontiers à toutes les rubriques
-                        d’honneurs <app>
+                        commun avec leurs inférieurs, <app type="clé"><lem wit="#Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">renoncent volontiers à toutes les rubriques
+                            d’honneurs</lem>
+                            <rdg wit="#Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">
+                                <note type="clé">
+                                    "Allusion à ce que feu Monsieur [<persName ref="#Phil_Orleans">Philippe d'Orléans</persName>, frère de <persName ref="#roi_soleil">Louis XIV</persName>, mort en 1701], pour s'approcher de <persName ref="#Louis_de_Fr">Monseigneur le Dauphin</persName>, ne voulut plus qu'on le traîtat d'<p style="#italic">Altesse Royale</p>, mais qu'on lui parlât par <p style="#italic">Vous</p>, comme l'on faisait à <persName ref="#roi_soleil">Monseigneur</persName> et aux <persName ref="#enfants_roi_soleil">enfants de France</persName>. Les autres <persName ref="#enfants_roi_soleil">princes</persName>, à son exemple, ne veulent pas êtres traités d'<p style="#italic">Altesse Royale</p> mais simplement de <p style="#italic">Vous</p>."
+                                    <p style="#italic">Cf. </p> <persName ref="#St_Simon">Saint-Simon</persName> (I, 518; III, 441 et index).
+                                </note>
+                                <note type="clé">Faut-il penser, avec <persName ref="#Servois">Servois</persName> (III-1, 377), que les <persName ref="#princes_condé"></persName>princes de Condé, que fréquentait <persName ref="#auteur">La Bruyère</persName>, étaient de ceux qui avaient volontiers "renonc[é] à toutes les rubriques d'honneur" ?.</note>
+                            </rdg></app>
+                        <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app>de distinctions dont leur condition se trouve chargée, <app>
@@ -912,8 +1063,7 @@
                     n="9">
                     <p><g ref="#pied_de_mouche"/><seg>Certaines gens portent trois noms, de peur
                             d’en manquer<note type="ajout_manuscrit" place="droite"
-                                resp="#lecteurice" hand="inconnue" source="#Paris_1694_8_2">mrs del
-                                rieu maisre dozel du roy Loyeois sonnin (illisible)</note></seg> :
+                                resp="#lecteurice" hand="inconnue" source="#Paris_1694_8_2">mrs <persName ref="#Delrieu">delrieu</persName> maisre dozel du roy Loyeois sonnin </note></seg> :
                         ils en ont pour la campagne <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
@@ -933,7 +1083,12 @@
                         l’ombre des <seg>clochers de <placeName ref="#Paris">Paris</placeName>,
                             veulent être Fla-<note type="ajout_manuscrit" place="gauche"
                                 resp="#lecteurice" hand="inconnue" source="#Paris_1694_8_2"
-                                >niacalaïx? (illisible)</note></seg>mands ou Italiens, comme si la
+                                >niacalaïx? (illisible)</note></seg>mands ou 
+                        <app type="clé"><lem wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">Italiens</lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">
+                                <note type="clé">Aux noms de famille s'ajoutaient les noms de seigneurerie et les surnoms. Les clés citent divers nons, dont celui de <persName ref="#Delrieu">Delrieu</persName>, maître d'hôtel du roi, qui se faitait nommer <persName ref="#Delrieu">de Rieu</persName>; celui de <persName ref="#Laugeois">Laugeois></persName>, fils du receveur aux confiscations du <placeName ref="#Chatelet">Châtelet</placeName>, qui se faisait appeler <persName ref="#Laugeois">d'Imbercourt</persName> (<p style="#italic">cf.</p> "Des Biens de Fortune, <g ref="#pied_de_mouche"/> 23); celui de <persName ref="#Sonning">Sonning</persName> ou <persName ref="#Sonning">Sonnin</persName>, qui se faisait nommer <persName ref="Sonning">de Sonningen</persName>; celui de
+                                    <persName ref="#Nicolai">Nicolaï</persName>, marquis de <placeName ref="#Goussainville">Goussainville</placeName>, président de la Chambre des comptes depuis <date>1686</date>, dont on prétendait qu'il avait "habillé son nom à l'italienne" en changeant le <p style="#italic">s</p> de Nicolas en <p style="#italic">i</p>.</note>
+                            </rdg></app>, comme si la
                         roture n’était pas de tout pays, allongent <pb n="572"
                             source="#Paris_1692_7"/> leurs noms français d’une terminaison
                         étrangère, <app>
@@ -947,9 +1102,15 @@
                     n="10">
                     <p><g ref="#pied_de_mouche"/><lb/> Le <app>
                             <lem>besoin</lem>
-                        </app> d’argent a récon- <lb source="#Paris_1688_3"/>cilié la <app>
+                    </app> d’argent a <app type="clé"><lem wit="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #Paris_1699_10">récon- <lb source="#Paris_1688_3"/>cilié la <app>
                             <lem>noblesse</lem>
-                        </app> avec la rotu- <lb source="#Paris_1688_3"/>re, <app>
+                        </app> avec la rotu- <lb source="#Paris_1688_3"/>re,</lem>
+                        <rdg wit="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #Paris_1699_10">
+                            <note type="clé">Les clés citent plusieurs exemples : le mariage du <persName ref="#marechal_Tourville">maréchal de Tourville</persName> avec Mademoiselle <persName ref="#Laugeois">Laugeois</persName>
+                                (<p style="#italic">cf.</p> "Des Biens de Fortune", <g ref="#pied_de_mouche"/> 23) ou celui du <persName ref="#marechal_Lorges">maréchal de Lorges</persName> avec Mademoiselle <persName ref="#Fremont">Frémont</persName> (<p style="#italic">cf.</p> "Des Biens de Fortune", <g ref="#pied_de_mouche"/> 5).</note>
+                        </rdg>
+                    </app>
+                        <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10"
                                 >&amp;</rdg>
@@ -986,15 +1147,19 @@
                             franchises, immunités, exemptions, privilèges, que manque-t-il à ceux
                             qui ont un titre ? Croyez-vous<note type="ajout_manuscrit"
                                 place="droite" resp="#lecteurice" hand="inconnue"
-                                source="#Paris_1694_8_2"><persName ref="#Celessins">Les
+                                source="#Paris_1694_8_2"><persName ref="#Celestins">Les
                                     Celessins</persName> de <placeName ref="#Paris"
-                                    >paris</placeName> le long pais</note></seg> que ce soit pour la
-                        noblesse que des solitaires<note type="originale" style="astérisque"
+                                        >paris</placeName> le long pais</note></seg> que ce soit pour la noblesse que des solitaires
+                        <note type="originale" style="astérisque"
                             place="gauche" resp="#editeur" source="#Paris_1692_7">Maison Religieuse
                             Secrétaire du Roy</note> se sont faits nobles ? ils ne sont pas si vains
                         : c’est pour le profit qu’ils en reçoivent. Cela ne leur sied-il pas mieux
                         que d’entrer dans les gabelles ? je ne dis pas à chacun en particulier,
-                        leurs vœux s’y opposent, je dis même à la communauté.</p>
+                        leurs <app type="clé"> <lem wit="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">vœux</lem>
+                            <rdg wit="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">
+                                <note type="clé">Selon la clée imprimée : "les <persName ref="#Jesuites">Jésuites</persName> et les <persName ref="#Celestins">Célestins</persName>; ces derniers [qui faisaient voeu de pauvreté] jouissaient des mêmes privilèges que les secrétaires du roi."</note>
+                            </rdg></app>
+                         s’y opposent, je dis même à la communauté.</p>
                 </div2>
 
                 <div2
@@ -1046,8 +1211,15 @@
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10"
                                 >&amp;</rdg>
-                        </app>incompréhensibles. Qui peut concevoir en effet que certains abbés, à
-                        qui il ne manque rien de l’ajustement, de la mollesse <app>
+                        </app>incompréhensibles. Qui peut concevoir en effet que certains 
+                        <app type="clé"><lem wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">abbés</lem><rdg wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"><note type="clé">
+                            L'un des abbés désignés serait, selon plusieurs clés manuscrites, le <persName ref="#chevalier_Lorraine">chevalier de Lorraine</persName>
+                            (<persName ref="#St_Simon">Saint-Simon</persName>, III, 287-288; VI, 242-243, et index).</note>
+                            <note type="clé">Dans la dénonciation du <p style="#italic">jeune abbé en velours gris</p>, <persName ref="#Servois">Servois</persName> (III-1, 382) voit une allusion au 
+                                <persName ref="#cardinal_Bouillon">cardinal de Bouillon</persName>, souvent cité par ailleurs dans les clés.</note>
+                        </rdg></app>
+                        , à qui il ne manque rien de l’ajustement, de la mollesse
+                        <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10"
                                 >&amp;</rdg>
@@ -1196,7 +1368,10 @@
                         couvre les mystères, témoins d’une telle indécence ? Quoi ? parce qu’on ne
                         danse pas encore aux TT…<note type="originale" style="double_astérisque"
                             resp="#editeur" source="#Paris_1694_8_2"/>, me forcera-t-on d’appeler
-                        tout ce spectacle office d’Eglise ?</p>
+                        tout ce <app type="clé"><lem wit="#Paris_1694_8 #Paris_1694_8_2 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">spectacle</lem><rdg wit="#Paris_1694_8 #Paris_1694_8_2 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">
+                            <note type="clé_manuscrite">"La musique des pères théatins, dont ils ont fait tant de différents concerts. C'était <persName ref="#Lorenzani">Lorenzani</persName> qui était auteur de cette musique, qui a scandalisé tout <placeName ref="#Paris">Paris</placeName>. Les places étaient louées comme à la <placeName ref="#Comedie">Comédie</placeName>ou à <placeName ref="#Opera">l'Opéra</placeName>."</note>
+                        <note type="clé">Les saluts en musique, commencés vraisemblablement en <date>1685</date>, ont fait l'objet de compte-rendus dans le <objectName ref="#Mercure_Galant" style="#italic">Mercure Galant</objectName> en <date>1691</date> (cités par <persName ref="#Servois">Servois</persName>, III-1, 383, ainsi qu'une lettre de protestation adressée à <persName ref="#archeveque_de_Paris">l'archevêque de <placeName ref="#Paris">Paris</placeName></persName> par <persName ref="#Seignelay">Seignelay</persName>, qui rapporte les mêmes détails que <persName ref="#auteur">La Bruyère</persName>, aux <p style="#italic">livrets</p> près). Il semble qu'il ait été mis fin rapidement à ces "sortes de représentations".</note>
+                        </rdg></app> office d’Eglise ?</p>
                 </div2>
 
                 <div2
