@@ -97,10 +97,12 @@
     
             <person sex="H" age="adult" xml:id="Tite"><name>Titus</name></person>
             
-            <person age="adult" xml:id="Aristippe"><name>Aristippe</name><persName ref="Mle Fodel"></persName></person>
+            <person age="adult" xml:id="Aristippe"><name>Aristippe</name>
+                <persName ref="Mle Fodel"></persName></person>
             
             <person sex="H" age="adult" xml:id="Ambreville"><name>Ambreville</name></person>
-            
+        
+        
         </listPerson>
         
 </particDesc>
@@ -225,7 +227,7 @@
                         
                         <pb n="449" ed="#Paris-1690"/>
                         
-                        <persName>Tite</persName>, par vingt années de <app><lem>service</lem><rdg>Fervice</rdg></app> dans une <app><lem>seconde</lem><rdg>Feconde</rdg></app> place, n’est pas encore
+                        <name type="pseudo">Tite</name>, par vingt années de <app><lem>service</lem><rdg>Fervice</rdg></app> dans une <app><lem>seconde</lem><rdg>Feconde</rdg></app> place, n’est pas encore
                         digne de la première, qui est vacante : <app><lem>ny</lem><rdg>ni</rdg></app> ses <app><lem>talents</lem><rdg>talens</rdg></app>, ni sa doctrine, ni
                         une vie exemplaire, ni les vœux des paroissiens ne sauraient l’y faire
                         asseoir. Il naît de dessous terre un autre clerc <note place="marge" source="#Paris-1690" resp="author" n="clerc">Ecclesiastique</note> pour la remplir. <persName >Tite</persName> est
@@ -290,7 +292,7 @@
 
                 <div2 n="28" source="#Paris-1690, #Paris-1696">
 
-                    <p> La fille d’<persName type="pseudo">Aristippe</persName> est malade et en péril ; elle envoie vers son père,
+                    <p> La fille d’<name type="pseudo">Aristippe</name> est malade et en péril ; elle envoie vers son père,
                         veut se réconcilier avec lui et mourir dans ses bonnes grâces. Cet homme si
                         sage, le conseil de toute une ville, fera-t-il de lui-même cette démarche si
                         raisonnable ? y entraînera-t-il sa femme ? ne faudra-t-il point pour les
@@ -314,7 +316,7 @@
                 <div2 n="30" source="#Paris-1696">
 
                     <p> Un homme joue et se ruine : il marie néanmoins l’aînée de ses deux filles de
-                        ce qu’il a pu sauver des mains d’un <persName type="pseudo">Ambreville</persName> ; la cadette est sur le point
+                        ce qu’il a pu sauver des mains d’un <name type="person">Ambreville</name> ; la cadette est sur le point
                         de faire ses vœux, qui n’a point d’autre vocation que le jeu de son père. 
                     
                     </p>
@@ -340,9 +342,9 @@
 
                     <pb n="452" source="#Paris-1690"/>
 
-                    <p> Faire une folie et se marier par amourette, c’est épouser <persName>Mélite</persName>, qui est
+                    <p> Faire une folie et se marier par amourette, c’est épouser <name type="pseudo">Mélite</name>, qui est
                         jeune, belle, sage, économe, qui plaît, qui vous aime, qui a moins de bien
-                        qu’<persName>Aegine</persName> qu’on vous propose, et qui avec une riche dot apporte de riches
+                        qu’<name type="pseudo">Aegine</name> qu’on vous propose, et qui avec une riche dot apporte de riches
                         dispositions à la consumer, et tout votre fonds avec sa dot. </p>
 
                 </div2>
@@ -405,14 +407,10 @@
 
                 <div2 n="37" source="#Paris-1690, #Paris-1696">
 
-                    <p> Il y a depuis longtemps dans le monde une manière de faire valoir son bien,
+                    <p> Il y a depuis longtemps dans le monde une manière<note place="marge" source="#Paris-1690" resp="author" n="manière">Billets et obligations</note> de faire valoir son bien,
                         qui continue toujours d’être pratiquée par d’honnêtes gens, et d’être
                         condamnée par d’habiles docteurs. 
-                    
-                        <note place="marge" source="#Paris-1690" resp="author" n="manière">Billets et obligations</note>
-                        
-                        <note place="marge" source="#Paris-1696" resp="author" n="manière">Billets et obligations</note>
-                                    
+                                                   
                     </p>
 
                 </div2>
@@ -423,14 +421,12 @@
                         n’avoir été imaginées la première fois que pour enrichir un seul aux dépens
                         de plusieurs ; les fonds ou l’argent des particuliers y coule sans fin et
                         sans interruption. Dirai-je qu’il n’en revient plus ou qu’il n’en revient
-                        que tard ? C’est un gouffre, c’est une mer qui reçoit les eaux des fleuves ;
+                        que tard ? <note place="marge" source="#Paris-1696" resp="author">Greffe, consignation</note>C’est un gouffre, c’est une mer qui reçoit les eaux des fleuves ;
                         et qui ne les rend pas ; ou si elles les rend, c’est par des conduits
                         secrets et souterrains, sans qu’il y paraisse, ou qu’elle en soit moins
                         grosse et moins enflée ; ce n’est qu’après en avoir joui longtemps, et
                         qu’elle ne peut plus les retenir.
             
-                        <note place="marge" source="#Paris-1696" resp="author">Greffe, consignation</note>
-                        
                     </p>
 
                 </div2>
@@ -463,7 +459,7 @@
 
                     <pb n="455" source="#Paris-1690"/>
 
-                    <p> <persName>Orante</persName> plaide depuis dix ans entiers en règlement de juges pour une affaire
+                    <p> <name type="pseudo">Orante</name> plaide depuis dix ans entiers en règlement de juges pour une affaire
                         juste, capitale, et où il y va de toute sa fortune : elle saura peut-être
                         dans cinq années quels seront ses juges, et dans quel tribunal elle doit
                         plaider le reste de sa vie. </p>
@@ -487,7 +483,7 @@
                         
                         rer qu’elle fût moins oubliée
                         en toute autre rencontre, qu’elle réglât au contraire les bureaux comme les
-                        audiences, et qu’on cherchât une fin aux écritures<note place="marge" source="#Paris-1690" resp="author" n="écritures">Procez par écrit</note><note place="marge" source="#Paris-1696" resp="author" n="écritures">Procez par écrit</note>, comme on a fait aux
+                        audiences, et qu’on cherchât une fin aux écritures <note place="marge" source="#Paris-1690" resp="author" n="écritures">Procez par écrit</note><note place="marge" source="#Paris-1696" resp="author" n="écritures">Procez par écrit</note>, comme on a fait aux
                         plaidoyers. </p>
 
                 </div2>
@@ -696,7 +692,7 @@
 
                 <div2 n="59" source="#Paris-1690, #Paris-1696">
 
-                    <p> <persName>Titius</persName> assiste à la lecture d’un testament avec des yeux rouges et humides,
+                    <p> <name type="pseudo">Titius</name> assiste à la lecture d’un testament avec des yeux rouges et humides,
                         et le cœur serré de la perte de celui dont il espère recueillir la
                         succession. Un article lui donne la charge, un autre les rentes de la ville,
                         un troisième le rend maître d’une terre à la campagne ; il y a une clause
@@ -709,9 +705,9 @@
                         lui coulent des yeux. Le moyen de les contenir ? Il se voit officier, logé
                         aux champs et à la ville, meublé de même ; il se voit une bonne table et un
                         carrosse : Y avait-il au monde un plus honnête homme que le défunt, un
-                        meilleur homme ? Il y a un codicille, il faut le lire : il fait <persName>Maevius</persName>
-                        légataire universel, et il renvoie <persName>Titius</persName> dans son faubourg, sans rentes,
-                        sans titres, et le met à pied. Il essuie ses larmes : c’est à <persName>Maevius</persName> à
+                        meilleur homme ? Il y a un codicille, il faut le lire : il fait <name type="pseudo">Maevius</name>
+                        légataire universel, et il renvoie <name type="pseudo">Titius</name> dans son faubourg, sans rentes,
+                        sans titres, et le met à pied. Il essuie ses larmes : c’est à <name type="pseudo">Maevius</name> à
                         s’affliger. </p>
 
                 </div2>
@@ -763,7 +759,7 @@
 
                 <div2 n="62" source="#Paris-1690, #Paris-1696">
 
-                    <p> <persName>Typhon</persName> fournit un grand de chiens et de chevaux ; que ne lui fournit-il
+                    <p> <name type="pseudo">Typhon</name> fournit un grand de chiens et de chevaux ; que ne lui fournit-il
                         point ? Sa protection le rend audacieux ; il est impunément dans sa province
                         tout ce qui lui plaît d’être, assassin, parjure ; il brûle ses voisins, et
                         il n’a pas besoin d’asile. Il faut enfin que le Prince se mêle lui-même de
@@ -778,9 +774,9 @@
                         pas être d’usage en pleine paix, où ils ne servent qu’à entretenir le luxe
                         et la gourmandise, comment peuvent-ils être entendus dans le temps de la
                         guerre et d’une misère publique, à la vue de l’ennemi, à la veille d’un
-                        combat, pendant un siège ? Où est-il parlé de la table de Scipion ou de
-                        celle de Marius ? Ai-je lu quelque part que Miltiade, qu’Epaminondas,
-                        qu’Agésilas aient fait une chère délicate ? Je voudrais qu’on ne fît mention
+                        combat, pendant un siège ? Où est-il parlé de la table de <name type="person">Scipion</name> ou de
+                        celle de <name type="person">Marius</name> ? Ai-je lu quelque part que <name type="person">Miltiade</name>, qu’<name type="person">Epaminondas</name>,
+                        qu’<name type="person">Agésilas</name> aient fait une chère délicate ? Je voudrais qu’on ne fît mention
                         de la délicatesse, de la propreté et de la somptuosité des généraux,
                         qu’après n’avoir plus rien à dire sur leur sujet, et s’être épuisé sur les
                         circonstances d’une bataille gagnée et d’une ville prise ; j’aimerais même
@@ -790,7 +786,7 @@
 
                 <div2 n="64">
 
-                    <p> <persName>Hermippe</persName> est l’esclave de ce qu’il appelle ses petites commodités ; il leur
+                    <p> <name type="pseudo">Hermippe</name> est l’esclave de ce qu’il appelle ses petites commodités ; il leur
                         sacrifie l’usage reçu, la coutume, les modes, la bienséance. Il les cherche
                         en toutes choses, il quitte une moindre pour une plus grande, il ne néglige
                         aucune de celles qui sont praticables, il s’en fait une étude, et il ne se
@@ -856,7 +852,7 @@
 
                 <div2 n="68">
 
-                    <p> <persName>Carro Carri</persName> débarque avec une recette qu’il appelle un prompt remède, et qui
+                    <p> <name type="person">Carro Carri</name> débarque avec une recette qu’il appelle un prompt remède, et qui
                         quelquefois est un poison lent ; c’est un bien de famille, mais amélioré en
                         ses mains : de spécifique qu’il était contre la colique, il guérit de la
                         fièvre quarte, de la pleurésie, de l’hydropisie, de l’apoplexie, de
@@ -874,14 +870,14 @@
                         contrat de constitution, donnez-lui une de vos terres, la plus petite, et ne
                         soyez pas ensuite plus inquiet que lui de votre guérison. L’émulation de cet
                         homme a peuplé le monde de noms en Ô et en I, noms vénérables, qui imposent
-                        aux malades et aux maladies. Vos médecins, Fagon, et de toutes les facultés,
+                        aux malades et aux maladies. Vos médecins, <name type="pseudo">Fagon</name>, et de toutes les facultés,
                         avouez-le, ne guérissent pas toujours, ni sûrement ; ceux au contraire qui
                         ont hérité de leurs pères la médecine pratique, et à qui l’expérience est
                         échue par succession, promettent toujours, et avec serments, qu’on guérira.
                         Qu’il est doux aux hommes de tout espérer d’une maladie mortelle, et de se
                         porter encore passablement bien à l’agonie ! La mort surprend agréablement
                         et sans s’être fait craindre ; on la sent plus tôt qu’on n’a songé à s’y
-                        préparer et à s’y résoudre. Ô Fagon Esculape ! faites régner sur toute la
+                        préparer et à s’y résoudre. Ô <name type="pseudo">Fagon</name> <name >Esculape</name> ! faites régner sur toute la
                         terre le quinquina et l’émétique ; conduisez à sa perfection la science des
                         simples, qui sont donnés aux hommes pour prolonger leur vie ; observez dans
                         les cures, avec plus de précision et de sagesse que personne n’a encore
@@ -959,7 +955,7 @@
                         sont pas à vous, et peuvent aisément vous échapper ; vos observations au
                         contraire naissent de votre esprit et y demeurent : vous les retrouvez plus
                         ordinairement dans la conversation, dans la consultation et dans la dispute.
-                        Ayez le plaisir de voir que vous n’ê tes arrêté dans la lecture que par les
+                        Ayez le plaisir de voir que vous n’êtes arrêté dans la lecture que par les
                         difficultés qui sont invincibles, où les commentateurs et les scoliastes
                         eux-mêmes demeurent court, si fertiles d’ailleurs, si abondants et si
                         chargés d’une vaine et fastueuse érudition dans les endroits clairs, et qui
