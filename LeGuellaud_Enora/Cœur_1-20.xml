@@ -250,6 +250,29 @@
 
                 </taxonomy>
 
+                <taxonomy xml:id="beauté">
+
+                    <desc>Caractère de ce qui est beau ; manifestation du beau..</desc>
+
+                </taxonomy>
+
+                <taxonomy xml:id="femme">
+
+                    <desc>Être de sexe feminin. Dans l'oeuvre, située au 17ème sicle, les femmes
+                        étaient pour la plupart non-instruites, considérés comme inférieur à
+                        l'homme. Jean de la Bruyère les considère comme des objets de beauté, il ne
+                        les considère pas si elles ne correspondent plus aux canons de beauté ou à
+                        l'age idéale.</desc>
+
+                </taxonomy>
+
+                <taxonomy xml:id="homme">
+
+                    <desc>Être de sexe masculin. Les hommes, surtout riches, règnent sur la société,
+                        ils ont le droit de vote</desc>
+
+                </taxonomy>
+
             </classDecl>
 
         </encodingDesc>
@@ -301,40 +324,43 @@
                 <pb n="141" source="#Paris_1689_4_1"/>
                 <head> Du Coeur</head>
                 <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
-                    <p>Il y a un goût dans la pure <term ref="#amitie">amitié</term> où ne peuvent atteindre ceux qui sont <app>
+                    <p>Il y a un goût dans la pure <term ref="#amitie">amitié</term> où ne peuvent
+                        atteindre ceux qui sont <app>
                             <lem>nés</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1691_6">nez</rdg>
                         </app> médiocres<note resp="#E.LG">Médiocrité = Situation moyenne.
                         </note>.</p>
                 </div2>
                 <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
-                    <p><g ref="#fr_pieddemouche"/>(2)L’amitié peut subsister entre des gens de <app>
+                    <p><g ref="#fr_pieddemouche"/>(2)L’<term ref="#amitie">amitié</term> peut
+                        subsister entre des gens de <app>
                             <lem>différents</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">differens</rdg>
-                        </app> sexes, exempte même de toute grossièreté. Une femme cependant regarde <app>
+                        </app> sexes, exempte même de toute grossièreté. Une <term ref="#femme">femme</term> cependant regarde <app>
                             <lem>toujours</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">toûjours</rdg>
-                        </app> un homme comme un homme ; <app>
+                        </app> un <term ref="#homme">homme</term> comme un <term ref="#homme">homme</term> ; <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
-                        </app> réciproquement un homme regarde une femme comme une femme. Cette
+                        </app> réciproquement un <term ref="#homme">homme</term> regarde une <term ref="#femme">femme</term> comme une <term ref="#femme">femme</term>. Cette
                         liaison n’est <app>
                             <lem>ni</lem>
                             <rdg wit="#Paris_1691_6_1">ny</rdg>
                         </app> passion <app>
                             <lem>ni</lem>
                             <rdg wit="#Paris_1691_6_1">ny</rdg>
-                        </app> amitié pure : elle <app>
+                        </app>
+                        <term ref="#amitie">amitié</term> pure : elle <app>
                             <lem>fait</lem>
                             <rdg wit="#Paris_1691_6_1">ait</rdg>
                         </app> une classe à part.</p>
                 </div2>
                 <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
-                    <p><g ref="#fr_pieddemouche"/>(3)L’amour naît brusquement<app>
+                    <p><g ref="#fr_pieddemouche"/>(3)L’<term ref="#amour">amour</term> naît brusquement<app>
                             <rdg wit="#Paris_1689_4_1">,</rdg>
                         </app> sans autre réflexion, par tempérament ou par faiblesse : un trait de
-                        beauté nous fixe, nous détermine. L’amitié au contraire se forme peu à peu,
-                        avec le temps, par la pratique, par un long commerce<app>
+                        <term ref="#beauté">beauté</term> nous fixe, nous détermine. L’<term ref="#amitie">amitié</term> au
+                        contraire se forme peu à peu, avec le temps, par la pratique, par un long commerce<app>
                             <lem>.</lem>
                             <rdg wit="#Paris_1689_4_1">:</rdg>
                         </app>Combien d’esprit, <pb n="142" source="#Paris_1689_4_1"/>de bonté de
@@ -359,33 +385,37 @@
                         </app>, <app>
                             <lem>affaiblit</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">affoiblit</rdg>
-                        </app> l’amour.</p>
+                        </app> l’<term ref="#amour">amour</term>.</p>
                 </div2>
                 <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
-                    <p><g ref="#fr_pieddemouche"/>(5) Tant que l’amour dure, il subsiste de <app>
+                    <p><g ref="#fr_pieddemouche"/>(5) Tant que l’<term ref="#amour">amour</term>
+                        dure, il subsiste de <app>
                             <lem>soi-même</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">soy-même</rdg>
                         </app>, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
                         </app> quelquefois par les choses qui semblent le devoir éteindre, par les
-                        caprices, par les rigueurs, par l’éloignement, par la jalousie. L’amitié au
-                        contraire a besoin de secours : elle périt faute de soins, de confiance <app>
+                        caprices, par les rigueurs, par l’éloignement, par la jalousie. L’<term
+                            ref="#amitie">amitié</term> au contraire a besoin de secours : elle
+                        périt faute de soins, de confiance <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
                         </app> de complaisance.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(6) Il est plus ordinaire de voir un amour extrême
-                        qu’une parfaite amitié.</p>
+                    <p><g ref="#fr_pieddemouche"/>(6) Il est plus ordinaire de voir un <term
+                            ref="#amour">amour</term> extrême qu’une parfaite <term ref="#amitie"
+                            >amitié</term>.</p>
                 </div2>
                 <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
                     <p><app>
                             <rdg wit="#Paris_1691_6_1"><g ref="#fr_pieddemouche"/></rdg>
-                        </app>(7) <seg>L’amour <app>
+                        </app>(7) <seg>L’<term ref="#amour">amour</term>
+                            <app>
                                 <lem>et</lem>
                                 <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">&amp;</rdg>
-                            </app> l’amitié s’<app>
+                            </app> l’<term ref="#amitie">amitié</term> s’<app>
                                 <lem>excluent</lem>
                                 <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">excluënt</rdg>
                             </app> l’un l’autre.<note resp="#E.LG">On ne pourrait don pas aimer son
@@ -395,33 +425,40 @@
                     <p><g ref="#fr_pieddemouche"/>(8)<app>
                             <lem>Celui</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">Celuy</rdg>
-                        </app> qui a eu l’expérience d’un grand amour néglige l’amitié ; <app>
+                        </app> qui a eu l’expérience d’un grand <term ref="#amour">amour</term>
+                        néglige l’<term ref="#amitie">amitié</term> ; <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">&amp;</rdg>
                         </app>
                         <app>
                             <lem>Celui</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">Celuy</rdg>
-                        </app> qui est épuisé sur l’amitié n’a encore rien fait pour l’amour.</p>
+                        </app> qui est épuisé sur l’<term ref="#amitie">amitié</term> n’a encore
+                        rien fait pour l’<term ref="#amour">amour</term>.</p>
                 </div2>
                 <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
-                    <p><g ref="#fr_pieddemouche"/>(9)L’amour commence par l’amour ; <app>
+                    <p><g ref="#fr_pieddemouche"/>(9)L’<term ref="#amour">amour</term> commence par
+                            l’<term ref="#amour">amour</term> ; <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">&amp;</rdg>
                         </app> l’on ne <app>
                             <lem>saurait</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">ʃçauroit</rdg>
-                        </app> passer de la plus forte amitié qu’à un amour <app>
+                        </app> passer de la plus forte <term ref="#amitie">amitié</term> qu’à un
+                            <term ref="#amour">amour</term>
+                        <app>
                             <lem>faible</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">foible</rdg>
                         </app>.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><g ref="#fr_pieddemouche"/><pb n="143" source="#Paris_1689_4_1"/>(10)Rien ne
-                        ressemble mieux à une vive amitié, que ces liaisons que l’intérêt de <app>
+                        ressemble mieux à une vive <term ref="#amitie">amitié</term>, que ces
+                        liaisons que l’intérêt de <app>
                             <lem>notre</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">nôtre</rdg>
-                        </app> amour nous fait cultiver.</p>
+                        </app>
+                        <term ref="#amour">amour</term> nous fait cultiver.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><g ref="#fr_pieddemouche"/>(11)L’on n’aime bien qu’une seule fois : c’est la
@@ -430,11 +467,11 @@
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><app>
                             <rdg wit="#Paris_1691_6_1"><g ref="#fr_pieddemouche"/></rdg>
-                        </app><pb n="146" source="#Paris_1691_6_1"/>(12)L’amour qui naît subitement
-                        est le plus long à guérir.</p>
+                        </app><pb n="146" source="#Paris_1691_6_1"/>(12)L’<term ref="#amour"
+                            >amour</term> qui naît subitement est le plus long à guérir.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(13)L’amour qui <app>
+                    <p><g ref="#fr_pieddemouche"/>(13)L’<term ref="#amour">amour</term> qui <app>
                             <lem>croît</lem>
                             <rdg wit="#Paris_1691_6_1">croit</rdg>
                         </app> peu à peu <app>
@@ -446,14 +483,15 @@
                         </app>
                         <app>
                             <rdg wit="#Paris_1691_6_1">,</rdg>
-                        </app> ressemble trop à l’amitié pour être une passion violente.</p>
+                        </app> ressemble trop à l’<term ref="#amitie">amitié</term> pour être une
+                        passion violente.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><g ref="#fr_pieddemouche"/>(14)<app>
                             <lem>Celui</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">Celuy</rdg>
                         </app> qui aime assez pour vouloir aimer un million de fois plus qu’il ne
-                        fait, ne cède en amour qu’à <app>
+                        fait, ne cède en <term ref="#amour">amour</term> qu’à <app>
                             <lem>Celui</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">Celuy</rdg>
                         </app> qui aime plus qu’il ne <app>
@@ -463,43 +501,77 @@
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><g ref="#fr_pieddemouche"/>(15)Si j’accorde que dans la violence d’une grande
-                        passion on peut aimer quelqu’un plus que soi-même, à qui <app>
+                        passion on peut aimer quelqu’un plus que <app>
+                            <lem>soi-même</lem>
+                            <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">soy-même</rdg>
+                        </app>, à qui <app>
                             <lem>ferai-je</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">feray-je</rdg>
                         </app> plus de plaisir, ou à ceux qui aiment, ou à ceux qui sont aimés ?</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(16)Les hommes souvent veulent aimer, et ne
-                        sauraient y réussir : ils cherchent leur défaite sans pouvoir la rencontrer,
-                        et, si j’ose ainsi parler, ils sont contraints de demeurer <seg>libres<note
-                                resp="#E.LG">Une relation avec une femme restraint l'homme et le
-                                priverait de sa liberté</note></seg>.</p>
+                    <p><g ref="#fr_pieddemouche"/>(16)Les <term ref="#homme">hommes</term> souvent veulent aimer, <app>
+                            <lem>et</lem>
+                            <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
+                        </app> ne <app>
+                            <lem>sauraient</lem>
+                            <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">Sçauroient</rdg>
+                        </app> y <app>
+                            <lem>réussir</lem>
+                            <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">réüssir</rdg>
+                        </app> : ils cherchent leur défaite sans pouvoir la rencontrer, <app>
+                            <lem>et</lem>
+                            <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
+                        </app>, si j’ose ainsi parler, ils sont contraints de demeurer
+                        <seg>libres<note resp="#E.LG">Une relation avec une <term ref="#femme">femme</term> restraint
+                                    l'<term ref="#homme">homme</term> et le priverait de sa liberté</note></seg>.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><g ref="#fr_pieddemouche"/>(17) Ceux qui s’aiment d’abord avec <pb n="144"
-                            source="#Paris_1689_4_1"/>la plus violente passion contribuent bientôt
-                        chacun de leur part à s’aimer moins, et ensuite à ne s’aimer plus. Qui, d’un
-                        homme ou d’une femme, met davantage du sien dans cette rupture, il n’est pas
-                        aisé de le décider. Les femmes accusent les hommes<pb n="147"
-                            source="#Paris_1691_6_1"/>d’être volages, et les homme disent qu’elles
-                        sont légères.</p>
+                            source="#Paris_1689_4_1"/>la plus violente passion <app>
+                            <lem>contribuent</lem>
+                            <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">contribuënt</rdg>
+                        </app>
+                        <app>
+                            <lem>bientôt</lem>
+                            <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">bien-tôt</rdg>
+                        </app> chacun de leur part à s’aimer moins, <app>
+                            <lem>et</lem>
+                            <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
+                        </app> ensuite à ne s’aimer plus. Qui, d’un <term ref="#homme">homme</term> ou d’une <term ref="#femme">femme</term>, met
+                        davantage du sien dans cette rupture, il n’est pas aisé de le décider. Les
+                        <term ref="#femme">femmes</term> accusent les <term ref="#homme">hommes</term><pb n="147" source="#Paris_1691_6_1"/>d’être
+                        volages, <app>
+                            <lem>et</lem>
+                            <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
+                        </app> les <term ref="#homme">homme</term> disent qu’elles sont légères.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(18) Quelque délicat que l’on soit en amour, on
-                        pardonne plus de fautes que dans l’amitié.</p>
+                    <p><g ref="#fr_pieddemouche"/>(18) Quelque délicat que l’on soit en <term
+                            ref="#amour">amour</term>, on pardonne plus de fautes que dans l’<term
+                            ref="#amitie">amitié</term><note resp="#E.LG">l'amour rend plus
+                            conciliant face aux fautes de l'autre.</note>.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
                     <p><g ref="#fr_pieddemouche"/>(19)C’est une vengeance douce<note resp="#E.LG"
                             >Ressentir du plaisir lors d'une vengeance Origine : Expression
                             québécoise dite sur le ton de la plaisanterie pour exprimer le plaisir
-                            que l'on peut ressentir lors d'une vengeance.</note> à celui qui aime
-                        beaucoup de faire, par tout son procédé, d’une personne ingrate une très
+                            que l'on peut ressentir lors d'une vengeance.</note> à <app>
+                            <lem>celui</lem>
+                            <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">celuy</rdg>
+                        </app> qui aime beaucoup<app>
+                            <rdg wit="#Paris_1691_6_1">,</rdg>
+                        </app> de faire, par tout son procédé, d’une personne ingrate une très
                         ingrate.</p>
                 </div2>
                 <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(20)Il est triste d’aimer sans une grande fortune,
-                        et qui nous donne les moyens de combler ce que l’on aime, et le rendre si
-                        heureux qu’il n’ait plus de souhaits à faire.</p>
+                    <p><g ref="#fr_pieddemouche"/>(20)Il est triste d’aimer sans une grande fortune, <app>
+                            <lem>et</lem>
+                            <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
+                        </app> qui nous donne les moyens de combler ce que l’on aime, <app>
+                            <lem>et</lem>
+                            <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
+                        </app> le rendre si heureux qu’il n’ait plus de souhaits à faire.</p>
                 </div2>
             </div1>
 
