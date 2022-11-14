@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     
     
@@ -24,7 +25,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
-                      <monogr>
+                    <monogr>
                         <title> Les Caractères </title>
                         <author> La Bruyère </author>
                         <edition> édition classique </edition>
@@ -67,6 +68,7 @@
                 <taxonomy><category xml:id="amour"></category></taxonomy>
                 <taxonomy><category xml:id="faiblesse"></category></taxonomy>
                 <taxonomy><category xml:id="malheur"></category></taxonomy>
+                <taxonomy><category xml:id="haine"></category></taxonomy>
             </classDecl>
             <projectDesc><p></p></projectDesc>
             <charDecl>
@@ -120,7 +122,7 @@
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="29"> <p>
                     <g ref="pied_de_mouche"></g>
                     Il semble que, s’il y a un soupçon injuste, bizarre et sans fondement, qu’on ait une fois appelé <term ref="#jalousie">jalousie</term> , cette autre <term ref="#jalousie">jalousie</term>qui est un sentiment juste, naturel, fondé en raison et sur l’expérience, mériterait un autre nom./ 
-                    Le tempérament a beaucoup de part à la <term ref="#jalousie">jalousie</term>, et elle ne suppose pas toujours une grande passion. C’est cependant un paradoxe qu’un violent amour sans délicatesse./ 
+                    Le tempérament a beaucoup de part à la <term ref="#jalousie">jalousie</term>, et elle ne suppose pas toujours une grande passion. C’est cependant un paradoxe qu’un violent <term ref="#amour">amour</term>sans délicatesse./ 
                     Il arrive souvent que l’on souffre tout seul de la délicatesse; L’on souffre de la <term ref="#jalousie">jalousie</term>, et l’on fait souffrir les autres
                     
                     <app>
@@ -145,7 +147,7 @@
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="32"> <p>
                     <g ref="pied_de_mouche"></g>
-                    Les amours meurent par le dégoût, et l’oubli les enterre. </p></div2> 
+                    Les <term ref="#amour">amours</term> meurent par le dégoût, et l’oubli les enterre. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="33"> <p>
                     <g ref="pied_de_mouche"></g>
@@ -155,7 +157,7 @@
                     <g ref="#pied_de_mouche"></g>
                     Cesser d’<term ref="#amour">aimer</term>, preuve sensible que l’homme est borné, et que le cœur a
                     ses limites./ 
-                    C’est faiblesse que d’<term ref="#amour">aimer</term> ; c’est souvent une autre faiblesse que de
+                    C’est <term ref="#faiblesse">faiblesse</term> que d’<term ref="#amour">aimer</term> ; c’est souvent une autre <term ref="#faiblesse">faiblesse</term> que de
                     guérir./ 
                     On guérit comme on se console : on n’a pas dans le cœur de quoi toujours
                     pleurer et toujours <term ref="#amour">aimer</term>./ </p></div2> 
@@ -190,7 +192,7 @@
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="40"> <p>
                     <g ref="#pied_de_mouche"></g>
-                    Regretter ce que l’on <term ref="#amour">aime</term> est un bien, en comparaison de vivre avec ce que l’on hait. </p></div2> 
+                    Regretter ce que l’on <term ref="#amour">aime</term> est un bien, en comparaison de vivre avec ce que l’on<term ref="#haine">hait</term>. </p></div2> 
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="41"> <p>
                     <g ref="#pied_de_mouche"></g>
@@ -210,12 +212,12 @@
                     On a dit en latin qu’il coûte moins cher de 
                     
                     <app>
-                        <lem>haïr</lem>
+                        <lem><term ref="#haine">haïr</term></lem>
                         <rdg wit="#Paris_1694_8">haït</rdg>
                         <rdg wit="#Paris_1699_10">haïr</rdg>
                     </app>
                     
-                    que d’<term ref="#amour">aimer</term>, ou si l’on veut, que l’amitié est plus à charge que la haine. Il est vrai qu’on est dispensé de donner à ses ennemis ; mais ne coûte-t-il rien de s’en venger ? Ou s’il est doux et naturel de faire du mal à ce que l’on hait, l’est-il moins de faire du bien à ce qu’on <term ref="#amour">aime</term>? Ne serait-il pas
+                    que d’<term ref="#amour">aimer</term>, ou si l’on veut, que l’amitié est plus à charge que la <term ref="#haine">haine</term>. Il est vrai qu’on est dispensé de donner à ses ennemis ; mais ne coûte-t-il rien de s’en venger ? Ou s’il est doux et naturel de faire du mal à ce que l’on<term ref="#haine">hait</term>, l’est-il moins de faire du bien à ce qu’on <term ref="#amour">aime</term>? Ne serait-il pas
                     
                     <app>
                         <lem>dur</lem>
@@ -263,7 +265,7 @@
                         <rdg wit="#Paris_1699_10">nous_même</rdg>
                     </app>
                     
-                    qui nous met en la place des <term ref="#malheur">malheureux</term>, pourquoi tirent-ils de nous si peu de soulagement dans leurs misères ? Il vaut mieux s’exposer à l’ingratitude que de manquer aux<term ref="#malheureux">misérables</term>. 
+                    qui nous met en la place des <term ref="#malheur">malheureux</term>, pourquoi tirent-ils de nous si peu de soulagement dans leurs <term ref="malheur">misère</term> ? Il vaut mieux s’exposer à l’ingratitude que de manquer aux<term ref="#malheureux">misérables</term>. 
                     
                     <note type="glossaire" resp="LR" source="#Paris_1694_8 #Paris_1699_10">
                         Dans les deux anciennes éditions, c'est un point virgule suit "la place des malheureux", et non une virgule. </note>
@@ -295,4 +297,3 @@
     
     
 </TEI>
-
