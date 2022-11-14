@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,7 +20,60 @@
             <publicationStmt>
                 <authority/>
             </publicationStmt>
+            
+            <!-- ici se trouve l'encodage pour les personnes ou groupe de personnes pour lesquelles les informations sont sûres -->
             <sourceDesc>
+                <listPerson>
+                    <person xml:id="Grammont" source="#ESCOLA_1999">
+                        <persName>G...</persName>
+                        <note>Décrite par un G... dans la remarque 47, il s'agit de 
+                        François Vedeau de Grammont, conseiller de la cour en 
+                        la seconde des enquêtes ou, selon quelques clés, il peut 
+                        également s'agir de Philippe de Guiberville, beau-père du premier.</note>
+                    </person>
+                    <person xml:id="Hervé" source="#ESCOLA_1999">
+                        <persName>H...</persName>
+                        <note>Décrite par un H... dans la remarque 47, Il s'agit
+                        de Charles Hervé, doyen au Parlement</note>
+                    </person>
+                    <person xml:id="bailli">
+                        <persName>Bailli</persName>
+                        <note>Définition le Robert : Officier qui rendait la justice au nom du roi ou d'un seigneur</note>
+                    </person>
+                    <person xml:id="assesseur">
+                        <persName>Assesseurs</persName>
+                        <note>Définition le Robert : Personne qui assiste quelqu'un dans ses fonctions</note>
+                    </person>
+                    <person xml:id="doyen">
+                        <persName>Doyen</persName>
+                        <note>Définition Le Robert : Titre de dignitité ecclésiastique ou universitaire, personne qui est la plus ancienne d'un membre d'un corps</note>
+                    </person>
+                    <person xml:id="chanoine">
+                        <persName>Chanoine</persName>
+                        <note>Définition Le Robert : Dignitaire ecclésiastique</note>
+                    </person>
+                    <person xml:id="chapelain">
+                        <persName>Chapelain</persName>
+                        <note>Définition Larousse : Prêtre chargé d'assurer le service religieux dans une église non paroissiale, une chapelle de communauté religieuse, d'hôpital, etc</note>
+                    </person>
+                    <person xml:id="chantre">
+                        <persName>Chantres</persName>
+                        <note>Définition Le Robert : Chanteur dans un service religieux</note>
+                    </person>
+                </listPerson>
+                
+                <!-- encodage des lieux -->
+                <listPlace>
+                    <place xml:id="unepetiteville" source="#ESCOLA_1999">
+                        <placeName>Richelieu</placeName>
+                        <location>
+                            <geo>47° 00′ 54″ nord, 0° 19′ 28″ est</geo>
+                        </location>
+                        <note>Wikipédia : Richelieu est une commune française située dans le département d’Indre-et-Loire, en région Centre-Val de Loire. Ville neuve édifiée entre 1631 et 1642, elle porte l’empreinte de son fondateur et commanditaire, le cardinal de Richelieu, et constitue un témoignage remarquable de l’urbanisme du XVIIe siècle.</note>
+                        <note>Certaines clés disent que cela pourrait être Saint-Germain-en-Laye, que cela serait le souvenir que La Bruyère gardait de son unique séjour en Normandie</note>
+                    </place>
+                </listPlace>
+                
                 <biblStruct>
                     <monogr xml:id="TOURS_1886">
                         <author ref="https://data.bnf.fr/11910249">la Bruyère, Jean de</author>
@@ -56,80 +110,66 @@
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k105077m.r=jean%20de%20la%20bruyère%20les%20caractères?rk=21459;2</pubPlace>
                         </imprint>
                     </monogr>
-
-
-                    <!--Ci-dessous devoir n°1 avec codage pieds de mouche-->
-                    <monogr>
-                    <analytic>
+                    <monogr xml:id="PARIS_1690_884592">
                         <author ref="https://data.bnf.fr/11910249">la Bruyère, Jean de</author>
                         <author ref="https://data.bnf.fr/11887698">Theophraste</author> 
                         <title>Les Caractères de Théophraste traduits du grec avec Les Caractères ou Les moeurs de ce siècle</title>
                         <editor>Estienne Michallet, imprimeur du Roy</editor>
-                        <date when="1690"></date>
-                    </analytic>
-                    <monogr xml:id="PARIS_1690_884592">
                         <imprint xml:id="PARIS_1690_884592_1">
                             <pubPlace>Paris, rue S. Jacques, à l'Image S. Paul</pubPlace>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575660?rk=236052;4</pubPlace>
+                            <date when="1690"></date>
                         </imprint>
                     </monogr>
-                    <monogr>
-                    <analytic>
+                    <monogr xml:id="PARIS_1692_384592">
                         <author ref="https://data.bnf.fr/11910249">la Bruyère, Jean de</author>
                         <author ref="https://data.bnf.fr/11887698">Theophraste</author> 
                         <title>Les Caractères de Théophraste traduits du grec avec Les Caractères ou Les moeurs de ce siècle</title>
                         <editor>Estienne Michallet, imprimeur du Roy</editor>
-                        <date when="1692"></date>
-                    </analytic>
-                    <monogr xml:id="PARIS_1692_384592">
                         <imprint xml:id="PARIS_1692_384592_1">
                             <pubPlace>Paris, rue S. Jacques, à l'Image S. Paul</pubPlace>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57575z/f3.item</pubPlace>
+                            <date when="1692"></date>
                         </imprint>
                     </monogr>
-                    <monogr>
-                    <analytic>
+                    <monogr xml:id="PARIS_1699">
                         <author ref="https://data.bnf.fr/11910249">la Bruyère, Jean de</author>
                         <author ref="https://data.bnf.fr/11887698">Theophraste</author> 
                         <title>Les Caractères de Théophraste traduits du grec avec Les Caractères ou Les moeurs de ce siècle</title>
                         <editor>Estienne Michallet, imprimeur du Roy</editor>
-                        <date when="1699"></date>
-                    </analytic>
-                    <monogr xml:id="PARIS_1699">
                         <imprint xml:id="PARIS_1699_1">
                             <pubPlace>Paris, rue S. Jacques, à l'Image S. Paul</pubPlace>
                             <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57580j/f1.item</pubPlace>
-                        </imprint>
-                    </monogr>
-                    <monogr xml:id="PARIS_1690_884592">
-                        <imprint xml:id="PARIS_1690_884592_1">
-                            <pubPlace>Paris, rue S. Jacques, à l'Image S. Paul</pubPlace>
-                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k575660?rk=236052;4</pubPlace>
-                        </imprint>
-                         <imprint xml:id="PARIS_1692_384592_1">
-                            <pubPlace>Paris, rue S. Jacques, à l'Image S. Paul</pubPlace>
-                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57575z/f3.item</pubPlace>
+                            <date when="1699"></date>
                         </imprint>
                     </monogr>
                 </biblStruct>
+                
+                    <!-- encodage de la source Escola pour les clés -->
+                <biblStruct type="clé">
+                   <monogr xml:id="ESCOLA_1999">
+                        <author ref="https://data.bnf.fr/12548441">Escola, Marc</author>
+                        <author ref="https://data.bnf.fr/11910249">la Bruyère, Jean de</author>
+                        <author ref="https://data.bnf.fr/11887698">Theophraste</author> 
+                        <title>Les Caractères de Théophraste traduits du grec avec Les Caractères ou Les moeurs de ce siècle, critique par Marc Escola</title>
+                        <editor>H. Champion</editor>
+                        <imprint xml:id="ESCOLA_1999_1">
+                            <pubPlace>Paris</pubPlace>
+                            <pubPlace>imprimé en Suisse</pubPlace>
+                            <pubPlace>https://www.placedeslibraires.fr/livre/9782745300843-les-caracteres-de-theophraste-marc-escola/</pubPlace>
+                            <date when="1999"></date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                
             </sourceDesc>
-             <revisionDesc>
-                <list>
-                    <item>
-                    <imprint xml:id="PARIS_1692_384592_1">ajout</imprint> Modifié par ML</item>
-                    <p>j'ai ajouté une nouvelle version du texte pour me baser sur deux versions lors de mon travail.</p>
         </fileDesc>
-
+        
         
         <profileDesc>
             <langUsage>
                 <language ident="fra">français</language>
             </langUsage>
-            <textDesc e="essaie">
-            <constitution type="copie; plusieurs éditions"/>
-            <domain type="education"/>
-            <factuality type="fact"/>
-            </textDesc>
             <textDesc>
                 <channel mode="w"/>
                 <constitution/>
@@ -141,20 +181,21 @@
                 <purpose type="entertain" degree="medium"/>
                 <purpose type="inform" degree="high"/>
             </textDesc>
-
-            <!--Informations type glossaire-->
             <particDesc>
-                <person n="1">
-                    <p>Décrite par un G** dans la remarque 47, son identité laisse place à de
-                        nombreuses interprétations.</p>
-                </person>
-                <person n="2">
-                    <p>Décrite par un H** dans la remarque 47, son identité laisse place à de
-                        nombreuses interprétations.</p>
-                </person>
+                <listPerson>
+                    <person xml:id="président">
+                        <persName>Président</persName>
+                        <note>Sans doute le président de bailliage</note>
+                    </person>
+                    <person xml:id="élus">
+                        <persName>Élus</persName>
+                        <note>On ne sait pas qui ils sont mais en peut penser que ce sont les élus locaux</note>
+                    </person>
+                </listPerson>
             </particDesc>
-
-
+        </profileDesc>
+        
+        <!-- ici l'encodage pour les pieds de mouches -->
         <encodingDesc>
             <charDecl>
                 <glyph xml:id="U2761">
@@ -162,7 +203,6 @@
                         name="CURVED_STEM_PARAGRAPH_SIGN_ORNEMENT"/>
                 </glyph>
             </charDecl>
-            <encodingDesc> 
             <editorialDecl>
                 <correction>
                     <p>Les esperluettes sont transformés en et.</p>
@@ -179,20 +219,23 @@
                     Cambridge</p>
             </samplingDecl>
         </encodingDesc>
-
-
+        
         <revisionDesc>
             <list>
                 <item>
+                    <date when="2022-11-14">14 novembre 2022</date>Ajout des notes ainsi que des listpers et listplace, nouveau Biblstruct avec l'édition d'Escola pour les clés
+                    <date when="2022-11-14">14 novembre 2022</date>Ajout des informations pour les italliques dans les remarques 50 et 52
+                    <date when="2022-11-14">14 novembre 2022</date>Ajout des informations type glossaire<interp>noms des personnes à la remarque 47, je n'ai trouvé que cela à mettre pour le glossaire</interp>
+                    <date when="2022-11-14">14 novembre 2022</date>Ajout des pagebreak pour les éditions de 1688 et 1691
                     <date when="2022-11-06">6 novembre 2022</date>Ajout des app pour les remarques 45 et 46<interp>j'ai sans doute dû les oublier lors de l'exercice précédant donc je les ai codé maintenant</interp>
-                    <date when="2022-11-06">6 novembre 2022</date>Ajout des informations pour les italliques dans les remarques 50 et 52
-                    <date when="2022-11-06">6 novembre 2022</date>Ajout des informations type glossaire<interp>noms des personnes à la remarque 47, je n'ai trouvé que cela à mettre pour le glossaire
-                    <date when="2022-11-06">6 novembre 2022</date>Ajout des pagebreak pour les éditions de 1688 et 1691
+                    <date when="2022-10-17">17 octobre 2022</date>Ajout d'une nouvelle version du texte pour me baser sur deux versions lors de mon travail
                 </item>
+            </list>
         </revisionDesc>
-
         
     </teiHeader>
+    
+    
     <text>
         <front>
             <titlePage>
@@ -231,8 +274,9 @@
                     <p>
                         <g ref="#U2761"/> 
                         <app> 
-                    <pb n="180" ed="#PARIS_1691_1"/> <!--page 180 de l'édition "PARIS_1691_1" commence ici-->
-                            <lem>Un beau-père aime son gendre, aime sa bru. Une belle-mère
+                            <lem>
+                                <pb n="180" ed="#PARIS_1691_1"/> <!--page 180 de l'édition "PARIS_1691_1" commence ici-->
+                                Un beau-père aime son gendre, aime sa bru. Une belle-mère
                         aime son gendre, n’aime point sa bru. Tout est réciproque.</lem>
                             <rdg wit="#PARIS_1691_1">Un beau-pere aime son gendre, aime sa bru. Une belle-mere
                         aime son gendre,n’aime point sa bru. Tout est reciproque.</rdg>
@@ -244,9 +288,10 @@
                     <p>
                         <g ref="#U2761"/> 
                         <app> 
-                            <lem>Ce qu’une marâtre aime le moins de tout ce qui est au
-                        monde, ce sont les enfants de son mari : plus elle est folle de son mari,
-                        plus elle est marâtre.</lem>
+                            <lem>Ce qu’une 
+                        marâtre <note resp="#ML">Définition Larousse : Deuxième épouse du père par rapport aux enfants du premier mariage (en particulier dans les contes pour enfants).</note>  
+                        aime le moins de tout ce qui est au monde, ce sont les enfants de son mari : 
+                        plus elle est folle de son mari, plus elle est marâtre.</lem>
                             <rdg wit="#PARIS_1691_1">Ce qu’une marâtre aime le moins de tout ce qui est au
                         monde, ce sont les enfans de son mari : plus elle est folle de son mari,
                         plus elle est marâtre.</rdg>
@@ -267,8 +312,13 @@
                     <p>
                         <g ref="#U2761"/>
                         <app>
-                        <pb n="156" ed="#PARIS_1688_1"/> <!--page 156 de l'édition "PARIS_1688_1" commence ici-->
-                            <lem>G… et H… sont voisins de campagne, et leurs terres sont contiguës ; ils
+                            <lem>
+                                <pb n="156" ed="#PARIS_1688_1"/> <!--page 156 de l'édition "PARIS_1688_1" commence ici-->
+                                <persName ref="#Grammont">G…</persName>
+                                et 
+                                <persName ref="#Hervé">H…</persName>
+                                <note resp="#ML">Un procès aurait eu lieu entre eux au sujet de la pêche dans un ruisseau</note> 
+                                sont voisins de campagne, et leurs terres sont contiguës ; ils
                                 habitent une contrée déserte et solitaire. Eloignés des villes et de tout
                                 commerce, il semblait que la 
                         <pb n="181" ed="#PARIS_1691_1"/> <!--page 181 de l'édition "PARIS_1691_1" commence ici-->
@@ -312,11 +362,14 @@
                     <p>
                         <g ref="#U2761"/> 
                         <app>
-                            <lem>J’approche d’une petite ville, et je suis déjà sur une
-                        hauteur d’où je la découvre. Elle est située à mi-côte ; une rivière baigne
+                            <lem>J’approche 
+                                <placeName ref="#unepetiteville">d’une petite ville</placeName>
+                        , et je suis déjà sur une hauteur d’où je la découvre. 
+                        Elle est située à mi-côte ; une rivière baigne
                         ses murs, et coule ensuite dans une belle prairie ; elle a une forêt épaisse
-                        qui la couvre des vents froids et de l’aquilon. Je la vois dans un jour si
-                        favorable, que je compte ses tours et ses clochers ; elle me paraît peinte
+                        qui la couvre des vents froids et de l’aquilon. 
+                                <note resp="#ML">Définition Larousse, aquilon : Vent du nord, fort et froid.</note>
+                        Je la vois dans un jour si favorable, que je compte ses tours et ses clochers ; elle me paraît peinte
                         sur le penchant de la colline. Je me récrie, et je dis : "Quel plaisir de
                         vivre sous un si beau 
                     <pb n="182" ed="#PARIS_1691_1"/> <!--page 182 de l'édition "PARIS_1691_1" commence ici-->
@@ -347,9 +400,23 @@
                         civile ; où la querelle des rangs ne se réveille pas à tous moments par
                         l’offrande, l’encens et le pain bénit, par les processions et par les
                         obsèques ; d’où l’on a banni les <hi rend="italic">caquets</hi>, le mensonge et la médisance ; où
-                        l’on voit parler ensemble le bailli et le président, les élus et les
-                        assesseurs ; où le doyen vit bien avec ses chanoines ; où les chanoines ne
-                        dédaignent pas les chapelains, et où ceux-ci souffrent les chantres.</lem>
+                        l’on voit parler ensemble le 
+                                <persName ref="#Bailly">bailli</persName>
+                        et le 
+                                <persName ref="#président">président</persName>
+                        , les 
+                                <persName ref="#élus">élus</persName> 
+                        et les
+                                <persName ref="#assesseur">assesseurs</persName>
+                        ; où le 
+                                <persName ref="#doyen">doyen</persName>
+                        vit bien avec ses 
+                                <persName ref="#chanoine">chanoines</persName>
+                        ; où les chanoines ne dédaignent pas les 
+                                <persName ref="#chapelain">chapelains</persName>
+                        , et où ceux-ci souffrent les 
+                                <persName ref="#chantre">chantres.</persName> 
+                            </lem>
                             <rdg wit="#PARIS_1691_1">Il y a une chose que l’on n’a point veuë sous le ciel, &amp;
                         que selon toutes les apparences on ne verra jamais : c’est une petite ville
                         qui n’est divisée en aucuns partis, où les familles sont unies, &amp; où les
@@ -412,9 +479,10 @@
                     <p>
                         <g ref="#U2761"/> 
                         <app>
-                            <lem>Celui qui est d’une éminence au-dessus des autres qui le
-                        met à couvert de la repartie, ne doit jamais faire une raillerie
-                        piquante.</lem>
+                            <lem>
+                        Celui qui est d’une éminence au-dessus des autres <note resp="#ML" source="#ESCOLA_1999">Le roi</note>
+                        qui le met à couvert de la repartie, ne doit jamais 
+                        faire une raillerie piquante.</lem>
                             <rdg wit="#PARIS_1691_1">Celuy qui est d’une éminence au dessus des autres, qui le
                         met à couvert de la repartie, ne doit jamais faire une raillerie
                         piquante.</rdg>
@@ -476,8 +544,9 @@
                     <p>
                         <g ref="#U2761"/> 
                         <app>
-                    <pb n="184" ed="#PARIS_1691_1"/> <!--page 184 de l'édition "PARIS_1691_1" commence ici-->
-                            <lem>Si vous observez avec soin qui sont les gens qui ne
+                            <lem>
+                   <pb n="184" ed="#PARIS_1691_1"/> <!--page 184 de l'édition "PARIS_1691_1" commence ici-->
+                                Si vous observez avec soin qui sont les gens qui ne
                         peuvent louer, qui blâment toujours, qui ne sont contents de personne, vous
                         reconnaîtrez que ce sont ceux mêmes dont personne n’est content.</lem>
                             <rdg wit="#PARIS_1691_1">Si vous observez avec soin, qui sont les gens qui ne
@@ -491,8 +560,9 @@
                     <p>
                         <g ref="#U2761"/> 
                         <app>
-                    <pb n="158" ed="#PARIS_1688_1"/> <!--page 158 de l'édition "PARIS_1688_1" commence ici-->
-                            <lem>Le dédain et le rengorgement dans la société attire
+                            <lem>
+                    <pb n="158" ed="#PARIS_1688_1"/> <!--page 158 de l'édition "PARIS_1688_1" commence ici-->            
+                                Le dédain et le rengorgement dans la société attire
                                 pré
                     <pb n="159" ed="#PARIS_1688_1"/> <!--page 159 de l'édition "PARIS_1688_1" commence ici-->
                                 cisément le contraire de ce que l’on cherche, si c’est à se faire
@@ -548,9 +618,9 @@
                         est dans une grande adversité pour essayer de le rendre tranquille : les
                         choses de dehors qu’on appelle les événemens, sont quelquefois plus fortes
                         que la raison &amp; que la nature. Mangez, dormes, ne vous laissez point
-                        mourir de chagrin, songez à vivre ; harangues froides &amp; qui réduisent à
-                        l’impossible. Etes-vous raisonnable de vous tant inquiéter ? N’est-ce pas
-                        dire, etes-vous fou d’être malheureux ?</rdg>
+                        mourir de chagrin, songez à vivre ; harangues froides &amp; qui réduisent à l’impossible. 
+                                <note resp="#ML">Définition Larousse, harangue : Discours solennel prononcé devant une assemblée, une personnalité importante, des troupes, etc.</note>
+                        Etes-vous raisonnable de vous tant inquiéter ? N’est-ce pas dire, etes-vous fou d’être malheureux ?</rdg>
                         </app>
                     </p>
                 </div2>
@@ -596,7 +666,13 @@
                         eux-mêmes. Il ne fallait, pour fournir à ces entretiens, ni bon sens, ni
                         jugement, ni mémoire, ni la moindre capacité : il fallait de l’esprit, non
                         pas du meilleur, mais de celui qui est faux, et où l’imagination a trop de
-                        part.</lem>
+                        part.
+                                <note resp="#ML" source="#ESCOLA_1999">On a voulu voir dans la remarque
+                                    une allusion aux "Samedis" de Madeleine de Scudéry à l'Hôtel de Rambouillet. Ce salon,
+                                    vivant dès 1618, connut ses plus brillantes années de 1630 à la mort de Voiture en 1648.
+                                    La mention "il n'y a pas longtemps" dément l'application. Six ans après la parution de cette remarque, 
+                                    Boileau propose dans sa Satire X un tableau identique.</note>
+                            </lem>
                             <rdg wit="#PARIS_1691_1">L’on a veu il n’y a pas long-temps un cercle de personnes
                         des deux sexes, liées ensemble par la conversation &amp; par un commerce
                         d’esprit : ils laissoient au vulgaire l’art de parler d’une maniere
