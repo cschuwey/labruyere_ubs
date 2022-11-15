@@ -73,13 +73,40 @@
                     </monogr>
                 </biblStruct>
                 <listPerson>
-                    <person xml:id="Aronce"></person>
-                    <person xml:id="Acis"></person> 
-                    <person xml:id="Arrias"></person>
-                    <person xml:id="Sethon"></person>
-                    <person xml:id="Théodecte"></person>
-                    <person xml:id="Euthydème"></person>
-                    <person xml:id="Troïle"></person>
+                    <person xml:id="Aronce">
+                        <persName>M. Perrault</persName>
+                    </person>
+                    <person xml:id="Acis">
+                        <persName>Nom inconnu</persName>
+                    </person>
+                    <person xml:id="Arrias">
+                        <persName>M. Robert de Châtillon</persName>
+                    </person>
+                    <person xml:id="Sethon">
+                        <persName>Nom inconnu</persName>
+                    </person>
+                    <person xml:id="Théodecte">
+                        <persName>Le comte François d'Aubigné</persName>
+                    </person>
+                    <person xml:id="Euthydème">
+                        <persName>Nom inconnu</persName>
+                    </person>
+                    <person xml:id="Troïle">
+                        <persName>Nom inconnu</persName>
+                    </person>
+                </listPerson>
+                <listPerson>
+                    <person xml:id="Perrault">
+                        <link target="https://data.bnf.fr/11919216/charles_perrault/"/>
+                        <figure><graphic url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Portrait_de_Charles_Perrault_%281628-1703%29_par_Charles_Le_Brun.jpg/520px-Portrait_de_Charles_Perrault_%281628-1703%29_par_Charles_Le_Brun.jpg"/></figure>
+                        <note>Aronce est le nom d'un des personnages de la Clélie de Mlle de Scudéry</note>
+                    </person>
+                    <person xml:id="Robert_de_Châtillon">
+                        <note>M. Robert de Châtillon [1633-1719], fils de M. Robert, procureur du Roi au Châtelet, où il est lui-même conseiller. Il avait été nommé conseiller au Châtelet vers 1690</note>
+                    </person>
+                    <person xml:id="Comte_François_Aubigné">
+                        <note>Le comte François d'Aubigné, né en 1635</note>
+                    </person>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
@@ -97,7 +124,7 @@
             </editorialDecl>
             <charDecl>
                 <glyph xml:id="Scaro">
-                    <glyphName>CONSERVATION DES S CAROLINGIENS</glyphName>
+                    <note>CONSERVATION DES S CAROLINGIENS</note>
                 </glyph>
                 <glyph xml:id="fr_pieddemouche">
                     <desc>¶</desc>
@@ -290,7 +317,7 @@
                         car sur ce que vous voulez apprendre d’eux, ils ignorent le fait <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> les personnes.</p>
                 </div2>
                 <div2 source="#Paris_1694_8">
-                    <p>(9)<app><lem><seg><persName ref="#Arrias">Arrias</persName><note resp="#CM" type="gloss" place="droite">l'anti-portrait d'un honnête homme</note></seg> a tout lu, a tout vu, il veut le persuader ainsi ; 
+                    <p>(9)<app><lem><app type="clé"><lem wit="#Paris_1694_8"><persName ref="#Robert_de_Chatillon">Arrias : Robert de Châtillon></persName></lem></app><seg>Arrias<note resp="#CM" type="gloss" place="droite">l'anti-portrait d'un honnête homme</note></seg> a tout lu, a tout vu, il veut le persuader ainsi ; 
                         c’est un homme universel, et il se donne pour tel : il aime mieux mentir que de se taire ou de paraître ignorer quelque chose. 
                         On parle à la table d’un grand d’une cour du Nord : il prend la parole, 
                         et l’ôte à ceux qui allaient dire ce qu’ils en savent ; 
@@ -299,7 +326,7 @@
                         il récite des <seg>historiettes<note resp="#CM" type="gloss" place="gauche">Court récit écrit ou oral, vrai ou faux, souvent plaisant, sans grande importance.</note></seg> qui y sont arrivées 
                         ; il les trouve plaisantes, et il en rit le premier jusqu’à éclater. 
                         Quelqu’un se hasarde de le contredire, et lui prouve nettement qu’il dit des choses qui ne sont pas vraies. 
-                        <persName>Arrias</persName> ne se trouble point, prend feu au contraire contre l’interrupteur : "Je n’avance, lui dit-il, 
+                        <app type="clé"><lem wit="#Paris_1694_8"><persName ref="#Robert_de_Chatillon">Arrias : Robert de Châtillon></persName></lem></app> ne se trouble point, prend feu au contraire contre l’interrupteur : "Je n’avance, lui dit-il, 
                         je raconte rien que je ne sache d’original : je l’ai appris de <persName>Sethon</persName>, ambassadeur de France dans cette cour, 
                         revenu à Paris depuis quelques jours, que je connais familièrement, que j’ai fort interrogé, 
                         et qui ne m’a caché aucune circonstance." 
@@ -343,7 +370,7 @@
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> faire oublier la narration ?</p>
                 </div2>
                 <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(12)J’entends <app><lem><persName>Théodecte</persName></lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Theodecte</rdg></app> de l’antichambre ; 
+                    <p>(12)J’entends <app type="clé"><lem wit="#Paris_1690_5"><persName ref="#Théodecte">Théodecte</persName></lem><rdg wit="#Paris_1692_7 #Paris_1694_8"><persName ref="#Comte_François_Aubigné">Theodecte : le comte François d'Aubigné</persName></rdg></app> de l’antichambre ; 
                         il grossit sa voix à mesure qu’il s’approche <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app>
                         le voilà entré <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> il rit, il crie, il éclate <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
                         on bouche ses oreilles, c’est un tonnerre<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
