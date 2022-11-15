@@ -134,9 +134,7 @@
                 </biblStruct>
                 
                 <bibl type="clé" xml:id="E_1690"/>
-                    
-                
-                
+                                    
                 <listPerson>
                     <person xml:id="Homère">
                         <link target="https://data.bnf.fr/11907688/homere/"/>
@@ -213,12 +211,28 @@
                 </listPerson>
                 
                 <listPlace>
-                    <place xml:id="Rome"></place>
-                    <place xml:id="Grèce"></place>
-                    <place xml:id="France"></place>
-                    <place xml:id="Europe"></place>
-                    <place xml:id="Zoile"></place>
+                    <place xml:id="Rome">
+                        <note>Fait référence à la Rome antique, zone géographique</note>
+                        <link target="https://fr.wikipedia.org/wiki/Rome_antique"/>
+                    </place>
+                    
+                    <place xml:id="Grèce">
+                        <note>Fait référence à la Grêce antique, zone géographique</note>
+                        <link target="https://fr.wikipedia.org/wiki/Gr%C3%A8ce_antique"/>
+                    </place>
+                    
+                    <place xml:id="France">
+                        <note> Fait référence au pays français, attention : la France n'était peut être pas la même à l'époque de La Bruyère</note>
+                        <link target="https://fr.wikipedia.org/wiki/France"/>
+                    </place>
+                    
+                    <place xml:id="Europe">
+                        <note>Fait référence au continent européen, attention : l'Europe n'était peut être pas la même à l'époque de La Bruyère</note>
+                        <link target="https://fr.wikipedia.org/wiki/Europe"/>
+                    </place>
+                    
                 </listPlace>
+  
             </sourceDesc>
         </fileDesc>
 
@@ -258,7 +272,7 @@
                     </category>
                     
                     <category xml:id="les_habiles">
-                        <catDesc>Fait sûrement référence aux personnes douées en écriture et dans le domaine dont parle la Bruyère. Interprétation du resp "AC"</catDesc>
+                        <catDesc>Fait sûrement référence aux personnes douées en écriture, ou érudites et dans le domaine dont parle la Bruyère. Interprétation du resp "AC"</catDesc>
                     </category>
                 </taxonomy>
             </classDecl>
@@ -381,12 +395,12 @@
                         On a dû faire du style ce qu’on a fait de l’architecture. On a entièrement
                         abandonné l’ordre gothique, que la barbarie avait introduit pour les palais
                         et pour les temples ; on a rappelé le dorique, l’ionique et le <pb n="100" source="#Paris_1694_8"/><pb n="106" source="#Paris_1691_6"/> <pb n="104" source="#Paris_1692_7"/> corinthien :
-                        ce qu’on ne voyait plus que dans les ruines de l’ancienne <placeName ref="Rome"><name>Rome</name></placeName> et de la
-                        vieille <placeName ref="Grèce"><name>Grèce</name></placeName>, devenu moderne, éclate dans nos portiques et dans nos
+                        ce qu’on ne voyait plus que dans les ruines de <placeName ref="Rome"><name>l’ancienne Rome</name></placeName> et de <placeName ref="Grèce"><name>la
+                        vieille Grèce</name></placeName>, devenu moderne, éclate dans nos portiques et dans nos
                         péristyle. De même, on ne saurait en écrivant rencontrer le parfait, et s’il
                         se peut, surpasser <term ref="#les_anciens">les anciens</term> que par leur imitation. <app><lem wit="#Paris_1694_8"> pas de nouveau paragraphe ni pied de mouche avant ''Combien'' </lem> <rdg wit="#Paris_1688_1"> <g ref="pied de mouche simple"></g></rdg></app>
                         <app><lem wit="#Paris_1694_8">Combien de siècles se sont écoulés avant que les hommes, dans les sciences et dans les arts, aient
-                        pu revenir au goût des <note source="#Paris_1694_8" resp="lecteurice"  hand="inconnue" place="right" style="*">texte illisible</note>anciens et reprendre enfin le simple et le naturel !On se nourrit des anciens et des habiles modernes, on les presse, on en tire
+                            pu revenir au goût des <note source="#Paris_1694_8" resp="lecteurice"  hand="inconnue" place="right" style="*">texte illisible</note>anciens et reprendre enfin le simple et le naturel !On se nourrit des anciens et des <term ref="#les_habiles">habiles</term> modernes, on les presse, on en tire
                         le plus que l’on peut, on en renfle <note source="#Paris_1694_8" resp="AC" type="gloss" place="left" style="*">enfle,augmente la taille de, on parle d'agrandir une quantité/collection</note> ses ouvrages ; et quand enfin l’on est
                         auteur, et que l’on croit marcher tout seul, on s’élève contre eux, on les
                         maltraite, semblable à ces enfants drus et forts d’un bon lait qu’ils ont
@@ -396,11 +410,11 @@
                         Il avoue que <term ref="#les_anciens">les anciens</term>, quelque inégaux et peu corrects qu’ils soient, ont
                         de beaux traits ; il les cite, et ils sont si beaux qu’ils font lire sa
                         critique. <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="left">texte illisible</note>
-                        Quelques habiles prononcent en faveur des anciens contre les
+                            Quelques <term ref="#les_habiles">habiles</term> prononcent en faveur des <term ref="#les_anciens">anciens</term> contre les
                         modernes ; mais ils sont suspects et semblent juger en leur propre cause,
                         tant leurs ouvrages sont faits sur le goût de <date>l’antiquité</date> : on les
                         récuse<note source="#Paris_1694_8" resp="AC" type="gloss" place="right" style="*">on refuse leur jugement ou témoignage car il serait biaisé</note>.</lem> <rdg wit="#Paris_1688_1">Combien de siècles se sont écoulés avant que les hommes, dans les sciences et dans les arts, aient
-                        pu revenir au goût des anciens et reprendre enfin le simple et le naturel !</rdg></app>
+                            pu revenir au goût des <term ref="#les_anciens">anciens</term> et reprendre enfin le simple et le naturel !</rdg></app>
                         </p>
                 </div2>
 
