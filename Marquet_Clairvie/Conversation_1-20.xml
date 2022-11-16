@@ -105,7 +105,8 @@
                         <note>M. Robert de Châtillon [1633-1719], fils de M. Robert, procureur du Roi au Châtelet, où il est lui-même conseiller. Il avait été nommé conseiller au Châtelet vers 1690</note>
                     </person>
                     <person xml:id="Comte_François_Aubigné">
-                        <note>Le comte François d'Aubigné, né en 1635</note>
+                        <birth>né en 1635</birth>
+                        <note>Le comte François d'Aubigné</note>
                     </person>
                 </listPerson>
             </sourceDesc>
@@ -317,7 +318,7 @@
                         car sur ce que vous voulez apprendre d’eux, ils ignorent le fait <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> les personnes.</p>
                 </div2>
                 <div2 source="#Paris_1694_8">
-                    <p>(9)<app><lem><app type="clé"><lem wit="#Paris_1694_8"><persName ref="#Robert_de_Chatillon">Arrias : Robert de Châtillon></persName></lem></app><seg>Arrias<note resp="#CM" type="gloss" place="droite">l'anti-portrait d'un honnête homme</note></seg> a tout lu, a tout vu, il veut le persuader ainsi ; 
+                    <p>(9)<app type="clé"><lem wit="#Paris_1694_8"><persName ref="#Robert_de_Chatillon">Arrias></persName></lem><rdg wit="#Paris_1694_8"><persName ref="#Robert_de_Châtillon">Robert de Châtillon</persName></rdg></app><seg>Arrias<note resp="#CM" type="gloss" place="droite">l'anti-portrait d'un honnête homme</note></seg> a tout lu, a tout vu, il veut le persuader ainsi ; 
                         c’est un homme universel, et il se donne pour tel : il aime mieux mentir que de se taire ou de paraître ignorer quelque chose. 
                         On parle à la table d’un grand d’une cour du Nord : il prend la parole, 
                         et l’ôte à ceux qui allaient dire ce qu’ils en savent ; 
@@ -326,12 +327,12 @@
                         il récite des <seg>historiettes<note resp="#CM" type="gloss" place="gauche">Court récit écrit ou oral, vrai ou faux, souvent plaisant, sans grande importance.</note></seg> qui y sont arrivées 
                         ; il les trouve plaisantes, et il en rit le premier jusqu’à éclater. 
                         Quelqu’un se hasarde de le contredire, et lui prouve nettement qu’il dit des choses qui ne sont pas vraies. 
-                        <app type="clé"><lem wit="#Paris_1694_8"><persName ref="#Robert_de_Chatillon">Arrias : Robert de Châtillon></persName></lem></app> ne se trouble point, prend feu au contraire contre l’interrupteur : "Je n’avance, lui dit-il, 
-                        je raconte rien que je ne sache d’original : je l’ai appris de <persName>Sethon</persName>, ambassadeur de France dans cette cour, 
+                        <app type="clé"><lem wit="#Paris_1694_8"><persName ref="#Robert_de_Chatillon">Arrias></persName></lem><rdg wit="#Paris_1694_8"><persName ref="#Robert_de_Châtillon">Robert de Châtillon</persName></rdg></app> ne se trouble point, prend feu au contraire contre l’interrupteur : "Je n’avance, lui dit-il, 
+                        je raconte rien que je ne sache d’original : je l’ai appris de <persName ref="#Sethon">Sethon</persName>, ambassadeur de France dans cette cour, 
                         revenu à Paris depuis quelques jours, que je connais familièrement, que j’ai fort interrogé, 
                         et qui ne m’a caché aucune circonstance." 
                         Il reprenait le fil de sa narration avec plus de confiance qu’il ne l’avait commencée, 
-                        lorsque l’un des conviés lui dit : "C’est Sethon à qui vous parlez, lui-même, et qui arrive de son ambassade."</lem></app></p>
+                        lorsque l’un des conviés lui dit : "C’est Sethon à qui vous parlez, lui-même, et qui arrive de son ambassade."</p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(10)Il y a un <app><lem>parti</lem><rdg wit="#Paris_1690_5">party</rdg><rdg wit="#Paris_1692_7">parti</rdg></app> à prendre<app><lem>,</lem></app> 
