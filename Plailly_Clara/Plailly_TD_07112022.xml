@@ -122,24 +122,55 @@
                 </biblStruct>
                 <bibl xml:id="Cle_Escola"></bibl>
                 <listPerson>
-                    <person xml:id="Arfure"></person>
+                    <person xml:id="Riche">
+                        <name>Colbert
+                        </name>
+                        <name>Louvois</name>
+                        <name>Nicolas de Frémont</name>
+                    </person>
+                    <person xml:id="Arfure">
+                        <name>Mme de Belzani</name>
+                    </person>
                     <person xml:id="N_inconnu"></person>
                     <person xml:id="Suisse"></person>
                     <person xml:id="Clitiphon"></person>
-                    <person xml:id="Sosie"></person>
-                    <person xml:id="Champagne"></person>
+                    <person xml:id="Sosie">
+                        <name>Delpech
+                            <roleName>fermier général et économe de l'abbaye de Saint-Denys</roleName>
+                        </name>
+                        <name>Dappougny
+                            <roleName>fermier générale et marguillier à Saint-Jean en Gève</roleName>
+                        </name>
+                        <name>Berrier
+                            <roleName>Marguillier à Saint-Eustache</roleName>
+                        </name>
+                    </person>
+                    <person xml:id="Champagne">
+                        <name>Nicolas Monnerot
+                            <roleName></roleName>
+                        </name>
+                    </person>
                     <person xml:id="Sylvain"></person>
                     <person xml:id="Cleobule"></person>
                     <person xml:id="Dorus"></person>
                     <person xml:id="Sanga"></person>
+                    <person xml:id="Cresus">
+                        <name>Aubert</name>
+                    </person>
                 </listPerson>
                 <listPlace>
-                    <place xml:id="Rome"></place>
+                    <place xml:id="Rome">
+                        <country>Italie</country>
+                    </place>
                     <place xml:id="Aveneay"></place>
                     <place xml:id="V_App"></place>
                     <place xml:id="Sillery"></place>
-                    <place xml:id="Jupiter"></place>
-                    <place xml:id="Saturne"></place>
+                    <place xml:id="Jupiter">
+                        <country>Dans le ciel</country>
+                    </place>
+                    <place xml:id="Saturne">
+                        <country>Dans le ciel</country>
+                    </place>
                 </listPlace>
                 
             </sourceDesc>            
@@ -208,7 +239,7 @@
                 <head>Des Biens de Fortune</head>
                 <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="1"> 
                     <p> (1)
-                        <app type="clé"><lem>Un homme fort riche</lem><rdg wit="#Cle_Escola">Louvois</rdg><rdg wit="#Cle_Escola">Colbert</rdg><rdg wit="#Cle_Escola">Nicolas de Frémont</rdg></app> peut manger des entremets<note resp="#CP">c'est un dessert selon moi</note>,
+                        <app type="clé"><lem><persName ref="#Riche">Un homme fort riche</persName></lem><rdg wit="#Cle_Escola">Louvois</rdg><rdg wit="#Cle_Escola">Colbert</rdg><rdg wit="#Cle_Escola">Nicolas de Frémont</rdg></app> peut manger des entremets<note resp="#CP">c'est un dessert selon moi</note>,
                         faire peindre ses lambris et ses <app><lem>alcôves</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">alcoves</rdg></app>,
                         <app><lem>jouir</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">joüir</rdg></app> d’un <app><lem>palais</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">Palais</rdg></app> à la campagne et d’un autre à la ville,
                         avoir un grand équipage,
@@ -275,7 +306,7 @@
                 </div2>
                 <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="9">
                     <p> (9) <g ref="#pied_de_mouche"/>
-                        <app type="clé"><lem>Un homme est laid, de petite taille, et a peu d’esprit</lem><rdg wit="#Cle_Escola">Louis-Charles de Lévi, duc de Ventadour, Pair de France</rdg></app><app><lem>.</lem><rdg wit="#Paris_1689_4_1">,</rdg><rdg wit="#Paris_1692_7_1 #Paris_1690_5_1">;</rdg></app>
+                        <app type="clé"><lem><persName>Un homme est laid, de petite taille, et a peu d’esprit</persName></lem><rdg wit="#Cle_Escola">Louis-Charles de Lévi, duc de Ventadour, Pair de France</rdg></app><app><lem>.</lem><rdg wit="#Paris_1689_4_1">,</rdg><rdg wit="#Paris_1692_7_1 #Paris_1690_5_1">;</rdg></app>
                         <app><lem>L’on me dit à l’oreille : "Il</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">l'on me dit à l'oreille, il</rdg></app>  a cinquante mille livres de rente<app><lem>.</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">:</rdg></app>
                         <app><lem>Cela</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1">cela</rdg></app> le concerne tout seul, et il ne m’en fera jamais <app><lem>ni pis ni</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">ny pis ny</rdg></app> mieux <app><lem>;</lem><rdg wit="#Paris_1692_7_1">,</rdg></app>
                         si je commence à le regarder avec d’autres yeux, 
@@ -355,7 +386,7 @@
                 </div2>
                 <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="15">
                     <p>  (15) <g ref="#pied_de_mouche"/>
-                        <app type="clé"><lem><persName>Sosie</persName></lem><rdg wit="#Cle_Escola">Dappougny, fermier général et marguillier à Saint-Jean en gève</rdg><rdg wit="#Cle_Escola">Delpech, fermier général et économe de l'abbaye de Saint-Denys</rdg><rdg wit="#Cle_Escola">Berrier, marguillier à Saint-Eustache</rdg></app> de livrée a passé par une petite recette à une <app><lem>sous-ferme</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">sousferme</rdg></app> <app><lem>;</lem><rdg wit="#Paris_1689_4_1">,</rdg></app>
+                        <app type="clé"><lem><persName>Sosie</persName></lem><rdg wit="#Cle_Escola">Dappougny</rdg><rdg wit="#Cle_Escola">Delpech</rdg><rdg wit="#Cle_Escola">Berrier</rdg></app> de livrée a passé par une petite recette à une <app><lem>sous-ferme</lem><rdg wit="#Paris_1692_7_1 #Paris_1689_4_1 #Paris_1690_5_1">sousferme</rdg></app> <app><lem>;</lem><rdg wit="#Paris_1689_4_1">,</rdg></app>
                         et par les concussions, la violence, et l’abus qu’il a fait de ses pouvoirs, 
                         il s’est enfin, sur les ruines de plusieurs familles, élevé à quelque grade.
                         Devenu noble par une charge, il ne lui manquait que d’être homme de bien :
@@ -365,7 +396,7 @@
                 <div2 source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1690_5_1 #Paris_1689_4_1" n="16">
                     <p>
                         (16) <g source="#Paris_1692_7_1 #Paris_1691_6_1 #Paris_1689_4_1" ref="#pied_de_mouche"/>
-                        <app><lem><persName>Arfure</persName></lem><rdg wit="#Cle_Escola">Mme de Belzani</rdg></app> <app><lem>cheminait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">cheminoit</rdg></app> seule et à pied vers le grand portique de Saint <app><lem/><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">**</rdg></app><app><lem>,</lem><rdg wit="#Paris_1689_4_1">;</rdg></app>
+                        <app><lem><persName ref="#Arfure">Arfure</persName></lem><rdg wit="#Cle_Escola">Mme de Belzani</rdg></app> <app><lem>cheminait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">cheminoit</rdg></app> seule et à pied vers le grand portique de Saint <app><lem/><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">**</rdg></app><app><lem>,</lem><rdg wit="#Paris_1689_4_1">;</rdg></app>
                         <app><lem>entendait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">entendoit</rdg></app> de loin le <app><lem>sermon</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Sermon</rdg></app> d’un <app><lem>carme</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Carme</rdg></app> ou d’un <app><lem>docteur</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">Docteur</rdg></app> qu’elle ne <app><lem>voyait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">voyoit</rdg></app> qu’obliquement,
                         et dont elle <app><lem>perdait</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1"></rdg></app> bien des paroles<app><lem>. Sa vertu était</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">; sa vertu étoit</rdg></app> obscure,
                         et sa dévotion <app><lem>connue</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">connuë</rdg></app><pb source="#Paris_1689_4_1"/> comme sa personne<app><lem>. Son</lem><rdg wit="#Paris_1689_4_1 #Paris_1692_7_1">: son</rdg></app> mari est<pb source="#Paris_1692_7_1"/>
@@ -424,5 +455,6 @@
     
     
 </TEI>       
+
 
 
