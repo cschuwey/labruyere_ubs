@@ -74,7 +74,8 @@
                 </biblStruct>
                 <listPerson>
                     <person xml:id="Aronce">
-                        <persName>M. Perrault</persName>
+                        <persName>Aronce</persName>
+                        <note>clé faisant référence à <persName ref="#Perrault">M. Perrault</persName>.</note>
                     </person>
                     <person xml:id="Acis">
                         <persName>Nom inconnu</persName>
@@ -258,7 +259,7 @@
                         Il faut donc s’accommoder à tous les esprits <app><lem>,</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> permettre comme un mal nécessaire le <app><lem>récit</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">recit</rdg></app> des fausses nouvelles, 
                         les vagues <app><lem>réflexions</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">reflexions</rdg></app> sur le gouvernement <app><lem>présent</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">present</rdg></app><app><lem>,</lem><rdg wit="#Paris_1690_5 #Paris_1692_7"></rdg></app> 
                         ou sur <app><lem>lintérêt</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">linterêt</rdg></app> des <app><lem>princes</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Princes</rdg></app>, le <app><lem>débit</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">debit</rdg></app> des beaux <app><lem>sentiments</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">sentimens</rdg></app>, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> qui reviennent <app><lem>toujours</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">toûjours</rdg></app> les mêmes ; 
-                        il faut laisser <app type="clé"><lem wit="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Aronce">Aronce</persName></lem><rdg wit="exemplaire"><persName ref="#Perrault">Arronce : M.Perrault</persName></rdg></app> parler proverbe, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> <app><lem>Mélinde</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Melinde</rdg></app> parler de <app><lem>soi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soy</rdg></app>, de ses vapeurs, de ses migraines <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de ses insomnies.</p>
+                        il faut laisser <app type="clé"><lem wit="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Aronce">Aronce</persName></lem><rdg wit="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Perrault">M.Perrault</persName></rdg></app> parler proverbe, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> <app><lem>Mélinde</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Melinde</rdg></app> parler de <app><lem>soi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soy</rdg></app>, de ses vapeurs, de ses migraines <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de ses insomnies.</p>
                 </div2>
                 <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(6)L’on voit des gens qui<app><lem>,</lem><rdg wit="#Paris_1690_5 #Paris_1692_7"></rdg></app>dans les conversations ou dans le peu de commerce que l’on a avec eux<app><lem>,</lem><rdg wit="#Paris_1690_5 #Paris_1692_7"></rdg></app> 
