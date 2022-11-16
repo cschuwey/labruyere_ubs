@@ -323,7 +323,7 @@
                 <pb n="144" source="#Paris_1691_6_1"/>
                 <pb n="141" source="#Paris_1689_4_1"/>
                 <head> Du Coeur</head>
-                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
+                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1" n="1">
                     <p>Il y a un goût dans la pure <term ref="#amitie">amitié</term> où ne peuvent
                         atteindre ceux qui sont <app>
                             <lem>nés</lem>
@@ -331,19 +331,22 @@
                         </app> médiocres<note resp="#E.LG">Médiocrité = Situation moyenne.
                         </note>.</p>
                 </div2>
-                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
-                    <p><g ref="#fr_pieddemouche"/>(2)L’<term ref="#amitie">amitié</term> peut
+                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1" n="2">
+                    <p><g ref="#fr_pieddemouche"/>L’<term ref="#amitie">amitié</term> peut
                         subsister entre des gens de <app>
                             <lem>différents</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">differens</rdg>
-                        </app> sexes, exempte même de toute grossièreté. Une <term ref="#femme">femme</term> cependant regarde <app>
+                        </app> sexes, exempte même de toute grossièreté. Une <term ref="#femme"
+                            >femme</term> cependant regarde <app>
                             <lem>toujours</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">toûjours</rdg>
-                        </app> un <term ref="#homme">homme</term> comme un <term ref="#homme">homme</term> ; <app>
+                        </app> un <term ref="#homme">homme</term> comme un <term ref="#homme"
+                            >homme</term> ; <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
-                        </app> réciproquement un <term ref="#homme">homme</term> regarde une <term ref="#femme">femme</term> comme une <term ref="#femme">femme</term>. Cette
-                        liaison n’est <app>
+                        </app> réciproquement un <term ref="#homme">homme</term> regarde une <term
+                            ref="#femme">femme</term> comme une <term ref="#femme">femme</term>.
+                        Cette liaison n’est <app>
                             <lem>ni</lem>
                             <rdg wit="#Paris_1691_6_1">ny</rdg>
                         </app> passion <app>
@@ -355,12 +358,13 @@
                             <rdg wit="#Paris_1691_6_1">ait</rdg>
                         </app> une classe à part.</p>
                 </div2>
-                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
-                    <p><g ref="#fr_pieddemouche"/>(3)L’<term ref="#amour">amour</term> naît brusquement<app>
+                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1" n="3">
+                    <p><g ref="#fr_pieddemouche"/>L’<term ref="#amour">amour</term> naît brusquement<app>
                             <rdg wit="#Paris_1689_4_1">,</rdg>
                         </app> sans autre réflexion, par tempérament ou par faiblesse : un trait de
-                        <term ref="#beauté">beauté</term> nous fixe, nous détermine. L’<term ref="#amitie">amitié</term> au
-                        contraire se forme peu à peu, avec le temps, par la pratique, par un long commerce<app>
+                            <term ref="#beauté">beauté</term> nous fixe, nous détermine. L’<term
+                            ref="#amitie">amitié</term> au contraire se forme peu à peu, avec le
+                        temps, par la pratique, par un long commerce<app>
                             <lem>.</lem>
                             <rdg wit="#Paris_1689_4_1">:</rdg>
                         </app>Combien d’esprit, <pb n="142" source="#Paris_1689_4_1"/>de bonté de
@@ -377,8 +381,8 @@
                         </app></p>
 
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/><pb n="145" source="#Paris_1691_6_1"/>(4)Le temps,
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="4">
+                    <p><g ref="#fr_pieddemouche"/><pb n="145" source="#Paris_1691_6_1"/>Le temps,
                         qui fortifie les <app>
                             <lem>amitiés</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">amitiez</rdg>
@@ -387,8 +391,8 @@
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">affoiblit</rdg>
                         </app> l’<term ref="#amour">amour</term>.</p>
                 </div2>
-                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
-                    <p><g ref="#fr_pieddemouche"/>(5) Tant que l’<term ref="#amour">amour</term>
+                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1" n="5">
+                    <p><g ref="#fr_pieddemouche"/>Tant que l’<term ref="#amour">amour</term>
                         dure, il subsiste de <app>
                             <lem>soi-même</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">soy-même</rdg>
@@ -403,15 +407,15 @@
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
                         </app> de complaisance.</p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(6) Il est plus ordinaire de voir un <term
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="6">
+                    <p><g ref="#fr_pieddemouche"/>Il est plus ordinaire de voir un <term
                             ref="#amour">amour</term> extrême qu’une parfaite <term ref="#amitie"
                             >amitié</term>.</p>
                 </div2>
-                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
+                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1" n="7">
                     <p><app>
                             <rdg wit="#Paris_1691_6_1"><g ref="#fr_pieddemouche"/></rdg>
-                        </app>(7) <seg>L’<term ref="#amour">amour</term>
+                        </app><seg>L’<term ref="#amour">amour</term>
                             <app>
                                 <lem>et</lem>
                                 <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">&amp;</rdg>
@@ -421,8 +425,8 @@
                             </app> l’un l’autre.<note resp="#E.LG">On ne pourrait don pas aimer son
                                 ami ou ressentir de l'maitié pour son amant</note></seg></p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(8)<app>
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="8">
+                    <p><g ref="#fr_pieddemouche"/><app>
                             <lem>Celui</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">Celuy</rdg>
                         </app> qui a eu l’expérience d’un grand <term ref="#amour">amour</term>
@@ -436,8 +440,8 @@
                         </app> qui est épuisé sur l’<term ref="#amitie">amitié</term> n’a encore
                         rien fait pour l’<term ref="#amour">amour</term>.</p>
                 </div2>
-                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1">
-                    <p><g ref="#fr_pieddemouche"/>(9)L’<term ref="#amour">amour</term> commence par
+                <div2 source="#Paris_1691_6_1 #Paris_1689_4_1" n="9">
+                    <p><g ref="#fr_pieddemouche"/>L’<term ref="#amour">amour</term> commence par
                             l’<term ref="#amour">amour</term> ; <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">&amp;</rdg>
@@ -451,8 +455,8 @@
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">foible</rdg>
                         </app>.</p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/><pb n="143" source="#Paris_1689_4_1"/>(10)Rien ne
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="10">
+                    <p><g ref="#fr_pieddemouche"/><pb n="143" source="#Paris_1689_4_1"/>Rien ne
                         ressemble mieux à une vive <term ref="#amitie">amitié</term>, que ces
                         liaisons que l’intérêt de <app>
                             <lem>notre</lem>
@@ -460,18 +464,18 @@
                         </app>
                         <term ref="#amour">amour</term> nous fait cultiver.</p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(11)L’on n’aime bien qu’une seule fois : c’est la
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="11">
+                    <p><g ref="#fr_pieddemouche"/>L’on n’aime bien qu’une seule fois : c’est la
                         première ; les amours qui suivent sont moins involontaires.</p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="12">
                     <p><app>
                             <rdg wit="#Paris_1691_6_1"><g ref="#fr_pieddemouche"/></rdg>
-                        </app><pb n="146" source="#Paris_1691_6_1"/>(12)L’<term ref="#amour"
+                        </app><pb n="146" source="#Paris_1691_6_1"/>L’<term ref="#amour"
                             >amour</term> qui naît subitement est le plus long à guérir.</p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(13)L’<term ref="#amour">amour</term> qui <app>
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="13">
+                    <p><g ref="#fr_pieddemouche"/>L’<term ref="#amour">amour</term> qui <app>
                             <lem>croît</lem>
                             <rdg wit="#Paris_1691_6_1">croit</rdg>
                         </app> peu à peu <app>
@@ -486,8 +490,8 @@
                         </app> ressemble trop à l’<term ref="#amitie">amitié</term> pour être une
                         passion violente.</p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(14)<app>
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="14">
+                    <p><g ref="#fr_pieddemouche"/><app>
                             <lem>Celui</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">Celuy</rdg>
                         </app> qui aime assez pour vouloir aimer un million de fois plus qu’il ne
@@ -499,8 +503,8 @@
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">voudroit</rdg>
                         </app>.</p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(15)Si j’accorde que dans la violence d’une grande
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="15">
+                    <p><g ref="#fr_pieddemouche"/>Si j’accorde que dans la violence d’une grande
                         passion on peut aimer quelqu’un plus que <app>
                             <lem>soi-même</lem>
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">soy-même</rdg>
@@ -509,8 +513,9 @@
                             <rdg wit="#Paris_1689_4_1 #Paris_1691_6_1">feray-je</rdg>
                         </app> plus de plaisir, ou à ceux qui aiment, ou à ceux qui sont aimés ?</p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(16)Les <term ref="#homme">hommes</term> souvent veulent aimer, <app>
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="16">
+                    <p><g ref="#fr_pieddemouche"/>Les <term ref="#homme">hommes</term> souvent
+                        veulent aimer, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
                         </app> ne <app>
@@ -523,11 +528,12 @@
                             <lem>et</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
                         </app>, si j’ose ainsi parler, ils sont contraints de demeurer
-                        <seg>libres<note resp="#E.LG">Une relation avec une <term ref="#femme">femme</term> restraint
-                                    l'<term ref="#homme">homme</term> et le priverait de sa liberté</note></seg>.</p>
+                                <seg>libres<note resp="#E.LG">Une relation avec une <term
+                                    ref="#femme">femme</term> restraint l'<term ref="#homme"
+                                    >homme</term> et le priverait de sa liberté</note></seg>.</p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(17) Ceux qui s’aiment d’abord avec <pb n="144"
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="17">
+                    <p><g ref="#fr_pieddemouche"/>Ceux qui s’aiment d’abord avec <pb n="144"
                             source="#Paris_1689_4_1"/>la plus violente passion <app>
                             <lem>contribuent</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">contribuënt</rdg>
@@ -538,22 +544,23 @@
                         </app> chacun de leur part à s’aimer moins, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
-                        </app> ensuite à ne s’aimer plus. Qui, d’un <term ref="#homme">homme</term> ou d’une <term ref="#femme">femme</term>, met
-                        davantage du sien dans cette rupture, il n’est pas aisé de le décider. Les
-                        <term ref="#femme">femmes</term> accusent les <term ref="#homme">hommes</term><pb n="147" source="#Paris_1691_6_1"/>d’être
-                        volages, <app>
+                        </app> ensuite à ne s’aimer plus. Qui, d’un <term ref="#homme">homme</term>
+                        ou d’une <term ref="#femme">femme</term>, met davantage du sien dans cette
+                        rupture, il n’est pas aisé de le décider. Les <term ref="#femme"
+                            >femmes</term> accusent les <term ref="#homme">hommes</term><pb n="147"
+                            source="#Paris_1691_6_1"/>d’être volages, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
                         </app> les <term ref="#homme">homme</term> disent qu’elles sont légères.</p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(18) Quelque délicat que l’on soit en <term
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="18">
+                    <p><g ref="#fr_pieddemouche"/>Quelque délicat que l’on soit en <term
                             ref="#amour">amour</term>, on pardonne plus de fautes que dans l’<term
                             ref="#amitie">amitié</term><note resp="#E.LG">l'amour rend plus
                             conciliant face aux fautes de l'autre.</note>.</p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(19)C’est une vengeance douce<note resp="#E.LG"
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="19">
+                    <p><g ref="#fr_pieddemouche"/>C’est une vengeance douce<note resp="#E.LG"
                             >Ressentir du plaisir lors d'une vengeance Origine : Expression
                             québécoise dite sur le ton de la plaisanterie pour exprimer le plaisir
                             que l'on peut ressentir lors d'une vengeance.</note> à <app>
@@ -564,8 +571,8 @@
                         </app> de faire, par tout son procédé, d’une personne ingrate une très
                         ingrate.</p>
                 </div2>
-                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1">
-                    <p><g ref="#fr_pieddemouche"/>(20)Il est triste d’aimer sans une grande fortune, <app>
+                <div2 source="#Paris_1689_4_1 #Paris_1691_6_1" n="20">
+                    <p><g ref="#fr_pieddemouche"/>Il est triste d’aimer sans une grande fortune, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1691_6_1 #Paris_1689_4_1">&amp;</rdg>
                         </app> qui nous donne les moyens de combler ce que l’on aime, <app>
