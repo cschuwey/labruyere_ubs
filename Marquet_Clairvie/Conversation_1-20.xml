@@ -80,13 +80,15 @@
                         <persName>Nom inconnu</persName>
                     </person>
                     <person xml:id="Arrias">
-                        <persName>M. Robert de Châtillon</persName>
+                        <persName>Arrias</persName>
+                        <note>clé faisant référence à <persName ref="#Robert_de_Châtillon">M. Robert de Châtillon</persName>.</note>
                     </person>
                     <person xml:id="Sethon">
                         <persName>Nom inconnu</persName>
                     </person>
                     <person xml:id="Théodecte">
-                        <persName>Le comte François d'Aubigné</persName>
+                        <persName>Théodecte</persName>
+                        <note>clé faisant référence à <persName ref="#Comte_François_Aubigné">Le comte François d'Aubigné</persName>.</note>
                     </person>
                     <person xml:id="Euthydème">
                         <persName>Nom inconnu</persName>
@@ -318,7 +320,7 @@
                         car sur ce que vous voulez apprendre d’eux, ils ignorent le fait <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> les personnes.</p>
                 </div2>
                 <div2 source="#Paris_1694_8">
-                    <p>(9)<app type="clé"><lem wit="#Paris_1694_8"><persName ref="#Robert_de_Chatillon">Arrias></persName></lem><rdg wit="#Paris_1694_8"><persName ref="#Robert_de_Châtillon">Robert de Châtillon</persName></rdg></app><seg>Arrias<note resp="#CM" type="gloss" place="droite">l'anti-portrait d'un honnête homme</note></seg> a tout lu, a tout vu, il veut le persuader ainsi ; 
+                    <p>(9)<app type="clé"><lem wit="#Paris_1694_8"><persName ref="#Arrias">Arrias</persName></lem><rdg wit="#Paris_1694_8"><persName ref="#Robert_de_Châtillon">Robert de Châtillon</persName></rdg></app><seg>Arrias<note resp="#CM" type="gloss" place="droite">l'anti-portrait d'un honnête homme</note></seg> a tout lu, a tout vu, il veut le persuader ainsi ; 
                         c’est un homme universel, et il se donne pour tel : il aime mieux mentir que de se taire ou de paraître ignorer quelque chose. 
                         On parle à la table d’un grand d’une cour du Nord : il prend la parole, 
                         et l’ôte à ceux qui allaient dire ce qu’ils en savent ; 
@@ -371,7 +373,7 @@
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> faire oublier la narration ?</p>
                 </div2>
                 <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(12)J’entends <app type="clé"><lem wit="#Paris_1690_5"><persName ref="#Théodecte">Théodecte</persName></lem><rdg wit="#Paris_1692_7 #Paris_1694_8"><persName ref="#Comte_François_Aubigné">Theodecte : le comte François d'Aubigné</persName></rdg></app> de l’antichambre ; 
+                    <p>(12)J’entends <app type="clé"><lem wit="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Théodecte">Théodecte</persName></lem><rdg wit="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Comte_François_Aubigné">Theodecte : le comte François d'Aubigné</persName></rdg></app> de l’antichambre ; 
                         il grossit sa voix à mesure qu’il s’approche <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app>
                         le voilà entré <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> il rit, il crie, il éclate <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
                         on bouche ses oreilles, c’est un tonnerre<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
