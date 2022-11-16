@@ -113,7 +113,7 @@
                     <person xml:id="Corneille"></person>
                     <person xml:id="Molière"></person>
                     <person xml:id="Chapelain"></person>
-                    <person xml:id="La Fontaine"></person>
+                    <person xml:id="La_Fontaine"></person>
                     <person xml:id="Platon"></person>
                     <person xml:id="Socrate"></person>
                     <person xml:id="Princes"></person>
@@ -129,7 +129,7 @@
                     <person xml:id="Romains"></person>
                     <person xml:id="Grecs"></person>
                     <person xml:id="Bathylle"></person>
-                    <person xml:id="Dames Romaines"></person>
+                    <person xml:id="Dames_Romaines"></person>
                     <person xml:id="Rhoé"></person>
                     <person xml:id="Roscie"></person>
                     <person xml:id="Nérine"></person>
@@ -386,7 +386,7 @@
                         Si les hommes sont hommes plutôt qu’ours<term>Ours</term> et panthères<term>Panthères</term>, s’ils sont équitables, s’ils se font justice à <app><lem>eux-mêmes</lem><rdg wit="#PARIS_1691_6">eux-mefmes</rdg><rdg wit="#PARIS_1694_8">eux-mêmes</rdg></app>, et qu’ils la rendent <app><lem>aux autres,</lem><rdg wit="#PARIS_1691_6">aux autres ;</rdg><rdg wit="#PARIS_1694_8">aux autres,</rdg></app>que deviennent les lois, leur <app><lem>texte et</lem><rdg wit="#PARIS_1691_6">texte, &amp;</rdg><rdg wit="#PARIS_1694_8">texte &amp;</rdg></app>
                         le prodigieux accablement de leurs commentaires ? que devient le pétitoire<term style="italic">petitoire</term> et le possessoire<term style="italic">poffeffoire</term>, et tout ce qu’on appelle jurisprudence<term>Jurisprudence</term> ? Où se réduisent <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1694_8">même</rdg></app> ceux qui doivent tout leur relief et toute leur enflure à l’autorité où ils sont établis de faire valoir ces <app><lem>mêmes lois</lem><rdg wit="#PARIS_1691_6">mefmes loix</rdg><rdg wit="#PARIS_1694_8">ces mêmes loix</rdg></app> ?
                         Si ces <app><lem>mêmes</lem><rdg wit="#PARIS_1691_6">mefmes</rdg><rdg wit="#PARIS_1694_8">mêmes</rdg></app> hommes ont de la droiture et de la sincérité, s’ils sont guéris de la prévention, où sont évanouies les disputes de l’école, la scolastique et les controverses ? S’ils sont tempérants, chastes et modérés, que leur sert le mystérieux jargon de la médecine, et qui est une mine d’or pour ceux qui s’avisent de le parler ?
-                        Légistes<PersName>Legistes</persName>, docteurs<PersName>Docteurs</persName>, médecins<PersName>Medecins</persName>, quelle chute pour vous, si nous pouvions tous nous donner le mot de devenir sages !
+                        Légistes<persName>Legistes</persName>, docteurs<persName>Docteurs</persName>, médecins<persName>Medecins</persName>, quelle chute pour vous, si nous pouvions tous nous donner le mot de devenir sages !
                     </p>
                     <p>
                         De combien de grands hommes dans les différents exercices de la paix et de la guerre aurait-on dû <app><lem>se passer !</lem><rdg wit="#PARIS_1691_6">se passer ?</rdg><rdg wit="#PARIS_1694_8">se passer !</rdg></app> À quel point de perfection et de raffinement n’a-t-on pas porté de certains arts et de certaines <app><lem>sciences qui</lem><rdg wit="#PARIS_1691_6">sciences, qui</rdg><rdg wit="#PARIS_1694_8">science qui</rdg></app>
@@ -408,8 +408,8 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (13)
-                        Le <app type"clé" source="#PARIS_1694_8"><lem>phénix</lem><persName ref="#Quinau" type="pseudo">Phoenix</persName></app> de la poésie<term>Poesie</term> chantante<term style="italic">chantante</term> renaît de ses cendres ; il a vu mourir et revivre sa réputation en un <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app> jour. Ce juge <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app> si infaillible et si ferme dans <app><lem>ses jugements</lem><rdg wit="#PARIS_1691_6">les jugemens</rdg><rdg wit="#PARIS_1689_4">les iugemens</rdg></app>, le public, a varié sur son <app><lem>sujet</lem><rdg wit="#PARIS_1691_6">sujet</rdg><rdg wit="#PARIS_1689_4">iujet</rdg></app> :
-                        ou il se trompe, ou il s’est trompé. Celui qui prononcerait <app><lem>aujourd’hui</lem><rdg wit="#PARIS_1691_6">aujourd'hui</rdg><rdg wit="#PARIS_1689_4">auiourd'hui</rdg></app> que <app><lem>Q** <app type"clé" source="#PARIS_1694_8"><lem>Q**</lem><persName ref="#Quinau" type="pseudo">Q**</persName></app> en un certain genre est mauvais poète<persName ref="#Poëte">Poëte<persName></lem><rdg wit="#PARIS_1691_6">Q** <app type"clé" source="#PARIS_1694_8"><lem>Q**</lem><persName ref="#Quinau" type="pseudo">Q**</persName></app> en un certain genre eft mauvais poëte<persName ref="#Poëte">Poëte<persName></rdg><rdg wit="#PARIS_1689_4">Q** <app type"clé" source="#PARIS_1694_8"><lem>Q**</lem><persName ref="#Quinau" type="pseudo">Q**</persName></app> eft mauvais poëte<persName ref="#Poëte">Poëte<persName></rdg></app>,
+                        Le <app type="clé" source="#PARIS_1694_8"><lem>phénix</lem><persName ref="#Quinau" type="pseudo">Phoenix</persName></app> de la poésie<term>Poesie</term> chantante<term style="italic">chantante</term> renaît de ses cendres ; il a vu mourir et revivre sa réputation en un <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app> jour. Ce juge <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app> si infaillible et si ferme dans <app><lem>ses jugements</lem><rdg wit="#PARIS_1691_6">les jugemens</rdg><rdg wit="#PARIS_1689_4">les iugemens</rdg></app>, le public, a varié sur son <app><lem>sujet</lem><rdg wit="#PARIS_1691_6">sujet</rdg><rdg wit="#PARIS_1689_4">iujet</rdg></app> :
+                        ou il se trompe, ou il s’est trompé. Celui qui prononcerait <app><lem>aujourd’hui</lem><rdg wit="#PARIS_1691_6">aujourd'hui</rdg><rdg wit="#PARIS_1689_4">auiourd'hui</rdg></app> que <app><lem>Q** </lem><app type="clé" source="#PARIS_1694_8"><lem>Q**</lem><persName ref="#Quinau" type="pseudo">Q**</persName></app></app> en un certain genre est mauvais poète<persName ref="#Poëte">Poëte<persName></lem><rdg wit="#PARIS_1691_6">Q** <app type"clé" source="#PARIS_1694_8"><lem>Q**</lem><persName ref="#Quinau" type="pseudo">Q**</persName></app> en un certain genre eft mauvais poëte<persName ref="#Poëte">Poëte<persName></rdg><rdg wit="#PARIS_1689_4">Q** <app type"clé" source="#PARIS_1694_8"><lem>Q**</lem><persName ref="#Quinau" type="pseudo">Q**</persName></app> eft mauvais poëte<persName ref="#Poëte">Poëte<persName></rdg></app>,
                         <app><lem>parlerait presque aussi mal que</lem><rdg wit="#PARIS_1691_6">parleroit prefque auffi mal, que</rdg><rdg wit="#PARIS_1689_4">parleroit auffi mal que</rdg></app> s’il eût dit il y a quelque temps : Il est bon poète<persName ref="#Poëte" style="italic">Poëte<persName>.<note resp="inconnu" type="handwritten-note" place="margin-right margin-left" source="#PARIS_1694_8">Quinau</note>
                     </p>
                 </div2>
