@@ -628,7 +628,7 @@
                     <p>
                         <g ref="#pied_de_mouche_simple"></g>On ne doit pas se faire des <term ref="#ennemi">ennemis</term> de ceux qui, mieux connus, pourraient
                         avoir rang entre nos <term ref="#amitié">amis</term>. On doit faire <term ref="#choix">choix</term> <term ref="#amitié">d’amis</term> si sûrs et d’une si
-                        exacte <term ref="#prohibé">probité</term>, que venant à cesser de l’<app><lem>être</lem><rdg wit="#Paris_1696_edition9">ètre</rdg></app>être, ils se veuillent <note resp="#EG">Dans les éditions de la Bruyère, il est écrit "veüille"</note> pas abuser
+                        exacte <term ref="#probibé">probité</term>, que venant à cesser de l’<app><lem>être</lem><rdg wit="#Paris_1696_edition9">ètre</rdg></app>être, ils se veuillent <note resp="#EG">Dans les éditions de la Bruyère, il est écrit "veüille"</note> pas abuser
                         de notre <term ref="#confiance">confiance</term>, ni <note resp="#EG">Dans la Bryuère, il est écrit ny</note> se faire <term ref="#caindre">craindre</term> comme <app><lem> </lem><rdg wit="#Paris_1692_edition7">nos</rdg></app> <term ref="#ennemi">ennemis</term>.</p>
                 </div2>
                 <div2 n="57" source="#Paris_1690_edition5 #Paris_1691_edition6 #Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9 #Paris_1699_edition10">
@@ -713,6 +713,3 @@
         </body>
     </text>
 </TEI>
-
-
-
