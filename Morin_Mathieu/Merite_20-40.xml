@@ -66,21 +66,96 @@
                 </biblStruct>
                 
                 <bibl>
-                    
+                    <date>1692</date>
                 </bibl>
                 
                 <listPerson>
                     <person xml:id="Pyrame"></person>
-                    <person xml:id="Mignard"></person>
-                    <person xml:id="Lulli"></person>
-                    <person xml:id="Corneille"></person>
-                    <person xml:id="Erasme"></person>
+                    <person sex="M" xml:id="Mignard">
+                        <p>Pierre Mignard, artiste peintre membre de l'Académie royale de peinture et de sculpture.</p>
+                        <birth when="1612-11-17">17 novembre 1612
+                        <placeName>
+                            <settlement type="city">Troyes</settlement>
+                            <country key="FR">France</country>
+                        </placeName>
+                        </birth>
+                        <death when="1695-05-30">30 mai 1695
+                        <placeName>
+                            <settlement type="city">Paris</settlement>
+                            <country key="FR">France</country>
+                        </placeName>
+                        </death>
+                    </person>
+                    <person xml:id="Lulli">
+                        <p>Jean-Baptiste Lully, compositeur, violoniste style Baroque.</p>
+                        <persName xml:lang="IT">Giovanni Battista Lulli</persName>
+                        <birth when="1632-11-28">28 novembre 1632
+                        <placeName>
+                            <settlement type="city">Florence</settlement>
+                            <country key="IT">Italie</country>
+                        </placeName>
+                        </birth>
+                        <death when="1687-03-22">22 mars 1687
+                        <placeName>
+                            <settlement type="city">Paris</settlement>
+                            <country key="FR">France</country>
+                        </placeName>
+                        </death>
+                    </person>
+                    <person xml:id="Corneille">
+                        <p>Pierre Corneille, dramaturge, poète membre de l'Académie française</p>
+                        <birth when="1606-06-06">6 juin 1606
+                        <placeName>
+                            <settlement type="city">Rouen</settlement>
+                            <country key="FR">France</country>
+                        </placeName>
+                        </birth>
+                        <death when="1684-10-01">1er octobre 1684
+                        <placeName>
+                            <settlement type="city">Paris</settlement>
+                            <country key="FR">France</country>
+                        </placeName>
+                        </death>
+                    </person>
+                    <person xml:id="Erasme">
+                        <p>Didier Érasme, théologien, Homme de lettres, polémiste</p>
+                        <birth notBefore="1466-10-27" notAfter="1466-10-28">entre le 27 et 28 octobre 1466
+                        <placeName>
+                            <settlement type="city">Rotterdam</settlement>
+                            <country key="NL">Pays-Bas</country>
+                        </placeName>
+                        </birth>
+                        <death when="1536-07-12">12 juillet 1536
+                        <placeName>
+                            <settlement type="city">Bâle</settlement>
+                            <country key="CH">Suisse</country>
+                        </placeName>
+                        </death>
+                        <figure>
+                            <head>Desiderius Erasmus, peinture de Hans Holbein le Jeune, en 1523</head>
+                            <graphic url="https://commons.wikimedia.org/wiki/File:Holbein-erasmus2.jpg#/media/Fichier:Holbein-erasmus2.jpg" scale="0.5"/>
+                        </figure>
+                    </person>
                     <person xml:id="Philémon"></person>
                     <person xml:id="Agathe"></person>
                     <person xml:id="Alexandre"></person>
                     <person xml:id="César"></person>
                     <person xml:id="Aemile"></person>
-                    <person xml:id="Socrate"></person>
+                    <person xml:id="Socrate">
+                        <p>Socrate, philosophe grec</p>
+                        <birth notBefore="-470" notAfter="-469">entre 470 et 469 avant J-C
+                        <placeName>
+                            <settlement type="city">Athènes</settlement>
+                            <country key="GR">Grèce</country>
+                        </placeName>
+                        </birth>
+                        <death when="-399">399 avant J-C
+                        <placeName>
+                            <settlement type="city">Athènes</settlement>
+                            <country key="GR">Grèce</country>
+                        </placeName>
+                        </death>
+                    </person>
                     <person xml:id="Mopse"></person>
                     <person xml:id="Celse"></person>
                     <person xml:id="Ménippe"></person>
@@ -167,6 +242,9 @@
                 </item>
                 <item>
                     <date when="2022-11-04">4 novembre 2022</date>Encodage de deux notes imprimeur de la remarque 27
+                </item>
+                <item>
+                    <date when="2022-11-17">17 novembre 2022</date>Encodage et description de la liste des personnages
                 </item>
             </list>
         </revisionDesc>
