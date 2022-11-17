@@ -194,7 +194,7 @@
                     </monogr>
                 </biblStruct>
 <listPerson> 
-    <person xml:id="Drance"/>
+    <person xml:id="Drance"> <note > En 1692, onconsidère que le personnage de Drance peut renvoyer au compte de Clermont-Tonnerre. </note> </person> 
 </listPerson>
             </sourceDesc>
 
@@ -571,7 +571,7 @@
                         conseils, et qui s’égarent volontairement par la <term ref="#crainte">crainte</term> qu’ils ont d’être
                         gouvernés. D’autres consentent d’être gouvernés par leurs <term ref="#amitié">amis</term> en des choses
                         presque indifférentes, et s’en font un <term ref="#droit">droit</term> de les gouverner à leur tour en
-                        des choses graves et de conséquence. <seg><persName type="pseudo" ref="#Drance">Drance</persName><note resp="Lecteur" source="#Paris_1694_edition_8" style="written" hand="texte en partie illisible" type="commentaire"  place="gauche et en bas de la page"> [...] ou le chevalier de Lorraine. La visée du commentaire est sûrement de faire un parallèle entre le personnage de Drance et des figures ayant réellement existé. En effet, nous pouvons déchiffrer Le chevalier de Lorraine qui peut faire référence à Philippe de Lorraine qui a vécu à l'époque de La Bruyère. </note> veut passer pour gouverner son
+                        des choses graves et de conséquence. <seg><app  type="clé"> </app><persName type="pseudo" ref="#Drance">Drance</persName><note resp="Lecteur" source="#Paris_1694_edition_8" style="written" hand="texte en partie illisible" type="commentaire"  place="gauche et en bas de la page"> [...] ou le chevalier de Lorraine. La visée du commentaire est sûrement de faire un parallèle entre le personnage de Drance et des figures ayant réellement existé. En effet, nous pouvons déchiffrer Le chevalier de Lorraine qui peut faire référence à Philippe de Lorraine qui a vécu à l'époque de La Bruyère. </note> veut passer pour gouverner son
                         maître, qui n’en croit rien, non plus que le public ; parler sans cesse à un
                         grand que l’on sert, en des lieux et en des temps où il convient le <pb n="129" source="#Paris_1699_edition_10"/> moins,
                         lui parler à l’oreille ou en des termes mystérieux, rire jusqu’à éclater en
@@ -729,7 +729,4 @@
         </body>
     </text>
 </TEI>
-
-
-
 
