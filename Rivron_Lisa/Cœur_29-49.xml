@@ -35,7 +35,7 @@
                             <date> 1699 </date>
                             <pubPlace> Paris </pubPlace>
                         </imprint>
-                        <imprint xml:id="Paris_1699_editionclassique-un">
+                        <imprint xml:id="Paris_1699_editionclassique-dix">
                             <distributor></distributor>
                         </imprint>
                     </monogr>
@@ -122,7 +122,13 @@
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="29"> <p>
                     <g ref="pied_de_mouche"></g>
                     Il semble que, s’il y a un soupçon injuste, bizarre et sans fondement, qu’on ait une fois appelé <term ref="#jalousie">jalousie</term> , cette autre <term ref="#jalousie">jalousie</term>qui est un sentiment juste, naturel, fondé en raison et sur l’expérience, mériterait un autre nom./ 
-                    Le tempérament a beaucoup de part à la <term ref="#jalousie">jalousie</term>, et elle ne suppose pas toujours une grande passion. C’est cependant un paradoxe qu’un violent <term ref="#amour">amour</term>sans délicatesse./ 
+                    Le tempérament a beaucoup de 
+                    
+                    <pb n="171" ed="#Paris_1694_8"/>
+                        <!-- Page 171 in edition "8" starts here-->
+                    <pb n="119" ed="#Paris_1699_10"/>
+                        <!-- Page 119 in edition "10" starts here-->
+                    part à la <term ref="#jalousie">jalousie</term>, et elle ne suppose pas toujours une grande passion. C’est cependant un paradoxe qu’un violent <term ref="#amour">amour</term>sans délicatesse./ 
                     Il arrive souvent que l’on souffre tout seul de la délicatesse; L’on souffre de la <term ref="#jalousie">jalousie</term>, et l’on fait souffrir les autres
                     
                     <app>
@@ -155,7 +161,12 @@
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="34"> <p>
                     <g ref="#pied_de_mouche"></g>
-                    Cesser d’<term ref="#amour">aimer</term>, preuve sensible que l’homme est borné, et que le cœur a
+                    Cesser d’<term ref="#amour">aimer</term>, preuve sensible que l’homme est borné, et 
+                    <pb n="172" ed="#Paris_1694_8"/>
+                        <!-- Page 172 in edition "8" starts here-->
+                    <pb n="120" ed="#Paris_1699_10"/>
+                        <!-- Page 120 in edition "10" starts here-->
+                    que le cœur a
                     ses limites./ 
                     C’est <term ref="#faiblesse">faiblesse</term> que d’<term ref="#amour">aimer</term> ; c’est souvent une autre <term ref="#faiblesse">faiblesse</term> que de
                     guérir./ 
@@ -184,8 +195,12 @@
                 
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="38"> <p> 
                     <g ref="#pied_de_mouche"></g>
-                    Vouloir oublier quelqu’un, c’est y penser. L’<term ref="#amour">amour</term> a cela de commun avec les scrupules, qu’il s’aigrit par les réflexions et les retours que l’on fait pour s’en délivrer. Il faut, s’il se peut, ne point songer sa <term ref="#amour">passion</term> pour l’affaiblir. </p></div2> 
-                
+                    Vouloir oublier quelqu’un, c’est y penser. L’<term ref="#amour">amour</term> a cela de commun avec les scrupules, qu’il s’aigrit par
+                    les réflexions et les retours que l’on fait pour s’en délivrer. Il faut, s’il se peut, ne point songer sa <term ref="#amour">passion</term> pour l’affaiblir. </p></div2> 
+                    <pb n="173" ed="#Paris_1694_8"/>
+                        <!-- Page 173 in edition "8" starts here-->
+                    <pb n="121" ed="#Paris_1699_10"/>
+                        <!-- Page 121 in edition "10" starts here-->
                 <div2 source="#Paris_1694_8 #Paris_1699_10" n="39"> <p>
                     <g ref="#pied_de_mouche"></g>
                     L’on veut faire tout le bonheur, ou si cela ne se peut ainsi, tout le <term ref="malheur">malheur</term> de ce qu’on <term ref="#amour">aime</term>. </p></div2>
@@ -217,7 +232,12 @@
                         <rdg wit="#Paris_1699_10">haïr</rdg>
                     </app>
                     
-                    que d’<term ref="#amour">aimer</term>, ou si l’on veut, que l’amitié est plus à charge que la <term ref="#haine">haine</term>. Il est vrai qu’on est dispensé de donner à ses ennemis ; mais ne coûte-t-il rien de s’en venger ? Ou s’il est doux et naturel de faire du mal à ce que l’on<term ref="#haine">hait</term>, l’est-il moins de faire du bien à ce qu’on <term ref="#amour">aime</term>? Ne serait-il pas
+                    que d’<term ref="#amour">aimer</term>, ou si l’on veut, que l’amitié est plus à
+                    <pb n="174" ed="#Paris_1694_8"/>
+                        <!-- Page 174 in edition "8" starts here-->
+                    <pb n="122" ed="#Paris_1699_10"/>
+                        <!-- Page 122 in edition "10" starts here-->
+                     charge que la <term ref="#haine">haine</term>. Il est vrai qu’on est dispensé de donner à ses ennemis ; mais ne coûte-t-il rien de s’en venger ? Ou s’il est doux et naturel de faire du mal à ce que l’on<term ref="#haine">hait</term>, l’est-il moins de faire du bien à ce qu’on <term ref="#amour">aime</term>? Ne serait-il pas
                     
                     <app>
                         <lem>dur</lem>
@@ -282,7 +302,12 @@
                     </app>  
                     
                     
-                    pour soi et la dureté pour les autres n’est qu’un seul et même vice. 
+                    pour soi et la
+                    <pb n="175" ed="#Paris_1694_8"/>
+                        <!-- Page 175 in edition "8" starts here-->
+                    <pb n="123" ed="#Paris_1699_10"/>
+                        <!-- Page 123 in edition "10" starts here-->
+                    dureté pour les autres n’est qu’un seul et même vice. 
                     
                     <note type="glossaire" resp="LR" source="#Paris_1694_8 #Paris_1699_10">
                         La Bruyère, en modifiant le terme "ingratitude" dans la huitième version - qui signifie absence de reconnaissance - par le terme "indulgence" dans la dixième version - qui signifie facilité à pardonner, vient modifier le sens de sa citation.</note>
@@ -297,4 +322,3 @@
     
     
 </TEI>
-
