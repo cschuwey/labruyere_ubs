@@ -52,6 +52,24 @@
                             <publisher>Chez Estienne Michallet à Paris</publisher>
                         </imprint>
                     </monogr>
+                       
+                    <listPerson> 
+                       <person xml:id="Climène"><name>Climène</name></person>
+                       <person xml:id="Ismène"><name>Ismène</name></person>
+                       <person xml:id="Hermas"><name>Lise</name> </person>
+                             <person sex="M" xml:id="Hermas">
+                                <p>Selon certaines sources, c'est le frère de l'évêque de Rome Pie Ier, le 10e pape. Il fut disciple de saint Paul, tout comme Clément de Rome (Clément Ier)2. Eusèbe de Césarée affirme que Hermas est celui que l'apôtre Paul salua dans son Épître aux Romains3.
+                                  Il est l'auteur du Pasteur d'Hermas texte chrétien en grec du IIe siècle.</p>
+                              </person>
+                       <person xml:id="Lise"><name>Lise</name></person>
+                   </listPerson>   
+                       
+                   <listPlace>
+                    <place xml:id="Comédie"></place>
+                    <p>La Comédie-Française ou Théâtre-Français (souvent appelé simplement « le Français ») est une institution culturelle française fondée en 1680
+                       et résidant depuis 1799 salle Richelieu au cœur du Palais-Royal dans le 1er arrondissement de Paris</p>
+                   </listPlace>    
+                       
                </biblStruct>
 
                    
@@ -155,7 +173,7 @@
                        
                            <div2 source="#Paris_1688_Première #Paris_1692_Septieme">
                               <p source="#Paris_1688_Première #Paris_1692_Septieme" n="41"><g ref="#pieddemouche"></g>
-                               C'eft trop contre un mary d’estre coquette et dévote ; une femme devroit opter.
+                               C'eft trop contre un mary d’estre coquette et dévote ; une femme devroit opter.</p>
                            </div2>
                     
                           <div2 source="#Paris_1692_Septieme">
@@ -169,7 +187,8 @@
                                      ; je m’informe, on me dit des faits, je les recueille ; et je ne comprends pas comment des gens en qui je crois 
                                      voir toutes choses diamétralement opposées au bon esprit, au sens droit, à l’expérience des affaires du monde, 
                                      à la connaissance de l’homme, à la science de la religion et des mœurs, présument que Dieu doive renouveler 
-                                     en nos jours la merveille de l’apostolat, et faire un miracle en leurs personnes, en les rendant capables, 
+                                     en nos jours la merveille de <seg>l’apostolat,<note source="#Paris_1688_Première #Paris_1692_Septieme" type="gloss" resp="#Stev">
+                                     Prédication, propagation de la foi.</note></seg> ; et faire un miracle en leurs personnes, en les rendant capables, 
                                      tout simples et petits esprits qu’ils sont, du ministère des âmes, celui de tous le plus délicat et le plus sublime ; 
                                      et si au contraire ils se croient nés pour un emploi si relevé, si difficile, et accordé à si peu de personnes, 
                                      et qu’ils se persuadent de ne faire en cela qu’exercer leurs talents naturels et suivre une vocation ordinaire, 
@@ -198,8 +217,9 @@
                                      elles parlent peu ; elles pensent encore et assez bien d’elles-mêmes, comme assez mal des autres ; il y a chez elles 
                                      une émulation de vertu et de réforme qui tient quelque chose de la jalousie ; elles ne haïssent pas de primer dans ce
                                      nouveau genre de vie, comme elles faisaient dans celui qu’elles viennent de quitter par politique ou par dégoût. 
-                                     Elles se perdoient gayement <foreign>gaiement</foreign> par la galanterie, par la bonne chère et par l’oysiveté ; 
-                                     et elles se perdent tristement par la présomption et par l’envie.
+                                     Elles se perdoient gayement <foreign>gaiement</foreign> par la galanterie, par la bonne chère et par 
+                                     <seg>l’oysiveté;<note source="#Paris_1688_Première #Paris_1692_Septieme" type="gloss" resp="#Stev">état d'une personne qui n'a pas d'activité laborieuse</note></seg>
+                                     et elles se perdent tristement par la présomption et par l’envie.</p>
                             </div2>
                     
                                <div2 source="#Paris_1692_Septieme">
@@ -219,7 +239,7 @@
                                         leur cœur. Elles n’approuvent et ne désapprouvent, ne louent et ne condamnent, qu’après avoir consulté ses yeux et
                                         son visage. Il est le dépositaire de leurs joyes et de leurs chagrins, de leurs désirs, de leurs jalousies, de
                                         leurs haines et de leurs amours il les fait rompre avec leurs galants ; il les brouille et les réconcilie avec leurs
-                                        <pb n="146" source="#Paris_1692_Septieme/>maris, & il profite des interrègnes. Il prend soin de leurs affaires,  
+                                        <pb n="146" source="#Paris_1692_Septieme/>maris, et il profite des interrègnes. Il prend soin de leurs affaires,  
                                         sollicite leurs procès, et voit leurs juges ;
                                         il leur donne son médecin, son marchand, ses ouvriers ; il s’ingere de les loger, de les meubler, et il ordonne
                                         de leur équipage. On le voit avec elles dans leurs carrosses, dans les rues d’une ville et aux promenades, ainsi
@@ -228,14 +248,14 @@
                                         Il vieillit sans déchoir de son autorité , un peu d’esprit et beaucoup de temps à perdre luy suffit pour la
                                         conserver ; les enfans, les héritiers, la bru, la nièce, les domestiques, tout en dépend. Il a commencé par
                                         se faire estimer ; il finit par se faire craindre. Cet ami si ancien, si nécessaire, meurt sans qu’on le pleure ;
-                                        et dix femmes dont il étoit le tyran héritent par sa mort de la liberté.
+                                        et dix femmes dont il étoit le tyran héritent par sa mort de la liberté.</p>
                                         
                                         <div2 source="#Paris_1692_Septieme">
                                             <p source="#Paris_1692_Septieme" n="46"><g ref="#pieddemouche"></g>
                                           Quelques femmes ont voulu cacher leur conduite sous les dehors<pb n="147" source="#Paris_1692_Septieme/>
                                           de la modestie ; et tout ce que chacune
                                           a pû gagner par une continuelle affectation, et qui ne s’est jamais démentie, a été de faire dire de soy :
-                                          On l’aurait prise pour une vestale<note>les prêtresses de Vesta, la déesse du feu et du foyer à Rome</note>
+                                          On l’aurait prise pour une vestale<note>les prêtresses de Vesta, la déesse du feu et du foyer à Rome</note><p>
 
                             </div2>
                     
@@ -244,7 +264,7 @@
                                C’est dans les femmes une violente preuve d’une reputation bien nette et bien établie, qu’elle ne soit 
                                 pas même effleurée par la familiarité de quelques-unes qui ne leur ressemblent point ; et qu’avec toute
                                 la pente qu’on a aux malignes explications, on ait recours à une tout autre raison de ce commerce qu’à
-                                celle de la convenance des mœurs.
+                                celle de la convenance des mœurs.</p>
                     </div2>
                                             
                     <div2 source="#Paris_1692_Septieme">
@@ -258,7 +278,8 @@
                                 nité, une fausse gloire qui est légereté, une fausse grandeur qui est 
                                 petitesse ; une fausse vertu qui est hipocrisie, une fausse sagesse qui est pruderie. 
                                 Une femme prude paye de maintien et de parole ; une femme sage paye de conduite. Celle-là suit son humeur et
-                                sa complexion, celle-ci sa raison et son cœur. L’une est sérieuse et austere ; l’autre est dans les diverses
+                                sa <seg>complexion<note source="#Paris_1688_Première #Paris_1692_Septieme" type="gloss" resp="#Stev">
+                                Constitution physique d'une personne</note></seg>, celle-ci sa raison et son cœur. L’une est sérieuse et austere ; l’autre est dans les diverses
                                 rencontres précisément ce qu’il faut qu’elle soit : la première cache des faibles sous de plausibles dehors ;
                                 la seconde couvre un riche fonds sous un air libre et naturel. La pruderie contraint l’esprit, ne cache ni l’âge
                                 ni la laideur ; souvent elle les suppose ; la sagesse au contraire pallie les défauts du corps, ennoblit l’esprit,
@@ -278,68 +299,70 @@
                                     pénibles et sérieuses, ou par une curiosité toute différente de celle qui contente l’esprit, ou par un tout
                                     autre goût que celuy d’exercer leur mémoire : mais à quelque cause que les hommes puissent devoir cette 
                                     ignorance des femmes, ils sont heureux que les femmes, qui les dominent d’ailleurs par tant d’endroits, 
-                                    ayent sur eux cet avantage de moins. On regarde une femme fçavante comme on fait une belle arme : elle
+                                    ayent sur eux cet avantage de moins. On regarde une femme fçavante comme on fait une belle arme : elle</p>
+                                   </div2>
 
 
                                     <p source="#Paris_1688_Première #Paris_1692_Septieme" n="50"><g ref="#pieddemouche"></g>
-                                        <p>La neutralité<term>Caractère, état d'une personne qui reste neutre</term> entre des femmes qui nous sont également amies, quoy qu’elles ayent rompu pour des intérêts où
+                                        La neutralité<term>Caractère, état d'une personne qui reste neutre</term> entre des femmes qui nous sont également amies, quoy qu’elles ayent rompu pour des intérêts où
                                          nous n’avons nulle part, est un point difficile : il faut choisir souvent entre elles, ou les perdre toutes deux.</p>
                              </div2>
 
                              <div2 source="#Paris_1692_Septieme">
                                  <p source="#Paris_1692_Septieme" n="51"><g ref="#pieddemouche"></g>
-                                     <p><pb n="151" source="#Paris_1692_Septieme/>Il y a telle femme qui aime mieux son argent que ses amis, & ses amans que son argent.</p>
+                                    <pb n="151" source="#Paris_1692_Septieme/>Il y a telle femme qui aime mieux son argent que ses amis, et ses amans que son argent.</p>
                              </div2>
                                         
                               <div2 source="#Paris_1692_Septieme">
                                     <p source="#Paris_1692_Septieme" n="52"><g ref="#pieddemouche"></g>
-                                        <p>Il est étonnant de voir dans le cœur de certaines femmes quelque chose de plus vif et de plus fort
+                                        Il est étonnant de voir dans le cœur de certaines femmes quelque chose de plus vif et de plus fort
                                            que l’amour pour les hommes, je veux dire l’ambition et le jeu : de telles femmes rendent les hommes
-                                           chastes ; elles n’ont de leur sexe que les habits.</p>
+                                           <seg>chastes<note source="#Paris_1688_Première #Paris_1692_Septieme" type="gloss" resp="#Stev">Qui s'abstient
+                                                  volontairement des plaisirs sexuels.</note></seg> ; elles n’ont de leur sexe que les habits.</p>
                            </div2>
                            <div2 source="#Paris_1688_Première #Paris_1692_Septieme">
                                     <p source="#Paris_1688_Première #Paris_1692_Septieme" n="53"><g ref="#pieddemouche"></g>
-                                     <p>Les femmes sont extrêmes : elles sont meilleures, ou pires que les hommes.</p>
+                                     Les femmes sont extrêmes : elles sont meilleures, ou pires que les hommes.</p>
 
                           </div2>
                              <div2 source="#Paris_1688_Première #Paris_1692_Septieme">
                                     <p source="#Paris_1688_Première #Paris_1692_Septieme" n="54"><g ref="#pieddemouche"></g>
-                                        <p>La plûpart des femmes n’ont guere de principes , elles se conduisent par le cœur, et dépendent
+                                          La plûpart des femmes n’ont guere de principes , elles se conduisent par le cœur, et dépendent
                                            pour leurs mœurs de ceux qu’elles aiment.</p>
                              </div2>
                              <div2 source="#Paris_1692_Septieme">
                                     <p source="#Paris_1688_Première #Paris_1692_Septieme" n="55"><g ref="#pieddemouche"></g>
-                                         <p>Les femmes vont plus loin en amour que la plûpart des hommes : mais les hommes l’emportent sur elles en amitié. 
+                                          Les femmes vont plus loin en amour que la plûpart des hommes : mais les hommes l’emportent sur elles en amitié. 
                                             Les hommes sont cause que les femmes ne s’aiment point.</p>
                              </div2>
                             <div2 source="#Paris_1692_Septieme">
                                     <p source="#Paris_1692_Septieme" n="56"><g ref="#pieddemouche"></g>
-                                        <p>Il y a du péril à contrefaire. <persName ref="#listPers">Lise</persName>, déjà vieille, veut rendre une jeune femme ridicule, et elle-même
+                                         Il y a du péril à contrefaire. <persName ref="#listPers">Lise</persName>, déjà vieille, veut rendre une jeune femme ridicule, et elle-même
                                            devient difforme ; elle me fait peur ; elle use pour l’imiter de grimaces et de contorsions : la voilà
                                            aussi laide<pb n="152" source="#Paris_1692_Septieme/> qu’il faut pour embellir celle dont elle se mocque.</p>
                             </div2>
 
                               <div2 source="#Paris_1692_Septieme">
                                     <p source="#Paris_1692_Septieme" n="57"><g ref="#pieddemouche"></g>
-                                       <p>On veut à la ville que bien des idiots et des idiotes ayent de l’esprit ; on veut à la cour que bien
+                                        On veut à la ville que bien des idiots et des idiotes ayent de l’esprit ; on veut à la cour que bien
                                           des gens manquent d’esprit qui en ont beaucoup ; et entre ceux-cy une belle femme ne se sauve qu’à
                                           peine avec d’autres femmes.</p>
                                </div2>
                             <div2 source="#Paris_1688_Première #Paris_1692_Septieme">
                                     <p source="#Paris_1688_Première #Paris_1692_Septieme" n="58"><g ref="#pieddemouche"></g>
-                                         <p>Un homme est plus fidelle au secret d’autruy qu’au sien propre ; une femme au contraire garde
+                                          Un homme est plus fidelle au secret d’autruy qu’au sien propre ; une femme au contraire garde
                                             mieux son secret que celuy d’autruy.</p>
 
 
 
                              <div2 source="#Paris_1692_Septieme">
                                     <p source="#Paris_1688_Première #Paris_1692_Septieme" n="59"><g ref="#pieddemouche"></g>
-                                       <p>Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel l’intérêt ou l’ambition
+                                         Il n’y a point dans le cœur d’une jeune personne un si violent amour auquel l’intérêt ou l’ambition
                                           n’ajoûte quelque chose.</p>
                             </div2>
                             <div2 source="#Paris_1692_Septieme">
                                     <p source="Paris_1692_Septieme" n="60"><g ref="#pieddemouche"></g>
-                                         <p>Il y a un temps où les filles les plus riches doivent prendre parti elles n’en laissent guère échapper
+                                          Il y a un temps où les filles les plus riches doivent prendre parti elles n’en laissent guère échapper
                                             les premières occasions sans se préparer un long repentir : il semble que la réputation des biens diminuë
                                             en elles avec celle de leur beauté. Tout favorise au contraire une jeune personne, jusques à l’opinion des
                                             hommes, qui aiment à luy accorder tous les avantages qui peuvent la rendre plus souhaitable.</p>
