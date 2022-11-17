@@ -85,6 +85,10 @@
                             <country key="FR">France</country>
                         </placeName>
                         </death>
+                        <figure>
+                            <head>Pierre Mignard, Portrait de l'artiste, 1690</head>
+                            <graphic url="https://commons.wikimedia.org/wiki/File:Mignard-autoportrait.jpg#/media/Fichier:Mignard-autoportrait.jpg" scale="0.5"/>
+                        </figure>
                     </person>
                     <person xml:id="Lulli">
                         <p>Jean-Baptiste Lully, compositeur, violoniste style Baroque.</p>
@@ -101,6 +105,10 @@
                             <country key="FR">France</country>
                         </placeName>
                         </death>
+                        <figure>
+                            <head>Jean-Baptiste Lully, peinture de Paul Mignard</head>
+                            <graphic url="https://commons.wikimedia.org/wiki/File:Paul_Mignard_-_Jean-Baptiste_Lully.jpg#/media/Fichier:Paul_Mignard_-_Jean-Baptiste_Lully.jpg" scale="0.5"/>
+                        </figure>
                     </person>
                     <person xml:id="Corneille">
                         <p>Pierre Corneille, dramaturge, poète membre de l'Académie française</p>
