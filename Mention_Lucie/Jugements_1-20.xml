@@ -21,6 +21,12 @@
             </editionStmt>
             <publicationStmt>
                 <authority>Lucie</authority>
+                <publisher>Etienne Michallet</publisher>
+                <pubPlace><placeName>Paris</placeName></pubPlace>
+                <date when="1688">Entre 1688 et 1699</date>
+                <availability status="free" source="https://shorturl.at/csEFI">
+                    <p>Cette oeuvre est disponible, dans plusieurs de ses éditions, en libre accès sur le catalogue de la bibliothèqe numérique Gallica, soit celle de la Bibliothèque nationale de France et de ses partenaires.</p>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <bibl>bibliothèque ubs</bibl>
@@ -37,11 +43,19 @@
                             <distributor>Rue S. Jacques</distributor>
                         </imprint>
                     </monogr>
-                </biblStruct>
-            </sourceDesc>
-            <sourceDesc>
-                <bibl>bibliothèque ubs</bibl>
-                <biblStruct>
+                    <monogr xml:id="Paris_1690_5">
+                        <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                        <title>augmentée de plusiers Remarques</title>
+                        <author>Jean de la Bruyère</author>
+                        <editor>Etienne Michallet</editor>
+                        <edition>5ème édition</edition>
+                        <idno>http://catalogue.bnf.fr/ark:/12148/cb37243134t</idno>
+                        <imprint xml:id="Paris_1690_5_1">
+                            <pubPlace>Paris</pubPlace>
+                            <date>1690</date>
+                            <distributor>Rue S. Jacques</distributor>
+                        </imprint>
+                    </monogr>
                     <monogr xml:id="PARIS_1691_6">
                         <author>Jean de la Bruyère</author>
                         <title>Les caractères de Theophraste traduits du Grec: avec Les caractères ou les moeurs de ce siècle</title>
@@ -54,11 +68,6 @@
                             <distributor>Rue S. Jacques</distributor>
                         </imprint>
                     </monogr>
-                </biblStruct>
-            </sourceDesc>
-            <sourceDesc>
-                <bibl>bibliothèque ubs</bibl>
-                <biblStruct>
                     <monogr xml:id="PARIS_1694_8">
                         <author>Jean de la Bruyère</author>
                         <title>Les caractères de Theophraste traduits du Grec: avec Les caractères ou les moeurs de ce siècle</title>
@@ -71,11 +80,6 @@
                             <distributor>Rue S. Jacques</distributor>
                         </imprint>
                     </monogr>
-                </biblStruct>
-            </sourceDesc>
-            <sourceDesc>
-                <bibl>bibliothèque ubs</bibl>
-                <biblStruct>
                     <monogr xml:id="PARIS_1688_1">
                         <author>Jean de la Bruyère</author>
                         <title>Les caractères de Theophraste traduits du Grec: avec Les caractères ou les moeurs de ce siècle</title>
@@ -88,11 +92,6 @@
                             <distributor>Rue S. Jacques</distributor>
                         </imprint>
                     </monogr>
-                </biblStruct>
-            </sourceDesc>
-            <sourceDesc>
-                <bibl>bibliothèque ubs</bibl>
-                <biblStruct>
                     <monogr xml:id="PARIS_1689_4">
                         <author>Jean de la Bruyère</author>
                         <title>Les caractères de Theophraste traduits du Grec: avec Les caractères ou les moeurs de ce siècle</title>
@@ -110,9 +109,23 @@
             <sourceDesc>
                 <listPerson>
                     <person xml:id="Varron"></person>
-                    <person xml:id="Corneille"></person>
+                    <person xml:id="Corneille">
+                        <idno>https://data.bnf.fr/fr/11897704/pierre_corneille/</idno>
+                        <nationality>Français</nationality>
+                        <occupation>Pierre Corneille, aussi appelé « le Grand Corneille » ou « Corneille l'aîné » est un dramaturge et poète du xviie siècle.
+                         Ses oeuvres principales sont : Médée, 1635, L'Illusion comique, 1636, et Le Cid, 1637</occupation>
+                        <birth>6 juin 1606 à Rouen</birth>
+                        <death>1 octobre 1684 à Paris</death>
+                    </person>
                     <person xml:id="Molière"></person>
-                    <person xml:id="Chapelain"></person>
+                    <person xml:id="Chapelain">
+                        <idno>https://data.bnf.fr/fr/12395715/jean_chapelain/</idno>
+                        <nationality>français</nationality>
+                        <occupation>C'est un poète et critique littéraire.
+                        Il était membre de l'Académie française, de l'Accademia della Crusca, et de l'Académie des inscriptions et belles-lettres.</occupation>
+                        <birth>4 décembre 1634 à Paris</birth>
+                        <death>22 février 1674 à Paris</death>
+                    </person>
                     <person xml:id="La_Fontaine"></person>
                     <person xml:id="Platon"></person>
                     <person xml:id="Socrate"></person>
@@ -124,7 +137,13 @@
                     <person xml:id="Docteurs"></person>
                     <person xml:id="Medecins"></person>
                     <person xml:id="Phoenix"></person>
-                    <person xml:id="Quinau"></person>
+                    <person xml:id="Quinau">
+                        <idno>https://data.bnf.fr/fr/12006897/philippe_quinault/</idno>                    
+                        <nationality>français</nationality>
+                        <occupation>C'est un poète, auteur dramatique et librettiste français. Il était membre de l'Académie française, et de l'Académie des inscriptions et belles-lettres.</occupation>
+                        <birth>3 juin 1635 à Paris</birth>
+                        <death>26 novembre 1688 à Paris</death>
+                    </person>
                     <person xml:id="Comédiens"></person>
                     <person xml:id="Romains"></person>
                     <person xml:id="Grecs"></person>
@@ -134,12 +153,58 @@
                     <person xml:id="Roscie"></person>
                     <person xml:id="Nérine"></person>
                     <person xml:id="Comedienne"></person>
-                    <person xml:id=""></person>
-                    <person xml:id=""></person>
-                    <person xml:id=""></person>
+                    <person xml:id="Pucelle"></person>
+                    <person xml:id="Rodogune"></person>
+                    <person xml:id="Comédien"></person>
+                    <person xml:id="Savants"></person>
+                    <person xml:id="Estrees"></person>
+                    <person xml:id="Harlay"></person>
+                    <person xml:id="Bossuet"></person>
+                    <person xml:id="Seguier"></person>
+                    <person xml:id="Montausier"></person>
+                    <person xml:id="Vvardes"></person>
+                    <person xml:id="Chevreuse"></person>
+                    <person xml:id="Novion"></person>
+                    <person xml:id="La_Moignon"></person>
+                    <person xml:id="Scudery">
+                        <idno>https://data.bnf.fr/fr/11924230/madeleine_de_scudery/</idno>
+                        <nationality>Française</nationality>
+                        <occupation>Madeleine de Scudéry est une femme de lettres française. Son œuvre littéraire marque l’apogée du mouvement précieux.</occupation>
+                        <birth>15 novembre 1607 à Le Havre</birth>
+                        <death>2 juin 1701 à Paris</death>
+                    </person>
+                    <person xml:id="Pelisson"></person>
+                    <person xml:id="Personnages"></person>
+                    <person xml:id="Chartres"></person>
+                    <person xml:id="Conde"></person>
+                    <person xml:id="Conti"></person>
+                    <person xml:id="Bourbon"></person>
+                    <person xml:id="Maine"></person>
+                    <person xml:id="Vendôme"></person>
+                    <person xml:id="Ossat"></person>
+                    <person xml:id="Ximenes"></person>
+                    <person xml:id="Richelieu"></person>
+                    <person xml:id="Ministres"></person>
+                    <person xml:id="Fruitiere"></person>
+                    <person xml:id="Philosophe"></person>
+                    <person xml:id="Grimaud"></person>
+                    <person xml:id="Bignons"></person>
+                    <person xml:id="Lamoignons"></person>
+                    <person xml:id="Antonin"></person>
+                    <person xml:id="Empereur"></person>
+                    <person xml:id="Euripile"></person>
                 </listPerson>
                 <listPlace>
-                    <place></place>
+                    <place xml:id="Cour"></place>
+                    <place xml:id="Ville"></place>
+                    <place xml:id="Athenes">
+                        <country>Grèce</country>
+                        <desc>Capital et plus grande ville de la Grèce. C'est la plus ancienne ville du monde, fondée vers 800av. J.C.</desc>
+                    </place>
+                    <place xml:id="Empire">
+                        <country>France</country>
+                        <desc>Nom qui fait référence au royaume de France</desc>
+                    </place>
                 </listPlace>
             </sourceDesc>
         </fileDesc>
@@ -195,17 +260,44 @@
                     <category xml:id="Pantomime">
                         <desc>Jeu, spectacle de mime.</desc>
                     </category>
-                    <category xml:id="">
-                        <desc>dire ce que c'est le mot, on fait une category pour les term et les date</desc>
+                    <category xml:id="Grec">
+                        <desc>Nom de la langue en Grèce.</desc>
+                    </category>
+                    <category xml:id="Etat">
+                        <desc>Fonction de travail.</desc>
+                    </category>
+                    <category xml:id="Grecque">
+                        <desc>Nom de la langue en Grèce au féminin</desc>
+                    </category>
+                    <category xml:id="Latine">
+                        <desc>Nom féminin du latin</desc>
+                    </category>
+                    <category xml:id="Charpentier">
+                        <desc>Métier</desc>
+                    </category>
+                    <category xml:id="Maçon">
+                        <desc>Métier</desc>
                     </category>
                 </taxonomy>
             </classDecl>
             <editorialDecl>
                 <correction>
                     <p>Le texte a été corrigé à de nombreuses reprises au fur et à mesure des avancées de La Bruyère, puis ensuite à titre posthume</p>
+                    <p>Toutes les variantes alphabétiques, orthographiques et grammaticales originant du type de langue utilisé dans l'oeuvre ont été corrigée dans leur
+                    équivalent en français moderne</p>
+                    <p>Par exemple, dans le texte original est utilisé le "s long" que l'on va à chaque fois corriger, dans un soucis de facilitation de la lecture du texte,
+                    en l'équivalent orthographique dans notre langue moderne.</p>
                 </correction>
+                <interpretation>
+                    <p>Le texte est respecté et retranscrit pour le rendre le plus lisible et le plus compréhensible possible, sans interprétation sauf en ce qui concerne
+                        des notes.</p>
+                    <p>Les annotations "originales" portent sur des notes de l'auteur ou de l'éditeur apparaissant dans l'oeuvre originale et ses éditions
+                        correspondantes. Les ajouts "manuscrits" viennent d'un(e) lecteur.ice inconnue).</p>
+                </interpretation>
                 <punctuation>
                     <p>Présence de pieds de mouches et de notes</p>
+                    <p>Marquage des emplacements de pieds-de-mouche et autre typographie spécifique (lettrine, etc) des ouvrages anciens sans les faire apparaître mais
+                        simplement signaler leur présence.</p>
                 </punctuation>
             </editorialDecl>
             <charDecl>
@@ -213,7 +305,11 @@
                     <desc>IP, (IP), ((IP))</desc>
                 </glyph>
             </charDecl>
+            <projectDesc>
+                <p>Projet de numérisation de cette oeuvre sous forme de TP du cours de XML du Master 1ère année Métiers du livre et de l'édition.</p>
+            </projectDesc>
         </encodingDesc>
+
         <revisionDesc>
             <change who="#LM">
                 <date>03.10.2022</date>
@@ -306,7 +402,7 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (1)
-                        Rien ne ressemble plus à la vive persuasion que le mauvais entêtement : de là les partis, les cabales <seg>cabales<note resp="#LM">Entente secrète de plusieurs personnes dirigée contre quelqu'un ou quelque chose</note></seg>, les hérésies.
+                        <pb source="#PARIS_1691_6"  n="424"/><pb source="#PARIS_1689_4"  n="344"/><pb source="#PARIS_1694_8"  n="491"/> Rien ne ressemble plus à la vive persuasion que le mauvais entêtement : de là les partis, les cabales <seg>cabales<note resp="#LM">Entente secrète de plusieurs personnes dirigée contre quelqu'un ou quelque chose</note></seg>, les hérésies.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6 #PARIS_1689_4">
@@ -348,7 +444,7 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (7)
-                        Il est étonnant qu’avec tout l’orgueil dont nous sommes gonflés, et la haute opinion que nous <app><lem> avons</lem><rdg wit="#PARIS_1691_6"> avons</rdg><rdg wit="#PARIS_1689_4"> 'avons</rdg></app> de nous-mêmes et de la bonté de notre <app><lem>jugement</lem><rdg wit="#PARIS_1691_6">jugement</rdg><rdg wit="#PARIS_1689_4">iugemement</rdg></app>, nous négligions de nous en servir pour prononcer sur le mérite des autres.
+                        Il est étonnant qu’avec tout l’orgueil dont nous sommes gonflés, et <pb source="#PARIS_1691_6"  n="425"/><pb source="#PARIS_1689_4"  n="345"/><pb source="#PARIS_1694_8"  n="492"/> la haute opinion que nous <app><lem> avons</lem><rdg wit="#PARIS_1691_6"> avons</rdg><rdg wit="#PARIS_1689_4"> 'avons</rdg></app> de nous-mêmes et de la bonté de notre <app><lem>jugement</lem><rdg wit="#PARIS_1691_6">jugement</rdg><rdg wit="#PARIS_1689_4">iugemement</rdg></app>, nous négligions de nous en servir pour prononcer sur le mérite des autres.
                         La vogue, la faveur populaire, celle du Prince<persName>Prince</persName>, nous entraînent comme un torrent : nous louons ce qui est loué, bien plus que ce qui est louable.
                     </p>
                 </div2>
@@ -364,7 +460,7 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (9)
-                        Les hommes ne se goûtent qu’à peine les uns les autres, n’ont qu’une faible pente à s’approuver réciproquement : action, conduite, pensée, expression, rien ne plaît, rien ne contente ; ils substituent à la place de ce qu’on leur récite, de ce qu’on leur dit ou de ce qu’on leur lit, ce qu’ils auraient fait eux-mêmes en pareille conjoncture, ce qu’ils penseraient ou ce qu’ils écriraient sur un tel sujet,
+                        Les hommes ne se goûtent qu’à peine les uns les autres, n’ont qu’une faible pente à s’approuver récipro-<pb source="#PARIS_1694_8"  n="493"/>quement : action, conduite, pensée, expression, rien ne plaît, rien ne contente ; ils substituent à la place de ce qu’on leur récite, de ce qu’on leur dit ou de ce qu’on leur lit, ce qu’ils auraient fait eux-mêmes en pareille conjoncture, ce qu’ils penseraient ou ce qu’ils écriraient sur un tel sujet,
                         et ils sont si pleins de leurs idées, qu’il n’y a plus de place pour celles d’autrui.
                     </p>
                 </div2>
@@ -372,7 +468,7 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (10)
-                        Le commun des hommes est si enclin au dérèglement et à la bagatelle, et le monde est si plein d’exemples ou pernicieux ou ridicules, que <app><lem>je</lem><rdg wit="#PARIS_1691_6">je</rdg><rdg wit="#PARIS_1689_4">ie</rdg></app> croirais assez que l’esprit de singularité, s’il pouvait avoir ses bornes et ne pas aller trop loin, approcherait fort de la droite raison et d’une conduite régulière.
+                        Le commun des hommes est si enclin au dérèglement et à la bagatelle, et le monde est si plein d’e- <pb source="#PARIS_1691_6"  n="426"/> xemples ou pernicieux ou ridicules, que <app><lem>je</lem><rdg wit="#PARIS_1691_6">je</rdg><rdg wit="#PARIS_1689_4">ie</rdg></app> croirais assez que l’esprit de singularité, s’il pouvait avoir ses bornes et ne pas aller trop loin, approcherait fort de la droite raison et d’une conduite régulière.
                     </p>
                     <p>
                         «Il faut faire comme les autres » : maxime suspecte, qui signifie presque <app><lem>toujours</lem><rdg wit="#PARIS_1691_6">toûjours</rdg><rdg wit="#PARIS_1689_4">toûiours</rdg></app> : « il faut mal faire » dès qu’on l’étend au delà de ces choses purement extérieures, qui n’ont point de <app><lem>suite</lem><rdg wit="#PARIS_1691_6">fuite</rdg><rdg wit="#PARIS_1689_4">fuites</rdg></app>, qui dépendent de l’usage,
@@ -383,24 +479,24 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (11)
-                        Si les hommes sont hommes plutôt qu’ours<term>Ours</term> et panthères<term>Panthères</term>, s’ils sont équitables, s’ils se font justice à <app><lem>eux-mêmes</lem><rdg wit="#PARIS_1691_6">eux-mefmes</rdg><rdg wit="#PARIS_1694_8">eux-mêmes</rdg></app>, et qu’ils la rendent <app><lem>aux autres,</lem><rdg wit="#PARIS_1691_6">aux autres ;</rdg><rdg wit="#PARIS_1694_8">aux autres,</rdg></app>que deviennent les lois, leur <app><lem>texte et</lem><rdg wit="#PARIS_1691_6">texte, &amp;</rdg><rdg wit="#PARIS_1694_8">texte &amp;</rdg></app>
+                        Si les hommes sont hommes plu-<pb source="#PARIS_1694_8"  n="494"/>tôt qu’ours<term>Ours</term> et panthères<term>Panthères</term>, s’ils sont équitables, s’ils se font justice à <app><lem>eux-mêmes</lem><rdg wit="#PARIS_1691_6">eux-mefmes</rdg><rdg wit="#PARIS_1694_8">eux-mêmes</rdg></app>, et qu’ils la rendent <app><lem>aux autres,</lem><rdg wit="#PARIS_1691_6">aux autres ;</rdg><rdg wit="#PARIS_1694_8">aux autres,</rdg></app>que deviennent les lois, leur <app><lem>texte et</lem><rdg wit="#PARIS_1691_6">texte, &amp;</rdg><rdg wit="#PARIS_1694_8">texte &amp;</rdg></app>
                         le prodigieux accablement de leurs commentaires ? que devient le pétitoire<term style="italic">petitoire</term> et le possessoire<term style="italic">poffeffoire</term>, et tout ce qu’on appelle jurisprudence<term>Jurisprudence</term> ? Où se réduisent <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1694_8">même</rdg></app> ceux qui doivent tout leur relief et toute leur enflure à l’autorité où ils sont établis de faire valoir ces <app><lem>mêmes lois</lem><rdg wit="#PARIS_1691_6">mefmes loix</rdg><rdg wit="#PARIS_1694_8">ces mêmes loix</rdg></app> ?
-                        Si ces <app><lem>mêmes</lem><rdg wit="#PARIS_1691_6">mefmes</rdg><rdg wit="#PARIS_1694_8">mêmes</rdg></app> hommes ont de la droiture et de la sincérité, s’ils sont guéris de la prévention, où sont évanouies les disputes de l’école, la scolastique et les controverses ? S’ils sont tempérants, chastes et modérés, que leur sert le mystérieux jargon de la médecine, et qui est une mine d’or pour ceux qui s’avisent de le parler ?
+                        Si ces <app><lem>mêmes</lem><rdg wit="#PARIS_1691_6">mefmes</rdg><rdg wit="#PARIS_1694_8">mêmes</rdg></app> hommes ont de la droiture et de la sincérité, s’ils sont guéris de <pb source="#PARIS_1691_6"  n="427"/> la prévention, où sont évanouies les disputes de l’école, la scolastique et les controverses ? S’ils sont tempérants, chastes et modérés, que leur sert le mystérieux jargon de la médecine, et qui est une mine d’or pour ceux qui s’avisent de le parler ?
                         Légistes<persName>Legistes</persName>, docteurs<persName>Docteurs</persName>, médecins<persName>Medecins</persName>, quelle chute pour vous, si nous pouvions tous nous donner le mot de devenir sages !
                     </p>
                     <p>
-                        De combien de grands hommes dans les différents exercices de la paix et de la guerre aurait-on dû <app><lem>se passer !</lem><rdg wit="#PARIS_1691_6">se passer ?</rdg><rdg wit="#PARIS_1694_8">se passer !</rdg></app> À quel point de perfection et de raffinement n’a-t-on pas porté de certains arts et de certaines <app><lem>sciences qui</lem><rdg wit="#PARIS_1691_6">sciences, qui</rdg><rdg wit="#PARIS_1694_8">science qui</rdg></app>
+                        De combien de grands hommes dans les différents exercices de la paix et de la guerre aurait-on dû <app><lem>se passer !</lem><rdg wit="#PARIS_1691_6">se passer ?</rdg><rdg wit="#PARIS_1694_8">se passer !</rdg></app> À quel point de perfection et de <pb source="#PARIS_1694_8"  n="495"/> raffinement n’a-t-on pas porté de certains arts et de certaines <app><lem>sciences qui</lem><rdg wit="#PARIS_1691_6">sciences, qui</rdg><rdg wit="#PARIS_1694_8">science qui</rdg></app>
                         ne devaient <app><lem>point être</lem><rdg wit="#PARIS_1691_6">point eftre</rdg><rdg wit="#PARIS_1694_8">point être</rdg></app> <app><lem>nécessaires,</lem><rdg wit="#PARIS_1691_6">necessaires ;</rdg><rdg wit="#PARIS_1694_8_1">necessaires,</rdg></app> et qui sont dans le monde comme des remèdes à tous les maux dont <app><lem>notre</lem><rdg wit="#PARIS_1691_6">dont noftre</rdg><rdg wit="#PARIS_1694_8">dont nôtre</rdg></app> malice est l’unique <app><lem>source !</lem><rdg wit="#PARIS_1691_6">source.</rdg><rdg wit="#PARIS_1694_8">source !</rdg></app><note resp="inconnu" type="handwritten-note" place="margin-right" source="#PARIS_1694_8">Note manuscrite illisible</note>
                     </p>
                     <p>
-                        Que de choses depuis Varron<persName ref="#Varron" style="uppercase word">VARRON</persName>, que Varron<persName>Varron</persName> a ignorées ! Ne nous suffirait-il pas <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1694_8">même</rdg></app> de <app><lem>n’être</lem><rdg wit="#PARIS_1691_6">n'eftre</rdg><rdg wit="#PARIS_1694_8">n'être</rdg></app> savant que comme Platon <persName style="uppercase word">PLATON</persName> ou comme <app><lem>Socrate<persName style="uppercase word">SOCRATE</persName> ?</lem><rdg wit="#PARIS_1691_6">SOCRATE<persName style="uppercase word">SOCRATE</persName>.</rdg><rdg wit="#PARIS_1694_8">SOCRATE<persName style="uppercase word">SOCRATE</persName> ?</rdg></app><note resp="inconnu" type="handwritten-note" place="margin-right" source="#PARIS_1694_8">Note manuscrite illisible</note>
+                        Que de choses depuis Varron<persName style="uppercase word">VARRON</persName>, que Varron<persName ref="#Varron">Varron</persName> a ignorées ! Ne nous suffirait-il pas <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1694_8">même</rdg></app> de <app><lem>n’être</lem><rdg wit="#PARIS_1691_6">n'eftre</rdg><rdg wit="#PARIS_1694_8">n'être</rdg></app> savant que comme Platon <persName style="uppercase word">PLATON</persName> ou comme <app><lem>Socrate<persName style="uppercase word">SOCRATE</persName> ?</lem><rdg wit="#PARIS_1691_6">SOCRATE<persName style="uppercase word">SOCRATE</persName>.</rdg><rdg wit="#PARIS_1694_8">SOCRATE<persName style="uppercase word">SOCRATE</persName> ?</rdg></app><note resp="inconnu" type="handwritten-note" place="margin-right" source="#PARIS_1694_8">Note manuscrite illisible</note>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (12)
-                        I2 (I) Tel à un sermon<term>Sermon</term>, à une musique<term>Musique</term>, ou dans une galerie de peintures, a entendu à sa droite et à sa gauche, sur une chose précisément la <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app>, des sentiments précisément opposés.
+                        I2 (I) Tel à un sermon<term>Sermon</term>, à une musique<term>Musique</term>, ou dans une galerie de peintures, a entendu à sa droite et à sa <pb source="#PARIS_1689_4"  n="346"/> gauche, sur une chose précisément la <pb source="#PARIS_1691_6"  n="428"/><app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app>, des sentiments précisément opposés.
                         Cela me ferait dire volontiers que l’on peut hasarder, dans tout genre d’ouvrages, d’y mettre le bon et le mauvais : le bon <app><lem>plaît</lem><rdg wit="#PARIS_1691_6">plaift</rdg><rdg wit="#PARIS_1689_4">plaît</rdg></app> aux <app><lem>uns,</lem><rdg wit="#PARIS_1691_6">uns,</rdg><rdg wit="#PARIS_1689_4">uns</rdg></app> et le mauvais aux autres. L’on ne risque guère davantage d’y mettre le pire : il a ses partisans.
                     </p>
                 </div2>
@@ -408,91 +504,86 @@
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (13)
-                        Le <app type="clé" source="#PARIS_1694_8"><lem>phénix</lem><persName ref="#Quinau" type="pseudo">Phoenix</persName></app> de la poésie<term>Poesie</term> chantante<term style="italic">chantante</term> renaît de ses cendres ; il a vu mourir et revivre sa réputation en un <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app> jour. Ce juge <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app> si infaillible et si ferme dans <app><lem>ses jugements</lem><rdg wit="#PARIS_1691_6">les jugemens</rdg><rdg wit="#PARIS_1689_4">les iugemens</rdg></app>, le public, a varié sur son <app><lem>sujet</lem><rdg wit="#PARIS_1691_6">sujet</rdg><rdg wit="#PARIS_1689_4">iujet</rdg></app> :
-                        ou il se trompe, ou il s’est trompé. Celui qui prononcerait <app><lem>aujourd’hui</lem><rdg wit="#PARIS_1691_6">aujourd'hui</rdg><rdg wit="#PARIS_1689_4">auiourd'hui</rdg></app> que <app><lem>Q** </lem><app type="clé" source="#PARIS_1694_8"><lem>Q**</lem><persName ref="#Quinau" type="pseudo">Q**</persName></app></app> en un certain genre est mauvais poète<persName ref="#Poëte">Poëte<persName></lem><rdg wit="#PARIS_1691_6">Q** <app type"clé" source="#PARIS_1694_8"><lem>Q**</lem><persName ref="#Quinau" type="pseudo">Q**</persName></app> en un certain genre eft mauvais poëte<persName ref="#Poëte">Poëte<persName></rdg><rdg wit="#PARIS_1689_4">Q** <app type"clé" source="#PARIS_1694_8"><lem>Q**</lem><persName ref="#Quinau" type="pseudo">Q**</persName></app> eft mauvais poëte<persName ref="#Poëte">Poëte<persName></rdg></app>,
-                        <app><lem>parlerait presque aussi mal que</lem><rdg wit="#PARIS_1691_6">parleroit prefque auffi mal, que</rdg><rdg wit="#PARIS_1689_4">parleroit auffi mal que</rdg></app> s’il eût dit il y a quelque temps : Il est bon poète<persName ref="#Poëte" style="italic">Poëte<persName>.<note resp="inconnu" type="handwritten-note" place="margin-right margin-left" source="#PARIS_1694_8">Quinau</note>
+                        Le <app type="clé" source="#PARIS_1694_8"><lem>phénix<persName ref="#Quinau" type="pseudo">Phoenix</persName></lem></app> de la poésie<term>Poesie</term> chantante<term style="italic">chantante</term> renaît de ses cendres ; il a vu mourir et revivre sa réputation en un <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app> jour. Ce juge <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app> si infaillible et si ferme dans <app><lem>ses jugements</lem><rdg wit="#PARIS_1691_6">les jugemens</rdg><rdg wit="#PARIS_1689_4">les iugemens</rdg></app>, le public, a varié sur son <app><lem>sujet</lem><rdg wit="#PARIS_1691_6">sujet</rdg><rdg wit="#PARIS_1689_4">iujet</rdg></app> :
+                        ou il se <pb source="#PARIS_1694_8"  n="496"/> trompe, ou il s’est trompé. Celui qui prononcerait <app><lem>aujourd’hui</lem><rdg wit="#PARIS_1691_6">aujourd'hui</rdg><rdg wit="#PARIS_1689_4">auiourd'hui</rdg></app> que <app><lem>Q** <app type="clé" source="#PARIS_1694_8"><lem>Q**<persName ref="#Quinau" type="pseudo">Q**</persName></lem></app> en un certain genre est mauvais poète<persName ref="#Poëte">Poëte</persName></lem><rdg wit="#PARIS_1691_6">Q** <persName ref="#Quinau" type="pseudo">Q**</persName> en un certain genre eft mauvais poëte<persName ref="#Poëte">Poëte</persName></rdg><rdg wit="#PARIS_1689_4">Q** <persName ref="#Quinau" type="pseudo">Q**</persName> eft mauvais poëte<persName ref="#Poëte">Poëte</persName></rdg></app>,
+                        <app><lem>parlerait presque aussi mal que</lem><rdg wit="#PARIS_1691_6">parleroit prefque auffi mal, que</rdg><rdg wit="#PARIS_1689_4">parleroit auffi mal que</rdg></app> s’il eût dit il y a quelque temps : Il est bon poète<persName ref="#Poëte" style="italic">Poëte</persName>.<note resp="inconnu" type="handwritten-note" place="margin-right margin-left" source="#PARIS_1694_8">Quinau</note>
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (14)
-                        <app><lem>C. P. était fort riche, et C. N. ne l’était pas</lem><rdg wit="#PARIS_1691_6 #PARIS_1694_8"><app type="clé"><lem><persName ref="#Chapelain #Corneille" type="pseudo">C. P. étoit riche, &amp; C. N. ne l'étoit pas</persName></lem><rdg wit="#PARIS_1694_8_1">Chapelin étoit riche, &amp; Corneille ne l'étoit pas</rdg></app></rdg><rdg wit="#PARIS_1689_4">Chapelain<persName ref="#Chapelain">Chapelain</persName> étoit riche, &amp; Corneille<persName ref="#Corneille">Corneille</persName> ne l'étoit pas</rdg></app> : la Pucelle et Rodogune méritaient chacune une autre aventure. Ainsi l’on a <app><lem>toujours</lem><rdg wit="#PARIS_1691_6">toûjours</rdg><rdg wit="#PARIS_1689_4">toûiours</rdg></app> demandé pourquoi, dans telle ou <supplied resp="#JLB" source="#PARIS_1689_4" style="handwritten-note">ou</supplied> telle profession, celui-ci avait fait sa fortune, et cet autre l’avait manquée ;
-                        et en cela les hommes cherchent la raison de leurs <app><lem>propres</lem><rdg wit="#PARIS_1691_6">ptopres</rdg><rdg wit="#PARIS_1689_4">propres</rdg></app> caprices, qui dans les conjonctures pressantes de leurs affaires, de leurs plaisirs, de leur santé et de leur vie, leur font souvent laisser les meilleurs et prendre les pires.<note resp="inconnu" type="handwritten-note" place="margin-left" source="#PARIS_1694_8">Chapelain, Corneille</note>
+                        <app><lem>C. P. était fort riche, et C. N. ne l’était pas</lem><rdg wit="#PARIS_1691_6 #PARIS_1694_8"><app type="clé"><lem><persName ref="#Chapelain #Corneille" type="pseudo">C. P. étoit riche, &amp; C. N. ne l'étoit pas</persName></lem><rdg wit="#PARIS_1694_8_1">Chapelin étoit riche, &amp; Corneille ne l'étoit pas</rdg></app></rdg><rdg wit="#PARIS_1689_4">Chapelain<persName ref="#Chapelain">Chapelain</persName> étoit riche, &amp; Corneille<persName ref="#Corneille">Corneille</persName> ne l'étoit pas</rdg></app><note resp="inconnu" type="handwritten-note" place="margin-left" source="#PARIS_1694_8">Chapelain, Corneille</note>: la Pucelle<persName style="italic">Pucelle</persName> et Rodogune<persName style="italic">Rodogune</persName> méritaient chacune une autre aventure.
+                        Ainsi l’on a <app><lem>toujours</lem><rdg wit="#PARIS_1691_6">toûjours</rdg><rdg wit="#PARIS_1689_4">toûiours</rdg></app> demandé pourquoi, dans telle ou <supplied resp="#JLB" source="#PARIS_1689_4" style="handwritten-note">ou</supplied> telle profession, celui-ci avait fait sa fortune, et cet autre l’avait manquée ;
+                        et en cela les hommes cherchent la raison de leurs <app><lem>propres</lem><rdg wit="#PARIS_1691_6">ptopres</rdg><rdg wit="#PARIS_1689_4">propres</rdg></app> ca-<pb source="#PARIS_1691_6"  n="429"/><pb source="#PARIS_1689_4"  n="347"/>prices, qui dans les conjonctures pressantes de leurs affaires, de leurs plaisirs, de leur santé et de leur vie, leur font souvent laisser les meilleurs et prendre les pires.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (15)
-                        La condition des comédiens<persName>Comédiens</persName> était infâme chez les Romains<persName ref="#Romains">Romains</persName> et honorable chez les Grecs<persName ref="#Grecs">Grecs</persName> : qu’est-elle chez nous ? On pense d’eux comme les Romains<persName ref="#Romains">Romains</persName>, on vit avec eux comme les Grecs<persName ref="#Grecs">Grecs</persName>.
+                        La condition des comédiens<persName>Comédiens</persName> était infâme chez les Romains<persName>Romains</persName> et honorable chez les Grecs<persName>Grecs</persName> : qu’est-elle chez nous ? On pense d’eux comme les Romains<persName ref="#Romains">Romains</persName>, on vit avec eux comme les Grecs<persName ref="#Grecs">Grecs</persName>.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (16)
-                        Il suffisait à Bathylle<persName style="italic">Bathylle</persName><app type"clé" source="#PARIS_1694_8"><lem>Bathylle</lem><persName ref="#Bathylle" type="pseudo">Latorilliom</persName></app> d’être pantomime<term ref="#Pantomime">Pantomime</term> pour <app><lem>être</lem><rdg wit="#PARIS_1691_6">eftre</rdg><rdg wit="#PARIS_1689_4">être</rdg></app> couru des dames romaines<persName>Dames Romaines</persName> ; à Rhoé<persName style="italic">Rhoé</persName> de danser au théâtre ; à Roscie<persName style="italic">Roscie</persName> et à Nérine<persName style="italic">Nérine</persName> de représenter dans <app><lem>les chœurs, pour</lem><rdg wit="#PARIS_1691_6">les choeurs, pour</rdg><rdg wit="#PARIS_1689_4">les choeurs pour</rdg></app> s’attirer une foule d’amants.
-                        La vanité et l’audace, suites d’une trop grande puissance, avaient ôté aux Romains<persName ref="#Romains">Romains</persName> le goût du secret et du mystère ; ils se plaisaient à faire du théâtre public celui de leurs amours ; ils n’étaient point jaloux de l’amphithéâtre, et partageaient avec la multitude les charmes de leurs maîtresses. Leur goût n’allait qu’à laisser voir qu’ils aimaient, non pas une belle personne ou une <app><lem>excellente</lem><rdg wit="#PARIS_1691_6">excellente</rdg><rdg wit="#PARIS_1689_4">exce lente</rdg></app> comédienne<persName source="#PARIS_1691_6 #PARIS_1694_8">Comedienne</persName>, mais une comédienne<persName style="italic">Comedienne</persName>.<note resp="inconnu" type="handwritten-note" place="margin-left" source="#PARIS_1694_8">Latorilliom</note>
+                        Il suffisait à Bathylle<persName style="italic">Bathylle</persName><note resp="inconnu" type="handwritten-note" place="margin-left" source="#PARIS_1694_8">Latorilliom</note><app type="clé" source="#PARIS_1694_8"><lem>Bathylle<persName ref="#Bathylle" type="pseudo">Latorilliom</persName></lem></app> d’être pantomime<term ref="#Pantomime">Pantomime</term> pour <app><lem>être</lem><rdg wit="#PARIS_1691_6">eftre</rdg><rdg wit="#PARIS_1689_4">être</rdg></app> couru des dames romaines<persName>Dames Romaines</persName> ; à Rhoé<persName style="italic">Rhoé</persName> de danser au théâtre ;
+                        à Roscie<persName style="italic">Roscie</persName> et à Nérine<persName style="italic">Nérine</persName> de représen-<pb source="#PARIS_1694_8"  n="497"/>ter dans <app><lem>les chœurs, pour</lem><rdg wit="#PARIS_1691_6">les choeurs, pour</rdg><rdg wit="#PARIS_1689_4">les choeurs pour</rdg></app> s’attirer une foule d’amants. La vanité et l’audace, suites d’une trop grande puissance, avaient ôté aux Romains<persName ref="#Romains">Romains</persName> le goût du secret et du mystère ; ils se plaisaient à faire du théâtre public celui de leurs amours ;
+                        ils n’étaient point jaloux de l’amphithéâtre, et partageaient avec la multitude les charmes de leurs maîtresses. Leur goût n’allait qu’à laisser voir qu’ils aimaient, non pas une belle personne ou une <app><lem>excellente</lem><rdg wit="#PARIS_1691_6">excellente</rdg><rdg wit="#PARIS_1689_4">exce lente</rdg></app> comédienne<persName source="#PARIS_1691_6 #PARIS_1694_8">Comedienne</persName>, mais une comédienne<persName style="italic" ref="#PARIS_1691_6 #PARIS_1689_4">Comedienne</persName>.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (17)
-                        Rien ne découvre mieux dans quelle disposition sont les <app><lem>hommes</lem><rdg wit="#PARIS_1691_6">hommes</rdg><rdg wit="#PARIS_1689_4">hômes</rdg></app> à l’égard des sciences et des belles-lettres, et de quelle utilité ils les croient dans la république, que le prix qu’ils y ont mis, et l’idée qu’ils se forment de ceux qui ont pris le parti de les cultiver.
-                        Il n’y a point d’art si mécanique ni de si vile <app><lem>condition où</lem><rdg wit="#PARIS_1691_6">condition, où</rdg><rdg wit="#PARIS_1689_4">condition où</rdg></app> les avantages ne soient plus sûrs, plus prompts et plus solides. Le comédien, couché dans son carrosse, jette de la boue au visage de <persName style="uppercase word">CORNEILLE</persName>, qui est à pied. Chez <app><lem>plusieurs, savant</lem><rdg wit="#PARIS_1691_6">plufieurs, fçavant</rdg><rdg wit="#PARIS_1689_4">plufieurs fçavant</rdg></app> et pédant sont synonymes.
+                        <pb source="#PARIS_1691_6"  n="430"/><pb source="#PARIS_1689_4"  n="348"/>Rien ne découvre mieux dans quelle disposition sont les <app><lem>hommes</lem><rdg wit="#PARIS_1691_6">hommes</rdg><rdg wit="#PARIS_1689_4">hômes</rdg></app> à l’égard des sciences et des belles-lettres, et de quelle utilité ils les croient dans la république, que le prix qu’ils y ont mis, et l’idée qu’ils se forment de ceux qui ont pris le parti de les cultiver.
+                        Il n’y a point d’art si mécanique ni de si vile <app><lem>condition où</lem><rdg wit="#PARIS_1691_6">condition, où</rdg><rdg wit="#PARIS_1689_4">condition où</rdg></app> les avantages ne soient plus sûrs, plus prompts et plus solides. Le comédien<persName>Comédien</persName>, couché dans son carrosse, jette de la boue au visage de <persName ref="#Corneille" style="uppercase word">CORNEILLE</persName>, qui est à pied. Chez <app><lem>plusieurs, savant</lem><rdg wit="#PARIS_1691_6">plufieurs, fçavant</rdg><rdg wit="#PARIS_1689_4">plufieurs fçavant</rdg></app> et pédant sont synonymes.
                     </p>
                     <p>
-                        Souvent où le riche parle, et parle de doctrine, c’est aux doctes à se taire, à écouter, à applaudir, s’ils veulent du moins ne passer que pour doctes.
+                        <pb source="#PARIS_1694_8"  n="498"/>Souvent où le riche parle, et parle de doctrine, c’est aux doctes à se taire, à écouter, à applaudir, s’ils veulent du moins ne passer que pour doctes.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6 #PARIS_1689_4">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (18)
-                        Il y a une sorte de hardiesse à soutenir devant certains esprits la honte de l’érudition : l’on trouve chez eux une prévention tout établie contre les savants, à qui ils ôtent les manières du monde, le savoir-vivre, l’esprit de société, et qu’ils renvoient ainsi dépouillés à leur cabinet et à leurs livres.
-                        Comme l’ignorance est un état paisible et qui ne coûte aucune peine, l’on s’y range en foule, et elle forme à la cour et à la ville un nombreux parti, qui l’emporte sur celui des savants. S’ils allèguent en leur faveur <app><lem>les noms d’Estrées<persName style="uppercase word">ESTRE'ES</persName>, de Harlay<persName style="uppercase word">HARLAY</persName></lem><rdg wit="#PARIS_1691_6">les noms d'ESTRE'ES<persName style="uppercase word">ESTRE'ES</persName>, de HARLAY<persName style="uppercase word">HARLAY</persName></rdg><rdg wit="#PARIS_1689_4">les noms de HARLAY<persName style="uppercase word">HARLAY</persName></rdg></app>, Bossuet, Seguier, Montausier, Wardes, Chevreuse, Novion, La Moignon<persName style="uppercase word">LA MOIGNON</persName>, Scudéry<seg><persName style="uppercase word">SCUDERY</persName><note resp="#JLB" place="margin-right">* Mlle Scudery</note></seg>, Pélisson, et de tant d’autres personnages également doctes et polis ;
-                        s’ils osent <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app> citer les grands <app><lem>noms de Chartres, de Condé</lem><rdg wit="#PARIS_1691_6">noms de CHARTRES<persName style="uppercase word">CHARTRES</persName>, de CONDE'<persName style="uppercase word">CONDE'</persName></rdg><rdg wit="#PARIS_1689_4">noms de CONDE'</rdg></app>, de Conti<persName style="uppercase word">CONTI</persName>, de Bourbon<persName style="uppercase word">BOURBON</persName>, du Maine<persName style="uppercase word">MAINE</persName>, de Vendome<persName style="uppercase word">VENDOME</persName>, comme de princes qui ont su joindre aux plus belles et aux plus hautes connaissances et l’atticisme des <app><lem>Grecs et</lem><rdg wit="#PARIS_1691_6">Grecs, &amp;</rdg><rdg wit="#PARIS_1689_4">Grecs &amp;</rdg></app>
-                        l’urbanité des <app><lem>Romains,</lem><rdg wit="#PARIS_1691_6">Romains ;</rdg><rdg wit="#PARIS_1689_4">Romains,</rdg></app> l’on ne feint point de leur dire que ce sont des exemples <app><lem>singuliers ;</lem><rdg wit="#PARIS_1691_6">finguliers :</rdg><rdg wit="#PARIS_1689_4">finguliers ;</rdg></app> et s’ils ont recours à de solides raisons, elles sont faibles contre la voix de la multitude.
-                        Il semble néanmoins que l’on devrait décider sur cela avec plus de précaution, et se donner seulement la peine de douter si ce <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app> esprit qui fait faire de si grands progrès dans les <app><lem>sciences,</lem><rdg wit="#PARIS_1691_6">fciences ;</rdg><rdg wit="#PARIS_1689_4">fciences raisonnables ;</rdg></app> qui fait bien penser, bien juger,
+                        Il y a une sorte de hardiesse à soutenir devant certains esprits la honte de l’érudition : l’on trouve chez eux une prévention tout établie contre les savants, à qui ils ôtent les manières du monde, le savoir-vivre, l’esprit de société, et qu’ils renvoient ainsi dépouillés à leur cabi-<pb source="#PARIS_1691_6"  n="431"/>net et à leurs livres.
+                        Comme l’ignorance est un état paisible et qui ne coûte au-<pb source="#PARIS_1689_4"  n="349"/>cune peine, l’on s’y range en foule, et elle forme à la cour<placeName>Cour</placeName> et à la ville<placeName>Ville</placeName> un nombreux parti, qui l’emporte sur celui des savants<persName>Savants</persName>.
+                        S’ils allèguent en leur faveur <app><lem>les noms d’Estrées<persName style="uppercase word">ESTRE'ES</persName>, de Harlay<persName style="uppercase word">HARLAY</persName></lem><rdg wit="#PARIS_1691_6">les noms d'ESTRE'ES<persName style="uppercase word">ESTRE'ES</persName>, de HARLAY<persName style="uppercase word">HARLAY</persName></rdg><rdg wit="#PARIS_1689_4">les noms de HARLAY<persName style="uppercase word">HARLAY</persName></rdg></app>, Bossuet<persName style="uppercase word">BOSSUET</persName>, Seguier<persName style="uppercase word">SEGUIER</persName>, Montausier<persName style="uppercase word">MONTAUSIER</persName>,
+                        Wardes<persName style="uppercase word">VVARDES</persName>, Chevreuse<persName style="uppercase word">CHEVREUSE</persName>, Novion<persName style="uppercase word">NOVION</persName>, La Moignon<persName style="uppercase word">LA MOIGNON</persName>, Scudéry<seg><persName style="uppercase word">SCUDERY</persName><note resp="#JLB" place="margin-right">* Mlle Scudery<persName ref="scudery">Scudery</persName></note></seg>, Pélisson<persName style="uppercase word">PELISSON</persName>, et de tant d’autres personnages<persName>Personnages</persName> également doctes et polis ;
+                        s’ils osent <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app> citer les grands <app><lem>noms de Chartres, de Condé</lem><rdg wit="#PARIS_1691_6">noms de CHARTRES<persName style="uppercase word">CHARTRES</persName>, de CONDE'<persName style="uppercase word">CONDE'</persName></rdg><rdg wit="#PARIS_1689_4">noms de CONDE'</rdg></app>, de Conti<persName style="uppercase word">CONTI</persName>, de Bourbon<persName style="uppercase word">BOURBON</persName>, du Maine<persName style="uppercase word">MAINE</persName>, de Vendome<persName style="uppercase word">VENDOME</persName>,
+                        comme de <pb source="#PARIS_1694_8"  n="499"/> princes<persName ref="#Princes">Princes</persName> qui ont su joindre aux plus belles et aux plus hautes connaissances et l’atticisme des <app><lem>Grecs<persName ref="#Grecs">Grecs</persName> et</lem><rdg wit="#PARIS_1691_6">Grecs, &amp;</rdg><rdg wit="#PARIS_1689_4">Grecs &amp;</rdg></app> l’urbanité des <app><lem>Romains<persName ref="#Romains">Romains</persName>,</lem><rdg wit="#PARIS_1691_6">Romains ;</rdg><rdg wit="#PARIS_1689_4">Romains,</rdg></app> l’on ne feint point de leur dire que ce sont des exemples <app><lem>singuliers ;</lem><rdg wit="#PARIS_1691_6">finguliers :</rdg><rdg wit="#PARIS_1689_4">finguliers ;</rdg></app>
+                        et s’ils ont recours à de solides raisons, elles sont faibles contre la voix de la multitude.
+                        Il semble néanmoins que l’on devrait décider sur cela avec plus de précaution, et se donner seulement la peine de douter si ce <app><lem>même</lem><rdg wit="#PARIS_1691_6">mefme</rdg><rdg wit="#PARIS_1689_4">même</rdg></app> esprit qui fait faire de si grands progrès <pb source="#PARIS_1691_6"  n="432"/> dans les <app><lem>sciences,</lem><rdg wit="#PARIS_1691_6">fciences ;</rdg><rdg wit="#PARIS_1689_4">fciences raisonnables ;</rdg></app> qui fait bien penser, bien juger,
                         bien parler et bien écrire, ne pourrait point encore servir à <app><lem>être</lem><rdg wit="#PARIS_1691_6">eftre</rdg><rdg wit="#PARIS_1689_4">être</rdg></app> poli.
-                        <persName style="uppercase word">BOSSUET</persName><persName style="uppercase word">SEGUIER</persName><persName style="uppercase word">MONTAUSIER</persName><persName style="uppercase word">VVARDES</persName><persName style="uppercase word">CHEVREUSE</persName><persName style="uppercase word">NOVION</persName>
-                        
-                        <persName style="uppercase word">PELISSON</persName>
                     </p>
                     <p>
-                        Il faut très peu de fonds pour la politesse <seg>politesse<note resp="#LM">Ensemble de règles qui régissent le comportement, le langage à adopter dans une société</note></seg> dans les manières ; il en faut beaucoup pour celle de l’esprit.
+                        <pb source="#PARIS_1689_4"  n="350"/>Il faut très peu de fonds pour la politesse <seg>politesse<note resp="#LM">Ensemble de règles qui régissent le comportement, le langage à adopter dans une société</note></seg> dans les manières ; il en faut beaucoup pour celle de l’esprit.
                     </p>
                 </div2>
                 <div2 source="#PARIS_1691_6 #PARIS_1694_8">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (19)
-                        I9 (V) « Il est savant, dit un <app><lem>politique,</lem><rdg wit="#PARIS_1691_6">politique ;</rdg><rdg wit="#PARIS_1694_8">politique,</rdg></app> il est donc incapable d’affaires ; je ne lui confierais l’état de ma garde-robe » ; et il a raison. Ossat, Ximénès, Richelieu étaient savants : étaient-ils habiles ? ont-ils passé pour de bons ministres ? « Il sait le grec, continue l’homme d’État, c’est un grimaud, c’est un philosophe. »
-                        Et en effet, une fruitière à Athènes, selon les apparences, parlait grec, et par cette raison <app><lem>était</lem><rdg wit="#PARIS_1691_6">eftoit</rdg><rdg wit="#PARIS_1694_8">étoit</rdg></app> philosophe. Les Bignons, les Lamoignons étaient de purs grimauds : qui en peut douter ? ils savaient le grec.    
-                        Quelle vision, quel délire au grand, au sage, au judicieux Antonin, de dire qu’alors les peuples seraient heureux, si l’empereur philosophait, ou si le philosophe ou le grimaud venait à l’empire !
-                        <persName style="uppercase word">OSSAT</persName>
-                        <persName style="uppercase word">XIMENES</persName>
-                        <persName style="uppercase word">RICHELIEU</persName>
-                        <persName style="uppercase word">BIGNONS</persName>
-                        <persName style="uppercase word">LAMOIGNONS</persName>
-                        <persName style="uppercase word">ANTONIN</persName>
+                        <pb source="#PARIS_1691_6"  n="433"/>I9 (V) « Il est savant, dit un <app><lem>politique,</lem><rdg wit="#PARIS_1691_6">politique ;</rdg><rdg wit="#PARIS_1694_8">politique,</rdg></app> il est donc incapable d’affaires ; je ne lui confierais l’état de ma garde-robe » ; et il a raison. Ossat<persName style="uppercase word">OSSAT</persName>, Ximénès<persName style="uppercase word">XIMENES</persName>, Richelieu<persName style="uppercase word">RICHELIEU</persName> étaient savants :
+                        étaient-ils habiles ? ont-ils passé pour de bons ministres<persName>Ministres</persName> ? « Il sait le grec<term>Grec</term>, continue l’homme d’État<term>Etat</term>, c’est un grimaud<persName>Grimaud</persName>, <pb source="#PARIS_1694_8"  n="500"/> c’est un philosophe<persName>Philosophe</persName>. » Et en effet, une fruitière<persName>Fruitiere</persName> à Athènes<placeName>Athenes</placeName>, selon les apparences, parlait grec<term ref="#Grecs">Grec</term>, et par cette raison <app><lem>était</lem><rdg wit="#PARIS_1691_6">eftoit</rdg><rdg wit="#PARIS_1694_8">étoit</rdg></app> philosophe<persName ref="#Philosophe">Philosophe</persName>.
+                        Les Bignons<persName style="uppercase word">BIGNONS</persName>, les Lamoignons<persName style="uppercase word">LAMOIGNONS</persName> étaient de purs grimauds : qui en peut douter ? ils savaient le grec<term ref="#Grecs">Grec</term>.    
+                        Quelle vision, quel délire au grand, au sage, au judicieux Antonin<persName style="uppercase word">ANTONIN</persName>, de dire qu’alors les peuples seraient heureux, si l’empereur<persName style="italic">Empereur</persName> philosophait, ou si le philosophe<persName ref="#Philosophe" style="italic"></persName> ou le grimaud venait à l’empire<placeName style="italic">Empire</placeName> !   
                     </p>
                     <p>
-                        Les langues sont la clef ou l’entrée des sciences, et rien davantage ; le mépris des unes tombe sur les autres. Il ne s’agit point si les langues sont anciennes ou nouvelles, mortes ou vivantes, mais si elles sont grossières ou polies, si les livres qu’elles ont formés sont d’un bon ou d’un mauvais goût. Supposons que notre langue pût un jour avoir le sort de la grecque et de la latine, serait-on pédant, quelques siècles après qu’on ne la parlerait plus, pour lire Molière ou La Fontaine ?
-                        <persName style="uppercase word">MOLIERE</persName>
-                        <persName style="uppercase word">LA FONTAINE</persName>
-                    </p>
+                        Les langues sont la clef ou l’entrée des sciences, et rien davantage ; le mépris des unes tombe sur les autres. Il ne s’agit point si les langues sont anciennes ou nouvelles, mortes ou vivantes, mais si elles sont grossières ou polies, si les livres qu’elles ont formés sont d’un bon ou d’un mauvais goût. Supposons que notre langue pût un jour avoir le sort de la grecque<term>Grecque</term> et de la latine<term>Latine</term>, serait-on pédant, quelques siècles après qu’on ne la parlerait plus, pour lire Molière<persName style="uppercase word">MOLIERE</persName> ou La Fontaine<persName style="uppercase word">LA FONTAINE</persName> ?
+                    </p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
                 </div2>
                 <div2 source="#PARIS_1691_6 #PARIS_1694_8">
                     <p>
                         <g ref="#fr_pieddemouche"></g>
                         (20)
-                        Je nomme Eurypyle, et vous dites : « C’est un bel esprit. » Vous dites aussi de celui qui travaille une poutre : « Il est charpentier » ; et de celui qui refait un mur : « Il est maçon. » Je vous demande quel est l’atelier où travaille cet homme de métier, ce bel esprit ? quelle est son enseigne ? à quel habit le reconnaît-on ? quels sont ses outils ? est-ce le coin ? sont-ce le marteau ou l’enclume ? où fend-il, où cogne-t-il son <app><lem>ouvrage ? où</lem><rdg wit="#PARIS_1691_6">ouvrage ? où</rdg><rdg wit="#PARIS_1694_8">ouvrage, où</rdg></app> l’expose-t-il en vente ?
-                        Un ouvrier se pique <app><lem>d’être</lem><rdg wit="#PARIS_1691_6">d'eftre</rdg><rdg wit="#PARIS_1694_8">d'être</rdg></app> ouvrier. Eurypyle se pique-t-il d’être bel esprit ? S’il est tel, vous me peignez un fat, qui met l’esprit en roture, une âme vile et mécanique, à qui ni ce qui est beau ni ce qui est esprit ne sauraient s’appliquer sérieusement ; et s’il est vrai qu’il ne se pique de rien, je vous entends, c’est un homme sage et <app><lem>qui a de l’esprit. Ne dites-vous</lem><rdg wit="#PARIS_1691_6">qui a de l'efprit, autrement un homme de merite, que vous appellez un bel efprit : ne dites-vous</rdg><rdg wit="#PARIS_1694_8">qui a de l'efprit, ne dites-vous</rdg></app>
-                        pas encore du savantasse : « Il est bel esprit », et ainsi du mauvais <app><lem>poète ?</lem><rdg wit="#PARIS_1691_6">Poëte.</rdg><rdg wit="#PARIS_1694_8">Poëte ?</rdg></app> Mais <app><lem>vous-même</lem><rdg wit="#PARIS_1691_6">vous-mefme</rdg><rdg wit="#PARIS_1694_8">vous-même</rdg></app>, vous croyez-vous sans aucun <app><lem>esprit ?</lem><rdg wit="#PARIS_1691_6">efprit ;</rdg><rdg wit="#PARIS_1694_8">efprit ?</rdg></app> et si vous en avez, c’est sans doute de celui qui est beau et convenable : vous voilà donc un bel esprit ;
-                        ou s’il s’en faut peu que vous ne preniez ce nom pour une injure, continuez, j’y consens, de le donner à Eurypyle, et d’employer cette ironie comme les sots, sans le moindre discernement, ou comme les ignorants, qu’elle console d’une certaine culture qui leur <app><lem>manque, et</lem><rdg wit="#PARIS_1691_6">manque,&amp;</rdg><rdg wit="#PARIS_1694_8">manque, &amp;</rdg></app> qu’ils ne voient que dans les autres.
+                        Je nomme Eurypyle<persName style="italic">Euripile</persName>, et vous dites : « C’est un bel esprit. » Vous dites aussi de celui qui travaille une pou-<pb source="#PARIS_1694_8"  n="501"/>tre : « Il est charpentier<term>Charpentier</term> » ; et de celui qui refait un mur : « Il est maçon<term>Maçon</term>. » Je vous demande quel est l’atelier où travaille cet homme de métier, ce bel esprit ? quelle est son enseigne ? à quel habit le reconnaît-on ? quels sont ses outils ? est-ce le coin ? sont-ce le marteau ou l’enclume ? où fend-il, où cogne-t-il son <app><lem>ouvrage ? où</lem><rdg wit="#PARIS_1691_6">ouvrage ? où</rdg><rdg wit="#PARIS_1694_8">ouvrage, où</rdg></app> l’expose-t-il en vente ?
+                        Un ouvrier se pique <app><lem>d’être</lem><rdg wit="#PARIS_1691_6">d'eftre</rdg><rdg wit="#PARIS_1694_8">d'être</rdg></app> ouvrier. Eurypyle<persName ref="#Euripile">Euripile</persName> se pique-t-il d’être bel esprit ? S’il est tel, <pb source="#PARIS_1691_6"  n="434"/> vous me peignez un fat, qui met l’esprit en roture, une âme vile et mécanique, à qui ni ce qui est beau ni ce qui est esprit ne sauraient s’appliquer sérieusement ; et s’il est vrai qu’il ne se pique de rien, je vous entends, c’est un homme sage et <app><lem>qui a de l’esprit. Ne dites-vous</lem><rdg wit="#PARIS_1691_6">qui a de l'efprit, autrement un homme de merite, que vous appellez un bel efprit : ne dites-vous</rdg><rdg wit="#PARIS_1694_8">qui a de l'efprit, ne dites-vous</rdg></app>
+                        pas encore du savantasse : « Il est bel esprit », et ainsi du mauvais <app><lem>poète<persName ref="#Poète">Poete</persName> ?</lem><rdg wit="#PARIS_1691_6">Poëte.</rdg><rdg wit="#PARIS_1694_8">Poëte ?</rdg></app> Mais <app><lem>vous-même</lem><rdg wit="#PARIS_1691_6">vous-mefme</rdg><rdg wit="#PARIS_1694_8">vous-même</rdg></app>, vous croyez-vous sans aucun <app><lem>esprit ?</lem><rdg wit="#PARIS_1691_6">efprit ;</rdg><rdg wit="#PARIS_1694_8">efprit ?</rdg></app> et si vous en avez, c’est sans doute de celui qui est beau et convenable : vous voilà donc un bel esprit ;
+                        ou s’il s’en faut peu que vous ne preniez ce nom pour une injure, continuez, j’y consens, de le donner à Eurypyle<persName ref="#Euripile">Euripile</persName>, et <pb source="#PARIS_1694_8"  n="502"/> d’employer cette ironie comme les sots, sans le moindre discernement, ou comme les ignorants, qu’elle console d’une certaine culture qui leur <app><lem>manque, et</lem><rdg wit="#PARIS_1691_6">manque,&amp;</rdg><rdg wit="#PARIS_1694_8">manque, &amp;</rdg></app> qu’ils ne voient que dans les autres.
                     </p>
                 </div2>
             </div1>
