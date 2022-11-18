@@ -48,11 +48,11 @@
                 </biblStruct>
                 
              <listPerson>
-                 <person xml:id="Cléon"><date>?-422av.J-C</date><person sex="M" age="adult"></person><p>Homme politique athénien</p></person>
+                 <person xml:id="Cléon"><persName>Cléon</persName><date>?-422av.J-C</date><person sex="M" age="adult"></person><p>Homme politique athénien</p></person>
                  <person xml:id="Euthyphron" gender="M"><persName>Euthyphron</persName><note>Character in</note><title level="m">Dilemne d'Euthyphron</title></person>
-                 <person xml:id="Eutyphrons"></person>
-                 <person xml:id="Théodème"></person>
-                 <person xml:id="Montaigne"><date>1533-1592</date><person sex="M" age="adult"></person><p>Philosophe, humaniste et moraliste français qui a vécu pendant la Renaissance. Certaines de ses idées ont été utilisées par les Lumières</p></person>
+                 <person xml:id="Eutyphrons"><persName>Euthyphrons</persName></person>
+                 <person xml:id="Théodème"><persName>Théodème</persName></person>
+                 <person xml:id="Montaigne"><persName>Montaigne</persName><date>1533-1592</date><person sex="M" age="adult"></person><p>Philosophe, humaniste et moraliste français qui a vécu pendant la Renaissance. Certaines de ses idées ont été utilisées par les Lumières</p></person>
              </listPerson>   
             </sourceDesc>
            
