@@ -48,7 +48,7 @@
                 </biblStruct>
                 
              <listPerson>
-                 <person xml:id="Cléon"><date>?-422av.J-C</date><person sex="M" age="adult"></person><p>Homme politique ahténien</p></person>
+                 <person xml:id="Cléon"><date>?-422av.J-C</date><person sex="M" age="adult"></person><p>Homme politique athénien</p></person>
                  <person xml:id="Euthyphron" gender="M"><persName>Euthyphron</persName><note>Character in</note><title level="m">Dilemne d'Euthyphron</title></person>
                  <person xml:id="Eutyphrons"></person>
                  <person xml:id="Théodème"></person>
