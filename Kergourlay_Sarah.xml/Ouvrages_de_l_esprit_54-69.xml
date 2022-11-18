@@ -79,20 +79,36 @@
                     </monogr>
                 </biblStruct>
                 <listPerson>
-                    <person xml:id="Corneille"/>
-                    <person xml:id="Racine"/>
-                    <person xml:id="Horace"/>
+                    <person xml:id="Corneille">
+                        <idno>https://data.bnf.fr/11897704/pierre_corneille/</idno>
+                    </person>
+                    <person xml:id="Racine">
+                        <idno>https://data.bnf.fr/12007676/jean_racine/</idno>
+                    </person>
+                    <person xml:id="Horace">
+                        <idno>https://data.bnf.fr/11886570/horace/</idno>
+                    </person>
                     <person xml:id="Oreste"/>
-                    <person xml:id="Euripide"/>
-                    <person xml:id="Sophocle"/>
-                    <person xml:id="Malherbe"/>
-                    <person xml:id="Balzac"/>
-                    <person xml:id="Despreaux"/>
-                    <person xml:id="Polyeucte"></person>
-                    <person xml:id="Phedre"></person>
-                    <person xml:id="Horaces"></person>
-                    <person xml:id="Burrhus"></person>
-                    <person xml:id="Mithridate"></person>
+                    <person xml:id="Euripide">
+                        <idno>https://data.bnf.fr/13091440/euripide/</idno>
+                    </person>
+                    <person xml:id="Sophocle">
+                        <idno>https://data.bnf.fr/11925151/sophocle/</idno>
+                    </person>
+                    <person xml:id="Malherbe">
+                        <idno>https://data.bnf.fr/12327103/francois_de_malherbe/</idno>
+                    </person>
+                    <person xml:id="Balzac">
+                        <idno>https://data.bnf.fr/11890042/jean-louis_de_balzac/</idno>
+                    </person>
+                    <person xml:id="Despreaux">
+                        <idno>https://data.bnf.fr/12040544/nicolas_boileau/</idno>
+                    </person>
+                    <person xml:id="Polyeucte"/>
+                    <person xml:id="Phedre"/>
+                    <person xml:id="Horaces"/>
+                    <person xml:id="Burrhus"/>
+                    <person xml:id="Mithridate"/>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
@@ -147,7 +163,8 @@
                     de notes.</change>
                 <change when="2022-10-06">Ajout des variantes de l'édition 4 des remarques 54 à
                     60.</change>
-                <change when="2022-10-07">Ajout des variantes de l'édition 4 de la remarque 61 et codage des auteurs cités.</change>
+                <change when="2022-10-07">Ajout des variantes de l'édition 4 de la remarque 61 et
+                    codage des auteurs cités.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -440,7 +457,8 @@
                         </app>, en Porus<app>
                             <lem> et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">, &amp;</rdg>
-                        </app> en <persName ref="#Burrhus" type="fictionnel">Burrhus</persName> ? Ces passions encore favorites des <app>
+                        </app> en <persName ref="#Burrhus" type="fictionnel">Burrhus</persName> ?
+                        Ces passions encore favorites des <app>
                             <lem>anciens</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Anciens</rdg>
                         </app>, que les tragiques <app>
@@ -468,10 +486,13 @@
                             <rdg wit="#Paris_1696_9">Poëtes :</rdg>
                         </app>
                         <persName ref="#Oreste" type="fictionnel">Oreste</persName>,<pb n="26"
-                            source="#Paris_1696_9"/> dans l’<title style="italic">Andromaque</title> de <persName ref="#Racine"
-                            type="auteur">Racine</persName>, <app>
-                                <lem>et <persName ref="#Phedre" type="fictionnel" style="italic">Phèdre</persName></lem>
-                                <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp; <persName ref="#phedre" type="fictionnel" style="italic">Phedre</persName></rdg>
+                            source="#Paris_1696_9"/> dans l’<title style="italic">Andromaque</title>
+                        de <persName ref="#Racine" type="auteur">Racine</persName>, <app>
+                            <lem>et <persName ref="#Phedre" type="fictionnel" style="italic"
+                                    >Phèdre</persName></lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp; <persName
+                                    ref="#phedre" type="fictionnel" style="italic"
+                                >Phedre</persName></rdg>
                         </app> du <app>
                             <lem>même auteur</lem>
                             <rdg wit="#Paris_1688_1">mesme <seg>Auteur<note resp="#SK"
