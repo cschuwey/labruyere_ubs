@@ -81,34 +81,53 @@
                 <listPerson>
                     <person xml:id="Corneille">
                         <idno>https://data.bnf.fr/11897704/pierre_corneille/</idno>
+                        <birth>Né le 06 juin 1606 à Rouen</birth>
+                        <death>Mort le 01 octobre 1684 à Paris</death>
+                        <occupation>Dramaturge</occupation>
                     </person>
                     <person xml:id="Racine">
                         <idno>https://data.bnf.fr/12007676/jean_racine/</idno>
+                        <birth>Né en décembre 1639 à La-Ferté-Milon</birth>
+                        <death>Mort le 21 avril 1699 à Paris</death>
+                        <occupation>Dramaturge</occupation>
                     </person>
                     <person xml:id="Horace">
                         <idno>https://data.bnf.fr/11886570/horace/</idno>
+                        <birth>Né en - 65</birth>
+                        <death>Mort en - 8</death>
+                        <occupation>Poète</occupation>
                     </person>
-                    <person xml:id="Oreste"/>
                     <person xml:id="Euripide">
                         <idno>https://data.bnf.fr/13091440/euripide/</idno>
+                        <birth>Né en - 480</birth>
+                        <death>Mort en - 406</death>
+                        <occupation>Dramaturge</occupation>
                     </person>
                     <person xml:id="Sophocle">
                         <idno>https://data.bnf.fr/11925151/sophocle/</idno>
+                        <birth>Né en - 496</birth>
+                        <death>Mort en - 406</death>
+                        <occupation>Dramaturge</occupation>
                     </person>
                     <person xml:id="Malherbe">
                         <idno>https://data.bnf.fr/12327103/francois_de_malherbe/</idno>
+                        <birth>Né en 1555 à Caen</birth>
+                        <death>Mort le 16 octobre 1628 à Paris</death>
+                        <occupation>Poète</occupation>
                     </person>
                     <person xml:id="Balzac">
                         <idno>https://data.bnf.fr/11890042/jean-louis_de_balzac/</idno>
+                        <birth>Né le 31 mai 1597 à Angoulême</birth>
+                        <death>Mort le 08 février 1654</death>
+                        <occupation>Épistolier, rhéteur, poète</occupation>
                     </person>
                     <person xml:id="Despreaux">
                         <idno>https://data.bnf.fr/12040544/nicolas_boileau/</idno>
+                        <birth>Né le  01 novembre 1636 à Paris</birth>
+                        <death>Mort le 13 mars 1711 à Paris</death>
+                        <occupation>Écrivain</occupation>
+                        <persName>Nicolas Boileau / Nicolas Boileau-Despreaux</persName>
                     </person>
-                    <person xml:id="Polyeucte"/>
-                    <person xml:id="Phedre"/>
-                    <person xml:id="Horaces"/>
-                    <person xml:id="Burrhus"/>
-                    <person xml:id="Mithridate"/>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
@@ -437,28 +456,19 @@
                         </app> plus grande tendresse que celle qui est <app>
                             <lem>répandue</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">répanduë</rdg>
-                        </app> dans tout le <persName ref="#cid" type="fictionnel" style="italic"
-                            >Cid</persName>, dans <persName ref="#Polyeucte" type="fictionnel"
-                            style="italic">Polyeucte</persName>
-                        <app>
+                        </app> dans tout le Cid, dans Polyeucte <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp;</rdg>
-                        </app> dans les <persName ref="#Horaces" type="fictionnel" style="italic"
-                            >Horaces</persName>
-                        <app>
+                        </app> dans les Horaces<app>
                             <lem wit="#Paris_1689_4 #Paris_1696_9">? quelle</lem>
                             <rdg wit="#Paris_1688_1">! quelle</rdg>
                         </app> grandeur ne se remarque point en <app>
-                            <lem><persName ref="#Mithridate" type="fictionnel" style="italic"
-                                    >Mithridate</persName></lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4"><persName
-                                    ref="#Mithridate" type="fictionnel" style="italic"
-                                    >Mitridate</persName></rdg>
+                            <lem>Mithridate</lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Mitridate</rdg>
                         </app>, en Porus<app>
                             <lem> et</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">, &amp;</rdg>
-                        </app> en <persName ref="#Burrhus" type="fictionnel">Burrhus</persName> ?
-                        Ces passions encore favorites des <app>
+                        </app> en Burrhus ? Ces passions encore favorites des <app>
                             <lem>anciens</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">Anciens</rdg>
                         </app>, que les tragiques <app>
@@ -484,15 +494,11 @@
                             <lem>poètes.</lem>
                             <rdg wit="#Paris_1688_1 #Paris_1689_4">Poëtes ;</rdg>
                             <rdg wit="#Paris_1696_9">Poëtes :</rdg>
-                        </app>
-                        <persName ref="#Oreste" type="fictionnel">Oreste</persName>,<pb n="26"
-                            source="#Paris_1696_9"/> dans l’<title style="italic">Andromaque</title>
-                        de <persName ref="#Racine" type="auteur">Racine</persName>, <app>
-                            <lem>et <persName ref="#Phedre" type="fictionnel" style="italic"
-                                    >Phèdre</persName></lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp; <persName
-                                    ref="#phedre" type="fictionnel" style="italic"
-                                >Phedre</persName></rdg>
+                        </app> Oreste,<pb n="26" source="#Paris_1696_9"/> dans l’<title
+                            style="italic">Andromaque</title> de <persName ref="#Racine"
+                            type="auteur">Racine</persName>, <app>
+                            <lem>et Phèdre</lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1696_9 #Paris_1689_4">&amp; Phedre</rdg>
                         </app> du <app>
                             <lem>même auteur</lem>
                             <rdg wit="#Paris_1688_1">mesme <seg>Auteur<note resp="#SK"
