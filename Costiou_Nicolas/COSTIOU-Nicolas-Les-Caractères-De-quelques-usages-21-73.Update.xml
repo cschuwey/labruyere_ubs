@@ -11,8 +11,8 @@
                     de ce siècle</title>
                 <author>La Bruyère, Jean De</author>
                 <respStmt>
-                    <resp>numérisation</resp>
-                    <name>Classe M1 Master Métiers du livre et de l'édition, 2022-2023</name>
+                        <resp>Editeur</resp>
+                        <persName>Nicolas Costiou</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -59,22 +59,25 @@
                           
 </sourceDesc>
             
-            
-        </fileDesc>
+</fileDesc>
 
 <encodingDesc>
 
 <projectDesc>
 
-                <p> Projet d'édition des Caractères de la Bruyère en intégrant les variantes des
-                    versions du livre. Outre le texte de base conventionnel, nous utilisons deux
-                    versions : la cinquième et la neuvième. </p>
+    <p> Projet d'édition des Caractères de la Bruyère en intégrant les variantes des versions du livre. Outre le texte de base conventionnel, nous utilisons deux versions : la cinquième et la neuvième. Ajout notamment des notes de l'auteur.</p>
+    <p>Ajout de pieds-de-mouche au début de chaque paragraphe</p>
 
 </projectDesc>
 
+    <charDecl>
+        <glyph xml:id="Pied_de_mouche">
+            <desc>¶</desc>
+        </glyph>
+    </charDecl>
+
 </encodingDesc>
         
-  
 <profileDesc>
 
             <langUsage>
@@ -94,14 +97,12 @@
 <particDesc>
     
     <listPerson>
-    
+  
             <person sex="H" age="adult" xml:id="Tite"><name>Titus</name></person>
             
-            <person age="adult" xml:id="Aristippe"><name>Aristippe</name>
-                <persName ref="Mle Fodel"></persName></person>
+            <person age="adult" xml:id="Aristippe"><name>Aristippe</name><persName ref="Mle Fodel"></persName></person>
             
             <person sex="H" age="adult" xml:id="Ambreville"><name>Ambreville</name></person>
-        
         
         </listPerson>
         
@@ -110,8 +111,8 @@
 </profileDesc>
 
 <revisionDesc>
-
-            <change/>
+    
+    <change>J'ai ajouté les notes de l'auteur situées en marge et plusieurs considérations personnelles</change>
 
 </revisionDesc>
 
@@ -148,42 +149,60 @@
 
         <body>
 
-            <div1>
+<head>
+    
+    <title>De quelques usages</title>
+    
+</head>
 
+            <div1>
+                
                 <div2 n="21" source="#Paris-1690, #Paris-1696">
 
-                    <p> Quelle idée plus bizarre que de se représenter une foule de <app><lem>chrétiens</lem><rdg>Chrétiens</rdg></app> de
-                        l’un et de l’autre sexe, qui se <app><lem>rassemblent</lem><rdg>Raffemblent</rdg></app> à certains jours dans une salle
-                        pour y applaudir à une troupe d’<app><lem>excommuniés</lem><rdg>excommuniez</rdg></app>, qui ne le sont que par le
-                        plaisir qu’ils leur donnent, 
+                    <p> 
                         
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Quelle idée plus bizarre que de se représenter une foule de <app><lem wit="#Tours_1867">chrétiens</lem><rdg wit="#Paris-1690, #Paris-1696">Chrétiens</rdg></app> 
+                        
+                        de l’un et de l’autre sexe, qui se <app><lem wit="#Tours_1867">rassemblent</lem><rdg wit="#Paris-1690, #Paris-1696">Raffemblent</rdg></app> à certains jours dans une salle
+                        pour y applaudir à une troupe d’<app><lem wit="#Tours_1867">excommuniés</lem><rdg wit="#Paris-1690, #Paris-1696">excommuniez</rdg></app>, qui ne le sont que par le
+                        plaisir qu’ils leur donnent, 
+                       
                         <pb n="448" source="#Paris-1690"/>
                         
                         et qui est déjà payé d’avance ? Il me semble
-                        qu’il <app><lem>faudrait</lem><rdg>faudroit</rdg></app> ou fermer les théâtres, ou prononcer moins sévèrement sur
-                        l’état des <app><lem>comédiens</lem><rdg>Comédiens</rdg></app>.
+                        qu’il <app><lem wit="#Tours_1867">faudrait</lem><rdg wit="#Paris-1690, #Paris-1696">faudroit</rdg></app> ou fermer les <app><lem wit="#Tours_1867">théâtres</lem><rdg wit="#Paris-1690, #Paris-1696">Théâtres</rdg></app>, ou prononcer moins sévèrement sur
+                        l’état des <app><lem wit="#Tours_1867">comédiens</lem><rdg wit="#Paris-1690, #Paris-1696">Comédiens</rdg></app>.
                      
                     </p>             
                                      
                 </div2>
 
                 <div2 n="22" source="#Paris-1690, #Paris-1696">
+                    
+                    <p>
+                    
+                    <g ref="#Pied_de_mouche"></g>
 
-                    <p> Dans ces jours qu’on appelle <app><lem>saint</lem><rdg>Faints</rdg></app> le moine confesse, pendant que le curé
-                        tonne en chaire contre le <app><lem>moine</lem><rdg>Moine</rdg></app> et ses adhérents ; telle femme pieuse sort
-                        de l’<app><lem>autel</lem><rdg>Autel</rdg></app>, qui entend au <app><lem>prone</lem><rdg>Prone</rdg></app> qu’elle vient de faire un sacrilège. N’y
+Dans ces jours qu’on appelle <app><lem wit="#Tours_1867">saint</lem><rdg wit="#Paris-1690, #Paris-1696">Faints</rdg></app> le <app><lem wit="#Tours_1867">moine</lem><rdg wit="#Paris-1690, #Paris-1696">Moine</rdg></app> confesse, pendant que le <app><lem wit="#Tours_1867">curé</lem><rdg wit="#Paris-1690, #Paris-1696">Curé</rdg></app>tonne en chaire contre le <app><lem wit="#Tours_1867">moine</lem><rdg wit="#Paris-1690, #Paris-1696">Moine</rdg></app> et ses adhérents ; telle femme pieuse sort
+                        de l’<app><lem wit="#Tours_1867">autel</lem><rdg wit="#Paris-1690, #Paris-1696">Autel</rdg></app>, qui entend au <app><lem wit="#Tours_1867">prone</lem><rdg wit="#Paris-1690, #Paris-1696">Prone</rdg></app> qu’elle vient de faire un sacrilège. N’y
                         a-t-il point dans l’Eglise une puissance à qui il appartienne ou de faire
-                        taire le <app><lem>pasteur</lem><rdg>Pasteur</rdg></app>, ou de suspendre pour un temps le pouvoir du barnabite ?
+                        taire le <app><lem wit="#Tours_1867">pasteur</lem><rdg wit="#Paris-1690, #Paris-1696">Pasteur</rdg></app>, ou de suspendre pour un temps le pouvoir du barnabite ?
 
                     </p>
                     
                 </div2>
 
                 <div2 n="23" source="#Paris-1690, #Paris-1696">
-
-                    <p> Il y a plus de rétribution dans les <app><lem>paroisses</lem><rdg>Paroisse</rdg></app> pour un mariage que pour un
-                        baptême, et plus pour un baptême que pour la confession : l’on <app><lem>dirait</lem><rdg>diroit</rdg></app> que ce
-                        <app><lem>soit</lem><rdg>Foit</rdg></app> un taux sur les <app><lem>sacrements</lem><rdg>Sacremens</rdg></app>, qui <app><lem>semblent</lem><rdg>Femblent</rdg></app> par là être appréciés. Ce
+                    
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Il y a plus de rétribution dans les <app><lem wit="#Tours_1867">paroisses</lem><rdg wit="#Paris-1690, #Paris-1696">Paroisse</rdg></app> pour un mariage que pour un
+                        baptême, et plus pour un baptême que pour la confession : l’on <app><lem wit="#Tours_1867">dirait</lem><rdg wit="#Paris-1690, #Paris-1696">diroit</rdg></app> que ce
+                        <app><lem wit="#Tours_1867">soit</lem><rdg wit="#Paris-1690, #Paris-1696">Foit</rdg></app> un taux sur les <app><lem wit="#Tours_1867">sacrements</lem><rdg wit="#Paris-1690, #Paris-1696">Sacremens</rdg></app>, qui <app><lem wit="#Tours_1867">semblent</lem><rdg wit="#Paris-1690, #Paris-1696">Femblent</rdg></app> par là être appréciés. Ce
                         n’est rien au fond que cet usage ; et ceux qui reçoivent pour les choses
                         saintes ne croient point les vendre, comme ceux qui donnent ne pensent point
                         à les acheter : ce sont peut-être des apparences qu’on pourrait épargner aux
@@ -195,7 +214,11 @@
 
                 <div2 n="24" source="#Paris-1696">
 
-                    <p> Un pasteur frais et en parfaite santé, en ligne fin et en point de Venise, a
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Un pasteur frais et en parfaite santé, en ligne fin et en point de Venise, a
                         sa place dans l’œuvre auprès les pourpres et les fourrures ; il y achève sa
                         digestion, pendant que le Feuillant 
                         
@@ -225,12 +248,14 @@
 
                     <p> 
                         
+                        <g ref="#Pied_de_mouche"></g>
+                        
                         <pb n="449" ed="#Paris-1690"/>
                         
-                        <name type="pseudo">Tite</name>, par vingt années de <app><lem>service</lem><rdg>Fervice</rdg></app> dans une <app><lem>seconde</lem><rdg>Feconde</rdg></app> place, n’est pas encore
-                        digne de la première, qui est vacante : <app><lem>ny</lem><rdg>ni</rdg></app> ses <app><lem>talents</lem><rdg>talens</rdg></app>, ni sa doctrine, ni
+                        <name type="pseudo">Tite</name>, par vingt années de <app><lem wit="#Tours_1867">service</lem><rdg wit="#Paris-1690, #Paris-1696">Fervice</rdg></app> dans une <app><lem wit="#Tours_1867">seconde</lem><rdg wit="#Paris-1690, #Paris-1696">Feconde</rdg></app> place, n’est pas encore
+                        digne de la première, qui est vacante : ni ses <app><lem wit="#Tours_1867">talents</lem><rdg wit="#Paris-1696">talens</rdg></app>, ni sa doctrine, ni
                         une vie exemplaire, ni les vœux des paroissiens ne sauraient l’y faire
-                        asseoir. Il naît de dessous terre un autre clerc <note place="marge" source="#Paris-1690" resp="author" n="clerc">Ecclesiastique</note> pour la remplir. <persName >Tite</persName> est
+                        asseoir. Il naît de dessous terre un autre <app><lem wit="#Tours_1867">clerc</lem><rdg wit="#Paris-1690, #Paris-1696">Clerc</rdg></app> <note place="marge" source="#Paris-1690" resp="author" n="clerc">Ecclesiastique</note> pour la remplir. <persName>Tite</persName> est
                         reculé ou congédié : il ne se plaint pas ; c’est l’usage.
                      
                     </p>
@@ -239,7 +264,11 @@
 
                 <div2 n="26" source="#Paris-1690, #Paris-1696">
 
-                    <p> « Moi, dit le cheffecier, je suis maître du chœur ; qui me forcera d’aller à
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        « Moi, dit le cheffecier, je suis maître du chœur ; qui me forcera d’aller à
                         matines ? mon prédécesseur n’y allait point : suis-je de pire condition ?
                         dois-je laisser avilir ma dignité entre mes mains, ou la laisser telle que
                         je l’ai reçue ? » — « Ce n’est point, dit l’écolâtre, mon intérêt qui me
@@ -261,9 +290,7 @@
                         mélodie, qui réveille les chantres et les enfants de chœur, endort les
                         chanoines, les plonge dans un sommeil doux et facile, et qui ne leur procure
                         que de beaux songes : ils se lèvent tard, et vont à l’église se faire payer
-                        d’avoir dormi. 
-                    
-                    <note place="marge" resp="transcriber">L'auteur critique ici certains hommes d'église qui profitent de leur situation et rejetent des responsabilités sur autrui.</note>
+                        d’avoir dormi. <note place="marge" resp="transcriber">L'auteur critique ici certains hommes d'église qui profitent de leur situation et rejetent des responsabilités sur autrui.</note>
                        
                     </p>
 
@@ -271,9 +298,13 @@
 
                 <div2 n="27" source="#Paris-1690, #Paris-1696">
 
-                    <p> Qui pourrait s’imaginer, si l’expérience ne nous le mettait devant les yeux,
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Qui pourrait s’imaginer, si l’expérience ne nous le mettait devant les yeux,
                         quelle peine ont les hommes à se résoudre d’eux-mêmes à leur propre
-                        félicité, et qu’on ait besoin de gens d’un certain habit, qui par un
+                        félicité <note place="marge" resp="transcriber">Félicité : terme vieilli, peu utilisé à présent.</note>, et qu’on ait besoin de gens d’un certain habit, qui par un
                         discours préparé, tendre et pathétique, par de certaines inflexions de voix,
                         par des larmes, par des mouvements qui les mettent en sueur et qui les
                         jettent dans l’épuisement, fassent 
@@ -284,29 +315,35 @@
                         raisonnable, dont la maladie est sans ressource, à ne se point perdre et à
                         faire son salut ? 
                     
-                        <note place="marge" resp="transcriber">Félicité : terme vieilli, peu utilisé à présent.</note>
-                    
                     </p>
 
                 </div2>
 
                 <div2 n="28" source="#Paris-1690, #Paris-1696">
 
-                    <p> La fille d’<name type="pseudo">Aristippe</name> est malade et en péril ; elle envoie vers son père,
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        La fille d’<name type="pseudo">Aristippe</name><note place="marge" resp="transcriber">L'auteur utilise des noms d'origine grecque : ainsi Aristippe. On connait un philosophe antique grec portant ce nom et développant une philosophie du plaisir comme le fit ensuite Epicure.</note>
+                     est malade et en péril ; elle envoie vers son père,
                         veut se réconcilier avec lui et mourir dans ses bonnes grâces. Cet homme si
                         sage, le conseil de toute une ville, fera-t-il de lui-même cette démarche si
                         raisonnable ? y entraînera-t-il sa femme ? ne faudra-t-il point pour les
                         remuer tous deux la machine du directeur ?
     
-                        <note place="marge" resp="transcriber">L'auteur utilise des noms d'origine grecque : ainsi Aristippe. On connait un philosophe antique grec portant ce nom et développant une philosophie du plaisir comme le fit ensuite Epicure.</note>
-                    
+                        
                     </p>
 
                 </div2>
 
                 <div2 n="29" source="#Paris-1690, #Paris-1696">
 
-                    <p> Une mère, je ne dis pas qui cède et qui se rend à la vocation de sa fille,
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Une mère, je ne dis pas qui cède et qui se rend à la vocation de sa fille,
                         mais qui la fait religieuse, se charge d’une âme avec la sienne, en répond à
                         Dieu même, en est la caution. Afin qu’une telle mère ne se perde pas, il
                         faut que sa fille se sauve. </p>
@@ -315,7 +352,11 @@
 
                 <div2 n="30" source="#Paris-1696">
 
-                    <p> Un homme joue et se ruine : il marie néanmoins l’aînée de ses deux filles de
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Un homme joue et se ruine : il marie néanmoins l’aînée de ses deux filles de
                         ce qu’il a pu sauver des mains d’un <name type="person">Ambreville</name> ; la cadette est sur le point
                         de faire ses vœux, qui n’a point d’autre vocation que le jeu de son père. 
                     
@@ -325,7 +366,11 @@
 
                 <div2 n="31" source="#Paris-1690, #Paris-1696">
 
-                    <p> Il s’est trouvé des filles qui avaient de la vertu, de la santé, de la
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Il s’est trouvé des filles qui avaient de la vertu, de la santé, de la
                         ferveur et une bonne vocation, mais qui n’étaient pas assez riches pour
                         faire dans une riche abbaye vœu de pauvreté. </p>
 
@@ -333,7 +378,11 @@
 
                 <div2 n="32" source="#Paris-1690, #Paris-1696">
 
-                    <p> Celle qui délibère sur le choix d’une abbaye ou d’un simple monastère pour
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Celle qui délibère sur le choix d’une abbaye ou d’un simple monastère pour
                         s’y enfermer agite l’ancienne question de l’état populaire et du despotique. </p>
 
                 </div2>
@@ -342,7 +391,11 @@
 
                     <pb n="452" source="#Paris-1690"/>
 
-                    <p> Faire une folie et se marier par amourette, c’est épouser <name type="pseudo">Mélite</name>, qui est
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Faire une folie et se marier par amourette, c’est épouser <name type="pseudo">Mélite</name>, qui est
                         jeune, belle, sage, économe, qui plaît, qui vous aime, qui a moins de bien
                         qu’<name type="pseudo">Aegine</name> qu’on vous propose, et qui avec une riche dot apporte de riches
                         dispositions à la consumer, et tout votre fonds avec sa dot. </p>
@@ -351,7 +404,11 @@
 
                 <div2 n="34" source="#Paris-1690, #Paris-1696">
 
-                    <p> Il était délicat autrefois de se marier ; c’était un long établissement, une
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Il était délicat autrefois de se marier ; c’était un long établissement, une
                         affaire sérieuse, et qui méritait qu’on y pensât ; l’on était pendant toute
                         sa vie le mari de sa femme, bonne ou mauvaise : même table, même demeure,
                         même lit ; l’on n’en était point quitte pour une pension ; avec des enfants
@@ -362,7 +419,11 @@
 
                 <div2 n="35" source="#Paris-1690, #Paris-1696">
 
-                    <p> Qu’on évite d’être vu seul avec une femme qui n’est point la sienne, voilà
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                       
+                        Qu’on évite d’être vu seul avec une femme qui n’est point la sienne, voilà
                         une pudeur qui est bien placée : qu’on sente quelque peine à se trouver dans
                         le monde avec des personnes dont la réputation est attaquée, cela n’est pas
                         incompréhensible. Mais quelle mauvaise honte fait rougir un homme de sa
@@ -385,7 +446,11 @@
 
                 <div2 n="36" source="#Paris-1690, #Paris-1696">
 
-                    <p> Ce n’est pas une honte ni une faute à un jeune homme que d’épouser une femme
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Ce n’est pas une honte ni une faute à un jeune homme que d’épouser une femme
                         avancée en âge ; c’est quelquefois prudence, c’est précaution. L’infamie est
                         de se jouer de sa bienfactrice par des traitements indignes, et qui lui
                         découvrent qu’elle est la dupe d’un hypocrite et d’un ingrat. Si la fiction
@@ -407,7 +472,11 @@
 
                 <div2 n="37" source="#Paris-1690, #Paris-1696">
 
-                    <p> Il y a depuis longtemps dans le monde une manière<note place="marge" source="#Paris-1690" resp="author" n="manière">Billets et obligations</note> de faire valoir son bien,
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Il y a depuis longtemps dans le monde une manière<note place="marge" source="#Paris-1690" resp="author" n="manière">Billets et obligations</note> de faire valoir son bien,
                         qui continue toujours d’être pratiquée par d’honnêtes gens, et d’être
                         condamnée par d’habiles docteurs. 
                                                    
@@ -417,7 +486,11 @@
 
                 <div2 n="38" source="#Paris-1690, #Paris-1696">
 
-                    <p> On a toujours vu dans la république de certaines charges qui semblent
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        On a toujours vu dans la république de certaines charges qui semblent
                         n’avoir été imaginées la première fois que pour enrichir un seul aux dépens
                         de plusieurs ; les fonds ou l’argent des particuliers y coule sans fin et
                         sans interruption. Dirai-je qu’il n’en revient plus ou qu’il n’en revient
@@ -433,7 +506,11 @@
 
                 <div2 n="39" source="#Paris-1696">
 
-                    <p> Le fonds perdu, autrefois si sûr, si religieux et si inviolable, est devenu
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Le fonds perdu, autrefois si sûr, si religieux et si inviolable, est devenu
                         avec le temps, et par les soins de ceux qui en étaient chargés, un bien
                         perdu. Quel autre secret de doubler mes revenus et de thésauriser ?
                         Entrerai-je dans le huitième denier, ou dans les aides ? serai-je avare,
@@ -444,7 +521,11 @@
 
                 <div2 n="40" source="#Paris-1696">
 
-                    <p> Vous avez une pièce d’argent, ou même une pièce d’or ; ce n’est pas assez,
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Vous avez une pièce d’argent, ou même une pièce d’or ; ce n’est pas assez,
                         c’est le nombre qui opère : faites-en, si vous pouvez, un amas considérable
                         et qui s’élève en pyramide, et je me charge du reste. Vous n’avez ni
                         naissance, ni esprit, ni talents, ni expérience, qu’importe ? ne diminuez
@@ -459,7 +540,11 @@
 
                     <pb n="455" source="#Paris-1690"/>
 
-                    <p> <name type="pseudo">Orante</name> plaide depuis dix ans entiers en règlement de juges pour une affaire
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        <name type="pseudo">Orante</name> plaide depuis dix ans entiers en règlement de juges pour une affaire
                         juste, capitale, et où il y va de toute sa fortune : elle saura peut-être
                         dans cinq années quels seront ses juges, et dans quel tribunal elle doit
                         plaider le reste de sa vie. </p>
@@ -468,7 +553,11 @@
 
                 <div2 n="42" source="#Paris-1690, #Paris-1696">
 
-                    <p> L’on applaudit à la coutume qui s’est introduite dans les tribunaux
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        L’on applaudit à la coutume qui s’est introduite dans les tribunaux
                         d’interrompre les avocats au milieu de leur action, de les empêcher d’être
                         éloquents et d’avoir de l’esprit, de les ramener au fait et aux preuves
                         toutes sèches qui établissent leurs causes et le droit de leurs parties ; et
@@ -490,14 +579,22 @@
 
                 <div2 n="43" source="#Paris-1690, #Paris-1696">
 
-                    <p> Le devoir des juges est de rendre la justice ; leur métier, de la différer.
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Le devoir des juges est de rendre la justice ; leur métier, de la différer.
                         Quelques-uns savent leur devoir, et font leur métier. </p>
 
                 </div2>
 
                 <div2 n="44" source="#Paris-1690, #Paris-1696">
 
-                    <p> Celui qui sollicite son juge ne lui fait pas honneur ; car ou il se défie de
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Celui qui sollicite son juge ne lui fait pas honneur ; car ou il se défie de
                         ses lumières et même de sa probité, ou il cherche à le prévenir, ou il lui
                         demande une injustice. </p>
 
@@ -513,7 +610,11 @@
 
                 <div2 n="46" source="#Paris-1690, #Paris-1696">
 
-                    <p> Le magistrat coquet ou galant est pire dans les conséquences que le dissolu
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Le magistrat coquet ou galant est pire dans les conséquences que le dissolu
                         : celui-ci cache son commerce et ses liaisons, et l’on ne sait souvent par
                         où aller jusqu’à lui ; celui-là est ouvert par mille faibles qui sont
                         connus, et l’on y arrive par toutes les femmes à qui il veut plaire. </p>
@@ -524,7 +625,11 @@
                     
                     <pb n="457" source="#Paris-1690"/>
 
-                    <p> Il s’en faut peu que la religion et la justice n’aillent de pair dans la
+                    <p> 
+                       
+                        <g ref="#Pied_de_mouche"></g>
+                      
+                        Il s’en faut peu que la religion et la justice n’aillent de pair dans la
                         république, et que la magistrature ne consacre les hommes comme la prêtrise.
                         L’homme de robe ne saurait guère danser au bal, paraître aux théâtres,
                         renoncer aux habits simples et modestes, sans consentir à son propre
@@ -536,7 +641,11 @@
 
                 <div2 n="48" source="#Paris-1690, #Paris-1696">
 
-                    <p> Il n’y a aucun métier qui n’ait son apprentissage, et en montant des
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Il n’y a aucun métier qui n’ait son apprentissage, et en montant des
                         moindres conditions jusques aux plus grandes, on remarque dans toutes un
                         temps de pratique et d’exercice qui prépare aux emplois, où les fautes sont
                         sans conséquence, et mènent au contraire à la perfection. La guerre même,
@@ -559,7 +668,11 @@
 
                 <div2 n="49" source="#Paris-1690, #Paris-1696">
 
-                    <p> La principale partie de l’orateur, c’est la probité : sans elle il dégénère
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        La principale partie de l’orateur, c’est la probité : sans elle il dégénère
                         en déclamateur, il déguise ou il exagère les faits, il cite faux, il
                         calomnie, il épouse la passion et les haines de ceux pour qui il parle ; et
                         il est de la classe de ces avocats dont le proverbe dit qu’ils sont payés
@@ -570,7 +683,11 @@
 
                 <div2 n="50" source="#Paris-1690, #Paris-1696">
 
-                    <p> « Il est vrai, dit-on, cette somme lui est due, et ce droit lui est acquis.
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        « Il est vrai, dit-on, cette somme lui est due, et ce droit lui est acquis.
                         Mais je l’attends à cette petite formalité ; s’il l’oublie, il n’y revient
                         plus, et conséquemment il perd sa somme, ou il est incontestablement déchu
                         de son droit ; or il oubliera cette formalité. » Voilà ce que j’appelle une
@@ -586,7 +703,11 @@
 
                 <div2 n="51" source="#Paris-1690, #Paris-1696">
 
-                    <p> La question est une invention merveilleuse et tout à fait sûre pour perdre
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        La question est une invention merveilleuse et tout à fait sûre pour perdre
                         un innocent qui a la complexion faible, et sauver un coupable qui est né
                         robuste. </p>
 
@@ -594,7 +715,11 @@
 
                 <div2 n="52" source="#Paris-1696">
 
-                    <p> Un coupable puni est un exemple pour la canaille ; un innocent condamné est
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Un coupable puni est un exemple pour la canaille ; un innocent condamné est
                         l’affaire de tous les honnêtes gens. Je dirai presque de moi : « Je ne serai
                         pas voleur ou meurtrier. » — « Je ne serai pas un jour puni comme tel »,
                         c’est parler bien hardiment. Une condition lamentable est celle d’un homme
@@ -605,7 +730,11 @@
 
                 <div2 n="53" source="#Paris-1696">
 
-                    <p> Si l’on me racontait qu’il s’est trouvé autrefois un prévôt ; ou l’un de ces
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Si l’on me racontait qu’il s’est trouvé autrefois un prévôt ; ou l’un de ces
                         magistrats créés pour poursuivre les voleurs et les exterminer, qui les
                         connaissait tous depuis longtemps de nom et de visage ; savait leurs vols,
                         j’entends l’espèce, le nombre et la quantité, pénétrait si avant dans toutes
@@ -623,7 +752,11 @@
 
                 <div2 n="54" source="#Paris-1690, #Paris-1696">
 
-                    <p> Combien d’hommes qui sont forts contre les faibles, fermes et inflexibles
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Combien d’hommes qui sont forts contre les faibles, fermes et inflexibles
                         aux sollicitations du simple peuple, sans nuls égards pour les petits,
                         rigides et sévères dans les minutes, qui refusent les petits présents, qui
                         n’écoutent ni leurs parents ni leurs amis, et que les femmes seules peuvent
@@ -633,14 +766,22 @@
 
                 <div2 n="55" source="#Paris-1690, #Paris-1696">
 
-                    <p> Il n’est pas absolument impossible qu’une personne qui se trouve dans une
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Il n’est pas absolument impossible qu’une personne qui se trouve dans une
                         grande faveur perde un procès. </p>
 
                 </div2>
 
                 <div2 n="56" source="#Paris-1690, #Paris-1696">
 
-                    <p> Les mourants qui parlent dans leurs testaments peuvent s’attendre à être
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Les mourants qui parlent dans leurs testaments peuvent s’attendre à être
                         écoutés comme des oracles ; chacun les tire de son côté et les interprète à
                         sa manière, je veux dire selon ses désirs ou ses intérêts. </p>
 
@@ -648,7 +789,11 @@
 
                 <div2 n="57" source="#Paris-1690, #Paris-1696">
 
-                    <p> Il est vrai qu’il y a des hom
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Il est vrai qu’il y a des hom
                         
                         <pb n="460" source="#Paris-1690"/>
                         
@@ -670,7 +815,11 @@
 
                 <div2 n="58" source="#Paris-1690, #Paris-1696">
 
-                    <p> S’il n’y avait point de testaments pour régler le droit des héritiers, je ne
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        S’il n’y avait point de testaments pour régler le droit des héritiers, je ne
                         sais si l’on aurait besoin de tribunaux pour régler les différends des
                         hommes : les juges seraient presque réduits à la triste fonction 
                         
@@ -692,7 +841,11 @@
 
                 <div2 n="59" source="#Paris-1690, #Paris-1696">
 
-                    <p> <name type="pseudo">Titius</name> assiste à la lecture d’un testament avec des yeux rouges et humides,
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        <name type="pseudo">Titius</name> assiste à la lecture d’un testament avec des yeux rouges et humides,
                         et le cœur serré de la perte de celui dont il espère recueillir la
                         succession. Un article lui donne la charge, un autre les rentes de la ville,
                         un troisième le rend maître d’une terre à la campagne ; il y a une clause
@@ -714,7 +867,11 @@
 
                 <div2 n="60" source="#Paris-1690, #Paris-1696">
 
-                    <p> La loi qui défend de tuer un homme n’embrasse-t-elle pas dans cette défense
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        La loi qui défend de tuer un homme n’embrasse-t-elle pas dans cette défense
                         le fer, le poison, le feu, l’eau, les embûches, la force ouverte, tous les
                         moyens enfin qui peuvent servir à l’homicide ? La loi qui ôte aux maris et
                         aux femmes le pouvoir de se donner réciproquement, n’a-t-elle connu que les
@@ -749,7 +906,11 @@
 
                 <div2 n="61" source="#Paris-1696">
 
-                    <p> J’entends dire de quelques particuliers ou de quelques compagnies : « Tel et
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        J’entends dire de quelques particuliers ou de quelques compagnies : « Tel et
                         tel corps se contestent l’un à l’autre la préséance ; le mortier et la
                         pairie se disputent le pas. » Il me paraît que celui des deux qui évite de
                         se rencontrer aux assemblées est celui qui cède, et qui sentant son faible,
@@ -759,7 +920,11 @@
 
                 <div2 n="62" source="#Paris-1690, #Paris-1696">
 
-                    <p> <name type="pseudo">Typhon</name> fournit un grand de chiens et de chevaux ; que ne lui fournit-il
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        <name type="pseudo">Typhon</name> fournit un grand de chiens et de chevaux ; que ne lui fournit-il
                         point ? Sa protection le rend audacieux ; il est impunément dans sa province
                         tout ce qui lui plaît d’être, assassin, parjure ; il brûle ses voisins, et
                         il n’a pas besoin d’asile. Il faut enfin que le Prince se mêle lui-même de
@@ -769,7 +934,11 @@
 
                 <div2 n="63" source="#Paris-1696">
 
-                    <p> Ragoûts, liqueurs, entrées, entremets, tous mots qui devraient être barbares
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Ragoûts, liqueurs, entrées, entremets, tous mots qui devraient être barbares
                         et inintelligibles en notre langue ; et s’il est vrai qu’ils ne devraient
                         pas être d’usage en pleine paix, où ils ne servent qu’à entretenir le luxe
                         et la gourmandise, comment peuvent-ils être entendus dans le temps de la
@@ -786,7 +955,11 @@
 
                 <div2 n="64">
 
-                    <p> <name type="pseudo">Hermippe</name> est l’esclave de ce qu’il appelle ses petites commodités ; il leur
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        <name type="pseudo">Hermippe</name> est l’esclave de ce qu’il appelle ses petites commodités ; il leur
                         sacrifie l’usage reçu, la coutume, les modes, la bienséance. Il les cherche
                         en toutes choses, il quitte une moindre pour une plus grande, il ne néglige
                         aucune de celles qui sont praticables, il s’en fait une étude, et il ne se
@@ -821,7 +994,11 @@
 
                 <div2 n="65" source="#Paris-1690, #Paris-1696">
 
-                    <p> Il y a déjà longtemps que l’on improuve les médecins, et que l’on s’en sert
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Il y a déjà longtemps que l’on improuve les médecins, et que l’on s’en sert
                         ; le théâtre et la satire ne touchent point à leurs pensions ; ils dotent
                         leurs filles, placent leurs fils aux parlements et dans la prélature, et les
                         railleurs eux-mêmes fournissent l’argent. Ceux qui se portent bien
@@ -837,14 +1014,22 @@
 
                 <div2 n="66" source="#Paris-1690, #Paris-1696">
 
-                    <p> Un bon médecin est celui qui a des remèdes spécifiques, ou s’il en manque,
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Un bon médecin est celui qui a des remèdes spécifiques, ou s’il en manque,
                         qui permet à ceux qui les ont de guérir son malade. </p>
 
                 </div2>
 
                 <div2 n="67" source="#Paris-1690, #Paris-1696">
 
-                    <p> La témérité des charlatans, et leurs tristes succès, qui en sont les suites,
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        La témérité des charlatans, et leurs tristes succès, qui en sont les suites,
                         font valoir la médecine et les médecins : si ceux-ci laissent mourir, les
                         autres tuent. </p>
 
@@ -852,7 +1037,11 @@
 
                 <div2 n="68">
 
-                    <p> <name type="person">Carro Carri</name> débarque avec une recette qu’il appelle un prompt remède, et qui
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        <name type="person">Carro Carri</name> débarque avec une recette qu’il appelle un prompt remède, et qui
                         quelquefois est un poison lent ; c’est un bien de famille, mais amélioré en
                         ses mains : de spécifique qu’il était contre la colique, il guérit de la
                         fièvre quarte, de la pleurésie, de l’hydropisie, de l’apoplexie, de
@@ -892,7 +1081,11 @@
 
                 <div2 n="69" source="#Paris-1690, #Paris-1696">
 
-                    <p> L’on souffre dans la république les chiromanciens et les devins, ceux qui
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        L’on souffre dans la république les chiromanciens et les devins, ceux qui
                         font l’horoscope et qui tirent la figure, ceux qui connaissent le passé par
                         le mouvement du sas, ceux qui font voir dans un miroir ou dans un vase d’eau
                         la claire vérité ; et ces gens sont en effet de quelque usage : ils
@@ -907,7 +1100,11 @@
 
                     <pb n="466" source="#Paris-1690"/>
 
-                    <p> Que penser de la magie et du sortilège ? La théorie en est obscure, les
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Que penser de la magie et du sortilège ? La théorie en est obscure, les
                         principes vagues, incertains, et qui approchent du visionnaire ; mais il y a
                         des faits embarrassants, affirmés par des hommes graves qui les ont vus, ou
                         qui les ont appris de personnes qui leur ressemblent : les admettre tous ou
@@ -919,7 +1116,11 @@
 
                 <div2 n="71" source="#Paris-1690, #Paris-1696">
 
-                    <p> L’on ne peut guère charger l’enfance de la connaissance de trop de langues,
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        L’on ne peut guère charger l’enfance de la connaissance de trop de langues,
                         et il me semble que l’on devrait mettre toute son application à l’en
                         instruire ; elles sont utiles à toutes les conditions des hommes, et elles
                         leur ouvrent également l’entrée ou à une profonde ou à une facile et
@@ -943,7 +1144,11 @@
 
                 <div2 n="72" source="#Paris-1696">
 
-                    <p> L’étude des textes ne peut jamais être assez recommandée ; c’est le chemin
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        L’étude des textes ne peut jamais être assez recommandée ; c’est le chemin
                         le plus court, le plus sûr et le plus agréable pour tout genre d’érudition.
                         Ayez les choses de la première main ; puisez à la source ; maniez, remaniez
                         le texte ; apprenez-le de mémoire ; citez-le dans les occasions ; songez
@@ -971,7 +1176,11 @@
 
                 <div2 n="73" source="#Paris-1696">
 
-                    <p> Qui règle les hommes dans leur manière de vivre et d’user des aliments ? La
+                    <p> 
+                        
+                        <g ref="#Pied_de_mouche"></g>
+                        
+                        Qui règle les hommes dans leur manière de vivre et d’user des aliments ? La
                         santé et le régime ? Cela est douteux. Une nation entière mange les viandes
                         après les fruits, une autre fait tout le contraire ; quelques-uns commencent
                         leurs repas par de certains fruits, et les finissent par d’autres : est-ce
