@@ -20,7 +20,7 @@
                 <authority/>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="clé" xml:id="something"/>
+                <bibl type="clé" xml:id="Escola"/>
                 <biblStruct>
                     <monogr xml:id="Paris_1688_1">
                         <title> Les caractères de Théophraste traduits du grec ; avec les caractères
@@ -123,7 +123,7 @@
                     </person>
                     <person xml:id="Despreaux">
                         <idno>https://data.bnf.fr/12040544/nicolas_boileau/</idno>
-                        <birth>Né le  01 novembre 1636 à Paris</birth>
+                        <birth>Né le 01 novembre 1636 à Paris</birth>
                         <death>Mort le 13 mars 1711 à Paris</death>
                         <occupation>Écrivain</occupation>
                         <persName>Nicolas Boileau / Nicolas Boileau-Despreaux</persName>
@@ -184,6 +184,7 @@
                     60.</change>
                 <change when="2022-10-07">Ajout des variantes de l'édition 4 de la remarque 61 et
                     codage des auteurs cités.</change>
+                <change when="2022-11-18">Ajout de clés et complétion des informations sur les auteurs cités.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -991,7 +992,11 @@
                 </div2>
                 <div2 n="58" source="#Paris_1696_9">
                     <p><g ref="#pied_de_mouche" source="#Paris_1696_9"/>L’on a cette incommodité à
-                        essuyer dans la lecture des livres faits par des gens de parti <app>
+                        essuyer dans la lecture des livres faits par <app type="clé">
+                            <lem wit="#Paris_1696_9">des gens de parti </lem>
+                            <rdg wit="#Escola">Selon toutes les sources connues, il s'agirait des
+                                Jésuites et des Jansénistes</rdg>
+                        </app><app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1696_9">&amp;</rdg>
                         </app> de cabale, que l’on n’y voit pas <app>
@@ -1160,58 +1165,67 @@
                             <lem wit="#Paris_1696_9"><g ref="#pied_de_mouche"/></lem>
                             <rdg wit="#Paris_1690_5"><g ref="#pied_mouche_double_parenthèse"
                                     source="#Paris_1690_5"/></rdg>
-                        </app><g ref="#pied_de_mouche" source="#Paris_1696_9"/>Il y a des esprits,
-                        si je l’ose dire, inférieurs et subalternes, qui ne semblent faits que pour
-                        être le recueil, le registre, ou le magasin de toutes les productions des
-                        autres <app>
-                            <lem>génies</lem>
-                            <rdg wit="#Paris_1696_9">genies</rdg>
-                        </app> : ils sont plagiaires, traducteurs, compilateurs ; ils ne pensent
-                        point, ils disent ce que les <app>
-                            <lem>auteurs</lem>
-                            <rdg wit="#Paris_1696_9">Auteurs</rdg>
-                        </app> ont pensé ; <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> comme le choix des pensées est invention, ils l’ont mauvais, peu
-                        juste, <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> qui les détermine <app>
-                            <lem>plutôt</lem>
-                            <rdg wit="#Paris_1696_9">plûtôt</rdg>
-                        </app> à rapporter beaucoup de choses, que d’excellentes choses ; ils n’ont
-                        rien d’original <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> qui soit à eux ; ils ne savent que ce qu’ils ont appris, <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> ils n’apprennent que ce que tout le monde veut bien ignorer, une
-                        science <app>
-                            <lem>aride</lem>
-                            <rdg wit="#Paris_1696_9">vaine, aride</rdg>
-                        </app>, dénuée d’agrément <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> d’utilité, qui ne tombe point dans la conversation, qui est hors de
-                        commerce, semblable à une <app>
-                            <lem>monnaie</lem>
-                            <rdg wit="#Paris_1696_9">monnoye</rdg>
-                        </app> qui n’a point de cours : on est tout à la fois étonné de leur lecture <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> ennuyé de leur entretien ou de leurs ouvrages. Ce sont<pb n="31"
-                            source="#Paris_1696_9"/> ceux que les <app>
-                            <lem>grands et</lem>
-                            <rdg wit="#Paris_1696_9">Grands &amp;</rdg>
-                        </app> le vulgaire confondent avec les <app>
-                            <lem>savants, et</lem>
-                            <rdg wit="#Paris_1696_9">savans, &amp;</rdg>
-                        </app> que les sages renvoient au <app>
-                            <lem>pédantisme</lem>
-                            <rdg wit="#Paris_1696_9">pedantisme</rdg>
-                        </app>.</p>
+                        </app><g ref="#pied_de_mouche" source="#Paris_1696_9"/><app type="clé">
+                            <lem>Il y a des esprits, si je l’ose dire, inférieurs et subalternes,
+                                qui ne semblent faits que pour être le recueil, le registre, ou le
+                                magasin de toutes les productions des autres <app>
+                                    <lem>génies</lem>
+                                    <rdg wit="#Paris_1696_9">genies</rdg>
+                                </app> : ils sont plagiaires, traducteurs, compilateurs ; ils ne
+                                pensent point, ils disent ce que les <app>
+                                    <lem>auteurs</lem>
+                                    <rdg wit="#Paris_1696_9">Auteurs</rdg>
+                                </app> ont pensé ; <app>
+                                    <lem>et</lem>
+                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                </app> comme le choix des pensées est invention, ils l’ont mauvais,
+                                peu juste, <app>
+                                    <lem>et</lem>
+                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                </app> qui les détermine <app>
+                                    <lem>plutôt</lem>
+                                    <rdg wit="#Paris_1696_9">plûtôt</rdg>
+                                </app> à rapporter beaucoup de choses, que d’excellentes choses ;
+                                ils n’ont rien d’original <app>
+                                    <lem>et</lem>
+                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                </app> qui soit à eux ; ils ne savent que ce qu’ils ont appris, <app>
+                                    <lem>et</lem>
+                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                </app> ils n’apprennent que ce que tout le monde veut bien ignorer,
+                                une science <app>
+                                    <lem>aride</lem>
+                                    <rdg wit="#Paris_1696_9">vaine, aride</rdg>
+                                </app>, dénuée d’agrément <app>
+                                    <lem>et</lem>
+                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                </app> d’utilité, qui ne tombe point dans la conversation, qui est
+                                hors de commerce, semblable à une <app>
+                                    <lem>monnaie</lem>
+                                    <rdg wit="#Paris_1696_9">monnoye</rdg>
+                                </app> qui n’a point de cours : on est tout à la fois étonné de leur
+                                lecture <app>
+                                    <lem>et</lem>
+                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                </app> ennuyé de leur entretien ou de leurs ouvrages. Ce sont<pb
+                                    n="31" source="#Paris_1696_9"/> ceux que les <app>
+                                    <lem>grands et</lem>
+                                    <rdg wit="#Paris_1696_9">Grands &amp;</rdg>
+                                </app> le vulgaire confondent avec les <app>
+                                    <lem>savants, et</lem>
+                                    <rdg wit="#Paris_1696_9">savans, &amp;</rdg>
+                                </app> que les sages renvoient au <app>
+                                    <lem>pédantisme</lem>
+                                    <rdg wit="#Paris_1696_9">pedantisme</rdg>
+                                </app>.</lem>
+                            <rdg wit="#Escola">Selon une clé de 1697 : "Du Ryer, l'abbé Bordelon et
+                                tant d'autres". Il doit s'agir d'André Du Ryer, consul de France en
+                                Égypte et traducteur du poète Saadi. Il est également le premier
+                                traducteur du Coran en Français. L'abbé Bordelon a quand à lui
+                                essayé de profiter de la mode causée par les Caractères. Plusieurs
+                                autres clés nommes Ménage, et celle de Félibien indique A. Baillet.
+                            </rdg>
+                        </app></p>
                 </div2>
                 <div2 n="63" source="#Paris_1696_9">
                     <p><g ref="#pied_de_mouche" source="#Paris_1696_9"/>La critique souvent n’est
@@ -1231,76 +1245,94 @@
                         </app>.</p>
                 </div2>
                 <div2 n="64" source="#Paris_1696_9">
-                    <p><g ref="#pied_de_mouche" source="#Paris_1696_9"/>Je conseille à un <app>
-                            <lem>auteur</lem>
-                            <rdg wit="#Paris_1696_9">Auteur</rdg>
-                        </app> né copiste, <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> qui a l’extrême modestie de travailler d’après quelqu’un, de ne se
-                        choisir pour exemplaires que ces sortes d’ouvrages où il entre de l’esprit,
-                        de l’imagination, ou même de l’érudition : s’il n’atteint pas ses originaux,
-                        du moins il en approche, <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> il se fait lire. Il doit au contraire éviter comme un écueil de
-                        vouloir imiter ceux qui écrivent par humeur, que le cœur fait parler, à qui
-                        il inspire les termes <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> les figures, <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1696_9">&amp;</rdg>
-                        </app> qui tirent, pour ainsi dire, de leurs entrailles tout ce qu’ils
-                        expriment sur le papier : dangereux <app>
-                            <lem>modèles et</lem>
-                            <rdg wit="#Paris_1696_9">modeles &amp;</rdg>
-                        </app> tout propres à faire tomber dans le <app>
-                            <lem>froid, dans le bas et dans le ridicule</lem>
-                            <rdg wit="#Paris_1696_9">ridicule</rdg>
-                        </app> ceux qui <app>
-                            <lem>s'ingèrent</lem>
-                            <rdg wit="#Paris_1696_9">s'ingerent</rdg>
-                        </app> de les suivre<app>
-                            <lem>. En</lem>
-                            <rdg> : en</rdg>
-                        </app> effet, je <app>
-                            <lem>rirais</lem>
-                            <rdg wit="#Paris_1696_9">rirois</rdg>
-                        </app> d’un homme qui <app>
-                            <lem>voudrait sérieusement</lem>
-                            <rdg wit="#Paris_1696_9">voudroit serieusement</rdg>
-                        </app> parler mon ton de voix, ou me ressembler de visage.</p>
+                    <p><g ref="#pied_de_mouche" source="#Paris_1696_9"/><app type="clé">
+                            <lem>Je conseille à un <app>
+                                    <lem>auteur</lem>
+                                    <rdg wit="#Paris_1696_9">Auteur</rdg>
+                                </app> né copiste, <app>
+                                    <lem>et</lem>
+                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                </app> qui a l’extrême modestie de travailler d’après quelqu’un, de
+                                ne se choisir pour exemplaires que ces sortes d’ouvrages où il entre
+                                de l’esprit, de l’imagination, ou même de l’érudition : s’il
+                                n’atteint pas ses originaux, du moins il en approche, <app>
+                                    <lem>et</lem>
+                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                </app> il se fait lire. Il doit au contraire éviter comme un écueil
+                                de vouloir imiter ceux qui écrivent par humeur, que le cœur fait
+                                parler, à qui il inspire les termes <app>
+                                    <lem>et</lem>
+                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                </app> les figures, <app>
+                                    <lem>et</lem>
+                                    <rdg wit="#Paris_1696_9">&amp;</rdg>
+                                </app> qui tirent, pour ainsi dire, de leurs entrailles tout ce
+                                qu’ils expriment sur le papier : dangereux <app>
+                                    <lem>modèles et</lem>
+                                    <rdg wit="#Paris_1696_9">modeles &amp;</rdg>
+                                </app> tout propres à faire tomber dans le <app>
+                                    <lem>froid, dans le bas et dans le ridicule</lem>
+                                    <rdg wit="#Paris_1696_9">ridicule</rdg>
+                                </app> ceux qui <app>
+                                    <lem>s'ingèrent</lem>
+                                    <rdg wit="#Paris_1696_9">s'ingerent</rdg>
+                                </app> de les suivre<app>
+                                    <lem>. En</lem>
+                                    <rdg> : en</rdg>
+                                </app> effet, je <app>
+                                    <lem>rirais</lem>
+                                    <rdg wit="#Paris_1696_9">rirois</rdg>
+                                </app> d’un homme qui <app>
+                                    <lem>voudrait sérieusement</lem>
+                                    <rdg wit="#Paris_1696_9">voudroit serieusement</rdg>
+                                </app> parler mon ton de voix, ou me ressembler de visage.</lem>
+                            <rdg wit="#Escola">Selon des clés imprimées du XVIII° siècle, il s'agirait de "L'abbé
+                                de Villiers, qui a été autrefois chez les Jésuites".Vigneul-Marville
+                                voyait dans ses Réflexions sur les défauts d'Autrui une imitation
+                                des Caractères de La Bruyère. Servois suggère également que cette
+                                remarque s'adresse à Jacques Brillon.</rdg>
+                        </app></p>
                 </div2>
                 <div2 n="65" source="#Paris_1696_9 #Paris_1689_4 #Paris_1688_1">
-                    <p><g ref="#pied_de_mouche" source="#Paris_1688_1 #Paris_1696_9"/>Un homme né <app>
-                            <lem>chrétien et Français se trouve contraint dans la satire ;</lem>
-                            <rdg wit="#Paris_1688_1">Chrétien &amp; François est embarassé dans la
-                                satyre ;</rdg>
-                            <rdg wit="#Paris_1696_9">Chrétien &amp; François se trouve contraint
-                                dans la satyre,</rdg>
-                        </app> les grands sujets <app>
-                            <lem>lui</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">luy</rdg>
-                        </app> sont défendus<app>
-                            <lem> :</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">,</rdg>
-                        </app> il les entame quelquefois, <app>
-                            <lem>et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
-                        </app> se détourne ensuite sur de petites choses<app>
-                            <lem>, </lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9"> </rdg>
-                        </app>qu’il <app>
-                            <lem>relève</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">releve</rdg>
-                        </app> par la beauté de son <app>
-                            <lem>génie et</lem>
-                            <rdg wit="#Paris_1688_1 #Paris_1696_9">genie &amp;</rdg>
-                        </app> de son <app>
-                            <lem wit="#Paris_1688_1">style</lem>
-                            <rdg wit="#Paris_1696_9">stile</rdg>
-                        </app>.</p>
+                    <p><g ref="#pied_de_mouche" source="#Paris_1688_1 #Paris_1696_9"/><app
+                            type="clé">
+                            <lem>Un homme né <app>
+                                    <lem>chrétien et Français se trouve contraint dans la satire
+                                        ;</lem>
+                                    <rdg wit="#Paris_1688_1">Chrétien &amp; François est embarassé
+                                        dans la satyre ;</rdg>
+                                    <rdg wit="#Paris_1696_9">Chrétien &amp; François se trouve
+                                        contraint dans la satyre,</rdg>
+                                </app> les grands sujets <app>
+                                    <lem>lui</lem>
+                                    <rdg wit="#Paris_1688_1 #Paris_1696_9">luy</rdg>
+                                </app> sont défendus<app>
+                                    <lem> :</lem>
+                                    <rdg wit="#Paris_1688_1 #Paris_1696_9">,</rdg>
+                                </app> il les entame quelquefois, <app>
+                                    <lem>et</lem>
+                                    <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp;</rdg>
+                                </app> se détourne ensuite sur de petites choses<app>
+                                    <lem>, </lem>
+                                    <rdg wit="#Paris_1688_1 #Paris_1696_9"> </rdg>
+                                </app>qu’il <app>
+                                    <lem>relève</lem>
+                                    <rdg wit="#Paris_1688_1 #Paris_1696_9">releve</rdg>
+                                </app> par la beauté de son <app>
+                                    <lem>génie et</lem>
+                                    <rdg wit="#Paris_1688_1 #Paris_1696_9">genie &amp;</rdg>
+                                </app> de son <app>
+                                    <lem wit="#Paris_1688_1">style</lem>
+                                    <rdg wit="#Paris_1696_9">stile</rdg>
+                                </app>.</lem>
+                            <rdg wit="#Escola">Quelques clés évoquent Eustache Le Noble en rapport avec
+                                cette remarque, mais son œuvre est parue après la remarque. Servois
+                                indique d'abord Havet, puis Boileau, "qui ne traite pas les grands
+                                sujets et relève par son style les plus petites choses". Il
+                                déplorerait ici uncertain manque d'audace et d'originalité de cet
+                                auteur. Il pourrait également y avoir une allusion au
+                                Lutrin.</rdg>
+                        </app></p>
                 </div2>
                 <div2 n="66" source="#Paris_1696_9 #Paris_1689_4 Paris_1688_1">
                     <p><g ref="#pied_de_mouche" source="#Paris_1688_1 #Paris_1696_9"/>Il faut éviter
@@ -1312,7 +1344,7 @@
                             <rdg wit="#Paris_1688_1 #Paris_1696_9">&amp; puerile</rdg>
                         </app>, de peur de ressembler à <app type="clé">
                             <lem wit="#Paris_1688_1 #Paris_1696_9">Dorilas</lem>
-                            <rdg wit="clé"/>
+                            <rdg wit="#SK">Personne à l'identité inconnue</rdg>
                         </app>
                         <app>
                             <lem>et</lem>
@@ -1320,7 +1352,13 @@
                         </app>
                         <app type="clé">
                             <lem wit="#Paris_1688_1 #Paris_1696_9">Handburg</lem>
-                            <rdg wit="clé"/>
+                            <rdg wit="#Escola">Sur Handburg-Mambourg, un écrivain jésuite qui a
+                                polémiqué contre les jansénistes et attaqué la "Bible de Mons", leur
+                                traduction du Nouveau Testament. Madame de Sévigné écrit le 14
+                                septembre 1675 que "L'Histoire des Croisades est fort belle, mais le
+                                style du P. Maimbourg [lui] déplaît fort ; il a ramassé le délicat
+                                des mauvaises ruelles. Faites grâce à son style en faveur de
+                                l'histoire."</rdg>
                         </app>
                         <app>
                             <lem wit="#Paris_1696_9">:</lem>
