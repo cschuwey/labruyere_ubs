@@ -155,17 +155,53 @@
                 
                 <listPerson>
                     <person xml:id="Hozier"></person>
-                    <person xml:id="Godefroy_deBouillon"></person>
-                    <person xml:id="Venus" source="https://www.worldhistory.org/trans/fr/1-462/venus/"></person>
+                    <person xml:id="Godefroy_deBouillon">
+                        <idno>https://fr.wikipedia.org/wiki/Godefroy_de_Bouillon</idno>
+                        <occupation> Godefroy de Bouillon est un chevalier franc et duc de Basse-Lotharingie
+                        <desc> Premier souverain du royaume de Jérusalem au terme de la première croisade, 
+                            il refuse le titre de roi pour celui, d'avoué du Saint-Sépulcre (wikipédia)
+                        </desc>
+                        </occupation>
+                        <birth>1058</birth>
+                        <death>1100</death>
+                    </person>
+                    <person xml:id="Venus">
+                        <idno>https://www.worldhistory.org/trans/fr/1-462/venus/</idno>
+                        <occupation> Vénus est la déesse de l'amour, de la séduction, de la beauté féminine dans la mythologie romaine</occupation>
+                    </person>
                 </listPerson>
                 
                 <listPlace>
-                    <place xml:id="Paris"></place>
-                    <place xml:id="Terre-Sainte"></place>
-                    <place xml:id="palais_Farnèse"></place>
+                    <place xml:id="Paris">
+                        <country> Capitale de la France </country>
+                        <desc>Grande ville européenne et un centre mondial de l'art, de la mode, 
+                            de la gastronomie et de la culture (wiki) </desc>
+                    </place>
+                    
+                    <place xml:id="Terre-Sainte">
+                        <name> Terre Sainte </name>
+                        <country> Jerusalem </country>
+                        <desc> La Terre sainte est le nom donné par les chrétiens à la région 
+                            oû est né et a vécu Jésus Christ, avec une importance toute 
+                            particulière accordée à Jérusalem lieu de sa mort et selon la foi 
+                            chrétienne, de sa résurrection (WIKI)</desc></place>
+                    
+                    <place xml:id="palais_Farnèse">
+                        <name> Palais Farnèse </name>
+                        <country> Italie </country>
+                        <desc> Le palais Farnèse est un palais de la Haute Rennaissance à Rome, situé
+                        Regole, sur la place Farnèse. Il est l'un des édifices les plus importants
+                        de la Renaissance italienne (wiki)</desc>
+                    </place>
                 </listPlace>
                 
-                <bibl type="clé" xml:id="E1687"></bibl>
+                <bibl type="clé" xml:id="E1689-5"></bibl>
+                <bibl type="clé" xml:id="E1694-8"></bibl>
+                <bibl type="clé" xml:id="E1689-9"></bibl>
+                <bibl type="clé" xml:id="E1687-10"></bibl>
+                <bibl type="clé" xml:id="E1690-13"></bibl>
+                <bibl type="clé" xml:id="E1689-16"></bibl>
+                <bibl type="clé" xml:id="E1694-19"></bibl>
                 
             </sourceDesc>
         </fileDesc>
@@ -190,6 +226,28 @@
                 </glyph>
             </charDecl>
         </encodingDesc>
+
+<revisionDesc>
+    <change> Les y seront changés en i </change>
+    <change> Les s long seront modifiés en s moderne </change>
+    <change> la forme grammaticale de l'imparfait sera modernisée également pour que la compréhension soit plus facile</change>
+    <change> esperluettes en et pour que ce soit plus lisible pour le lecteur </change>
+    <change>
+        <date when="2022-10-16"/> Ajout des éditions aux remarques et des sources</change>
+    <change>
+        <date when="2022-10-20"/> Ajout des pieds de mouches</change>
+    <change>
+        <date when="2022-10-25"/> Ajout de quelques variations (app) </change>
+    <change>
+        <date when="2022-11-07"/> Ajout des notes et page break avec source de 4 éditions</change>
+    <change>
+        <date when="2022-11-10"/> Ajout des persNAME et placeName </change>
+    <change>
+        <date when="2022-11-18"/> Ajout clé et entités nommées</change>
+    
+    
+    
+</revisionDesc>
 
     </teiHeader>
 
@@ -251,6 +309,8 @@
                         <!-- Page 513 dans l'édition 6 première remarque commence -->
                         <pb n="272" source="#Paris-edition1"/>
                         <!-- Page 272 dans l'édition 1 première remarque commence -->
+                        <pb n="594" source="#Paris-edition8"/>
+                        <!-- Page 594 dans l'édition 8 première remarque commence -->
                         Il y a des gens qui n’ont pas le moyen d’être nobles. </p>
 
                     <p> Il y en a de tels que, s’ils eussent obtenu six mois de délai de leurs
@@ -285,7 +345,9 @@
                             <rdg wit="#Paris-edition6">lettres de noblesse en italique</rdg>
                         </app> autrefois si français et si usité ; se faire réhabiliter suppose
                         qu’un homme devenu riche originairement est noble, qu’il est d’une né
-                        cessité plus que morale qu’il le soit ; qu’à la vérité son père a pu déroger
+                        cessité <pb n="514" source="#Paris-edition6"/>
+                        <pb n="595" source="#Paris-edition8"/>
+                        plus que morale qu’il le soit ; qu’à la vérité son père a pu déroger
                         ou par la charrue ou par la houe, ou par la malle, ou par les livrées ; mais
                         qu’il ne s’agit pour lui que de rentrer dans les premiers droits de ses
                         ancêtres, et de continuer les armes de sa maison, les mêmes pourtant qu’il a
@@ -315,7 +377,9 @@
                 <div2 n="5"
                     source="#Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
                     <p><g ref="#pied_demouche2"/>Quelle est la roture un peu heureuse et établie à
-                        qui il manque des armes, et dans ces armes une pièce honorable, des suppôts,
+                        qui il manque des armes, et dans ces <pb n="515" source="#Paris-edition6"/>
+                        <pb n="596" source="#Paris-edition8"/>
+                        armes une pièce honorable, des suppôts,
                         un cimier, une devise, et peut-être le cri de guerre ? Qu’est devenue la
                         distinction des casques et des heaumes <app>
                             <lem wit="#Edition-ref19e"/>
@@ -328,7 +392,8 @@
                         meilleurs bourgeois une certaine pudeur qui les empêche de se parer d’une
                         couronne de marquis, trop satisfaits de la comtale ; quelques-uns même ne
                         vont pas la chercher fort loin, et la font passer de leur enseigne à leur
-                        carrosse.</p>
+                        carrosse.<app>
+                            <rdg wit="#E1689-5">allusion au pélican que portent pour armes MM</rdg></app></p>
                 </div2>
 
 
@@ -350,7 +415,7 @@
                         use de tant de pré<pb n="516" source="#Paris-edition6"/>
                         <!-- Page 516 dans l'édition 6 commence en coupant le mot pré-cautions--><pb n="597" source="#Paris-edition8"/>
                         <!-- Page 597 dans l'édition 8 commence en coupant le mot pré-cautions-->cautions, qu’à force de beaux noms, de disputes sur le
-                        rang et les préséances, de nouvelles armes, et d’une généalogie que <persName>D’Hozier</persName> <app>
+                        rang et les préséances, de nouvelles armes, et d’une généalogie que <persName ref="#Hozier">D’Hozier</persName> <app>
                             <lem wit="#Edition-ref19e"/>
                             <rdg wit="#Paris-edition4">D'HOZIER tout en majuscule</rdg>
                         </app> ne lui a pas faite, il devient enfin un petit prince.</p>
@@ -366,7 +431,12 @@
                         vie plus libre et plus commode. Ceux qui suivent leur piste observent déjà
                         par émulation cette simplicité et cette modestie : tous ainsi se réduiront
                         par hauteur à vivre naturellement et comme le peuple. Horrible inconvénient
-                        !</p>
+                        !<app>
+                            <rdg wit="#E1694-8">Allusion à ce que feu Mr Philippe d'Orléans, frère 
+                                de Louis XIV, mort en 1701, pour s'approcher de Monseigneur le 
+                            Dauphin, ne voulut plus qu'on le traitât d'Altesse royale, mais qu'on lui
+                            parlât par Vous, comme on faisait à Monseigneir et aux enfants de France. 
+                            (= renonce des rubriques d'honneur)</rdg></app></p>
                 </div2>
 
 
@@ -375,10 +445,14 @@
                     source="#Paris-edition4 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
                     <p><g ref="#pied_demouche2"/>Certaines gens portent trois <note resp="#Editrice" source="#Paris-edition8"
                         place="right" hand="inconnu">liste de noms</note> noms, de peur d’en
-                        manquer : ils en ont pour la campagne et pour la ville, pour les lieux de
+                        manquer <app>
+                            <rdg wit="#E1689-9">Aux noms de famille s'ajoutaient les noms de seigneurie et les surnoms.
+                            Les clés citent divers noms, dont celui de Delrieu, maître d'hôtel du roi, 
+                            qui se faisait nommer de Rieu; celui de Laugeois, fils du receveur aux confiscations du 
+                            Châtelet, qui se faisait appeler d'Imbercourt (etc.)</rdg></app> : ils en ont pour la campagne et pour la ville, pour les lieux de
                         leur service ou de leur emploi. D’autres ont un seul nom dissyllabe, qu’ils
                         anoblissent par des particules dès que leur fortune devient meilleure ;
-                        Celui-ci par la suppression d’une syllabe fait de son nom obscur un nom
+                        Celui-ci par la suppression d’une syllabe fait de <pb n="598" source="#Paris-edition8"/>son nom obscur un nom
                         illustre ; celui-là par le changement d’une lettre en une autre se
                         travestit, et de Syrus <app>
                             <lem wit="Edition-ref19e"/>
@@ -390,8 +464,9 @@
                         honte, pour en adopter de plus beaux, où ils n’ont qu’à perdre par la
                         comparaison que l’on fait toujours d’eux qui les portent, avec les grands
                         hommes qui les ont portés. Il s’en trouve enfin qui, nés à l’ombre des
-                        clochers de <placeName>Paris</placeName>, veulent être Flamands ou Italiens, comme si la roture
-                        n’était pas de tout pays, allongent leurs noms français d’une terminaison
+                        clochers de <placeName ref="#Paris">Paris</placeName>, veulent être Flamands ou Italiens, comme si la roture
+                        n’était pas de tout pays, allongent <pb n="517" source="#Paris-edition6"/>
+                        leurs noms français d’une terminaison
                         étrangère, et croient que venir de bon lieu c’est venir de loin.</p>
                 </div2>
 
@@ -406,7 +481,9 @@
                         avec la roture, et a fait évanouir la preuve<pb n="273" source="#Paris-edition3"/>
                         <!-- Page 273 dans l'édition 3 commence en coupant le mot preu-ve--><pb n="325" source="#Paris-edition1"/>
                         <!-- Page 325 dans l'édition 1 commence en coupant le mot preu-ve--> des quatre quartiers<app><lem wit="#Edition-ref19e">princes</lem>
-                            <rdg wit="#Paris-edition8">Princes</rdg></app></p>
+                            <rdg wit="#Paris-edition8">Princes</rdg>
+                                <rdg wit="#E1687-10">Les clés citent plusieurs exemples : le mariage du maréchal de Tourville
+                                avec Mlle Laugeois ou celui du maréchal de Lorges avec Mlle Frémont</rdg></app></p>
                 </div2>
 
 
@@ -431,7 +508,9 @@
 
                 <div2 n="13"
                     source="#Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
-                    <p><g ref="#pied_demouche3"/>Il n’y a rien à perdre à être noble : franchises,
+                    <p><g ref="#pied_demouche3"/><pb n="599" source="#Paris-edition8"/>
+                        <!-- Page 599 dans l'édition 8 la remarque commence -->
+                        Il n’y a rien à perdre à être noble : franchises,
                         immunités, exemptions, privilèges, que manque-t-il à ceux qui ont un titre ?
                         Croyez-vous que ce soit pour la noblesse que des solitaires <note resp="#JB"
                             source="#Paris-edition8 #Paris-edition7" place="right" style="*">Maison Religieuse
@@ -442,7 +521,9 @@
                             <lem wit="#Edition-ref19e"/>
                             <rdg wit="Paris-edition4">gabelles en italique</rdg>
                         </app> ? je ne dis pas à chacun en particulier, leurs vœux s’y opposent, je
-                        dis même à la communauté. </p>
+                        dis même à la communauté.<app>
+                            <rdg wit="#E1690-13">Selon la clé imprimée : "les Jésuites et les Célestins; ces derniers
+                            qui faisaient voeu de pauvreté jouissaient des mêmes privilèges que les secrétaires du roi</rdg></app> </p>
                 </div2>
 
 
@@ -451,13 +532,14 @@
                     source="#Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
                     <p><g ref="#pied_demouche3"/>Je le déclare nettement, afin que l’on s’y prépare
                         <app><lem wit="#Edition-ref19e">et</lem>
-                            <rdg wit="#Paris-edition8">signe et<!-- & --></rdg></app> que personne un jour n’en soit surpris : s’il arrive jamais que quelque
+                            <rdg wit="#Paris-edition8">signe et<!-- & --></rdg></app> 
+                        que personne un <pb n="518" source="#Paris-edition6"/>jour n’en soit surpris : s’il arrive jamais que quelque
                             <app><lem wit="#Edition-ref19e">grand</lem>
                             <rdg wit="#Paris-edition8">Grand</rdg></app> me trouve digne de ses soins, si je fais enfin une belle fortune, il y
                         a un Geoffroy de la Bruyère, que toutes les <app><lem wit="#Edition-ref19e">chroniques</lem>
                             <rdg wit="#Paris-edition8">Chroniques</rdg></app> rangent au nombre des
-                        plus grands seigneurs de France qui suivirent <persName>Godefroy de Bouillon</persName> à la
-                        conquête de la <placeName>Terre-Sainte</placeName> : voilà alors de qui je descends en ligne
+                        plus grands seigneurs de France qui suivirent <persName ref="#Godefroy_deBouillon">Godefroy de Bouillon</persName> à la
+                        conquête de la <placeName ref="#Terre-Sainte">Terre-Sainte</placeName> : voilà alors de qui je descends en ligne
                         directe.</p>
                 </div2>
 
@@ -474,30 +556,33 @@
 
                 <div2 n="16"
                     source="#Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
-                    <p><g ref="#pied_demouche2"/>Il y a des choses qui, ramenées à leurs principes
+                    <p><g ref="#pied_demouche2"/><pb n="600" source="#Paris-edition8"/>
+                        <!-- Page 600 dans l'édition 8 la remarque commence -->Il y a des choses qui, ramenées à leurs principes
                         et à leur première institution, sont étonnantes et incompréhensibles. Qui
                         peut concevoir en effet que certains <app><lem wit="#Edition-ref19e">abbés</lem>
-                            <rdg wit="#Paris-edition8">Abbes</rdg></app>, à qui il ne manque rien de
+                            <rdg wit="#Paris-edition8">Abbes</rdg><rdg wit="#E1689-16">L'un des abbés désignés serait, selon plusieurs clés manuscrites, le chevalier de
+                                Lorraine (1643-1702), maréchal de camp (1688) et célébre favori du duc d'Orléans</rdg></app>, à qui il ne manque rien de
                         l’ajustement, de la mollesse et de la vanité des sexes et des conditions,
                         qui entrent auprès des femmes en concurrence avec le marquis et le
                         financier, et qui l’emportent sur tous les deux, qu’eux-mêmes soient
                         originairement et dans l’étymologie de leur nom les pères, et les chefs de
-                        saints moines et d’humbles solitaires, et qu’ils en devraient être l’exemple
+                        saints moines et d’humbles solitaires, et qu’ils en devraient <pb n="519" source="#Paris-edition6"/>être l’exemple
                         ? Quelle force, quel empire, quelle tyrannie de l’usage ! Et sans parler de
                         plus grands désordres, ne doit-on pas craindre de voir un jour un jeune abbé
-                        en velours gris et à ramages comme une éminence, ou avec des mouches et du
-                        rouge comme une femme ?</p>
+                        en velours gris <app>
+                            <rdg wit="#E1689-16">allusion au cardinal de Bouillon, souvent cité par ailleurs dans les clés</rdg>
+                            </app></p>
                 </div2>
 
 
 
                 <div2 n="17"
                     source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
-                    <p><g ref="#pied_demouche1"/>Que les saletés des Dieux, la <persName>Vénus</persName>, le <app><lem wit="#Edition-ref19e">Ganymède</lem>
+                    <p><g ref="#pied_demouche1"/>Que les saletés des Dieux, la <persName ref="#Venus">Vénus</persName>, le <app><lem wit="#Edition-ref19e">Ganymède</lem>
                         <rdg wit="#Paris-edition1">Ganumede</rdg></app> et
                         les autres nudités du <app><lem wit="#Edition-ref19e">Carrache</lem>
                             <rdg wit="#Paris-edition1">Carache</rdg></app> aient été faites pour des princes de
-                        l’Eglise, et qui se disent successeurs des Apôtres, le <placeName>palais Farnèse</placeName> en est
+                        l’Eglise, et qui se disent successeurs des Apôtres, le <placeName ref="#palais_Farnèse">palais Farnèse</placeName> en est
                         la preuve.</p>
                 </div2>
 
@@ -511,14 +596,16 @@
                                 fur les Sacremens, qui semblent par là être appreciez. Ce n'est rien
                                 au fond que cet usage; et ceux qui reçoivent pour les choses faintes
                                 ne croyent point les vendre; comme ceux qui donnent ne pensent point
-                                à les acheter; ce font peut-être de mauvaises apparences, et qui
+                                à les acheter; ce <pb n="326" source="#Paris-edition1"/>
+                                font peut-être de mauvaises apparences, et qui
                                 choquent quelques esprits.</rdg>
                         </app></p>
                 </div2>
 
                 <div2 n="18"
                     source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
-                    <p><g ref="#pied_demouche1"/>Les belles choses le sont moins hors de leur place
+                    <p><g ref="#pied_demouche1"/><pb n="601" source="#Paris-edition8"/>
+                        <!-- Page 601 dans l'édition 8 la remarque commence -->Les belles choses le sont moins hors de leur place
                         ; les bienséances mettent la perfection, et la raison met les bienséances.
                         Ainsi l’on n’entend point une gigue à la chapelle, ni dans un sermon des
                         tons de théâtre ; l’on ne voit point d’images profanes dans les temples, un
@@ -530,7 +617,7 @@
 
 
                 <div2 n="19" source="#Paris-edition8 #Paris-edition9 #Paris-edition10">
-                    <p>Déclarerai-je donc ce que jepense de ce qu’on appelle dans le monde un beau
+                    <p>Déclarerai-je donc ce que je pense de ce qu’on appelle dans le monde un beau
                         salut, la décoration souvent profane, les places retenues et payées, des
                         livres distribués comme au théâtre, les entrevues et les rendez-vous
                         fréquents, le murmure et les causeries étourdissantes, quelqu’un monté sur
@@ -538,9 +625,15 @@
                         rassembler le peuple, l’amuser, jusqu’à ce qu’un orchestre, le dirai-je ? et
                         des voix qui concertent depuis longtemps se fassent entendre ? Est-ce à moi
                         à m’écrier que le zèle de la maison du Seigneur me consume, et à tirer le
+                        <pb n="602" source="#Paris-edition8"/>
                         voile léger qui couvre les mystères, témoins d’une telle indécence ? Quoi ?
                         parce qu’on ne danse pas encore aux TT…, me forcera-t-on d’appeler tout ce
-                        spectacle office d’Eglise ? </p>
+                        spectacle office d’Eglise ? <app>
+                            <rdg wit="#E1694-19">Clé manuscrite : "La musique des pères théatins, dont ils 
+                                ont fait tant de différents concerts. C'était Lorenzani qui était auteur de 
+                                cette musique, qui a scandalisé tout Paris. Les places étaient louées comme
+                                à la Comédie ou à l'Opéra." 
+                           </rdg></app></p>
                 </div2>
 
 
@@ -548,7 +641,7 @@
                 <div2 n="20"
                     source="#Paris-edition1 #Paris-edition3 #Paris-edition4 #Paris-edition5 #Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
                     <p><g ref="#pied_demouche1"/>L’on ne voit point faire de vœux ni de pèlerinages
-                        pour obtenir d’un saint d’avoir l’esprit plus doux, l’âme plus
+                        pour obtenir d’un saint d’avoir l’esprit plus doux, l’âme <pb n="520" source="#Paris-edition6"/>plus
                         reconnaissante, d’être plus équitable et moins malfaisant, d’être guéri de
                         la vanité, de l’inquiétude et de la mauvaise raillerie.</p>
                 </div2>
@@ -556,3 +649,4 @@
         </body>
     </text>
 </TEI>
+
