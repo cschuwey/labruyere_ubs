@@ -28,17 +28,6 @@
             <sourceDesc>
                 <bibl/>
                 <biblStruct>
-                    <monogr xml:id="Paris_1689_4">
-                        <title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
-                        <author>Jean de la Bruyère</author>
-                        <edition>Le Quatrième édition</edition>
-                        <idno>ark:/12148/bpt6k575649</idno>
-                        <imprint xml:id="Paris_1689_4_1">
-                            <date>1689</date>
-                            <publisher>Etienne Michallet</publisher>
-                            <pubPlace>Paris</pubPlace>                
-                        </imprint>
-                    </monogr>
                     <monogr xml:id="Paris_1690_5">
                         <title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
                         <author>Jean de la Bruyère</author>
@@ -55,7 +44,7 @@
                         <author>Jean de la Bruyère</author>
                         <edition>La Septième édition</edition>
                         <idno>ark:/12148/bpt6k57575z</idno>
-                        <imprint xml:id="Paris_1694_871">
+                        <imprint xml:id="Paris_1694_7_1">
                             <date>1692</date>
                             <publisher>Etienne Michallet</publisher>
                             <pubPlace>Paris</pubPlace> </imprint>
@@ -77,7 +66,22 @@
                         <persName>Aronce</persName>
                         <note>clé faisant référence à <persName ref="#Perrault">M. Perrault</persName>.</note>
                     </person>
+                    <person xml:id="Mélinde">
+                        <persName>Nom inconnu</persName>
+                    </person>
                     <person xml:id="Acis">
+                        <persName>Nom inconnu</persName>
+                    </person>
+                    <person xml:id="Phobus">
+                        <persName>Nom inconnu</persName>
+                    </person>
+                    <person xml:id="Zamet">
+                        <persName>Nom inconnu</persName>
+                    </person>
+                    <person xml:id="Ruccelay">
+                        <persName>Nom inconnu</persName>
+                    </person>
+                    <person xml:id="Conchini">
                         <persName>Nom inconnu</persName>
                     </person>
                     <person xml:id="Arrias">
@@ -86,6 +90,7 @@
                     </person>
                     <person xml:id="Sethon">
                         <persName>Nom inconnu</persName>
+                        <note>Ambassadeur de France</note>
                     </person>
                     <person xml:id="Théodecte">
                         <persName>Théodecte</persName>
@@ -105,13 +110,24 @@
                         <note>Aronce est le nom d'un des personnages de la Clélie de Mlle de Scudéry</note>
                     </person>
                     <person xml:id="Robert_de_Châtillon">
+                        <birth>né en 1633</birth>
+                        <death>mort en 1719</death>
                         <note>M. Robert de Châtillon [1633-1719], fils de M. Robert, procureur du Roi au Châtelet, où il est lui-même conseiller. Il avait été nommé conseiller au Châtelet vers 1690</note>
                     </person>
                     <person xml:id="Comte_François_Aubigné">
+                        <link target="http://racineshistoire.free.fr/LGN/PDF/Aubigne.pdf"/>
                         <birth>né en 1635</birth>
                         <note>Le comte François d'Aubigné</note>
                     </person>
                 </listPerson>
+                <listPlace>
+                    <place xml:id="France">
+                        <placeName>France</placeName>
+                    </place>
+                    <place xml:id="Paris">
+                        <placeName>Paris</placeName>
+                    </place>
+                </listPlace>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -231,27 +247,27 @@
         <body>
             <div1>
                 <head>De la société et de la Conversation</head>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p> <pb n="174" ed="#Paris_1690_5"/> <pb n="184" ed="#Paris_1692_7"/>(1)Un caractère bien fade est celui de n’en avoir aucun.</p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(2)C’est le <app><lem>rôle</lem><rdg wit="#Paris_1690_5">role</rdg></app> d’un sot d’être importun : un homme habile sent s’il convient <app><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> ou s’il ennuie <app><rdg wit="#Paris_1690_5">;</rdg> <rdg wit="#Paris_1692_7">:</rdg></app>
                         il <app><lem>sait</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">sçait</rdg></app> <app><lem>disparaître</lem><rdg wit="#Paris_1690_5">disparoistre</rdg><rdg wit="#Paris_1690_5 #Paris_1692_7">disparoitre</rdg></app> le moment qui <app><lem>précède</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">précede</rdg></app><app><lem>celui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy</rdg></app> où il serait de trop quelque part.</p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(3)L’on marche sur les mauvais plaisants, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> il pleut par tout <app><lem>pays</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">païs</rdg></app> de cette sorte d’insectes. 
                         Un bon plaisant est une pièce rare ; 
                         à un homme qui est né tel, il est encore fort délicat d’en <app><lem>soutenir</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soûtenir</rdg></app> <app><lem>longtemps</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">long-temps</rdg></app> le personnage ; 
                         il n’est pas ordinaire que <app><lem>celui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy</rdg></app> qui fait rire se fasse estimer.</p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(4)Il <app><rdg wit="#Paris_1690_5 #Paris_1692_7">y</rdg></app>a beaucoup d’esprits obscènes, encore plus de médisants ou de satiriques, peu de délicats<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
                         Pour <seg>badiner<note resp="#CM" type="gloss" place="droite">Plaisanter, prendre à la légère</note></seg>
                         avec grâce, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> rencontrer heureusement sur les plus petits sujets, 
                         il faut trop de <app><lem>manières</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">manieres</rdg></app>, trop de politesse, 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> <pb n="175" ed="#Paris_1690_5"/> même trop de fécondité <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> <pb n="185" ed="#Paris_1692_7"/> c’est créer que de railler ainsi, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> faire quelque chose de rien.</p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(5)Si l’on <app><lem>faisait</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">faisoit</rdg></app> une <app><lem>sérieuse</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">serieuse</rdg></app> attention à tout ce qui se dit de froid,
                         de vain <app><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de <app><lem>puéril</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">pueril</rdg></app> dans les entretiens ordinaires, l’on <app><lem>aurait</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">auroit</rdg></app> honte de parler ou d’écouter, 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> l’on se <app><lem>condamnerait</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">condamneroit</rdg></app> peut-être à un silence perpétuel, 
@@ -259,9 +275,9 @@
                         Il faut donc s’accommoder à tous les esprits <app><lem>,</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> permettre comme un mal nécessaire le <app><lem>récit</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">recit</rdg></app> des fausses nouvelles, 
                         les vagues <app><lem>réflexions</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">reflexions</rdg></app> sur le gouvernement <app><lem>présent</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">present</rdg></app><app><lem>,</lem><rdg wit="#Paris_1690_5 #Paris_1692_7"></rdg></app> 
                         ou sur <app><lem>lintérêt</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">linterêt</rdg></app> des <app><lem>princes</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Princes</rdg></app>, le <app><lem>débit</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">debit</rdg></app> des beaux <app><lem>sentiments</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">sentimens</rdg></app>, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> qui reviennent <app><lem>toujours</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">toûjours</rdg></app> les mêmes ; 
-                        il faut laisser <app type="clé"><lem wit="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Aronce">Aronce</persName></lem><rdg wit="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Perrault">M.Perrault</persName></rdg></app> parler proverbe, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> <app><lem>Mélinde</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Melinde</rdg></app> parler de <app><lem>soi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soy</rdg></app>, de ses vapeurs, de ses migraines <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de ses insomnies.</p>
+                        il faut laisser <app type="clé"><lem wit="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Aronce">Aronce</persName></lem><rdg wit="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Perrault">M.Perrault</persName></rdg></app> parler proverbe, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> <app><lem><persName ref="#Mélinde">Mélinde</persName></lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Melinde</rdg></app> parler de <app><lem>soi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soy</rdg></app>, de ses vapeurs, de ses migraines <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de ses insomnies.</p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(6)L’on voit des gens qui<app><lem>,</lem><rdg wit="#Paris_1690_5 #Paris_1692_7"></rdg></app>dans les conversations ou dans le peu de commerce que l’on a avec eux<app><lem>,</lem><rdg wit="#Paris_1690_5 #Paris_1692_7"></rdg></app> 
                         vous dégoûtent par leurs ridicules expressions, par la nouveauté, 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> j’ose dire par <app><lem>l’impropriété</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">l’improprieté</rdg></app> des termes dont ils se servent, 
@@ -279,13 +295,13 @@
                 <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p> (7)Que dites-vous ? Comment ? Je n’y suis pas ; vous <app><lem>plairait-il</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">plairoit-il</rdg></app> de recommencer <app><lem>?</lem><rdg wit="#Paris_1690_5">!</rdg><rdg wit="#Paris_1692_7">?</rdg></app> 
                         <app><lem>J’y</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">j’y</rdg></app> suis <app><lem>encore</lem><rdg wit="#Paris_1690_5">encor</rdg><rdg wit="#Paris_1692_7">encore</rdg></app> moins<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> <app><lem>Je</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">je</rdg></app> devine enfin : 
-                        vous voulez<app><lem>,</lem><rdg wit="#Paris_1692_7">,</rdg></app> Acis<app><lem>,</lem><rdg wit="#Paris_1692_7">,</rdg></app> me dire qu’il fait froid ; 
+                        vous voulez<app><lem>,</lem><rdg wit="#Paris_1692_7">,</rdg></app><persName ref="#Acis">Acis</persName><app><lem>,</lem><rdg wit="#Paris_1692_7">,</rdg></app> me dire qu’il fait froid ; 
                         que ne disiez-vous <app><lem>:</lem><rdg wit="#Paris_1692_7">,</rdg></app> <app><lem>"Il fait froid" ?</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">il fait froid ;</rdg></app> <app><lem>Vous</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">vous</rdg></app> voulez m’apprendre qu’il pleut <app><lem>ou</lem><rdg wit="#Paris_1690_5">où</rdg><rdg wit="#Paris_1692_7">ou</rdg></app> qu’il neige ; 
                         dites <app><lem>:</lem><rdg wit="#Paris_1692_7">,</rdg></app> <app><lem>"Il pleut, il neige." Vous</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">il neige : vous</rdg></app> me trouvez bon visage, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> vous désirez de m’en <app><lem>féliciter ;</lem><rdg wit="#Paris_1690_5">feliciter ;</rdg><rdg wit="#Paris_1692_7">feliciter,</rdg></app> 
                         dites <app><lem>:</lem><rdg wit="#Paris_1692_7">,</rdg></app> <app><lem>"Je vous trouve <pb n="187" ed="#Paris_1692_7"/> bon visage." — Mais, répondez-vous,</lem><rdg wit="#Paris_1690_5">je vous trouve bon visage, mais, repondez-vou s</rdg><rdg wit="#Paris_1692_7">je vous trouve bon visage ; mais, répondez-vous,</rdg></app> <pb n="177" ed="#Paris_1690_5"/> cela est bien uni <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> bien clair <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> d’ailleurs qui ne <app><lem>pourrait</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">pourroit</rdg></app> pas en dire autant <app><lem>?</lem><rdg wit="#Paris_1690_5">;</rdg><rdg wit="#Paris_1692_7">;</rdg></app> 
-                        <app><lem>— Qu’importe, <persName ref="#Acis">Acis</persName>?</lem><rdg wit="#Paris_1690_5">qu’importe, Acis ?</rdg><rdg wit="#Paris_1692_7">qu’importe, Acis,</rdg></app> <app><lem>Est-ce</lem><rdg wit="#Paris_1690_5">est-ce</rdg><rdg wit="#Paris_1692_7">est ce</rdg></app> un si grand mal <app><lem>d’être</lem><rdg wit="#Paris_1690_5">d’estre</rdg><rdg wit="#Paris_1692_7">d’être</rdg></app> entendu quand on parle, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de parler comme tout le monde ?
-                        Une chose vous manque, Acis, à vous <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> à vos semblables les diseurs de <app><lem>phobus ;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Phoebus,</rdg></app> 
+                        <app><lem>— Qu’importe, <persName ref="#Acis">Acis</persName> ? </lem><rdg wit="#Paris_1690_5">qu’importe, <persName ref="#Acis">Acis</persName> ?</rdg><rdg wit="#Paris_1692_7">qu’importe, <persName ref="#Acis">Acis</persName>,</rdg></app> <app><lem>Est-ce</lem><rdg wit="#Paris_1690_5">est-ce</rdg><rdg wit="#Paris_1692_7">est ce</rdg></app> un si grand mal <app><lem>d’être</lem><rdg wit="#Paris_1690_5">d’estre</rdg><rdg wit="#Paris_1692_7">d’être</rdg></app> entendu quand on parle, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de parler comme tout le monde ?
+                        Une chose vous manque, <persName ref="#Acis">Acis</persName>, à vous <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> à vos semblables les diseurs de <app><lem><persName ref="#Phobus">Phobus</persName> ;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Phoebus,</rdg></app> 
                         vous ne vous en défiez point, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> je vais vous <app><lem>jeter</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">jetter</rdg></app> dans l’étonnement <app><lem>:</lem><rdg wit="#Paris_1690_5">,</rdg><rdg wit="#Paris_1692_7">,</rdg></app> une chose vous manque, c’est l’esprit<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
                         Ce n’est pas tout <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> il y a en vous une chose de trop, qui est l’opinion d’en avoir plus que les autres <app><lem>;</lem><rdg wit="#Paris_1690_5">,</rdg><rdg wit="#Paris_1692_7">;</rdg></app> 
                         voilà la source de <app><lem>votre</lem><rdg wit="#Paris_1690_5">vostre</rdg><rdg wit="#Paris_1692_7">vôtre</rdg></app> pompeux <app><lem>galimatias</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">galimathias</rdg></app>, de vos phrases embrouillées, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de vos grands mots qui ne signifient rien. 
@@ -295,7 +311,7 @@
                         ayez si vous pouvez un langage simple, &amp; tel que l’ont ceux en qui vous ne trouvez aucun esprit : peut-être alors croira-t-on que vous en avez.</rdg><rdg wit="#Paris_1692_7">ne songez point à avoir de l’esprit, n’en ayez point, c’est vôtre rôle,
                         ayez, si vous pouvez un langage simple, &amp; tel que l’ont ceux en qui vous ne trouvez aucun esprit : peut-être alors croira-t-on que vous en avez.</rdg></app></p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(8)Qui peut se promettre d’éviter dans la <app><lem>société</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">societé</rdg></app> des hommes la ren<pb n="188" ed="#Paris_1692_7"/>contre de certains esprits vains, 
                         <app><lem>légers</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">le<pb n="178" ed="#Paris_1690_5"/>-gers</rdg></app>, familiers, <app><lem>délibérés</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">délibérez</rdg></app>, 
                         qui sont <app><lem>toujours</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">toûjours</rdg></app> dans une compagnie ceux qui parlent, 
@@ -305,9 +321,9 @@
                         comme pour le rang <app><rdg wit="#Paris_1690_5 #Paris_1692_7">ou</rdg></app> le <app><lem>mérite</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">merite</rdg></app> des personnes qui composent le cercle ; 
                         ils font taire <app><lem>celui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy</rdg></app> qui commence à conter une nouvelle, 
                         pour la dire de leur façon, qui est la meilleure <app><lem>:</lem><rdg wit="#Paris_1690_5">;</rdg><rdg wit=" #Paris_1692_7">,</rdg></app> 
-                        ils la tiennent de <seg>Zamet<note resp="#JDLB" source="#Paris_1690_5 #Paris_1692_7" style="***" place="gauche">Sans dire Monsieur</note></seg>, 
-                        de <seg resp="#JDLB" source="#Paris_1690_5 #Paris_1692_7" style="***">Ruccelay<note>Sans dire Monsieur</note></seg>, 
-                        ou de <seg resp="#JDLB" source="#Paris_1690_5 #Paris_1692_7" style="***">Conchini<note>Sans dire Monsieur</note></seg>, 
+                        ils la tiennent de <seg><persName ref="#Zamet">Zamet</persName><note resp="#JDLB" source="#Paris_1690_5 #Paris_1692_7" style="***" place="gauche">Sans dire Monsieur</note></seg>, 
+                        de <seg resp="#JDLB" source="#Paris_1690_5 #Paris_1692_7" style="***"><persName ref="#Ruccelay">Ruccelay</persName><note>Sans dire Monsieur</note></seg>, 
+                        ou de <seg resp="#JDLB" source="#Paris_1690_5 #Paris_1692_7" style="***"><persName ref="#Conchini">Conchini</persName><note>Sans dire Monsieur</note></seg>, 
                         qu’ils ne <app><lem>connaissent</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">connoissent</rdg></app> point, à qui ils n’ont jamais parlé, 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> qu’ils <app><lem>traiteraient</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">traiteroient</rdg></app> de Monseigneur s’ils leur <app><lem>parlaient</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">parloient</rdg></app> <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
                         ils s’approchent quelquefois de l’oreille du plus qualifié de l’assemblée<app><lem>,</lem></app> 
@@ -330,14 +346,14 @@
                         il récite des <seg>historiettes<note resp="#CM" type="gloss" place="gauche">Court récit écrit ou oral, vrai ou faux, souvent plaisant, sans grande importance.</note></seg> qui y sont arrivées 
                         ; il les trouve plaisantes, et il en rit le premier jusqu’à éclater. 
                         Quelqu’un se hasarde de le contredire, et lui prouve nettement qu’il dit des choses qui ne sont pas vraies. 
-                        <app type="clé"><lem wit="#Paris_1694_8"><persName ref="#Robert_de_Chatillon">Arrias></persName></lem><rdg wit="#Paris_1694_8"><persName ref="#Robert_de_Châtillon">Robert de Châtillon</persName></rdg></app> ne se trouble point, prend feu au contraire contre l’interrupteur : "Je n’avance, lui dit-il, 
-                        je raconte rien que je ne sache d’original : je l’ai appris de <persName ref="#Sethon">Sethon</persName>, ambassadeur de France dans cette cour, 
-                        revenu à Paris depuis quelques jours, que je connais familièrement, que j’ai fort interrogé, 
+                        <app type="clé"><lem wit="#Paris_1694_8"><persName ref="#Arrias">Arrias</persName></lem><rdg wit="#Paris_1694_8"><persName ref="#Robert_de_Châtillon">Robert de Châtillon</persName></rdg></app> ne se trouble point, prend feu au contraire contre l’interrupteur : "Je n’avance, lui dit-il, 
+                        je raconte rien que je ne sache d’original : je l’ai appris de <persName ref="#Sethon">Sethon</persName>, ambassadeur de <placeName ref="#France">France</placeName> dans cette cour, 
+                        revenu à <placeName ref="#Paris">Paris</placeName> depuis quelques jours, que je connais familièrement, que j’ai fort interrogé, 
                         et qui ne m’a caché aucune circonstance." 
                         Il reprenait le fil de sa narration avec plus de confiance qu’il ne l’avait commencée, 
-                        lorsque l’un des conviés lui dit : "C’est Sethon à qui vous parlez, lui-même, et qui arrive de son ambassade."</p>
+                        lorsque l’un des conviés lui dit : "C’est <persName ref="#Sethon">Sethon</persName> à qui vous parlez, lui-même, et qui arrive de son ambassade."</p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(10)Il y a un <app><lem>parti</lem><rdg wit="#Paris_1690_5">party</rdg><rdg wit="#Paris_1692_7">parti</rdg></app> à prendre<app><lem>,</lem></app> 
                         dans les entretiens<app><lem>,</lem></app> entre une certaine paresse qu’on a de parler, 
                         ou quelquefois un esprit abstrait, qui<app><lem>,</lem></app> nous <app><lem>jetant</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">jettant</rdg></app> loin du sujet de la conversation, 
@@ -347,7 +363,7 @@
                         y chercher de la finesse <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de la subtilité, 
                         seulement pour avoir occasion d’y placer la sienne.</p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(11)Etre <seg>infatué<note resp="#CM" type="gloss" place="droite">Avoir une trop bonne opinion de soi-même.</note></seg>
                          de <app><lem>soi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soy</rdg></app>, 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> s’être fortement persuadé qu’on a beaucoup d’esprit, 
@@ -374,7 +390,7 @@
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> faire oublier la narration ?</p>
                 </div2>
                 <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
-                    <p>(12)J’entends <app type="clé"><lem wit="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Théodecte">Théodecte</persName></lem><rdg wit="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Comte_François_Aubigné">Theodecte : le comte François d'Aubigné</persName></rdg></app> de l’antichambre ; 
+                    <p>(12)J’entends <app><lem><app type="clé"><lem wit="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Théodecte">Théodecte</persName></lem><rdg wit="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Comte_François_Aubigné">Le comte François d'Aubigné</persName></rdg></app></lem><rdg wit="Paris_1690_5 #Paris_1692_7">Theodecte</rdg></app> de l’antichambre ; 
                         il grossit sa voix à mesure qu’il s’approche <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app>
                         le voilà entré <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> il rit, il crie, il éclate <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
                         on bouche ses oreilles, c’est un tonnerre<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
@@ -394,7 +410,7 @@
                         <app><lem>Il</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">il</rdg></app> n’a nul discernement des personnes<app><lem>,</lem><rdg wit="#Paris_1692_7">,</rdg></app> 
                         <app><lem>ni</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">ny</rdg></app> du <app><lem>maître</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Maître</rdg></app><app><lem>,</lem><rdg wit="#Paris_1692_7">,</rdg></app> <app><lem>ni</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">ny</rdg></app> des <app><lem>conviés ;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">conviez,</rdg></app> 
                         il abuse de la folle <app><lem>déférence</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">déference</rdg></app> qu’on a pour <app><lem>lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy</rdg></app><app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
-                        <app><lem>Est-ce lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">est-ce luy</rdg></app>, est-ce <app><lem><persName>Euthydème</persName></lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Eutideme</rdg></app> qui donne le repas ? 
+                        <app><lem>Est-ce lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">est-ce luy</rdg></app>, est-ce <app><lem><persName ref="#Euthydème">Euthydème</persName></lem><rdg wit="#Paris_1690_5 #Paris_1692_7">Eutideme</rdg></app> qui donne le repas ? 
                         Il rappelle à <app><lem>soi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soy</rdg></app> toute <app><lem>l’autorité</lem><rdg wit="#Paris_1690_5">l’authorité</rdg><rdg wit="#Paris_1692_7">l’autorité</rdg></app> de la table <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> il y a un moindre <app><lem>inconvénient</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">inconvenient</rdg></app> 
                         à la <app><lem>lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy</rdg></app> laisser <app><lem>entière</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">entiere</rdg></app> qu’à la lui disputer<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
@@ -404,11 +420,12 @@
                         il veut railler <app><lem>celui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy</rdg></app> qui perd, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> il l’offense ; 
                         les rieurs sont pour <app><lem>lui :</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy,</rdg></app> il n’y a sorte de <app><lem>fatuités</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">fatuitez</rdg></app> qu’on ne <app><lem>lui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">luy</rdg></app> passe. 
                         Je cède enfin <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> je <app><lem>disparais</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">disparois</rdg></app>, 
-                        incapable de souffrir plus <app><lem>longtemps Théodecte</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">long-temps Theodecte</rdg></app>, 
+                        incapable de souffrir plus <app><lem>longtemps <app type="clé"><lem wit="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Théodecte">Théodecte</persName></lem><rdg wit="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8"><persName ref="#Comte_François_Aubigné">Le comte François d'Aubigné</persName></rdg></app>
+                        </lem><rdg wit="#Paris_1690_5 #Paris_1692_7">long-temps Theodecte</rdg></app>, 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> ceux qui le souffrent.</p>
                 </div2>
                 <div2 source="#Paris_1692_7 #Paris_1694_8">
-                    <p>(13)<app><lem><persName>Troïle</persName></lem><rdg wit="#Paris_1692_7">Troile</rdg></app> est utile à ceux qui ont <pb n="192" ed="#Paris_1692_7"/>trop de bien <app><lem>:</lem><rdg wit="#Paris_1692_7">,</rdg></app> il leur ôte l’embarras du superflu <app><lem>;</lem><rdg wit="#Paris_1692_7">,</rdg></app> 
+                    <p>(13)<app><lem><persName ref="#Troïle">Troïle</persName></lem><rdg wit="#Paris_1692_7">Troile</rdg></app> est utile à ceux qui ont <pb n="192" ed="#Paris_1692_7"/>trop de bien <app><lem>:</lem><rdg wit="#Paris_1692_7">,</rdg></app> il leur ôte l’embarras du superflu <app><lem>;</lem><rdg wit="#Paris_1692_7">,</rdg></app> 
                         il leur sauve la peine d’amasser de l’argent, de faire des contrats, de fermer des coffres, 
                         de porter des clefs sur <app><lem>soi</lem><rdg wit="#Paris_1692_7">soy</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app>
                         de craindre un vol domestique<app><lem>. Il</lem><rdg wit="#Paris_1692_7">; il</rdg></app> les aide dans leurs plaisirs, 
@@ -421,7 +438,7 @@
                         <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> de cet autre <app><lem>: "Il faut l’affranchir"</lem><rdg wit="#Paris_1692_7">, il faut l’affranchir</rdg></app>, 
                         <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> on l’affranchit<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app>
                         <app><lem>L’on</lem><rdg wit="#Paris_1692_7">l’on</rdg></app> voit qu’un parasite ne le fait pas rire <app><lem>;</lem><rdg wit="#Paris_1692_7">,</rdg></app> il peut <app><lem>lui</lem><rdg wit="#Paris_1692_7">luy</rdg></app> déplaire <app><lem>:</lem><rdg wit="#Paris_1692_7">,</rdg></app> il est congédié<app><lem>.</lem><rdg wit="#Paris_1692_7">,</rdg></app> 
-                        <app><lem>Le</lem><rdg wit="#Paris_1692_7">le</rdg></app> <app><lem>maître</lem><rdg wit="#Paris_1692_7">Maître</rdg></app> est heureux, si <app><lem>Troïle lui</lem><rdg wit="#Paris_1692_7">Troile luy</rdg></app> laisse sa femme <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> ses enfants<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app> 
+                        <app><lem>Le</lem><rdg wit="#Paris_1692_7">le</rdg></app> <app><lem>maître</lem><rdg wit="#Paris_1692_7">Maître</rdg></app> est heureux, si <app><lem><persName ref="#Troïle">Troïle</persName> lui</lem><rdg wit="#Paris_1692_7">Troile luy</rdg></app> laisse sa femme <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> ses enfants<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app> 
                         <app><lem>Si</lem><rdg wit="#Paris_1692_7">si</rdg></app> <app><lem>celui-ci</lem><rdg wit="#Paris_1692_7">celuy-cy</rdg></app> est à table, 
                         <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> qu’il prononce d’un mets qu’il est friand, 
                         le <app><lem>maître</lem><rdg wit="#Paris_1692_7">Maître</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> les <app><lem>conviés</lem><rdg wit="#Paris_1692_7">conviez</rdg></app>, 
@@ -434,14 +451,14 @@
                         qu’il dort <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> qu’il fait digestion, qu’il querelle son valet, qu’il reçoit ses ouvriers, 
                         <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> qu’il remet ses créanciers<app><lem>. Il régente</lem><rdg wit="#Paris_1692_7">; il prime</rdg></app>, il domine dans une salle <app><lem>;</lem><rdg wit="#Paris_1692_7">,</rdg></app> 
                         il y reçoit la cour <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> les hommages de ceux qui<app><lem>,</lem></app> plus fins que les autres<app><lem>,</lem></app> 
-                        ne veulent aller au <app><lem>maître</lem><rdg wit="#Paris_1692_7">Maître</rdg></app> que par <app><lem>Troïle.</lem><rdg wit="#Paris_1692_7">Troile,</rdg></app> 
+                        ne veulent aller au <app><lem>maître</lem><rdg wit="#Paris_1692_7">Maître</rdg></app> que par <app><lem><persName ref="#Troïle">Troïle</persName>.</lem><rdg wit="#Paris_1692_7">Troile,</rdg></app> 
                         <app><lem>Si</lem><rdg wit="#Paris_1692_7">si</rdg></app> l’on entre par malheur sans avoir une <app><lem>physionomie</lem><rdg wit="#Paris_1692_7">phisionomie</rdg></app> qui <app><lem>lui</lem><rdg wit="#Paris_1692_7">luy</rdg></app> agrée, 
                         il ride son front <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> il détourne sa <app><lem>vue</lem><rdg wit="#Paris_1692_7">veuë</rdg></app> ; si on l’aborde, il ne se <app><lem>lève</lem><rdg wit="#Paris_1692_7">leve</rdg></app> pas ; 
                         si l’on s’assied <app><lem>auprès</lem><rdg wit="#Paris_1692_7">auprés</rdg></app> de <app><lem>lui</lem><rdg wit="#Paris_1692_7">luy</rdg></app>, il s’éloigne ; si on <app><lem>lui</lem><rdg wit="#Paris_1692_7">luy</rdg></app> parle, il ne répond point ; 
                         si l’on <app><lem>continue</lem><rdg wit="#Paris_1692_7">continuë</rdg></app> de parler, il passe dans une autre chambre ; si on le suit, il gagne l’escalier <app><lem>;</lem><rdg wit="#Paris_1692_7">,</rdg></app> 
                         il <app><lem>franchirait</lem><rdg wit="#Paris_1692_7">franchiroit</rdg></app> tous les étages, ou il se <app><lem>lancerait</lem><rdg wit="#Paris_1692_7">lanceroit</rdg></app> par une fenêtre, 
                         plutôt que de se laisser joindre par quelqu’un qui a un visage ou un ton de voix qu’il désapprouve<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app> 
-                        <app><lem>L’un</lem><rdg wit="#Paris_1692_7">l’un</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> l’autre sont agréables en <app><lem>Troïle</lem><rdg wit="#Paris_1692_7">Troile</rdg></app>, 
+                        <app><lem>L’un</lem><rdg wit="#Paris_1692_7">l’un</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> l’autre sont agréables en <app><lem><persName ref="#Troïle">Troïle</persName></lem><rdg wit="#Paris_1692_7">Troile</rdg></app>, 
                         <app><lem>et</lem><rdg wit="#Paris_1692_7">&amp;</rdg></app> il s’en est servi heureusement pour s’insinuer ou pour <pb n="194" ed="#Paris_1692_7"/>conquérir<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app> 
                         <app><lem>Tout</lem><rdg wit="#Paris_1692_7">tout</rdg></app> devient, avec le temps<app><lem>,</lem></app> <app><lem>au-dessous</lem><rdg wit="#Paris_1692_7">au dessous</rdg></app> de ses soins, 
                         comme il est <app><lem>au-dessus</lem><rdg wit="#Paris_1692_7">au dessus</rdg></app> de vouloir se <app><lem>soutenir</lem><rdg wit="#Paris_1692_7">soûtenir</rdg></app> ou continuer de plaire par le moindre des talents qui ont commencé à le faire valoir<app><lem>.</lem><rdg wit="#Paris_1692_7">;</rdg></app> 
@@ -453,7 +470,7 @@
                         vous <app><lem>n’êtes</lem><rdg wit="#Paris_1692_7">n’étes</rdg></app> pas <app><lem>sûr</lem><rdg wit="#Paris_1692_7">seur</rdg></app> 
                         qu’il aime <app><lem>toujours</lem><rdg wit="#Paris_1692_7">toûjours</rdg></app> votre approbation, ou qu’il souffre <app><lem>votre</lem><rdg wit="#Paris_1692_7">vôtre</rdg></app> complaisance.</p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(14)Il faut laisser parler cet incon <pb n="182" ed="#Paris_1690_5"/>nu que le <app><lem>hasard</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">hazard</rdg></app> a placé auprès de vous dans une voiture publique, 
                         à une fête ou à un spectacle <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> il ne vous coûtera <app><lem>bientôt</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">bien-tôt</rdg></app> pour le <app><lem>connaître</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">connoître</rdg></app> 
@@ -463,7 +480,7 @@
                         sa parenté, ses alliances, les armes de sa maison ; vous comprendrez qu’il est noble, qu’il a un château, 
                         de beaux meubles, des valets, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> un carrosse<app><lem>.</lem><rdg wit="#Paris_1692_7">?</rdg> </app><pb n="195" ed="#Paris_1692_7"/></p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(15)Il y a des gens qui parlent <app><rdg wit="#Paris_1690_5">:</rdg></app> un moment avant que d’avoir pensé<app><lem>.</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app>
                         Il y en a d’autres qui ont une fade attention à ce qu’ils disent, 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> avec qui l’on souffre dans la conversation de tout le travail de leur esprit ; 
@@ -473,31 +490,31 @@
                         <seg>puristes<note resp="#JDLB" source="#Paris_1692_7" style="*" place="droite">Gens qui affectent une grande pureté de langage</note></seg><app><lem>,</lem><rdg wit="#Paris_1692_7">,</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> ne <app><lem>hasardent</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">hazardent</rdg></app> pas le moindre mot, quand il <app><lem>devrait</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">devroit</rdg></app> faire le plus bel effet du monde <app><lem>;</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">:</rdg></app> 
                         rien d’heureux ne leur <app><lem>échappe</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">échape</rdg></app>, rien ne coule de source <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> avec liberté <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> ils parlent proprement <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> ennuyeusement. <pb n="183" ed="#Paris_1690_5"/></p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(16)L’esprit de la conversation consiste bien moins à en montrer beaucoup qu’à en faire trouver aux autres <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">;</rdg></app> 
                         <app><lem>celui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy</rdg></app> qui sort de <app><lem>votre</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">vôtre</rdg></app> entretien content de <app><lem>soi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">soy</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> <app><lem>de son esprit, l’est de vous parfaitement.</lem><rdg wit="#Paris_1690_5">de son esprit l’est de vous parfaitement :</rdg><rdg wit="#Paris_1692_7">de son esprit l’est de vous parfaitement.</rdg></app>
                         Les hommes n’aiment point à vous admirer, ils veulent plaire ; 
                         ils cherchent moins à être instruits<app><lem>,</lem></app> <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> même <app><lem>réjouis</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">réjoüis</rdg></app>, qu’à être <app><lem>goûtés</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">goûtez</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> applaudis ; 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> le plaisir le plus délicat est de faire <app><lem>celui d’autrui</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">celuy d’autruy</rdg></app>.</p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(17)Il ne faut pas qu’il y ait trop d’imagination dans nos conversations <pb n="196" ed="#Paris_1692_7"/><app><lem>ni</lem><rdg wit="#Paris_1690_5">ni</rdg><rdg wit="#Paris_1692_7">ny</rdg></app> dans nos écrits ; 
                         elle ne produit souvent que des idées vaines <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> puériles, 
                         qui ne servent point à perfectionner le goût<app><rdg wit=" #Paris_1690_5 #Paris_1692_7">,</rdg></app> <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> à nous rendre meilleurs : 
                         nos pensées doivent être prises dans le bon sens <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> la droite raison, 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> doivent être un effet de <app><lem>notre</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">nôtre</rdg></app> jugement.</p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(18)C’est une grande <app><lem>misère</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">misere</rdg></app> que de n’avoir pas assez d’esprit pour bien parler, 
                         <app><lem>ni</lem><rdg wit="#Paris_1690_5">ni</rdg><rdg wit="#Paris_1692_7">ny</rdg></app> assez de jugement pour se taire. Voilà le principe de toute impertinence.</p>
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(19)Dire d’une chose modestement ou qu’elle est bonne<app><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> ou qu’elle est <pb n="184" ed="#Paris_1690_5"/>mauvaise, 
                         <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> les raisons <app><lem>pourquoi</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">pourquoy</rdg></app> elle est telle, demande du bon sens <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de l’expression <app><lem>:</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> c’est une affaire. 
                         Il est plus court de prononcer d’un ton décisif, <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> qui emporte la preuve de ce qu’on avance, 
                         ou qu’elle est <app><lem>exécrable</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">execrable</rdg></app>, ou qu’elle est miraculeuse.</p>       
                 </div2>
-                <div2 source="#Paris_1689_4 #Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
+                <div2 source="#Paris_1690_5 #Paris_1692_7 #Paris_1694_8">
                     <p>(20)Rien n’est moins selon Dieu <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> selon le monde<app><rdg wit="#Paris_1690_5 #Paris_1692_7">,</rdg></app> que d’appuyer tout ce que l’on dit dans la conversation, 
                         jusques aux choses les plus <app><lem>indifférentes,</lem><rdg wit="#Paris_1690_5">indifferentes</rdg><rdg wit="#Paris_1692_7">indifferentes,</rdg></app> 
                         par de longs <app><lem>et</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">&amp;</rdg></app> de fastidieux <app><lem>serments</lem><rdg wit="#Paris_1690_5 #Paris_1692_7">sermens</rdg></app>. 
