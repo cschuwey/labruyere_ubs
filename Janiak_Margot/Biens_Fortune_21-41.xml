@@ -3,15 +3,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/> 
+                <title/>
                 <respStmt>
                     <name>Jean de la Bruyère</name>
                     <resp xml:id="Auteur">Auteur</resp>
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>                        
-                </edition>
+                <edition> </edition>
                 <respStmt>
                     <name>Margot Janiak</name>
                     <resp xml:id="Éditrice">Éditrice</resp>
@@ -94,19 +93,30 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
-                <bibl type="clé" xml:id="E1687"></bibl>
+                <bibl type="clé" xml:id="Berrier"/>
+                <bibl type="clé" xml:id="Pontchartrain"/>
+                <bibl type="clé" xml:id="Beauvais"/>
+                <bibl type="clé" xml:id="Laugeois"/>
+                <bibl type="clé" xml:id="Fouquet"/>
+                <bibl type="clé" xml:id="Tellier"/>
                 <listPerson>
-                    <person xml:id="Périandre"></person>
-                    <person xml:id="Ergaste"></person>
-                    <person xml:id="Criton"></person>
-                    <person xml:id="Brontin"></person>
-                    <person xml:id="Orphée"></person>
+                    <person xml:id="Périandre"/>
+                    <person xml:id="Ergaste"/>
+                    <person xml:id="Criton"/>
+                    <person xml:id="Brontin"/>
+                    <person xml:id="Orphée">
+                        <occupation>Héros de la mytholopgie grecque, poète et musicien.</occupation>
+                    </person>
+                    <person xml:id="Chrysippe"/>
                 </listPerson>
                 <listPlace>
-                    <place></place>
+                    <place xml:id="jardins"/>
+                    <place xml:id="cuisines"/>
+                    <place xml:id="cour"/>
+                    <place xml:id="ville"/>
                 </listPlace>
             </sourceDesc>
-        </fileDesc>   
+        </fileDesc>
         <encodingDesc>
             <p>Il est précisé dans les différents balises div les éditions dans lesquelles on peut
                 trouver les différentes remarques</p>
@@ -135,16 +145,16 @@
             <refsDecl>
                 <p> Le texte "lem" est basé sur la dixième édition des Caractères dans sa forme de
                     français moderne. </p>
-            </refsDecl> 
+            </refsDecl>
             <classDecl>
                 <taxonomy>
                     <category>
-                        <catDesc></catDesc>
+                        <catDesc/>
                     </category>
                 </taxonomy>
             </classDecl>
         </encodingDesc>
-        
+
         <profileDesc>
             <langUsage>
                 <language ident="fra">Français classique</language>
@@ -164,7 +174,10 @@
 
         <revisionDesc>
             <change>
-                <date when="2022-11-07"> Ajout...</date>
+                <date when="2022-10-24">TEIHeader completé</date>
+                <date when="2022-10-31">Ajout des sources, des apps</date>
+                <date when="2022-11-11">Ajout des pages breaks et des notes</date>
+                <date when="2022-11-18">Ajout des clés</date>
             </change>
         </revisionDesc>
 
@@ -197,252 +210,413 @@
 
                 <div2 n="21" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
-                       <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
-                        On ne peut mieux user de sa fortune que fait <persName type="Pseudo">Périandre</persName> : elle <app><lem wit="#Ed_19e_origine">lui</lem><rdg wit="#Paris_1694_ed8">luy<note resp="#Editrice">Ancienne graphie</note></rdg></app>
-                        rang, du crédit, de l’autorité ; déjà on ne le prie plus d’accorder son
-                        amitié, on implore sa protection. Il a commencé par dire de <app><lem wit="#Ed_19e_origine">soi-même</lem><rdg wit="#Paris_1694_ed8">soy-même<note resp="#Editrice">Ancienne graphie</note></rdg></app> : un
-                        homme de ma sorte ; il passe à dire : un homme de ma qualité ; il se donne
-                        pour tel, et il n’y a personne de ceux à qui il prête de l’argent, ou qu’il
+                        <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/> On ne peut mieux
+                        user de sa fortune que fait <persName type="Pseudo" ref="#Périandre"><app>
+                                <rdg rend="italic">Périandre</rdg>
+                            </app></persName> : elle <app>
+                            <lem wit="#Ed_19e_origine">lui</lem>
+                            <rdg wit="#Paris_1694_ed8">luy<note resp="#Editrice">Ancienne
+                                    graphie</note></rdg>
+                        </app> donne <note source="#Paris_1689_ed8" resp="#Lecteur" place="right"
+                            type="ms" hand="Inconnu">Illisible</note> du rang, du crédit, de
+                        l’autorité ; déjà on ne le prie plus d’accorder son amitié, on implore sa
+                        protection. Il a commencé par dire de <app>
+                            <lem wit="#Ed_19e_origine">soi-même</lem>
+                            <rdg wit="#Paris_1694_ed8">soy-même<note resp="#Editrice">Ancienne
+                                    graphie</note></rdg>
+                        </app> : un homme de ma sorte ; il passe à di<pb n="236"
+                            source="#Paris_1688_ed8"/>re : un homme de ma qualité ; il se donne pour
+                        tel, et il n’y a personne de ceux à qui il prête de l’argent, ou qu’il
                         reçoit à sa table, qui est délicate, qui veuille s’y opposer. Sa demeure est
                         superbe ; un dorique règne dans tous ses dehors ; ce n’est pas une porte,
-                        c’est un portique : est-ce la maison d’un particulier ? est-ce un <app><lem wit="#Ed_19e_origine">temple</lem><rdg wit="#Paris_1694_ed8">Temple</rdg></app> ?
-                        le peuple s’y trompe. Il est le seigneur dominant de tout le quartier. C’est
-                        lui que l’on envie, et dont on voudrait voir la chute ; c’est lui dont la
-                        femme, par son collier de perles, s’est fait des ennemies de toutes les
-                        dames du voisinage. Tout se soutient dans cet homme ; rien encore ne se
-                        dément dans cette grandeur qu’il a acquise, dont il ne doit rien, qu’il a
-                        payée. Que son père, si vieux et si caduc, n’est-il mort il y a vingt ans et
-                        avant qu’il se fît dans le monde aucune mention de <persName type="Pseudo">Périandre</persName> ! Comment
+                        c’est un portique : est-ce la <note source="#Paris_1689_ed8" resp="#Lecteur"
+                            place="left" type="ms" hand="Inconnu">Illisible</note> maison d’un
+                        particulier ? est-ce un <app>
+                            <lem wit="#Ed_19e_origine">temple</lem>
+                            <rdg wit="#Paris_1694_ed8">Temple</rdg>
+                        </app> ? le peuple s’y trompe. Il <pb n="201" source="#Paris_1688_ed6"/> est
+                        le seigneur dominant de tout le quartier. C’est lui que l’on envie, et dont
+                            <pb n="214" source="#Paris_1688_ed5"/> on voudrait voir la chute ; c’est
+                        lui dont la femme, par son collier de perles, s’est fait des ennemies de
+                        toutes les dames du voisinage. Tout se soutient dans cet homme ; rien encore
+                        ne se dément dans cette grandeur qu’il a acquise, dont il ne doit rien,
+                        qu’il a payée. Que son père, si vieux et si caduc, n’est-il mort il y a
+                        vingt ans et avant qu’il se fît dans le monde aucune mention de <persName
+                            type="Pseudo"><app>
+                                <rdg rend="italic">Périandre</rdg>
+                            </app></persName> ! <note source="#Paris_1689_ed8" resp="#Lecteur"
+                            place="left" type="ms" hand="Inconnu">Illisible</note> Comment
                         pourra-t-il soutenir ces odieuses pancartes qui déchiffrent les conditions
                         et qui souvent font rougir la veuve et les héritiers ? Les supprimera-t-il
-                        aux yeux de toute une ville jalouse, maligne, clairvoyante, et aux dépens de
-                        mille gens qui veulent absolument aller tenir leur rang à des obsèques ?
-                        Veut-on d’ailleurs qu’il fasse de son père un Noble homme, et peut-être un
-                        Honorable homme, lui qui est Messire ? </p>
+                        aux yeux de toute une ville jalouse, maligne, clairvoyante, <pb n="237"
+                            source="#Paris_1688_ed8"/> et aux dépens de mille gens qui veulent
+                        absolument aller tenir leur rang à des obsèques ? Veut-on d’ailleurs qu’il
+                        fasse de son père un Noble homme, et peut-être un Honorable homme, lui qui
+                        est Messire ? </p>
                 </div2>
 
                 <div2 n="22" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Combien d’hommes ressemblent à ces arbres déjà forts et avancés que l’on
-                        transplante dans les jardins, où ils surprennent les yeux de ceux qui les
-                        voient placés dans de beaux endroits où ils ne les ont point vus croître, et
-                        qui ne <app><lem wit="#Ed_19e_origine">connaissent</lem><rdg wit="#Paris_1694_ed8">connoissent<note resp="#Editrice">Ancien français</note></rdg></app> ni leurs commencements ni leurs progrès ! </p>
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Combien
+                        d’hommes ressemblent <note source="#Paris_1689_ed8" resp="#Lecteur"
+                            place="right" type="ms" hand="Inconnu">Les partisans</note> à ces arbres
+                        déjà forts et avancés que l’on transplante dans <placeName ref="#jardins"
+                            >les jardins</placeName>, où ils surprennent les yeux de ceux qui <pb
+                            n="202" source="#Paris_1688_ed6"/> les voient placés dans de beaux
+                        endroits où ils ne les ont point vus <pb n="215" source="#Paris_1688_ed5"/>
+                        croître, et qui ne <app>
+                            <lem wit="#Ed_19e_origine">connaissent</lem>
+                            <rdg wit="#Paris_1694_ed8">connoissent<note resp="#Editrice">Ancien
+                                    français</note></rdg>
+                        </app> ni leurs commencements ni leurs progrès ! </p>
                 </div2>
 
                 <div2 n="23" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Si certains morts revenaient au monde, et s’ils voyaient leurs grands noms
-                        portés, et leurs terres les mieux titrées avec leurs châteaux et leurs
-                        maisons antiques, possédées par des gens dont les pères étaient peut-être
-                        leurs métayers, quelle opinion pourraient-ils avoir de notre siècle ? </p>
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Si certains
+                        morts revenaient au <note source="#Paris_1689_ed8" resp="#Lecteur"
+                            place="right" type="ms" hand="Inconnu">Illisible</note> monde, et s’ils
+                        voyaient leurs grands noms portés, et leurs terres les mieux titrées avec
+                        leurs châteaux et leurs maisons antiques, possédées par des gens dont les
+                        pères étaient peut-être leurs métayers, quelle opinion pourraient-ils avoir
+                        de notre siècle ? </p>
                 </div2>
 
-                <div2 n="24" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5" >
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Rien ne fait mieux comprendre le peu de chose que Dieu croit donner aux
-                        hommes, en leur abandonnant les richesses, l’argent, les grands
-                        établissements et les autres biens, que la dispensation qu’il en fait, et le
-                        genre d’hommes qui en sont le mieux pourvus. </p>
-                </div2>
-
-                <div2 n="25" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
-                       <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
-                        Si vous entrez dans les cuisines, où l’on voit réduit en art et en méthode
-                        le secret de flatter votre goût et de vous faire manger au delà du
-                        nécessaire ; si vous examinez en détail tous les apprêts des viandes qui
-                        doivent composer le festin que l’on vous prépare ; si vous regardez par
-                        quelles mains elles passent, et toutes les formes différentes qu’elles
-                        prennent avant de devenir un mets exquis, et d’arriver à cette propreté et à
-                        cette élégance qui charment vos yeux, vous font hésiter sur le choix, et
-                        prendre le parti <app><lem wit="#Paris_1691_ed6">parti</lem><rdg wit="#Paris_1689_ed5">party</rdg></app> d’essayer de tout ; si vous voyez tout le repas ailleurs
-                        que sur une table bien servie, quelles saletés ! quel dégoût ! Si vous allez
-                        derrière un théâtre, et si vous nombrez les poids, les roues, les cordages,
-                        qui font les vols et les machines ; si vous considérez combien de gens
-                        entrent dans l’exécution de ces mouvements, quelle force de bras, et quelle
-                        extension de nerfs ils y emploient, vous direz : "Sont-ce là les principes
-                        et les ressorts de ce spectacle si beau, si naturel, qui paraît animé et
-                        agir de soi-même ? " Vous vous récrierez : "Quels efforts ! quelle violence
-                        ! " De même n’approfondissez pas la fortune des partisans. </p>
-                </div2>
-
-                <div2 n="26" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> <note hand="Lecteur">Illisible</note> Ce garçon si frais, si fleuri et d’une si belle santé est seigneur d’une
-                        abbaye et de dix autres bénéfices : tous ensemble lui rapportent six vingt
-                        mille livres de revenu, dont il n’est payé qu’en médailles d’or. Il y a
-                        ailleurs six vingt familles indigentes qui ne se chauffent point pendant
-                        l’hiver, qui n’ont point d’habits pour se couvrir, et qui souvent manquent
-                        de pain ; leur pauvreté est extrême et honteuse. Quel partage ! Et cela ne
-                        prouve-t-il pas clairement un avenir ? </p>
-                </div2>
-
-                <div2 n="27" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> 
-                       <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
-                        <persName type="Pseudo">Chrysippe</persName>, homme nouveau, et le premier noble de sa race, <app><lem wit="#Ed_19e_origine">aspirait</lem><rdg wit="#Paris_1694_ed8">aspiroit<note resp="#Editrice">Ancien français</note></rdg></app>, il y a
-                        trente années, à se voir un jour deux mille <app><lem wit="#Ed_19e_origine">mille</lem><rdg wit="#Paris_1689_ed5">mil<note resp="#Editrice">Ancienne graphie</note></rdg></app> livres de rente pour tout bien :
-                        c’était là le comble de ses souhaits et sa plus haute ambition ; il l’a dit
-                        ainsi, et on s’en souvient. Il arrive, je ne sais par quels chemins, jusques
-                        à donner en revenu à l’une de ses filles, pour sa dot, ce qu’il désirait
-                        lui-même d’avoir en fonds pour toute fortune pendant sa vie. Une pareille
-                        somme est comptée dans ses coffres pour chacun de ses autres enfants qu’il
-                        doit pourvoir, et il a un grand nombre d’enfants ; ce n’est qu’en avancement
-                        d’hoirie : il y a d’autres biens à espérer après sa mort. Il vit encore,
-                        quoique assez avancé en âge, et il use le reste de ses jours à travailler
-                        pour s’enrichir. </p>
-                </div2>
-
-                <div2 n="28" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> 
-                       <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/>
-                        Laissez faire <persName type="Pseudo">Ergaste</persName>, et il exigera un droit de tous ceux qui boivent de
-                        l’eau de la rivière, ou qui marchent sur la terre ferme : il sait convertir
-                        en or jusques aux roseaux, aux joncs et à l’ortie. Il écoute tous les avis,
-                        et propose tous ceux qu’il a écoutés. Le prince ne donne aux autres qu’aux
-                        dépens d’<persName type="Pseudo">Ergaste</persName>, et ne leur fait de grâces que celles qui lui <app><lem wit="#Ed_19e_origine">étaient dues</lem><rdg wit="#Paris_1689_ed5">étoient dûës<note resp="#Editrice">Ancien français</note></rdg></app>.
-                        C’est une faim insatiable d’avoir et de posséder. Il trafiquerait des arts
-                        et des sciences, et mettrait en parti jusques à l’harmonie : il faudrait,
-                        s’il en était cru, que le peuple, pour avoir le plaisir de le voir riche, de
-                        lui voir une meute et une écurie, pût perdre le souvenir de la musique
-                        d’<persName xml:id="Mythologie">Orphée</persName>, et se contenter de la sienne. </p>
-                </div2>
-
-                <div2 n="29" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> 
-                       <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
-                        Ne traitez pas avec <persName>Criton</persName>, il n’est touché que de ses seuls avantages. Le
-                        piège est tout dressé à ceux à qui sa charge, sa terre, ou ce qu’il possède
-                        feront envie : il vous imposera des conditions extravagantes. Il n’y a nul
-                        ménagement et nulle composition à attendre d’un homme si plein de ses
-                        intérêts et si ennemi des vôtres : il lui faut une dupe. </p>
-                </div2>
-
-                <div2 n="30" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8"/> 
-                       <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/>
-                        <persName type="Pseudo">Brontin</persName>, dit le peuple, fait des retraites, <app><lem wit="#Ed_19e_origine">et</lem><rdg wit="#Paris_1689_ed8 #Paris_1691_ed6 #Paris_1689_ed5">&amp;</rdg></app> s’enferme huit jours avec des
-                        saints : ils ont leurs méditations, <app><lem wit="#Ed_19e_origine">et</lem><rdg wit="#Paris_1689_ed8 #Paris_1691_ed6 #Paris_1689_ed5">&amp;</rdg></app> il a les siennes. </p>
-                </div2>
-
-                <div2 n="31" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Le peuple souvent a le plaisir de la tragédie : il voit périr sur le théâtre
-                        du monde les personnages les plus odieux, qui ont fait le plus de mal dans
-                        diverses scènes, et qu’il a le plus haïs. </p>
-                </div2>
-
-                <div2 n="32" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8"/> 
-                       <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/>
-                        Si l’on partage la vie des P. T. S. en deux portions égales, la première,
-                        vive et agissante, est toute occupée à vouloir affliger le peuple, et la
-                        seconde, voisine de la mort, à se déceler et à se ruiner les uns les autres.
+                <div2 n="24" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Rien ne
+                        fait mieux comprendre le peu de chose que Dieu croit donner aux hommes, en
+                        leur abandonnant les richesses, l’argent, les grands établissements et les
+                        autres biens, que la dispensation qu’il en fait, et le <pb n="238"
+                            source="#Paris_1688_ed8"/> genre d’hommes qui en sont le mieux pourvus.
                     </p>
                 </div2>
 
+                <div2 n="25" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
+                        <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/> Si vous entrez
+                            dans<placeName ref="#cuisines">les cuisines</placeName>, où l’on voit
+                        réduit en art et en méthode le secret de flatter votre goût et de vous faire
+                        manger au delà du nécessaire ; si vous examinez en détail tous les apprêts
+                        des viandes qui doivent composer le festin que l’on vous prépare ; si vous
+                        regardez par <pb n="203" source="#Paris_1688_ed6"/> quelles mains elles
+                        passent, et toutes les formes différentes <pb n="216"
+                            source="#Paris_1688_ed5"/> qu’elles prennent avant de devenir un mets
+                        exquis, et d’arriver à cette propreté et à cette élégance qui charment vos
+                        yeux, vous font hésiter sur le choix, et prendre le parti <app>
+                            <lem wit="#Paris_1691_ed6">parti</lem>
+                            <rdg wit="#Paris_1689_ed5">party</rdg>
+                        </app> d’essayer de tout ; si vous voyez tout le repas ailleurs que sur une
+                        table bien servie, quelles saletés ! quel dégoût ! Si vous allez derrière un
+                        théâtre, et si vous nombrez les poids, les roues, les cordages, qui font les
+                        vols et les machines ; si vous considérez combien de gens entrent dans
+                        l’exécution de ces mouvements, quelle force de bras, et quelle extension de
+                        nerfs ils y emploient, vous direz : "Sont-ce là les principes et les
+                        ressorts de ce specta<pb n="239" source="#Paris_1688_ed8"/>cle si beau, si
+                        naturel, qui paraît animé et agir de soi-même ? " Vous vous récrierez :
+                        "Quels efforts ! quelle violence ! " De même n’approfondissez pas la fortune
+                        des partisans. </p>
+                </div2>
+
+                <div2 n="26" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
+                        <note source="#Paris_1689_ed8" resp="#Lecteur" place="right" type="ms"
+                            hand="Inconnu">Illisible</note><app>
+                            <lem><seg>Ce garçon</seg></lem>
+                            <rdg wit="#Tellier">Charles Maurice Le Tellier, archêque de Reims en
+                                1671, avait reçu un nombre considérable d'abbayes</rdg>
+                        </app>si frais, si fleuri et d’une si belle santé est seigneur d’une abbaye
+                        et de dix autres bénéfices : tous ensemble lui rapportent six vingt mille
+                        livres de revenu, dont il n’est <pb n="204" source="#Paris_1688_ed6"/> payé
+                        qu’en médailles d’or. Il y a ail<pb n="217" source="#Paris_1688_ed5"/>leurs
+                        six vingt familles indigentes qui ne se chauffent point pendant l’hiver, qui
+                        n’ont point d’habits pour se couvrir, et qui souvent manquent de pain ; leur
+                        pauvreté est extrême et honteuse. Quel partage ! Et cela ne prouve-t-il pas
+                        clairement un avenir ? </p>
+                </div2>
+
+                <div2 n="27" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
+                        <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
+                        <persName type="Pseudo" ref="#Chrysippe"><app>
+                                <rdg rend="italic">Chrysippe</rdg>
+                                <rdg wit="#Laugeois">Jacques Laugeois, fermier général seigneur
+                                    d'Ymbercourt</rdg>
+                            </app></persName>, homme nouveau, et le <note source="#Paris_1689_ed8"
+                            resp="#Lecteur" place="right" type="ms" hand="Inconnu">Illisible</note>
+                        premier noble de sa race, <app>
+                            <lem wit="#Ed_19e_origine">aspirait</lem>
+                            <rdg wit="#Paris_1694_ed8">aspiroit<note resp="#Editrice">Ancien
+                                    français</note></rdg>
+                        </app>, il y a trente années, à se voir un jour deux mille <app>
+                            <lem wit="#Ed_19e_origine">mille</lem>
+                            <rdg wit="#Paris_1689_ed5">mil<note resp="#Editrice">Ancienne
+                                    graphie</note></rdg>
+                        </app> livres de rente pour tout bien : c’était là le comble de ses souhaits
+                        et sa plus haute ambition ; il l’a dit ainsi, et on s’en souvient. Il
+                        arrive, je ne sais par quels chemins, jusques à donner en revenu à l’une de
+                        ses filles, pour sa dot, ce qu’il désirait <pb n="240"
+                            source="#Paris_1688_ed8"/> lui-même d’avoir en fonds pour toute fortune
+                        pendant sa vie. Une pareille somme est comptée dans ses coffres pour chacun
+                        de ses autres enfants qu’il doit pourvoir, et il a un grand nombre <note
+                            source="#Paris_1689_ed8" resp="#Lecteur" place="left" type="ms"
+                            hand="Inconnu">Illisible</note> d’enfants ; ce n’est qu’en avancement
+                        d’hoirie : il y a d’autres biens à espérer après sa mort. Il vit encore,
+                        quoique assez avancé en âge, et il use le reste de ses jours à travailler
+                        pour s’enrichir. <pb n="214" source="#Paris_1688_ed5"/>
+                        <pb n="205" source="#Paris_1688_ed6"/>
+                    </p>
+                </div2>
+
+                <div2 n="28" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
+                        <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/> Laissez faire
+                            <persName type="Pseudo" ref="#Ergaste"><app>
+                                <rdg rend="italic">Ergaste</rdg>
+                                <rdg wit="#Beauvais">Baron de Beauvais, capitaine des chasses des
+                                    environs de Paris</rdg>
+                            </app></persName>, et il exigera un droit de tous ceux qui boivent de
+                        l’eau de la rivière, ou qui marchent sur la terre ferme : il sait convertir
+                        en or jusques aux roseaux, aux joncs et à l’ortie. Il écoute tous les avis,
+                        et propose tous ceux qu’il a écoutés. Le prince ne donne aux autres qu’aux
+                            <note source="#Paris_1689_ed8" resp="#Lecteur" place="left" type="ms"
+                            hand="Inconnu">Illisible</note> dépens d’<persName type="Pseudo"
+                            ref="#Ergaste"><app>
+                                <rdg rend="italic">Ergaste</rdg>
+                                <rdg wit="#Beauvais">Baron de Beauvais, capitaine des chasses des
+                                    environs de Paris</rdg>
+                            </app></persName>, et ne leur fait de grâces que celles qui lui <app>
+                            <lem wit="#Ed_19e_origine">étaient dues</lem>
+                            <rdg wit="#Paris_1689_ed5">étoient dûës<note resp="#Editrice">Ancien
+                                    français</note></rdg>
+                        </app>. C’est une faim insatiable d’avoir et de posséder. Il trafiquerait
+                        des arts et des sciences, et mettrait en parti jusques à l’harmonie : il
+                        faudrait, s’il en était cru, que le peuple, pour avoir le plaisir de le voir
+                        riche, de lui voir une meute et une écurie, pût perdre le souvenir de la <pb
+                            n="241" source="#Paris_1688_ed8"/> musique d’<persName ref="#Orphée"><app>
+                                <rdg rend="italic">Orphée</rdg>
+                            </app></persName>, et se contenter <note source="#Paris_1689_ed8"
+                            resp="#Lecteur" place="right" type="ms" hand="Inconnu">Illisible</note>
+                        de la sienne. </p>
+                </div2>
+
+                <div2 n="29" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
+                        <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/> Ne traitez pas avec
+                            <persName type="Pseudo" ref="#Criton"><app>
+                                <rdg rend="italic">Criton</rdg>
+                                <rdg wit="#Berrier">Louis Berrier, commis de Colbert</rdg>
+                            </app></persName>, il n’est touché que de ses seuls avantages. Le piège
+                        est tout dressé à ceux à qui sa charge, sa terre, ou ce qu’il possède feront
+                        envie : il vous imposera des conditions extravagantes. Il n’y a nul
+                        ménagement et nulle composition à attendre d’un homme si plein de ses
+                        intérêts et si ennemi <pb n="219" source="#Paris_1688_ed5"/> des vôtres : il
+                        lui faut une <app>
+                            <lem wit="#Ed_19e_origine">dupe</lem>
+                            <rdg wit="#Paris_1689_ed6">duppe<note resp="#Editrice">Ancien
+                                    français</note></rdg>
+                        </app> . <pb n="206" source="#Paris_1688_ed6"/>
+                    </p>
+                </div2>
+
+                <div2 n="30" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8"/>
+                        <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/>
+                        <persName type="Pseudo" ref="#Brontin"><app>
+                                <rdg rend="italic">Brontin</rdg>
+                                <rdg wit="#Pontchartrain">désigne Pontchartrain, intendant des
+                                    finances en 1698, ou Louis Berrier, commis de Colbert</rdg>
+                            </app></persName>, dit le peuple, fait des <note
+                            source="#Paris_1689_ed8" resp="#Lecteur" place="right" type="ms"
+                            hand="Inconnu">Illisible</note> retraites, <app>
+                            <lem wit="#Ed_19e_origine">et</lem>
+                            <rdg wit="#Paris_1689_ed8 #Paris_1691_ed6 #Paris_1689_ed5">&amp;</rdg>
+                        </app> s’enferme huit jours avec des saints : ils ont leurs méditations, <app>
+                            <lem wit="#Ed_19e_origine">et</lem>
+                            <rdg wit="#Paris_1689_ed8 #Paris_1691_ed6 #Paris_1689_ed5">&amp;</rdg>
+                        </app> il a les siennes. </p>
+                </div2>
+
+                <div2 n="31" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Le peuple
+                        souvent a le plaisir de la tragédie : il voit périr sur le théâtre du monde
+                        les personnages les plus odieux, qui ont fait le plus de mal dans diverses
+                        scènes, et qu’il a le plus haïs. </p>
+                </div2>
+
+                <div2 n="32" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8"/>
+                        <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/> Si l’on partage la
+                        vie des P. T. S. <note source="#Paris_1689_ed8" resp="#Lecteur"
+                            place="right" type="ms" hand="Inconnu">partisans</note> en deux portions
+                        égales, la première, vive et agissante, est toute occupée à vouloir affliger
+                        le peuple, et la seconde, voisine de la mort, à se déceler et à se ruiner
+                        les uns les autres. </p>
+                </div2>
+
                 <div2 n="33" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8"/> 
-                       <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/>
-                        Cet homme qui a fait la fortune de plusieurs, qui a fait la vôtre, n’a pu
-                        soutenir la sienne, ni assurer avant sa mort celle de sa femme et de ses
-                        enfants : ils vivent cachés et malheureux. Quelque bien instruit que vous
-                        soyez de la misère de leur condition, vous ne pensez pas à l’adoucir ; vous
-                        ne le pouvez pas en effet, vous tenez table, vous bâtissez ; mais vous
-                        conservez par reconnaissance le portrait de votre bienfacteur, qui a passé à
-                        la vérité du cabinet à l’antichambre : quels égards ! il pouvait aller au
-                        garde-meuble. </p>
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8"/>
+                        <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/>
+                        <app>
+                            <lem><seg>Cet homme qui a fait la fortune </seg></lem>
+                            <rdg wit="#Fouquet">Nicolas Fouquet, procureur général au Parlement de
+                                Paris et surintendant des Finances en 1653, dont la femme et les
+                                enfant vivaient inconnus et pauvres</rdg>
+                        </app><note source="#Paris_1689_ed8" resp="#Lecteur" place="right" type="ms"
+                            hand="Inconnu">Illisible</note>
+                        <note source="#Paris_1689_ed8" resp="#Lecteur" place="left" type="ms"
+                            hand="Inconnu">Illisible</note>
+                        <pb n="242" source="#Paris_1688_ed8"/> de plusieurs, qui a fait la vôtre,
+                        n’a pu soutenir la sienne, ni assurer avant sa mort celle de sa femme et de
+                        ses enfants : ils vivent cachés et malheureux. Quelque bien instruit que
+                        vous soyez de la misère de leur condition, vous ne pensez pas à l’adoucir ;
+                        vous ne le pouvez pas en effet, vous tenez table, vous bâtissez ; mais vous
+                        conservez par reconnaissance le portrait de votre bienfacteur, <pb n="220"
+                            source="#Paris_1688_ed5"/> qui a passé à la vérité du cabinet à
+                        l’antichambre <pb n="207" source="#Paris_1688_ed6"/> : quels égards ! il
+                        pouvait aller au garde-meuble. </p>
                 </div2>
 
                 <div2 n="34" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> 
-                       <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/>
-                        Il y a une dureté de complexion ; il y en a une autre de condition et
-                        d’état. L’on tire de <app><lem wit="#Ed_19e_origine">celle-ci</lem><rdg wit="#Paris_1689_ed5">celle-cy<note resp="#Editrice">Ancienne graphie</note></rdg></app>, comme de la première, de quoi s’endurcir sur
-                        la misère des autres, dirai-je même de quoi ne pas plaindre les malheurs de
-                        sa famille ? Un bon financier ne pleure ni ses amis, ni sa femme, ni ses
-                        enfants. </p>
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
+                        <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/> Il y a une dureté
+                            <note source="#Paris_1689_ed8" resp="#Lecteur" place="left" type="ms"
+                            hand="Inconnu">Illisible</note> de complexion ; il y en a une autre de
+                        condition et d’état. L’on tire de <app>
+                            <lem wit="#Ed_19e_origine">celle-ci</lem>
+                            <rdg wit="#Paris_1689_ed5">celle-cy<note resp="#Editrice">Ancienne
+                                    graphie</note></rdg>
+                        </app>, comme de la première, de quoi s’endurcir sur la misère des autres,
+                        dirai-je même de quoi ne pas plaindre les malheurs de sa famille ? Un bon
+                        financier ne pleure ni ses amis, ni sa femme, ni ses enfants. </p>
                 </div2>
 
                 <div2 n="35" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> 
-                       <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
-                        Fuyez, retirez-vous : vous n’êtes pas assez loin. — Je suis, dites-vous,
-                        sous l’autre tropique. — Passez sous le pôle et dans l’autre hémisphère,
-                        montez aux étoiles, si vous le pouvez. — M’y voilà. — Fort bien, vous êtes
-                        en sûreté. Je découvre sur la terre un homme avide, insatiable, inexorable,
-                        qui veut, aux dépens de tout ce qui se trouvera sur son chemin et à sa
-                        rencontre, et <app><lem wit="#Ed_19e_origine">quoi</lem><rdg wit="#Paris_1689_ed5">quoy<note resp="#Editrice">Ancienne graphie</note></rdg></app> qu’il en puisse coûter aux autres, pourvoir à lui seul,
-                        grossir sa fortune, et regorger de bien. </p>
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
+                        <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
+                        <note source="#Paris_1689_ed8" resp="#Lecteur" place="left" type="ms"
+                            hand="Inconnu">Illisible</note> Fuyez, retirez-vous : vous n’êtes pas
+                        assez loin. — Je suis, dites-vous, sous l’autre tropique. — Passez sous le
+                        pôle et dans l’autre hémisphère, montez aux étoiles, si vous le pouvez. —
+                        M’y voilà. — Fort bien, vous êtes en <pb n="243" source="#Paris_1688_ed8"/>
+                        sûreté. Je découvre sur la terre un <note source="#Paris_1689_ed8"
+                            resp="#Lecteur" place="right" type="ms" hand="Inconnu">Illisible</note>
+                        homme avide, insatiable, inexorable, qui veut, aux dépens de tout ce qui se
+                        trouvera sur son chemin et à sa rencontre, et <app>
+                            <lem wit="#Ed_19e_origine">quoi</lem>
+                            <rdg wit="#Paris_1689_ed5">quoy<note resp="#Editrice">Ancienne
+                                    graphie</note></rdg>
+                        </app> qu’il en puisse coûter aux autres, pourvoir à lui seul, grossir sa
+                        fortune, et regorger de bien. </p>
                 </div2>
 
                 <div2 n="36" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> 
-                       <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/>
-                        Faire fortune est une si belle phrase, et qui dit une si bonne chose,
-                        qu’elle est d’un usage universel : on la reconnaît dans toutes les langues,
-                        elle plaît aux étrangers et aux barbares, elle règne à la cour et à la
-                        ville, elle a <pb n="208" source="#Paris_1688_ed6"/> percé les cloîtres et franchi les murs des abbayes de l’un et
-                        de l’autre sexe : il n’y a point de lieux sacrés où elle n’ait pénétré,
-                        point de désert ni de solitude où elle soit inconnue. </p>
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
+                        <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/> Faire fortune est
+                        une si belle phrase, et qui dit une si bonne chose, qu’elle est d’un usage
+                        universel : <app>
+                            <lem wit="#Ed_19e_origine">on la reconnaît dans toutes les langues, elle
+                                plaît aux étrangers et aux barbares</lem>
+                            <rdg wit="#Paris_1689_ed5"/>
+                        </app>, elle <pb n="221" source="#Paris_1688_ed5"/> règne à <placeName
+                            ref="#cour">la cour</placeName> et à <placeName ref="#ville">la
+                            ville</placeName>, elle a <pb n="208" source="#Paris_1688_ed6"/> percé
+                        les cloîtres et franchi les murs des abbayes de l’un et de l’autre sexe : il
+                        n’y a point de lieux sacrés où elle n’ait pénétré, point de désert ni de
+                        solitude où elle soit inconnue. </p>
                 </div2>
 
                 <div2 n="37" source="#Paris_1694_ed8 #Paris_1688_ed6">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> A force de faire de nouveaux contrats, ou de sentir son argent grossir dans
-                        ses coffres, on se croit enfin une bonne tête, et presque capable de
-                        gouverner. </p>
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> A force de
+                        faire de nouveaux contrats, ou de sentir son argent grossir dans ses
+                        coffres, on se croit enfin une bonne tête, et presque capable de gouverner.
+                    </p>
                 </div2>
 
                 <div2 n="38" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> 
-                        Il faut une sorte d’esprit pour faire fortune, et surtout une grande fortune
-                        : ce n’est <app><lem wit="#Ed_19e_origine">ni</lem><rdg wit="#Paris_1689_ed8">ny</rdg></app>le bon <app><lem wit="#Ed_19e_origine">ni</lem><rdg wit="#Paris_1689_ed8">ny</rdg></app> le bel esprit, <app><lem wit="#Ed_19e_origine">ni</lem><rdg wit="#Paris_1689_ed8">ny</rdg></app> le grand <app><lem wit="#Ed_19e_origine">ni</lem><rdg wit="#Paris_1689_ed8">ny</rdg></app> le sublime, <app><lem wit="#Ed_19e_origine">ni</lem><rdg wit="#Paris_1689_ed8">ny</rdg></app> le fort
-                        ni le délicat ; je ne sais précisément lequel c’est, et j’attends que
-                        quelqu’un veuille m’en instruire. 
-                        <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/> Il faut moins d’esprit que d’habitude ou
-                        d’expérience pour faire sa fortune ; l’on y songe trop tard, et quand enfin
-                        l’on s’en avise, l’on commence par des fautes que l’on n’a pas toujours le
-                        loisir de réparer : de là vient peut-être que les fortunes sont si rares. Un
-                        homme d’un petit génie peut vouloir s’avancer : il néglige tout, il ne pense
-                        du matin au soir, il ne rêve la nuit qu’à une seule chose, qui est de
-                        s’avancer. Il a commencé de bonne heure, et dès son adolescence, à se mettre
-                        dans les voies de la fortune : s’il trouve une barrière de front qui ferme
-                        son passage, il biaise naturellement, et va à droit ou à gauche, selon qu’il
-                        y voit de jour et d’apparence, et si de nouveaux obstacles l’arrêtent, il
-                        rentre dans le sentier qu’il avait quitté ; il est déterminé, par la nature
-                        des difficultés, tantôt à les surmonter, tantôt à les éviter, ou à prendre
-                        d’autres mesures : son intérêt, l’usage, les conjectures le dirigent.
-                        Faut-il de si grands talents et une si bonne tête à un voyageur pour suivre
-                        d’abord le grand chemin, et s’il est plein et embarrassé, prendre la terre,
-                        et aller à travers champs, puis regagner sa première route, la continuer,
-                        arriver à son terme ? Faut-il tant d’esprit pour aller à ses fins ? Est-ce
-                        donc un prodige qu’un sot riche et accrédité ? Il y a même des stupides, et
-                        j’ose dire des imbéciles, qui se placent en de beaux postes, et qui savent
-                        mourir dans l’opulence, sans qu’on les doive soupçonner en nulle manière d’y
-                        avoir contribué de leur travail ou de la moindre industrie : quelqu’un les a
-                        conduits à la source d’un fleuve, ou bien le <app><lem wit="#Ed_19e_origine">hasard</lem><rdg wit="#Paris_1689_ed5">hazard</rdg></app> seul les y a fait
-                        rencontrer ; on leur a dit : "Voulez-vous de l’eau ? puisez" ; et ils ont
-                        puisé. </p>
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Il faut une
+                        sorte d’esprit pour faire fortune, et surtout une grande fortune : ce n’est <app>
+                            <lem wit="#Ed_19e_origine">ni</lem>
+                            <rdg wit="#Paris_1689_ed8">ny</rdg>
+                        </app>le bon <app>
+                            <lem wit="#Ed_19e_origine">ni</lem>
+                            <rdg wit="#Paris_1689_ed8">ny</rdg>
+                        </app> le bel esprit, <app>
+                            <lem wit="#Ed_19e_origine">ni</lem>
+                            <rdg wit="#Paris_1689_ed8">ny</rdg>
+                        </app> le grand <app>
+                            <lem wit="#Ed_19e_origine">ni</lem>
+                            <rdg wit="#Paris_1689_ed8">ny</rdg>
+                        </app> le sublime, <app>
+                            <lem wit="#Ed_19e_origine">ni</lem>
+                            <rdg wit="#Paris_1689_ed8">ny</rdg>
+                        </app>
+                        <pb n="244" source="#Paris_1688_ed8"/> le fort ni le délicat ; je ne sais
+                        précisément lequel c’est, et j’attends que quelqu’un veuille m’en instruire.
+                            <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/> Il faut moins
+                        d’esprit que d’habitude ou d’expérience pour faire sa fortune ; l’on y songe
+                        trop tard, et quand enfin l’on s’en avise, l’on commence par des fautes que
+                        l’on n’a pas toujours le loisir de réparer : de là vient peut-être que les
+                        fortunes sont si rares. <note source="#Paris_1689_ed8" resp="#Lecteur"
+                            place="left" type="ms" hand="Inconnu">Illisible</note> Un homme d’un
+                        petit génie peut vouloir s’avancer : il néglige tout, il ne pense du matin
+                        au soir, il ne rêve la nuit qu’à une seule chose, qui est de s’avancer. Il a
+                        commencé de bonne heure, et dès son adolescence, à se <pb n="222"
+                            source="#Paris_1688_ed5"/>
+                        <pb n="209" source="#Paris_1688_ed6"/> mettre dans les voies de la fortune :
+                        s’il trouve une barrière de front qui ferme son passage, il biaise
+                        naturellement, et va à droit ou à gauche, selon qu’il y voit de jour et
+                        d’apparence, et si de nouveaux obstacles l’arrêtent, il rentre dans le
+                        sentier qu’il avait quitté ; il est déterminé, par la nature des
+                        difficultés, tantôt à les surmonter, tantôt à les éviter, ou à prendre
+                        d’autres mesures : son intérêt, l’usage, les conjectures le diri<pb n="245"
+                            source="#Paris_1688_ed8"/>gent. Faut-il de si grands talents et une si
+                        bonne tête à un voyageur pour suivre d’abord le grand chemin, et s’il est
+                        plein et embarrassé, prendre la terre, et aller à travers champs, puis
+                        regagner sa première route, la continuer, arriver à son terme ? Faut-il tant
+                        d’esprit pour aller à ses fins ? Est-ce donc un prodige qu’un sot riche et
+                        accrédité ? Il y a même des stupides, et j’ose dire des imbéciles, qui se
+                        placent en de beaux postes, et qui savent mourir dans l’opulence, sans qu’on
+                        les doive soupçonner en nulle manière d’y avoir contribué de leur travail ou
+                        de la moindre industrie : <pb n="223" source="#Paris_1688_ed5"/>
+                        <pb n="210" source="#Paris_1688_ed6"/> quelqu’un les a conduits à la source
+                        d’un fleuve, ou bien le <app>
+                            <lem wit="#Ed_19e_origine">hasard</lem>
+                            <rdg wit="#Paris_1689_ed5">hazard</rdg>
+                        </app> seul les y a fait rencontrer ; on leur a dit : "Voulez-vous de l’eau
+                        ? puisez" ; et ils ont puisé. </p>
                 </div2>
 
                 <div2 n="39" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> 
-                       <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
-                        Quand on est jeune, souvent on est pauvre : ou l’on n’a pas encore fait
-                        d’acquisitions, ou les successions ne sont pas <app><lem wit="#Ed_19e_origine">échues</lem><rdg wit="#Paris_1689_ed5 #Paris_1691_ed6 #Paris_1694_ed8">échûës</rdg></app>. L’on devient riche et
-                        vieux en même temps : tant il est rare que les hommes puissent réunir tous
-                        leurs avantages ! et si cela arrive à quelques-uns, il n’y a pas de quoi
-                        leur porter envie : ils ont assez à perdre par la mort pour mériter d’être
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
+                        <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/> Quand on est jeune,
+                        souvent on est pauvre : ou l’on n’a pas encore fait d’acquisitions, ou les
+                        successions ne sont pas <app>
+                            <lem wit="#Ed_19e_origine">échues</lem>
+                            <rdg wit="#Paris_1689_ed5 #Paris_1691_ed6 #Paris_1694_ed8">échûës</rdg>
+                        </app>. L’on devient riche et vieux en même temps : tant il est rare que les
+                        hommes puissent réunir tous leurs avantages ! et si cela ar<pb n="246"
+                            source="#Paris_1688_ed8"/>rive à quelques-uns, il n’y a pas de quoi leur
+                        porter envie : ils ont assez à perdre par la mort pour mériter d’être
                         plaints. </p>
                 </div2>
 
                 <div2 n="40" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Il faut avoir trente ans pour songer à sa fortune ; elle n’est pas faite à
-                        cinquante ; l’on bâtit dans la vieillesse, <app><lem wit="#Ed_19e_origine">et</lem><rdg wit="#Paris_1689_ed8 #Paris_1691_ed6 #Paris_1689_ed5">&amp;</rdg></app> l’on meurt quand on en est aux
-                        peintres et aux vitriers. </p>
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Il faut
+                        avoir trente ans pour songer à sa fortune ; elle n’est pas faite à cinquante
+                        ; l’on bâtit dans la vieillesse, <app>
+                            <lem wit="#Ed_19e_origine">et</lem>
+                            <rdg wit="#Paris_1689_ed8 #Paris_1691_ed6 #Paris_1689_ed5">&amp;</rdg>
+                        </app> l’on meurt quand on en est aux peintres et aux vitriers. </p>
                 </div2>
 
                 <div2 n="41" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
-                    <p><g ref="pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> 
-                       <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
-                        Quel est le fruit d’une grande fortune, si ce n’est de jouir de la vanité,
-                        de l’industrie, du travail et de la dépense de ceux qui sont venus avant
-                        nous, <app><lem wit="#Ed_19e_origine">et</lem><rdg wit="#Paris_1689_ed8">&amp;</rdg></app> de travailler nous-mêmes, de planter, de bâtir, d’acquérir pour la
+                    <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
+                        <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
+                        <note source="#Paris_1689_ed8" resp="#Lecteur" place="left" type="ms"
+                            hand="Inconnu">Illisible</note> Quel est le fruit d’une grande fortune,
+                        si ce n’est de jouir de la vanité, de l’industrie, du travail et de la
+                        dépense de ceux qui sont venus avant nous, <app>
+                            <lem wit="#Ed_19e_origine">et</lem>
+                            <rdg wit="#Paris_1689_ed8">&amp;</rdg>
+                        </app> de travailler nous-mêmes, de planter, de bâtir, d’acquérir pour la
                         postérité ? </p>
                 </div2>
 
