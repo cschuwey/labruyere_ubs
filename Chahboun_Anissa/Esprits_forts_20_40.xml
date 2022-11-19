@@ -98,7 +98,12 @@
 
 
                 <listPlace>
-                    <place/>
+                    <place xml:id="Royaume_de_Siam"><country>Thailande</country></place>
+                    <place xml:id="Asie">
+                        <country xml:id="Asie_Indes">Indes</country>
+                        <country xml:id="Asie_Chine">Chine</country>
+                        <country xml:id="Asie_Japon">Japon</country>
+                    </place>
                 </listPlace>
 
             </sourceDesc>
@@ -349,10 +354,10 @@
                             <note resp="AC">ancêtre du mot assurait</note>
                             <rdg wit="#Paris_1699">assurait</rdg>
                         </app> que le <pb n="293" source="#Paris_1688"/> motif secret de <placeName
-                            nymRef="royaume d'Ayutthaya/Siam" when="1686">l’ambassade des
+                            source="#Asie #Royaume_de_Siam" when="1686">l’ambassade des
                             Siamois</placeName> a été d’exciter le <persName type="pseudo"> <app>
                                 <lem>Roi Très-Chrétien</lem>
-                           <rdg>François Ier"</rdg>
+                           <rdg>Louis XIV</rdg>
                             </app></persName> à renoncer au
                         christianisme, à permettre l’entrée de son royaume aux Talapoins<note> Nom
                             donné aux moines bouddhistes de la Birmanie et de la Thaïlande par les
@@ -366,11 +371,11 @@
                         milieu des villes, où ils eussent placé des figures de métal pour être
                         adorées, avec quelles risées et quel étrange mépris n’entendrions-nous pas
                         des choses si extravagantes ! Nous faisons cependant six mille lieues de mer
-                        pour la conversion des <placeName>Indes</placeName>, des <placeName
-                            nymRef="royaume d'Ayutthaya/Siam-Asie">royaumes de
+                        pour la conversion des <placeName source="#Asie #Asie_Indes">Indes</placeName>, des <placeName
+                            source="#Asie #Royaume_de_Siam ">royaumes de
                             Siam</placeName><note>Il s'agit de la Thaïlande actuelle</note>, de
-                            la<placeName nymRef="Asie"> Chine</placeName> et du <placeName
-                            nymRef="Asie">Japon</placeName>, c’est-à-dire pour faire très
+                            la<placeName source="#Asie #Asie_Chine"> Chine</placeName> et du <placeName
+                            source="#Asie #Asie_Japon">Japon</placeName>, c’est-à-dire pour faire très
                         sérieusement à tous ces peuples des propositions qui doivent leur <pb
                             n="294" source="#Paris_1688"/>
                         <app>
@@ -416,7 +421,7 @@
                         à vivre toujours. Ce qu’il voit de la mort le frappe plus violemment que ce
                         qu’il en sait : la maladie, la douleur, le cadavre le dégoûtent de la
                         connaissance d’un autre monde. Il faut tout le sérieux de la
-                            <term>religion</term> pour le réduire.</p>
+                            <term type="religion">religion</term> pour le réduire.</p>
                 </div2>
 
                 <div2 n="33">
