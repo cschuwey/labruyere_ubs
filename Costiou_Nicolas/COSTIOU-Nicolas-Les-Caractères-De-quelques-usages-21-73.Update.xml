@@ -98,11 +98,11 @@
     
     <listPerson>
   
-            <person sex="H" age="adult" xml:id="Tite"><name>Titus</name></person>
+            <person sex="H" age="adult"><name>Titus</name></person>
             
-            <person age="adult" xml:id="Aristippe"><name>Aristippe</name><persName ref="Mle Fodel"></persName></person>
+            <person age="adult"><name>Aristippe</name></person>
             
-            <person sex="H" age="adult" xml:id="Ambreville"><name>Ambreville</name></person>
+            <person sex="H" age="adult"><name>Ambreville</name></person>
         
         </listPerson>
         
@@ -255,8 +255,8 @@
                         <g ref="#Pied_de_mouche"></g>
                         
                         <pb n="449" ed="#Paris-1690"/>
-                        
-                        <name type="pseudo">Tite</name>, par vingt années de <app><lem wit="#Tours_1867">service</lem><rdg wit="#Paris-1690, #Paris-1696">Fervice</rdg></app> dans une <app><lem wit="#Tours_1867">seconde</lem><rdg wit="#Paris-1690, #Paris-1696">Feconde</rdg></app> place, n’est pas encore
+                       
+                        <app><lem wit="#Tours_1867"></lem><rdg>Tite</rdg></app>, par vingt années de <app><lem wit="#Tours_1867">service</lem><rdg wit="#Paris-1690, #Paris-1696">Fervice</rdg></app> dans une <app><lem wit="#Tours_1867">seconde</lem><rdg wit="#Paris-1690, #Paris-1696">Feconde</rdg></app> place, n’est pas encore
                         digne de la première, qui est vacante : ni ses <app><lem wit="#Tours_1867">talents</lem><rdg wit="#Paris-1696">talens</rdg></app>, ni sa doctrine, ni
                         une vie exemplaire, ni les vœux des paroissiens ne sauraient l’y faire
                         asseoir. Il naît de dessous terre un autre <app><lem wit="#Tours_1867">clerc</lem><rdg wit="#Paris-1690, #Paris-1696">Clerc</rdg></app> <note place="marge" source="#Paris-1690" resp="author" n="clerc">Ecclesiastique</note> pour la remplir. <persName>Tite</persName> est
