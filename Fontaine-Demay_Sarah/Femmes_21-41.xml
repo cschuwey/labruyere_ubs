@@ -15,6 +15,9 @@
                 <respStmt>
                     <name>Éditrice : Sarah Fontaine-Demay</name>
                     <resp xml:id="Editrice">Éditrice</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Inconnu</name>
                     <resp xml:id="Proprietaire-edition">Propriétaire inconnu de l'exemplaire</resp>
                 </respStmt>
             </editionStmt>
@@ -701,7 +704,7 @@
                         n’est plus jeune ? Pour <pb n="55" source="#Paris_1696_ed9"/> <persName type="pseudo" ref="#Bathylle">Bathylle</persName>
                         , dites-vous, la presse y est trop grande, et il refuse
                         plus de femmes qu’il n’en agrée ; mais vous avez 
-                        <app><lem><persName type="pseudo" ref="#Dracon">Dracon</persName></lem><rdg type="cle" wit='#cle_Escola'><persName type="cle">Philibert</persName></rdg><rdg type="cle" wit="#Paris_1694_ed8" resp="#Proprietaire-edition"><persName type="cle" ref="#Beauchamps">Beauchamps</persName></rdg></app>
+                        <app type="cle"><lem><persName type="pseudo" ref="#Dracon">Dracon</persName></lem><rdg wit='#cle_Escola'><persName type="cle">Philibert</persName></rdg><rdg wit="#Paris_1694_ed8" resp="#Proprietaire-edition"><persName ref="#Beauchamps">Beauchamps</persName></rdg></app>
                             <note source="#Paris_1694_ed8_N1" resp="#Proprietaire-edition" place="right" type="ms" hand="Inconnu"><persName type="cle" ref="#Beauchamps">Beauchamps</persName></note>
                         , le joueur de flûte : nul autre de son métier n’enfle plus décemment ses joues en soufflant 
                         dans le hautbois ou le flageolet, car c’est une chose infinie que le nombre des 
@@ -710,7 +713,7 @@
                         enfants et aux femmelettes. Qui mange et qui boit mieux que <persName type="pseudo" ref="#Dracon">Dracon</persName>
                         en un seul repas ? Il enivre toute une compagnie, et il se rend le dernier. Vous
                         soupirez, <persName type="pseudo" ref="#Lélie">Lélie</persName> : est-ce que 
-                        <app><lem wit="#Ed_19e_origine"><persName type="pseudo" ref="#Dracon">Dracon</persName></lem><rdg type="cle" wit='#cle_Escola'><persName type="cle" source="#Philibert">Philibert</persName></rdg></app> 
+                        <app type="cle"><lem wit="#Ed_19e_origine"><persName type="pseudo" ref="#Dracon">Dracon</persName></lem><rdg wit='#cle_Escola'><persName type="cle" source="#Philibert">Philibert</persName></rdg></app> 
                         aurait fait un choix, ou que
                         malheureusement on vous aurait prévenue ? Se serait-il enfin engagé à
                         <seg><persName type="pseudo" ref="#Césonie">Césonie</persName> <note source="#Paris_1694_ed8_N1" resp="#Proprietaire-edition" place="right" type="ms" hand="Inconnu">La Debusier d'aumont ou la fille du...</note></seg>
