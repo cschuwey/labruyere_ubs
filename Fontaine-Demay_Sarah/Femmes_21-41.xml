@@ -204,7 +204,11 @@
                     </person>
                 </listPerson>
                 <listPlace>
-                    <place></place>
+                    <place>
+                        <placeName xml:id="Ville">La Ville désigne dans beaucoup de cas Paris, ou la plus grande ville à proximité</placeName>
+                        <placeName xml:id="Cour">Sous-entendu : la Cour du Roi Louis XIV, qui se trouvait alors à Versailles, par opposition à la Ville : Paris, qui n'est plus la cité royale, les nobles vivent à Versailles et les Bourgeois (et le peuple) à Paris</placeName>
+                        <placeName xml:id="Province">La Province, désigne le reste de la France, au-delà de Paris et Versaille</placeName>
+                    </place>
                 </listPlace>
             </sourceDesc>
         </fileDesc>
@@ -237,9 +241,6 @@
                 <taxonomy>
                     <category>
                         <catDesc>
-                            <placeName xml:id="Ville">La Ville désigne dans beaucoup de cas Paris, ou la plus grande ville à proximité</placeName>
-                            <placeName xml:id="Cour">Sous-entendu : la Cour du Roi Louis XIV, qui se trouvait alors à Versailles, par opposition à la Ville : Paris, qui n'est plus la cité royale, les nobles vivent à Versailles et les Bourgeois (et le peuple) à Paris</placeName>
-                            <placeName xml:id="Province">La Province, désigne le reste de la France, au-delà de Paris et Versaille</placeName>
                             <roleName xml:id="Directeur">Selon le Littré : "Directeur de conscience, ou, simplement, directeur ecclésiastique qui dirige la conscience d'une personne</roleName>
                             <roleName xml:id="Confesseur">Selon le Littré : "Prêtre à qui l'on se confesse"</roleName>
                         </catDesc>
@@ -822,4 +823,3 @@
         </body>
     </text>
 </TEI>
-
