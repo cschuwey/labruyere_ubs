@@ -85,19 +85,18 @@
                 </listPlace>
             </sourceDesc>
         </fileDesc>
-        
         <encodingDesc>
             <charDecl>
                 <!-- Il y a la presence de pied de mouche simple, avec simple parenthese et double parenthèse -->
-                <glymph xml:id="pieddemouche">
+                <glyph xml:id="pieddemouche">
                     <desc>¶</desc>
-                </glymph>
-                <glymph xml:id="pieddemoucheparenthèse">
+                </glyph>
+                <glyph xml:id="pieddemoucheparenthèse">
                     <desc>(¶)</desc>
-                </glymph>
-                <glymph xml:id="pieddemouche2parenthèse">
+                </glyph>
+                <glyph xml:id="pieddemouche2parenthèse">
                     <desc>((¶))</desc>
-                </glymph>
+                </glyph>
             </charDecl>
         </encodingDesc>
         <profileDesc>
@@ -106,7 +105,6 @@
                 <language ident="latin"/>
             </langUsage>
         </profileDesc>
-        
     </teiHeader>
     <text>
         <front>
@@ -126,8 +124,10 @@
                     <titlePart>DE CE SIECLE</titlePart>
                 </docTitle>
                 <docEdition source="#Paris_1688_Cinquième_édition"> Cinquième édition augmenté de plusieurs Remarques
-                    <rdg wit="#Paris_1688_Première_édition"> Première edition</rdg>
-                    <rdg wit="#Paris_1699_Dixième_Edition"> Dixième edition</rdg>
+                    <app>
+                        <rdg wit="#Paris_1688_Première_édition"> Première edition</rdg>
+                        <rdg wit="#Paris_1699_Dixième_Edition"> Dixième edition</rdg>
+                    </app>
                 </docEdition>
                 <docImprint>
                     A paris, Chez estienne Machallet, premier Imprimeur du Roy, ruë Saint Jacques, a l'Image, S.Paul
