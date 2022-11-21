@@ -158,9 +158,14 @@
             </textDesc>
         </profileDesc>
         <encodingDesc>
-            <p>Transformation des s long en "s" afin de normaliser et moderniser</p>
-            <p>Transformation des esperluettes en "et"</p>
-            <p>Transformer les "sc" en "s"</p>
+            <editorialDecl>
+                <normalization>
+                    <p>Transformation des s long en "s" afin de normaliser et moderniser</p>
+                    <p>Transformation des esperluettes en "et"</p>
+                    <p>Transformer les "sc" en "s"</p>  
+                </normalization>
+            </editorialDecl>
+         
             <charDecl>
                 <glyph xml:id="pied_de_mouche_simple">
                     <desc>pied de mouche simple au début des remarques dans l'édition 3, l'édition 4, l'édition 6,l'édition 7,l'édition 8, l'édition 9 et l'édition 10</desc>
@@ -659,56 +664,6 @@
                         chose avec une grande <term ref="#impatience">impatience</term> <app><lem>,</lem><rdg wit="#Paris_1690_edition5"> </rdg></app> y met trop du sien <app><lem> </lem><rdg wit="#Paris_1690_edition5 #Paris_1691_edition6">,</rdg></app> pour en <app><lem>estre</lem><rdg wit="#Paris_1692_edition7 #Paris_1694_edition8 #Paris_1696_edition9">être</rdg></app> assez
                         <term ref="#récompensé">récompensé</term> par le <term ref="#succès">succès</term>.</p>
                 </div2>
-            </div1>
-           
-            <div1>
-                <p> (21) S’il se trouve une femme pour qui l’on ait eu une grande passion et qui ait
-                    été indifférente, quelques importants services qu’elle nous rende dans la suite
-                    de notre vie, l’on court un grand risque d’être ingrat. (22) Une grande
-                    reconnaissance emporte avec soi beaucoup de goût et d’amitié pour la personne
-                    qui nous oblige. (23) Etre avec des gens qu’on aime, cela suffit ; rêver, leur
-                    parler, ne leur parler point, penser à eux, penser à des choses plus
-                    indifférentes, mais auprès d’eux, tout est égal. (24) Il n’y a pas si loin de la
-                    haine à l’amitié que de l’antipathie. (25) Il semble qu’il est moins rare de
-                    passer de l’antipathie à l’amour qu’à l’amitié. (26) L’on confie son secret dans
-                    l’amitié ; mais il échappe dans l’amour. L’on peut avoir la confiance de
-                    quelqu’un sans en avoir le cœur. Celui qui a le cœur n’a pas besoin de
-                    révélation ou de confiance ; tout lui est ouvert. (27) L’on ne voit dans
-                    l’amitié que les défauts qui peuvent nuire à nos amis. L’on ne voit en amour de
-                    défauts dans ce qu’on aime que ceux dont on souffre soi-même. (28) Il n’y a
-                    qu’un premier dépit en amour, comme la première faute dans l’amitié, dont on
-                    puisse faire un bon usage. (50) Un homme dur au travail et à la peine,
-                    inexorable à soi-même, n’est indulgent aux autres que par un excès de raison.
-                    (51) Quelque désagrément qu’on ait à se trouver chargé d’un indigent, l’on goûte
-                    à peine les nouveaux avantages qui le tirent enfin de notre sujétion : de même,
-                    la joie que l’on reçoit de l’élévation de son ami est un peu balancée par la
-                    petite peine qu’on a de le voir au-dessus de nous ou s’égaler à nous. Aussi l’on
-                    s’accorde mal avec soi-même ; car l’on veut des dépendants, et qu’il n’en coûte
-                    rien ; l’on veut aussi le bien de ses amis, et, s’il arrive, ce n’est pas
-                    toujours par s’en réjouir que l’on commence. (52) On convie, on invite, on offre
-                    sa maison, sa table, son bien et ses services : rien ne coûte qu’à tenir parole.
-                    (53) C’est assez pour soi d’un fidèle ami ; c’est même beaucoup de l’avoir
-                    rencontré : on ne peut en avoir trop pour le service des autres. (54) Quand on a
-                    assez fait auprès de certaines personnes pour avoir dû se les acquérir, si cela
-                    ne réussit point, il y a encore une ressource, qui est de ne plus rien faire.
-                    (55) Vivre avec ses ennemis comme s’ils devaient un jour être nos amis, et vivre
-                    avec nos amis comme s’ils pouvaient devenir nos ennemis, n’est ni selon la
-                    nature de la haine, ni selon les règles de l’amitié ; ce n’est point une maxime
-                    morale, mais politique. (56) On ne doit pas se faire des ennemis de ceux qui,
-                    mieux connus, pourraient avoir rang entre nos amis. On doit faire choix d’amis
-                    si sûrs et d’une si exacte probité, que venant à cesser de l’être, ils se
-                    veuillent pas abuser de notre confiance, ni se faire craindre comme ennemis.
-                    (57) Il est doux de voir ses amis par goût et par estime ; il est pénible de les
-                    cultiver par intérêt ; c’est solliciter. (58) Il faut briguer la faveur de ceux
-                    à qui l’on veut du bien, plutôt que de ceux de qui l’on espère du bien. (59) On
-                    ne vole point des mêmes ailes pour sa fortune que l’on fait pour des choses
-                    frivoles et de fantaisie. Il y a un sentiment de liberté à suivre ses caprices,
-                    et tout au contraire de servitude à courir pour son établissement : il est
-                    naturel de le souhaiter beaucoup et d’y travailler peu, de se croire digne de le
-                    trouver sans l’avoir cherché. (60) Celui qui sait attendre le bien qu’il
-                    souhaite, ne prend pas le chemin de se désespérer s’il ne lui arrive pas ; et
-                    celui au contraire qui désire une chose avec une grande impatience, y met trop
-                    du sien pour en être assez récompensé par le succès.</p>
             </div1>
         </body>
     </text>
