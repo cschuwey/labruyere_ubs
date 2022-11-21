@@ -72,6 +72,7 @@
                 <listPerson>
                     <person xml:id="Pyrame"></person>
                     <person sex="M" xml:id="Mignard">
+                        <idno>https://data.bnf.fr/13177689/pierre_mignard/</idno>
                         <birth when="1612-11-17">17 novembre 1612
                         <placeName>
                             <settlement type="city">Troyes</settlement>
