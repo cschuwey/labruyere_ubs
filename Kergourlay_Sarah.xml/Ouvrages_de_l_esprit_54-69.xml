@@ -184,7 +184,8 @@
                     60.</change>
                 <change when="2022-10-07">Ajout des variantes de l'édition 4 de la remarque 61 et
                     codage des auteurs cités.</change>
-                <change when="2022-11-18">Ajout de clés et complétion des informations sur les auteurs cités.</change>
+                <change when="2022-11-18">Ajout de clés et complétion des informations sur les
+                    auteurs cités.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -1286,11 +1287,12 @@
                                     <lem>voudrait sérieusement</lem>
                                     <rdg wit="#Paris_1696_9">voudroit serieusement</rdg>
                                 </app> parler mon ton de voix, ou me ressembler de visage.</lem>
-                            <rdg wit="#Escola">Selon des clés imprimées du XVIII° siècle, il s'agirait de "L'abbé
-                                de Villiers, qui a été autrefois chez les Jésuites".Vigneul-Marville
-                                voyait dans ses Réflexions sur les défauts d'Autrui une imitation
-                                des Caractères de La Bruyère. Servois suggère également que cette
-                                remarque s'adresse à Jacques Brillon.</rdg>
+                            <rdg wit="#Escola">Selon des clés imprimées du XVIII° siècle, il
+                                s'agirait de "L'abbé de Villiers, qui a été autrefois chez les
+                                Jésuites".Vigneul-Marville voyait dans ses Réflexions sur les
+                                défauts d'Autrui une imitation des Caractères de La Bruyère. Servois
+                                suggère également que cette remarque s'adresse à Jacques
+                                Brillon.</rdg>
                         </app></p>
                 </div2>
                 <div2 n="65" source="#Paris_1696_9 #Paris_1689_4 #Paris_1688_1">
@@ -1325,13 +1327,13 @@
                                     <lem wit="#Paris_1688_1">style</lem>
                                     <rdg wit="#Paris_1696_9">stile</rdg>
                                 </app>.</lem>
-                            <rdg wit="#Escola">Quelques clés évoquent Eustache Le Noble en rapport avec
-                                cette remarque, mais son œuvre est parue après la remarque. Servois
-                                indique d'abord Havet, puis Boileau, "qui ne traite pas les grands
-                                sujets et relève par son style les plus petites choses". Il
-                                déplorerait ici uncertain manque d'audace et d'originalité de cet
-                                auteur. Il pourrait également y avoir une allusion au
-                                Lutrin.</rdg>
+                            <rdg wit="#Escola">Il pourrait s'agir d'Eustache Le Noble, mais son
+                                œuvre est parue après la publication de cette remarque.</rdg>
+                            <rdg wit="#Escola">Servois indique d'abord Havet, puis Boileau, "qui ne
+                                traite pas les grands sujets et relève par son style les plus
+                                petites choses". Il déplorerait ici uncertain manque d'audace et
+                                d'originalité de cet auteur.</rdg>
+                            <rdg wit="#Escola">Il pourrait y avoir une allusion au Lutrin.</rdg>
                         </app></p>
                 </div2>
                 <div2 n="66" source="#Paris_1696_9 #Paris_1689_4 Paris_1688_1">
