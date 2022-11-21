@@ -149,13 +149,13 @@
                     <person xml:id="Aemile"></person>
                     <person xml:id="Socrate">
                         <idno>https://data.bnf.fr/12160626/socrate_le_scholastique/</idno>
-                        <birth>entre 470 et 469 avant J-C
+                        <birth notBefore="-0470" notAfter="-0469">entre 470 et 469 avant J-C
                         <placeName>
                             <settlement type="city">Athènes</settlement>
                             <country key="GR">Grèce</country>
                         </placeName>
                         </birth>
-                        <death>399 avant J-C
+                        <death when="-0399">399 avant J-C
                         <placeName>
                             <settlement type="city">Athènes</settlement>
                             <country key="GR">Grèce</country>
