@@ -130,7 +130,27 @@
                             <link target="https://moodle.univ-ubs.fr/pluginfile.php/596727/mod_resource/content/0/La_Bruy%C3%A8re_Caract%C3%A8res_10th_edition_1699.pdf"/>
                         </imprint>
                     </monogr>
-
+                    
+                    <monogr xml:id="Clé_21ab_T">
+                        <title>Clé pour Théocrine</title>
+                        <author>Escola</author>
+                        <imprint>
+                            <date>1688,1689,1697</date>
+                            <link target="https://moodle.univ-ubs.fr/pluginfile.php/600860/mod_resource/content/0/Bruy%C3%A8re%20-%20Cles%20-%20Escola.pdf"/>
+                            <note>Clé du 18e siècle</note>
+                        </imprint>
+                    </monogr>
+                    
+                    <monogr xml:id="Clé_21ab_Z">
+                        <title>Clé pour Zelotes</title>
+                        <author>Escola</author>
+                        <imprint>
+                            <date>1688,1689,1697</date>
+                            <link target="https://moodle.univ-ubs.fr/pluginfile.php/600860/mod_resource/content/0/Bruy%C3%A8re%20-%20Cles%20-%20Escola.pdf"/>
+                            <note>Clé du 18e siècle</note>
+                        </imprint>
+                    </monogr>
+                    
                 </biblStruct>
                 
                 <bibl type="clé" xml:id="E_1690"/>
@@ -169,9 +189,8 @@
                         <note>Personne visée par la Bruyère, une des clés a été trouvée avec Escola</note>
                     </person>
                     
-                    <person xml:id="Zelotes_clés21ab_1688_1689">
+                    <person xml:id="Zelotes_nom_secret">
                         <note>Clé du 18e siècle</note>
-                        <link target="https://moodle.univ-ubs.fr/pluginfile.php/600860/mod_resource/content/0/Bruy%C3%A8re%20-%20Cles%20-%20Escola.pdf"/>
                         <link target="https://data.bnf.fr/12269173/louis_cousin/"/>
                         <figure><graphic url="https://fr.wikipedia.org/wiki/Louis_Cousin#/media/Fichier:Louis_Cousin_-_Versailles_MV_2943.png"></graphic></figure>
                         <persName>Louis Cousin</persName>
@@ -206,9 +225,8 @@
                          <note>Personne visée par la Bruyère, une des clés a été trouvée avec Escola</note>
                     </person>
                     
-                    <person xml:id="Théocrine_clé21ab_1688_1689">
+                    <person xml:id="Théocrine_nom_secret">
                         <note>Clé du 18 siècle</note>
-                        <link target="https://moodle.univ-ubs.fr/pluginfile.php/600860/mod_resource/content/0/Bruy%C3%A8re%20-%20Cles%20-%20Escola.pdf"/>
                         <link target="https://data.bnf.fr/12004544/louis_de_courcillon_de_dangeau/"/>
                         <figure><graphic url="https://upload.wikimedia.org/wikipedia/commons/e/ef/Louis_de_Courcillon_from_Louis_XIV_recevant_le_serment_du_marquis_de_Dangeau_%28cropped%29.jpg"></graphic></figure>
                         <persName>Louis de Courcillon de Dangeau</persName>
@@ -464,7 +482,7 @@
 
                 <div2 n="19" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/>  
-                        « L’on m’a engagé, dit <app type="clé"><lem source="Paris_1694_8">Ariste</lem><rdg wit="#Ariste"></rdg></app>, à lire mes ouvrages à <app> <lem wit="#Paris_1694_8">Zoïle</lem> <rdg wit="#Paris_1688_1 #Paris_1689_4">Zelotes</rdg> <rdg wit="#Zelotes_clé21ab_1688_1689">Louis Cousin</rdg></app> : je l’ai fait.
+                        « L’on m’a engagé, dit <app type="clé"><lem source="Paris_1694_8">Ariste</lem><rdg wit="#Ariste"></rdg></app>, à lire mes ouvrages à <app> <lem wit="#Paris_1694_8">Zoïle</lem> <rdg wit="#Paris_1688_1 #Paris_1689_4">Zelotes</rdg> <rdg wit="#Clé_21ab_Z">Louis Cousin</rdg></app> : je l’ai fait.
                         Ils l’ont saisi d’abord et avant qu’il ait eu le loisir de<pb n="174" source="#Paris_1688_3"/> les trouver
                         mauvais ; il les a loués modestement en ma présence, et il ne les a pas
                         loués de<pb n="103" source="#Paris_1694_8"/><pb n="107" source="#Paris_1692_7"/>puis<pb n="109" source="#Paris_1691_6"/> devant personne. Je l’excuse, et je n’en demande pas davantage
@@ -497,7 +515,7 @@
                             leurs mains, c’est un premier ouvrage, l’auteur ne s’est pas encore fait un
                             grand nom, il n’a rien qui prévienne en sa faveur, il ne s’agit point de
                             faire sa cour ou de flatter les grands en applaudissant à ses écrits ; on ne
-                            vous demande pas, <app type="clé"><lem wit="#Paris_1694_8">Zélotes</lem> <rdg wit="#Zelotes_clé21ab_1688_1689">Louis Cousin</rdg></app>, de vous récrier : C’est un chef-d’œuvre de
+                            vous demande pas, <app type="clé"><lem wit="#Paris_1694_8">Zélotes</lem> <rdg wit="#Clé_21ab_Z">Louis Cousin</rdg></app>, de vous récrier : C’est un chef-d’œuvre de
                             l’esprit ; l’humanité ne va pas plus loin ; c’est jusqu’où la parole humaine
                             peut s’élever ; on ne jugera à l’avenir du goût de quelqu’un qu’à proportion
                             qu’il en aura pour cette pièce ; phrase outrées, dégoûtantes, qui sentent la
@@ -552,7 +570,7 @@
 
                 <div2 n="25" source="#Paris_1694_8 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/> 
-                        <app type="clé"><lem wit="#Paris_1694_8">Théocrine</lem> <rdg wit="#Théocrine_clé21ab_1688_1689">Louis de Courcillon de Dangeau</rdg></app> sait des choses assez inutiles ; il a des sentiments toujours
+                        <app type="clé"><lem wit="#Paris_1694_8">Théocrine</lem> <rdg wit="#Clé_21ab_T">Louis de Courcillon de Dangeau</rdg></app> sait des choses assez inutiles ; il a des sentiments toujours
                         singuliers ; il est moins profond que méthodique ; il n’exerce que sa
                         mémoire ; il est abstrait, dédaigneux, <pb n="107" source="#Paris_1694_8"/> et il semble toujours rire en
                         lui-mê<pb n="111" source="#Paris_1692_7"/>me de ceux qu’il croit ne le valoir pas. Le hasard fait que je lui lis
@@ -650,6 +668,8 @@
         </body>
     </text>
 </TEI>
+
+
 
 
 
