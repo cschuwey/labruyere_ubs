@@ -385,7 +385,7 @@
                 <div2 n="14" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="pied_de_mouche_simple"/>  
                         Tout l’esprit d’un auteur consiste à bien définir et à bien peindre. <seg><note source="#Paris_1694_8 #Paris_1688_3 #Paris_1696_9 #Paris_1699_10" resp="#JB" type="comm" place="left" style="*">Quand meſme on ne le considère pas comme un homme qui a écrit</note><app> <lem wit="#Paris_1694_8"> Moïse</lem>  <rdg wit="#Paris_1688_1"> Moyse </rdg></app></seg>,
-                        <persName ref="Homère" type="philosophe"><name>Homere</name></persName>,<persName ref="Platon" type="philosophe"><name>Platon</name></persName>,<persName ref="Virgile" type="philosophe"><name>Virgile</name></persName>,Horace ne sont au-dessus des autres écrivains que
+                        <persName ref="Homère" type="philosophe">Homere</persName>,<persName ref="Platon" type="philosophe">Platon</persName>,<persName ref="Virgile" type="philosophe">Virgile</persName>,Horace ne sont au-dessus des autres écrivains que
                         par leurs expressions et par leurs images : il faut exprimer le vrai pour
                         écrire naturellement, fortement, délicatement.<pb n="172" source="#Paris_1688_3"/></p>
                 </div2>
@@ -395,8 +395,8 @@
                         On a dû faire du style ce qu’on a fait de l’architecture. On a entièrement
                         abandonné l’ordre gothique, que la barbarie avait introduit pour les palais
                         et pour les temples ; on a rappelé le dorique, l’ionique et le <pb n="100" source="#Paris_1694_8"/><pb n="106" source="#Paris_1691_6"/> <pb n="104" source="#Paris_1692_7"/> corinthien :
-                        ce qu’on ne voyait plus que dans les ruines de <placeName ref="Rome"><name>l’ancienne Rome</name></placeName> et de <placeName ref="Grèce"><name>la
-                        vieille Grèce</name></placeName>, devenu moderne, éclate dans nos portiques et dans nos
+                        ce qu’on ne voyait plus que dans les ruines de <placeName ref="Rome">l’ancienne Rome</placeName> et de <placeName ref="Grèce">la
+                        vieille Grèce</placeName>, devenu moderne, éclate dans nos portiques et dans nos
                         péristyle. De même, on ne saurait en écrivant rencontrer le parfait, et s’il
                         se peut, surpasser <term ref="#les_anciens">les anciens</term> que par leur imitation. <app><lem wit="#Paris_1694_8"> pas de nouveau paragraphe ni pied de mouche avant ''Combien'' </lem> <rdg wit="#Paris_1688_1"> <g ref="pied de mouche simple"></g></rdg></app>
                         <app><lem wit="#Paris_1694_8">Combien de siècles se sont écoulés avant que les hommes, dans les sciences et dans les arts, aient
@@ -492,8 +492,8 @@
                             qu’il en aura pour cette pièce ; phrase outrées, dégoûtantes, qui sentent la
                             pension ou l’abbaye, nuisibles à cela même qui est louable et qu’on veut
                             louer. Que ne disiez-vous seulement :« Voilà un bon livre » ? Vous le dites,
-                            il est vrai, avec toute la <placeName ref="France"><name>France</name></placeName>, avec les étrangers comme avec vos
-                            compatriotes, quand il est imprimé par toute <placeName ref="Europe"><name>Europe</name>l’Eu<pb n="105" source="Paris_1694_8"/>rope</placeName> et qu’il est traduit
+                            il est vrai, avec toute la <placeName ref="France">France</placeName>, avec les étrangers comme avec vos
+                            compatriotes, quand il est imprimé par toute <placeName ref="Europe">Europe l’Eu<pb n="105" source="Paris_1694_8"/>rope</placeName> et qu’il est traduit
                             en plusieurs langues <pb n="109" source="#Paris_1692_7"/> : il n’est plus temps.</lem> <rdg wit="#Paris_1688_1 #Paris_1688_3"> </rdg></app> <app><lem wit="#Paris_1694_8">approu<pb n="104" source="#Paris_1694_8"/></lem></app><pb n="108" source="#Paris_1692_7"/>vé</lem> <rdg wit="#Paris_1689_4">aprouvé</rdg></app> cet ouvrage, et que le public est de leur avis.
                     </p>
                 </div2>
@@ -587,7 +587,7 @@
 
                 <div2 n="29" source="#Paris_1694_8 #Paris_1699_10">
                     <p>  <g ref="manicule_droite"/> 
-                        Si certains esprits vifs et <note source="#Paris_1694_8" resp="JB" type="comm" place="right" style="☜">Marque qu'on a exigée de moy pendant le cours de cette édition</note>
+                        Si certains esprits vifs et <note source="#Paris_1694_8" resp="JB" type="comm" place="right" style="☜"> <g ref="#manicule_droite"/> Marque qu'on a exigée de moy pendant le cours de cette édition</note>
                         décisifs étaient crus, ce serait encore trop que
                         les termes pour exprimer les sentiments : il faudrait leur parler par
                         signes, ou sans parler se faire entendre. Quelque soin qu’on apporte <pb n="109" source="#Paris_1694_8"/> à être
@@ -639,6 +639,8 @@
         </body>
     </text>
 </TEI>
+
+
 
 
 
