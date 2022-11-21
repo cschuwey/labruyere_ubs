@@ -72,7 +72,6 @@
                 <listPerson>
                     <person xml:id="Pyrame"></person>
                     <person sex="M" xml:id="Mignard">
-                        <p>Pierre Mignard, artiste peintre membre de l'Académie royale de peinture et de sculpture.</p>
                         <birth when="1612-11-17">17 novembre 1612
                         <placeName>
                             <settlement type="city">Troyes</settlement>
@@ -91,7 +90,6 @@
                         </figure>
                     </person>
                     <person xml:id="Lulli">
-                        <p>Jean-Baptiste Lully, compositeur, violoniste style Baroque.</p>
                         <persName xml:lang="IT">Giovanni Battista Lulli</persName>
                         <birth when="1632-11-28">28 novembre 1632
                         <placeName>
@@ -111,7 +109,6 @@
                         </figure>
                     </person>
                     <person xml:id="Corneille">
-                        <p>Pierre Corneille, dramaturge, poète membre de l'Académie française</p>
                         <birth when="1606-06-06">6 juin 1606
                         <placeName>
                             <settlement type="city">Rouen</settlement>
@@ -126,7 +123,6 @@
                         </death>
                     </person>
                     <person xml:id="Erasme">
-                        <p>Didier Érasme, théologien, Homme de lettres, polémiste</p>
                         <birth notBefore="1466-10-27" notAfter="1466-10-28">entre le 27 et 28 octobre 1466
                         <placeName>
                             <settlement type="city">Rotterdam</settlement>
@@ -150,7 +146,6 @@
                     <person xml:id="César"></person>
                     <person xml:id="Aemile"></person>
                     <person xml:id="Socrate">
-                        <p>Socrate, philosophe grec</p>
                         <birth notBefore="-470" notAfter="-469">entre 470 et 469 avant J-C
                         <placeName>
                             <settlement type="city">Athènes</settlement>
