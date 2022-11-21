@@ -90,6 +90,7 @@
                         </figure>
                     </person>
                     <person xml:id="Lulli">
+                        <idno>https://data.bnf.fr/13896861/jean-baptiste_lully/</idno>
                         <persName xml:lang="IT">Giovanni Battista Lulli</persName>
                         <birth when="1632-11-28">28 novembre 1632
                         <placeName>
@@ -109,6 +110,7 @@
                         </figure>
                     </person>
                     <person xml:id="Corneille">
+                        <idno>https://data.bnf.fr/11897704/pierre_corneille/</idno>
                         <birth when="1606-06-06">6 juin 1606
                         <placeName>
                             <settlement type="city">Rouen</settlement>
@@ -146,13 +148,14 @@
                     <person xml:id="César"></person>
                     <person xml:id="Aemile"></person>
                     <person xml:id="Socrate">
-                        <birth notBefore="-470" notAfter="-469">entre 470 et 469 avant J-C
+                        <idno>https://data.bnf.fr/12160626/socrate_le_scholastique/</idno>
+                        <birth>entre 470 et 469 avant J-C
                         <placeName>
                             <settlement type="city">Athènes</settlement>
                             <country key="GR">Grèce</country>
                         </placeName>
                         </birth>
-                        <death when="-399">399 avant J-C
+                        <death>399 avant J-C
                         <placeName>
                             <settlement type="city">Athènes</settlement>
                             <country key="GR">Grèce</country>
