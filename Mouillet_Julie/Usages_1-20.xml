@@ -733,6 +733,9 @@
                 <date>2022.11.14</date>
                 <p>Ajout de clés pour les caractères concernés.</p>
                 <p>Trois requêtes XPath ont été effectuées comme les devoirs le demandent.</p>
+                <date>2022.11.21</date>
+                <p>Essais de différentes requêtes XPath pour vérifier notre compréhension de sa fonction.</p>
+                <p>Tentative de structuration des "app clé" comme demandé dans la correction des devoirs.</p>
             </change>
         </revisionDesc>
     </teiHeader>
@@ -819,9 +822,9 @@
                                 <lem>être</lem>
                             </app> no<lb source="#Paris_1688_1"/>bles<note type="original"
                                 style="astérisque" place="gauche" resp="#editeur"
-                                source="#Paris_1688_3">Secretaires du Roy</note></seg><note
+                                source="#Paris_1688_3">Secretaires du Roy</note><note
                             type="originale" style="astérisque" place="gauche" resp="#editeur"
-                            source="#Paris_1692_7 #Paris_1694_8_2"> Vétérans</note>
+                            source="#Paris_1692_7 #Paris_1694_8_2"> Vétérans</note></seg>
                         <lb source="#Paris_1688_3"/> Il y en a de tels que, s’ils <app>
                             <lem>eussent</lem>
                         </app> obtenu <app>
@@ -832,10 +835,10 @@
                             <lem>créanciers</lem>
                         </app>, ils <app>
                             <lem>étaient</lem>
-                        </app> nobles<note type="originale" style="croix" place="gauche"
+                        </app> nobles<seg><note type="originale" style="croix" place="gauche"
                             resp="#auteur" source="#Paris_1688_3">
                             <note type="originale" style="astérisque" place="gauche" resp="#editeur"
-                                source="#Paris_1692_7 #Paris_1694_8_2"/>Vétérans</note>. <lb
+                                source="#Paris_1692_7 #Paris_1694_8_2"/>Vétérans</note>.</seg> <lb
                             source="#Paris_1688_3"/> Quelques autres <app>
                             <lem>se</lem>
                         </app> couchent roturiers, <app>
@@ -949,7 +952,7 @@
                         passe droit aux couronnes, cela est plus simple ; on s’en croit digne, on se
                         les adjuge. Il reste encore aux meilleurs bourgeois une certaine pudeur qui
                         les empêche de se parer d’une couronne de marquis, trop satisfaits de la
-                        comtale ; <app type="clé">
+                        comtale ; <seg><app type="clé">
                             <lem
                                 wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"
                                 >quelques-uns même ne vont pas la chercher</lem>
@@ -963,7 +966,7 @@
                             <rdg
                                 wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"
                                     ><persName ref="#Bazins">les Bazins</persName></rdg>
-                        </app> fort loin, <app>
+                        </app></seg> fort loin, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app> la font passer de <seg>leur enseigne à leur carrosse.<note
@@ -1016,10 +1019,10 @@
                         </app> les préséances, de nouvelles armes, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1699_10">&amp;</rdg>
-                        </app>d’une généalogie que <persName ref="#Hozier">D’Hozier</persName><note
+                        </app><seg>d’une généalogie que <persName ref="#Hozier">D’Hozier</persName><note
                             type="glossaire" resp="#J_M">nom de famille célèbre de généalogistes. Le
                             chef de cette famille a d'ailleurs écrit un ouvrage de 150 volumes
-                            manuscrits et conservés dans la Bibliothèque impériale.</note> ne lui a
+                            manuscrits et conservés dans la Bibliothèque impériale.</note></seg> ne lui a
                         pas faite, il devient enfin un petit prince.</p>
                 </div2>
 
@@ -1032,15 +1035,15 @@
                             <lem>et</lem>
                             <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app> se moulent sur de plus grands, qui de leur part, pour n’avoir rien de
-                        commun avec leurs inférieurs, <app type="clé"><lem wit="#Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">renoncent volontiers à toutes les rubriques
-                            d’honneurs</lem>
+                        commun avec leurs inférieurs, 
+                        <seg><app type="clé"><lem wit="#Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">renoncent volontiers à toutes les rubriques d’honneurs</lem>
                             <rdg wit="#Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">
                                 <note type="clé">
                                     "Allusion à ce que feu Monsieur [<persName ref="#Phil_Orleans">Philippe d'Orléans</persName>, frère de <persName ref="#roi_soleil">Louis XIV</persName>, mort en 1701], pour s'approcher de <persName ref="#Louis_de_Fr">Monseigneur le Dauphin</persName>, ne voulut plus qu'on le traîtat d'<p style="#italic">Altesse Royale</p>, mais qu'on lui parlât par <p style="#italic">Vous</p>, comme l'on faisait à <persName ref="#roi_soleil">Monseigneur</persName> et aux <persName ref="#enfants_roi_soleil">enfants de France</persName>. Les autres <persName ref="#enfants_roi_soleil">princes</persName>, à son exemple, ne veulent pas êtres traités d'<p style="#italic">Altesse Royale</p> mais simplement de <p style="#italic">Vous</p>."
                                     <p style="#italic">Cf. </p> <persName ref="#St_Simon">Saint-Simon</persName> (I, 518; III, 441 et index).
                                 </note>
                                 <note type="clé">Faut-il penser, avec <persName ref="#Servois">Servois</persName> (III-1, 377), que les <persName ref="#princes_condé"></persName>princes de Condé, que fréquentait <persName ref="#auteur">La Bruyère</persName>, étaient de ceux qui avaient volontiers "renonc[é] à toutes les rubriques d'honneur" ?.</note>
-                            </rdg></app>
+                            </rdg></app></seg>
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
@@ -1075,8 +1078,8 @@
                         travestit, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1694_8 #Paris_1699_10">&amp;</rdg>
-                        </app>de <persName ref="#Syrus">Syrus</persName> devient <persName
-                            ref="#Cyrus">Cyrus</persName>. Plusieurs suppriment leurs noms, qu’ils
+                        </app>de <seg><persName ref="#Syrus">Syrus</persName></seg> devient <seg><persName
+                            ref="#Cyrus">Cyrus</persName>.</seg> Plusieurs suppriment leurs noms, qu’ils
                         pourraient conserver sans honte, pour en adopter de plus beaux, où ils n’ont
                         qu’à perdre par la comparaison que l’on fait toujours d’eux qui les portent,
                         avec les grands hommes qui les ont portés. Il s’en trouve enfin qui, nés à
@@ -1084,11 +1087,11 @@
                             veulent être Fla-<note type="ajout_manuscrit" place="gauche"
                                 resp="#lecteurice" hand="inconnue" source="#Paris_1694_8_2"
                                 >niacalaïx? (illisible)</note></seg>mands ou 
-                        <app type="clé"><lem wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">Italiens</lem>
+                                <seg><app type="clé"><lem wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">Italiens</lem>
                             <rdg wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1694_8_2 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">
                                 <note type="clé">Aux noms de famille s'ajoutaient les noms de seigneurerie et les surnoms. Les clés citent divers nons, dont celui de <persName ref="#Delrieu">Delrieu</persName>, maître d'hôtel du roi, qui se faitait nommer <persName ref="#Delrieu">de Rieu</persName>; celui de <persName ref="#Laugeois">Laugeois></persName>, fils du receveur aux confiscations du <placeName ref="#Chatelet">Châtelet</placeName>, qui se faisait appeler <persName ref="#Laugeois">d'Imbercourt</persName> (<p style="#italic">cf.</p> "Des Biens de Fortune, <g ref="#pied_de_mouche"/> 23); celui de <persName ref="#Sonning">Sonning</persName> ou <persName ref="#Sonning">Sonnin</persName>, qui se faisait nommer <persName ref="Sonning">de Sonningen</persName>; celui de
                                     <persName ref="#Nicolai">Nicolaï</persName>, marquis de <placeName ref="#Goussainville">Goussainville</placeName>, président de la Chambre des comptes depuis <date>1686</date>, dont on prétendait qu'il avait "habillé son nom à l'italienne" en changeant le <p style="#italic">s</p> de Nicolas en <p style="#italic">i</p>.</note>
-                            </rdg></app>, comme si la
+                            </rdg></app></seg>, comme si la
                         roture n’était pas de tout pays, allongent <pb n="572"
                             source="#Paris_1692_7"/> leurs noms français d’une terminaison
                         étrangère, <app>
@@ -1102,14 +1105,14 @@
                     n="10">
                     <p><g ref="#pied_de_mouche"/><lb/> Le <app>
                             <lem>besoin</lem>
-                    </app> d’argent a <app type="clé"><lem wit="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #Paris_1699_10">récon- <lb source="#Paris_1688_3"/>cilié la <app>
+                    </app> d’argent a <seg><app type="clé"><lem wit="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #Paris_1699_10">récon- <lb source="#Paris_1688_3"/>cilié la <app>
                             <lem>noblesse</lem>
                         </app> avec la rotu- <lb source="#Paris_1688_3"/>re,</lem>
                         <rdg wit="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #Paris_1699_10">
                             <note type="clé">Les clés citent plusieurs exemples : le mariage du <persName ref="#marechal_Tourville">maréchal de Tourville</persName> avec Mademoiselle <persName ref="#Laugeois">Laugeois</persName>
                                 (<p style="#italic">cf.</p> "Des Biens de Fortune", <g ref="#pied_de_mouche"/> 23) ou celui du <persName ref="#marechal_Lorges">maréchal de Lorges</persName> avec Mademoiselle <persName ref="#Fremont">Frémont</persName> (<p style="#italic">cf.</p> "Des Biens de Fortune", <g ref="#pied_de_mouche"/> 5).</note>
                         </rdg>
-                    </app>
+                    </app></seg>
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10"
@@ -1155,10 +1158,10 @@
                             Secrétaire du Roy</note> se sont faits nobles ? ils ne sont pas si vains
                         : c’est pour le profit qu’ils en reçoivent. Cela ne leur sied-il pas mieux
                         que d’entrer dans les gabelles ? je ne dis pas à chacun en particulier,
-                        leurs <app type="clé"> <lem wit="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">vœux</lem>
+                        leurs <seg><app type="clé"> <lem wit="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">vœux</lem>
                             <rdg wit="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">
                                 <note type="clé">Selon la clée imprimée : "les <persName ref="#Jesuites">Jésuites</persName> et les <persName ref="#Celestins">Célestins</persName>; ces derniers [qui faisaient voeu de pauvreté] jouissaient des mêmes privilèges que les secrétaires du roi."</note>
-                            </rdg></app>
+                            </rdg></app></seg>
                          s’y opposent, je dis même à la communauté.</p>
                 </div2>
 
@@ -1170,7 +1173,7 @@
                             <rdg wit="#Paris_1694_8 #Paris_1699_10">&amp;</rdg>
                         </app>que personne un <pb n="573" source="#Paris_1692_7"/> jour n’en soit
                         surpris : s’il arrive jamais que quelque grand me trouve digne de ses soins,
-                        si je fais enfin une belle fortune, il y a un <persName ref="#GdlB">Geoffroy
+                        si je fais enfin une belle fortune, il y a un <seg><persName ref="#GdlB">Geoffroy
                             de la Bruyère</persName><note type="glossaire" resp="#J_M">personnage
                             connu de l'Histoire de France, ils n'ont cependant aucun lien de
                             parenté.</note> que toutes les chroniques rangent au nombre des plus
@@ -1179,7 +1182,7 @@
                             qui on va proposer de devenir le premier souverain de <placeName
                                 ref="#Jerusalem">Jérusalem</placeName> à la suite de la
                                 <date>Première Croisade</date>, il va cependant refuser ce
-                            titre.</note> à la conquête de la <placeName ref="#Terre_sainte"
+                                titre.</note></seg> à la conquête de la <placeName ref="#Terre_sainte"
                             >Terre-Sainte</placeName> : voilà alors de qui je descends en ligne
                         directe.</p>
                 </div2>
@@ -1212,12 +1215,12 @@
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10"
                                 >&amp;</rdg>
                         </app>incompréhensibles. Qui peut concevoir en effet que certains 
-                        <app type="clé"><lem wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">abbés</lem><rdg wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"><note type="clé">
+                        <seg><app type="clé"><lem wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">abbés</lem><rdg wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"><note type="clé">
                             L'un des abbés désignés serait, selon plusieurs clés manuscrites, le <persName ref="#chevalier_Lorraine">chevalier de Lorraine</persName>
                             (<persName ref="#St_Simon">Saint-Simon</persName>, III, 287-288; VI, 242-243, et index).</note>
                             <note type="clé">Dans la dénonciation du <p style="#italic">jeune abbé en velours gris</p>, <persName ref="#Servois">Servois</persName> (III-1, 382) voit une allusion au 
                                 <persName ref="#cardinal_Bouillon">cardinal de Bouillon</persName>, souvent cité par ailleurs dans les clés.</note>
-                        </rdg></app>
+                        </rdg></app></seg>
                         , à qui il ne manque rien de l’ajustement, de la mollesse
                         <app>
                             <lem>et</lem>
@@ -1265,38 +1268,38 @@
                 <div2
                     source="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Lyon_1694_8 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10"
                     n="17">
-                    <p><g ref="#pied_de_mouche"/><lb/> Que les saletés des Dieux, <lb/>la <persName
+                    <p><g ref="#pied_de_mouche"/><lb/> Que les saletés des Dieux, <lb/>la <seg><persName
                             ref="#Venus">Vénus</persName><note type="glossaire" resp="#J_M"
                             >assimilée à déesse grecque <persName ref="#Venus">Aphrodite</persName>,
                             elle est la déesse de l'amour, de la séduction et de la beauté féminine
-                            dans la mythologie romaine.</note>, le <persName ref="Ganymede"
+                            dans la mythologie romaine.</note></seg>, le <seg><persName ref="Ganymede"
                             >Ganymède</persName>
                         <note type="glossaire" resp="#J_M">jeune mortel succèdant à la déesse
                                 <persName ref="Hebe">Hébé</persName>, dans la mythologie grecque,
                             dans sa fonction d'échanson (personne de confiance, pour éviter les
-                            empoissonnements, chargée de servir les boissons aux Dieux).</note>
+                            empoissonnements, chargée de servir les boissons aux Dieux).</note></seg>
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10"
                                 >&amp;</rdg>
-                        </app>les <lb/>autres nudités du<persName>Carache</persName><note
+                        </app>les <lb/>autres nudités du<seg><persName>Carache</persName><note
                             type="glossaire" resp="#J_M">nom francisé de la famille <persName
                                 ref="#Carracci">Carracci</persName>, soit des peintres italiens avec
                             les frères <persName ref="#Carracci_1">Annibale</persName> et
                             <persName ref="#Carracci_2">Agostino</persName> et leur
-                            cousin <persName ref="#Carracci_3">Lodovico</persName>.</note>
+                            cousin <persName ref="#Carracci_3">Lodovico</persName>.</note></seg>
                         <lb source="#Paris_1688_3"/>aient été faites pour des prin- <lb
                             source="#Paris_1688_3"/>ces de l’Eglise, <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1694_8 #Paris_1699_10"
                                 >&amp;</rdg>
-                        </app>qui se disent successeurs des Apôtres, le <placeName
+                            </app>qui se disent successeurs des Apôtres, <seg>le <placeName
                             ref="#palais_farnese">palais Farnè-<lb/>se</placeName><note
                             type="glossaire" resp="#J_M">palais dont les plans, les décorations et
                             les fresques ont été réalisés par quelques grands artistes de la
                                 <date>Renaissance Italienne</date>, notamment les frères <persName
                                 ref="#Carracci">Carraci</persName> qui y sont à l'origine de la
-                            peinture de fresques à la fin du <date>16ème siècle</date>.</note> en
+                                peinture de fresques à la fin du <date>16ème siècle</date>.</note></seg> en
                         est la preuve.</p>
                 </div2>
 
@@ -1368,10 +1371,10 @@
                         couvre les mystères, témoins d’une telle indécence ? Quoi ? parce qu’on ne
                         danse pas encore aux TT…<note type="originale" style="double_astérisque"
                             resp="#editeur" source="#Paris_1694_8_2"/>, me forcera-t-on d’appeler
-                        tout ce <app type="clé"><lem wit="#Paris_1694_8 #Paris_1694_8_2 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">spectacle</lem><rdg wit="#Paris_1694_8 #Paris_1694_8_2 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">
+                        tout ce <seg><app type="clé"><lem wit="#Paris_1694_8 #Paris_1694_8_2 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">spectacle</lem><rdg wit="#Paris_1694_8 #Paris_1694_8_2 #Paris_1696_9 #La_Haye_1696_9 #Paris_1699_10">
                             <note type="clé_manuscrite">"La musique des pères théatins, dont ils ont fait tant de différents concerts. C'était <persName ref="#Lorenzani">Lorenzani</persName> qui était auteur de cette musique, qui a scandalisé tout <placeName ref="#Paris">Paris</placeName>. Les places étaient louées comme à la <placeName ref="#Comedie">Comédie</placeName>ou à <placeName ref="#Opera">l'Opéra</placeName>."</note>
                         <note type="clé">Les saluts en musique, commencés vraisemblablement en <date>1685</date>, ont fait l'objet de compte-rendus dans le <objectName ref="#Mercure_Galant" style="#italic">Mercure Galant</objectName> en <date>1691</date> (cités par <persName ref="#Servois">Servois</persName>, III-1, 383, ainsi qu'une lettre de protestation adressée à <persName ref="#archeveque_de_Paris">l'archevêque de <placeName ref="#Paris">Paris</placeName></persName> par <persName ref="#Seignelay">Seignelay</persName>, qui rapporte les mêmes détails que <persName ref="#auteur">La Bruyère</persName>, aux <p style="#italic">livrets</p> près). Il semble qu'il ait été mis fin rapidement à ces "sortes de représentations".</note>
-                        </rdg></app> office d’Eglise ?</p>
+                        </rdg></app></seg> office d’Eglise ?</p>
                 </div2>
 
                 <div2
