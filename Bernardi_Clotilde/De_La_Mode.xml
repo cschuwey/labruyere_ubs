@@ -414,17 +414,18 @@
                         <pb source="#Paris_1694_Dixieme" n="505"/>n’est pas une passion qu’on a
                         généralement pour les choses rares et qui ont cours, mais qu’on a seulement
                         pour une certaine chose, qui est rare, et pourtant à la mode. </p>
-                    <p> Le <seg>
-                            <note resp="#Proprietaire-edition" source="#Paris_1694_Huitieme"
-                                type="manuscrite" place="left"><desc> Difficile à lire</desc></note>
+                    <p> Le 
                             <app>
                                 <lem>
                                     <app>
-                                        <rdg source="#Paris_1696_Dixieme">Fleuriste</rdg>
+                                        
+                                        <rdg source="#Paris_1696_Dixieme"> <seg>Fleuriste</seg></rdg> 
                                         <rdg
                                             source="#Paris_1688_Premiere #Paris_1688_Troisieme #Paris_1689_Quatrieme #Paris_1690_Cinquieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme"
                                             >fleuriste</rdg>
-
+                                        <rdg>
+                                            <note resp="#Proprietaire-edition" source="#Paris_1694_Huitieme"
+                                                type="manuscrite" place="left"><desc> Difficile à lire</desc></note>  </rdg>
 
                                     </app>
                                 </lem>
@@ -433,7 +434,7 @@
                                 <rdg wit="#Fournier">Descôteaux, célèbre flutiste, connu pour avoir
                                     perfectionné la prononciation du chant.</rdg>
                             </app>
-                        </seg> a un <placeName ref="#jardin"> jardin</placeName>dans un <app>
+                         a un <placeName ref="#jardin"> jardin</placeName>dans un <app>
                             <rdg
                                 source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme"
                                 >Fauxbourg</rdg>
@@ -443,9 +444,7 @@
                         </app>: il y court au lever du <app>
                             <rdg>Soleil</rdg>
                         </app>, et il en revient à son coucher. Vous le voyez planté, et qui a pris
-                        racine au milieu de ses <app>
-                            <rdg> tulippes</rdg>
-                        </app> et devant la <app>
+                        racine au milieu de ses tulipes et devant la <app>
                             <rdg rend="italic">solitaire</rdg>
                         </app>: il ouvre de grands yeux, il frotte ses mains, il se baisse, il la
                         voit de plus près, il ne l’a jamais vue si belle, il a le cœur épanoui de
@@ -551,16 +550,17 @@
                         remplir qu’il emploie son bien et sa vie. </p>
                     <p> « Vous voulez, ajoute <app>
                             <lem>
-                                <app>
+                                </lem>
                                     <rdg rend="italic">
-                                        <seg><persName ref="#Domocede">Domocède</persName></seg>
+                                       <seg> <persName ref="#Domocede">Domocède</persName> </seg>
                                     </rdg>
-                                </app></lem>
+                                </app>
+                        <app>
                             <rdg>François-Roger de Gaignères dont la collection de livres, estampes,
                                 manuscrits, cartes et plans, fut offerte à Louis XIV.</rdg>
                             <rdg>Jacques-Louis de Beringhen, premier écuyer du roi.</rdg>
                             <rdg wit="#Walckenaer">l'abbé de Marolles et Quentin de Lorangère, qui
-                                s'étaient spécialisés dans Callot.</rdg>
+                                s'étaient spécialisés dans Callot.</rdg> 
 
 
                         </app>
@@ -632,10 +632,10 @@
                             </lem>
                         </app>
                         <app>
-                            <rdg> Melchisedech de Thevenot qui avait visité l'Asie Mineure et
+                            <rdg wit="#Escola1691"> Melchisedech de Thevenot qui avait visité l'Asie Mineure et
                                 séjourné quatre ans à Constantinople. </rdg>
-                            <rdg>Jean de Thévenot qui savait beaucoup de langues.</rdg>
-                            <rdg>François Petis de la Croix, professeur d'arabe au collège royal et
+                            <rdg wit="#Escola1691">Jean de Thévenot qui savait beaucoup de langues.</rdg>
+                            <rdg wit="#Escola1691">François Petis de la Croix, professeur d'arabe au collège royal et
                                 interprète du roi.</rdg>
                         </app>
                         <note resp="#Proprietaire-edition" source="#Paris_1694_Huitieme"
