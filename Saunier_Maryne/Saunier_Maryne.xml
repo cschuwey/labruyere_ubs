@@ -27,83 +27,83 @@
             <sourceDesc>
                 <bibl>BNF</bibl>
                 <biblStruct>
-                    <monogr xml:id="Lyon__1688_1">
+                    <monogr xml:id="Lyon_1688_1">
                         <title>Les caractères de Théophraste traduits du grec,/ avec les caractères
                             ou les moeurs de ce siècle</title>
                         <author>Jean de la Bruyère</author>
                         <editor>Thomas Amaulry</editor>
                         <edition> Première édition </edition>
                         <idno>ark:/12148/bpt6k575738</idno>
-                        <imprint xml:id="Lyon__1688_1_1">
+                        <imprint xml:id="Lyon_1688_1_1">
                             <date>1688</date>
                             <pubPlace>Lyon</pubPlace>
                             <distributor>rue Merciere, au Mercure Galant</distributor>
                         </imprint>
                     </monogr>
 
-                    <monogr xml:id="Paris__1688_3">
+                    <monogr xml:id="Paris_1688_3">
                         <title>Les caractères de Théophraste traduits du grec,/ avec les caractères
                             ou les moeurs de ce siècle</title>
                         <author>Jean de la Bruyère</author>
                         <editor>Estienne Michallet, premier imprimeur du Roi</editor>
                         <edition> Troisième édition </edition>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k57572x</idno>
-                        <imprint xml:id="Paris__1688_3_1">
+                        <imprint xml:id="Paris_1688_3_1">
                             <date>1688</date>
                             <pubPlace>Paris</pubPlace>
                             <distributor>rue Saint Jacques, à l'Image Saint Paul</distributor>
                         </imprint>
                     </monogr>
-                    <monogr xml:id="Paris__1689_4">
+                    <monogr xml:id="Paris_1689_4">
                         <title>Les caractères de Théophraste traduits du grec,/ avec les caractères
                             ou les moeurs de ce siècle</title>
                         <author>Jean de la Bruyère</author>
                         <editor>Estienne Michallet, premier imprimeur du roi</editor>
                         <edition> Quatrième édition </edition>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k575649</idno>
-                        <imprint xml:id="Paris__1689_4_1">
+                        <imprint xml:id="Paris_1689_4_1">
                             <date>1689</date>
                             <pubPlace>Paris</pubPlace>
                             <distributor>rue Saint Jacques, à l'Image Saint Paul</distributor>
                         </imprint>
                     </monogr>
 
-                    <monogr xml:id="Paris__1688_1">
+                    <monogr xml:id="Paris_1688_1">
                         <title>Les caractères de Théophraste traduits du grec,/ avec les caractères
                             ou les moeurs de ce siècle</title>
                         <author>Jean de la Bruyère</author>
                         <editor>Estienne Michallet, premier imprimeur du roi</editor>
                         <edition> Première édition </edition>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k105077m</idno>
-                        <imprint xml:id="Paris__1688_1_1">
+                        <imprint xml:id="Paris_1688_1_1">
                             <date>1688</date>
                             <pubPlace>Paris</pubPlace>
                             <distributor>rue Saint Jacques, à l'Image Saint Paul</distributor>
                         </imprint>
                     </monogr>
 
-                    <monogr xml:id="Paris__1692_7">
+                    <monogr xml:id="Paris_1692_7">
                         <title>Les caractères de Théophraste traduits du grec,/ avec les caractères
                             ou les moeurs de ce siècle</title>
                         <author>Jean de la Bruyère</author>
                         <editor>Estienne Michallet, premier imprimeur du roi</editor>
                         <edition> Septième édition </edition>
                         <idno/>
-                        <imprint xml:id="Paris__1692_7_1">
+                        <imprint xml:id="Paris_1692_7_1">
                             <date>1692</date>
                             <pubPlace>Paris</pubPlace>
                             <distributor>rue Saint Jacques, à l'Image Saint Paul</distributor>
                         </imprint>
                     </monogr>
 
-                    <monogr xml:id="Paris__1690_5">
+                    <monogr xml:id="Paris_1690_5">
                         <title>Les caractères de Théophraste traduits du grec,/ avec les caractères
                             ou les moeurs de ce siècle</title>
                         <author>Jean de la Bruyère</author>
                         <editor>Estienne Michallet, premier imprimeur du Roi</editor>
                         <edition> Cinquième édition </edition>
                         <idno/>
-                        <imprint xml:id="Paris__1690_5_1">
+                        <imprint xml:id="Paris_1690_5_1">
                             <date>1690</date>
                             <pubPlace>Paris</pubPlace>
                             <distributor>rue Saint Jacques, à l'Image Saint Paul</distributor>
@@ -411,6 +411,53 @@
                         </death>
                     </person>
                     
+                    <person xml:id="Nicole" sex="M" role="author">
+                        <persName xml:lang="fr">Nicole</persName>
+                        <persName xml:lang="fr">Pierre Nicole</persName>
+                        <birth when="1625-10-19">19 octobre 1625
+                            <placeName>
+                                <settlement type="city">Chartres</settlement>
+                                <country key="FR">Royaume de France</country>
+                            </placeName>
+                        </birth>
+                        <death when="1695-11-16">16 novembre 1695
+                            <placeName>
+                                <settlement type="city">Paris</settlement>
+                                <country key="FR">Royaume de France</country>
+                            </placeName>
+                        </death>
+                    </person>
+                    
+                    <person xml:id="Malebranche" sex="M" role="author">
+                        <persName xml:lang="fr">Malebranche</persName>
+                        <persName xml:lang="fr">Nicolas Malebranche</persName>
+                        <birth when="1638-08-06">6 août 1638
+                            <placeName>
+                                <settlement type="city">Paris</settlement>
+                                <country key="FR">Royaume de France</country>
+                            </placeName>
+                        </birth>
+                        <death when="1715-10-13">13 octobre 1715
+                            <placeName>
+                                <settlement type="city">Paris</settlement>
+                                <country key="FR">Royaume de France</country>
+                            </placeName>
+                        </death>
+                    </person>
+                    
+                    <person xml:id="Vayer" sex="M" role="abbé">
+                        <persName xml:lang="fr">La Mothe Le Vayer</persName>
+                        <persName xml:lang="fr">François de La Mothe Le Vayer</persName>
+                        <birth when="1627">1627
+                        </birth>
+                        <death when="1664-09-25">25 septembre 1664
+                            <placeName>
+                                <settlement type="city">Paris</settlement>
+                                <country key="FR">Royaume de France</country>
+                            </placeName>
+                        </death>
+                    </person>
+                    
                 </listPerson>
                 <listPerson xml:id="autres">
                     <person xml:id="H">
@@ -622,7 +669,7 @@
                         pas entendre ce qui est fort intelligible.</p>
                 </div2>
 
-                <div2 source="#Paris__1692_7 #Paris__1690_5" n="36">
+                <div2 source="#Paris_1692_7 #Paris_1690_5" n="36">
                     <p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses"/>Un <app>
                             <rdg wit="#Paris_1690_5">Auteur,</rdg>
                             <rdg wit="#Paris_1692_7">auteur,</rdg>
@@ -734,7 +781,7 @@
                             n="118" source="#Paris_1692_7"/></p>
                 </div2>
 
-                <div2 source="#Paris__1692_7 #Paris__1690_5" n="42">
+                <div2 source="#Paris_1692_7 #Paris_1690_5" n="42">
                     <p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"
                             /><persName ref="#Ronsard" style="big_black">Ronsard</persName> &amp; les Auteurs ses
                         contemporains ont plus nui au style qu’ils ne lui ont servi :/ ils l’ont
@@ -779,26 +826,26 @@
                         plus délicats.</p>
                 </div2>
 
-                <div2 source="#Paris_1692_7 #Paris__1690_5" n="44">
+                <div2 source="#Paris_1692_7 #Paris_1690_5" n="44">
                     <p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"/>
                         <app>
                             <lem><persName type="pseudo">Deux Ecrivains</persName></lem>
-                            <rdg wit="#Cles_Escola">le janséniste Pierre Nicole &amp; le philosophe
-                                Malebranche</rdg>
+                            <rdg wit="#Cles_Escola">le janséniste <persName ref="#Nicole">Pierre Nicole </persName> &amp; le philosophe
+                                <persName ref="#Malebranche">Malebranche</persName></rdg>
                         </app> dans leurs ouvrages ont blâmé <persName ref="#Montaigne" style="big_black"
                             >Montaigne</persName>, que je ne crois pas, aussi bien qu’eux,/ exempt
                         de toute sorte de blâme : il paraît que tous deux ne l’ont estimé en nulle
                         manière./ <app>
                             <lem>L’un ne pensait pas assez</lem>
-                            <rdg wit="#Cles_Escola">Pierre Nicole</rdg>
-                            <rdg wit="#Cles_Escola_XVIIe">La Mothe Le Vayer</rdg>
+                            <rdg wit="#Cles_Escola"><persName ref="#Nicole">Pierre Nicole</persName></rdg>
+                            <rdg wit="#Cles_Escola_XVIIe"><persName ref="#Vayer">La Mothe Le Vayer</persName></rdg>
                         </app> pour goûter un auteur qui pense beaucoup ;/ <app>
                             <lem>l’autre pense trop subtilement </lem>
-                            <rdg wit="#Cles_Escola">Le philosophe Malebranche</rdg>
+                            <rdg wit="#Cles_Escola">Le philosophe <persName ref="#Malebranche">Malebranche</persName></rdg>
                         </app> pour s’accommoder de pensées qui sont naturelles.</p>
                 </div2>
 
-                <div2 source="#Paris_1692_7 #Paris__1690_5" n="45">
+                <div2 source="#Paris_1692_7 #Paris_1690_5" n="45">
                     <p><g ref="#fr_pieds_de_mouche"/>
                         <g ref="#fr_pieds_de_mouche_parenthèses_deux"/>Un style grave, sérieux,
                             scru<pb n="147" source="#Paris_1690_5"/>puleux, va fort loin : on lit
@@ -815,7 +862,7 @@
                         après luy ne peut l’atteindre.</p>
                 </div2>
 
-                <div2 source="#Paris_1692_7 #Paris__1690_5" n="46">
+                <div2 source="#Paris_1692_7 #Paris_1690_5" n="46">
                     <p><g ref="#fr_pieds_de_mouche"/>Le <app>
                         <rdg wit="#Paris_1690_5"><persName ref="#H" style="big_black">H**</persName></rdg>
                                 <rdg wit="#Paris_1692_7"><persName ref="#M" style="big_black">M**</persName></rdg>
@@ -870,9 +917,10 @@
                         enchantement.</p>
                 </div2>
 
-                <div2 source="#Paris_1692_7 #Paris__1690_5" n="48">
+                <div2 source="#Paris_1692_7 #Paris_1690_5" n="48">
                     <p><g ref="#fr_pieds_de_mouche"/>
-                        <g ref="#fr_pieds_de_mouche_parenthèses"/>Ils ont fait le théâtre ces <app>
+                        <g ref="#fr_pieds_de_mouche_parenthèses"/>Ils ont fait le théâtre ces
+                        <app>
                             <lem>empressés</lem>
                             <rdg wit="#Paris_1690_5 #Paris__1692_7">empressez</rdg>
                             <rdg wit="#Cles_Escola">Selon G. Servois, on compte parmi eux Jacques
@@ -924,7 +972,7 @@
                         &amp; l’action de ceux qui n’ont rien fait.</p>
                 </div2>
 
-                <div2 source="#Paris_1692_7 #Paris__1690_5" n="49">
+                <div2 source="#Paris_1692_7 #Paris_1690_5" n="49">
                     <p>
                         <g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses"/> Les
                         connaisseurs, ou ceux qui se croient tels, se donnent voix délibérative
@@ -932,7 +980,6 @@
                         en des partis contraires, dont chacun,/ poussé par un tout autre intérêt que
                         par celui du public ou de l’équité,/ admire un certain Poëme ou une certaine
                         musique, &amp; siffle tout autre<app>
-
                             <rdg wit="#Paris_1690_5">:</rdg>
                             <rdg wit="#Paris_1692_7">.</rdg>
                         </app>/ Ils nuisent également, par cette chaleur à défendre leurs
