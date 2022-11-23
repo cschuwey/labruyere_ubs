@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -98,6 +99,18 @@
                     <desc>((¶))</desc>
                 </glyph>
             </charDecl>
+             <appInfo>
+                <application version="21" ident="OxygenXML">
+                    <desc>Document traité et codé avec Oxygen XmlEditor</desc>
+                </application>
+            </appInfo>
+            <projectDesc>
+                <p>Encodage des Caractères de la Bruyère sous format xml pour leur mise en ligne</p>
+            </projectDesc>
+            <refsDecl>
+                <p> Le texte "lem" est basé sur la cinquième édition des Caractères.</p>
+            </refsDecl>
+        </encodingDesc>
         </encodingDesc>
         <profileDesc>
             <langUsage>
