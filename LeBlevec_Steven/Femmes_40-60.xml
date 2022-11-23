@@ -41,6 +41,28 @@
                         <publisher>chez Estienne Michallet à Paris</publisher>
                         </imprint>
                     </monogr>
+                       
+                   <monogr xml:id="Paris_1690_Cinquieme">
+                        <title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou les moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>
+                        <author>Théophrastre</author>
+                        <edition>Cinquième édition</edition>
+                        <imprint>
+                        <date>1690</date>
+                        <publisher>chez Estienne Michallet à Paris</publisher>
+                        </imprint>
+                    </monogr>
+                       
+                  <monogr xml:id="Paris_1691_Sixieme">
+                        <title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou les moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>
+                        <author>Théophrastre</author>
+                        <edition>Sixième édition</edition>
+                        <imprint>
+                        <date>1691</date>
+                        <publisher>chez Estienne Michallet à Paris</publisher>
+                        </imprint>
+                    </monogr>
                 
                     <monogr xml:id="Paris_1692_Septieme">
                         <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce siècle</title>
@@ -248,8 +270,9 @@
                                        et elles se perdent tristement par la présomption et par l’envie.</p>
                               <app>
                                   <rdg wit="Edition de 1688">
-                                   Remarque non présente dans cette édition</rdg>
-                                  <rdg wit="Edition de 1692">
+                                  <note>Remarque non présente dans cette édition</note>
+                                  </rdg>
+                                  <rdg wit="Edtion de 1691" "Edition de 1692">
                                   <g ref="#pieddemouche"/>
                                   <p>La dévotion vient à quelques-uns, et surtout aux femmes, comme une passion, ou comme le faible d’un certain âge, 
                                       ou comme un mode qu’il faut suivre : Elles comptoient autrefois une semaine par les jours de jeu, de spectacle
@@ -334,7 +357,7 @@
                                 <rdg wit="Edition de 1688">
                                 <note>Remarque non présente dans cette édition</note>
                                 </rdg>
-                                <rdg wit="Edition de 1692">
+                                <rdg wit="Edition de 1690" "Edition de 1692">
                                 <g ref="#pieddemouche"/>
                                     <p>Quelques femmes ont voulu cacher leur conduite sous les dehors de la modestie ; &amp; tout ce que chacune a pû gagner
                                         par une continuelle affectation, &amp; qui ne s’est jamais démentie, a été de faire dire de soy : On l’aurait prise pour
@@ -612,7 +635,6 @@
 
                            <div2 source="#Paris_1688_Première #Paris_1692_Septieme">
                               <p source="#Paris_1688_Première #Paris_1692_Septieme" n="41"><g ref="#pieddemouche"></g>
-                               C'eft trop contre un mary d’estre coquette et dévote ; une femme devroit opter.
                                C'eft trop contre un mary d’estre coquette et dévote ; une femme devroit opter.</p>
                            </div2>
 
@@ -644,7 +666,7 @@
                             </div2>
                     
                             <div2 source="#Paris_1692_Septieme">
-                               <p source="#Paris_1692_Septieme" n="43"><g ref="#pieddemouche"></g>
+                               <p source="#Paris_1691_Sixieme #Paris_1692_Septieme" n="43"><g ref="#pieddemouche"></g>
                                      La dévotion vient à quelques-uns, et surtout aux femmes, comme une passion, ou comme le faible d’un certain âge,
                                      ou comme un mode qu’il faut suivre : Elles comptoient autrefois une semaine par les jours de jeu, de spectacle, 
                                      de concert, de mascarade, ou d’un joli sermon ; elles allaient le lundy perdre leur argent chez<persName ref="#listPerson">Ismène</persName>, le mardy
@@ -683,8 +705,7 @@
                                         leur cœur. Elles n’approuvent et ne désapprouvent, ne louent et ne condamnent, qu’après avoir consulté ses yeux et
                                         son visage. Il est le dépositaire de leurs joyes et de leurs chagrins, de leurs désirs, de leurs jalousies, de
                                         leurs haines et de leurs amours il les fait rompre avec leurs galants ; il les brouille et les réconcilie avec leurs
-                                        <pb n="146" source="#Paris_1692_Septieme"/>maris, et il profite des interrègnes. Il prend soin de leurs affaires,  
-                                        <pb n="146" source="#Paris_1692_Septieme"/>maris, et il profite des interrègnes. Il prend soin de leurs affaires,  
+                                        <pb n="146" source="#Paris_1692_Septieme"/>maris, et il profite des interrègnes. Il prend soin de leurs affaires,   
                                         sollicite leurs procès, et voit leurs juges ;
                                         il leur donne son médecin, son marchand, ses ouvriers ; il s’ingere de les loger, de les meubler, et il ordonne
                                         de leur équipage. On le voit avec elles dans leurs carrosses, dans les rues d’une ville et aux promenades, ainsi
@@ -693,12 +714,11 @@
                                         Il vieillit sans déchoir de son autorité , un peu d’esprit et beaucoup de temps à perdre luy suffit pour la
                                         conserver ; les enfans, les héritiers, la bru, la nièce, les domestiques, tout en dépend. Il a commencé par
                                         se faire estimer ; il finit par se faire craindre. Cet ami si ancien, si nécessaire, meurt sans qu’on le pleure ;
-                                        et dix femmes dont il étoit le tyran héritent par sa mort de la liberté.
                                         et dix femmes dont il étoit le tyran héritent par sa mort de la liberté.</p>
                                         </div2>
                     
                                         <div2 source="#Paris_1692_Septieme">
-                                            <p source="#Paris_1692_Septieme" n="46"><g ref="#pieddemouche"></g>
+                                            <p source="#Paris_1690_Cinquieme" "#Paris_1692_Septieme" n="46"><g ref="#pieddemouche"></g>
                                           Quelques femmes ont voulu cacher leur conduite sous les dehors<pb n="147" source="#Paris_1692_Septieme"/>
                                           de la modestie ; et tout ce que chacune
                                           a pû gagner par une continuelle affectation, et qui ne s’est jamais démentie, a été de faire dire de soy :
@@ -710,7 +730,6 @@
                                C’est dans les femmes une violente preuve d’une reputation bien nette et bien établie, qu’elle ne soit 
                                 pas même effleurée par la familiarité de quelques-unes qui ne leur ressemblent point ; et qu’avec toute
                                 la pente qu’on a aux malignes explications, on ait recours à une tout autre raison de ce commerce qu’à
-                                celle de la convenance des mœurs.
                                 celle de la convenance des mœurs.</p>
                     </div2>
                                             
@@ -780,20 +799,18 @@
                              <div2 source="#Paris_1688_Première #Paris_1692_Septieme">
                                     <p source="#Paris_1688_Première #Paris_1692_Septieme" n="54"><g ref="#pieddemouche"></g>
                                         La plûpart des femmes n’ont guere de principes , elles se conduisent par le cœur, et dépendent
-                                          La plûpart des femmes n’ont guere de principes , elles se conduisent par le cœur, et dépendent
-                                           pour leurs mœurs de ceux qu’elles aiment.</p>
+                                        pour leurs mœurs de ceux qu’elles aiment.</p>
                              </div2>
                                                                                                                        
                              <div2 source="#Paris_1692_Septieme">
                                     <p source="#Paris_1688_Première #Paris_1692_Septieme" n="55"><g ref="#pieddemouche"></g>
                                          Les femmes vont plus loin en amour que la plûpart des hommes : mais les hommes l’emportent sur elles en amitié. 
-                                            Les hommes sont cause que les femmes ne s’aiment point.</p>
+                                         Les hommes sont cause que les femmes ne s’aiment point.</p>
                              </div2>
                                                                                                                        
                             <div2 source="#Paris_1692_Septieme">
                                     <p source="#Paris_1692_Septieme" n="56"><g ref="#pieddemouche"></g>
                                         Il y a du péril à contrefaire. <persName ref="#listPers">Lise</persName>, déjà vieille, veut rendre une jeune femme ridicule, et elle-même
-  
                                            devient difforme ; elle me fait peur ; elle use pour l’imiter de grimaces et de contorsions : la voilà
                                            aussi laide<pb n="152" source="#Paris_1692_Septieme"/> qu’il faut pour embellir celle dont elle se mocque.</p>
                             </div2>
