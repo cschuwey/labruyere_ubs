@@ -38,7 +38,7 @@
                         </imprint>
                     </monogr>
                    
-                    <monogr xml:id="Paris_1688_edition_1">
+                    <monogr xml:id="Paris_1688_1">
                         <author>Théophraste</author>
                         <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste</author>
                         <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère
@@ -46,7 +46,7 @@
                         <title> Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Première édition</edition>
-                        <imprint xml:id="Paris_1688_première_edition">
+                        <imprint xml:id="Paris_1688_1_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1688</date>
                             <pubPlace>Paris</pubPlace>
@@ -56,14 +56,14 @@
 
                     </monogr>
                     
-                    <monogr xml:id="Paris_1688_edition_3">
+                    <monogr xml:id="Paris_1688_3">
                         <author>La Bruyère, Jean de</author>
                         <author ref="https://data.bnf.fr/11910249"> Théophraste></author>
                         <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère</author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Troisième édition</edition>
-                        <imprint xml:id="Paris_1688_troisième_edition">
+                        <imprint xml:id="Paris_1688_3_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1688</date>
                             <pubPlace>Paris</pubPlace>
@@ -73,14 +73,14 @@
 
                     </monogr>
                     
-                    <monogr xml:id="Paris_1689_edition_4">
+                    <monogr xml:id="Paris_1689_4">
                         <author> Jean de la Bruyère </author>
                         <author ref="https://data.bnf.fr/11910249"> Théophraste</author>
                         <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère</author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Quatrième édition</edition>
-                        <imprint xml:id="Paris_1689_4">
+                        <imprint xml:id="Paris_1689_4_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1689</date>
                             <pubPlace>Paris</pubPlace>
@@ -88,14 +88,14 @@
 
                         </imprint>
                     </monogr>
-                    <monogr xml:id="Paris_1690_edition_5">
+                    <monogr xml:id="Paris_1690_5">
                         <author> Jean de la Bruyère </author>
                         <author ref="https://data.bnf.fr/11910249"> Théophraste</author>
                         <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère></author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Cinquième édition</edition>
-                        <imprint xml:id="Paris_1690_5">
+                        <imprint xml:id="Paris_1690_5_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1690</date>
                             <pubPlace>Paris</pubPlace>
@@ -103,14 +103,14 @@
                             
                         </imprint>
                     </monogr>
-                    <monogr xml:id="Paris_1691_edition_6">
+                    <monogr xml:id="Paris_1691_6">
                         <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste</author>
                             <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère</author>
                             
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Sixième édition</edition>
-                        <imprint xml:id="Paris_1691_sixième_edition">
+                        <imprint xml:id="Paris_1691_6_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1691</date>
                             <pubPlace>Paris</pubPlace>
@@ -120,13 +120,13 @@
 
                     </monogr>
                  
-                    <monogr xml:id="Paris_1692_edition_7">
+                    <monogr xml:id="Paris_1692_7">
                      <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste</author>
                         <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère> </author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Septième édition</edition>
-                        <imprint xml:id="Paris_1692_septième_edition">
+                        <imprint xml:id="Paris_1692_7_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1692</date>
                             <pubPlace>Paris</pubPlace>
@@ -135,13 +135,13 @@
                         </imprint>
                     </monogr>
                     
-                     <monogr xml:id="Paris_1694_edition_8">
+                     <monogr xml:id="Paris_1694_8">
                         <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste</author>
                          <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère></author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Huitième édition</edition>
-                        <imprint xml:id="Paris_1694_huitième_edition">
+                        <imprint xml:id="Paris_1694_8_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1694</date>
                             <pubPlace>Paris</pubPlace>
@@ -150,14 +150,14 @@
                         </imprint>
                     </monogr>
                     
-                     <monogr xml:id="Paris_1696_edition_9">
+                     <monogr xml:id="Paris_1696_9">
                         <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste</author> 
                         <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère
                          </author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Neuvième édition</edition>
-                        <imprint xml:id="Paris_1696_neuvième_edition">
+                        <imprint xml:id="Paris_1696_9_1">
                             <publisher>Estienne Michallet</publisher>
                             <date>1696</date>
                             <pubPlace>Paris</pubPlace>
@@ -167,14 +167,14 @@
                     </monogr>
                     
                     
-                    <monogr xml:id="Paris_1699_edition_10">
+                    <monogr xml:id="Paris_1699_10">
                         <author ref="https://data.bnf.fr/11887698/theophraste">Théophraste</author>
                         <author ref="https://data.bnf.fr/11910249/jean_de_la_bruyere/"> Jean de La Bruyère
                         </author>
                         <title>Les Caractères</title>
                         <editor>Estienne Michallet</editor>
                         <edition>Dixième édition</edition>
-                        <imprint xml:id="Paris_1699_dixième_edition">
+                        <imprint xml:id="Paris_1699_10_1">
                             <publisher>Edition classique</publisher>
                             <date>1699</date>
                             <pubPlace>Paris</pubPlace>
@@ -364,6 +364,9 @@
                 <item>
                     <date when="2022-11-14">14 novembre 2022</date> Encodage de l'ensemble des "terms", enrichississement de la taxonomie avec les définitions des concepts qui correspondent à leur emploi et création d'un référentiel d'autorité.
                 </item>
+                <item>
+                    <date when="2022-11-24">24 novembre 2022</date> Modification des id bibliographiques
+                </item>
                 
                 
                 
@@ -402,7 +405,7 @@
                 
 <!-- Présence d'un note manuscrite, aucune note de La Bruyère, aucun mot écrit en langue étrangère-->
 
-                <div2 n="61" source="#XIXe_édition #Paris_1699_edition_10 #Paris_1696_edition_9 #Paris_1694_edition_8 #Paris_1692_edition_7"> 
+                <div2 n="61" source="#XIXe_édition #Paris_1699_10 #Paris_1696_9 #Paris_1694_8 #Paris_1692_7"> 
                     <p>
                         <g ref="#Pied_de_mouche_simple"> </g> 
                         
@@ -411,66 +414,66 @@
                         manquer, ils n’oublient rien de ce qu’il faut faire pour la manquer.</p>
                 </div2>
 
-                <div2 n="62" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="62" source="#XIXe_édition #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>  
                         
                         Les choses les plus souhaitées n’arrivent point ; ou si elles arrivent, ce
                         n’est 
                         
                         <app>
-                        <lem wit="#Paris_1699_edition_10"> ny </lem> 
-                        <rdg wit="#Paris_1684_edition_4 #Paris_1690_edition_5"> ni </rdg>
+                            <lem wit="#Paris_1699_10"> ny </lem> 
+                            <rdg wit="#Paris_1684_4 #Paris_1690_5"> ni </rdg>
                         </app> 
                         
                         dans le temps ni dans les circonstances où elles auraient fait un
                         extrême <term ref="#plaisir">plaisir</term>. </p>
                 </div2>
 
-                <div2 n="63" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="63" source="#XIXe_édition #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g> 
                         
                         Il faut rire avant que 
                         
                         <app>
-                            <lem wit="#Paris_1699_edition_10"> d'être </lem>
-                            <rdg wit="#Paris_1684_edition_4 #Paris_1690_edition_5"> d'estre </rdg>
+                            <lem wit="#Paris_1699_10"> d'être </lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1690_5"> d'estre </rdg>
                         </app> 
                         
                         heureux, de <term ref="#peur">peur</term> de <term ref="#mort">mourir</term> sans avoir ri. </p>
                     
                 </div2>
 
-                <div2 n="64" source="#XIXe_édition #Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="64" source="#XIXe_édition #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="#Pied_de_mouche_simple"> </g> 
                         
-                        La <term ref="#vie">vie</term> est courte, si elle ne mérite <pb n="126" source="#Paris_1699_edition_10"></pb> ce nom que lorsqu’elle est agréable,<pb n="150" source="#Paris_1699_edition_4"></pb>
+                        La <term ref="#vie">vie</term> est courte, si elle ne mérite <pb n="126" source="#Paris_1699_10"></pb> ce nom que lorsqu’elle est agréable,<pb n="150" source="#Paris_1699_edition_4"></pb>
                         puisque si l’on cousait ensemble toutes les heures que l’on passe avec ce
                         qui 
                         
                         <app>
-                            <lem wit="#Paris_1699_edition_10"> plaît </lem>
-                            <rdg wit="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5"> plaist </rdg>
+                            <lem wit="#Paris_1699_10"> plaît </lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5"> plaist </rdg>
                         </app> 
                         
                         , l’on ferait à peine d’un grand nombre d’années une <term ref="#vie">vie</term> de
                         quelques mois. </p>
                 </div2>
 
-                <div2 n="65" source="#XIXe_édition #Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="65" source="#XIXe_édition #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> 
                         
                         Qu’il est difficile 
                         
                         <app>
-                            <lem wit="#Paris_1699_edition_10"> d'être </lem>
-                            <rdg wit="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5"> d'estre </rdg>
+                            <lem wit="#Paris_1699_10"> d'être </lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5"> d'estre </rdg>
                         </app> 
                         
                         content de quelqu’un ! </p>
                 </div2>
 
-                <div2 n="66" source="#XIXe_édition #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
-                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g> 
+                <div2 n="66" source="#XIXe_édition #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_5"> </g> 
                         
                         On ne pourrait se défendre de quelque <term ref="#joie">joie</term> à voir périr un méchant homme :
                         l’on jouirait alors du fruit de sa <term ref="#haine">haine</term>, et l’on tirerait de lui tout ce
@@ -478,65 +481,65 @@
                         mais dans une conjoncture où nos
                         
                         <app>
-                            <lem wit="#Paris_1699_edition_10"> intérêts </lem>
-                            <rdg wit="#Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7"> interests </rdg>
+                            <lem wit="#Paris_1699_10"> intérêts </lem>
+                            <rdg wit="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7"> interests </rdg>
                         </app>   
                         
                         ne nous permettent pas de nous en réjouir : il meurt trop 
                         
                         <app>
-                            <lem wit="#Paris_1699_edition_10"> tôt </lem>
-                            <rdg wit="#Paris_1690_edition_5"> tost </rdg>
+                            <lem wit="#Paris_1699_10"> tôt </lem>
+                            <rdg wit="#Paris_1690_5"> tost </rdg>
                         </app>  
                         
                         ou trop tard. 
                     </p>
                 </div2>
 
-                <div2 n="67" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
-                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>
+                <div2 n="67" source="#XIXe_édition #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_5"> </g>
                         
                         Il est pénible à un homme <term ref="#fierté">fier</term> de pardonner à celui qui le surprend en
                         faute, et qui se plaint de lui avec <term ref="#raison">raison</term> : sa <term ref="#fierté">fierté</term> ne s’adoucit que
                         lorsqu’il reprend ses avantages, et qu’il met l’autre dans son tort. </p>
                 </div2>
 
-                <div2 n="68" source="#XIXe_édition #Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="68" source="#XIXe_édition #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"/>
                        
                         Comme nous nous affectionnons de plus en plus aux personnes à qui nous
                         faisons du bien, de
                         
                         <app>
-                            <lem wit="#Paris_1699_edition_10"> même </lem>
-                        <rdg wit="#Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1690_edition_5"> mesme </rdg>
+                            <lem wit="#Paris_1699_10"> même </lem>
+                            <rdg wit="#Paris_1688_1 #Paris_1688_edition_3 #Paris_1690_5"> mesme </rdg>
                         </app>   
                         
                         nous haïssons violemment ceux que nous avons
-                        beaucoup offensés.<pb n="127" source="#Paris_1699_edition_10"></pb> </p>
+                        beaucoup offensés.<pb n="127" source="#Paris_1699_10"></pb> </p>
                 </div2>
 
-                <div2 n="69" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="69" source="#XIXe_édition #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"/>
                       
                       Il est également difficile d’étouffer dans les commencements le <term ref="#sentiment">sentiment </term>
                         des injures et de le conserver après un certain nombre d’années. </p>
                 </div2>
 
-                <div2 n="70" source="#XIXe_édition #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="70" source="#XIXe_édition #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
                       
                       C’est par <term ref="#faiblesse">faiblesse</term> que l’on 
                         
                         <app>
-                        <lem wit="#Paris_1699_edition_10"> hait </lem>
-                        <rdg wit="#Paris_1696_edition_9 "> haït </rdg>
+                            <lem wit="#Paris_1699_10"> hait </lem>
+                            <rdg wit="#Paris_1696_9 "> haït </rdg>
                         </app>  
                         
                         un <term ref="#inimitié">ennemi</term>, et que l’on songe à s’en venger ; et c’est par <term ref="#paresse">paresse</term> que l’on s’apaise, et qu’on ne se venge point.</p>
                 </div2>
 
-                <div2 n="71" source="#XIXe_édition #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="71" source="#XIXe_édition #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
                         
                         Il y a bien autant de <term ref="#paresse">paresse</term> que de <term ref="#faiblesse">faiblesse</term> à se laisser gouverner. Il ne
@@ -548,7 +551,7 @@
                         grandes est immanquable. Tel ne pouvait au plus dans les commencements
                         qu’entreprendre de le faire partir pour la campagne ou retourner à la ville,
                         qui finit par lui dicter un testament où il réduit son fils à la légitime.
-                        Pour gouverner quelqu’un longtemps et absolument, il faut avoir <pb n="128" source="#Paris_1699_edition_10"></pb> la main
+                        Pour gouverner quelqu’un longtemps et absolument, il faut avoir <pb n="128" source="#Paris_1699_10"></pb> la main
                         légère, et ne lui faire sentir que le moins qu’il se peut sa dépendance.
                         Tels se laissent gouverner jusqu’à un certain point, qui au delà sont
                         intraitables et ne se gouvernent plus : on perd tout à coup la route de leur
@@ -556,8 +559,8 @@
                         les peuvent dompter : avec cette différence que 
                         
                         <app>
-                            <lem wit="#Paris_1699_edition_10"> quelques - uns </lem>
-                            <rdg wit="#Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9"> quelques-uns </rdg>
+                            <lem wit="#Paris_1699_10"> quelques - uns </lem>
+                            <rdg wit="#Paris_1692_7 #Paris_1694_8 #Paris_1696_9"> quelques-uns </rdg>
                         </app>  
                         
                         sont ainsi
@@ -566,9 +569,9 @@
                         conseils, et qui s’égarent volontairement par la <term ref="#crainte">crainte</term> qu’ils ont d’être
                         gouvernés. D’autres consentent d’être gouvernés par leurs <term ref="#amitié">amis</term> en des choses
                         presque indifférentes, et s’en font un <term ref="#droit">droit</term> de les gouverner à leur tour en
-                        des choses graves et de conséquence. <seg> <app> <lem wit="#Drance">Drance</lem>  <rdg wit="#clé n°7"> Le compte de Clermont-Tonerre</rdg>  </app> <persName type="pseudo" ref="#Drance">Drance</persName> <note resp="Lecteur" source="#Paris_1694_edition_8" style="written" hand="texte en partie illisible" type="commentaire"  place="gauche et en bas de la page"> [...] ou le chevalier de Lorraine. La visée du commentaire est sûrement de faire un parallèle entre le personnage de Drance et des figures ayant réellement existé. En effet, nous pouvons déchiffrer Le chevalier de Lorraine qui peut faire référence à Philippe de Lorraine qui a vécu à l'époque de La Bruyère. </note> veut passer pour gouverner son
+                        des choses graves et de conséquence. <seg> <app> <lem wit="#Drance">Drance</lem>  <rdg wit="#clé n°7"> Le compte de Clermont-Tonerre</rdg>  </app> <persName type="pseudo" ref="#Drance">Drance</persName> <note resp="Lecteur" source="#Paris_1694_8" style="written" hand="texte en partie illisible" type="commentaire"  place="gauche et en bas de la page"> [...] ou le chevalier de Lorraine. La visée du commentaire est sûrement de faire un parallèle entre le personnage de Drance et des figures ayant réellement existé. En effet, nous pouvons déchiffrer Le chevalier de Lorraine qui peut faire référence à Philippe de Lorraine qui a vécu à l'époque de La Bruyère. </note> veut passer pour gouverner son
                         maître, qui n’en croit rien, non plus que le public ; parler sans cesse à un
-                        grand que l’on sert, en des lieux et en des temps où il convient le <pb n="129" source="#Paris_1699_edition_10"/> moins,
+                        grand que l’on sert, en des lieux et en des temps où il convient le <pb n="129" source="#Paris_1699_10"/> moins,
                         lui parler à l’oreille ou en des termes mystérieux, rire jusqu’à éclater en
                         sa présence, lui couper la parole, se mettre entre lui et ceux qui lui
                         parlent, dédaigner ceux qui viennent faire leur cour ou attendre
@@ -582,136 +585,136 @@
                         jouirais de la <term ref="#tranquillité">tranquillité</term> de celui qui est gouverné par la <term ref="#raison">raison</term>. </p>
                 </div2>
 
-                <div2 n="72" source="#XIXe_édition #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="72" source="#XIXe_édition #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g>
                         <seg> Toutes les<term ref="#passion"> passions</term> sont menteuses : elles se déguisent autant qu’elles le
-                        peuvent aux yeux des autres ; elles <pb n="130" source="#Paris_1699_edition_10"></pb> se cachent à 
+                            peuvent aux yeux des autres ; elles <pb n="130" source="#Paris_1699_10"></pb> se cachent à 
                         <app>
-                        <lem wit="#Paris_1699_edition_10"> elles-mêmes </lem>
-                        <rdg wit="#Paris_1690_edition_5"> elles-mesmes</rdg>
+                            <lem wit="#Paris_1699_10"> elles-mêmes </lem>
+                            <rdg wit="#Paris_1690_5"> elles-mesmes</rdg>
                         </app>
                         Il n’y a point
                         de <term ref="#vice">vice</term> qui n’ait une fausse ressemblance avec quelque <term ref="#vertu">vertu</term>, et qui ne s’en
                             aide.<note resp="#LG" type="commentaire"> À travers la définition satirique que La Bruyère réalise des passions, l'auteur critique les moeurs de son époque. </note> </seg> <pb n="157" source="#Paris_1691_edition_6"></pb></p>
                 </div2>
 
-                <div2 n="73" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
-                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>
+                <div2 n="73" source="#XIXe_édition #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_5"> </g>
                         On 
                         <app>
-                            <lem wit="#Paris_1699_edition_10"> trouve </lem>
-                        <rdg wit="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7"> ouvre </rdg>
+                            <lem wit="#Paris_1699_10"> trouve </lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7"> ouvre </rdg>
                         </app>
                         ouvre un livre de dévotion, et il touche ; on en ouvre un autre qui est
                         galant, et il fait son impression. 
                         <app>
-                        <lem wit="#Paris_1699_edition_10"> Oseray-je </lem>
-                        <rdg wit="#Paris_1684_edition_4"> Oseray je</rdg>
+                            <lem wit="#Paris_1699_10"> Oseray-je </lem>
+                            <rdg wit="#Paris_1689_4"> Oseray je</rdg>
                         </app>
                         
                         dire que le <term ref="#cœur">cœur</term> seul concilie
                         les choses contraires, et admet les incompatibles 
                         <app>
-                        <lem wit="#Paris_1699_edition_10"> ? </lem>
-                        <rdg wit="#Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1696_edition_9"> . </rdg>
+                            <lem wit="#Paris_1699_10"> ? </lem>
+                            <rdg wit="#Paris_1689_4 #Paris_1690_5 #Paris_1696_9"> . </rdg>
                         </app> </p>
                 </div2>
 
-                <div2 n="74" source="#XIXe_édition #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="74" source="#XIXe_édition #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> 
                         Les hommes rougissent moins de leurs crimes que de leurs <term ref="#faiblesse">faiblesses</term> et de
                         leur <term ref="#vanité">vanité</term>. Tel est ouvertement injuste, violent, perfide, calomniateur,
                         qui cache son <term ref="#amour">amour</term> ou son <term ref="#ambition">ambition</term>, sans autre
                         <app>
-                            <lem wit="#Paris_1699_edition_10"> vûë </lem>
-                        <rdg wit="#Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1696_edition_9">veuë </rdg>
+                            <lem wit="#Paris_1699_10"> vûë </lem>
+                            <rdg wit="#Paris_1691_6 #Paris_1692_7 #Paris_1696_9">veuë </rdg>
                         </app>
                     que de la cacher. </p>
                 </div2>
 
-                <div2 n="75" source="#XIXe_édition #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
-                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g>
+                <div2 n="75" source="#XIXe_édition #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_5"> </g>
                         Le cas n’arrive 
                        <app>
-                        <lem wit="#Paris_1699_edition_10"> gueres </lem>
-                        <rdg wit="#Paris_1696_edition_9"> guéres </rdg>
+                           <lem wit="#Paris_1699_10"> gueres </lem>
+                        <rdg wit="#Paris_1696_9"> guéres </rdg>
                         </app> 
                         où l’on puisse dire : "
                         <app>
-                            <lem wit="#Paris_1699_edition_10"> j'étois </lem>
-                            <rdg wit="#Paris_1690_edition_5"> j'estois </rdg>
+                            <lem wit="#Paris_1699_10"> j'étois </lem>
+                            <rdg wit="#Paris_1690_5"> j'estois </rdg>
                         </app>
                         <term ref="#ambition">ambitieux</term>" ; ou on ne
                         l’est point, ou on l’est toujours ; mais le temps vient où l’on avoue que
                         l’on a <term ref="#amour">aimé</term>.</p>
                 </div2>
 
-                <div2 n="76" source="#XIXe_édition #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="76" source="#XIXe_édition #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_deux_parenthèses" source="#Paris_1690_edition_5"> </g>
                         Les hommes commencent par <term ref="#amour">l’amour</term>, finissent par <term ref="#ambition">l’ambition</term>, et ne se
                         trouvent souvent dans une assiette plus <term ref="#tranquillité">tranquille</term> que lorsqu’ils meurent.
                     </p>
                 </div2>
 
-                <div2 n="77" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="77" source="#XIXe_édition #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>
                         Rien ne 
                         <app>
-                        <lem wit="#Paris_1699_edition_10"> coûte </lem>
-                        <rdg wit="#Paris_1696_edition_9"> coute </rdg>
+                            <lem wit="#Paris_1699_10"> coûte </lem>
+                            <rdg wit="#Paris_1696_9"> coute </rdg>
                         </app>
-                        moins à la <term ref="#passion">passion</term> que de se mettre au-dessus de la <term ref="#raison">rai <pb n="126" source="#Paris_1699_edition_10"></pb>son</term> :
+                        moins à la <term ref="#passion">passion</term> que de se mettre au-dessus de la <term ref="#raison">rai <pb n="126" source="#Paris_1699_10"></pb>son</term> :
                         son grand triomphe est de l’emporter sur 
                         <app>
-                            <lem wit="#Paris_1699_edition_10"> <term ref="#intérêt">l'interêt</term> </lem>
-                        <rdg wit="#Paris_1690_edition_5"> l’interest </rdg>
+                            <lem wit="#Paris_1699_10"> <term ref="#intérêt">l'interêt</term> </lem>
+                            <rdg wit="#Paris_1690_5"> l’interest </rdg>
                         </app>
                         .
                         </p>
                 </div2>
 
-                <div2 n="78" source="#XIXe_édition #Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="78" source="#XIXe_édition #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
                         L’on est plus sociable et d’un meilleur commerce par le <term ref="#cœur">cœur</term> que par
-                        <term ref="#esprit">l’esprit</term>. <pb n="151" source="#Paris_1699_edition_4 #Paris_1691_edition_6"></pb>  </p>
+                        <term ref="#esprit">l’esprit</term>. <pb n="151" source="#Paris_1689_4 #Paris_1691_6"></pb>  </p>
                 </div2>
 
-                <div2 n="79" source="#XIXe_édition #Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="79" source="#XIXe_édition #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
                         Il y a de certains grands <term ref="#sentiment">sentiments</term>, de certaines actions nobles et
                         élevées, que nous devons moins à la force de 
                          <app>
-                             <lem wit="#Paris_1699_edition_10"> nostre </lem>
-                             <rdg wit="#Paris_1688_edition_1"> nôstre </rdg>
-                        <rdg wit="#Paris_1684_edition_4 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9"> nôtre </rdg>
+                             <lem wit="#Paris_1699_10"> nostre </lem>
+                             <rdg wit="#Paris_1688_1"> nôstre </rdg>
+                             <rdg wit="#Paris_1689_4 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9"> nôtre </rdg>
                         </app>
                         <term>esprit</term> qu’à la <term ref="#bonté">bonté</term> de
                         <app>
-                        <lem wit="#Paris_1688_edition_1"> nôstre </lem>
-                        <rdg wit="#Paris_1688_edition_3 #Paris_1690_edition_5 #Paris_1699_edition_10"> nostre </rdg>
-                        <rdg wit="#Paris_1684_edition_4 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9"> nôtre </rdg>
+                            <lem wit="#Paris_1688_1"> nôstre </lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1690_5 #Paris_1699_10"> nostre </rdg>
+                            <rdg wit="#Paris_1684_4 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9"> nôtre </rdg>
                         </app>
                         naturel. </p>
                 </div2>
 
-                <div2 n="80" source="#XIXe_édition #Paris_1688_edition_1 #Paris_1688_edition_3 #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
+                <div2 n="80" source="#XIXe_édition #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#Pied_de_mouche_simple"> </g>
                         Il n’y a 
                         <app>
-                        <lem wit="#Paris_1699_edition_10"> gueres </lem>
-                        <rdg wit="#Paris_1696_edition_9"> guéres </rdg>
+                            <lem wit="#Paris_1699_10"> gueres </lem>
+                            <rdg wit="#Paris_1696_9"> guéres </rdg>
                         </app> 
                         au monde un plus bel exces que celui de la
                         reconnaissance.</p>
                 </div2>
 
-                <div2 n="81" source="#XIXe_édition #Paris_1684_edition_4 #Paris_1690_edition_5 #Paris_1691_edition_6 #Paris_1692_edition_7 #Paris_1694_edition_8 #Paris_1696_edition_9 #Paris_1699_edition_10">
-                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_edition_5"> </g>
+                <div2 n="81" source="#XIXe_édition #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
+                    <p> <g ref="#Pied_de_mouche_simple"> </g> <g ref="#Pied_de_mouche_entre_parenthèses" source="#Paris_1690_5"> </g>
                         Il faut être bien 
                          <app>
-                        <lem wit="#Paris_1699_edition_10"> dénué</lem>
-                        <rdg wit="#Paris_1684_edition_4"> denüé </rdg>  
-                        <rdg wit="#Paris_1690_edition_5"> dénüé </rdg>
+                             <lem wit="#Paris_1699_10"> dénué</lem>
+                             <rdg wit="#Paris_1689_4"> denüé </rdg>  
+                        <rdg wit="#Paris_1690_5"> dénüé </rdg>
                         </app>
                         d’<term ref="#esprit">esprit</term>, si <term ref="#amour">l’amour</term>, la malignité, la nécessité
                         n’en font pas trouver.</p>
@@ -724,6 +727,5 @@
         </body>
     </text>
 </TEI>
-
 
 
