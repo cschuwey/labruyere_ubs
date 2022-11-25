@@ -31,6 +31,7 @@
                 
             <sourceDesc>
                 <biblStruct>
+                <bibl type="clé" xml:id="Escola"/>
                 <monogr xml:id="Paris_1688_Premiere">
                         <title>Les Caractères de Théophraste avec les caractères ou les moeurs de ce siècle</title>
                         <author>Jean de La Bruyère</author>
@@ -78,6 +79,7 @@
                </biblStruct>
                 <listPerson> 
                     <person xml:id="Climène"><name>Climène</name></person>
+                    
                     <person xml:id="Ismène"><name>Ismène</name></person>
                     <person xml:id="Hermas"><name>Lise</name> </person>
                     <person sex="M" xml:id="fg5_clh_4vb">
@@ -669,8 +671,10 @@
                                <p source="#Paris_1691_Sixieme #Paris_1692_Septieme" n="43"><g ref="#pieddemouche"></g>
                                      La dévotion vient à quelques-uns, et surtout aux femmes, comme une passion, ou comme le faible d’un certain âge,
                                      ou comme un mode qu’il faut suivre : Elles comptoient autrefois une semaine par les jours de jeu, de spectacle, 
-                                     de concert, de mascarade, ou d’un joli sermon ; elles allaient le lundy perdre leur argent chez<persName ref="#listPerson">Ismène</persName>, le mardy
-                                     leur temps chez<persName ref="#listPerson">Climène</persName>, et le mercredi leur réputation chez Climène ; elles fçavoient dès la veille toute la joye
+                                     de concert, de mascarade, ou d’un joli sermon ; elles allaient le lundy perdre leur argent chez
+                                     <persName ref="#listPerson">Ismène</persName><app><lem><rdg="#Escola"/><La duchesse de Lesdiguières></lem></app>, le mardy
+                                     leur temps chez<persName ref="#listPerson">Climène</persName><app><lem><rdg="#Escola"/><La duchesse d'aumont></lem></app>
+                                     , et le mercredi leur réputation chez Climène ; elles fçavoient dès la veille toute la joye
                                      <pb n="144" source="#Paris_1692_Septieme"/>
                                      qu’elles devoient avoir le jour d’après et le lendemain ; elles jouissoient tout à la fois du plaisir present &amp; de celuy
                                      qui ne leur pouvoit manquer ; elles auroient souhaité de les pouvoir rassembler tous en un seul jour , c’étoit
@@ -680,8 +684,6 @@
                                      elles parlent peu ; elles pensent encore et assez bien d’elles-mêmes, comme assez mal des autres ; il y a chez elles 
                                      une émulation de vertu et de réforme qui tient quelque chose de la jalousie ; elles ne haïssent pas de primer dans ce
                                      nouveau genre de vie, comme elles faisaient dans celui qu’elles viennent de quitter par politique ou par dégoût. 
-                                     Elles se perdoient gayement <foreign>gaiement</foreign> par la galanterie, par la bonne chère et par l’oysiveté ; 
-                                     et elles se perdent tristement par la présomption et par l’envie.
                                      Elles se perdoient gayement <foreign>gaiement</foreign> par la galanterie, par la bonne chère et par 
                                      <seg>l’oysiveté;<note source="#Paris_1688_Première #Paris_1692_Septieme" type="gloss" resp="#Stev">état d'une personne qui n'a pas d'activité laborieuse</note></seg>
                                      et elles se perdent tristement par la présomption et par l’envie.</p>
@@ -700,7 +702,8 @@
                                                                                                                      
                              <div2 source="#Paris_1692_Septieme">
                                     <p source="#Paris_1692_Septieme" n="45"><g ref="#pieddemouche"></g>
-                                        Une femme est aisée à gouverner, pourvû que ce soit un homme qui s’en donne la peine. Un seul même en gouverne
+                                        <persName ref="#listPerson">Une femme</persName><app><lem><rdg="#Escola"/><La duchesse d'aumont></lem></app>
+                                        est aisée à gouverner, pourvû que ce soit un homme qui s’en donne la peine. Un seul même en gouverne
                                         plusieurs ; il cultive leur esprit et leur mémoire, fixe et détermine leur religion ; il entreprend même de régler 
                                         leur cœur. Elles n’approuvent et ne désapprouvent, ne louent et ne condamnent, qu’après avoir consulté ses yeux et
                                         son visage. Il est le dépositaire de leurs joyes et de leurs chagrins, de leurs désirs, de leurs jalousies, de
@@ -777,7 +780,9 @@
                                        
                              <div2 source="#Paris_1692_Septieme">
                                  <p source="#Paris_1692_Septieme" n="51"><g ref="#pieddemouche"></g>
-                                     <pb n="151" source="#Paris_1692_Septieme"/>Il y a telle femme qui aime mieux son argent que ses amis, et ses amans que son argent.</p>
+                                     <pb n="151" source="#Paris_1692_Septieme"/>
+                                     Il y a telle<persName ref="#listPerson">femme</persName><app><lem><rdg="#Escola" Mme la présidente de Bocquemare></rdg></lem></app>
+                                     qui aime mieux son argent que ses amis, et ses amans que son argent.</p>
             
                              </div2>
                     
