@@ -78,9 +78,29 @@
 
                </biblStruct>
                 <listPerson> 
-                    <person xml:id="Climène"><name>Climène</name></person>
-                    
-                    <person xml:id="Ismène"><name>Ismène</name></person>
+                    <person xml:id="Climène">
+                    <name>La duchesse d'aumont</name>
+                    </person>
+                        <idno>https://fr.wikipedia.org/wiki/Louise_d%27Aumont#/media/Fichier:Princess_Louise_of_Monaco,_wife_of_Honor%C3%A9_IV_of_Monaco_by_an_unknown_artist.jpg</idno>
+                        <occupation>Louise Félicité Victoire d'Aumont duchesse de Mazarin est une aristocrate française,
+                                    mère de deux souverains de Monaco.Elle est la fille de Louis Marie Guy d'Aumont de Rochebaron
+                        </occupation>
+                        <birth>1759</birth>
+                        <death>1826</death>
+                       
+                    <person xml:id="Ismène">
+                    <name>Duchesse de Lesdiguières</name>
+                    </person>
+                           <idno>https://fr.wikipedia.org/wiki/Paule-Marguerite_Fran%C3%A7oise_de_Gondi#/media/Fichier:Paule_Fran%C3%A7oise_de_Gondi.jpg</idno>
+                           <occupation>Paule-Marguerite Françoise de Gondi, dite aussi Paule-Françoise de Gondi est une noble dame française d'origine italienne du XVIIe siècle.
+                                       Elle fut duchesse de Retz, dame de Machecoul, marquise de La Garnache, comtesse de Joigny, baronne de Mortagne et, par son mariage,
+                                       duchesse de Lesdiguières et comtesse de Sault. Elle fut également la nièce du cardinal de Retz, qui causa à sa famille scandales et
+                                       déshonneur vis-à-vis de la cour de Louis XIV.
+                           </occupation>
+                        <birth>1655</birth>
+                        <death>1716</death>
+               
+                       
                     <person xml:id="Hermas"><name>Lise</name> </person>
                     <person sex="M" xml:id="fg5_clh_4vb">
                         <p>Selon certaines sources, c'est le frère de l'évêque de Rome Pie Ier, le 10e pape. Il fut disciple de saint Paul, tout comme Clément de Rome (Clément Ier)2. Eusèbe de Césarée affirme que Hermas est celui que l'apôtre Paul salua dans son Épître aux Romains3.
