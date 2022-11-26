@@ -99,9 +99,17 @@
                            </occupation>
                         <birth>1655</birth>
                         <death>1716</death>
+                       
+                       <person xml:id="Femme">
+                       <name>Mme de Bocquemart</name>
+                       </person>
+                       <idno></idno>
+                       <occupation><occupation>
+                       <birth></birth>
+                       <death></death>
                
                        
-                    <person xml:id="Hermas"><name>Lise</name> </person>
+                    <person xml:id="Hermas"></person>
                     <person sex="M" xml:id="fg5_clh_4vb">
                         <p>Selon certaines sources, c'est le frère de l'évêque de Rome Pie Ier, le 10e pape. Il fut disciple de saint Paul, tout comme Clément de Rome (Clément Ier)2. Eusèbe de Césarée affirme que Hermas est celui que l'apôtre Paul salua dans son Épître aux Romains3.
                             Il est l'auteur du Pasteur d'Hermas texte chrétien en grec du IIe siècle.</p>
@@ -669,12 +677,14 @@
                                      que je ne nomme point ; j’ouvre de fort grands yeux sur eux ; je les contemple : ils parlent, je prê-
                                      <pb n="142" source="#Paris_1692_Septieme"/>te l’oreille
                                      ; je m’informe, on me dit des faits, je les recueille ; et je ne comprends pas comment des gens en qui je crois 
-                                     voir toutes choses diamétralement opposées au bon esprit, au sens droit, à l’expérience des affaires du monde, 
+                                     voir toutes choses diamétralement opposées au bon esprit, au sens droit, à <seg>l’expérience</seg>
+                                     <note resp="#Stev" source="#Paris_1692_Septieme" type="manuscrite"><desc>tâche d'encre sur le l</desc></note>des affaires du monde, 
                                      à la connaissance de l’homme, à la science de la religion et des mœurs, présument que Dieu doive renouveler 
                                      en nos jours la merveille de l’apostolat, et faire un miracle en leurs personnes, en les rendant capables, 
                                      en nos jours la merveille de <seg>l’apostolat,<note source="#Paris_1688_Première #Paris_1692_Septieme" type="gloss" resp="#Stev">
                                      Prédication, propagation de la foi.</note></seg> ; et faire un miracle en leurs personnes, en les rendant capables, 
-                                     tout simples et petits esprits qu’ils sont, du ministère des âmes, celui de tous le plus délicat et le plus sublime ; 
+                                     tout simples et petits esprits qu’ils sont, du ministère des <seg>âmes</seg><note resp="#Stev" source="#Paris_1692_Septieme"
+                                     type="manuscrite"><desc>tâche d'encre sur le mot</desc></note>, celui de tous le plus délicat et le plus sublime ; 
                                      et si au contraire ils se croient nés pour un emploi si relevé, si difficile, et accordé à si peu de personnes, 
                                      et qu’ils se persuadent de ne faire en cela qu’exercer leurs talents naturels et suivre une vocation ordinaire, 
                                      je le comprends encore moins.
@@ -715,7 +725,8 @@
                                          si une joueuse, elle pourra s’enrichir ;
                                          si une fçavante, elle fçaura m’instruire ; si une prude, elle ne sera point emportée : si une emportée,
                                          elle exercera ma patience : si une coquette, elle voudra me plaire : si une galante, elle le sera peut-être
-                                         jusqu’à m’aimer : si une dévote, répondez, Hermas<persName ref="#listPerson"/><note>Frère de l'évèque de Rome Pie 1er,le 10ème pape</note>, 
+                                         jusqu’à m’aimer : si une dévote, ré<note resp="#Stev" source="#Paris_1692_Septieme"
+                                         type="manuscrite" place="right"><desc>Astérique disant "fausse dé-vote"</desc></note> pondez, Hermas<persName ref="#listPerson"/><note>Frère de l'évèque de Rome Pie 1er,le 10ème pape</note>, 
                                          que dois-je attendre de celle qui veut tromper Dieu, qui se trompe elle-même,</p>
                                </div2>
                                                                                                                      
@@ -789,7 +800,13 @@
                                     pénibles et sérieuses, ou par une curiosité toute différente de celle qui contente l’esprit, ou par un tout
                                     autre goût que celuy d’exercer leur mémoire : mais à quelque cause que les hommes puissent devoir cette 
                                     ignorance des femmes, ils sont heureux que les femmes, qui les dominent d’ailleurs par tant d’endroits,
-                                    ayent sur eux cet avantage de moins. On regarde une femme fçavante comme on fait une belle arme : elle</p>
+                                    ayent sur eux cet avantage de moins. On regarde une femme fçavante comme on fait une belle arme, elle
+                                    est ciselée artiftement, d'une polissure admirable, & d'un travail fore recherché; c'est une piece de
+                                    cabinet que l'on montre aux curieux, qui n'est pas d'usage, qui ne sert ny à la guerre ny à la chasse,
+                                    non plus qu'un cheval de manège quoyque le mieux instruit du monde. Si la science & la sagesse se trouvent
+                                    unies en un même sujet, je ne m'informe plus du luxe, j'admire ; & si vous me dites qu'une femme sage ne
+                                    songe gueres à être fçavante<note>savante>/note>ou qu'une femme fçavante n'est gueres sage, vous avez
+                                    déjà oublié de ce que vous venez de lire, </p>
                                    </div2>
                                            
                                 <div2>
@@ -801,7 +818,7 @@
                              <div2 source="#Paris_1692_Septieme">
                                  <p source="#Paris_1692_Septieme" n="51"><g ref="#pieddemouche"></g>
                                      <pb n="151" source="#Paris_1692_Septieme"/>
-                                     Il y a telle<persName ref="#listPerson">femme</persName><app><lem><rdg="#Escola" Mme la présidente de Bocquemare></rdg></lem></app>
+                                     Il y a telle<persName ref="#listPerson">femme</persName><app><lem><rdg="#Escola" Mme la présidente de Bocquemart></rdg></lem></app>
                                      qui aime mieux son argent que ses amis, et ses amans que son argent.</p>
             
                              </div2>
