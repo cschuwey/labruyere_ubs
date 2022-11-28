@@ -302,15 +302,17 @@
                         <note>Décrite par un "N**" dans la remarque 15, son identité laisse place à
                             de nombreuses interprétations.</note>
                     </person>
-                    <person xml:id="Pseudo_1">
+                </listPerson>
+                <listPerson type="pseudos">
+                    <person xml:id="Cimon">
                         <persName>Cimon</persName>
                         <bibl></bibl>
                     </person>
-                    <person xml:id="Pseudo_2">
+                    <person xml:id="Clitandre">
                         <persName>Clitandre</persName>
                         <bibl></bibl>
                     </person>
-                    <person xml:id="Pseudo_3">
+                    <person xml:id="Hyacinthe">
                         <persName>Hyacinthe</persName>
                         <bibl></bibl>
                     </person>
@@ -769,12 +771,12 @@
                                 <app>
                                     <lem>Cimon</lem>
                                     <rdg wit="#M1689">Cimon</rdg>
-                                    <rdg><persName ref="#Pseudo_1">Cimon</persName></rdg>
+                                    <rdg><persName ref="#Cimon">Cimon</persName></rdg>
                                 </app> et de
                                 <app>
                                     <lem>Clitandre</lem>
                                     <rdg wit="#M1697">Clitandre</rdg>
-                                    <rdg><persName ref="#Pseudo_2">Clitandre</persName></rdg>
+                                    <rdg><persName ref="#Clitandre">Clitandre</persName></rdg>
                                 </app>
                                     <note resp="#EK">Pour varier les
                                     effets sur le lecteur, La Bruyère met en scène des personnages
@@ -862,7 +864,7 @@
                                 nom et mes armes ; dire de celui-ci qu’il n’est pas <pb n="255"
                                     source="#PARIS_1691_6"/>homme de qualité ; de celle-là, qu’elle
                                 n’est pas demoiselle ; ou si on lui dit
-                                    qu’<persName ref="#Pseudo_3">Hyacinthe</persName> a eu le gros lot, demander
+                                    qu’<persName ref="#Hyacinthe">Hyacinthe</persName> a eu le gros lot, demander
                                 s’il est gentilhomme. Quelques-uns riront de ces contre-temps, mais
                                 il les laissera rire ; d’autres en feront des contes, et il leur
                                 permettra de conter : il dira toujours qu’il marche après la maison
