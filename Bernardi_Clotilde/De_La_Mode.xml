@@ -16,7 +16,7 @@
                     <resp xml:id="Editrice">Éditrice</resp>
                 </respStmt>
                 <respStmt>
-                   <name>Inconnu</name>
+                    <name>Inconnu</name>
                     <resp xml:id="Proprietaire-edition">Propriétaire inconnu de l'édition</resp>
                 </respStmt>
             </editionStmt>
@@ -315,6 +315,9 @@
                     éditions</date></change>
             <change>
                 <date when="2022-11-12">Ajout de tous les app dans le texte.</date></change>
+            <change>
+                <date when="2022-11-28">Finitions du document pour qu'il soit complet</date>
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -417,27 +420,28 @@
                         <pb source="#Paris_1694_Dixieme" n="505"/>n’est pas une passion qu’on a
                         généralement pour les choses rares et qui ont cours, mais qu’on a seulement
                         pour une certaine chose, qui est rare, et pourtant à la mode. </p>
-                    <p> Le 
-                            <app>
-                                <lem>
-                                    <app>
-                                        
-                                        <rdg source="#Paris_1696_Dixieme"> <seg>Fleuriste</seg></rdg> 
-                                        <rdg
-                                            source="#Paris_1688_Premiere #Paris_1688_Troisieme #Paris_1689_Quatrieme #Paris_1690_Cinquieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme"
-                                            >fleuriste</rdg>
-                                        <rdg>
-                                            <note resp="#Proprietaire-edition" source="#Paris_1694_Huitieme"
-                                                type="manuscrite" place="left"><desc> Difficile à lire</desc></note>  </rdg>
+                    <p> Le <app>
+                            <lem>
+                                <app>
 
-                                    </app>
-                                </lem>
-                                <rdg wit="#Servois"> Cabout, avocat au Conseil qui s'occupait des
-                                    affaires du grand Condé et des fleurs de Chantilly. </rdg>
-                                <rdg wit="#Fournier">Descôteaux, célèbre flutiste, connu pour avoir
-                                    perfectionné la prononciation du chant.</rdg>
-                            </app>
-                         a un <placeName ref="#jardin"> jardin</placeName>dans un <app>
+                                    <rdg source="#Paris_1696_Dixieme">
+                                        <seg>Fleuriste</seg></rdg>
+                                    <rdg
+                                        source="#Paris_1688_Premiere #Paris_1688_Troisieme #Paris_1689_Quatrieme #Paris_1690_Cinquieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme"
+                                        >fleuriste</rdg>
+                                    <rdg>
+                                        <note resp="#Proprietaire-edition"
+                                            source="#Paris_1694_Huitieme" type="manuscrite"
+                                            place="left"><desc> Difficile à lire</desc></note>
+                                    </rdg>
+
+                                </app>
+                            </lem>
+                            <rdg wit="#Servois"> Cabout, avocat au Conseil qui s'occupait des
+                                affaires du grand Condé et des fleurs de Chantilly. </rdg>
+                            <rdg wit="#Fournier">Descôteaux, célèbre flutiste, connu pour avoir
+                                perfectionné la prononciation du chant.</rdg>
+                        </app> a un <placeName ref="#jardin"> jardin</placeName>dans un <app>
                             <rdg
                                 source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme"
                                 >Fauxbourg</rdg>
@@ -552,18 +556,19 @@
                         précisément <pb source="#Paris_1694_Sixieme" n="485"/>et à la lettre pour le
                         remplir qu’il emploie son bien et sa vie. </p>
                     <p> « Vous voulez, ajoute <app>
-                            <lem>
-                                </lem>
-                                    <rdg rend="italic">
-                                       <seg> <persName ref="#Domocede">Domocède</persName> </seg>
-                                    </rdg>
-                                </app>
+                            <lem> </lem>
+                            <rdg rend="italic">
+                                <seg>
+                                    <persName ref="#Domocede">Domocède</persName>
+                                </seg>
+                            </rdg>
+                        </app>
                         <app>
                             <rdg>François-Roger de Gaignères dont la collection de livres, estampes,
                                 manuscrits, cartes et plans, fut offerte à Louis XIV.</rdg>
                             <rdg>Jacques-Louis de Beringhen, premier écuyer du roi.</rdg>
                             <rdg wit="#Walckenaer">l'abbé de Marolles et Quentin de Lorangère, qui
-                                s'étaient spécialisés dans Callot.</rdg> 
+                                s'étaient spécialisés dans Callot.</rdg>
 
 
                         </app>
@@ -635,11 +640,12 @@
                             </lem>
                         </app>
                         <app>
-                            <rdg wit="#Escola1691"> Melchisedech de Thevenot qui avait visité l'Asie Mineure et
-                                séjourné quatre ans à Constantinople. </rdg>
-                            <rdg wit="#Escola1691">Jean de Thévenot qui savait beaucoup de langues.</rdg>
-                            <rdg wit="#Escola1691">François Petis de la Croix, professeur d'arabe au collège royal et
-                                interprète du roi.</rdg>
+                            <rdg wit="#Escola1691"> Melchisedech de Thevenot qui avait visité l'Asie
+                                Mineure et séjourné quatre ans à Constantinople. </rdg>
+                            <rdg wit="#Escola1691">Jean de Thévenot qui savait beaucoup de
+                                langues.</rdg>
+                            <rdg wit="#Escola1691">François Petis de la Croix, professeur d'arabe au
+                                collège royal et interprète du roi.</rdg>
                         </app>
                         <note resp="#Proprietaire-edition" source="#Paris_1694_Huitieme"
                             type="manuscrite" place="right">
@@ -827,7 +833,7 @@
                 <div2 n="4"
                     source="#Paris_1688_Premiere #Paris_1688_Troisieme #Paris_1689_Quatrieme #Paris_1690_Cinquieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
                     <p>
-                        <g ref="pieddemouche"/>Tel a été à la mode, ou pour le commandement des
+                        <g ref="#pieddemouche"/>Tel a été à la mode, ou pour le commandement des
                         armées et la négociation ou pour l’éloquence de la <pb
                             source="#Paris_1688_Premiere" n="320"/>
                         <pb source="#Paris_1688_Troisieme" n="268"/><app>
@@ -842,7 +848,7 @@
                     <p>
                         <g
                             source="#Paris_1689_Quatrieme #Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme"
-                            > ref="pieddemouche"</g>
+                             ref="pieddemouche"></g>
                         <g source="#Paris_1690_Cinquieme" ref="#p-pieddemouche"/> Un homme à la mode
                         dure peu, car les modes passent : s’il est par hasard homme de mérite, il
                         n’est pas <pb source="#Paris_1694_Septieme" n="546"/>
@@ -1226,8 +1232,12 @@
                         peins dévot, et je crois l’avoir attrapé ; mais il m’échappe, et déjà il est
                         libertin. Qu’il demeure du moins dans cette mauvaise situation, et je saurai
                         le prendre dans un point de dérèglement de cœur et d’esprit où il sera
-                        reconnaissable ; mais la mode presse, <app><lem>il</lem></app> <app> <rdg>Le duc de Beauvilliers</rdg></app> est dévot. <pb
-                            source="#Paris_1688_Cinquieme" n="437"/></p>
+                        reconnaissable ; mais la mode presse, <app>
+                            <lem>il</lem>
+                        </app>
+                        <app>
+                            <rdg>Le duc de Beauvilliers</rdg>
+                        </app> est dévot. <pb source="#Paris_1688_Cinquieme" n="437"/></p>
                 </div2>
                 <div2 n="20"
                     source="#Paris_1691_Sixieme #Paris_1692_Septieme #Paris_1694_Huitieme #Paris_1696_Neuvieme #Paris_1699_Dixieme">
@@ -1246,5 +1256,3 @@
         </body>
     </text>
 </TEI>
-
-
