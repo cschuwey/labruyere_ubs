@@ -256,7 +256,7 @@
             <titlePage>
                 <docAuthor/>
                 <docTitle>
-                    <titlePart> style= "big"> Les </titlePart>
+                    <titlePart style= "big"> Les </titlePart>
                     <titlePart style="big"> Caractères </titlePart>
                     <titlePart> de Theophraste traduit du grec avec Les Caractères ou Les Moeurs de
                         ce siècle </titlePart>
@@ -337,7 +337,7 @@
                 <div2 n="3"
                     source="#Paris-edition6 #Paris-edition7 #Paris-edition8 #Paris-edition9 #Paris-edition10">
                     <p>Réhabilitations <app>
-                        <lem wit="Edition-ref19e"/>
+                        <lem wit="#Edition-ref19e"/>
                             <rdg wit="#Paris-edition6">Réhabilitations en italique</rdg>
                         </app>, mot en usage dans les tribunaux, qui a fait vieillir et rendu
                         gothique celui de lettres de noblesse<app>
@@ -366,7 +366,7 @@
                         cacher son âge pense enfin lui-même être aussi jeune qu’il veut le faire
                         croire aux autres. De même le roturier qui dit par habitude qu’il tire son
                         origine de quelque ancien baron ou de quelque châtelain <app>
-                            <lem wit="Edition-ref19e"/>
+                            <lem wit="#Edition-ref19e"/>
                             <rdg wit="#Paris-edition4">Châtelain en italique</rdg>
                         </app>, dont il est vrai qu’il ne descend pas, a le plaisir de croire qu’il
                         en descend.</p>
@@ -455,10 +455,10 @@
                         Celui-ci par la suppression d’une syllabe fait de <pb n="598" source="#Paris-edition8"/>son nom obscur un nom
                         illustre ; celui-là par le changement d’une lettre en une autre se
                         travestit, et de Syrus <app>
-                            <lem wit="Edition-ref19e"/>
-                            <rdg wit="Paris-edition4">Syrus en italique</rdg>
+                            <lem wit="#Edition-ref19e"/>
+                            <rdg wit="#Paris-edition4">Syrus en italique</rdg>
                         </app> devient Cyrus <app>
-                            <lem wit="Edition-ref19e"/>
+                            <lem wit="#Edition-ref19e"/>
                             <rdg wit="#Paris-edition4">Cyrus en italique</rdg>
                         </app>. Plusieurs suppriment leurs noms, qu’ils pourraient conserver sans
                         honte, pour en adopter de plus beaux, où ils n’ont qu’à perdre par la
@@ -649,4 +649,5 @@
         </body>
     </text>
 </TEI>
+
 
