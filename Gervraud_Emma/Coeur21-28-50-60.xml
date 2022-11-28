@@ -279,7 +279,7 @@
                     <date when="2022-11-07">Encodage des annotations et définition de la "taxomany" dans encodingdesc</date>
                     <date when="2022-11-10">Encodage des term et définition de la "taxomany" dans encodingdesc</date>
                     <date when="2022-11-10">Modification de note en imprimatur</date>
-                    <date when="2022-11-24">Modification des id bibliographiques</date>
+                    <date when="2022-11-24">Modification des id bibliographiques et correction d'encodingDesc</date>
                 </item>
             </list>
         </revisionDesc>
@@ -657,3 +657,4 @@
         </body>
     </text>
 </TEI>
+
