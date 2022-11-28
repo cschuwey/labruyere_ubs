@@ -661,7 +661,7 @@
                                     ref="#Euripide" type="auteur">EURIPIDE</persName></rdg>
                         </app>.</p>
                 </div2>
-                <div2 n="55" source="#Paris_1696_9 #Paris_1689_4 Paris_1688_1">
+                <div2 n="55" source="#Paris_1696_9 #Paris_1689_4 #Paris_1688_1">
                     <p><g ref="#pied_de_mouche" source="#Paris_1688_1 #Paris_1696_9"/>Le peuple
                         appelle <app>
                             <lem>éloquence</lem>
@@ -1467,3 +1467,4 @@
         </body>
     </text>
 </TEI>
+
