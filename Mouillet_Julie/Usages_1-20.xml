@@ -36,7 +36,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl>bibliographie</bibl>
+                <bibl>Bibliographie</bibl>
                 <biblStruct>
                     <monogr xml:id="Paris_1688_1">
                         <title>Les caractères de Théophraste, traduits du grec, avec Les caractères
@@ -47,7 +47,7 @@
                         <idno type="ark">https://gallica.bnf.fr/ark:/12148/bpt6k105077m</idno>
                         <imprint xml:id="Paris_1688_1_1">
                             <date>1688</date>
-                            <distributor>l'imprimeur l'Image Saint Paul</distributor>
+                            <distributor>l'imprimeur <orgName ref="#imprimeur_st_paul">l'Image Saint Paul</orgName></distributor>
                             <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
@@ -60,7 +60,7 @@
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372427436</idno>
                         <imprint xml:id="Paris_1688_3_1">
                             <date>1688</date>
-                            <distributor>l'imprimeur l'Image Saint Paul</distributor>
+                            <distributor>l'imprimeur <orgName ref="#imprimeur_st_paul">l'Image Saint Paul</orgName></distributor>
                             <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
@@ -74,7 +74,7 @@
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb37243134t</idno>
                         <imprint xml:id="Paris_1689_4_1">
                             <date>1689</date>
-                            <distributor>l'imprimeur l'Image Saint Paul</distributor>
+                            <distributor>l'imprimeur <orgName ref="#imprimeur_st_paul">l'Image Saint Paul</orgName></distributor>
                             <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
@@ -88,7 +88,7 @@
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb37243134t</idno>
                         <imprint xml:id="Paris_1690_5_1">
                             <date>1690</date>
-                            <distributor>l'imprimeur l'Image Saint Paul</distributor>
+                            <distributor>l'imprimeur <orgName ref="#imprimeur_st_paul">l'Image Saint Paul</orgName></distributor>
                             <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
@@ -102,7 +102,7 @@
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb307059875</idno>
                         <imprint xml:id="Paris_1691_6_1">
                             <date>1691</date>
-                            <distributor>l'imprimeur l'Image Saint Paul</distributor>
+                            <distributor>l'imprimeur <orgName ref="#imprimeur_st_paul">l'Image Saint Paul</orgName></distributor>
                             <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
@@ -119,7 +119,7 @@
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372432134</idno>
                         <imprint xml:id="Paris_1692_7_1">
                             <date>1692</date>
-                            <distributor>l'imprimeur l'Image Saint Paul</distributor>
+                            <distributor>l'imprimeur <orgName ref="#imprimeur_st_paul">l'Image Saint Paul</orgName></distributor>
                             <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
@@ -136,7 +136,7 @@
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372432254</idno>
                         <imprint xml:id="Paris_1694_8_1">
                             <date>1694</date>
-                            <distributor>l'imprimeur l'Image Saint Paul</distributor>
+                            <distributor>l'imprimeur <orgName ref="#imprimeur_st_paul">l'Image Saint Paul</orgName></distributor>
                             <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
@@ -152,7 +152,7 @@
                         <edition>8ème édition</edition>
                         <imprint xml:id="Paris_1694_8_2">
                             <date>1694</date>
-                            <distributor>l'imprimeur l'Image Saint Paul</distributor>
+                            <distributor>l'imprimeur <orgName ref="#imprimeur_st_paul">l'Image Saint Paul</orgName></distributor>
                             <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
@@ -169,7 +169,7 @@
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb37240408c</idno>
                         <imprint xml:id="Paris_1696_9_1">
                             <date>1696</date>
-                            <distributor>l'imprimeur l'Image Saint Paul</distributor>
+                            <distributor>l'imprimeur <orgName ref="#imprimeur_st_paul">l'Image Saint Paul</orgName></distributor>
                             <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
@@ -182,7 +182,7 @@
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372404358</idno>
                         <imprint xml:id="Paris_1699_10_1">
                             <date>1699</date>
-                            <distributor>l'imprimeur l'Image Saint Paul</distributor>
+                            <distributor>l'imprimeur <orgName ref="#imprimeur_st_paul">l'Image Saint Paul</orgName></distributor>
                             <pubPlace><placeName ref="#Paris">Paris</placeName></pubPlace>
                         </imprint>
                     </monogr>
@@ -195,7 +195,7 @@
                         <idno type="ark">http://catalogue.bnf.fr/ark:/12148/cb372432312</idno>
                         <imprint xml:id="Lyon_1694_8_1">
                             <date>1694</date>
-                            <distributor>Mercure Galant</distributor>
+                            <distributor><orgName><objectName ref="#Mercure_Galant">Mercure Galant</objectName></orgName></distributor>
                             <pubPlace><placeName ref="#Lyon">Lyon</placeName></pubPlace>
                         </imprint>
                     </monogr>
@@ -209,7 +209,7 @@
                             >http://numelyo.bm-lyon.fr/BML:BML_00GOO0100137001100959720</idno>
                         <imprint xml:id="La_Haye_1696_9_1">
                             <date>1696</date>
-                            <distributor>Adrian Moetjens, marchand Libraire prés la
+                            <distributor><persName ref="#A_Moetjens">Adrian Moetjens</persName>, <roleName>marchand Libraire</roleName> prés la
                                 Cour</distributor>
                             <pubPlace><placeName ref="#La_Haye">La Haye</placeName></pubPlace>
                         </imprint>
@@ -293,6 +293,10 @@
                     <person xml:id="Delrieu">
                         <persName>Delrieu</persName>
                         <note>Maître d'hôtel du roi</note>
+                    </person>
+                    <person xml:id="A_Moetjens">
+                        <persName>Adrian Moetjens</persName>
+                        <note>Marchand libraire à l'origine de l'impression de l'édition néerlandaise de l'oeuvre étudiée, dans l'édition étudiée.</note>
                     </person>
                     <person xml:id="princes_condé">
                         <persName>Princes de Condé</persName>
@@ -465,6 +469,11 @@
                         <note>revue française fondée en <date>1672</date> et qui après plusieurs formules et équipes éditoriales, disparaît en 1965</note>
                     </object>
                 </listObject>
+                <listOrg>
+                    <org xml:id="imprimeur_st_paul">
+                        <orgName>l'Image Saint Paul</orgName>
+                    </org>
+                </listOrg>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -736,6 +745,10 @@
                 <date>2022.11.21</date>
                 <p>Essais de différentes requêtes XPath pour vérifier notre compréhension de sa fonction.</p>
                 <p>Tentative de structuration des "app clé" comme demandé dans la correction des devoirs.</p>
+                <date>2022.11.28</date>
+                <p>Début des séances de XSL avec les premiers tamplates mis dans un fichier XSL externe.</p>
+                <p>Précision de la balise "distributor" utilisée dans le "sourceDesc". Ajout d'une balise "orgName" également pour chaque édition étudiée.
+                Ajout d'une personne dans les entités nommées.</p>
             </change>
         </revisionDesc>
     </teiHeader>
@@ -743,7 +756,7 @@
     <text>
         <front>
             <titlePage>
-                <docAuthor source="#Paris_1688_3">Jean de La Bruyère</docAuthor>
+                <docAuthor source="#Paris_1688_3"><persName ref="#auteur"></persName>Jean de La Bruyère</docAuthor>
                 <docTitle>
                     <titlePart>
                         <title type="full">Les caractères de Théophraste, traduits du grec, avec Les
@@ -791,10 +804,10 @@
                     <persName ref="#editeur" style="#black #small">Chez E S T I E N N E M I C H A L
                         L E T</persName>
                     <roleName style="#black">premier Imprimeur du Roy, </roleName>
-                    <addName style="#black #small">ruë S.Jacques à l'Image <app>
+                    <addName style="#black #small">ruë S.Jacques à <orgName ref="#imprimeur_st_paul">l'Image <app>
                             <lem>S</lem>
                             <rdg wit="#Paris_1688_3"><g ref="#S_long_minuscule"/></rdg>
-                        </app>aint Paul</addName>
+                    </app>aint Paul</orgName></addName>
                 </docImprint>
                 <imprimatur style="#italic #small">Avec privilège de sa majesté</imprimatur>
             </titlePage>
