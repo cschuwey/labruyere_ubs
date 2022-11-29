@@ -11,16 +11,16 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="tei:div2">
-        <p style="italic">
+    <xsl:template match="tei:title[contains(@type, full)]">
+        <p style="text-align: center; font-size:14pt; font-weight: bold">
             <xsl:apply-templates/>
         </p>
     </xsl:template>
 
-    <xsl:template match="tei:div2[contains(@source,Paris_1688_1)]/tei:p">
-            <p style="color:red">
+    <xsl:template match="tei:note[contains(@type,'clé')]">
+        <p style="font-style: italic; color:blue">
             <xsl:apply-templates/>
-            </p>
+        </p>
     </xsl:template>
     
     <xsl:template match="tei:persName|tei:placeName|tei:objectName">
@@ -28,20 +28,6 @@
             <xsl:apply-templates/>
         </b>
     </xsl:template>
-    
-    <xsl:template match="tei:placeName">
-        <b>
-            <xsl:apply-templates/>
-        </b>
-    </xsl:template>
-    
-    <xsl:template match="tei:objectName">
-        <b>
-            <xsl:apply-templates/>
-        </b>
-    </xsl:template>
-    
+     
     
 </xsl:stylesheet>
-
-
