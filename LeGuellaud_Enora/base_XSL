@@ -8,31 +8,28 @@
         <html>
             <head> </head>
             <body>
-                
-                <xsl:apply-templates/>
-
+            <xsl:apply-templates/>
             </body>
         </html>
     </xsl:template>
-    
-    <xsl:template match="tei:teiHeader"/>
+
+    <xsl:template match="tei:teiHeader">
+    </xsl:template match="tei:teiHeader">
+
 
     <xsl:template match="tei:div2">
-
-        <p>
-            <xsl:apply-templates/>
-        </p>
-        
+        <p > <xsl:apply-templates/> </p>     
     </xsl:template>
+
 
     <xsl:template match="tei:term | tei:term">
-        
-    <b> <xsl:apply-templates/></b>
-        
-    </xsl:template>
+    <b> <xsl:apply-templates/> </b>
+</xsl:template>
 
-    <xsl:template match="tei:div2 [contains (@source, '#Paris_1688_4_1')]">
-   <p style="color:red"> <xsl:apply-templates></xsl:apply-templates></p>
+    <xsl:template match="tei:div2 [contains(@source, '#Paris_1688_4_1')]">
+   <p style="color:red"> <xsl:apply-templates/> </p>
     </xsl:template>
     
 </xsl:stylesheet>
+
+
