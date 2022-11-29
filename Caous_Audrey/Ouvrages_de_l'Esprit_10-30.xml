@@ -413,8 +413,8 @@
 
                 <div2 n="14" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="pied_de_mouche_simple"/>  
-                        Tout l’esprit d’un auteur consiste à bien définir et à bien peindre. <seg><note source="#Paris_1694_8 #Paris_1688_3 #Paris_1696_9 #Paris_1699_10" resp="#JB" type="comm" place="left" style="*">Quand meſme on ne le considère pas comme un homme qui a écrit</note><app> <lem wit="#Paris_1694_8"> Moïse</lem>  <rdg wit="#Paris_1688_1"> Moyse </rdg></app></seg>,
-                        <persName ref="Homère" type="philosophe">Homere</persName>,<persName ref="Platon" type="philosophe">Platon</persName>,<persName ref="Virgile" type="philosophe">Virgile</persName>,Horace ne sont au-dessus des autres écrivains que
+                        Tout l’esprit d’un auteur consiste à bien définir et à bien peindre. <seg><note source="#Paris_1694_8 #Paris_1688_3 #Paris_1696_9 #Paris_1699_10" resp="#JB" type="comm" place="left" style="*">Quand meſme on ne le considère pas comme un homme qui a écrit</note><app> <lem wit="#Paris_1694_8"><persName>Moïse</persName></lem>  <rdg wit="#Paris_1688_1"> Moyse </rdg></app></seg>,
+                        <persName ref="Homère" type="philosophe">Homere</persName>,<persName ref="Platon" type="philosophe">Platon</persName>,<persName ref="Virgile" type="philosophe">Virgile</persName>,<persName>Horace</persName> ne sont au-dessus des autres écrivains que
                         par leurs expressions et par leurs images : il faut exprimer le vrai pour
                         écrire naturellement, fortement, délicatement.<pb n="172" source="#Paris_1688_3"/></p>
                 </div2>
@@ -450,7 +450,7 @@
                 <div2 n="16" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/>  
                         L’on devrait aimer à lire ses ouvrages à ceux qui en savent assez pour les
-                        corriger et les estimer.<app> <lem wit="#Paris_1694_8"> La remarque continue après ''estimer''</lem> <rdg wit="#Paris_1688_1"> La remarque s'arrête ici</rdg></app>Ne vouloir être 
+                        corriger et les estimer.<app> <lem wit="#Paris_1694_8"> La remarque continue après ''estimer''</lem> <rdg wit="#Paris_1688_1"> </rdg></app>Ne vouloir être 
                         <app> <lem wit="#Paris_1694_8">ny conseillé ny corrigé sur son ouvrage</lem> <rdg wit="#Paris_1689_4">ni conseillé ni corrigé sur son ouvrage </rdg> </app> est un pédantisme. Il faut qu’un auteur reçoive avec une égale
                         modestie les éloges et la critique que l’ont fait de ses ouvrages. </p>
                         
@@ -482,12 +482,12 @@
 
                 <div2 n="19" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/>  
-                        « L’on m’a engagé, dit <app type="clé"><lem source="Paris_1694_8">Ariste</lem><rdg wit="#Ariste"></rdg></app>, à lire mes ouvrages à <app> <lem wit="#Paris_1694_8">Zoïle</lem> <rdg wit="#Paris_1688_1 #Paris_1689_4">Zelotes</rdg> <rdg wit="#Clé_21ab_Z">Louis Cousin</rdg></app> : je l’ai fait.
+                        « L’on m’a engagé, dit <app type="clé"><lem source="Paris_1694_8"><persName>Ariste</persName></lem><rdg wit="#Ariste"></rdg></app>, à lire mes ouvrages à <app> <lem wit="#Paris_1694_8"><persName>Zoïle</persName></lem> <rdg wit="#Paris_1688_1 #Paris_1689_4">Zelotes</rdg> <rdg wit="#Clé_21ab_Z"><persName>Louis Cousin</persName></rdg></app> : je l’ai fait.
                         Ils l’ont saisi d’abord et avant qu’il ait eu le loisir de<pb n="174" source="#Paris_1688_3"/> les trouver
                         mauvais ; il les a loués modestement en ma présence, et il ne les a pas
                         loués de<pb n="103" source="#Paris_1694_8"/><pb n="107" source="#Paris_1692_7"/>puis<pb n="109" source="#Paris_1691_6"/> devant personne. Je l’excuse, et je n’en demande pas davantage
                         à un <app><lem wit="#Paris_1694_8">auteur</lem> <rdg wit="#Paris_1688_1"> Autheur</rdg></app> ; je le plains <app><lem wit="#Paris_1694_8">même</lem><rdg wit="#Paris_1688_1">meſme</rdg></app> d’avoir écouté de belles choses qu’il n’a
-                        point faites. » <app><lem wit="#Paris_1694_8">La remarque continue sans retour à la ligne marqué</lem><rdg wit="#Paris_1688_1"> <g ref="#pied_de_mouche_simple"></g></rdg></app>Ceux qui par leur condition se trouvent exempts de la
+                        point faites. » <app><lem wit="#Paris_1694_8"></lem><rdg wit="#Paris_1688_1"> <g ref="#pied_de_mouche_simple"></g></rdg></app>Ceux qui par leur condition se trouvent exempts de la
                         jalousie d’ <app><lem wit="#Paris_1694_8">auteur</lem> <rdg wit="#Paris_1688_1">Auteur</rdg></app>, ont ou des passions ou des besoins qui les distraient et
                         les rendent froids sur les conceptions d’autrui : personne presque, par la
                         disposition de son esprit, de son cœur et de sa fortune, n’est en état de se
@@ -515,7 +515,7 @@
                             leurs mains, c’est un premier ouvrage, l’auteur ne s’est pas encore fait un
                             grand nom, il n’a rien qui prévienne en sa faveur, il ne s’agit point de
                             faire sa cour ou de flatter les grands en applaudissant à ses écrits ; on ne
-                            vous demande pas, <app type="clé"><lem wit="#Paris_1694_8">Zélotes</lem> <rdg wit="#Clé_21ab_Z">Louis Cousin</rdg></app>, de vous récrier : C’est un chef-d’œuvre de
+                            vous demande pas, <app type="clé"><lem wit="#Paris_1694_8">Zélotes</lem> <rdg wit="#Clé_21ab_Z"><persName>Louis Cousin</persName></rdg></app>, de vous récrier : C’est un chef-d’œuvre de
                             l’esprit ; l’humanité ne va pas plus loin ; c’est jusqu’où la parole humaine
                             peut s’élever ; on ne jugera à l’avenir du goût de quelqu’un qu’à proportion
                             qu’il en aura pour cette pièce ; phrase outrées, dégoûtantes, qui sentent la
@@ -542,17 +542,17 @@
 
                 <div2 n="23" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/> 
-                        « Que dites-vous du livre d’<app type="clé"><lem wit="#Paris_1694_8">Hermodore</lem> <rdg wit="#Hermodore"></rdg></app> ? —Qu’il est mauvais, répond
-                        <app type="clé"><lem wit="#Paris_1694_8">Anthime</lem> <rdg wit="#Anthime"></rdg></app>.—Qu’il est mauvais ? —Qu’il est tel, continue-t-il, que ce n’est pas
+                        « Que dites-vous du livre d’<app type="clé"><lem wit="#Paris_1694_8"><persName>Hermodore</persName></lem> <rdg wit="#Hermodore"></rdg></app> ? —Qu’il est mauvais, répond
+                        <app type="clé"><lem wit="#Paris_1694_8"><persName>Anthime</persName></lem> <rdg wit="#Anthime"></rdg></app>.—Qu’il est mauvais ? —Qu’il est tel, continue-t-il, que ce n’est pas
                         un livre, ou qui mérite du moins que le monde en parle.—Mais l’avez-vous lu
-                        ? —Non », dit <app><lem wit="#Paris_1694_8">Anthime</lem> <rdg><desc>style="italics"</desc>Anthime</rdg></app>. Que n’ajoute-t-il que <app type="clé"><lem wit="#Paris_1694_8">Fulvie et Mélanie</lem><rdg wit="#Fulvie #Mélanie"></rdg></app> l’ont
-                        condamné sans l’avoir lu, et qu’il est ami de <app type="clé"><lem wit="#Paris_1694_8">Fulvie et de Mélanie</lem> <rdg wit="#Fulvie #Mélanie"></rdg></app> ? </p>
+                        ? —Non », dit <app><lem wit="#Paris_1694_8"><persName>Anthime</persName></lem> <rdg><desc>style="italics"</desc>Anthime</rdg></app>. Que n’ajoute-t-il que <app type="clé"><lem wit="#Paris_1694_8"><persName>Fulvie et Mélanie</persName></lem><rdg wit="#Fulvie #Mélanie"></rdg></app> l’ont
+                        condamné sans l’avoir lu, et qu’il est ami de <app type="clé"><lem wit="#Paris_1694_8"><persName>Fulvie et de Mélanie</persName></lem> <rdg wit="#Fulvie #Mélanie"></rdg></app> ? </p>
                 </div2>
 
                 <div2 n="24" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/> 
                         <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="left">texte illisible</note>
-                        <app><lem wit="#Paris_1694_8">Arsène</lem><rdg wit="#Arsène"></rdg></app>, du plus haut de son esprit, contemple les hommes, et dans
+                        <app><lem wit="#Paris_1694_8"><persName>Arsène</persName></lem><rdg wit="#Arsène"></rdg></app>, du plus haut de son esprit, contemple les hommes, et dans
                         l’éloignement d’où il les voit, il est <app><lem wit="#Paris_1694_8">comme <pb n="106" source="#Paris_1694_8"/> comme</lem> <rdg wit="#Paris_1689_4">comme </rdg></app> effrayé de leur petitesse ;
                         loué, <pb n="110" source="#Paris_1692_7"/> exalté, et porté jusqu’aux <app><lem wit="#Paris_1694_8">cieux</lem> <rdg wit="#Paris1689_4">Cieux</rdg></app> par de certaines gens qui se sont
                         promis <pb n="112" source="#Paris_1691_6"/> de s’admirer réciproquement, il croit, avec quelque mérite qu’il a,
@@ -570,7 +570,7 @@
 
                 <div2 n="25" source="#Paris_1694_8 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="pied_de_mouche_simple"/> 
-                        <app type="clé"><lem wit="#Paris_1694_8">Théocrine</lem> <rdg wit="#Clé_21ab_T">Louis de Courcillon de Dangeau</rdg></app> sait des choses assez inutiles ; il a des sentiments toujours
+                        <app type="clé"><lem wit="#Paris_1694_8">Théocrine</lem> <rdg wit="#Clé_21ab_T"><persName>Louis de Courcillon de Dangeau</persName></rdg></app> sait des choses assez inutiles ; il a des sentiments toujours
                         singuliers ; il est moins profond que méthodique ; il n’exerce que sa
                         mémoire ; il est abstrait, dédaigneux, <pb n="107" source="#Paris_1694_8"/> et il semble toujours rire en
                         lui-mê<pb n="111" source="#Paris_1692_7"/>me de ceux qu’il croit ne le valoir pas. Le hasard fait que je lui lis
@@ -635,7 +635,7 @@
                         beau. Quelle prodigieuse distance entre un bel ouvrage, et un ouvrage
                         parfait ou régulier ! Je ne sais s’il s’en est encore trouvé de ce dernier
                         genre. Il est peut-être moins difficile aux rares génies de rencontrer le
-                        grand et le sublime, que d’éviter toute sorte de fautes. <app type="clé"><lem wit="#Paris_1694_8">Le Cid</lem> <rdg wit="#Le_Cid"></rdg></app> n’a eu
+                        grand et le sublime, que d’éviter toute sorte de fautes. <app type="clé"><lem wit="#Paris_1694_8"><persName>Le Cid</persName></lem> <rdg wit="#Le_Cid"></rdg></app> n’a eu
                         qu’une voix pour lui à sa naissance, qui a été celle de l’admiration ; il
                         s’est vu plus fort que l’autorité et la politique, qui ont tenté vainement
                         de le détruire ; il a réuni en sa faveur des esprits toujours partagés
@@ -643,7 +643,7 @@
                         à le savoir de mémoire, et à prévenir au théâtre les acteurs qui le
                         récitent. Le Cid enfin est l’un des plus beaux poèmes que l’on puisse faire
                         ; et l’une des meilleurs critiques qui aient été faites sur aucun sujet est
-                        celle du <app type="clé"><lem wit="#Paris_1694_8">Cid</lem> <rdg wit="#Le_Cid"></rdg></app>.</p>
+                        celle du <app type="clé"><lem wit="#Paris_1694_8"><persName>Cid</persName></lem> <rdg wit="#Le_Cid"></rdg></app>.</p>
                 </div2>
 
                 <div2 n="30" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
@@ -652,15 +652,15 @@
                             Quelle prodigieuse distance entre un bel ouvrage et un ouvrage parfait
                             ou régulier ! Je ne sais s’il s’en <pb n="110" source="#Paris_1694_8"/>est encore trouvé de ce dernier
                             genre. Il est peut-être moins difficile aux rares génies de rencontrer
-                            le grand et le sublime que d’éviter toute sorte de fautes.<pb n="112" source="#Paris_1692_7"/> Le Cid n’a eu
+                            le grand et le sublime que d’éviter toute sorte de fautes.<pb n="112" source="#Paris_1692_7"/> <persName>Le Cid</persName> n’a eu
                             qu’une voix pour lui à sa naissance, qui a <pb n="115" source="#Paris_1691_6"/> été celle de l’admiration ;
                             il s’est vu plus fort que l’autorité et la politique, qui ont tenté
                             vainement de le détruire ; il a réuni en sa faveur des esprits toujours
                             partagés d’opinions et de sentiments : les grands et le peuple ; ils
                             s’accordent tous à le savoir de mémoire et à prévenir au théâtre les
-                            acteurs qui le récitent. <app><lem wit="#Paris_1694_8">Le Cid</lem><rdg wit="#Le_Cid"></rdg></app>, enfin, est l’un des plus beaux poèmes
+                            acteurs qui le récitent. <app><lem wit="#Paris_1694_8"><persName>Le Cid</persName></lem><rdg wit="#Le_Cid"></rdg></app>, enfin, est l’un des plus beaux poèmes
                             que l’on puisse faire, et l’une des meilleures critiques qui ait été
-                            faite sur aucun sujet est celle du <app type="clé"><lem wit="#Paris_1694_8">Cid</lem> <rdg wit="#Le_Cid"></rdg></app>.</p>
+                            faite sur aucun sujet est celle du <app type="clé"><lem wit="#Paris_1694_8"><persName>Cid</persName></lem> <rdg wit="#Le_Cid"></rdg></app>.</p>
                 </div2>
 
             </div1>
