@@ -227,12 +227,16 @@
                         <persName>Claude Bazin de Bezons</persName>
                         <birth>1617</birth>
                         <death>1684</death>
-                        <note>académicien, père de Louis Bazin de Bezons</note>
+                        <note>académicien, père de <persName ref="#Bazins_2">Louis Bazin de Bezons</persName></note>
                     </person>
                     <person xml:id="Bazins_2">
                         <persName>Louis Bazin de Bezons</persName>
                         <death>1700</death>
-                        <note> agistrat et haut fonctionnaire français, fils de <persName ref="#Bazins_1">Claude Bazin de Bezons</persName>.</note>
+                        <note> Magistrat et haut fonctionnaire français, fils de <persName ref="#Bazins_1">Claude Bazin de Bezons</persName>.</note>
+                    </person>
+                    <person xml:id="Boileau">
+                        <persName>Boileau</persName>
+                        <note>Ami de l'<persName ref="#auteur">auteur</persName> avec lequel il a échangé des lettes à propos de cette oeuvre.</note>
                     </person>
                     <person xml:id="GdB">
                         <persName>Godefroy de Bouillon</persName>
@@ -437,6 +441,9 @@
                     <place xml:id="Opera">
                         <placeName>l'Opéra</placeName>
                     </place>
+                    <place xml:id="Bibliotheque_imperiale">
+                        <placeName>Bibliothèque impériale</placeName>
+                    </place>
                     <place xml:id="palais_farnese">
                         <placeName>Palais Farnèse</placeName>
                         <note>palais dont les plans, les décorations et les fresques ont été
@@ -466,7 +473,7 @@
                         <objectIdentifier>
                             <msName>Mercure Galant</msName>
                         </objectIdentifier>
-                        <note>revue française fondée en <date>1672</date> et qui après plusieurs formules et équipes éditoriales, disparaît en 1965</note>
+                        <note>revue française fondée en <date>1672</date> et qui après plusieurs formules et équipes éditoriales, disparaît en <date>1965</date></note>
                     </object>
                 </listObject>
                 <listOrg>
@@ -496,7 +503,7 @@
                         inconnue). Les notes renseignées comme des ajouts viennent de moi pour
                         aider à la compréhension du texte, qu'elles soient de type "glossaire" ou
                         "analyse".</p>
-                    <p>Des notes décrivant les diverses clés utilisées dans les remarques ont été ajoutées et elles proviennent de "LES CARACTERES DE THEOPHRASTE TRADUITS DU GREC AVEC LES CARACTERES OU LES MOEURS DE CE SIECLE.
+                    <p>Des notes décrivant les diverses clés utilisées dans les remarques ont été ajoutées et elles proviennent de "LES CARACTERES DE THEOPHRASTE TRADUITS DU GREC AVEC LES CARACTERES OU LES MOEURS DE CE SIECLE".
                         Edition critique par Marc Escola, publié en 1999 à <placeName ref="#Paris">Paris</placeName>, édition Honoré Champion</p>
                 </interpretation>
                 <normalization>
@@ -632,8 +639,8 @@
         </encodingDesc>
         <profileDesc>
             <creation>
-                <time> Publié en 1687 pour la première fois mais en préparation depuis 1685 au moins
-                    puisqu'il en avait parlé à Boileau quelques temps avant la première publication
+                <time> Publié en <date>1687</date> pour la première fois mais en préparation depuis <date>1685</date> au moins
+                    puisqu'il en avait parlé à <persName ref="#Boileau">Boileau</persName> quelques temps avant la première publication
                     de l'ouvrage.</time>
             </creation>
             <textDesc n="recueil de remarques">
@@ -653,20 +660,20 @@
                 </setting>
             </settingDesc>
             <particDesc>
-                <p>Caractère numéro 7, mention D'Hozier qui est un nom de famille célèbre de
+                <p>Caractère numéro 7, mention <persName ref="#Hozier">D'Hozier</persName> qui est un nom de famille célèbre de
                     généalogistes. Le chef de cette famille a d'ailleurs écrit un ouvrage de 150
-                    volumes manuscrits et conservés dans la Bibliothèque impériale.</p>
-                <p>Caractère numéro 14, mention de Geoffreoy de La Bruyère qui était effectivement
-                    un personnage connu de l'Histoire de France comme le dit La Bruyère et il
+                    volumes manuscrits et conservés dans la <placeName ref="#Bibliotheque_imperiale">Bibliothèque impériale</placeName>.</p>
+                <p>Caractère numéro 14, mention de <persName ref="#GdlB">Geoffreoy de La Bruyère</persName> qui était effectivement
+                    un personnage connu de l'Histoire de <placeName ref="#France">France</placeName> comme le dit <persName ref="#auteur">La Bruyère</persName> et il
                     semblerait qu'ils ne sont pas apparentés. Cependant, l'auteur utilise l'ironie
                     pour dire que s'il devient connu lui-aussi, alors ils deviendront forcément
                     décrits comme apparentés.</p>
-                <p>Caractère numéro 14, mention de Godefroy de Bouillon qui était chevalier franc à
-                    qui on va proposer de devenir le premier souverain de Jérusalem à la suite de la
-                    Première Croisade, il va cependant refuser ce titre.</p>
+                <p>Caractère numéro 14, mention de <persName ref="#GdB">Godefroy de Bouillon</persName> qui était chevalier franc à
+                    qui on va proposer de devenir le premier souverain de <placeName ref="#Jerusalem">Jérusalem</placeName> à la suite de la
+                    <date>Première Croisade</date>, il va cependant refuser ce titre.</p>
             </particDesc>
             <langUsage>
-                <language ident="fra">français du 17ème siècle</language>
+                <language ident="fra">français du <date>17ème siècle</date></language>
                 <language ident="lat">latin</language>
             </langUsage>
         </profileDesc>
@@ -749,6 +756,9 @@
                 <p>Début des séances de XSL avec les premiers tamplates mis dans un fichier XSL externe.</p>
                 <p>Précision de la balise "distributor" utilisée dans le "sourceDesc". Ajout d'une balise "orgName" également pour chaque édition étudiée.
                 Ajout d'une personne dans les entités nommées.</p>
+                <date>2022.11.29</date>
+                <p>Selon les devoirs demandés, ajout du template de notre choix ("note clé affichées en italique et en bleu") et affichage en tête du body du fichier HTML, le titre entier de l'ouvrage en gras, 14pt, centré.</p>
+                <p>Ajout de "persName", "placeName", "dateé et d'entités normées qui étaient dans mon "TEI Header" et qui n'étaient pas précisés.</p>
             </change>
         </revisionDesc>
     </teiHeader>
@@ -756,7 +766,7 @@
     <text>
         <front>
             <titlePage>
-                <docAuthor source="#Paris_1688_3"><persName ref="#auteur"></persName>Jean de La Bruyère</docAuthor>
+                <docAuthor source="#Paris_1688_3"><persName ref="#auteur">Jean de La Bruyère</persName></docAuthor>
                 <docTitle>
                     <titlePart>
                         <title type="full">Les caractères de Théophraste, traduits du grec, avec Les
@@ -798,7 +808,7 @@
                 <imprimatur style="#italic">Avec Privilège de Sa Majesté</imprimatur>
                 <docEdition style="#upper_case #black #small_medium #bold #italic" n="3"/>
                 <docImprint>
-                    <country>France</country>
+                    <country><placeName ref="#France">France</placeName></country>
                     <placeName style="#upper_case #black #small_medium #bold #centered">A
                         Paris</placeName>
                     <persName ref="#editeur" style="#black #small">Chez E S T I E N N E M I C H A L
@@ -1035,7 +1045,7 @@
                         </app><seg>d’une généalogie que <persName ref="#Hozier">D’Hozier</persName><note
                             type="glossaire" resp="#J_M">nom de famille célèbre de généalogistes. Le
                             chef de cette famille a d'ailleurs écrit un ouvrage de 150 volumes
-                            manuscrits et conservés dans la Bibliothèque impériale.</note></seg> ne lui a
+                            manuscrits et conservés dans la <placeName ref="#Bibliotheque_imperiale">Bibliothèque impériale</placeName>.</note></seg> ne lui a
                         pas faite, il devient enfin un petit prince.</p>
                 </div2>
 
