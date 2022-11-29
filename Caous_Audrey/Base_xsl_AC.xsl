@@ -20,6 +20,19 @@
         <p><xsl:apply-templates/></p>
     </xsl:template>
     
+        <xsl:template match="tei:div2/g">
+        <b><xsl:apply-templates/></b>
+        <p style="green"><xsl:apply-templates/></p>
+    </xsl:template>
+    
+    <xsl:template match="tei:titlePage">
+        <b><xsl:apply-templates/></b>
+        <fo:block text-align="center" font-size="14pt"><xsl:apply-templates/></fo:block>
+        <p style="green"><xsl:apply-templates/></p>
+    </xsl:template>
+    
+    
+    
     <xsl:template match="tei:persName|tei:placeName|tei:term">
         <b><xsl:apply-templates/></b>
     </xsl:template>
