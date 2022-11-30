@@ -123,16 +123,17 @@
                 <docAuthor>
                     <note style="written"> la bruyère, Jean de</note>
                 </docAuthor>
+                <a><img src="desk/" title="template" ></a>
                 <docTitle>
-                    <titlePart>LES</titlePart>
-                    <titlePart>CARACT7RES</titlePart>
-                    <titlePart>DE THEOPHRASTE</titlePart>
-                    <titlePart>TRADUITS DU GREC:</titlePart>
-                    <titlePart>avec</titlePart>
-                    <titlePart>LES CARACTERES</titlePart>
-                    <titlePart>ou</titlePart>
-                    <titlePart>LES MOEURS</titlePart>
-                    <titlePart>DE CE SIECLE</titlePart>
+                    <titlePart><p align='center'><FONT size="14">LES</Font></p></titlePart>
+                    <titlePart><p align='center'><FONT size="14">CARACT7RES</Font></p></titlePart>
+                    <titlePart><p align='center'><FONT size="14">DE THEOPHRASTE</Font></p></titlePart>
+                    <titlePart><p align='center'><FONT size="14">TRADUITS DU GREC:</Font></p></titlePart>
+                    <titlePart><p align='center'><FONT size="14">avec</Font></p></titlePart>
+                    <titlePart><p align='center'><FONT size="14">LES CARACTERES</Font></p></titlePart>
+                    <titlePart><p align='center'><FONT size="14">ou</Font></p></titlePart>
+                    <titlePart><p align='center'><FONT size="14">LES MOEURS</Font></p></titlePart>
+                    <titlePart><p align='center'><FONT size="14">DE CE SIECLE</Font></p></titlePart>
                 </docTitle>
                 <docEdition source="#Paris_1688_Cinquième_édition"> Cinquième édition augmenté de plusieurs Remarques
                     <app>
