@@ -5,8 +5,8 @@
     version="1.0">
     
 
+<xsl:template match="tei:TEI">
 
-<xsl:template match="tei:TeiHeader">
 <html>
             
     <head/>
@@ -19,7 +19,7 @@
 
 </xsl:template>    
     
-
+<xsl:template match="tei:TeiHeader">
     <xsl:template match="tei:div2">
         <p>
             <xsl:apply-templates/>
@@ -27,15 +27,28 @@
               
     </xsl:template>
     
+<xsl:template match = "tei:front>
+    <b>
+        <xsl:apply-templates/>
+    </b>
+</xsl:template>
+    
+    <xsl:template match= "tei:head">
+        <p><b><xsl:apply-templates/></b></p>
+    </xsl:template>
+    
     <xsl:template match="tei:term">
         <b>
-            <xsl:apply-templates>
-                
-            </xsl:apply-templates>
+            <xsl:apply-templates/>
+                                    
         </b>
+   
     </xsl:template>
-    <xsl:template match="p[ancestor::div2[contains(@source,'ed1')]])></xsl:template>
+    <xsl:template match="tei:p[ancestor::tei:div2[contains(@source,'ed1')]]">
+        <p style="color:red">
+            <xsl:apply-templates/>
+            </p>
+        </xsl:template>
 
     
 </xsl:stylesheet>
-
