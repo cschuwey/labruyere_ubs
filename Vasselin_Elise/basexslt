@@ -4,18 +4,27 @@
     exclude-result-prefixes="xs"
     version="1.0">
     
+<xsl:template match="tei:titleStmt">
+        
+        <p style="14 pt, center"> <b> <xsl:apply-templates/>  </b>  </p>  
+        
+    </xsl:template>      
 <xsl:template match="tei:TEI"> 
     
+  
 <html>
 <head/>
 <body>
     
-<xsl:apply-templates>    
-</xsl:apply-templates>
+    <xsl:apply-templates>    
+    </xsl:apply-templates>
+
 </body>
 </html>   
 </xsl:template>
 <xsl:template match="tei:teiHeader"/>  
+    
+  
     
 <xsl:template match="tei:div2">
     <p>
@@ -48,6 +57,8 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>  
+   
+ 
     
     
     
