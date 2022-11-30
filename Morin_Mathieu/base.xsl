@@ -38,6 +38,22 @@
         </p>
     </xsl:template>
     
+    <xsl:template match="tei:rdg"/>
+    
+    <xsl:template match="tei:titlePage">
+        <b>
+            <xsl:apply-templates/>
+        </b>                    
+    </xsl:template>
+    
+    <xsl:template match="tei:titlePart">
+        <p align="center">
+            <b>
+                <xsl:apply-templates/>
+            </b>
+        </p>
+    </xsl:template>
+    
 </xsl:stylesheet>
 
 
