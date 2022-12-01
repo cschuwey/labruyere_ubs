@@ -19,7 +19,7 @@
 
 </xsl:template>    
     
-<xsl:template match="tei:TeiHeader">
+<xsl:template match="tei:TeiHeader"/>
     <xsl:template match="tei:div2">
         <p>
             <xsl:apply-templates/>
@@ -27,21 +27,23 @@
               
     </xsl:template>
     
-<xsl:template match = "tei:front>
-    <b>
+<xsl:template match = "tei:front">
+    <p>
         <xsl:apply-templates/>
-    </b>
+    </p>
 </xsl:template>
     
     <xsl:template match= "tei:head">
-        <p><b><xsl:apply-templates/></b></p>
+        <p style="text-align: center; font-size:14pt; font-weight: bold; font-style: calibri">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     
     <xsl:template match="tei:term">
-        <b>
+        <p style="color:red; font-weight: italic">
             <xsl:apply-templates/>
                                     
-        </b>
+        </p>
    
     </xsl:template>
     <xsl:template match="tei:p[ancestor::tei:div2[contains(@source,'ed1')]]">
@@ -52,3 +54,4 @@
 
     
 </xsl:stylesheet>
+
