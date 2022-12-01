@@ -3,12 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs"
     version="1.0">
-    
-<xsl:template match="tei:titleStmt">
-        
-        <p style="14 pt, center"> <b> <xsl:apply-templates/>  </b>  </p>  
-        
-    </xsl:template>      
+  
 <xsl:template match="tei:TEI"> 
     
   
@@ -23,27 +18,22 @@
 </html>   
 </xsl:template>
 <xsl:template match="tei:teiHeader"/>  
-    
+ 
+   
   
-    
 <xsl:template match="tei:div2">
     <p>
         <xsl:apply-templates/>        
     </p>
 </xsl:template>
-    
-<xsl:template match="tei:front">
-    <b>
-        <xsl:apply-templates/>
-    </b>
-    
-</xsl:template>    
+  
     
     <xsl:template match="tei:head">
-        <p><b><xsl:apply-templates/></b></p>
+        <p style="text-align: center; font-size:18pt; font-weight: bold"><xsl:apply-templates/></p>
   
     </xsl:template>    
     
+   
     <xsl:template match="tei:persName">
         <b>
             <xsl:apply-templates/>
@@ -52,13 +42,34 @@
     </xsl:template>  
     
     
+    <xsl:template match="tei:docTitle">
+        <b><p style="text-align: center; font-size:14pt; font-weight: bold">
+            <xsl:apply-templates/>
+      </p></b>
+        
+    </xsl:template>     
+    
+    <xsl:template match="tei:docEdition">
+        <i>
+            <xsl:apply-templates/>
+        </i>
+        
+    </xsl:template>  
+    
+    <xsl:template match="tei:docAuthor">
+        <i>
+            <xsl:apply-templates/>
+       </i>
+        
+    </xsl:template>  
+    
     <xsl:template match="tei:p[ancestor::tei:div2[contains(@source,Paris_unknown)]]">
-        <p style="color:red">
+        <p style="color:grey">
             <xsl:apply-templates/>
         </p>
     </xsl:template>  
    
- 
+
     
     
     
