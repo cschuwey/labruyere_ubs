@@ -217,13 +217,13 @@
                             <lem> ceux-ci </lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> ceux-cy </rdg>
                         </app> les grandes passions, forment entre elles l’aversion et <seg>
-                            l’antipathie <note resp="#MC"> Aversion instinctive, irraisonnée (opposé
+                            l’antipathie <note resp="#MC" type="glossaire"> Aversion instinctive, irraisonnée (opposé
                                 à sympathie).</note></seg>. </p>
                 </div2>
 
                 <div2 source="#Paris_1699_10_1 #Paris_1690_5_1" n="2">
                     <p>
-                        <g ref="#fr_pieddemouche"> </g> Il y a dans quelques femmes une grandeur
+                        <g ref="#fr_pieddemouche"/> Il y a dans quelques femmes une grandeur
                         artificielle, attachée au mouvement des yeux, à un air de tête, aux façons
                         de marcher, et qui ne va pas plus loin ; un esprit éblouissant qui impose,
                         et que l’on n’estime que parce qu’il n’est pas approfondi. Il y a dans
@@ -240,7 +240,7 @@
 
                 <div2 source="#Paris_1699_10_1 #Paris_1690_5_1" n="3">
                     <p>
-                        <g ref="#fr_pieddemouche"> </g>
+                        <g ref="#fr_pieddemouche"/> 
                         <app>
                             <lem>J’ai</lem>
                             <rdg wit="#Paris_1699_10_1 #Paris_1690_5_1"> J'ay </rdg>
@@ -317,12 +317,12 @@
                         </app>
                         <pb n="139" source="#Paris_1690_5_1"/> les voix, et je leur prononce, de la
                         part de tous les hommes ou de la plus grande partie, <seg> que <seg> le
-                                blanc et le rouge <note resp="#MC"> Le blanc et le rouge sont le
+                                blanc et le rouge <note resp="#MC" type="glossaire"> Le blanc et le rouge sont le
                                     maquillage. </note></seg> les rend affreuses et dégoûtantes ;
                             que le rouge seul les vieillit et les déguise ; qu’ils haïssent autant à
                             les voir avec de la céruse sur le visage, qu’avec de fausses dents en la
                             bouche, et des boules de cire dans les mâchoires ; qu’ils protestent
-                            sérieusement contre tout l’artifice dont elles usent <note resp="#MC">
+                            sérieusement contre tout l’artifice dont elles usent <note resp="#MC" type="interprétation">
                                 Jean de La Bruyère explique que les hommes détestent lorsque les
                                 femmes se maquillent. Il compare le maquillage à des défauts du
                                 visage telles que des fausses dents. </note></seg>
@@ -354,11 +354,11 @@
                         seulement qui ride et qui enlaidit les autres femmes ; elle oublie du moins
                         que l’âge est écrit sur le visage. <seg> La même parure qui a autrefois
                             embelli sa jeunesse, défigure enfin sa personne, éclaire les défauts de
-                            sa vieillesse <note resp="#MC"> Jean De La Bruyère explique que les
+                            sa vieillesse <note resp="#MC" type="interprétation"> Jean De La Bruyère explique que les
                                 bijoux et le maquillage que les femmes portaient en étant jeune les
                                 enlaidissent lorsqu'elles sont plus vieilles. Il sous-entend qu'une
                                 femme plus âgée ne devrait plus se maquiller. </note></seg>. La
-                            <seg> mignardise <note resp="#MC"> Délicatesse, grâce affectée.
+                            <seg> mignardise <note resp="#MC" type="glossaire"> Délicatesse, grâce affectée.
                             </note></seg> et l’affectation l’accompagnent dans la douleur et dans la
                         fièvre : elle meurt parée et en rubans de couleur. </p>
                 </div2>
@@ -406,7 +406,7 @@
                             <rdg wit="#Paris_1699_10_1"> ; </rdg>
                         </app> elle le croit ainsi, et pendant qu’elle <term ref="#Coquetterie"> se regarde au miroir </term>, qu’elle
                         met du rouge sur son visage et qu’elle place des <seg> mouches <note
-                                resp="#MC"> Petit morceau de taffetas noir que les femmes mettaient
+                                resp="#MC" type="glossaire"> Petit morceau de taffetas noir que les femmes mettaient
                                 sur la peau pour en faire ressortir la blancheur. </note></seg> ,
                         elle convient qu’il n’est pas permis à un certain âge de faire la jeune, et
                         que <persName type="pseudo" ref="#Clarice"> Clarice </persName> en effet,
@@ -454,7 +454,7 @@
                                 <lem> L’agrément </lem>
                                 <rdg wit="#Paris_1690_5_1"> l'agréement </rdg>
                             </app>
-                            <note resp="#MC"> Qualité d'une chose, d'un être, qui les rend
+                            <note resp="#MC" type="glossaire"> Qualité d'une chose, d'un être, qui les rend
                                 agréables. </note>
                         </seg>est arbitraire <app>
                             <rdg wit="#Paris_1690_5_1 #Paris_1699_10_1"> : </rdg>
