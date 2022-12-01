@@ -18,8 +18,9 @@
     
     <xsl:template match="tei:teiHeader"></xsl:template>
     
-    <xsl:template match="tei:front">
-        <center><xsl:apply-templates></xsl:apply-templates></center>
+    <xsl:template match="tei:titlePart">
+        <center><p style="front-size:14pt">
+            <xsl:apply-templates></xsl:apply-templates></p></center>
     </xsl:template>
     
     <xsl:template match="tei:head">
@@ -45,5 +46,3 @@
     </xsl:template>
     
 </xsl:stylesheet>
-
-
