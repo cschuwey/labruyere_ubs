@@ -37,6 +37,21 @@
         <p style="color:red">  <xsl:apply-templates/> </p>
         
     </xsl:template>
+    
+    <xsl:template match="div2[note]">
+        <p style="italic">  <xsl:apply-templates/> </p>
+        
+    </xsl:template>
+    
+    <xsl:template match="tei:titlePage">
+        <b><xsl:apply-templates></xsl:apply-templates></b>
+        <teiHeader> <titlestmt><title style="bold" font-size="14pt"> <xsl:apply-templates></xsl:apply-templates></title></titlestmt></teiHeader>
+        <xsl:apply-templates/>
+        
+    </xsl:template>
+    
+  
+        
   
     
    
@@ -44,5 +59,6 @@
 
     
 </xsl:stylesheet>
+
 
 
