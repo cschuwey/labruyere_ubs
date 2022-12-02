@@ -42,6 +42,9 @@
         </xsl:apply-templates>
       <center/>
       </body>
+      <xsl:apply-templates>
+      </xsl:apply-templates>
+      <style="font-size:14pt"/>
       </html>
      </xsl:template>
 </xsl:stylesheet>
