@@ -32,5 +32,17 @@
     </b>
 </xsl:template>
     
-
+<xsl:template match="tei: teiHeader">
+   <html>
+      <head/>
+      <body>
+        <title>Les Caractères de la Bruyère</title>
+        <b></b>
+        <xsl:apply-templates>
+        </xsl:apply-templates>
+      <center/>
+      </body>
+      </html>
+     </xsl:template>
 </xsl:stylesheet>
+
