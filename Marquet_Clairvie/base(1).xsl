@@ -31,6 +31,20 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    <xsl:template match="tei:head">
+        <h1 style="font-size:14pt; text-align:center; font-weight:bold">
+            <xsl:apply-templates/>
+        </h1>
+    </xsl:template>
+    <xsl:template match="tei:docTitle">
+   
+    </xsl:template>
+    <xsl:template match="tei:titlePage">
+        <p style="font-size:14pt; font-style:italic">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
 </xsl:stylesheet>
 
 
