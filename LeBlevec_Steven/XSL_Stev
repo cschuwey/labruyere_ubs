@@ -4,14 +4,17 @@
     exclude-result-prefixes="xs"
     version="1.0">
     
-<xsl:template match="tei:TEI">
-<html>
-<head/>
-<body>
-<xsl:apply-templates/>
-</body>
-</html>
-</xsl:template>
+ <xsl:template match="tei:TEI">
+ <html>
+ <head>
+ <body>
+ <title>Les caractères de Théophraste, traduits du grec, avec les caractères ou les moeurs de ce siècle</title>
+ <p style="text-align:center ; font-size: 14pt"/> 
+ <b/> 
+ <xsl:apply-templates/>
+ </head>         
+ </body>
+ </html>
  
  <xsl:template match="tei:div2">
  <p>
@@ -25,10 +28,17 @@
  </b>
  </xsl:template>
   
- <xsl:template match="tei:p[ancestor::tei div2[contains(@source,'Edition de 1688')]]>
+ <xsl:template match="tei:div2 [contains (@source, '#Paris_1688_Premiere')]">
  <p style="color:red">
  <xsl:apply-templates/>   
  </p>
-    
+ <xsl:template/>
+     
+ <xsl:template match="tei:div2 [contains (@div2, '#Paris_1692_Septieme')]">
+ <p>
+ <xsl:apply-templates/>
+ </p>
+ </xsl:template>
+     
  </xsl:template>
 </xsl:stylesheet>
