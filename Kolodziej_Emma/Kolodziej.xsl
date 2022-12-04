@@ -7,7 +7,9 @@
         <html>
             <head/>
             <body>
-                <xsl:apply-templates/>
+                <xsl:template match="tei:docTitle">
+                    <p style="font-size:14pt center strong"><xsl:apply-templates/></p>
+                </xsl:template>
             </body>
         </html>
     </xsl:template>
@@ -21,6 +23,12 @@
     <xsl:template match="tei:div2[contains(@source,'#PARIS_1689_4')]">
         <p style="color:red"><xsl:apply-templates/></p>
     </xsl:template>
+    <xsl:template match="tei:pb[contains(@source,'#PARIS_1691_6')]">
+        <p style="page-break-before:always"><xsl:apply-templates/></p>
+    </xsl:template>
+
+    <!-- J'ai trouver ce code pour créer des sauts de page et ainsi voir la mise en forme d'une source par exemple. Je ne suis pas sûre que cela fonctionne, c'est un test-->
+
     
 </xsl:stylesheet>
 
