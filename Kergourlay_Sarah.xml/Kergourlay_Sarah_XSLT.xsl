@@ -18,16 +18,24 @@
         </p>
     </xsl:template>
     <xsl:template match="tei:persName">
-        <b><xsl:apply-templates/></b>
+        <b>
+            <xsl:apply-templates/>
+        </b>
     </xsl:template>
-    <xsl:template match="tei:div2[contains(@source,'#Paris_1688_1')]">
-        <p style="color:red"><xsl:apply-templates></xsl:apply-templates></p>
+    <xsl:template match="tei:div2[contains(@source, '#Paris_1688_1')]">
+        <p style="color:red">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     <xsl:template match="tei:p//title">
-        <i><xsl:apply-templates><\i>
-    <\xsl:template>
+        <i>
+            <xsl:apply-templates/>
+        </i>
+    </xsl:template>
     <xsl:template match="tei:front">
-        <h1 style="font-style:bold font-size:14pt text-align:center"><xsl:apply-templates><\h1>
-    <\xsl:template>
+        <h1 style="font-style:bold font-size:14pt text-align:center">
+            <xsl:apply-templates/>
+        </h1>
+    </xsl:template>
 
 </xsl:stylesheet>
