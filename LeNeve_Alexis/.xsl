@@ -26,26 +26,14 @@
 </xsl:template>
     
 <xsl:template match="tei:persName">
-    
-    <b>
-        <xsl:apply-templates></xsl:apply-templates>
-    </b>
-</xsl:template>
-    
-<xsl:template match="tei: teiHeader">
-   <html>
+    <html>
       <head/>
       <body>
-        <title>Les Caractères de la Bruyère</title>
-        <b></b>
         <xsl:apply-templates>
-        </xsl:apply-templates>
-      <center/>
-      </body>
-      <xsl:apply-templates>
-      </xsl:apply-templates>
-      <style="font-size:14pt"/>
-      </html>
-     </xsl:template>
-</xsl:stylesheet>
-
+        <title>Les Caractères de la Bruyère</title></xsl:apply-templates></body>
+        <xsl:apply-templates>
+          <p>
+          <b/></p></xsl:apply-templates>
+          <center/>
+          <style>"font-size:14pt"</style></html>
+</xsl:template>
