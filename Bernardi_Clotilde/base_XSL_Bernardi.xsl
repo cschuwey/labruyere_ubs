@@ -7,13 +7,20 @@
         <html>
             <head> </head>
             <body>
-                
+              <!-- Ici le titre du document en gras, 14pt et centré-->
+                   <xsl:template match="tei:title">
+                       <p style="text-align:center ; font-size: 14pt"> 
+                           <b> 
                 <xsl:apply-templates/>
+                               </p>
+                           </b>
             </body>
         </html>
     </xsl:template>
     <xsl:template match="tei:teiHeader"/>
 
+
+    
     <xsl:template match="tei:div2">
 
         <p>
@@ -28,4 +35,9 @@
     <xsl:template match="tei:div2 [contains (@source, '#Paris_1688_Premiere')]">
    <p style="color:red"> <xsl:apply-templates></xsl:apply-templates></p>
     </xsl:template>
+    
+        <!-- J'ai voulu mettre tous les pieds de mouche en gras-->
+    <xsl:template match="tei:p/tei:g"> 
+        <b> <xsl:apply-templates/> </b>
+        </xsl:template>
 </xsl:stylesheet>
