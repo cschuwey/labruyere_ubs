@@ -7,15 +7,20 @@
         <html>
             <head/>
             <body>
-            <xsl:apply-templates/>    
+                <xsl:apply-templates/>    
             </body>
         </html>
-       
+        
     </xsl:template>
     <xsl:template match="tei:teiHeader">
     </xsl:template>
     <xsl:template match="tei:text">
         <xsl:apply-templates/>         
+    </xsl:template>
+       <xsl:template match="tei:titlePage[contains(@source,'Paris_1688')]">
+        <font size="14">
+           <b><xsl:apply-templates/></b>
+        </font>        
     </xsl:template>
     <xsl:template match="tei:div2/tei:p">
         <p><xsl:apply-templates/></p>
@@ -23,12 +28,22 @@
     </xsl:template>
     
     <xsl:template match="tei:persName|tei:term">
-       <b><xsl:apply-templates/></b>        
+        <b><xsl:apply-templates/></b>        
     </xsl:template>
     
     <xsl:template match="tei:p[contains(@source,'Paris_1688')]">
         <b style="color:red"><xsl:apply-templates/></b>
     </xsl:template>
+    
+    <xsl:template match="tei:placeName">
+        <b style="color:purple"><xsl:apply-templates/></b>        
+    </xsl:template>
+    
+    <xsl:template match="tei:pb[contains (@source,'Paris_1688')]">
+        <xsl:apply-templates/>     
+    </xsl:template>
+    
+ 
+    
 </xsl:stylesheet>
-
 
