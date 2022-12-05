@@ -123,17 +123,16 @@
                 <docAuthor>
                     <note style="written"> la bruyère, Jean de</note>
                 </docAuthor>
-                <a><img src="https://github.com/cschuwey/labruyere_ubs/blob/397cf972f375d74204c9b6131772945dfd324621/Brassac_paul/Sans%20titre.pdf" title="template" ></a>
                 <docTitle>
-                    <titlePart><p align='center'><FONT size="14">LES</Font></p></titlePart>
-                    <titlePart><p align='center'><FONT size="14">CARACT7RES</Font></p></titlePart>
-                    <titlePart><p align='center'><FONT size="14">DE THEOPHRASTE</Font></p></titlePart>
-                    <titlePart><p align='center'><FONT size="14">TRADUITS DU GREC:</Font></p></titlePart>
-                    <titlePart><p align='center'><FONT size="14">avec</Font></p></titlePart>
-                    <titlePart><p align='center'><FONT size="14">LES CARACTERES</Font></p></titlePart>
-                    <titlePart><p align='center'><FONT size="14">ou</Font></p></titlePart>
-                    <titlePart><p align='center'><FONT size="14">LES MOEURS</Font></p></titlePart>
-                    <titlePart><p align='center'><FONT size="14">DE CE SIECLE</Font></p></titlePart>
+                    <titlePart>LES</titlePart>
+                    <titlePart>CARACT7RES</titlePart>
+                    <titlePart>DE THEOPHRASTE</titlePart>
+                    <titlePart>TRADUITS DU GREC:</titlePart>
+                    <titlePart>avec</titlePart>
+                    <titlePart>LES CARACTERES</titlePart>
+                    <titlePart>ou</titlePart>
+                    <titlePart>LES MOEURS</titlePart>
+                    <titlePart>DE CE SIECLE</titlePart>
                 </docTitle>
                 <docEdition source="#Paris_1688_Cinquième_édition"> Cinquième édition augmenté de plusieurs Remarques
                     <app>
@@ -148,6 +147,9 @@
             </titlePage>
         </front>
         <body>
+            <p>
+                Nombre de variantes:
+            </p>
             <div1>
                 <head> Des Esprits Forts </head>
                 <div2 source="#Paris_1688_Première_édition" n="1">
@@ -179,15 +181,15 @@
                         dont on compte les arpents, et dont on montre les bornes. Je ne m’étonne pas
                         que des hommes qui s’appuient sur un atome chancellent dans les moindres
                         efforts qu’ils font pour sonder la vérité, si avec des vues si courtes ils
-                        ne percent point à travers le ciel et les astres, jusques à <persName type="entité_divine"> Dieu </persName> même ; si,
+                        ne percent point à travers le ciel et les astres, jusques à <persName ref="entité_divine"> Dieu </persName> même ; si,
                         ne s’apercevant point ou de l’excellence de ce qui est esprit, ou de la
                         dignité de l’âme, ils ressentent encore moins combien elle est difficile à
                         assouvir, combien la terre entière est au-dessous d’elle, de quelle
-                        nécessité lui devient un être souverainement parfait, qui est <persName type="entité_divine"> Dieu </persName>, et quel
+                        nécessité lui devient un être souverainement parfait, qui est <persName ref="entité_divine"> Dieu </persName>, et quel
                         besoin indispensable elle a d’une religion qui le lui indique, et qui lui en
                         est une caution sûre. Je comprends au contraire fort aisément qu’il est
                         naturel à de tels esprits de tomber dans l’incrédulité ou l’indifférence, et
-                        de faire servir <persName type="entité_divine"> Dieu </persName> et la religion à la politique, c’est-à-dire à l’ordre
+                        de faire servir <persName ref="entité_divine"> Dieu </persName> et la religion à la politique, c’est-à-dire à l’ordre
                         et à la décoration de ce <pb n="483" source="#Paris_1688_Première_édition"/> monde, la seule chose selon eux qui mérite qu’on y
                         pense. </p>
                 </div2>
@@ -212,7 +214,7 @@
                         et le peuple. </p>
                 </div2>
                 <div2 source="#Paris_1688_Première_édition" n="6">
-                    <p> <g ref="pieddemouche"/>L’on doute de <persName type="entité_divine"> Dieu </persName> dans une pleine santé, comme l’on doute que ce soit
+                    <p> <g ref="pieddemouche"/>L’on doute de <persName ref="entité_divine"> Dieu </persName> dans une pleine santé, comme l’on doute que ce soit
                         pécher que d’avoir un commerce avec une personne libre<note resp="#PB" type="glossaire"> une fille </note>. Quand l’on devient
                         malade, et que l’hydropisie est formée, l’on quitte sa concubine, et l’on
                         croit en Dieu. </p>
@@ -252,26 +254,26 @@
                 </div2>
                 <div2 source="#Paris_1688_Première_édition" n="11">
                     <p> <g ref="pieddemouche"/>Je voudrais voir un homme sobre, modéré, chaste, équitable, prononcer qu’il
-                        n’y a point de <persName type="entité_divine"> Dieu </persName>: il parlerait <pb n="486" source="#Paris_1688_Première_édition"/> du moins sans intérêt ; mais cet homme ne
+                        n’y a point de <persName ref="entité_divine"> Dieu </persName>: il parlerait <pb n="486" source="#Paris_1688_Première_édition"/> du moins sans intérêt ; mais cet homme ne
                         se trouve point. </p>
                 </div2>
                 <div2 source="#Paris_1688_Première_édition" n="12">
-                    <p> <g ref="pieddemouche"/>J’aurais une extrême curiosité de voir celui qui serait persuadé que <persName type="entité_divine"> Dieu </persName>
+                    <p> <g ref="pieddemouche"/>J’aurais une extrême curiosité de voir celui qui serait persuadé que <persName ref="entité_divine"> Dieu </persName>
                         n’est point : il me dirait du moins la raison invincible qui a su le
                         convaincre. </p>
                 </div2>
                 <div2 source="#Paris_1688_Première_édition" n="13">
-                    <p> <g ref="pieddemouche"/>L’impossibilité où je suis de prouver que <persName type="entité_divine"> Dieu </persName> n’est pas me découvre son
+                    <p> <g ref="pieddemouche"/>L’impossibilité où je suis de prouver que <persName ref="entité_divine"> Dieu </persName> n’est pas me découvre son
                         existence. </p>
                 </div2>
                 <div2 source="#Paris_1699_Cinquième_Edition" n="14">
-                    <p> <g ref="pieddemoucheparenthèse"/><persName type="entité_divine"> Dieu </persName> condamne et punit ceux qui l’offensent, seul juge en sa propre cause :
+                    <p> <g ref="pieddemoucheparenthèse"/><persName ref="entité_divine"> Dieu </persName> condamne et punit ceux qui l’offensent, seul juge en sa propre cause :
                         ce qui répugne, s’il n’est lui-même la justice et la vérité, c’est-à-dire
                         s’il n’est Dieu. </p>
                 </div2>
                 <div2 source="#Paris_1688_Première_édition" n="15">
-                    <p> <g ref="pieddemouche"/>Je sens qu’il y a un <persName type="entité_divine"> Dieu </persName>, et je ne sens pas qu’il n’y en ait point ; cela
-                        me suffit, tout le raisonnement du monde m’est inutile : je conclus que <persName type="entité_divine"> Dieu </persName>
+                    <p> <g ref="pieddemouche"/>Je sens qu’il y a un <persName ref="entité_divine"> Dieu </persName>, et je ne sens pas qu’il n’y en ait point ; cela
+                        me suffit, tout le raisonnement du monde m’est inutile : je conclus que <persName ref="entité_divine"> Dieu </persName>
                         existe. Cette conclusion est dans ma nature ; j’en ai reçu les principes
                         trop aisément dans mon enfance, et je les ai conservés depuis trop
                         naturellement dans un âge plus avancé, pour les soupçonner de fausseté. —
@@ -281,7 +283,7 @@
                 </div2>
                 <div2 source="#Paris_1688_Première_édition" n="16">
                     <p> <g ref="pieddemouche"/>L’athéisme <note resp="#PB" type="glossaire"> personne non croyante  </note> n’est point<app><lem>:</lem><rdg wit="#Paris_1688_Cinquième_Edition">.</rdg></app> Les <app><lem>grands</lem><rdg wit="#Paris_1688_Cinquième_Edition">Grand</rdg></app>, qui en sont le plus soupçonnés, sont
-                        trop paresseux pour décider en leur esprit que <persName type="entité_divine"> Dieu </persName> n’est pas ; leur
+                        trop paresseux pour décider en leur esprit que <persName ref="entité_divine"> Dieu </persName> n’est pas ; leur
                         indolence va jusqu’à les rendre froids et indifférents sur cet article si
                         capital, comme sur la nature de leur âme, et sur les conséquences d’une
                         vraie religion ; ils ne nient ces choses ni ne les accordent : ils n’y
@@ -291,7 +293,7 @@
                     <p> <g ref="pieddemouche"/>Nous n’avons pas trop de toute notre santé, de toutes nos forces et de tout
                         notre esprit pour penser aux hommes ou au plus petit intérêt : il semble au
                         contraire que la bienséance et la coutume exigent de nous que nous ne
-                        pensions à <persName type="entité_divine"> Dieu </persName> que dans un état où il ne reste en nous qu’autant de raison
+                        pensions à <persName ref="entité_divine"> Dieu </persName> que dans un état où il ne reste en nous qu’autant de raison
                         qu’il faut pour ne pas dire qu’il n’y en a plus. </p>
                 </div2>
                 <div2 source="#Paris_1699_Dixième_Edition" n="18">
@@ -315,7 +317,7 @@
                         petits esprits ; et si c’est au contraire ce qu’il y a d’humble et de simple
                         qui les rebute, ils sont à la vérité des esprits forts, et plus forts que
                         tant de grands <app><lem>hommes</lem><rdg wit="#Paris_1688_Cinquième_Edition">Hommes</rdg></app> si éclairés, si élevés, et néanmoins si fidèles, que
-                        <persName type="saint_Leon"> les Léons</persName>,<persName type="saint_Basile">les Basiles</persName>,<persName type="#saint_Jerome">les Jéromes</persName> ,<persName type="#saint_Augustin"> les Augustins</persName>. </p>
+                        <persName ref="saint_Leon"> les Léons</persName>,<persName ref="saint_Basile">les Basiles</persName>,<persName ref="#saint_Jerome">les Jéromes</persName> ,<persName ref="#saint_Augustin"> les Augustins</persName>. </p>
                 </div2>
             </div1>
         </body>
