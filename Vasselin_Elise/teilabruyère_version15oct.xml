@@ -102,12 +102,12 @@
             
                 <listPerson> 
                     
-                       <person xml:id="Théophile"> <name> Théophile, 
-                           Gabriel de Roquette, 1623-1707</name></person>
-                       <person xml:id="Théagène"> <name>Théàgène, 
-                           Phillipe de Vendôme, 1655-1727</name></person>
-                       <person xml:id="Téléphon"> <name>Théléphon,
-                           Monsieur de la Feuillade ou Louis d'Aubasson ?</name></person>
+                       <person xml:id="Théophile"> <name>
+                           Gabriel de Roquette</name> <birth>1623</birth> <death>1707> </death></person>
+                       <person xml:id="Théagène"> <name> 
+                           Phillipe de Vendôme</name> <birth>1655</birth> <death> 1727</death></person>
+                       <person xml:id="Téléphon"> <name>
+                           Monsieur de la Feuillade </name> <name> Louis d'Aubasson </name></person>
                        <person xml:id="Socrate"> <name>Socrate </name> </person>   
                        <person xml:id="Philante"> <name> Philante</name> </person>  
                        <person xml:id="Aristide"> <name> Aristide</name> </person>
@@ -192,7 +192,7 @@
     <text>
         
         <front> 
-            <!-- on prend les information de l'édition 10 exempalire 1-->
+            <!-- on prend les informations de l'édition 10 exemplaire 1-->
             <titlePage>
                 <docTitle>
                     <titlePart type="main">Les caractères de Théophraste </titlePart>
@@ -202,7 +202,7 @@
                     <titlePart style="sub"> de ce siècle. </titlePart>
                 </docTitle>
                 <docEdition n="10"> dixième édition </docEdition>
-                <byline>Par <docAuthor> Jean de la Bruyère </docAuthor>
+                <byline>Par <docAuthor source="#Paris_1699_1"> Jean de la Bruyère </docAuthor>
                 </byline>
                 <docImprint>
                     <placeName>PARIS</placeName>, <name> Estienne Michallet </name> 
@@ -210,8 +210,7 @@
                 </docImprint>
                 <docDate when="1699">M. DC. XCIX.</docDate>  
                 <imprimatur style="italique"> Avec privilèges de sa Majesté </imprimatur>
-                
-                <docAuthor source="#Paris_1699_1">  </docAuthor>
+               
             </titlePage>
             
         </front>
