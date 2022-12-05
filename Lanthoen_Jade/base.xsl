@@ -6,7 +6,14 @@
     <xsl:template match="tei:TEI">
         <html>
             <head></head>
-            <body><xsl:apply-templates/></body>
+            <body>
+                <p>Nombre de variantes :
+                <xsl:value-of select="count(//tei:app)"/>
+                </p>
+                <xsl:apply-templates/>
+                
+            </body>
+            
         </html>
     </xsl:template>
     
@@ -18,14 +25,16 @@
         </p>
     </xsl:template>
     
+    
     <xsl:template match="tei:persName | tei:placeName">
         <b><xsl:apply-templates/></b>
     </xsl:template>
     
+    
     <!-- Mettre en italique les rdg -->
     
     <xsl:template match="tei:rdg">
-        <rdg style="italic"><xsl:apply-templates/></rdg>
+        <p style="italic"><xsl:apply-templates/></p>
     </xsl:template>
     
     <xsl:template match="tei:div2 [contains (@source, '#Paris-edition1')]">
@@ -35,11 +44,27 @@
     
     <!-- Titre en gras, 14pts centré -->
     
-    <xsl:template match="tei:front">
-        <title style="bold ; font-size:14pt ; text-align:center">
+    <xsl:template match="tei:titlePage">
+        <p align="center"> <font size="14pt"> <strong>
             <xsl:apply-templates/>
-        </title>
+        </strong>
+        </font>
+        </p>
     </xsl:template>
     
+    <!-- Les numéros de pages -->
+    
+    <xsl:template match="tei:pb">
+        [<xsl:value-of select="@n"/>]
+    </xsl:template>
+    
+    <xsl:template match="tei:persName">
+        
+        <xsl:variable name="refid">
+        <xsl:value-of select="substring(@ref,2)"/>
+        </xsl:variable>
+        (<xsl:value-of select="//tei:person[@xml:id=$refid]/tei:birth"/>)
+        <xsl:apply-templates/>
+    </xsl:template>
     
 </xsl:stylesheet>
