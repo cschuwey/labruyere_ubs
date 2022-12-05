@@ -121,6 +121,7 @@
     </teiHeader>
 
     <text>
+        
         <front>
 
             <titlePage>
@@ -132,6 +133,8 @@
                 <titlePart>avec les Caractères</titlePart>
 
                 <titlePart>ou les moeurs de ce siècle</titlePart>
+                
+            </titlePage>
 
                 <docEdition>Neuvième édition augmentée de plusieurs Remarques</docEdition>
 
@@ -144,8 +147,6 @@
                 </note>
 
                 <docAuthor style="writtennote" source="#Tours_1867, #Paris-1690, #Paris-1696"/>
-
-            </titlePage>
 
         </front>
 
