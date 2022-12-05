@@ -5,21 +5,24 @@
     
     <xsl:template match="tei:TEI">
         <html>
-            <head> </head>
+            <head/> 
             <body>
-                
+                <xsl:apply-templates/>
             </body>
         </html>
     </xsl:template>
     <!-- Ici le titre du document en gras, 14pt et centré-->
-    <xsl:template match="tei:title">
-        <p style="text-align:center ; font-size: 14pt"> 
-            <b>
+    <xsl:template match="tei:titlePage">
+        <p align="center"><font size="14pt"> 
+            <strong>
+            
                 <xsl:apply-templates/>
-            </b>
-        </p>
+            </strong>
+        </font> 
+   </p>
+       
     </xsl:template>
- 
+    
     <xsl:template match="tei:teiHeader"/>
     
     
