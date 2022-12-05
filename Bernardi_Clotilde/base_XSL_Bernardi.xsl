@@ -10,10 +10,10 @@
               <!-- Ici le titre du document en gras, 14pt et centré-->
                    <xsl:template match="tei:title">
                        <p style="text-align:center ; font-size: 14pt"> 
-                           <b> 
+                           <b>
                 <xsl:apply-templates/>
-                               </p>
                            </b>
+                       </p>
             </body>
         </html>
     </xsl:template>
@@ -37,7 +37,7 @@
     </xsl:template>
     
         <!-- J'ai voulu mettre tous les pieds de mouche en gras-->
-    <xsl:template match="tei:p/tei:g"> 
+<xsl:template match="tei:p/tei:g [contains (@ref, '#pieddemouche and #p-pieddemouche')]"> 
         <b> <xsl:apply-templates/> </b>
         </xsl:template>
 </xsl:stylesheet>
