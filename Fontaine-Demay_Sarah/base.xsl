@@ -14,9 +14,10 @@
 </xsl:template>
 
 <xsl:template match="tei:titlePage">
-    <p align="center"> <font size="14pt"> <strong>
+    <p align="center"> <font size="14pt"> 
+        <strong>
      <xsl:apply-templates/>
-    </strong>
+        </strong>
      </font>
      </p>   
 </xsl:template>
@@ -48,6 +49,15 @@
         <xsl:apply-templates/>
     </b>
 </xsl:template>
+    
+<xsl:template match="tei:note">
+    <span style="color:green">
+        <xsl:apply-templates/>
+    </span>
+</xsl:template>
 </xsl:stylesheet>
+
+
+
 
 
