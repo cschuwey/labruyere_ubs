@@ -14,10 +14,11 @@
 </xsl:template>
 
 <xsl:template match="tei:titlePage">
-    <b align="center"> <font size="14pt">
+    <p align="center"> <font size="14pt"> <strong>
      <xsl:apply-templates/>
+    </strong>
      </font>
-     </b>   
+     </p>   
 </xsl:template>
     
 <xsl:template match="tei:teiHeader"/>
