@@ -4,7 +4,14 @@
     exclude-result-prefixes="xs"
     version="1.0">
     
-    <xsl:template match="tei:TEI">
+    <xsl:param name="ed">
+        Paris_1688_3
+        Paris_1689_4
+        Paris_1692_7
+        Paris_1699_10
+    </xsl:param>
+    
+    <xsl:template match="tei:TEI">        
         
         <html>
             <head/>
@@ -14,6 +21,8 @@
             </body>
         </html>
         
+        <p>Nombre de variante : <xsl:value-of select="count(//tei:app)"/></p>
+                 
     </xsl:template>
     
     <xsl:template match="tei:teiHeader">
@@ -40,20 +49,27 @@
     
     <xsl:template match="tei:rdg"/>
     
-    <xsl:template match="tei:titlePage">
-        <b>
-            <xsl:apply-templates/>
-        </b>                    
-    </xsl:template>
-    
-    <xsl:template match="tei:titlePart">
-        <p align="center">
+    <xsl:template match="tei:docTitle">
+        <h1 style="font-size:14pt" align="center">
             <b>
                 <xsl:apply-templates/>
             </b>
-        </p>
+        </h1>
     </xsl:template>
     
+    <xsl:template match="tei:pb[contains(@source,'Paris_1692_7')]">
+        <xsl:value-of select="@n"/>
+    </xsl:template>
+    
+    <xsl:template match="tei:persName">
+        <xsl:apply-templates/>
+        <xsl:variable name="Corneille">            
+            <xsl:value-of select="substring(@ref,2)"/>
+        </xsl:variable>
+        <xsl:value-of select="//tei:person[@xml:id=$Corneille]/tei:birth"/>
+        
+    </xsl:template>
+            
 </xsl:stylesheet>
 
 
