@@ -85,6 +85,7 @@
                             <country key="FR">France</country>
                         </placeName>
                         </death>
+                        <occupation>Peintre</occupation>
                         <figure>
                             <head>Pierre Mignard, Portrait de l'artiste, 1690</head>
                             <graphic url="https://commons.wikimedia.org/wiki/File:Mignard-autoportrait.jpg#/media/Fichier:Mignard-autoportrait.jpg" scale="0.5"/>
@@ -105,6 +106,7 @@
                             <country key="FR">France</country>
                         </placeName>
                         </death>
+                        <occupation>Compositeur</occupation>
                         <figure>
                             <head>Jean-Baptiste Lully, peinture de Paul Mignard</head>
                             <graphic url="https://commons.wikimedia.org/wiki/File:Paul_Mignard_-_Jean-Baptiste_Lully.jpg#/media/Fichier:Paul_Mignard_-_Jean-Baptiste_Lully.jpg" scale="0.5"/>
@@ -124,6 +126,7 @@
                             <country key="FR">France</country>
                         </placeName>
                         </death>
+                        <occupation>Dramaturge</occupation>
                     </person>
                     <person xml:id="Erasme">
                         <birth notBefore="1466-10-27" notAfter="1466-10-28">entre le 27 et 28 octobre 1466
@@ -138,6 +141,7 @@
                             <country key="CH">Suisse</country>
                         </placeName>
                         </death>
+                        <occupation>Philosophe</occupation>
                         <figure>
                             <head>Desiderius Erasmus, peinture de Hans Holbein le Jeune, en 1523</head>
                             <graphic url="https://commons.wikimedia.org/wiki/File:Holbein-erasmus2.jpg#/media/Fichier:Holbein-erasmus2.jpg" scale="0.5"/>
@@ -162,6 +166,7 @@
                             <country key="GR">Grèce</country>
                         </placeName>
                         </death>
+                        <occupation>Philosophe</occupation>
                     </person>
                     <person xml:id="Mopse"></person>
                     <person xml:id="Celse"></person>
@@ -468,8 +473,8 @@
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſt un Poëte</rdg>
                         </app> ; mais
                         <app>
-                            <lem><persName>Mignard</persName> est <persName>Mignard</persName>, <persName>Lulli</persName> est <persName>Lulli</persName>, et <persName>Corneille</persName> est <persName>Corneille</persName>.</lem>
-                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10"><persName>MIGNARD</persName> eſt <persName>MIGNARD</persName>. <persName>LULLY</persName> eſt <persName>LULLY</persName> ; &amp; <persName>CORNEILLE</persName> eſt <persName>CORNEILLE</persName></rdg>
+                            <lem><persName ref="#Mignard">Mignard</persName> est <persName ref="#Mignard">Mignard</persName>, <persName ref="#Lulli">Lulli</persName> est <persName ref="#Lulli">Lulli</persName>, et <persName ref="#Corneille">Corneille</persName> est <persName ref="#Corneille">Corneille</persName>.</lem>
+                            <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10"><persName ref="#Mignard">MIGNARD</persName> eſt <persName ref="#Mignard">MIGNARD</persName>. <persName ref="#Lulli">LULLY</persName> eſt <persName ref="#Lulli">LULLY</persName> ; &amp; <persName ref="#Corneille">CORNEILLE</persName> eſt <persName ref="#Corneille">CORNEILLE</persName></rdg>
                         </app><pb n="188" source="#Paris_1688_3"/></p>
                 </div2>
                 
@@ -524,7 +529,7 @@
                 <div2 source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="28"><g ref="#pieddemouche"></g>
                         Un homme à la cour, et souvent<pb n="162" source="#Paris_1689_4"/> à la ville, 
-                        qui a un long manteau de soie ou de drap de <placeName>Hollande</placeName>, une ceinture large et placée haut sur l’estomac, 
+                        qui a un long manteau de soie ou de drap de <placeName ref="#Hollande">Hollande</placeName>, une ceinture large et placée haut sur l’estomac, 
                         le soulier de maroquin, la calotte de même, d’un beau grain, un collet bien fait et bien empesé, 
                         les cheveux arrangés et le teint vermeil,<pb n="150" source="#Paris_1699_10"/> 
                         qui avec cela se souvient de quelques distinctions métaphysiques, 
@@ -553,13 +558,13 @@
                         toutes les ver<pb n="190" source="#Paris_1688_3"/>tus militaires font l’un et l’autre. Il semble néanmoins que le premier soit jeune, 
                         en<pb n="151" source="#Paris_1699_10"/>treprenant, d’une haute valeur, ferme dans les périls, intrépide ; 
                         que l’autre excelle par un grand sens, par une vaste prévoyance, par une haute capacité, 
-                        et par une longue expérience. Peut-être qu’<persName>Alexandre</persName> n’était qu’un héros, 
-                        et que <persName>César</persName> était un grand homme.</p>
+                        et par une longue expérience. Peut-être qu’<persName ref="#Alexandre">Alexandre</persName> n’était qu’un héros, 
+                        et que <persName ref="#César">César</persName> était un grand homme.</p>
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1692_7 #Paris_1699_10" n="32"><g ref="#pieddemouche"></g>
-                        <persName>Aemile</persName> était né ce que les plus grands hommes ne deviennent qu’à force de règles, 
+                        <persName ref="#Aemile">Aemile</persName> était né ce que les plus grands hommes ne deviennent qu’à force de règles, 
                         de méditation et d’exercice. 
                         Il n’a eu dans ses premières années qu’à remplir des talents qui étaient naturels, 
                         et qu’à se livrer à son génie. Il a fait, il a agi, avant que de savoir, 
@@ -629,7 +634,7 @@
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1692_7 #Paris_1699_10" n="38"><g ref="#pieddemouche"></g>
-                        Je connais <persName>Mopse</persName> d’une visite qu’il m’a rendue sans me connaître ; 
+                        Je connais <persName ref="#Mopse">Mopse</persName> d’une visite qu’il m’a rendue sans me connaître ; 
                         il prie des gens qu’il ne connaît point<pb n="156" source="#Paris_1692_7"/> de le mener chez d’autres dont il n’est pas connu ; 
                         il écrit à des femmes qu’il connaît de vue. Il s’insinue dans un cercle de personnes respectables, 
                         et qui ne savent quel il est, et là, sans attendre qu’on l’in<pb n="155" source="#Paris_1699_10"/>terroge, ni sans sentir qu’il interrompt, 
@@ -647,7 +652,7 @@
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1692_7 #Paris_1699_10" n="39"><g ref="#pieddemouche"></g>
-                        <persName>Celse</persName> est d’un rang médiocre, mais des grands le souffrent ; il n’est pas savant, 
+                        <persName ref="#Celse">Celse</persName> est d’un rang médiocre, mais des grands le souffrent ; il n’est pas savant, 
                         il a relation avec des savants ; il a peu de mérite, mais il connaît des gens qui en ont beaucoup ; 
                         il n’est pas habile, mais il a une langue qui peut servir de 
                         <seg>truchement
@@ -678,7 +683,7 @@
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1692_7 #Paris_1699_10" n="40"><g ref="#pieddemouche"></g>
-                        <persName>Ménippe</persName>est l’oiseau paré de divers plumages qui ne sont pas à lui. 
+                        <persName ref="#Ménippe">Ménippe</persName>est l’oiseau paré de divers plumages qui ne sont pas à lui. 
                         Il ne parle pas, il ne sent pas ; il répète des sentiments et des discours, 
                         se sert même si naturellement de l’esprit des autres qu’il y est le premier trompé, 
                         et qu’il croit souvent dire son goût ou expliquer sa pensée, 
