@@ -6,6 +6,7 @@
         <html>
             <head/>
             <body>
+                <p>Nombre de variantes : <xsl:value-of select="count(//tei:app)"/></p>
                 <xsl:apply-templates/>
             </body>
         </html>
@@ -22,20 +23,34 @@
             <xsl:apply-templates/>
         </b>
     </xsl:template>
-    <xsl:template match="tei:div2[contains(@source, '#Paris_1688_1')]">
+    <xsl:template match="tei:div2[contains(@source,'#Paris_1688_1')]">
         <p style="color:red">
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="tei:p//title">
+    <xsl:template match="tei:p//tei:title">
         <i>
             <xsl:apply-templates/>
         </i>
     </xsl:template>
-    <xsl:template match="tei:front">
-        <h1 style="font-style:bold font-size:14pt text-align:center">
+    <xsl:template match="tei:docTitle">
+        <h1 style="font-size:14pt;text-align:center">
             <xsl:apply-templates/>
         </h1>
+    </xsl:template>
+    <xsl:template match="tei:pb">
+        <p>
+            <xsl:value-of select="@n"/>
+        </p>
+    </xsl:template>
+    <xsl:template match="tei:persName">
+        <xsl:apply-templates/>
+        <xsl:variable name="refID">
+            <xsl:value-of select="substring(@ref,2)"/>
+        </xsl:variable>
+        <p>(<xsl:value-of select="//tei:person[@xml:id=$refID]/tei:birth"/>, <xsl:value-of
+                select="//tei:person[@xml:id=$refID]/tei:death"/>, <xsl:value-of
+                select="//tei:person[@xml:id=$refID]/tei:occupation"/>)</p>
     </xsl:template>
 
 </xsl:stylesheet>
