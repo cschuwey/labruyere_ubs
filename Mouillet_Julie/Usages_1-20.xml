@@ -241,7 +241,7 @@
                     <person xml:id="GdB">
                         <persName>Godefroy de Bouillon</persName>
                         <note>chevalier franc à qui on va proposer de devenir le premier souverain
-                            de Jérusalem à la suite de la <date>Première Croisade</date>, il va
+                            de <placeName ref="#Jerusalem">Jérusalem</placeName> à la suite de la <date>Première Croisade</date>, il va
                             cependant refuser ce titre.</note>
                     </person>
                     <person xml:id="GdlB">
@@ -255,14 +255,14 @@
                     </person>
                     <person xml:id="Camus">
                         <persName>Le Camus</persName>
-                        <note>nom de famille. Plus tôt dans l'oeuvre dans "Des Biens de Fortune", ils sont appelés par la clé (le nom fictif) "Clitiphon".</note>
+                        <note>nom de famille. Plus tôt dans l'oeuvre dans "Des Biens de Fortune", ils sont appelés par la clé (le nom fictif) "<persName ref="#Clitiphon>">Clitiphon</persName>".</note>
                     </person>
                     <person xml:id="cardinal_Bouillon">
                         <persName>cardinal de Bouillon</persName>
                     </person>
                     <personGrp xml:id="Carracci">
                         <persName>Carrachi</persName>
-                        <note>Cités dans le texte sous leur nom francisé "Carache", famille de
+                        <note>Cités dans le texte sous leur nom francisé "<persName ref="Carracci">Carache</persName>", famille de
                             peintres italiens très connus au <date>16ème siècle</date> avec les
                             frères <persName ref="#Carracci_1">Annibale</persName> et
                             <persName ref="#Carracci_2">Agostino</persName> et leur
@@ -328,7 +328,7 @@
                         <persName>Louis de France</persName>
                         <birth>1661</birth>
                        <death>1711</death>
-                        <note>fils de <persName ref="#roi_soleil">Louis XIV</persName>, il est compris dans le groupe des <persName ref="#enfants_roi_soleil">"enfants de France"</persName>. Il n'a jamais régné car il est décédé avant de pouvoir le faire et alors que son père <persName ref="#roi_soleil"/> était encore en vie.</note>
+                        <note>fils de <persName ref="#roi_soleil">Louis XIV</persName>, il est compris dans le groupe des <persName ref="#enfants_roi_soleil">"enfants de <placeName ref="#France">France</placeName>"</persName>. Il n'a jamais régné car il est décédé avant de pouvoir le faire et alors que son père <persName ref="#roi_soleil"/> était encore en vie.</note>
                     </person>
                     <person xml:id="Hozier">
                         <persName>D'Hozier</persName>
