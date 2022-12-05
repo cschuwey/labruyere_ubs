@@ -193,8 +193,7 @@
                         </event>
                     </person>
                     <person xml:id="Beauchamps">
-                        <occupation source="#cle_Escola">
-                            <p>"danseurs de l'Opéra"</p>
+                        <occupation source="#cle_Escola">"danseurs de l'Opéra"
                         </occupation>
                     </person>
                     <person xml:id="Roi">
@@ -288,7 +287,7 @@
                 <docAuthor style="manuscrit">La Bruyère, Jean de</docAuthor>
                 <docTitle>
                     <titlePart>Les</titlePart>
-                    <titlePart style="red big italics">Caractères</titlePart>
+                    <titlePart>Caractères</titlePart>
                     <titlePart>de Théophraste</titlePart>
                     <titlePart>traduits du grec</titlePart>
                     <titlePart>avec</titlePart>
@@ -693,7 +692,7 @@
                         d’ailleurs ne peut être à vous, il est à une autre ; et quand cela ne serait pas ainsi, il est
                         retenu : <persName type="pseudo" ref="#Claudie">Claudie</persName> attend, pour l’avoir, qu’il
                         se soit dégoûté de <persName type="pseudo" ref="#Messaline">Messaline</persName>.
-                        Prenez c<persName type="pseudo" ref="#Bathylle">Bathylle</persName>, 
+                        Prenez <persName type="pseudo" ref="#Bathylle">Bathylle</persName>, 
                         <persName type="pseudo" ref="#Lélie">Lélie</persName> : où trouverez-vous, je ne dis pas dans
                         l’ordre des <app><lem wit="#Ed_19e_origine">chevaliers</lem><rdg wit="#Paris_1692_ed7">Chevaliers</rdg></app>
                         <app><lem wit="#Ed_19e_origine">, que vous dédaignez</lem><rdg wit="#Paris_1692_ed7"></rdg><rdg wit="#Paris_1694_ed8">, que vous dédaignez</rdg></app>
@@ -823,3 +822,4 @@
         </body>
     </text>
 </TEI>
+
