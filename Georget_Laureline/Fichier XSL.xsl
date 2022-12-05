@@ -4,22 +4,24 @@
     exclude-result-prefixes="xs"
     version="1.0">
     
-<xsl:template match="tei:TEI">
-    <html>
-        <head></head>
-        <body>
-            
-            <xsl:apply-templates/>  
-        </body>
-    </html>
+    <xsl:template match="tei:TEI">
+        <html>
+            <head></head>
+            <body>
+                <p style="color:blue"> Laureline Georget </p>
+               <p>Nombre de variantes : </p> <xsl:value-of select="count(//tei:app)"/> <br></br>
+                <xsl:apply-templates/>  
+            </body>
+        </html>
+        
     </xsl:template>
     <xsl:template match="tei:teiHeader"/>
     
-
+    
     <xsl:template match="tei:p"> 
-   
-       <p> <xsl:apply-templates/> </p>
-       
+        
+        <p> <xsl:apply-templates/> </p>
+        
         
     </xsl:template>
     
@@ -33,32 +35,47 @@
         
     </xsl:template>
     
-    <xsl:template match="tei:p[contains(@source,'#Paris_1688_1')]">
+    <xsl:template match="tei:div2[contains(@source,'#Paris_1688_1')]/tei:p">
         <p style="color:red">  <xsl:apply-templates/> </p>
         
     </xsl:template>
     
     <xsl:template match="div2[note]">
-        <p style="italic">  <xsl:apply-templates/> </p>
+        <i style="italic">  <xsl:apply-templates/> </i>
         
     </xsl:template>
+    
     
     <xsl:template match="tei:titlePage">
-        <b><xsl:apply-templates></xsl:apply-templates></b>
-        <teiHeader> <titlestmt><title style="bold" font-size="14pt"> <xsl:apply-templates></xsl:apply-templates></title></titlestmt></teiHeader>
-        <xsl:apply-templates/>
+        <b style="font_size:16pt;text-align: center"> <xsl:apply-templates/></b> <br></br>
+    
+    </xsl:template> 
+    <xsl:template match="tei:pb"> [<xsl:value-of select="@n"/>] </xsl:template>
+    
+    
+    
+    <xsl:template match="tei:term">
+       <xsl:apply-templates/>
+           
         
-    </xsl:template>
+        
+     
+    <xsl:variable name="refid">
+       <xsl:value-of select="substring(@ref,2)"/> 
+           
+       </xsl:variable>
+        <i style="color:purple"> (<xsl:value-of select="//tei:category[@xml:id=$refid]/tei:catDesc"/>) </i> 
+        
+        </xsl:template>
+    
+    
+    
+    
+    
+    
+    
     
   
-        
-  
-    
-   
-
-
-    
 </xsl:stylesheet>
-
 
 
