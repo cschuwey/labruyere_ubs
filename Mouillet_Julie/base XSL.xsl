@@ -7,18 +7,28 @@
     <xsl:template match="tei:TEI">
         <html>
             <head></head>
-            <body><xsl:apply-templates/></body>
+            <body>
+                <p>Nombre de variantes : <xsl:value-of select="count(//tei:rdg)"/>
+                <xsl:apply-templates/>
+                </p>
+            </body>
         </html>
     </xsl:template>
 
-    <xsl:template match="tei:title[contains(@type, full)]">
-        <p style="text-align: center; font-size:14pt; font-weight: bold">
+    <xsl:template match="tei:titlePart">
+        <h1 style="text-align: center; font-size:14pt; font-weight: bold">
             <xsl:apply-templates/>
-        </p>
+        </h1>
     </xsl:template>
 
     <xsl:template match="tei:note[contains(@type,'clé')]">
         <p style="font-style: italic; color:blue">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:pb[contains(@source,'Paris_1688_3')]">
+        <p>[<xsl:value-of select="@n"/>]
             <xsl:apply-templates/>
         </p>
     </xsl:template>
@@ -28,6 +38,18 @@
             <xsl:apply-templates/>
         </b>
     </xsl:template>
+    
+    <xsl:template match="tei:persName">
+        <xsl:apply-templates/>
+        <xsl:variable name="persId">
+            <xsl:value-of select="substring(@ref,2)"/>
+        </xsl:variable>
+        (<xsl:value-of select="//tei:person[@xml:id=$persId]/tei:birth"/>-<xsl:value-of select="// tei:person[@xml:id=$persId]/tei:death"/>)
+    </xsl:template>
+    
+    
      
     
 </xsl:stylesheet>
+
+
