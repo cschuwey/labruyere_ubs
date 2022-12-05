@@ -7,13 +7,14 @@
 <xsl:template match="tei:TEI"> 
     
   
+    
 <html>
 <head/>
 <body>
+    Nombre de variantes : <xsl:value-of select ="count(//tei:app)"/>
+    <xsl:apply-templates/>  
     
-    <xsl:apply-templates>    
-    </xsl:apply-templates>
-
+ 
 </body>
 </html>   
 </xsl:template>
@@ -56,10 +57,16 @@
         
     </xsl:template>  
     
-    <xsl:template match="tei:docAuthor">
+    <xsl:template match="tei:docImprint">
         <i>
             <xsl:apply-templates/>
        </i>
+        
+    </xsl:template>  
+    <xsl:template match="tei:imprimatur">
+        <b>
+            <xsl:apply-templates/>
+        </b>
         
     </xsl:template>  
     
@@ -69,10 +76,23 @@
         </p>
     </xsl:template>  
    
-
+   
+    <xsl:template match="tei:pb[contains(@source,Paris_unknown)]">
+   <i>[
+     <xsl:value-of select ="@n"/>
+        <xsl:apply-templates/>
+    ]</i>
+    </xsl:template>
     
+<xsl:template match="tei:persName">
     
-    
+ (
+    <xsl:variable name ="persID"/>
+    <xsl:value-of select="substring(@ref,2)"/>
+        <xsl:apply-templates/>  
+        ) 
+    <xsl:value-of select="//tei:person[@xml:id=$persID]/tei:birth"/>
+ </xsl:template>
 </xsl:stylesheet>
 
 
