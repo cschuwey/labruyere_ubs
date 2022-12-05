@@ -11,9 +11,17 @@
             <xsl:apply-templates/>
         </body>
     </html>
-    
 </xsl:template>
+
+<xsl:template match="tei:titlePage">
+    <p align="center"> <font size="14pt">
+     <xsl:apply-templates/>
+     </font>
+     </p>   
+</xsl:template>
+    
 <xsl:template match="tei:teiHeader"/>
+    
 <xsl:template match="tei:div2">
     <p>
         <xsl:apply-templates/>
@@ -27,13 +35,18 @@
     </b>
     
 </xsl:template>
+    
 <xsl:template match="tei:div2[contains(@source,'#Paris_1688_ed1')]"> 
        <p style="color:red">
            <xsl:apply-templates/>
        </p>
 </xsl:template>
 
-
+<xsl:template match="tei:div2[contains(@n, 'D2')]">
+    <b>
+        <xsl:apply-templates/>
+    </b>
+</xsl:template>
 </xsl:stylesheet>
 
 
