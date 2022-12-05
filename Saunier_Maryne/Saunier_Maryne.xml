@@ -596,7 +596,8 @@
                     <titlePart style="big black">les Moeurs</titlePart>
                     <titlePart style="small black">de ce siècle</titlePart>
                 </docTitle>
-                <docEdition n="7"> SEPTIEME EDITION Revue et corrigée </docEdition>
+                <docEdition source="#Paris_1692_7" n="7"> SEPTIEME EDITION Revue et corrigée </docEdition>
+                <docEdition source="#Paris_1690_5" n="5"> CINQUIEME EDITION agrémentée de plusieurs remarques </docEdition>
                 <docImprint>
                     <pubPlace> A Paris </pubPlace>
                     <name>Chez Estienne Michallet</name> premier Imprimeur du Roi <name>rue S.
@@ -767,7 +768,7 @@
                 <div2 source="#Paris_1692_7 #Paris_1690_5" n="40">
                     <p><g ref="#fr_pieds_de_mouche"/><g ref="#fr_pieds_de_mouche_parenthèses_deux"
                             /><persName ref="#Ronsard" style="big_black">Ronsard</persName> &amp; <persName
-                            ref="Balzac" style="big_black">Balzac</persName> ont eu, chacun dans leur genre,
+                            ref="#Balzac" style="big_black">Balzac</persName> ont eu, chacun dans leur genre,
                         assez de bon &amp; de mauvais pour former après eux de très grands hommes en
                         vers &amp; en prose.</p>
                 </div2>
@@ -904,7 +905,7 @@
                         amusement d’enfants, &amp; qui ne convient qu’aux <term style="italic">Marionnettes</term> ; elle augmente &amp; embellit la fiction,
                         soutient dans les spectateurs cette douce illusion qui est tout le plaisir
                         du theatre <app>
-                            <rdg wit="#Paris_1692_5"/>
+                            <rdg wit="#Paris_1690_5"/>
                             <rdg wit="#Paris_1692_7">,</rdg>
                         </app> où elle jette encore le merveilleux. Il ne faut point de vols, ni de
                         chars, ni de changements, aux <persName ref="#Bérénice" style="italic">Bérénices</persName>
@@ -931,21 +932,37 @@
                             <lem>dès</lem>
                             <rdg wit="#Paris_1690_5">des</rdg>
                             <rdg wit="#Paris_1692_7">dés</rdg>
-                        </app> leurs fondements : qui doute que <seg> la chasse sur l’eau <note
+                        </app> leurs fondements : qui doute que
+                        
+                        
+                        <seg> la chasse sur l’eau
+                            <note
                                 source="#Paris_1692_7" resp="#Estienne_Michallet" style="✝"
-                                place="droite">Rendez-vous de chasse dans <app>
-                                    <lem><placeName>la forêt de Chantilly</placeName></lem>
+                                place="droite">Rendez-vous de chasse dans
+                                <app>
+                                    <lem>
+                                        <placeName>la forêt de Chantilly</placeName>
+                                    </lem>
                                     <rdg wit="#Cles_Escola">Fête d'août 1688 organisé par le Prince
                                         de Conti</rdg>
-                                </app> </note>
+                                </app>
+                            </note>
+                            
                             <note source="#Paris_1690_5" resp="#Estienne_Michallet" style="✝"
-                                place="gauche">Rendez-vous de chasse dans <placeName>la forêt de
-                                    Chantilly</placeName></note>
+                                place="gauche">Rendez-vous de chasse dans
+                                <placeName>la forêt de
+                                    Chantilly</placeName>
+                            
                             <app>
-                                <lem><placeName>la forêt de Chantilly</placeName></lem>
+                                <lem>
+                                    <placeName>la forêt de Chantilly</placeName>
+                                </lem>
                                 <rdg wit="#Cles_Escola">Fête d'août 1688 organisé par le Prince de
                                     Conti</rdg>
-                            </app> </seg>la chasse sur l’eau, <seg> l’enchantement de la Table
+                            </app> </note> </seg>,
+                        
+                        
+                        <seg> l’enchantement de la Table
                                 <note source="#Paris_1690_5" resp="#Jean_de_la_Bruyère" style="*"
                                 place="gauche"> Collation très ingénieuse donnée dans le <app>
                                     <lem><placeName>Labyrinthe de Chantilly</placeName></lem>
@@ -953,13 +970,16 @@
                                         la fête du Prince de Conti, le 28 août 1688</rdg>
                                 </app>
                             </note>
+                            
                             <note source="#Paris_1692_7" resp="#Jean_de_la_Bruyère" style="*"
                                 place="droite">Collation très ingénieuse donnée dans le <app>
                                     <lem><placeName>Labyrinthe de Chantilly</placeName></lem>
                                     <rdg wit="#Cles_Escola">Chasse qui a eut lieu le sixième jour de
                                         la fête du Prince de Conti, le 28 août 1688</rdg>
                                 </app></note>
-                        </seg>, la merveille du Labyrinthe ne soient encore de leur invention ?
+                        </seg>, 
+                        
+                        la merveille du Labyrinthe ne soient encore de leur invention ?
                         J’en juge par le mouvement qu’ils se donnent, &amp; par l’air content dont
                         ils s’applaudissent sur tout le <pb n="122" source="#Paris_1692_7"/>
                         succès. Si je me trompe, &amp; qu’ils n’aient contribué en rien à cette
@@ -1058,11 +1078,14 @@
                         catastrophe : ce n’est donc pas un tissu de jolis sentiments, de
                         déclarations tendres, d’entretiens galants, de portraits agréables, de mots
                         doucereux, ou quelquefois assez plaisants pour faire rire, suivi à la
-                        vérité d’une dernière scène où les <seg> mutins <note
+                        vérité d’une dernière scène où les 
+                        
+                        <seg> mutins <note
                                 source="#Paris_1692_7" resp="#Jean_de_la_Bruyère" style="*"
                                 place="droite">Séditions, dénouements vulgaires des
                                     <term>Tragédies</term>.</note>
-                        </seg> n’entendent aucune raison, &amp; où pour la bienséance il y a enfin
+                        </seg>
+                        n’entendent aucune raison, &amp; où pour la bienséance il y a enfin
                         du sang répandu, &amp; quelque malheureux à qui il en coûte la vie.</p>
                 </div2>
 
