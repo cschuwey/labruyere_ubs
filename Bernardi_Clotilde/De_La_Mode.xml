@@ -152,7 +152,7 @@
                 <listPerson>
                     <person xml:id="Diognete"> </person>
                     <person xml:id="Théotime"> </person>
-                    <person xml:id="Calot">
+                    <person xml:id="Callot">
                         <idno>https://data.bnf.fr/12000309/jacques_callot/</idno>
                         <occupation> Dessinateur et graveur lorrain du XVIIe siècle. <desc> Il est
                                 considéré comme l'un des maîtres de l'eau forte : son style se
@@ -586,12 +586,12 @@
                         achetée très cher, et qu’il ne la changerait pas pour ce qu’il a de
                         meilleur. « J’ai, continue-t-il, une sensible affliction, et qui m’obligera
                         de renoncer aux estampes pour le reste de mes jours : j’ai tout <persName
-                            ref="#Calot">
+                            ref="#Callot">
                             <app>
                                 <rdg rend="italic"> Callot </rdg>
                             </app></persName> , hormis une seule, qui n’est pas, à la vérité, de ses
                         bons ouvrages ; au contraire c’est un des moindres, mais qui m’achèverait
-                            <persName ref="#Calot">
+                            <persName ref="#Callot">
                             <app>
                                 <rdg> Callot</rdg>
                             </app>
