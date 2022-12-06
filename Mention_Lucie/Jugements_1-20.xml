@@ -348,8 +348,6 @@
                 <p>Encodage des noms propres en majuscule</p>
                 <p>Encodage d'une citation en 19 paragraphe 1</p>
                 
-                <p>Choses à encoder : les phrases et mots en italique, les c bizarre devant les t dans certains mots, les décos au début du chapitre les jugemens</p>
-                
                 <date>31.10.2022</date>
                 <p>Création de note et d'un resp "JLB" dans le fileDesc</p>
                 
@@ -363,6 +361,24 @@
                 <p>mise a jour des persname du n°1 au n°14, et ajout de persname et term</p>
                 <p>ajout de listPerson et de category dans le teiHeider</p>
                 <p>ajout de clé dans n°13</p>
+                
+                <date>14.11.2022</date>
+                <p>Travail en TD</p>
+                
+                <date>18.11.2022</date>
+                <p>Encodage de persName du n°15 au n°20, et ajout de placeName et de term</p>
+                <p>Encodage de description de person dans listPerson, et description de lieu dans listPlace</p>
+                <p>Encodage des changement de page</p>
+                <p>Essaie de trois xpath</p>
+                
+                <date>21.11.22</date>
+                <p>Apprentissage du langage XPath et requête XPath</p>
+                
+                <date>28.11.2022</date>
+                <p>Apprentissage du langage XSL pour convertir le texte en HTML</p>
+                
+                <date>05.12.2022</date>
+                <p>Correction exercice XSL et apprentissage de XSL</p>
             </change>
         </revisionDesc>
     </teiHeader>
