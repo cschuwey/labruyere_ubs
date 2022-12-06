@@ -7,15 +7,15 @@
     <xsl:template match="tei:TEI">
         <html>
             <head>
-                <body>
-                    <p style="color:red; text-align:center; font-weight:bold">Clairvie MARQUET</p>
-                    <p style="text-align:center; font-size:20pt">Les caractères de la Bruyère</p>
-                    <p style="color:red; text-align:center; font-size:12pt">
-                    Nombre de variantes : <xsl:value-of select="count(//tei:app)"/>
-                    </p>
-                    <xsl:apply-templates/>
-                </body>
+                <p style="color:red; text-align:center; font-weight:bold">Clairvie MARQUET</p>
+                <p style="text-align:center; font-size:20pt">Les caractères de la Bruyère</p>
             </head>
+            <body>
+                <p style="color:red; text-align:center; font-size:12pt">
+                Nombre de variantes : <xsl:value-of select="count(//tei:app)"/>
+                </p>
+                <xsl:apply-templates/>
+            </body>
         </html>  
     </xsl:template>
     <xsl:template match="tei:teiHeader">
@@ -64,5 +64,3 @@
         <b style="color:blue">(<xsl:value-of select="//tei:person[@xml:id=$persId]/tei:birth"/>-<xsl:value-of select="// tei:person[@xml:id=$persId]/tei:death"/>)</b>
     </xsl:template>
 </xsl:stylesheet>
-
-
