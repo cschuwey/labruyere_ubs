@@ -8,10 +8,15 @@
         <html>
             <head>
                 <body>
-                    <xsl:apply-templates/> 
+                    <p style="color:red; text-align:center; font-weight:bold">Clairvie MARQUET</p>
+                    <p style="text-align:center; font-size:20pt">Les caractères de la Bruyère</p>
+                    <p style="color:red; text-align:center; font-size:12pt">
+                    Nombre de variantes : <xsl:value-of select="count(//tei:app)"/>
+                    </p>
+                    <xsl:apply-templates/>
                 </body>
             </head>
-        </html>
+        </html>  
     </xsl:template>
     <xsl:template match="tei:teiHeader">
         
@@ -21,15 +26,17 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="tei:persName|tei:placeName">
+    <xsl:template match="tei:placeName">
         <b>
             <xsl:apply-templates/>
         </b>
     </xsl:template>
-    <xsl:template match="tei:p[ancestor::tei:div2[contains(@source,Paris_1690_5)]]">
-        <p style="color:red">
-            <xsl:apply-templates/>
-        </p>
+    <xsl:template match="tei:div2[contains(@source,'#Paris_1690_5')]/tei:p">
+        <p style="color:red"><xsl:apply-templates/></p>
+    </xsl:template>
+    
+    <xsl:template match="tei:p">
+        <p><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="tei:head">
         <h1 style="font-size:14pt; text-align:center; font-weight:bold">
@@ -44,7 +51,18 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    
+    <xsl:template match="tei:pb">
+        [<xsl:value-of select="@n"/>]
+    </xsl:template>
+    <xsl:template match="tei:persName">
+        <b>
+            <xsl:apply-templates/>
+        </b>
+        <xsl:variable name="persId">
+            <xsl:value-of select="substring(@ref,2)"/>  
+        </xsl:variable>
+        <b style="color:blue">(<xsl:value-of select="//tei:person[@xml:id=$persId]/tei:birth"/>-<xsl:value-of select="// tei:person[@xml:id=$persId]/tei:death"/>)</b>
+    </xsl:template>
 </xsl:stylesheet>
 
 
