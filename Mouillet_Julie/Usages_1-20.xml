@@ -15,7 +15,7 @@
                 </respStmt>
                 <respStmt xml:id="lecteurice">
                     <name>inconnu</name>
-                    <resp>personne ayant possédé ou archivé l'oeuvre et l'ayant annotée</resp>
+                    <resp>personne ayant possédé ou archivé l'oeuvre et ayant annoté un exemplaire au moins</resp>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -759,6 +759,10 @@
                 <date>2022.11.29</date>
                 <p>Selon les devoirs demandés, ajout du template de notre choix ("note clé affichées en italique et en bleu") et affichage en tête du body du fichier HTML, le titre entier de l'ouvrage en gras, 14pt, centré.</p>
                 <p>Ajout de "persName", "placeName", "dateé et d'entités normées qui étaient dans mon "TEI Header" et qui n'étaient pas précisés.</p>
+                <date>2022.12.05</date>
+                <p>Ajout de diverses balises oubliées dans ce fichier et derniers exercices sur le fichier XSL.</p>
+                <date>2022.12.08</date>
+                <p>Finalisation du fichier XSL.</p>
             </change>
         </revisionDesc>
     </teiHeader>
