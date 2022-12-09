@@ -678,91 +678,108 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2022">
-                <date>2022.10.03</date>
-                <p>Ajout de la section "bibliStruct", dans "fileDesc" et remplissage de quelques-uns
-                    de ses éléments à propos de "xml:id="Paris_1688_1""</p>
-                <p>Ajout de la section "encodingDesc" et remplissage de quelques-uns de ses éléments
-                    comme "projectDesc"</p>
-                <p>Ajout de la section "profileDesc" et remplissage de quelques-uns de ses éléments
-                    comme "langUsage" vu en cours ou "textDesc"</p>
-                <date>2022.10.05</date>
-                <p>Recensement de quelques éditions de plus dans "fileDesc" et "sourceDesc"
+            <change when="2022-10-03">
+                Ajout de la section "bibliStruct", dans "fileDesc" et remplissage de quelques-uns
+                de ses éléments à propos de "xml:id="Paris_1688_1"".
+                <lb/>Ajout de la section "encodingDesc" et remplissage de quelques-uns de ses éléments
+                comme "projectDesc".
+                <lb/>Ajout de la section "profileDesc" et remplissage de quelques-uns de ses éléments
+                comme "langUsage" vu en cours ou "textDesc".
+            </change>
+            <change when="2022-10-05">
+                Recensement de quelques éditions de plus dans "fileDesc" et "sourceDesc"
                     ("xml:id="Paris_1688_3""; "xml:id="Lyon_1694_8"" ; "xml:id="La_Haye_1696_9"") de
-                    plus de l'oeuvre dans la section la section "bibliStruct"</p>
-                <p>Proposition de deux règles dans "editorialDesc"</p>
-                <p>Proposition de deux interprétations dans "profileDesc"</p>
-                <p>Remplissage de toute la section "revisionDesc" pour la première fois</p>
-                <date>2022.10.10</date>
-                <p>Vérification de ce qui a été fait la veille sur Visual Studio Code avec Oxygen et
-                    correction si besoin.</p>
-                <date>2022.10.11</date>
-                <p>Remplissage du "font".</p>
-                <date>2022.10.13</date>
-                <p>Ajout de la 7ème édition dans le "TEI header" pour faire les devoirs ainsi que de
-                    toutes les autres éditions parisiennes.</p>
-                <p>Vérification de la présence des remarques choisies dans la 3ème édition (choisie
+                    plus de l'oeuvre dans la section la section "bibliStruct".
+            <lb/>Proposition de deux règles dans "editorialDesc".
+            <lb/>Proposition de deux interprétations dans "profileDesc".
+            <lb/>Remplissage de toute la section "revisionDesc" pour la première fois.
+            </change>
+            <change when="2022-10-10">
+                Vérification de ce qui a été fait la veille sur Visual Studio Code avec Oxygen et
+                    correction si besoin.
+            </change> 
+            <change when="2022-10-11">
+                Remplissage du "font".
+            </change>
+            <change when="2022-10-13">
+                Ajout de la 7ème édition dans le "TEI header" pour faire les devoirs ainsi que de
+                    toutes les autres éditions parisiennes.
+                <lb/>Vérification de la présence des remarques choisies dans la 3ème édition (choisie
                     en classe) et la 7ème édition, choisie pour les devoirs. Il s'avère que les
                     remarques choisies apparaissent dans l'édition choisie (chapitre se trouvant
                     entre les pages 272 et 280) en classe mais seul le tritre de chapitre apparaît
-                    dans la 7ème édition (dispersé entre les pages 568 et 603).</p>
-                <p>Codage en détail du titre fait en cours (ajout de style, alignement et saut de
-                    ligne). Remplissage du "encodingDesc" pour S long et pieds-de-mouche.</p>
-                <date>2022.10.17</date>
-                <p>Ajout de l'élément "app" avec les "et" en "&amp;".</p>
-                <date>2022.10.22</date>
-                <p>Révision du TEI header ligne par ligne et tentative de correction des erreurs
-                    présentes.</p>
-                <p>Ajout des sources des éditions référencées ici pour chacun des caractères.</p>
-                <p>Implémentation des pieds-de-mouche là où ils apparaissent.</p>
-                <date>2022.10.23</date>
-                <p>Ajout de "interpretation" dans le "encodingDesc".</p>
-                <p>Encodage d'"app" "lem" et "rdg" pour toutes les esperluettes de mes
-                    caractères.</p>
-                <date>2022.10.31</date>
-                <p>Correction des devoirs donnés pendant les vacances.</p>
-                <p>Correction de quelques erreurs pour tenter de faire valider mon fichier.</p>
-                <p>Ajout de notes et de leurs différents détails dans les remarques.</p>
-                <date>2022.11.01</date>
-                <p>Reprise du document quasiment ligne par ligne pour le faire absolument totalement
+                    dans la 7ème édition (dispersé entre les pages 568 et 603).
+                <lb/>Codage en détail du titre fait en cours (ajout de style, alignement et saut de
+                    ligne). Remplissage du "encodingDesc" pour S long et pieds-de-mouche.
+            </change>  
+            <change when="2022-10-17">
+                Ajout de l'élément "app" avec les "et" en "&amp;".
+            </change>
+            <change when="2022-10-22">
+                Révision du TEI header ligne par ligne et tentative de correction des erreurs
+                    présentes.
+                <lb/>Ajout des sources des éditions référencées ici pour chacun des caractères.
+                <lb/>Implémentation des pieds-de-mouche là où ils apparaissent.
+            </change>
+            <change when="2022-10-23">
+                Ajout de "interpretation" dans le "encodingDesc".
+                <lb/>Encodage d'"app" "lem" et "rdg" pour toutes les esperluettes de mes
+                    caractères.
+            </change>
+            <change when="2022-10-31">
+                Correction des devoirs donnés pendant les vacances.
+                <lb/>Correction de quelques erreurs pour tenter de faire valider mon fichier.
+                <lb/>Ajout de notes et de leurs différents détails dans les remarques.
+            </change>
+            <change when="2022-11-01">
+                Reprise du document quasiment ligne par ligne pour le faire absolument totalement
                     valider (problèmes venant majoritairement des ajouts que j'ai pu faire en plus à
-                    la suite de certains cours).</p>
-                <p>Insertion de notes de la Bruyère, de son éditeur et de ma part pour constituer un
-                    glossaire.</p>
-                <p>Insertion de précisions de pagination des éditions 3 et 7.</p>
-                <date>2022.11.02</date>
-                <p>Grâce au mail du professeur, j'ai enfin pu corriger l'erreur qui m'embêtait
+                    la suite de certains cours).
+                <lb/>Insertion de notes de la Bruyère, de son éditeur et de ma part pour constituer un
+                    glossaire.
+                <lb/>Insertion de précisions de pagination des éditions 3 et 7.
+            </change>
+            <change when="2022-11-02">
+                Grâce au mail du professeur, j'ai enfin pu corriger l'erreur qui m'embêtait
                     depuis quelques semaines mais un autre est apparue, que je dois encore
-                    corriger.</p>
-                <p>Insertion de notes manuscrites, de manicules, de notes originales et de
-                    précisions de pagination provenant de l'édition 8 avec des clés.</p>
-                <date>2022.11.03</date>
-                <p>Correction des dernières erreurs empêchant la validation du document (attributs
-                    en trop ou inexistants, trop de guillemets) dans mes div2.</p>
-                <date>2022.11.07</date>
-                <p>Ouverture du fichier sur les postes de l'Université et il ne valide plus. Après
-                    application du fichier "tei.all", cela valide.</p>
-                <p>Ajout des entitées nommées présentes dans le corps du textes et encodage en
-                    fonction dans le "encodingDesc"</p>
-                <p>Tentative d'ajout de clés dans le fichier mais difficile à appliquer dans mes
-                    caractères.</p>
-                <date>2022.11.14</date>
-                <p>Ajout de clés pour les caractères concernés.</p>
-                <p>Trois requêtes XPath ont été effectuées comme les devoirs le demandent.</p>
-                <date>2022.11.21</date>
-                <p>Essais de différentes requêtes XPath pour vérifier notre compréhension de sa fonction.</p>
-                <p>Tentative de structuration des "app clé" comme demandé dans la correction des devoirs.</p>
-                <date>2022.11.28</date>
-                <p>Début des séances de XSL avec les premiers tamplates mis dans un fichier XSL externe.</p>
-                <p>Précision de la balise "distributor" utilisée dans le "sourceDesc". Ajout d'une balise "orgName" également pour chaque édition étudiée.
-                Ajout d'une personne dans les entités nommées.</p>
-                <date>2022.11.29</date>
-                <p>Selon les devoirs demandés, ajout du template de notre choix ("note clé affichées en italique et en bleu") et affichage en tête du body du fichier HTML, le titre entier de l'ouvrage en gras, 14pt, centré.</p>
-                <p>Ajout de "persName", "placeName", "dateé et d'entités normées qui étaient dans mon "TEI Header" et qui n'étaient pas précisés.</p>
-                <date>2022.12.05</date>
-                <p>Ajout de diverses balises oubliées dans ce fichier et derniers exercices sur le fichier XSL.</p>
-                <date>2022.12.08</date>
-                <p>Finalisation du fichier XSL.</p>
+                    corriger.
+                <lb/>Insertion de notes manuscrites, de manicules, de notes originales et de
+                    précisions de pagination provenant de l'édition 8 avec des clés.
+                </change>
+            <change when="2022-11-03">
+                Correction des dernières erreurs empêchant la validation du document (attributs
+                    en trop ou inexistants, trop de guillemets) dans mes div2.
+            </change>
+            <change when="2022-11-07">
+                Ouverture du fichier sur les postes de l'Université et il ne valide plus. Après
+                    application du fichier "tei.all", cela valide.
+                <lb/>Ajout des entitées nommées présentes dans le corps du textes et encodage en
+                    fonction dans le "encodingDesc".
+                <lb/>Tentative d'ajout de clés dans le fichier mais difficile à appliquer dans mes
+                    caractères.
+            </change>
+            <change when="2022-11-14">
+                Ajout de clés pour les caractères concernés.
+                <lb/>Trois requêtes XPath ont été effectuées comme les devoirs le demandent.
+            </change>
+            <change when="2022-11-21">
+                Essais de différentes requêtes XPath pour vérifier notre compréhension de sa fonction.
+                <lb/>Tentative de structuration des "app clé" comme demandé dans la correction des devoirs.
+            </change>
+            <change when="2022-11-28">
+               Début des séances de XSL avec les premiers tamplates mis dans un fichier XSL externe.
+            <lb/>Précision de la balise "distributor" utilisée dans le "sourceDesc". Ajout d'une balise "orgName" également pour chaque édition étudiée.
+                Ajout d'une personne dans les entités nommées.
+            </change>
+            <change when="2022-11-29">
+                Selon les devoirs demandés, ajout du template de notre choix ("note clé affichées en italique et en bleu") et affichage en tête du body du fichier HTML, le titre entier de l'ouvrage en gras, 14pt, centré.
+                <lb/>Ajout de "persName", "placeName", "dateé et d'entités normées qui étaient dans mon "TEI Header" et qui n'étaient pas précisés.
+            </change>
+            <change when="2022-12-05">
+                Ajout de diverses balises oubliées dans ce fichier et derniers exercices sur le fichier XSL.
+            </change>
+             <change when="2022-12-08">
+                Finalisation du fichier XSL.
             </change>
         </revisionDesc>
     </teiHeader>
