@@ -209,7 +209,9 @@
                 <change when="2022-10-08">1er essai : commencement du fileDesc</change>
                 <change when="2022-10-24">Intégration des app</change>
                 <change when="2022-11-01">Correction des app et écriture des annotations et changements de page</change>
-
+                <change when="2022-11-19">Encodage des clés</change>
+                <change when="2022-12-03">Exercice XSL : encodage des templates</change>
+                <change when="2022-12-06">Rattrapage cours : ajout des exercices effectués en classe + fin de l'encodage du document XSL (apports personnels)</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
