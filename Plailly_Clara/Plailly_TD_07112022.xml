@@ -212,6 +212,24 @@
                 <date>2022.10.10</date>
                 <p>Ajout du revisionDesc</p>
             </change>
+            <change>
+                <date>2022.10.24</date>
+                <p>Encodage des app de la remarque 1 à la remarque 14. Complément du TEI HEader avec l'ensemble des éditions. Encodage des div2 avec les éditions 4 et 7. App complétées pour l'ensemble du document sauf la remarque 12.</p>
+            </change>
+            <change>
+                <date>2022.11.07</date>
+                <p>Aucune note à insérer ni de mot en langue étrangère à spécifier. Invention de plusieurs notes avec l'inspiration du moment. Pagination de l'édition pour l'édition 5 et 10. Ajout des app de la remarque 12 qui n'aparait que dans l'édition 10.</p>
+            </change>
+            <change>
+                <date>?</date>
+                <p>Ajout des placeName et persName</p>
+            </change>
+            <change>
+                <date>2022.11.20</date>
+                <p> Ajout des numéros de page dans les pb</p>
+            </change>
+            
+
         </revisionDesc>
     </teiHeader>
     <text>
