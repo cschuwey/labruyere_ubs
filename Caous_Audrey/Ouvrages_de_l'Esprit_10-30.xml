@@ -351,10 +351,23 @@
         </profileDesc>
 
         <revisionDesc>
-            <change>Tout au long de l'ouvrage, il faudra apporter une correction au ''s'' long, qui
-                se traduit avec notre s de maintenant</change>
-            <change> Attention aux ç qui complètent le son s mais qui ne nous est pas utile de nous
-                jours quand nous le lisons </change>
+            <list>
+                <item>
+                    <date when="2022-10-11">11 octobre 2022</date> Propositions de règles dans editorialDesc, deux interprétations dans profileDesc et indiquer la modification ici
+                </item>
+                <item>
+                    <date when="2022-10-18">18 octobre 2022</date> Insertion pieds de mouche, perfectionnement de toutes les éditions supplémentaires ajoutées,
+                </item>
+                <item>
+                    <date when="2022-10-24">24 octobre 2022</date> Encodage de minimum 20 modifications dans la version de référence 1694_8, implémentation pieds de mouche, renseignements supplémentaires sur le TeiHeader
+                </item>
+                <item>
+                    <date when="2022-11-07">7 novembre 2022</date> Encodage remarques de la Bruyère, 3 notes de notre part en glossaire, 3 notes manuscrites, pas de mots en langue étrangères dans ces remarques, pagination de plusieurs éditions
+                </item>
+                <item>
+                    <date when="2022-11-19">19 novembre 2022</date> Renseignements et encodage sur des clés, personnes et dates, concepts trouvés dans les remarques à éditer
+                </item>                 
+            </list>
         </revisionDesc>
 
     </teiHeader>
@@ -415,7 +428,7 @@
                 <div2 n="14" source="#Paris_1694_8 #Paris_1688_1 #Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p> <g ref="#pied_de_mouche_simple"/>  
                         Tout l’esprit d’un auteur consiste à bien définir et à bien peindre. <seg><note source="#Paris_1694_8 #Paris_1688_3 #Paris_1696_9 #Paris_1699_10" resp="#JB" type="comm" place="left" style="*">Quand meſme on ne le considère pas comme un homme qui a écrit</note><app> <lem wit="#Paris_1694_8"><persName>Moïse</persName></lem>  <rdg wit="#Paris_1688_1">Moyse</rdg></app></seg>,
-                        <persName ref="#Homère" type="philosophe">Homere</persName>,<persName ref="#Platon" type="philosophe">Platon</persName>,<persName ref="#Virgile" type="philosophe">Virgile</persName>,<persName source="#Horace">Horace</persName> ne sont au-dessus des autres écrivains que
+                        <persName ref="#Homère" type="#philosophe">Homere</persName>,<persName ref="#Platon" type="#philosophe">Platon</persName>,<persName ref="#Virgile" type="#philosophe">Virgile</persName>,<persName source="#Horace" type="#poète">Horace</persName> ne sont au-dessus des autres écrivains que
                         par leurs expressions et par leurs images : il faut exprimer le vrai pour
                         écrire naturellement, fortement, délicatement.<pb n="172" source="#Paris_1688_3"/></p>
                 </div2>
@@ -430,20 +443,20 @@
                         péristyle. De même, on ne saurait en écrivant rencontrer le parfait, et s’il
                         se peut, surpasser <term ref="#les_anciens">les anciens</term> que par leur imitation. <app><lem wit="#Paris_1694_8"> pas de nouveau paragraphe ni pied de mouche avant ''Combien'' </lem> <rdg wit="#Paris_1688_1"> <g ref="#pied de mouche simple"></g></rdg></app>
                         <app><lem wit="#Paris_1694_8">Combien de siècles se sont écoulés avant que les hommes, dans les sciences et dans les arts, aient
-                            pu revenir au goût des <note source="#Paris_1694_8" resp="lecteurice"  hand="inconnue" place="right" style="*">texte illisible</note>anciens et reprendre enfin le simple et le naturel !On se nourrit des anciens et des <term ref="#les_habiles">habiles</term> modernes, on les presse, on en tire
-                        le plus que l’on peut, on en renfle <note source="#Paris_1694_8" resp="AC" type="gloss" place="left" style="*">enfle,augmente la taille de, on parle d'agrandir une quantité/collection</note> ses ouvrages ; et quand enfin l’on est
+                            pu revenir au goût des <note source="#Paris_1694_8" resp="#lecteurice"  hand="#inconnue" place="right" style="#*">texte illisible</note>anciens et reprendre enfin le simple et le naturel !On se nourrit des anciens et des <term ref="#les_habiles">habiles</term> modernes, on les presse, on en tire
+                        le plus que l’on peut, on en renfle <note source="#Paris_1694_8" resp="#AC" type="#gloss" place="left" style="#*">enfle,augmente la taille de, on parle d'agrandir une quantité/collection</note> ses ouvrages ; et quand enfin l’on est
                         auteur, et que l’on croit marcher tout seul, on s’élève contre eux, on les
                         maltraite, semblable à ces enfants drus et forts d’un bon lait qu’ils ont
-                        sucé <note source="#Paris_1694_8" resp="AC" type="gloss" place="left" style="*">bu</note>, qui battent leur nourrice. Un auteur moderne prouve ordinairement que
+                        sucé <note source="#Paris_1694_8" resp="#AC" type="#gloss" place="left" style="#*">bu</note>, qui battent leur nourrice. Un auteur moderne prouve ordinairement que
                         <term ref="#les_anciens">les anciens</term> nous sont inférieurs en deux manières, par raison et par exemple
                         : il tire la raison de son goût particulier, et l’exemple de ses ouvrages. <pb n="101" source="#Paris_1694_8"/><pb n="107" source="#Paris_1691_6"/><pb n="105" source="#Paris_1692_7"/>
                         Il avoue que <term ref="#les_anciens">les anciens</term>, quelque inégaux et peu corrects qu’ils soient, ont
                         de beaux traits ; il les cite, et ils sont si beaux qu’ils font lire sa
-                        critique. <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="left">texte illisible</note>
+                        critique. <note source="#Paris_1694_8" resp="#lecteurice" type="#comm" hand="#inconnue" place="left">texte illisible</note>
                             Quelques <term ref="#les_habiles">habiles</term> prononcent en faveur des <term ref="#les_anciens">anciens</term> contre les
                         modernes ; mais ils sont suspects et semblent juger en leur propre cause,
                         tant leurs ouvrages sont faits sur le goût de <date>l’antiquité</date> : on les
-                        récuse<note source="#Paris_1694_8" resp="AC" type="gloss" place="right" style="*">on refuse leur jugement ou témoignage car il serait biaisé</note>.</lem> <rdg wit="#Paris_1688_1">Combien de siècles se sont écoulés avant que les hommes, dans les sciences et dans les arts, aient
+                        récuse<note source="#Paris_1694_8" resp="#AC" type="#gloss" place="right" style="#*">on refuse leur jugement ou témoignage car il serait biaisé</note>.</lem> <rdg wit="#Paris_1688_1">Combien de siècles se sont écoulés avant que les hommes, dans les sciences et dans les arts, aient
                             pu revenir au goût des <term ref="#les_anciens">anciens</term> et reprendre enfin le simple et le naturel !</rdg></app>
                         </p>
                 </div2>
@@ -508,7 +521,7 @@
                         <term ref="#les_habiles">les habiles</term> : ils ne hasardent point leurs suffrages, et ils veulent être
                         portés par la foule et entraînés par la multitude. Ils disent alors qu’ils
                         ont les premiers <app><lem wit="#Paris_1694_8"><app><lem wit="#Paris_1694_8">approu<pb n="104" source="#Paris_1694_8"/> <pb n="108" source="#Paris_1692_7"/> vé</lem> <rdg wit="#Paris_1689_4">aprouvé</rdg> </app> cet ouvrage, et que le public est de leur avis. <app><lem wit="#Paris_1694_8"> <pb n="110" source="#Paris_1691_6"/>
-                        <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="right" style="†"> texte illisible </note>
+                        <note source="#Paris_1694_8" resp="#lecteurice" type="#comm" hand="#inconnue" place="right" style="#†"> texte illisible </note>
                         Ces gens laissent échapper les plus belles occasions de nous convaincre
                             qu’ils ont de la capacité et des lumières, qu’ils savent juger, trouver bon
                             ce qui est bon, et meilleur ce qui est meilleur. Un bel ouvrage tombe entre
@@ -521,8 +534,8 @@
                             qu’il en aura pour cette pièce ; phrase outrées, dégoûtantes, qui sentent la
                             pension ou l’abbaye, nuisibles à cela même qui est louable et qu’on veut
                             louer. Que ne disiez-vous seulement :« Voilà un bon livre » ? Vous le dites,
-                            il est vrai, avec toute la <placeName ref="France">France</placeName>, avec les étrangers comme avec vos
-                            compatriotes, quand il est imprimé par toute <placeName ref="Europe">Europe l’Eu<pb n="105" source="Paris_1694_8"/>rope</placeName> et qu’il est traduit
+                            il est vrai, avec toute la <placeName ref="#France">France</placeName>, avec les étrangers comme avec vos
+                            compatriotes, quand il est imprimé par toute <placeName ref="#Europe">Europe l’Eu<pb n="105" source="Paris_1694_8"/>rope</placeName> et qu’il est traduit
                             en plusieurs langues <pb n="109" source="#Paris_1692_7"/> : il n’est plus temps.</lem> <rdg wit="#Paris_1688_1 #Paris_1688_3"> </rdg></app> <app><lem wit="#Paris_1694_8">approu<pb n="104" source="#Paris_1694_8"/></lem></app><pb n="108" source="#Paris_1692_7"/>vé</lem> <rdg wit="#Paris_1689_4">aprouvé</rdg></app> cet ouvrage, et que le public est de leur avis.
                     </p>
                 </div2>
@@ -530,7 +543,7 @@
                 <div2 n="22" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <note source="#Paris_1690_5" resp="JB" type="comm" place="right" style="*">Marque qui deſigne la premiere augmentation de l'année 1689</note>
                     <p>  <g ref="#pied_de_mouche_simple"/> 
-                        <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="left">texte illisible</note>
+                        <note source="#Paris_1694_8" resp="#lecteurice" type="#comm" hand="#inconnue" place="left">texte illisible</note>
                         Quelques-uns de ceux qui ont lu <pb n="111" source="#Paris_1691_6"/> un ouvrage en rapportent certains traits
                         dont ils n’ont pas compris le sens, et qu’ils altèrent encore par tout ce
                         qu’ils y mettent du leur ; et ces traits ainsi corrompus et défigurés, qui
@@ -551,7 +564,7 @@
 
                 <div2 n="24" source="#Paris_1694_8 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1696_9 #Paris_1699_10">
                     <p>  <g ref="#pied_de_mouche_simple"/> 
-                        <note source="#Paris_1694_8" resp="lecteurice" type="comm" hand="inconnue" place="left">texte illisible</note>
+                        <note source="#Paris_1694_8" resp="#lecteurice" type="#comm" hand="#inconnue" place="left">texte illisible</note>
                         <app><lem wit="#Paris_1694_8"><persName ref="#Arsène">Arsène</persName></lem><rdg wit="#Arsène"></rdg></app>, du plus haut de son esprit, contemple les hommes, et dans
                         l’éloignement d’où il les voit, il est <app><lem wit="#Paris_1694_8">comme <pb n="106" source="#Paris_1694_8"/> comme</lem> <rdg wit="#Paris_1689_4">comme </rdg></app> effrayé de leur petitesse ;
                         loué, <pb n="110" source="#Paris_1692_7"/> exalté, et porté jusqu’aux <app><lem wit="#Paris_1694_8">cieux</lem> <rdg wit="#Paris1689_4">Cieux</rdg></app> par de certaines gens qui se sont
@@ -668,6 +681,7 @@
         </body>
     </text>
 </TEI>
+
 
 
 
