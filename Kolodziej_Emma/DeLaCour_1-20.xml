@@ -55,28 +55,36 @@
                             souveraine par les mâles."</note>
                     </person>
                 </listPerson>
-                <bibl type="clé" xml:id="E1689" source="#ESCOLA_PARIS_1999">
-                    <persName>M. d'Aubigné, frère de Mme de Maintenon et le baron de Beauvais</persName>
-                </bibl>
-                <bibl type="clé" xml:id="E1688" source="#ESCOLA_PARIS_1999">
-                    <persName>Le marquis de Caretti, médecin empirique</persName>
-                    <note>Il fut discrédité par ses anciens patients et trouvé comme ridicule pour son obsession nobilitaire</note>
-                </bibl>
-                <bibl type="clé" xml:id="E1697" source="#ESCOLA_PARIS_1999">
-                    <persName>Langlée</persName>
-                    <note>"Il devait sa fortune à ses talents de joueur et sa familiarité avec les femmes à son homosexualité" Le nom de Dangeau fut aussi retenu plusieurs fois.</note>
-                </bibl>
-                <bibl type="clé" xml:id="M1689" source="#ESCOLA_PARIS_1999">
-                    <persName>Duc de Bouillon et à son château de Sedan</persName>
-                    <note>"Mais Sedan n'appartenait plus à cette date à cette famille de Bouillon."</note>
-                </bibl>
-                <bibl type="clé" xml:id="M1697" source="#ESCOLA_PARIS_1999">
-                    <persName>Monsieur de Tonnerre, évêque de Noyon</persName>
-                    <note>"célèbre par sa vanité"</note>
-                </bibl>
+                <listPerson type="clé">
+                    <person xml:id="E1689" source="#ESCOLA_PARIS_1999">
+                        <persName>M. d'Aubigné, frère de Mme de Maintenon et le baron de
+                            Beauvais</persName>
+                    </person>
+                    <person xml:id="E1688" source="#ESCOLA_PARIS_1999">
+                        <persName>Le marquis de Caretti, médecin empirique</persName>
+                        <note>Il fut discrédité par ses anciens patients et trouvé comme ridicule
+                            pour son obsession nobilitaire</note>
+                    </person>
+                    <person xml:id="E1697" source="#ESCOLA_PARIS_1999">
+                        <persName>Langlée</persName>
+                        <note>"Il devait sa fortune à ses talents de joueur et sa familiarité avec
+                            les femmes à son homosexualité" Le nom de Dangeau fut aussi retenu
+                            plusieurs fois.</note>
+                    </person>
+                    <person xml:id="M1689" source="#ESCOLA_PARIS_1999">
+                        <persName>Duc de Bouillon et à son château de Sedan</persName>
+                        <note>"Mais Sedan n'appartenait plus à cette date à cette famille de
+                            Bouillon."</note>
+                    </person>
+                    <person xml:id="M1697" source="#ESCOLA_PARIS_1999">
+                        <persName>Monsieur de Tonnerre, évêque de Noyon</persName>
+                        <note>"célèbre par sa vanité"</note>
+                    </person>
+                </listPerson>
                 <biblStruct>
                     <monogr xml:id="ESCOLA_PARIS_1999">
-                        <title>LES CARACTERES DE THEOPHRASTE TRADUITS DU GREC AVEC LES CARACTERES OU LES MOEURS DE CE SIECLE.</title>
+                        <title>LES CARACTERES DE THEOPHRASTE TRADUITS DU GREC AVEC LES CARACTERES OU
+                            LES MOEURS DE CE SIECLE.</title>
                         <author ref="https://data.bnf.fr/12548441">Marc Escola</author>
                         <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
                         <author ref="https://data.bnf.fr/11887698">Théophraste</author>
@@ -222,7 +230,7 @@
                             <location>
                                 <geo>48° 51′ 40″ N, 2° 20′ 09″ E</geo>
                             </location>
-                            </address> 
+                            </address>
                         </catDesc>
                     </category>
                     <category xml:id="Château">
@@ -237,7 +245,7 @@
                             <location>
                                 <geo>48° 48′ 17,26″ N, 2° 07′ 13,34″ E</geo>
                             </location></address>
-                         </catDesc>
+                        </catDesc>
                     </category>
                     <category xml:id="Rouen">
                         <catDesc>
@@ -306,15 +314,15 @@
                 <listPerson type="pseudos">
                     <person xml:id="Cimon">
                         <persName>Cimon</persName>
-                        <bibl></bibl>
+                        <bibl/>
                     </person>
                     <person xml:id="Clitandre">
                         <persName>Clitandre</persName>
-                        <bibl></bibl>
+                        <bibl/>
                     </person>
                     <person xml:id="Hyacinthe">
                         <persName>Hyacinthe</persName>
-                        <bibl></bibl>
+                        <bibl/>
                     </person>
                 </listPerson>
             </particDesc>
@@ -354,7 +362,8 @@
                     correction au sein des remarques.</item>
                 <item><date when="2022-11-06">06 novembre 2022</date>Modifications des notes et
                     ajout de la pagination.</item>
-                <item><date when="2022-11-14">14 novembre 2022</date>Ajout des références aux personnes et lieux cités</item>
+                <item><date when="2022-11-14">14 novembre 2022</date>Ajout des références aux
+                    personnes et lieux cités</item>
             </list>
         </revisionDesc>
     </teiHeader>
@@ -584,30 +593,32 @@
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/><app>
                             <lem>L’air de cour est contagieux : il<pb n="201" source="#PARIS_1689_4"
                                 /> se prend à <app>
-                                    <lem>
-                                        V**
-                                    </lem>
+                                    <lem> V** </lem>
                                     <rdg wit="#E1689">V**</rdg>
                                     <rdg><persName ref="#Anonyme_1">V**</persName></rdg>
-                                </app><note
-                                    resp="#EK">De qui parle-t-il?</note>, comme l’accent normand à
-                                    <placeName ref="#Rouen">Rouen</placeName> ou à <placeName ref="#Falaise">Falaise</placeName>
-                                ; on l’entrevoit en des fourriers, en de petits contrôleurs, et en
-                                des chefs de fruiterie : l’on peut avec une portée d’esprit fort
-                                médiocre y faire de grands progrès. Un homme d’un génie élevé et
-                                d’un mérite solide ne fait pas assez de cas de cette espèce de
-                                talent pour faire son capital de l’étudier et se le rendre propre ;
-                                il l’acquiert sans réflexion, et il ne pense point à s’en
-                                défaire.</lem>
-                            <rdg>L’air de Cour eſt contagieux, il ſe prend à V**, comme l’accent
-                                Normand à Roüen ou à Falaiſe ; on l’entrevoit en des Fourriers, en
-                                de petits Contrôleurs, &amp; en des Chefs de fruiterie; l’on peut
-                                avec une portée d’eſprit fort mediocre y faire de grands progrez. Un
+                                </app><note resp="#EK">De qui parle-t-il?</note>, comme l’accent
+                                normand à <placeName ref="#Rouen">Rouen</placeName> ou à <placeName
+                                    ref="#Falaise">Falaise</placeName> ; on l’entrevoit en des
+                                fourriers, en de petits contrôleurs, et en des chefs de fruiterie :
+                                l’on peut avec une portée d’esprit fort médiocre y faire de grands
+                                progrès. Un homme d’un génie élevé et d’un mérite solide ne fait pas
+                                assez de cas de cette espèce de talent pour faire son capital de
+                                l’étudier et se le rendre propre ; il l’acquiert sans réflexion, et
+                                il ne pense point à s’en défaire.</lem>
+                            <rdg>L’air de Cour eſt contagieux, il ſe prend à <app>
+                                    <lem>V**</lem>
+                                    <rdg wit="#E1689">V**</rdg>
+                                    <rdg><persName ref="#Anonyme_1">V**</persName></rdg>
+                                </app>, comme l’accent Normand à <placeName ref="#Rouen"
+                                    >Roüen</placeName> ou à <placeName ref="#Falaise"
+                                    >Falaiſe</placeName> ; on l’entrevoit en des Fourriers, en de
+                                petits Contrôleurs, &amp; en des Chefs de fruiterie; l’on peut avec
+                                une portée d’eſprit fort mediocre y faire de grands progrez. Un
                                 homme d’un genie élevé &amp; d’un merite ſolide ne fait pas aſſez de
                                 cas de cette eſpece de talent pour faire ſon capital de l’étudier
                                 &amp; ſe le rendre propre ; il l’acquiert ſans reflexion, &amp; il
                                 ne penſe point à s’en défaire.</rdg>
-                            
+
                         </app></p>
                 </div2>
                 <div2 n="15" source="#PARIS_1691_6 #PARIS_1689_4">
@@ -618,11 +629,16 @@
                                     <lem>N**</lem>
                                     <rdg wit="#E1688">N**</rdg>
                                     <rdg><persName ref="#Anonyme_2">N**</persName></rdg>
-                                </app><note resp="#EK">De qui
-                                    parle-t-il?</note> arrive avec grand bruit ; il écarte le monde,
-                                se fait faire place ; il gratte, il heurte presque ; il se nomme :
-                                on respire, et il n’entre qu’avec la foule.</lem>
-                            <rdg>N** arrive avec grand bruit, il écarte le monde, ſe fait faire
+                                </app><note resp="#EK">De qui parle-t-il?</note> arrive avec grand
+                                bruit ; il écarte le monde, se fait faire place ; il gratte, il
+                                heurte presque ; il se nomme : on respire, et il n’entre qu’avec la
+                                foule.</lem>
+                            <rdg>
+                                <app>
+                                    <lem>N**</lem>
+                                    <rdg wit="#E1688">N**</rdg>
+                                    <rdg><persName ref="#Anonyme_2">N**</persName></rdg>
+                                </app> arrive avec grand bruit, il écarte le monde, ſe fait faire
                                 place, il gratte, il heurte preſque, il ſe nomme ; on reſpire, &amp;
                                 il n’entre qu’avec la foule.</rdg>
                         </app></p>
@@ -661,42 +677,49 @@
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6 #PARIS_1689_4"/><app>
                             <lem>Vous voyez des <app>
-                                <lem>gens</lem>
-                                <rdg wit="#E1697">gens</rdg>
-                            </app> qui entrent sans saluer que légèrement, qui
-                                marchent des épaules, et qui se rengorgent comme une femme : <app>
+                                    <lem>gens</lem>
+                                    <rdg wit="#E1697">gens</rdg>
+                                </app> qui entrent sans saluer que légèrement, qui marchent des
+                                épaules, et qui se rengorgent comme une femme : <app>
                                     <lem>ils</lem>
                                     <rdg wit="#E1697">ils</rdg>
-                                </app>
-                                vous interrogent sans vous regarder ; <app>
+                                </app> vous interrogent sans vous regarder ; <app>
                                     <lem>ils</lem>
                                     <rdg wit="#E1697">ils</rdg>
-                                </app> parlent d’un ton élevé, et
-                                qui marque qu’<app>
+                                </app> parlent d’un ton élevé, et qui marque qu’<app>
                                     <lem>ils</lem>
                                     <rdg wit="#E1697">ils</rdg>
-                                </app>se sentent au-dessus de ceux qui se trouvent
-                                présents ; <app>
+                                </app>se sentent au-dessus de ceux qui se trouvent présents ; <app>
                                     <lem>ils</lem>
                                     <rdg wit="#E1697">ils</rdg>
-                                </app>s’arrêtent, et on les entoure ; 
-                                <app>
+                                </app>s’arrêtent, et on les entoure ; <app>
                                     <lem>ils</lem>
                                     <rdg wit="#E1697">ils</rdg>
-                                </app> ont la parole,
-                                président au cercle, et persistent dans cette hauteur ridicule et
-                                contrefaite, jusqu’à ce qu’il survienne un grand, qui, la faisant
-                                tomber tout d’un coup par sa présence, les réduise à leur naturel,
-                                qui est moins mauvais.</lem>
-                            <rdg>Vous voyez des gens qui entrent ſans ſalüer que legerement, qui
-                                marchent des épaules, &amp; ſe rengorgent comme une femme : ils vous
-                                interrogent ſans vous regarder, parlent d’un ton élevé, &amp; qui
-                                marque qu’ils ſe ſentent au-deſſus de ceux qui ſe trouvent preſens ;
-                                ils s’arrétent, &amp; on les entoure ; ils ont la parole, préſident
-                                au cercle, &amp; perſiſtent dans cette hauteur ridicule &amp;
-                                contrefaite, juſqu’à ce qu’il ſurvienne un Grand, qui la faiſant
-                                tomber tout d’un coup par ſa préſence, les reduiſe à leur naturel,
-                                qui eſt moins mauvais.</rdg>
+                                </app> ont la parole, président au cercle, et persistent dans cette
+                                hauteur ridicule et contrefaite, jusqu’à ce qu’il survienne un
+                                grand, qui, la faisant tomber tout d’un coup par sa présence, les
+                                réduise à leur naturel, qui est moins mauvais.</lem>
+                            <rdg>Vous voyez des <app>
+                                    <lem>gens</lem>
+                                    <rdg wit="#E1697">gens</rdg>
+                                </app> qui entrent ſans ſalüer que legerement, qui marchent des
+                                épaules, &amp; ſe rengorgent comme une femme : <app>
+                                    <lem>ils</lem>
+                                    <rdg wit="#E1697">ils</rdg>
+                                </app> vous interrogent ſans vous regarder, parlent d’un ton élevé,
+                                &amp; qui marque qu’ <app>
+                                    <lem>ils</lem>
+                                    <rdg wit="#E1697"/>
+                                </app> ſe ſentent au-deſſus de ceux qui ſe trouvent preſens ; <app>
+                                    <lem>ils</lem>
+                                    <rdg wit="#E1697">ils</rdg>
+                                </app> s’arrétent, &amp; on les entoure ; <app>
+                                    <lem>ils</lem>
+                                    <rdg wit="#E1697">ils</rdg>
+                                </app> ont la parole, préſident au cercle, &amp; perſiſtent dans
+                                cette hauteur ridicule &amp; contrefaite, juſqu’à ce qu’il ſurvienne
+                                un Grand, qui la faiſant tomber tout d’un coup par ſa préſence, les
+                                reduiſe à leur naturel, qui eſt moins mauvais.</rdg>
                         </app></p>
                 </div2>
                 <div2 n="18" source="#PARIS_1691_6 #PARIS_1689_4">
@@ -727,8 +750,8 @@
                                     n="252" source="#PARIS_1691_6"/> Ces gens ont l’oreille des plus
                                 grands <pb n="204" source="#PARIS_1689_4"/>princes, sont de tous
                                 leurs plaisirs et de toutes leurs fêtes, ne sortent pas du
-                                    <placeName ref="#Louvre">Louvre</placeName> ou du
-                                    <placeName ref="#Château">Château</placeName>, où ils marchent et agissent
+                                    <placeName ref="#Louvre">Louvre</placeName> ou du <placeName
+                                    ref="#Château">Château</placeName>, où ils marchent et agissent
                                 comme chez eux et dans leur domestique, semblent se multiplier en
                                 mille endroits, et sont toujours les premiers visages qui frappent
                                 les nouveaux venus à une cour ; ils embrassent, ils sont embrassés ;
@@ -754,88 +777,94 @@
                                 playes ſur le corps, de beaux emplois ou de grandes dignitez, ne
                                 montrent pas un viſage ſi aſſuré, ny une contenance ſi libre. Ces
                                 gens ont l’oreille des plus grands Princes, ſont de tous leurs
-                                plaiſirs &amp; toutes leurs feſtes ; ne ſortent pas du Louvre ou du
-                                Château, où ils marchent &amp; agiſſent comme chez eux &amp; dans
-                                leur domeſtique, ſemblent ſe multiplier en mille endroits, &amp;
-                                ſont toûjours les premiers viſages qui frapent les nouveaux venus à
-                                une Cour: ils embraſſent, ils ſont embraſſés; ils rient, ils
-                                éclatent, ils ſont plaiſans, ils font des contes; perſonnes
-                                commodes, agreables, riches, qui prêtent, &amp; qui ſont ſans
-                                conſéquence.</rdg>
+                                plaiſirs &amp; toutes leurs feſtes ; ne ſortent pas du <placeName
+                                    ref="#Louvre">Louvre</placeName> ou du <placeName ref="#Château"
+                                    >Château</placeName>, où ils marchent &amp; agiſſent comme chez
+                                eux &amp; dans leur domeſtique, ſemblent ſe multiplier en mille
+                                endroits, &amp; ſont toûjours les premiers viſages qui frapent les
+                                nouveaux venus à une Cour: ils embraſſent, ils ſont embraſſés; ils
+                                rient, ils éclatent, ils ſont plaiſans, ils font des contes;
+                                perſonnes commodes, agreables, riches, qui prêtent, &amp; qui ſont
+                                ſans conſéquence.</rdg>
                         </app></p>
                 </div2>
                 <div2 n="19" source="#PARIS_1691_6">
                     <p>
                         <g ref="#U2761" source="#PARIS_1691_6"/><app>
-                            <lem>Ne croirait-on pas de 
-                                <app>
+                            <lem>Ne croirait-on pas de <app>
                                     <lem>Cimon</lem>
                                     <rdg wit="#M1689">Cimon</rdg>
                                     <rdg><persName ref="#Cimon">Cimon</persName></rdg>
-                                </app> et de
-                                <app>
+                                </app> et de <app>
                                     <lem>Clitandre</lem>
                                     <rdg wit="#M1697">Clitandre</rdg>
                                     <rdg><persName ref="#Clitandre">Clitandre</persName></rdg>
                                 </app>
-                                    <note resp="#EK">Pour varier les
-                                    effets sur le lecteur, La Bruyère met en scène des personnages
-                                    comme ci-présent.</note> qu’ils sont seuls chargés des détails
-                                de tout l’État, et que seuls aussi ils en doivent répondre ? L’un a
-                                du moins les affaires de terre, et l’autre les maritimes. Qui
-                                pourrait les représenter exprimerait l’empressement, l’inquiétude,
-                                la curiosité, l’activité, saurait peindre le mouvement. On ne les a
-                                jamais vus assis, jamais fixes et arrêtés : qui même les a vus
-                                marcher ? on les voit courir, parler en courant, et vous interroger
-                                sans attendre de réponse. Ils ne viennent d’aucun endroit, ils ne
-                                vont nulle <pb n="253" source="#PARIS_1691_6"/>part : ils passent et
-                                ils repassent. Ne les retardez pas dans leur course précipitée, vous
-                                démonteriez leur machine ; ne leur faites pas de questions, ou
-                                donnez-leur du moins le temps de respirer et de se ressouvenir
-                                qu’ils n’ont nulle affaire, qu’ils peuvent demeurer avec vous et
-                                longtemps, vous suivre même où il vous plaira de les emmener. Ils ne
-                                sont pas les Satellites de Jupiter, je veux dire ceux qui pressent
-                                et qui entourent le prince, mais ils l’annoncent et le précèdent ;
-                                ils se lancent impétueusement dans la foule des courtisans ; tout ce
-                                qui se trouve sur leur passage est en péril. Leur profession est
-                                d’être vus et revus, et ils ne se couchent jamais sans s’être
-                                acquittés d’un emploi si sérieux, et si utile à la république. Ils
-                                sont au reste instruits à fond de toutes les nouvelles
-                                indifférentes, et ils savent à la cour tout ce que l’on peut y
-                                ignorer ; il ne leur manque aucun des talents nécessaires pour
-                                s’avancer médiocrement. Gens néanmoins éveillés et alertes sur tout
-                                ce qu’ils croient leur convenir, un peu entreprenants, légers et
-                                précipités. <pb n="254" source="#PARIS_1691_6"/>Le dirai-je ? ils
-                                portent au vent, attelés tous deux au char de la Fortune, et tous
-                                deux fort éloignés de s’y voir assis.</lem>
-                            <rdg>Ne croiroit-on pas de Cimon &amp; de Clitandre qu’ils ſont ſeuls
-                                chargez des détails de tout l’Etat, &amp; que ſeuls auſſi ils en
-                                doivent répondre : l’un a du moins les affaires de terre, &amp;
-                                l’autre les maritimes; qui pourroit les repreſenter exprimeroit
-                                l’empreſſement, l’inquietude, la curioſité, l’activité, ſçauroit
-                                peindre le mouvement. On ne les a jamais veus aſſis, jamais fixes
-                                &amp; arrétez ; qui meſme les a vû marcher ? on les voit courir,
-                                parler en courant, &amp; vous interroger ſans attendre de réponſe :
-                                ils ne viennent d’aucun endroit, ils ne vont nulle part : ils
-                                paſſent &amp; ils repaſſent ; ne les retardez pas dans leur courſe
-                                précipitée, vous démonteriez leur machine ; ne leur faites pas de
-                                queſtions, ou donnez-leur du moins le temps de reſpirer &amp; de ſe
-                                reſſouvenir qu’ils n’ont nulle affaire, qu’ils peuvent demeurer avec
-                                vous &amp; long-temps, vous ſuivre meſme où il vous plaira de les
-                                emmener. Ils ne ſont pas les Satellites de Jupiter, je veux dire
-                                ceux qui preſſent &amp; qui entourent le Prince, mais ils
-                                l’annoncent &amp; le précedent ; ils ſe lancent impetueuſement dans
-                                la foule des Courtiſans, tout ce qui ſe trouve ſur leur paſſage eſt
-                                en peril ; leur profeſſion eſt d’eſtre vûs &amp; revûs, &amp; ils ne
-                                ſe couchent jamais ſans s’eſtre acquittez d’un employ ſi ſérieux,
-                                &amp; ſi utile à la République: ils ſont au reſte inſtruits à fond
-                                de toutes les nouvelles indifferentes, &amp; ils ſçavent à la Cour
-                                tout ce que l’on peut y ignorer : il ne leur manque aucun des
-                                talents neceſſaires pour s’avancer mediocrement. Gens neanmoins
-                                éveillez &amp; alertes ſur tout ce qu’ils croient leur convenir, un
-                                peu entreprenans, legers &amp; précipitez: le diray-je, ils portent
-                                au vent, &amp; ſont attelez au char de la fortune, où ils ſont tous
-                                deux fort éloignez de ſe voir aſſis.</rdg>
+                                <note resp="#EK">Pour varier les effets sur le lecteur, La Bruyère
+                                    met en scène des personnages comme ci-présent.</note> qu’ils
+                                sont seuls chargés des détails de tout l’État, et que seuls aussi
+                                ils en doivent répondre ? L’un a du moins les affaires de terre, et
+                                l’autre les maritimes. Qui pourrait les représenter exprimerait
+                                l’empressement, l’inquiétude, la curiosité, l’activité, saurait
+                                peindre le mouvement. On ne les a jamais vus assis, jamais fixes et
+                                arrêtés : qui même les a vus marcher ? on les voit courir, parler en
+                                courant, et vous interroger sans attendre de réponse. Ils ne
+                                viennent d’aucun endroit, ils ne vont nulle <pb n="253"
+                                    source="#PARIS_1691_6"/>part : ils passent et ils repassent. Ne
+                                les retardez pas dans leur course précipitée, vous démonteriez leur
+                                machine ; ne leur faites pas de questions, ou donnez-leur du moins
+                                le temps de respirer et de se ressouvenir qu’ils n’ont nulle
+                                affaire, qu’ils peuvent demeurer avec vous et longtemps, vous suivre
+                                même où il vous plaira de les emmener. Ils ne sont pas les
+                                Satellites de Jupiter, je veux dire ceux qui pressent et qui
+                                entourent le prince, mais ils l’annoncent et le précèdent ; ils se
+                                lancent impétueusement dans la foule des courtisans ; tout ce qui se
+                                trouve sur leur passage est en péril. Leur profession est d’être vus
+                                et revus, et ils ne se couchent jamais sans s’être acquittés d’un
+                                emploi si sérieux, et si utile à la république. Ils sont au reste
+                                instruits à fond de toutes les nouvelles indifférentes, et ils
+                                savent à la cour tout ce que l’on peut y ignorer ; il ne leur manque
+                                aucun des talents nécessaires pour s’avancer médiocrement. Gens
+                                néanmoins éveillés et alertes sur tout ce qu’ils croient leur
+                                convenir, un peu entreprenants, légers et précipités. <pb n="254"
+                                    source="#PARIS_1691_6"/>Le dirai-je ? ils portent au vent,
+                                attelés tous deux au char de la Fortune, et tous deux fort éloignés
+                                de s’y voir assis.</lem>
+                            <rdg>Ne croiroit-on pas de <app>
+                                    <lem>Cimon</lem>
+                                    <rdg wit="#M1689"/>
+                                    <rdg><persName ref="#Cimon">Cimon</persName></rdg>
+                                </app> &amp; de <app>
+                                    <lem>Clitandre</lem>
+                                    <rdg wit="#M1697">Clitandre</rdg>
+                                    <rdg><persName ref="#Clitandre">Clitandre</persName></rdg>
+                                </app> qu’ils ſont ſeuls chargez des détails de tout l’Etat, &amp;
+                                que ſeuls auſſi ils en doivent répondre : l’un a du moins les
+                                affaires de terre, &amp; l’autre les maritimes; qui pourroit les
+                                repreſenter exprimeroit l’empreſſement, l’inquietude, la curioſité,
+                                l’activité, ſçauroit peindre le mouvement. On ne les a jamais veus
+                                aſſis, jamais fixes &amp; arrétez ; qui meſme les a vû marcher ? on
+                                les voit courir, parler en courant, &amp; vous interroger ſans
+                                attendre de réponſe : ils ne viennent d’aucun endroit, ils ne vont
+                                nulle part : ils paſſent &amp; ils repaſſent ; ne les retardez pas
+                                dans leur courſe précipitée, vous démonteriez leur machine ; ne leur
+                                faites pas de queſtions, ou donnez-leur du moins le temps de
+                                reſpirer &amp; de ſe reſſouvenir qu’ils n’ont nulle affaire, qu’ils
+                                peuvent demeurer avec vous &amp; long-temps, vous ſuivre meſme où il
+                                vous plaira de les emmener. Ils ne ſont pas les Satellites de
+                                Jupiter, je veux dire ceux qui preſſent &amp; qui entourent le
+                                Prince, mais ils l’annoncent &amp; le précedent ; ils ſe lancent
+                                impetueuſement dans la foule des Courtiſans, tout ce qui ſe trouve
+                                ſur leur paſſage eſt en peril ; leur profeſſion eſt d’eſtre vûs
+                                &amp; revûs, &amp; ils ne ſe couchent jamais ſans s’eſtre acquittez
+                                d’un employ ſi ſérieux, &amp; ſi utile à la République: ils ſont au
+                                reſte inſtruits à fond de toutes les nouvelles indifferentes, &amp;
+                                ils ſçavent à la Cour tout ce que l’on peut y ignorer : il ne leur
+                                manque aucun des talents neceſſaires pour s’avancer mediocrement.
+                                Gens neanmoins éveillez &amp; alertes ſur tout ce qu’ils croient
+                                leur convenir, un peu entreprenans, legers &amp; précipitez: le
+                                diray-je, ils portent au vent, &amp; ſont attelez au char de la
+                                fortune, où ils ſont tous deux fort éloignez de ſe voir aſſis.</rdg>
                         </app></p>
                 </div2>
                 <div2 n="20" source="#PARIS_1691_6 #PARIS_1689_4">
@@ -857,38 +886,44 @@
                                 généalogiques, d’écussons chargés de seize quartiers, et de tableaux
                                 de ses ancêtres et des alliés de ses ancêtres ; se piquer d’avoir un
                                 ancien château à tourelles, à créneaux et à mâchecoulis <note
-                                    resp="#EK">Larousse : "Galerie en encorbellement au sommet des
-                                    murailles médiévales et dont le plancher ajouré permettait de
-                                    laisser tomber des projectiles pour battre le pied des
-                                    murs."</note> dire en toute rencontre : ma race, ma branche, mon
-                                nom et mes armes ; dire de celui-ci qu’il n’est pas <pb n="255"
-                                    source="#PARIS_1691_6"/>homme de qualité ; de celle-là, qu’elle
-                                n’est pas demoiselle ; ou si on lui dit
-                                    qu’<persName ref="#Hyacinthe">Hyacinthe</persName> a eu le gros lot, demander
-                                s’il est gentilhomme. Quelques-uns riront de ces contre-temps, mais
-                                il les laissera rire ; d’autres en feront des contes, et il leur
-                                permettra de conter : il dira toujours qu’il marche après la maison
-                                régnante ; et à force de le dire, il sera cru.</lem>
+                                    resp="#EK" type="vocabulaire">Larousse : "Galerie en
+                                    encorbellement au sommet des murailles médiévales et dont le
+                                    plancher ajouré permettait de laisser tomber des projectiles
+                                    pour battre le pied des murs."</note> dire en toute rencontre :
+                                ma race, ma branche, mon nom et mes armes ; dire de celui-ci qu’il
+                                n’est pas <pb n="255" source="#PARIS_1691_6"/>homme de qualité ; de
+                                celle-là, qu’elle n’est pas demoiselle ; ou si on lui dit
+                                    qu’<persName ref="#Hyacinthe">Hyacinthe</persName> a eu le gros
+                                lot, demander s’il est gentilhomme. Quelques-uns riront de ces
+                                contre-temps, mais il les laissera rire ; d’autres en feront des
+                                contes, et il leur permettra de conter : il dira toujours qu’il
+                                marche après la maison régnante ; et à force de le dire, il sera
+                                cru.</lem>
                             <rdg>Un homme de la Cour qui n’a pas un aſſez beau nom, doit l’enſevelir
                                 ſous un meilleur ; mais s’il l’a tel qu’il oſe le porter, il doit
                                 alors inſinuer qu’il eſt de tous les noms le plus illuſtre, comme ſa
                                 maiſon de toutes les maiſons la plus ancienne : il doit tenir aux
-                                Princes Lorrains, aux Rohans, aux Chastillons, aux Montmorencis,
-                                &amp;, s’il ſe peut, aux Princes Du Sang ; ne parler que de Ducs, de
-                                Cardinaux et de Miniſtres; faire entrer dans toutes les
-                                converſations ſes ayeuls paternels &amp; maternels, &amp; y trouver
-                                place pour l’oriflamme &amp; pour les croiſades; avoir des ſalles
-                                parées d’arbres genealogiques, d’écuſſons chargez de ſeize
-                                quartiers, &amp; de tableaux de ſes ancétres &amp; des alliez de ſes
-                                ancétres ; ſe piquer d’avoir un ancien Château à tourelles, à
-                                créneaux et à machecoulis; dire en toute rencontre ma race, ma
-                                branche, mon nom &amp; mes armes ; dire de celuy-cy, il n’eſt pas
-                                homme de qualité; de celle-là, qu’elle n’eſt pas Demoiſelle ; ou ſi
-                                on luy dit qu’Hyacinthe a eu le gros lot, demander eſt il
-                                Gentilhomme ? quelques-uns riront de ces contre-temps, mais il les
-                                laiſſera rire; d’autres en feront des contes, &amp; il leur
-                                permettra de conter : il dira toûujours qu’il marche aprés la maiſon
-                                regnante, &amp; à force de le dire, il ſera cru.</rdg>
+                                    <persName ref="#Duché_Lorrain">Princes Lorrains</persName>, aux
+                                    <persName ref="#Duché_Rohan">Rohans</persName>, aux <persName
+                                    ref="#Duché_Savoie">Chastillons</persName> , aux <persName
+                                    ref="#Maison_Montmorency">Montmorencis</persName>, &amp;, s’il
+                                ſe peut, aux <persName ref="#Famille_Royale">Princes Du
+                                    Sang</persName> ; ne parler que de Ducs, de Cardinaux et de
+                                Miniſtres; faire entrer dans toutes les converſations ſes ayeuls
+                                paternels &amp; maternels, &amp; y trouver place pour l’oriflamme
+                                &amp; pour les croiſades; avoir des ſalles parées d’arbres
+                                genealogiques, d’écuſſons chargez de ſeize quartiers, &amp; de
+                                tableaux de ſes ancétres &amp; des alliez de ſes ancétres ; ſe
+                                piquer d’avoir un ancien Château à tourelles, à créneaux et à
+                                machecoulis; dire en toute rencontre ma race, ma branche, mon nom
+                                &amp; mes armes ; dire de celuy-cy, il n’eſt pas homme de qualité;
+                                de celle-là, qu’elle n’eſt pas Demoiſelle ; ou ſi on luy dit
+                                    qu’<persName ref="#Hyacinthe">Hyacinthe</persName> a eu le gros
+                                lot, demander eſt il Gentilhomme ? quelques-uns riront de ces
+                                contre-temps, mais il les laiſſera rire; d’autres en feront des
+                                contes, &amp; il leur permettra de conter : il dira toûujours qu’il
+                                marche aprés la maiſon regnante, &amp; à force de le dire, il ſera
+                                cru.</rdg>
                         </app></p>
                 </div2>
             </div1>
