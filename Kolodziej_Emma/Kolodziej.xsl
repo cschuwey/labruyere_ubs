@@ -17,7 +17,7 @@
     <xsl:template match="tei:text">
         <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="tei:persName|tei:category">
+    <xsl:template match="tei:persName|tei:placeName">
         <b><xsl:apply-templates/></b>
     </xsl:template>
     <xsl:template match="tei:div2[contains(@source,'#PARIS_1689_4')]">
@@ -26,8 +26,6 @@
     <xsl:template match="tei:pb[contains(@source,'#PARIS_1691_6')]">
         <p style="page-break-before:always"><xsl:apply-templates/></p>
     </xsl:template>
-
-    <!-- J'ai trouver ce code pour créer des sauts de page et ainsi voir la mise en forme d'une source par exemple. Je ne suis pas sûre que cela fonctionne, c'est un test-->
 
     
 </xsl:stylesheet>
