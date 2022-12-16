@@ -21,6 +21,7 @@
         </p>
     </xsl:template>
     
+    
     <!--En-dessous les deux template concernant la titlePage-->
     <xsl:template match="tei:titlePage">
         <i style="font-size:11pt">
@@ -29,16 +30,18 @@
     </xsl:template>
     <xsl:template match="tei:figure"></xsl:template>
     
-    <!--Ici, j'ai essayé d'ajouter des notes de bas de pages mais elles n'apparaissent pas dans le document de sortie-->
-    <xsl:template match="tei:note">
-    <xsl:for-each select="note">
-        <xsl:text>[</xsl:text>
-        <xsl:value-of select="count(preceding-sibling::note)+1"/>
-        <xsl:text>]</xsl:text>
-        <xsl:apply-templates/>
-    </xsl:for-each>
-    </xsl:template>
     
+    <!--Ici, j'ai essayé d'ajouter des notes de bas de pages, mais je n'ai toujours pas réussi malgré vos explications-->
+        <xsl:template match="tei:note">
+            <xsl:for-each select="text/body/div2/@n">
+                <xsl:sort select="@n">
+                </xsl:sort>
+                <xsl:value-of select="count(preceding-sibling::note)+1"/>
+                <xsl:apply-templates></xsl:apply-templates>
+            </xsl:for-each>
+        </xsl:template>
+    
+   
     <xsl:template match="tei:div2">
         <p>
             <xsl:apply-templates></xsl:apply-templates>
@@ -65,5 +68,5 @@
             <xsl:apply-templates></xsl:apply-templates>
         </p>
     </xsl:template>
-    
+
 </xsl:stylesheet>
