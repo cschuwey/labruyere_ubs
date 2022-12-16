@@ -363,8 +363,8 @@
                         <g ref="#U2761"/> 
                         <app>
                             <lem>J’approche 
-                                <placeName ref="#unepetiteville">d’une petite ville</placeName>
-                        , et je suis déjà sur une hauteur d’où je la découvre. 
+                                <placeName ref="#unepetiteville">d’une petite ville, </placeName>
+                        et je suis déjà sur une hauteur d’où je la découvre. 
                         Elle est située à mi-côte ; une rivière baigne
                         ses murs, et coule ensuite dans une belle prairie ; elle a une forêt épaisse
                         qui la couvre des vents froids et de l’aquilon. 
@@ -612,7 +612,7 @@
                     <pb n="185" ed="#PARIS_1691_1"/> <!--page 185 de l'édition "PARIS_1691_1" commence ici-->
                         mez, ne vous laissez point
                         mourir de chagrin, songez à vivre" : harangues froides, et qui réduisent à
-                        l’impossible. "Etês-vous raisonnable de vous tant inquiéter ? " n’est-ce pas
+                        l’impossible. "Etes-vous raisonnable de vous tant inquiéter ? " n’est-ce pas
                         dire : "Etes-vous fou d’être malheureux ? "</lem>
                             <rdg wit="#PARIS_1691_1">Combien de belles &amp; inutiles raisons à étaler à celuy qui
                         est dans une grande adversité pour essayer de le rendre tranquille : les
