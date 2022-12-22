@@ -152,6 +152,8 @@
                     <person xml:id="Alexandre"></person>
                     <person xml:id="César"></person>
                     <person xml:id="Aemile"></person>
+                    <person xml:id="V**"/>
+                    <person xml:id="C**"/>
                     <person xml:id="Socrate">
                         <idno>https://data.bnf.fr/12160626/socrate_le_scholastique/</idno>
                         <birth notBefore="-0470" notAfter="-0469">entre 470 et 469 avant J-C
