@@ -469,7 +469,7 @@
                         <app>
                             <lem>et l’auteur</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">&amp; l'Auteur</rdg>
-                        </app> de <persName>Pyrame</persName> 
+                        </app> de <persName ref="#Pyrame">Pyrame</persName> 
                         <app>
                             <lem>est un poète</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſt un Poëte</rdg>
@@ -499,7 +499,7 @@
                     <p source="#Paris_1689_4 #Paris_1692_7 #Paris_1699_10" n="26"><g ref="#pieddemouche"></g>
                         Après le mérite personnel, il faut l’avouer, 
                         ce sont les éminentes dignité et les grands titres dont les<pb n="148" source="#Paris_1699_10"/> hommes tirent plus de distinction et plus 
-                        d’éclat ; et qui ne sait être un <persName>Erasme</persName> doit penser à être évêque. Quelques-uns, 
+                        d’éclat ; et qui ne sait être un <persName ref="#Erasme">Erasme</persName> doit penser à être évêque. Quelques-uns, 
                         pour étendre leur renommée, entassent sur leurs personnes des pairies, des colliers d’ordre, 
                         des primaties, la pourpre, et ils auraient besoin d’une tiare ; 
                         mais quel besoin a Trophime d’être cardinal ?</p>
@@ -507,20 +507,20 @@
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
                     <p source="#Paris_1692_7 #Paris_1699_10" n="27"><g ref="#pieddemouche"></g>
-                        L’or éclate, dites-vous, sur les habits de <persName>Philémon</persName>. 
+                        L’or éclate, dites-vous, sur les habits de <persName ref="#Philémon">Philémon</persName>. 
                         — Il éclate de même chez les marchands. — Il est habillé des plus belles étoffes. 
                         — Le sont-elles moins toutes déployées dans les boutiques et à la pièce ? 
                         — Mais la broderie et les ornements y ajoutent encore la magnificence. 
                         — Je loue donc le travail de l’ouvrier. — Si on lui demande quelle heure il est, 
                         il tire une montre qui est un chef-d’œuvre ; la<pb n="150" source="#Paris_1692_7"/> garde de son épée est un onyx
-                        <note source="#Paris_1699_10" style="*" type="footnote" place="right" resp="imprimeur"><persName>Agathe</persName></note>
-                        <note source="#Paris_1688_7" style="✝" type="footnote" place="right" resp="#Imprimeur"><persName>Agathe</persName></note> ; 
+                        <note source="#Paris_1699_10" style="*" type="footnote" place="right" resp="imprimeur"><persName ref="#Agathe">Agathe</persName></note>
+                        <note source="#Paris_1688_7" style="✝" type="footnote" place="right" resp="#Imprimeur"><persName ref="#Agathe">Agathe</persName></note> ; 
                         il a au doigt un gros diamant qu’il fait briller aux yeux, et qui est parfait ; 
                         il ne lui manque aucune de ces curieuses bagatelles que l’on porte sur soi autant pour la vanité que 
                         pour l’usage, et il ne se plaint non plus toute sorte de parure qu’un jeune<pb n="149" source="#Paris_1699_10"/> homme qui a épousé une riche 
                         vieille. — Vous m’inspirez enfin de la curiosité ; il faut voir du moins des choses si précieuses : 
-                        envoyez-moi cet habit et ces bijoux de <persName>Philémon</persName> ; je vous quitte de la personne.
-                        Tu te trompes, <persName>Philémon</persName>, si avec ce carrosse brillant, ce grand nombre de coquins qui te suivent, 
+                        envoyez-moi cet habit et ces bijoux de <persName ref="#Philémon">Philémon</persName> ; je vous quitte de la personne.
+                        Tu te trompes, <persName ref="#Philémon">Philémon</persName>, si avec ce carrosse brillant, ce grand nombre de coquins qui te suivent, 
                         et ces six bêtes qui te traînent, tu penses que l’on t’en estime davantage : 
                         l’on écarte tout cet attirail qui t’est étranger, pour pénétrer jusques à toi, qui n’es qu’un fat.
                         Ce n’est pas qu’il ne faut quelquefois pardonner à celui qui, avec un grand cortège, 
@@ -608,7 +608,7 @@
                         ne peuvent comprendre cette universalité de talents que l’on remarque quelquefois dans un même sujet : 
                         où ils voient l’agréable, ils en excluent le solide ; où ils croient découvrir les grâces du corps, 
                         l’agilité, la souplesse, la dextérité, ils ne veulent plus y admettre les dons de l’âme, la profondeur, 
-                        la réflexion, la sagesse : ils ôtent de l’histoire de <persName>Socrate</persName> qu’il ait dansé.<pb n="155" source="#Paris_1692_7"/></p>
+                        la réflexion, la sagesse : ils ôtent de l’histoire de <persName ref="#Socrate">Socrate</persName> qu’il ait dansé.<pb n="155" source="#Paris_1692_7"/></p>
                 </div2>
                 
                 <div2 source="#Paris_1692_7 #Paris_1699_10">
@@ -677,7 +677,7 @@
                         N’a-t-il pas dit de ceux-ci que leur union ne serait pas longue ? 
                         N’était-il pas présent à de certaines paroles qui furent dites ? 
                         N’entra-t-il pas dans une espèce de négo<pb n="158" source="#Paris_1692_7"/>ciation ? Le voulut-on croire ? fut-il écouté ? 
-                        A qui parlez-vous de ces choses ? Qui a eu plus de part que <persName>Celse</persName> à toutes ces intrigues de cour ? 
+                        A qui parlez-vous de ces choses ? Qui a eu plus de part que <persName ref="#Celse">Celse</persName> à toutes ces intrigues de cour ? 
                         Et si cela n’était ainsi, s’il ne l’avait du moins ou rêvé ou imaginé, 
                         songe<pb n="157" source="#Paris_1699_10"/>rait-il à vous le faire croire ? 
                         aurait-il l’air important et mystérieux d’un homme revenu d’une ambassade ?</p>
