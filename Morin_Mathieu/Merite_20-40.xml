@@ -457,11 +457,11 @@
                         <app>
                             <lem>et</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">&amp;</rdg>
-                        </app> de plus relevé. <persName>V**</persName> 
+                        </app> de plus relevé. <persName ref="#V**">V**</persName> 
                         <app>
                             <lem>est un peintre,</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">eſt un Peintre.</rdg>
-                        </app> <persName>C**</persName> un 
+                        </app> <persName ref="#C**">C**</persName> un 
                         <app>
                             <lem>musicien,</lem>
                             <rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1692_7 #Paris_1699_10">Muſicien,</rdg>
