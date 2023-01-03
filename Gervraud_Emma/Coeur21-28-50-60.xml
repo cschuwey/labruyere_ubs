@@ -514,13 +514,13 @@
                 <div2 n="22" source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p>
                         <g ref="#pied_de_mouche_simple "></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Une grande <term>reconnaissance</term> emporte avec soi beaucoup de goût et <pb n="144" source="#Paris_1689_4"/> d'<app><lem><term ref="#amitié">amitié</term></lem><rdg wit="#Paris_1690_5">amit é</rdg></app> pour
+                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Une grande <term ref="#reconnaissance">reconnaissance</term> emporte avec soi beaucoup de goût et <pb n="144" source="#Paris_1689_4"/> d'<app><lem><term ref="#amitié">amitié</term></lem><rdg wit="#Paris_1690_5">amit é</rdg></app> pour
                             la personne qui nous oblige.</p>
                 </div2>
                 <div2 n="23" source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
                     <p> 
                         <g ref="#pied_de_mouche_simple"></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Etre <note resp="#EG">Dans la Bryuère, il est écrit "estre"</note> avec des gens qu’on <term>aime</term> <app><lem>,</lem><rdg wit="#Paris_1689_4 #Paris_1690_5"> absence de virgule</rdg></app> cela suffit ; <term ref="#rêver">rêver</term>, leur parler<app><lem>,</lem><rdg wit="#Paris_1689_4">manque d'espaces avant et après virgule</rdg></app> ne leur
+                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Etre <note resp="#EG">Dans la Bryuère, il est écrit "estre"</note> avec des gens qu’on <term ref="aimer">aime</term> <app><lem>,</lem><rdg wit="#Paris_1689_4 #Paris_1690_5"> absence de virgule</rdg></app> cela suffit ; <term ref="#rêver">rêver</term>, leur parler<app><lem>,</lem><rdg wit="#Paris_1689_4">manque d'espaces avant et après virgule</rdg></app> ne leur
                         parler point <note resp="#EG"><date ref="#ancêtre">ancêtre</date> du mot pas</note>, penser à eux, penser à des choses plus <app><lem>indifférentes</lem><rdg wit="#Paris_1689_4">indiff.rentes</rdg></app>, mais
                         auprès d’eux, tout est égal. <pb n="117" source="#Paris_1699_10"/> <pb n="169" source="#Paris_1694_8"/> <pb n="168" source="#Paris_1692_7"/> <pb n="147" source="#Paris_1691_6"/></p>
                 </div2>
