@@ -55,10 +55,13 @@
     <xsl:template match="tei:pb"> [<xsl:value-of select="@n"/>] </xsl:template>
     
     
+    
     <xsl:template match="tei:term">
         <xsl:apply-templates/>
         
-  
+        
+        
+        
         <xsl:variable name="refid">
             <xsl:value-of select="substring(@ref,2)"/> 
             
