@@ -6,10 +6,13 @@
     
     <xsl:template match="tei:TEI">
         <html>
-            <head></head>
+            <head>
+                
+            </head>
             <body>
                 <p style="color:blue"> Laureline Georget </p>
-               <p>Nombre de variantes : </p> <xsl:value-of select="count(//tei:app)"/> <br></br>
+                <h1 style="color:red; font_size:16pt;text-align:center"> Les Caractères de Théophraste traduit du grec, Jean de La Bruyère </h1>
+                <p>Nombre de variantes : <xsl:value-of select="count(//tei:app)"/>  </p>
                 <xsl:apply-templates/>  
             </body>
         </html>
@@ -45,37 +48,30 @@
         
     </xsl:template>
     
-    
     <xsl:template match="tei:titlePage">
-        <b style="font_size:16pt;text-align: center"> <xsl:apply-templates/></b> <br></br>
-    
+        <p style="font_size:14pt;text-align:center"> <xsl:apply-templates/></p> <br></br>
+        
     </xsl:template> 
     <xsl:template match="tei:pb"> [<xsl:value-of select="@n"/>] </xsl:template>
     
     
-    
     <xsl:template match="tei:term">
-       <xsl:apply-templates/>
-           
+        <xsl:apply-templates/>
         
-        
-     
-    <xsl:variable name="refid">
-       <xsl:value-of select="substring(@ref,2)"/> 
-           
-       </xsl:variable>
+  
+        <xsl:variable name="refid">
+            <xsl:value-of select="substring(@ref,2)"/> 
+            
+        </xsl:variable>
         <i style="color:purple"> (<xsl:value-of select="//tei:category[@xml:id=$refid]/tei:catDesc"/>) </i> 
         
-        </xsl:template>
-    
-    
-    
-    
-    
-    
-    
-    
-  
+    </xsl:template>
+ 
 </xsl:stylesheet>
-
-
+    
+    
+    
+    
+    
+    
+    
