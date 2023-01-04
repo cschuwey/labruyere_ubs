@@ -3,21 +3,26 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>les Caractères de la Bruyère</title>
+                <respStmt xml:id="LB">
+                    <name>La Bruyère</name>
+                    <resp>Auteur</resp>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition>
                     
                 </edition>
                 <respStmt xml:id="PB">
-                    <name></name>
-                    <resp></resp>
+                    <name>Paul Brassac</name>
+                    <resp>Editeur</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
                 <authority/>
             </publicationStmt>
             <sourceDesc>
+                <!-- Sources des différentes éditions -->
                 <biblStruct>
                     <monogr xml:id="Paris_1688_Première_édition">
                         <title>Les Caractères de Théophraste traduits du grec avec les caractères ou
@@ -56,6 +61,7 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
+                <!-- List des personnes sité dans le text -->
                 <listPerson>
                     <personGrp xml:id="entité_divine"></personGrp>
                     <person xml:id="saint_Léon">
@@ -78,6 +84,7 @@
                            <birth> 13 novembre 354 </birth>
                     </person>
                 </listPerson>
+                <!-- Liste des lieux cité dans le texte -->
                 <listPlace>
                     <place xml:id="Magasins">
                         <desc> magasins dans les quelles on peut trouver des étoffes</desc>
@@ -125,7 +132,7 @@
                 </docAuthor>
                 <docTitle>
                     <titlePart>LES</titlePart>
-                    <titlePart>CARACT7RES</titlePart>
+                    <titlePart>CARACTERES</titlePart>
                     <titlePart>DE THEOPHRASTE</titlePart>
                     <titlePart>TRADUITS DU GREC:</titlePart>
                     <titlePart>avec</titlePart>
