@@ -10,12 +10,13 @@
                 
             </head>
             <body>
-                <xsl:value-of select="count(//tei.app)"/>
+                <p>Nombre de variable:<xsl:value-of select="count(//tei.app)"/></p>
                 <xsl:apply-templates>
                     
                 </xsl:apply-templates>
             </body>
         </html>
+        
     </xsl:template>
     
     <xsl:template match="tei:teiHeader">
