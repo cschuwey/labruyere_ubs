@@ -12,9 +12,13 @@
             <editionStmt>
                 <edition> </edition>
                 <respStmt>
-                    <name>Margot Janiak</name>
+                    <name>Éditrice: Margot Janiak</name>
                     <resp xml:id="Éditrice">Éditrice</resp>
-                    <resp xml:id="Lecteur">Propriétaire inconnu de l'édition</resp>
+                    <resp xml:id="Propriétaire-édition">Propriétaire inconnu de l'édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Inconnu</name>
+                    <resp xml:id="Proprietaire-edition">Propriétaire inconnu de l'exemplaire</resp>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -217,7 +221,7 @@
                             <lem wit="#Ed_19e_origine">lui</lem>
                             <rdg wit="#Paris_1694_ed8">luy<note resp="#Editrice">Ancienne
                                     graphie</note></rdg>
-                        </app> donne <note source="#Paris_1689_ed8" resp="#Lecteur" place="right"
+                        </app> donne <note source="#Paris_1689_ed8" resp="#Propriétaire-édition" place="right"
                             type="ms" hand="Inconnu">Illisible</note> du rang, du crédit, de
                         l’autorité ; déjà on ne le prie plus d’accorder son amitié, on implore sa
                         protection. Il a commencé par dire de <app>
@@ -229,7 +233,7 @@
                         tel, et il n’y a personne de ceux à qui il prête de l’argent, ou qu’il
                         reçoit à sa table, qui est délicate, qui veuille s’y opposer. Sa demeure est
                         superbe ; un dorique règne dans tous ses dehors ; ce n’est pas une porte,
-                        c’est un portique : est-ce la <note source="#Paris_1689_ed8" resp="#Lecteur"
+                        c’est un portique : est-ce la <note source="#Paris_1689_ed8" resp="#Propriétaire-édition"
                             place="left" type="ms" hand="Inconnu">Illisible</note> maison d’un
                         particulier ? est-ce un <app>
                             <lem wit="#Ed_19e_origine">temple</lem>
@@ -244,7 +248,7 @@
                         vingt ans et avant qu’il se fît dans le monde aucune mention de <persName
                             type="Pseudo"><app>
                                 <rdg rend="italic">Périandre</rdg>
-                            </app></persName> ! <note source="#Paris_1689_ed8" resp="#Lecteur"
+                            </app></persName> ! <note source="#Paris_1689_ed8" resp="#Propriétaire-édition"
                             place="left" type="ms" hand="Inconnu">Illisible</note> Comment
                         pourra-t-il soutenir ces odieuses pancartes qui déchiffrent les conditions
                         et qui souvent font rougir la veuve et les héritiers ? Les supprimera-t-il
@@ -257,7 +261,7 @@
 
                 <div2 n="22" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Combien
-                        d’hommes ressemblent <note source="#Paris_1689_ed8" resp="#Lecteur"
+                        d’hommes ressemblent <note source="#Paris_1689_ed8" resp="#Propriétaire-édition"
                             place="right" type="ms" hand="Inconnu">Les partisans</note> à ces arbres
                         déjà forts et avancés que l’on transplante dans <placeName ref="#jardins"
                             >les jardins</placeName>, où ils surprennent les yeux de ceux qui <pb
@@ -272,7 +276,7 @@
 
                 <div2 n="23" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/> Si certains
-                        morts revenaient au <note source="#Paris_1689_ed8" resp="#Lecteur"
+                        morts revenaient au <note source="#Paris_1689_ed8" resp="#Propriétaire-édition"
                             place="right" type="ms" hand="Inconnu">Illisible</note> monde, et s’ils
                         voyaient leurs grands noms portés, et leurs terres les mieux titrées avec
                         leurs châteaux et leurs maisons antiques, possédées par des gens dont les
@@ -317,7 +321,7 @@
 
                 <div2 n="26" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
-                        <note source="#Paris_1689_ed8" resp="#Lecteur" place="right" type="ms"
+                        <note source="#Paris_1689_ed8" resp="#Propriétaire-édition" place="right" type="ms"
                             hand="Inconnu">Illisible</note><app>
                             <lem><seg>Ce garçon</seg></lem>
                             <rdg wit="#Tellier">Charles Maurice Le Tellier, archêque de Reims en
@@ -340,7 +344,7 @@
                                 <rdg wit="#Laugeois">Jacques Laugeois, fermier général seigneur
                                     d'Ymbercourt</rdg>
                             </app></persName>, homme nouveau, et le <note source="#Paris_1689_ed8"
-                            resp="#Lecteur" place="right" type="ms" hand="Inconnu">Illisible</note>
+                            resp="#Propriétaire-édition" place="right" type="ms" hand="Inconnu">Illisible</note>
                         premier noble de sa race, <app>
                             <lem wit="#Ed_19e_origine">aspirait</lem>
                             <rdg wit="#Paris_1694_ed8">aspiroit<note resp="#Editrice">Ancien
@@ -356,7 +360,7 @@
                             source="#Paris_1688_ed8"/> lui-même d’avoir en fonds pour toute fortune
                         pendant sa vie. Une pareille somme est comptée dans ses coffres pour chacun
                         de ses autres enfants qu’il doit pourvoir, et il a un grand nombre <note
-                            source="#Paris_1689_ed8" resp="#Lecteur" place="left" type="ms"
+                            source="#Paris_1689_ed8" resp="#Propriétaire-édition" place="left" type="ms"
                             hand="Inconnu">Illisible</note> d’enfants ; ce n’est qu’en avancement
                         d’hoirie : il y a d’autres biens à espérer après sa mort. Il vit encore,
                         quoique assez avancé en âge, et il use le reste de ses jours à travailler
@@ -376,7 +380,7 @@
                         l’eau de la rivière, ou qui marchent sur la terre ferme : il sait convertir
                         en or jusques aux roseaux, aux joncs et à l’ortie. Il écoute tous les avis,
                         et propose tous ceux qu’il a écoutés. Le prince ne donne aux autres qu’aux
-                            <note source="#Paris_1689_ed8" resp="#Lecteur" place="left" type="ms"
+                            <note source="#Paris_1689_ed8" resp="#Propriétaire-édition" place="left" type="ms"
                             hand="Inconnu">Illisible</note> dépens d’<persName type="Pseudo"
                             ref="#Ergaste"><app>
                                 <rdg rend="italic">Ergaste</rdg>
@@ -393,7 +397,7 @@
                             n="241" source="#Paris_1688_ed8"/> musique d’<persName ref="#Orphée"><app>
                                 <rdg rend="italic">Orphée</rdg>
                             </app></persName>, et se contenter <note source="#Paris_1689_ed8"
-                            resp="#Lecteur" place="right" type="ms" hand="Inconnu">Illisible</note>
+                            resp="#Propriétaire-édition" place="right" type="ms" hand="Inconnu">Illisible</note>
                         de la sienne. </p>
                 </div2>
 
@@ -424,7 +428,7 @@
                                 <rdg wit="#Pontchartrain">désigne Pontchartrain, intendant des
                                     finances en 1698, ou Louis Berrier, commis de Colbert</rdg>
                             </app></persName>, dit le peuple, fait des <note
-                            source="#Paris_1689_ed8" resp="#Lecteur" place="right" type="ms"
+                            source="#Paris_1689_ed8" resp="#Propriétaire-édition" place="right" type="ms"
                             hand="Inconnu">Illisible</note> retraites, <app>
                             <lem wit="#Ed_19e_origine">et</lem>
                             <rdg wit="#Paris_1689_ed8 #Paris_1691_ed6 #Paris_1689_ed5">&amp;</rdg>
@@ -444,7 +448,7 @@
                 <div2 n="32" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="#pieddemouche" source="#Paris_1689_ed8"/>
                         <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/> Si l’on partage la
-                        vie des P. T. S. <note source="#Paris_1689_ed8" resp="#Lecteur"
+                        vie des P. T. S. <note source="#Paris_1689_ed8" resp="#Propriétaire-édition"
                             place="right" type="ms" hand="Inconnu">partisans</note> en deux portions
                         égales, la première, vive et agissante, est toute occupée à vouloir affliger
                         le peuple, et la seconde, voisine de la mort, à se déceler et à se ruiner
@@ -459,9 +463,9 @@
                             <rdg wit="#Fouquet">Nicolas Fouquet, procureur général au Parlement de
                                 Paris et surintendant des Finances en 1653, dont la femme et les
                                 enfant vivaient inconnus et pauvres</rdg>
-                        </app><note source="#Paris_1689_ed8" resp="#Lecteur" place="right" type="ms"
+                        </app><note source="#Paris_1689_ed8" resp="#Propriétaire-édition" place="right" type="ms"
                             hand="Inconnu">Illisible</note>
-                        <note source="#Paris_1689_ed8" resp="#Lecteur" place="left" type="ms"
+                        <note source="#Paris_1689_ed8" resp="#Propriétaire-édition" place="left" type="ms"
                             hand="Inconnu">Illisible</note>
                         <pb n="242" source="#Paris_1688_ed8"/> de plusieurs, qui a fait la vôtre,
                         n’a pu soutenir la sienne, ni assurer avant sa mort celle de sa femme et de
@@ -477,7 +481,7 @@
                 <div2 n="34" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
                         <g ref="#pieddemouche_simple" source="#Paris_1689_ed5"/> Il y a une dureté
-                            <note source="#Paris_1689_ed8" resp="#Lecteur" place="left" type="ms"
+                            <note source="#Paris_1689_ed8" resp="#Propriétaire-édition" place="left" type="ms"
                             hand="Inconnu">Illisible</note> de complexion ; il y en a une autre de
                         condition et d’état. L’on tire de <app>
                             <lem wit="#Ed_19e_origine">celle-ci</lem>
@@ -491,13 +495,13 @@
                 <div2 n="35" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
                         <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
-                        <note source="#Paris_1689_ed8" resp="#Lecteur" place="left" type="ms"
+                        <note source="#Paris_1689_ed8" resp="#Propriétaire-édition" place="left" type="ms"
                             hand="Inconnu">Illisible</note> Fuyez, retirez-vous : vous n’êtes pas
                         assez loin. — Je suis, dites-vous, sous l’autre tropique. — Passez sous le
                         pôle et dans l’autre hémisphère, montez aux étoiles, si vous le pouvez. —
                         M’y voilà. — Fort bien, vous êtes en <pb n="243" source="#Paris_1688_ed8"/>
                         sûreté. Je découvre sur la terre un <note source="#Paris_1689_ed8"
-                            resp="#Lecteur" place="right" type="ms" hand="Inconnu">Illisible</note>
+                            resp="#Propriétaire-édition" place="right" type="ms" hand="Inconnu">Illisible</note>
                         homme avide, insatiable, inexorable, qui veut, aux dépens de tout ce qui se
                         trouvera sur son chemin et à sa rencontre, et <app>
                             <lem wit="#Ed_19e_origine">quoi</lem>
@@ -554,7 +558,7 @@
                         d’esprit que d’habitude ou d’expérience pour faire sa fortune ; l’on y songe
                         trop tard, et quand enfin l’on s’en avise, l’on commence par des fautes que
                         l’on n’a pas toujours le loisir de réparer : de là vient peut-être que les
-                        fortunes sont si rares. <note source="#Paris_1689_ed8" resp="#Lecteur"
+                        fortunes sont si rares. <note source="#Paris_1689_ed8" resp="#Propriétaire-édition"
                             place="left" type="ms" hand="Inconnu">Illisible</note> Un homme d’un
                         petit génie peut vouloir s’avancer : il néglige tout, il ne pense du matin
                         au soir, il ne rêve la nuit qu’à une seule chose, qui est de s’avancer. Il a
@@ -610,7 +614,7 @@
                 <div2 n="41" source="#Paris_1694_ed8 #Paris_1688_ed6 #Paris_1689_ed5">
                     <p><g ref="#pieddemouche" source="#Paris_1689_ed8 #Paris_1691_ed6"/>
                         <g ref="#pieddemouche_double" source="#Paris_1689_ed5"/>
-                        <note source="#Paris_1689_ed8" resp="#Lecteur" place="left" type="ms"
+                        <note source="#Paris_1689_ed8" resp="#Propriétaire-édition" place="left" type="ms"
                             hand="Inconnu">Illisible</note> Quel est le fruit d’une grande fortune,
                         si ce n’est de jouir de la vanité, de l’industrie, du travail et de la
                         dépense de ceux qui sont venus avant nous, <app>
