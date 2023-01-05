@@ -8,6 +8,8 @@
         <html>
             <head/>
             <body>
+                <p>Nombre de variantes:<xsl:value-of select="count(//tei:app)"/>
+                </p>
                 <xsl:apply-templates/>
             </body>
         </html>
@@ -35,7 +37,7 @@
         </p>
     </xsl:template>
     
-    <xsl:template match="tei:titlePage">
+    <xsl:template match="tei:docTitle">
         <p align="center">
             <font size="14">
                 <strong> 
@@ -49,6 +51,20 @@
         <span style="color:purple">
         <xsl:apply-templates/>
     </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:pb">
+        [<xsl:value-of select="@n"/>]      
+    </xsl:template>
+    
+    <xsl:template match="tei:persName">
+        <xsl:apply-templates/> 
+        <xsl:variable name="refId"> 
+        <xsl:value-of select="substring(@ref,2)"/>
+        </xsl:variable>
+            
+        [<xsl:value-of select="//tei:person[@xml:id=$refId]/tei:occupation"/>]
+               
     </xsl:template>
     
     </xsl:stylesheet>
