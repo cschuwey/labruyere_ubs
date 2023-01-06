@@ -21,7 +21,7 @@
                 <authority>Université de Lorient</authority>
                 <date>2022</date>
             </publicationStmt>
-            
+           
 <sourceDesc>
 
                 <biblStruct>
@@ -29,9 +29,11 @@
                         <title>Les Caractères De Théophraste traduit du Grec avec Les Caractères ou
                             moeurs de ce siècle</title>
                         <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean De</author>
+                        <author>Théophraste</author>
                         <editor>A. Mame et fils, 1867</editor>
                         <imprint>
                             <pubPlace>https://books.google.fr/books?id=oOMxW9Jj4igC</pubPlace>
+                            <date>1867</date>
                         </imprint>
                     </monogr>
 
@@ -39,10 +41,11 @@
                         <title>Les Caractères De Théophraste traduit du Grec avec Les Caractères ou
                             moeurs de ce siècle</title>
                         <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean De</author>
+                        <author>Théophraste</author>
                         <edition>Cinquième édition</edition>
                         <editor>Etienne Michalet</editor>
                         <imprint>
-                            <publisher/>
+                            <date>1690</date>
                         </imprint>
                     </monogr>
 
@@ -50,14 +53,32 @@
                         <title>Les Caractères De Théophraste traduit du Grec avec Les Caractères ou
                             moeurs de ce siècle</title>
                         <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean De</author>
+                        <author>Théophraste</author>
                         <edition>Neuvième édition</edition>
                         <editor>Etienne Michalet</editor>
                         <imprint>
-                            <publisher/>
+                            <date>1696</date>
                         </imprint>
                     </monogr>
 
                 </biblStruct>
+    
+
+    <listPerson>
+        
+        <person xml:id=""> </person>
+        
+        <person xml:id=""> </person>
+        
+        <person xml:id="">
+            <idno></idno>
+            <occupation> 
+                
+            </desc>
+                
+            </occupation>
+            <birth></birth>
+            <death></death>
                           
 </sourceDesc>
             
@@ -98,16 +119,7 @@
 
 <particDesc>
     
-    <listPerson>
-  
-            <person sex="H" age="adult"><name>Titus</name></person>
-            
-            <person age="adult"><name>Aristippe</name></person>
-            
-            <person sex="H" age="adult"><name>Ambreville</name></person>
-        
-        </listPerson>
-        
+ 
 </particDesc>
 
 </profileDesc>
@@ -125,7 +137,9 @@
         <front>
 
             <titlePage>
-
+                
+                <docTitle>
+                   
                 <titlePart>Les Caractères de Théophraste</titlePart>
 
                 <titlePart>traduits du Grec :</titlePart>
@@ -133,20 +147,22 @@
                 <titlePart>avec les Caractères</titlePart>
 
                 <titlePart>ou les moeurs de ce siècle</titlePart>
+                    
+                </docTitle>
                 
-            </titlePage>
-
-                <docEdition>Neuvième édition augmentée de plusieurs Remarques</docEdition>
-
+                <docAuthor>La Bruyère, Jean de </docAuthor>
+            
+                <docEdition source="#Tours_1867"> Neuvième édition augmentée de plusieurs Remarques </docEdition>
+                
                 <docImprint>Etienne Michalet</docImprint>
 
                 <docDate when="1696" style="big">MDC XC</docDate>
 
-                <note style="written">
-                    <desc>La Bruyere, Jean de</desc>
-                </note>
 
-                <docAuthor style="writtennote" source="#Tours_1867, #Paris-1690, #Paris-1696"/>
+source="#Tours_1867, #Paris-1690, #Paris-1696"
+
+              
+            </titlePage>
 
         </front>
 
