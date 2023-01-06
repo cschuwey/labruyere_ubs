@@ -1,659 +1,665 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères de la Bruyère</title>
-                <respStmt xml:id="JdB">
-                    <name>Jean de la Bruyère</name>
-                    <resp>auteur</resp>
-                </respStmt>
             </titleStmt>
             <editionStmt> 
-            <edition></edition>
-            <respStmt xml:id="EG">
-                <name>Gervraud Emma</name>
-                <resp>éditrice</resp>
-            </respStmt>
+                <edition>Editions 1, 6 et 10 </edition>
+                <respStmt xml:id="AC">
+                    <name>Anissa CHAHBOUN</name>
+                    <resp>éditrice</resp>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <authority/>
             </publicationStmt>
+            
             <sourceDesc>
-                <bibl/>
+                <bibl xml:id="Paris_1691_1_1"/>
                 <biblStruct>
-                    <monogr xml:id="Paris_1688_1">
-                        <author ref="https://data.bnf.fr/11910249">Théophraste</author>
-                        <title>Les Caractères de Théophraste</title>
-                        <editor>Chez Estienne Michallet à Paris</editor>
-                        <edition>Première édition</edition>
-                        <imprint xml:id="Paris_1688_1_1">
-                            <publisher>Première édition</publisher>
-                            <date>1688</date>
-                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k105077m</pubPlace>
-                        </imprint>
-                    </monogr>
-                    <monogr xml:id="Paris_1688_3">
-                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
-                        <author>Théophraste</author>
-                        <title>Les Caractères de Théophraste</title>
-                        <editor>Chez Estienne Michallet à Paris</editor>
-                        <edition>Troisième édition</edition>
-                        <imprint xml:id="Paris_1688_3_1">
-                            <publisher>Troisième édition</publisher>
-                            <date>1688</date>
-                        </imprint>
-                    </monogr>
-                    <monogr xml:id="Paris_1689_4">
-                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
-                        <title>Les Caractères de Théophraste</title>
-                        <editor>Chez estienne Michallet à Paris</editor>
-                        <edition>Quatrième édition</edition>
-                        <imprint xml:id="Paris_1689_4_1">
-                            <publisher>Quatrième édition</publisher>
-                            <date>1689</date>
+                    <monogr xml:id="Tours_1876">
+
+                        <title>Les Caractères</title>
+                        <author ref="11910249/jean_de_la_bruyere/" xml:id="Jean_de_la_Bruyère">de la Bruyère, Jean</author>
+                        <edition>Edition classique</edition>
+
+                        <imprint xml:id="Tours_1876_n1">
+                            <date>1876</date>
+                            <pubPlace>Tours</pubPlace>
+                            <publisher>Alfred Mame et fils, éditeurs</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k5493831p.texteImage</pubPlace>
                         </imprint>
                     </monogr>
 
-                    <monogr xml:id="Paris_1690_5">
-                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11910249">Théophraste</author>
-                        <title>Les Caractères de Théophraste</title>
-                        <editor>Chez estienne Michallet à Paris</editor>
-                        <edition>Cinquième édition</edition>
-                        <imprint xml:id="Paris_1690_5_1">
-                            <publisher>Cinquième édition</publisher>
-                            <date>1690</date>
+                    <monogr>
+                        <title>Les Caractère de Théophraste</title>
+                        <author ref="11910249/jean_de_la_bruyere/"> de la Bryère, Jean</author>
+                        <edition/>
+                        <imprint xml:id="Paris_1688">
+                            <date>1688</date>
+                            <pubPlace>PARIS</pubPlace>
+                            <publisher>Chez Estienne Michallet, premier imprimeur du Roy, rüe S.
+                                Jacques, à l'Image faint Paul</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k57572x?rk=42918;4</pubPlace>
                         </imprint>
                     </monogr>
 
-                    <monogr xml:id="Paris_1691_6">
-                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11910249">Théophraste</author>
-                        <title>Les Caractères de Théophraste</title>
-                        <editor>Chez estienne Michallet à Paris</editor>
-                        <edition>Sixième édition</edition>
-                        <imprint xml:id="Paris_1691_6_1">
-                            <publisher>Sixième édition</publisher>
+                    <monogr>
+                        <title>Les Caractère de Théophraste</title>
+                        <author ref="11910249/jean_de_la_bruyere/"> de la Bryère, Jean</author>
+                        <edition/>
+                        <imprint xml:id="Paris_1691">
                             <date>1691</date>
+                            <pubPlace>PARIS</pubPlace>
+                            <publisher>Chez Estienne Michallet, premier imprimeur du Roy, rüe S.
+                                Jacques, à l'Image faint Paul</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k.r=Jean%20de%20La%20Bruy%C3%A8re%2C%20Les%20caract%C3%A8res%20de%20th%C3%A9ophraste?rk=42918;4</pubPlace>
                         </imprint>
                     </monogr>
 
-                    <monogr xml:id="Paris_1692_7">
-                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11910249">Théophraste</author>
-                        <title>Les Caractères de Théophraste</title>
-                        <editor>Chez estienne Michallet à Paris</editor>
-                        <edition>Septième édition</edition>
-                        <imprint xml:id="Paris_1692_7_1">
-                            <publisher>Septième édition</publisher>
-                            <date>1692</date>
-                        </imprint>
-                    </monogr>
-
-                    <monogr xml:id="Paris_1694_8">
-                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11910249">Théophraste</author>
-                        <title>Les Caractères de Théophraste</title>
-                        <editor>Chez estienne Michallet à Paris</editor>
-                        <edition>Huitième édition</edition>
-                        <imprint xml:id="Paris_1694_8_1">
-                            <publisher>Huitième édition</publisher>
-                            <date>1694</date>
-                        </imprint>
-                    </monogr>
-
-                    <monogr xml:id="Paris_1696_9">
-                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11910249">Théophraste</author>
-                        <title>Les Caractères de Théophraste</title>
-                        <editor>Chez estienne Michallet à Paris</editor>
-                        <edition>Neuvième édition</edition>
-                        <imprint xml:id="Paris_1696_9_1">
-                            <publisher>Neuvième édition</publisher>
-                            <date>1696</date>
-                        </imprint>
-                    </monogr>
-
-                    <monogr xml:id="Paris_1699_10">
-                        <author ref="https://data.bnf.fr/11910249">La Bruyère, Jean de</author>
-                        <author ref="https://data.bnf.fr/11910249">Théophraste</author>
-                        <title>Les Caractères de Théophraste</title>
-                        <editor>Chez estienne Michallet à Paris</editor>
-                        <edition>Neuvième édition</edition>
-                        <imprint xml:id="Paris_1699_10_1">
-                            <publisher>Dixième édition</publisher>
+                    <monogr>
+                        <title>Les Caractère de Théophraste</title>
+                        <author ref="11910249/jean_de_la_bruyere/"> de la Bryère, Jean</author>
+                        <edition/>
+                        <imprint xml:id="Paris_1699">
                             <date>1699</date>
+                            <pubPlace>PARIS</pubPlace>
+                            <publisher>Chez Estienne Michallet, premier imprimeur du Roy, rüe S.
+                                Jacques, à l'Image faint Paul</publisher>
+                            <pubPlace>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k.r=Jean%20de%20La%20Bruy%C3%A8re%2C%20Les%20caract%C3%A8res%20de%20th%C3%A9ophraste?rk=42918;4</pubPlace>
                         </imprint>
                     </monogr>
-
                 </biblStruct>
+
+
+                <listPerson>
+
+                    <person xml:id="S.Augustin">
+                        <idno source="11889551/augustin/"/>
+                        <floruit period="Antiquité"/>
+                    </person>
+
+                    <person xml:id="Platon">
+                        <idno source="11920019/platon/"/>
+                        <floruit period="Antiquité"/>
+                    </person>
+
+                    <person xml:id="Cicéron">
+                        <idno source="11885977/ciceron/"/>
+                        <floruit period="Antiquité"/>
+                    </person>
+
+                    <person xml:id="César">
+                        <idno source="11894764/jules_cesar/"/>
+                        <floruit period="Antiquité"/>
+                    </person>
+
+                    <person xml:id="Machiavel">
+                        <idno source="11913795/machiavel/"/>
+                        <floruit period="Renaissance"/>
+                    </person>
+
+                </listPerson>
+
+
+                <listPlace>
+                    <place xml:id="Royaume_de_Siam"><country>Thailande</country></place>
+                    <place xml:id="Asie">
+                        <country xml:id="Asie_Indes">Indes</country>
+                        <country xml:id="Asie_Chine">Chine</country>
+                        <country xml:id="Asie_Japon">Japon</country>
+                    </place>
+                </listPlace>
+
             </sourceDesc>
+
         </fileDesc>
         <profileDesc>
-            <langUsage>
-                <language ident="fra">français classique</language>
-            </langUsage>
-            <textDesc n="comédie sociale">
+
+            <textDesc>
                 <channel/>
                 <constitution/>
-                <derivation type="original"/>
+                <derivation/>
                 <domain/>
-                <factuality type="fact"/>
+                <factuality type="fiction"/>
                 <interaction/>
                 <preparedness/>
-                <purpose type="distration"/>
+                <purpose/>
             </textDesc>
+            <langUsage resp="iso639-3">
+                <language ident="fra">français classic</language>
+            </langUsage>
+
         </profileDesc>
+
         <encodingDesc>
-            <editorialDecl>
-                <normalization>
-                    <p>Transformation des s long en "s" afin de normaliser et moderniser</p>
-                    <p>Transformation des esperluettes en "et"</p>
-                    <p>Transformer les "sc" en "s"</p>  
-                </normalization>
-            </editorialDecl>
-         
+
             <charDecl>
-                <glyph xml:id="pied_de_mouche_simple">
-                    <desc>pied de mouche simple au début des remarques dans l'édition 3, l'édition 4, l'édition 6,l'édition 7,l'édition 8, l'édition 9 et l'édition 10</desc>
-                </glyph>
-                <glyph xml:id="pied_de_mouche_simple_avec_parenthese">
-                    <desc>pied de mouche simple avec parenthèse au début des remarques dans l'édition 5 </desc>
-                </glyph>
-                <glyph xml:id="pied_de_mouche_simple_avec_double_parenthese">
-                    <desc>pied de mouche simple avec double parenthèse au debut des remarques dans l'édition 5 </desc>
-                </glyph>
+                <glyph xml:id="pilcrow"/>
             </charDecl>
-            <p>le texte de base dans lem est la dernière version puisque toutes les remarques y sont présentes facilitant la comparaison</p>
             <classDecl>
                 <taxonomy>
-                    <category xml:id="ancêtre">
-                        <catDesc>Ascendance lointaine d'une personne</catDesc>
+                    <category xml:id="religion">
+                        <catDesc ref="LeRobert">
+                            Reconnaissance par l'être humain d'un principe supérieur de qui dépend sa destinée ; attitude intellectuelle et morale qui en résulte.
+                        </catDesc>
                     </category>
-                    <category xml:id="amitié">
-                        <catDesc>sympathie durable entre deux personnes</catDesc>
+                    <category xml:id="vertu">
+                        <catDesc ref="LeRobert">
+                            Force morale avec laquelle l'être humain tend au bien, s'applique à suivre la règle, la loi morale
+                        </catDesc>
                     </category>
-                    <category xml:id="passion">
-                        <catDesc>affection intense</catDesc>
-                    </category>
-                    <category xml:id="reconnaissance">
-                        <catDesc>admettre la légitimité d'une personne</catDesc>
-                    </category>
-                    <category xml:id="aimer">
-                        <catDesc>avoir de la tendresse pour quelqu'un</catDesc>
-                    </category>
-                    <category xml:id="rêver">
-                        <catDesc>se laisser aller à l'imagination</catDesc>
-                    </category>
-                    <category xml:id="haine">
-                        <catDesc>sentiment d'hostilité extrêment profonde</catDesc>
-                    </category>
-                    <category xml:id="antipathie">
-                        <catDesc>hostilité envers une personne</catDesc>
-                    </category>
-                    <category xml:id="confiance">
-                        <catDesc>fait de croire fortement</catDesc>
-                    </category>
-                    <category xml:id="souffrir">
-                        <catDesc>éprouver une sensation douloureuse</catDesc>
-                    </category>
-                    <category xml:id="dépit">
-                        <catDesc>chagrin mêlé d'amertume survenant après une déception ou un échec</catDesc>
-                    </category>
-                    <category xml:id="peine">
-                        <catDesc>douleur, chagrin, tristesse</catDesc>
-                    </category>
-                    <category xml:id="inexorable">
-                        <catDesc>qui ne peut être touché</catDesc>
-                    </category>
-                    <category xml:id="indulgent">
-                        <catDesc>prêt à pardonner des fautes, être clément</catDesc>
-                    </category>
-                    <category xml:id="raison">
-                        <catDesc>faculté propre à l'humain</catDesc>
-                    </category>
-                    <category xml:id="bien">
-                        <catDesc>ce qui est moralement juste</catDesc>
-                    </category>
-                    <category xml:id="fidèle">
-                        <catDesc>qui respecte les engagements pris</catDesc>
-                    </category>
-                    <category xml:id="ennemi">
-                        <catDesc>personne qui cherche à nuire quelqu'un</catDesc>
-                    </category>
-                    <category xml:id="probité">
-                        <catDesc>honneté, loyauté</catDesc>
-                    </category>
-                    <category xml:id="craindre">
-                        <catDesc>avoir peur</catDesc>
-                    </category>
-                    <category xml:id="politique">
-                        <catDesc>qui concerne le gouvernement</catDesc>
-                    </category>
-                    <category xml:id="moral">
-                        <catDesc>ensemble des valeurs et règles de conduite d'une société</catDesc>
-                    </category>
-                    <category xml:id="choix">
-                        <catDesc>possibilité de choisir</catDesc>
-                    </category>
-                    <category xml:id="pénible">
-                        <catDesc>qui donne de la peine</catDesc>
-                    </category>
-                    <category xml:id="briguer">
-                        <catDesc>chercher à obtenir</catDesc>
-                    </category>
-                    <category xml:id="faveur">
-                        <catDesc>avantage tiré d'une bienveillance</catDesc>
-                    </category>
-                    <category xml:id="liberté">
-                        <catDesc>absence de contrainte</catDesc>
-                    </category>
-                    <category xml:id="digne">
-                        <catDesc>qui mérite</catDesc>
-                    </category>
-                    <category xml:id="désespérer">
-                        <catDesc>perdre l'espoir</catDesc>
-                    </category>
-                    <category xml:id="récompensé">
-                        <catDesc>ce que l'on donne ou reçoit en remerciement</catDesc>
-                    </category>
-                    <category xml:id="succès">
-                        <catDesc>résultat heureux obtenu</catDesc>
-                    </category>
-                    <category xml:id="impatience">
-                        <catDesc>manque de capacité à attendre</catDesc>
+                    <category xml:id="esprit">
+                        <catDesc ref="Larousse">
+                            Principe de la vie psychique, intellectuelle ; capacités intellectuelles, intelligence.
+                        </catDesc>
                     </category>
                 </taxonomy>
             </classDecl>
+
         </encodingDesc>
-        <revisionDesc>
-            <list>
-                <item>
-                    <date when="2022-10-10">Modification du "s long" et "esperluettes"</date>
-                    <date when="2022-10-25">Encodage des "app"</date>
-                    <date when="2022-10-29">Encodage des pieds de mouche</date>
-                    <date when="2022-10-30">Modification de "sc" en "s" et description de la première page</date>
-                    <date when="2022-10-31">Correction des "app" et "g"</date>
-					<date when="2022-11-03">Encodage de notes en tant qu'éditrice et pagination</date>
-                    <date when="2022-11-07">Encodage des annotations et définition de la "taxomany" dans encodingdesc</date>
-                    <date when="2022-11-10">Encodage des term et définition de la "taxomany" dans encodingdesc</date>
-                    <date when="2022-11-10">Modification de note en imprimatur</date>
-                    <date when="2022-11-24">Modification des id bibliographiques et correction d'encodingDesc</date>
-                </item>
-            </list>
-        </revisionDesc>
-
-
-
 
     </teiHeader>
+
     <text>
         <front>
-            <titlePage source="#Paris_1688_1">
+            <titlePage source="#Paris_1688">
+                <docAuthor style="written" source="#Paris_1688">la Bruyère, Jean de</docAuthor>
                 <docTitle>
-                    <titlePart>Les</titlePart>
-                    <titlePart style="big">caractères</titlePart>
-                    <titlePart>de Théophraste</titlePart>
-                    <titlePart>traduits du Grec :</titlePart>
-                    <titlePart style="italics">avec</titlePart>
-                    <titlePart>les caractères</titlePart>
+                    <titlePart/>
+                    <titlePart> LES </titlePart>
+                    <titlePart>CARACTERES</titlePart>
+                    <titlePart>DE THEOPHRASTE</titlePart>
+                    <titlePart>traduit du grec</titlePart>
+                    <titlePart>Avec</titlePart>
+                    <titlePart>les caractères </titlePart>
                     <titlePart>ou</titlePart>
-                    <titlePart style="big">les moeurs</titlePart>
-                    <titlePart>de ce siecle</titlePart>
+                    <titlePart>les moeurs</titlePart>
+                    <titlePart>de ce siècle</titlePart>
                 </docTitle>
-                <figure>
-                    <desc>marque du libraire</desc>
-                </figure>
-                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë S
-                    Jacques, à l'Image faint Paul</docImprint>
-                <docDate when="1688" style="big">M. DC. LXXXVIII.</docDate>
-                <imprimatur>avec privilège de sa majesté</imprimatur>
+                <docDate when="1688">M. DC. LXXXVII.</docDate>
+                <figure/>
+                <docImprint> A PARIS Chez Etienne MICHALLET, premier imprimeur du Roy, rüe S.
+                    Jacques, à l'image faint Paul</docImprint>
+                <docEdition>TROISIEME EDITION</docEdition>
             </titlePage>
-            
-            <titlePage source="#Paris_1688_3">
-                <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
+
+
+            <titlePage source="#Paris_1691">
+                <docAuthor style="written" source="#Paris_1691">la Bruyère, Jean de</docAuthor>
                 <docTitle>
-                    <titlePart>Les</titlePart>
-                    <titlePart style="big">caractères</titlePart>
-                    <titlePart>de Théophraste</titlePart>
-                    <titlePart>traduits du Grec :</titlePart>
-                    <titlePart style="italics">avec</titlePart>
-                    <titlePart>les caractères</titlePart>
+                    <titlePart/>
+                    <titlePart> LES </titlePart>
+                    <titlePart style="red">CARACTERES</titlePart>
+                    <titlePart>DE THEOPHRASTE</titlePart>
+                    <titlePart style="red">traduit du grec</titlePart>
+                    <titlePart style="italic">Avec</titlePart>
+                    <titlePart style="red">les caractères </titlePart>
                     <titlePart>ou</titlePart>
-                    <titlePart style="big">les moeurs</titlePart>
-                    <titlePart>de ce siecle</titlePart>
+                    <titlePart style="red">les moeurs</titlePart>
+                    <titlePart>de ce siècle</titlePart>
                 </docTitle>
-                <docEdition>troisième édition</docEdition>
-                <figure>
-                    <desc>marque du libraire</desc>
-                </figure>
-                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë S.
-                    Jacques, à l'Image faint Paul</docImprint>
-                <docDate when="1688" style="big">M. DC. LXXXVIII.</docDate>
-                <imprimatur>avec privilège de sa majesté</imprimatur>
+                <figure/>
+                <docImprint> A PARIS Chez Etienne MICHALLET, premier imprimeur du Roy, rüe S.
+                    Jacques, à l'image faint Paul</docImprint>
+                <docDate when="1691" style="red">M. DC. XCI.</docDate>
+                <docEdition>SIXIE'ME EDITION.</docEdition>
             </titlePage>
-            
-            <titlePage source="#Paris_1689_4">
-                <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
-                <docTitle>
-                    <titlePart>Les</titlePart>
-                    <titlePart style="big">caractères</titlePart>
-                    <titlePart>de Théophraste</titlePart>
-                    <titlePart>traduits du Grec :</titlePart>
-                    <titlePart style="italics">avec</titlePart>
-                    <titlePart>les caractères</titlePart>
-                    <titlePart>ou</titlePart>
-                    <titlePart style="big">les moeurs</titlePart>
-                    <titlePart>de ce siecle</titlePart>
-                </docTitle>
-                <docEdition>quatrième édition</docEdition>
-                <docEdition>corrigée et augmentée</docEdition>
-                <figure>
-                    <desc>marque du libraire</desc>
-                </figure>
-                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë Saint
-                    Jacques, à l'Image S.Paul</docImprint>
-                <docDate when="1688" style="big">M. DC. LXXXIX.</docDate>
-                <imprimatur>avec privilège de sa majesté</imprimatur>
-            </titlePage>
-            
-            <titlePage source="#Paris_1690_5">
-                <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
-                <docTitle>
-                    <titlePart>Les</titlePart>
-                    <titlePart style="big">caractères</titlePart>
-                    <titlePart>de Théophraste</titlePart>
-                    <titlePart>traduits du Grec :</titlePart>
-                    <titlePart style="italics">avec</titlePart>
-                    <titlePart>les caractères</titlePart>
-                    <titlePart>ou</titlePart>
-                    <titlePart style="big">les moeurs</titlePart>
-                    <titlePart>de ce siecle</titlePart>
-                </docTitle>
-                <docEdition>cinquième édition</docEdition>
-                <docEdition>augmentée de plusieurs remarques</docEdition>
-                <figure>
-                    <desc>marque du libraire</desc>
-                </figure>
-                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë Saint
-                    Jacques, à l'Image S.Paul</docImprint>
-                <docDate when="1690" style="big">M. DC. XC.</docDate>
-                <imprimatur>avec privilège de sa majesté</imprimatur>
-            </titlePage>
-            
-            <titlePage source="#Paris_1691_6">
-                <docTitle>
-                    <titlePart>Les</titlePart>
-                    <titlePart style="big red">caractères</titlePart>
-                    <titlePart>de Théophraste</titlePart>
-                    <titlePart style="red">traduits du Grec :</titlePart>
-                    <titlePart style="italics">avec</titlePart>
-                    <titlePart style="red">les caractères</titlePart>
-                    <titlePart>ou</titlePart>
-                    <titlePart style="big red">les moeurs</titlePart>
-                    <titlePart>de ce siecle</titlePart>
-                </docTitle>
-                <docEdition>sixième édition</docEdition>
-                <figure>
-                    <desc>marque du libraire</desc>
-                </figure>
-                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë S.
-                    Jacques, à l'Image S.Paul</docImprint>
-                <docDate when="1691" style="big">M. DC. XCI.</docDate>
-                <imprimatur>avec privilège de sa majesté</imprimatur>
-            </titlePage>
-            
-            <titlePage source="#Paris_1692_7">
-               <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
-                <docTitle>
-                    <titlePart>Les</titlePart>
-                    <titlePart style="big">caractères</titlePart>
-                    <titlePart>de Théophraste</titlePart>
-                    <titlePart>traduits du Grec :</titlePart>
-                    <titlePart style="italics">avec</titlePart>
-                    <titlePart>les caractères</titlePart>
-                    <titlePart>ou</titlePart>
-                    <titlePart style="big">les moeurs</titlePart>
-                    <titlePart>de ce siecle</titlePart>
-                </docTitle>
-               <docEdition>septième édition</docEdition>
-                <docEdition>Reveuë et corrigée</docEdition>
-                <figure>
-                    <desc>marque du libraire</desc>
-                </figure>
-                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë S.
-                    Jacques, à l'Image S.Paul</docImprint>
-                <docDate when="1692" style="big">M. DC. XCII.</docDate>
-                <imprimatur>avec privilège de sa majesté</imprimatur>
-            </titlePage>
-            
-            <titlePage source="#Paris_1694_8">
-               <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
-                <docTitle>
-                    <titlePart>Les</titlePart>
-                    <titlePart style="big">caractères</titlePart>
-                    <titlePart>de Théophraste</titlePart>
-                    <titlePart>traduits du Grec :</titlePart>
-                    <titlePart style="italics">avec</titlePart>
-                    <titlePart>les caractères</titlePart>
-                    <titlePart>ou</titlePart>
-                    <titlePart style="big">les moeurs</titlePart>
-                    <titlePart>de ce siecle</titlePart>
-                </docTitle>
-               <docEdition>huitième édition</docEdition>
-                <docEdition>Reveuë, corrigée et augmentée</docEdition>
-                <figure>
-                    <desc>marque du libraire</desc>
-                </figure>
-                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë faint
-                    Jacques, à l'Image faint Paul</docImprint>
-                <docDate when="1694" style="big">M. DC. XCIV.</docDate>
-                <imprimatur>avec privilège de sa majesté</imprimatur>
-            </titlePage>
-            
-            <titlePage source="#Paris_1696_9">
-               <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
-                <docTitle>
-                    <titlePart>Les</titlePart>
-                    <titlePart style="big">caractères</titlePart>
-                    <titlePart>de Théophraste</titlePart>
-                    <titlePart>traduits du Grec :</titlePart>
-                    <titlePart style="italics">avec</titlePart>
-                    <titlePart>les caractères</titlePart>
-                    <titlePart>ou</titlePart>
-                    <titlePart style="big">les moeurs</titlePart>
-                    <titlePart>de ce siecle</titlePart>
-                </docTitle>
-               <docEdition>neuvième édition</docEdition>
-                <docEdition>Reveuë, corrigée et augmentée</docEdition>
-                <figure>
-                    <desc>marque du libraire</desc>
-                </figure>
-                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë faint
-                    Jacques, à l'Image faint Paul</docImprint>
-                <docDate when="1696" style="big">M. DC. XCVI.</docDate>
-                <imprimatur>avec privilège de sa majesté</imprimatur>
-            </titlePage>
-            
-            <titlePage source="#Paris_1699_10">
-               <docAuthor style="written note">La Bruyère, Jean de</docAuthor>
-                <docTitle>
-                    <titlePart>Les</titlePart>
-                    <titlePart style="big">caractères</titlePart>
-                    <titlePart>de Théophraste</titlePart>
-                    <titlePart>traduits du Grec :</titlePart>
-                    <titlePart style="italics">avec</titlePart>
-                    <titlePart>les caractères</titlePart>
-                    <titlePart>ou</titlePart>
-                    <titlePart style="big">les moeurs</titlePart>
-                    <titlePart>de ce siecle</titlePart>
-                </docTitle>
-               <docEdition>dixième édition</docEdition>
-                <figure>
-                    <desc>marque du libraire</desc>
-                </figure>
-                <docImprint>A Paris, chez Estienne Michalet, premier Imprimeur du Roy, ruë S.
-                    Jacques, à l'Image S.Paul</docImprint>
-                <docDate when="1696" style="big">M. DC. XCIX.</docDate>
-                <imprimatur>avec privilège de sa majesté</imprimatur>
-           </titlePage>
         </front>
+
+
         <body>
+
             <div1>
-				<!--Absence de note, absence de note manuscrite, absence de mot en langue étrangère-->
-                <head>Du Coeur</head>
-                <div2 n="21" source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                        <g ref="#pied_de_mouche_simple"></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>S’il se trouve une femme pour <pb n="161" source="#Paris_1690_5"/> qui l’on ait
-                            eu une grande <term ref="#passion">passion</term> et qui ait été indifférente, quelques importants
-                            services qu’elle nous rende dans la suite de notre vie, l’on court un
-                            grand risque d’être ingrat.</p>
+                <head>Des esprits forts</head>
+
+                <div2 n="20">
+                    <p source="#Paris_1691 #Paris_1699"><g source="#pilcrow"/>Si c’est le grand et
+                        le sublime de la <app>
+                            <lem>religion</lem>
+                            <rdg wit="#Paris_1699"> Religion </rdg>
+                        </app>qui éblouit ou qui confond les esprits forts, ils ne sont plus des
+                        esprits forts, mais de faibles génies et de petits esprits ; et si c’est au
+                        contraire ce qu’il y a d’humble et de simple qui les rebute, ils sont à la
+                        vérité des esprits forts, et plus forts que tant de grands hommes si
+                        éclairés, si élevés, et néanmoins si fidèles, que les
+                            <persName>Léons</persName>, les <persName>Basiles</persName>, les
+                            <persName>Jéromes</persName>, les <persName>Augustins</persName>.</p>
                 </div2>
-                <div2 n="22" source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                        <g ref="#pied_de_mouche_simple "></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Une grande <term ref="#reconnaissance">reconnaissance</term> emporte avec soi beaucoup de goût et <pb n="144" source="#Paris_1689_4"/> d'<app><lem><term ref="#amitié">amitié</term></lem><rdg wit="#Paris_1690_5">amit é</rdg></app> pour
-                            la personne qui nous oblige.</p>
+
+                <div2 n="21">
+                    <p source="#Paris_1691"><g source="#pilcrow"/><quote>« Un Père de l’Eglise, un
+                            docteur de l’Eglise, quels noms ! quelle tristesse dans leurs écrits !
+                            quelle sécheresse, quelle froide dévotion, et peut-être quelle
+                            scolastique ! » </quote> disent ceux qui ne les ont jamais lus. Mais
+                        plutôt quel étonnement pour tous ceux qui se sont fait une idée des Pères si
+                        éloignée de la vérité, s’ils voyaient dans leurs ouvrages plus de tour et de
+                        délicatesse, plus de politesse et d’esprit, plus de richesse d’expression et
+                        plus de force de raisonnement, des traits plus vifs et des grâces plus
+                        naturelles que l’on n’en remarque dans la plupart des livres de ce temps qui
+                        sont lus avec goût, qui donnent du nom et de la vanité à leurs auteurs !
+                        Quel plaisir d’aimer la religion, et de la voir crue, soutenue, expliquée
+                        par de si beaux génies, et par de si solides esprits ! surtout lorsque l’on
+                        vient à connaître que pour l’étendue de connaissance, pour la profondeur et
+                        la pénétration, pour les principes de la pure philosophie, pour leur
+                        application et leur développement, pour la justesse des conclusions, pour la
+                        dignité du discours, pour la beauté de la morale et des sentiments, il n’y a
+                        rien par exemple que l’on puisse comparer à <persName source="#S.Augustin"
+                            >S. Augustin</persName>, que <persName source="#Platon"
+                            >Platon</persName> et que <persName source="#Cicéron"
+                        >Cicéron</persName>.</p>
                 </div2>
-                <div2 n="23" source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p> 
-                        <g ref="#pied_de_mouche_simple"></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Etre <note resp="#EG">Dans la Bryuère, il est écrit "estre"</note> avec des gens qu’on <term ref="aimer">aime</term> <app><lem>,</lem><rdg wit="#Paris_1689_4 #Paris_1690_5"> absence de virgule</rdg></app> cela suffit ; <term ref="#rêver">rêver</term>, leur parler<app><lem>,</lem><rdg wit="#Paris_1689_4">manque d'espaces avant et après virgule</rdg></app> ne leur
-                        parler point <note resp="#EG"><date ref="#ancêtre">ancêtre</date> du mot pas</note>, penser à eux, penser à des choses plus <app><lem>indifférentes</lem><rdg wit="#Paris_1689_4">indiff.rentes</rdg></app>, mais
-                        auprès d’eux, tout est égal. <pb n="117" source="#Paris_1699_10"/> <pb n="169" source="#Paris_1694_8"/> <pb n="168" source="#Paris_1692_7"/> <pb n="147" source="#Paris_1691_6"/></p>
+
+                <div2 n="22">
+                    <p source="#Paris_1699"><g source="#pilcrow"/>L’homme est né menteur : la vérité
+                        est simple et ingénue, et il veut du spécieux et de l’ornement. Elle n’est
+                        pas à lui, elle vient du ciel toute faite, pour ainsi dire, et dans toute sa
+                        perfection ; et l’homme n’aime que son propre ouvrage, la fiction et la
+                        fable. Voyez le peuple : il controuve, il augmente, il charge par
+                        grossièreté et par sottise ; demandez même au plus honnête homme s’il est
+                        toujours vrai dans ses discours, s’il ne se surprend pas quelquefois dans
+                        des déguisements où engagent nécessairement la vanité et la légèreté, si
+                        pour faire un meilleur conte, il ne lui échappe pas souvent d’ajouter à un
+                        fait qu’il récite une circonstance qui y manque. Une chose arrive
+                        aujourd’hui, et presque sous nos yeux : cent personnes qui l’ont vue la
+                        racontent en cent façons différentes ; celui-ci, s’il est écouté, la dira
+                        encore d’une manière qui n’a pas été dite. Quelle créance donc pourrais-je
+                        donner à des faits qui sont anciens et éloignés de nous par plusieurs
+                        siècles ? quel fondement dois-je faire sur les plus graves historiens ? que
+                        devient l’histoire ? <persName source="#César">César</persName> a-t-il été
+                        massacré au milieu du sénat ? y a-t-il eu un <persName source="#César"
+                            >César</persName> ? « Quelle conséquence ! me dites-vous ; quels doutes
+                        ! quelle demande ! » Vous riez, vous ne me jugez pas digne d’aucune réponse
+                        ; et je crois même que vous avez raison. Je suppose néanmoins que le livre
+                        qui fait mention de <persName source="#César">César</persName> ne soit pas
+                        un livre profane, écrit de la main des hommes, qui sont menteurs, trouvé par
+                        hasard dans les bibliothèques parmi d’autres manuscrits qui contiennent des
+                        histoires vraies ou apocryphes ; qu’au contraire il soit inspiré, saint,
+                        divin ; qu’il porte en soi ces caractères ; qu’il se trouve depuis près de
+                            <date>deux mille ans</date> dans une société nombreuse qui n’a pas
+                        permis qu’on y ait fait pendant tout ce temps la moindre altération, et qui
+                        s’est fait une religion de le conserver dans toute son intégrité ; qu’il y
+                        ait même un engagement religieux et indispensable d’avoir de la foi pour
+                        tous les faits contenus dans ce volume où il est parlé de <persName
+                            source="#César">César</persName> et de sa dictature : avouez-le, <persName><app>
+                                <lem wit="#Paris_1699">Lucile</lem>
+                                <rdg wit="#clé">Duc de Bourbon</rdg>
+                            </app></persName>, vous douterez alors qu’il y ait eu un <persName
+                            source="#César">César</persName>.</p>
                 </div2>
-                <div2 n="24" source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p> 
-                        <g ref="#pied_de_mouche_simple"></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Il n’y a pas si loin de la <term ref="#haine">haine</term> à <term ref="#amitié">l’amitié</term> que de <term ref="#antipathie">l’antipathie</term>.</p>
+
+                <div2 n="23">
+                    <p source="#Paris_1699"><g source="#pilcrow"/> Toute musique n’est pas propre à
+                        louer Dieu et à être entendue dans le <app>
+                            <lem>sanctuaire</lem>
+                            <rdg wit="#Paris_1688 #Paris_1691">fanctuaire</rdg>
+                        </app> ; toute philosophie ne parle pas dignement de <term type="#religion"
+                            >Dieu</term>, de sa puissance, des principes de ses opérations et de ses
+                        mystères : plus cette philosophie est subtile et idéale, plus elle est vaine
+                        et inutile pour expliquer des choses qui ne demandent des hommes qu’un sens
+                        droit pour être connues jusques à un certain point, et qui au delà sont
+                        inexplicables. Vouloir rendre raison de <term type="#religion">Dieu</term>,
+                        de ses perfections, et si j’ose ainsi parler, de ses actions, c’est aller
+                        plus loin que les anciens philosophes, que les Apôtres, que les premiers
+                        docteurs, mais ce n’est pas rencontrer si juste ; c’est creuser longtemps et
+                        profondément, sans trouver les sources de la vérité. Dès qu’on a abandonné
+                        les termes de bonté, de miséricorde, de justice et de toute-puissance, qui
+                        donnent de <term type="#religion">Dieu</term> de si hautes et de si aimables
+                        idées, quelque grand effort d’imagination qu’on puisse faire, il faut
+                        recevoir les expressions sèches, stériles, vides de sens ; admettre les
+                        pensées creuses, écartées des notions communes, ou tout au plus les subtiles
+                        et les ingénieuses ; et à mesure que l’on acquiert d’ouverture dans une
+                        nouvelle métaphysique, perdre un peu de sa religion.</p>
                 </div2>
-                <div2 n="25" source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p> 
-                        <g ref="#pied_de_mouche_simple"></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Il semble qu’il est moins rare de <app><lem>passer</lem><rdg wit="#Paris_1689_4">pass r</rdg></app> de l’<app><lem><term ref="#antipathie">antipathie</term></lem><rdg wit="#Paris_1692_7">antipachie</rdg></app> à <term ref="#aimer">l’amour</term> qu’à
-                            <term ref="#amitié">l’amitié</term></p>
+
+                <div2 n="24">
+                    <p source="#Paris_1691"><g source="#pilcrow"/>Jusques où les hommes ne se
+                        portent-ils point par l’intérêt de la religion, dont ils sont si peu
+                        persuadés, et qu’ils pratiquent si mal !</p>
                 </div2>
-                    <!-- Deux remarques se fusionnent-->
-                <div2 n="26" source="#Paris_1689_4">
-                    <p>
-                        <g ref="#pied_de_mouche_simple"></g>L’on confie son secret dans <term ref="#amitié">l’amitié</term> ; mais il <app><lem>échape</lem><rdg wit="#Paris_1689_4 #Paris_1690_5">échappe</rdg></app> dans <term ref="#aimer">l’amour</term>.</p>
+
+                <div2 n="25">
+                    <p source="#Paris_1699"><g source="#pilcrow"/>Cette <app>
+                            <lem>même</lem>
+                            <rdg wit="#Paris_1688 #Paris_1691">mefme</rdg>
+                        </app> religion que les hommes défendent avec chaleur et avec zèle contre
+                        ceux qui en ont une toute contraire, ils l’altèrent eux-mêmes dans leur
+                        esprit par des sentiments particuliers : ils y <app>
+                            <lem>ajoutent</lem>
+                            <rdg wit="#Paris_1699">ajoûtent</rdg>
+                        </app> et ils en retranchent mille choses souvent essentielles, selon ce qui
+                        leur convient, et ils demeurent fermes et inébranlables dans cette forme
+                        qu’ils lui ont donnée. Ainsi, à parler populairement, on peut dire d’une
+                        seule nation qu’elle vit sous un même culte, et qu’elle n’a qu’une seule
+                        religion ; mais, à parler exactement, il est vrai qu’elle en a plusieurs, et
+                        que chacun presque y a la sienne.</p>
                 </div2>
-                <div2 n="26bis" source="#Paris_1689_4">
-                    <p>
-                        <g ref="#pied_de_mouche_simple"></g>L’on peut avoir la <term ref="#confiance">confiance</term> de quelqu’un sans en avoir le cœur. Celui qui a le
-                        cœur n’a <app><lem>pas</lem><rdg wit="#Paris_1689_4">plus</rdg></app> besoin de révélation <app><lem> </lem><rdg wit="#Paris_1689_4"> , </rdg></app> ou de <term ref="#confiance">confiance</term> ; tout lui est ouvert.</p>
-                </div2>   
-                <div2 n="26" source="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                        <g ref="#pied_de_mouche_simple"></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>L’on confie son secret dans <term ref="#amitié">l’amitié</term> ; mais il <app><lem>échape</lem><rdg wit="#Paris_1690_5">échappe</rdg></app> dans <term ref="#aimer">l’amour</term>. L’on
-                        peut avoir la <term ref="#confiance">confiance</term> de quelqu’un sans en avoir le cœur. Celui <note resp="#EG">Dans la Bryuère, il est écrit "celuy"</note> qui a le
-                        cœur n’a <app><lem>pas</lem><rdg wit="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7">plus</rdg></app> besoin de révélation <app><lem> </lem><rdg wit="#Paris_1691_6">,</rdg></app> ou de <term ref="#confiance">confiance</term> ; tout lui <note resp="#EG">Dans la Bryuère, il est écrit "luy"</note> est ouvert.</p>
+
+                <div2 n="26">
+                    <p source="#Paris_1699">
+                        <g source="#pilcrow"/>Deux sortes de gens fleurissent dans les cours, et y
+                        dominent dans divers temps, les libertins et les hypocrites : ceux-là
+                        gaiement, ouvertement, sans art et sans dissimulation ; ceux-ci finement,
+                        par des artifices, par la cabale. Cent fois plus épris de la fortune que les
+                        premiers, ils en sont jaloux jusqu’à l’excès ; ils veulent la gouverner, la
+                        posséder seuls, la partager entre eux et en exclure tout autre ; dignités,
+                        charges, postes, bénéfices, pensions, honneurs, tout leur convient et ne
+                        convient qu’à eux ; le reste des hommes en est indigne ; ils ne comprennent
+                        point que sans leur attache on ait l’impudence de les espérer. Une troupe de
+                        masques entre dans un bal : ont-ils la main, ils dansent, ils se font danser
+                        les uns les autres, ils dansent encore, ils dansent toujours ; ils ne
+                        rendent la main à personne de l’assemblée, quelque digne qu’elle soit de
+                        leur attention : on languit, on sèche de les voir danser et de ne danser
+                        point : quelques-uns murmurent ; les plus sages prennent leur parti et s’en
+                        vont.</p>
                 </div2>
-                <div2 n="27" source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p> 
-                        <g ref="#pied_de_mouche_simple"></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>L’on ne voit dans l’amitié que les <app><lem>défauts</lem><rdg wit="#Paris_1691_6">defauts</rdg></app> <pb n="74" source="#Paris_1696_9"/> qui peuvent nuire à nos amis.
-                        L’on ne voit en <term ref="#aimer">amour</term> de dé- <pb n="162" source="#Paris_1690_5"/> fauts dans ce qu’on aime <app><lem>,</lem><rdg wit="#Paris_1690_5"> </rdg></app> que ceux dont on <term ref="#souffrir">souffre</term>
-                        soi-même.</p>
+
+                <div2 n="27">
+                    <p source="Paris_1699">
+                        <g source="#pilcrow"/>Il y a deux espèces de libertins : les libertins, ceux
+                        du moins qui croient l’être, et les hypocrites ou faux dévots, c’est-à-dire
+                        ceux qui ne veulent pas être crus libertins : les derniers dans ce genre-là
+                        sont les meilleurs. Le faux dévot ou ne croit pas en Dieu, ou se moque de
+                            <term type="#religion">Dieu</term> ; parlons de lui obligeamment : il ne
+                        croit pas en <term type="#religion">Dieu</term>.</p>
                 </div2>
-                <!-- une faute de frappe dans l'édition 10 de bon en bou montexte de référence -->
-                <div2 n="28" source="#Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p> 
-                        <g ref="#pied_de_mouche_simple"></g> 
-                        <g ref= "pied_de_mouche_simple_avec_parenthese"></g>Il n’y a qu’un premier <term ref="#dépit">dépit</term> en <term ref="#aimer">amour</term>, comme la première faute dans <term ref="#amitié">l’amitié</term>,
-                        dont on puisse faire un <app><lem>bou</lem><rdg wit="#Paris_1688_3 #Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9">bon</rdg></app> usage.</p>
+
+                <div2 n="28">
+                    <p source="Paris_1699"><g source="#pilcrow #Paris_1688 #Paris_1691 "/>Si toute
+                        religion est une crainte respectueuse de la Divinité, que penser de ceux qui
+                        osent la blesser dans sa plus vive image, qui est <title source="#Machiavel"
+                            >le Prince</title> ?</p>
                 </div2>
-                <div2 n="50" source="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                        <g ref="#pied_de_mouche_simple_avec_double_parenthese"></g>
-                        <g ref="#pied_de_mouche_simple"></g>Un homme dur au travail et à la <pb n="152" source="#Paris_1691_6"/> <term ref="#peine">peine</term>, <term ref="#inexorable">inexorable</term> à soi-même, n’est <term ref="#indulgent">indulgent</term>
-                        aux autres que par un excès de <term ref="#raison">raison</term>.</p>
+
+                <div2 n="29">
+                    <p source="#Paris_1688 #Paris_1691 Paris_1699"><g source="#pilcrow"/> Si l’on
+                        nous <app>
+                            <lem>affuroit</lem>
+                            <note resp="#AC">ancêtre du mot assurait</note>
+                            <rdg wit="#Paris_1699">assurait</rdg>
+                        </app> que le <pb n="293" source="#Paris_1688"/> motif secret de <placeName
+                            source="#Asie #Royaume_de_Siam" when="1686">l’ambassade des
+                            Siamois</placeName> a été d’exciter le <persName type="pseudo"> <app>
+                                <lem>Roi Très-Chrétien</lem>
+                           <rdg>Louis XIV</rdg>
+                            </app></persName> à renoncer au
+                        christianisme, à permettre l’entrée de son royaume aux Talapoins<note resp="#AC"> Nom
+                            donné aux moines bouddhistes de la Birmanie et de la Thaïlande par les
+                            Européens, au xvii et au xviiie </note>, qui eussent pénétré dans nos
+                        maisons pour persuader leur religion <note resp="#AC">il s'agit du boudhisme</note> à
+                        nos femmes, à nos enfants et à nous-mêmes par leurs livres et par leurs
+                        entretiens, qui eussent élevé des pagodes<note resp="#AC">Le mot pagode désigne un lieu
+                            où se trouve une relique et un lieu de culte pour les adeptes du
+                            bouddhisme, prenant l'aspect d'une tour de plusieurs étages, circulaire,
+                            octogonale ou carrée, caractérisée par un toit évasé ou en épi</note> au
+                        milieu des villes, où ils eussent placé des figures de métal pour être
+                        adorées, avec quelles risées et quel étrange mépris n’entendrions-nous pas
+                        des choses si extravagantes ! Nous faisons cependant six mille lieues de mer
+                        pour la conversion des <placeName source="#Asie #Asie_Indes">Indes</placeName>, des <placeName
+                            source="#Asie #Royaume_de_Siam ">royaumes de
+                            Siam</placeName><note resp="#AC">Il s'agit de la Thaïlande actuelle</note>, de
+                            la<placeName source="#Asie #Asie_Chine"> Chine</placeName> et du <placeName
+                            source="#Asie #Asie_Japon">Japon</placeName>, c’est-à-dire pour faire très
+                        sérieusement à tous ces peuples des propositions qui doivent leur <pb
+                            n="294" source="#Paris_1688"/>
+                        <app>
+                            <lem>paraître très folles</lem>
+                            <rdg wit="#Paris_1688">paroitre tres-folles</rdg>
+                        </app> et très ridicules. Ils supportent néanmoins nos religieux et nos
+                        prêtres ; ils les écoutent quelquefois, leur laissent bâtir leurs églises et
+                        faire leurs missions. Qui fait cela en eux et en nous ? ne serait-ce point
+                        la force de la vérité ?</p>
                 </div2>
-                <div2 n="51" source="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p> <g ref="#pied_de_mouche_simple_avec_double_parenthese"></g>
-                        <g ref="#pied_de_mouche_simple"></g> Quelque désagrément qu’on ait à se trou- <pb n="77" source="#Paris_1696_9"/>ver chargé d’un indigent<app><lem> , </lem><rdg wit="#Paris_1690_5">, </rdg></app>l’on goûte
-                        à <term ref="#peine">peine</term> les nouveaux avantages qui le tirent enfin de <app><lem>nôtre</lem><rdg wit="#Paris_1690_5">nostre</rdg></app> sujétion : de
-                        <app><lem>même</lem><rdg wit="#Paris_1690_5">mesme</rdg></app>, la joie <note resp="#EG">Dans la Bryuère, il est écrit "joye"</note> que l’on reçoit de l’élévation de son ami est un peu balancée
-                        par la petite <term ref="#peine">peine</term> qu’on a de le voir au-dessus de nous ou s’égaler à nous.
-                        Aussi l’on s’accorde mal avec soi-<app><lem>même</lem><rdg wit="#Paris_1690_5">mesme</rdg></app> ; car l’on veut des dépendants, et
-                        qu’il n’en coûte rien ; l’on veut aussi le bien de ses <pb n="167" source="#Paris_1690_5"/> <term ref="#amitié">amis</term>, et, s’il
-                        arrive, ce n’est pas <app><lem>toûjours</lem><rdg wit="#Paris_1690_5 #Paris_1696_9">toujours</rdg></app> par s’en réjouir <note resp="#EG">Dans la Bryuère, il est écrit "réjoüir"</note> que l’on commence.</p>
+
+                <div2 n="30">
+                    <p source="#Paris_1691"><g source="#pilcrow"/>Il ne convient pas à toute sorte
+                        de personnes de lever l’étendard d’aumônier, et d’avoir tous les pauvres
+                        d’une ville assemblés à sa porte, qui y reçoivent leurs portions. Qui ne
+                        sait pas au contraire des misères plus secrètes qu’il peut entreprendre de
+                        soulager, ou immédiatement et par ses secours, ou du moins par sa médiation
+                        ! De même il n’est pas donné à tous de monter en chaire et d’y distribuer,
+                        en missionnaire ou en catéchiste, la parole sainte ; mais qui n’a pas
+                        quelquefois sous sa main un libertin à réduire, et à ramener par de douces
+                        et insinuantes conversations à la docilité ? Quand on ne serait pendant sa
+                        vie que l’apôtre d’un seul homme, ce ne serait pas être en vain sur la
+                        terre, ni lui être un fardeau inutile.</p>
                 </div2>
-                <div2 n="52" source="#Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                        <g ref="#pied_de_mouche_simple"></g>On convie, on invite, on offre sa maison, sa table, son <term ref="#bien">bien</term> et ses services
-                        : rien ne <app><lem>coûte</lem><rdg wit="#Paris_1692_7 #Paris_1696_9">coute</rdg></app> qu’à tenir parole.</p>
+
+                <div2 n="31">
+                    <p source="#Paris_1688"><seg type="#pilcrow"/>Il y a deux mondes : l’un où l’on
+                        séjourne peu, et dont l’on doit sortir pour n’y plus rentrer ; l’autre où
+                        l’on doit bientôt entrer pour n’en jamais sortir. La faveur, l’autorité, les
+                        amis, la haute réputation, les grands biens servent pour le premier monde ;
+                        le mépris de toutes ces choses sert pour le second. Il s’agit de
+                        choisir.</p>
                 </div2>
-                <div2 n="53" source="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                        <g ref="#pied_de_mouche_simple_avec_parenthese"></g>
-                        <g ref="#pied_de_mouche_simple"></g>C’est assez pour soi <note resp="#EG">Dans la Bryuère, il est écrit "soy"</note> d’un<app><lem><term ref="#fidèle">fidèle</term></lem><rdg wit="#Paris_1696_9">fidelle</rdg></app> ami ; c’est <app><lem>même</lem><rdg wit="#Paris_1690_5">mesme</rdg></app> beaucoup de l’avoir
-                        rencontré : on ne peut en avoir trop pour le service des autres.<pb n="123" source="#Paris_1699_10"/> <pb n="175" source="#Paris_1694_8"/> <pb n="174" source="#Paris_1692_7"/></p>
+
+                <div2 n="32">
+                    <p source="#Paris_1688 #Paris_1691"><seg type="#pilcrow"/>Qui a vécu un seul jour
+                        a vécu un siècle : même soleil, même terre, même monde, mêmes sensations ;
+                        rien ne ressemble mieux à aujourd’hui <pb n="295" source="#Paris_1688"/> que
+                        demain. Il y aurait quelque curiosité à mourir, c’est-à-dire à n’être plus
+                        un corps, mais à être seulement esprit : l’homme cependant, impatient de la
+                        nouveauté, n’est point curieux sur ce seul article ; né inquiet et qui
+                        s’ennuie de tout, il ne s’ennuie point de vivre ; il consentirait peut-être
+                        à vivre toujours. Ce qu’il voit de la mort le frappe plus violemment que ce
+                        qu’il en sait : la maladie, la douleur, le cadavre le dégoûtent de la
+                        connaissance d’un autre monde. Il faut tout le sérieux de la
+                            <term type="#religion">religion</term> pour le réduire.</p>
                 </div2>
-                <div2 n="54" source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                        <g ref="#pied_de_mouche_simple"> </g>
-                        <g ref="#pied_de_mouche_simple_avec_parenthese"></g>Quand on a assez fait auprès de certaines personnes pour avoir dû se les
-                        acquérir, si cela ne réussit point <app><lem>,</lem><rdg wit="#Paris_1689_4"> , </rdg></app> il y a encore une ressource, qui est de
-                        ne plus rien faire.</p>
+
+                <div2 n="33">
+                    <p source="#Paris_1688 #Paris_1691">
+                        <seg type="#pilcrow"/> Si <term type="#religion">Dieu</term> avait donné le
+                        choix ou de mourir ou de toujours vivre, après avoir médité profondément ce
+                        que c’est que de ne voir nulle fin à la pauvreté, à la dépendance, à
+                        l’ennui, à la maladie, ou de <pb n="296" source="#Paris_1688"/> n’essayer
+                        des richesses, de la grandeur, des plaisirs et de la santé, que pour les
+                        voir changer inviolablement et par la révolution des temps en leurs
+                        contraires et être ainsi le jouet des biens et des maux, l’on ne saurait
+                        guère à quoi se résoudre. La nature nous fixe et nous ôte l’embarras de
+                        choisir ; et la mort qu’elle nous rend nécessaire est encore adoucie par la
+                            <term type="#religion">religion</term>.</p>
                 </div2>
-                <!-- attention deux remarques dans la cinquième édition se séparent à partir de la sixième -->
-                <div2 n="55" source="#Paris_1690_5">
-                    <p>
-                        <g ref="#pied_de_mouche_simple_avec_double_parenthese"></g>Vivre avec ses <term ref="#ennemi">ennemis</term> comme s’ils devaient un jour <app><lem>être</lem><rdg wit="#Paris_1690_5">estre</rdg></app> nos <term ref="#amitié">amis</term>, <pb n="153" source="#Paris_1691_6"/> et vivre
-                        avec nos <term ref="#amitié">amis</term> comme s’ils pouvaient devenir nos <term ref="#ennemi">ennemis</term>, n’est ni <note resp="#EG">Dans la Bryuère, il est écrit ny</note> selon la
-                        nature de la <term ref="#haine">haine</term>, ni <note resp="#EG">Dans la Bryuère, il est écrit ny</note> selon les règles de <term ref="#amitié">l’amitié</term> ; ce n’est point une
-                        maxime morale, mais <term ref="#politique">politique</term>.On ne doit pas se faire des <term ref="#ennemi">ennemis</term> de ceux qui, mieux connus, pourraient
-                        avoir rang entre nos <term ref="#amitié">amis</term>. On doit faire choix <term ref="#amitié">d’amis</term> si sûrs et d’une si
-                        exacte <term ref="#probité">probité</term>, que venant à cesser de l’<app><lem>être</lem><rdg wit="#Paris_1690_5">estre</rdg></app>, ils se veuillent pas abuser
-                        de <app><lem>nôtre</lem><rdg wit="#Paris_1690_5">nostre</rdg></app> <term ref="#confiance">confiance</term>, ni se faire <term ref="#craindre">craindre</term> comme <term ref="#ennemi">ennemis</term>.</p>
+
+                <div2 n="34">
+                    <p source="#Paris_1691">
+                        <seg type="#pilcrow"/>Si ma <term type="#religion">religion</term> était
+                        fausse, je l’avoue, voilà le piège le mieux dressé qu’il soit possible
+                        d’imaginer : il était inévitable de ne pas donner tout au travers, et de n’y
+                        être pas pris. Quelle majesté, quel éclat des mystères ! quelle suite et
+                        quel enchaînement de toute la doctrine ! quelle raison éminente ! quelle
+                        candeur, quelle innocence de vertus ! quelle force invincible et accablante
+                        des témoignages rendus successivement et pendant trois siècles entiers par
+                        des millions de personnes les plus sages, les plus modérées qui fussent
+                        alors sur la terre, et que le sentiment d’une même vérité soutient dans
+                        l’exil, dans les fers, contre la vue de la mort et du dernier supplice !
+                        Prenez l’histoire, ouvrez, remontez jusques au commencement du monde,
+                        jusques à la veille de sa naissance : y a-t-il eu rien de semblable dans
+                        tous les temps ? <term type="#religion">Dieu</term> même pouvait-il jamais
+                        mieux rencontrer pour me séduire ? Par où échapper ? où aller, où me jeter,
+                        je ne dis pas pour trouver rien de meilleur, mais quelque chose qui en
+                        approche ? S’il faut périr, c’est par là que je veux périr : il m’est plus
+                        doux de nier <term type="#religion">Dieu</term> que de l’accorder avec une
+                        tromperie si spécieuse et si entière. Mais je l’ai approfondi, je ne puis
+                        être athée ; je suis donc ramené et entraîné dans ma <term type="#religion"
+                            >religion</term> ; c’en est fait.</p>
                 </div2>
-                <div2 n="55" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                        <g ref="#pied_de_mouche_simple"></g>Vivre avec ses <term ref="#ennemi">ennemis</term> comme s’ils devaient un jour être nos <term ref="#amitié">amis</term>, et vivre
-                        avec nos <term ref="#amitié">amis</term> comme s’ils pouvaient devenir nos <term ref="#ennemi">ennemis</term>, n’est ni selon la
-                        nature de la <term ref="#haine">haine</term>, ni <note resp="#EG">Dans la Bryuère, il est écrit ny</note> selon les règles de <term ref="#amitié">l’amitié</term> ; ce n’est point une
-                        maxime <term ref="#moral">morale</term>, mais <term ref="#politique">politique</term>.</p>
+
+                <div2 n="35">
+                    <p source="#Paris_1688 #Paris_1691">
+                        <seg type="#pilcrow"/>La <term type="#religion">religion</term> est vraie, ou
+                        elle est fausse : si elle n’est qu’une vaine fiction, voilà, si l’on veut,
+                        soixante années perdues pour l’homme de bien, pour le chartreux ou le
+                        solitaire : ils ne courent pas un autre risque. Mais si elle est fondée sur
+                        la vérité même, c’est alors un épouvantable malheur pour l’homme vicieux :
+                        l’idée seule des maux qu’il se prépare me trou <pb n="297"
+                            source="#Paris_1688"/> ble l’imagination ; la pensée est trop faible
+                        pour les concevoir, et les paroles trop vaines pour les exprimer. Certes, en
+                        supposant même dans le monde moins de certitude qu’il ne s’en trouve en
+                        effet sur la vérité de la <term type="#religion">religion</term>, il n’y a
+                        point pour l’homme un meilleur parti que la <term type="#vertu">vertu</term>.</p>
                 </div2>
-                <div2 n="56" source="#Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                        <g ref="#pied_de_mouche_simple"></g>On ne doit pas se faire des <term ref="#ennemi">ennemis</term> de ceux qui, mieux connus, pourraient
-                        avoir rang entre nos <term ref="#amitié">amis</term>. On doit faire <term ref="#choix">choix</term> <term ref="#amitié">d’amis</term> si sûrs et d’une si
-                        exacte <term ref="#probibé">probité</term>, que venant à cesser de l’<app><lem>être</lem><rdg wit="#Paris_1696_9">ètre</rdg></app>être, ils se veuillent <note resp="#EG">Dans les éditions de la Bruyère, il est écrit "veüille"</note> pas abuser
-                        de notre <term ref="#confiance">confiance</term>, ni <note resp="#EG">Dans la Bryuère, il est écrit ny</note> se faire <term ref="#caindre">craindre</term> comme <app><lem> </lem><rdg wit="#Paris_1692_7">nos</rdg></app> <term ref="#ennemi">ennemis</term>.</p>
+
+                <div2 n="36">
+                    <p source="#Paris_1688 #Paris_1691">
+                        <seg type="#pilcrow"/>Je ne sais si ceux qui osent nier <term type="#religion"
+                            >Dieu</term> méritent qu’on s’efforce de le leur prouver, et qu’on les
+                        traite plus sérieusement que l’on n’a fait dans ce chapitre : l’ignorance,
+                        qui est leur caractère, les rend incapables des principes les plus clairs et
+                        des raisonnements les mieux suivis. Je consens néanmoins qu’ils lisent celui
+                        que je vais faire, pourvu qu’ils ne se persuadent pas que c’est tout ce que
+                        l’on pouvait dire sur une vérité si éclatante. </p>
+                    <pb n="298" source="#Paris_1688"/>
+                    <p source="#Paris_1688 #Paris_1691">Il y a <date when="1648">quarante ans</date>
+                        que je n’étais point, et qu’il n’était pas en moi de pouvoir jamais être,
+                        comme il ne dépend pas de moi, qui suis une fois, de n’être plus ; j’ai donc
+                        commencé, et je continue d’être par quelque chose qui est hors de moi, qui
+                        durera après moi, qui est meilleur et plus puissant que moi : si ce quelque
+                        chose n’est pas <term type="#religion">Dieu</term>, qu’on me dise ce que
+                        c’est. </p>
+                    <p source="#Paris_1688 #Paris_1691">Peut-être que moi qui existe n’existe ainsi
+                        que par la force d’une nature universelle, qui a toujours été telle que nous
+                        la voyons, en remontant jusques à l’infinité des temps <app>
+                            <lem>.</lem>
+                            <rdg wit="#Paris_1699">:</rdg>
+                        </app>
+                        <note resp="#Jean_de_la_Bruyère" type="annotation"
+                            place="en marge droite">Objection ou système des libertins</note>
+                        <app>
+                            <lem>Mais</lem>
+                            <rdg wit="#Paris_1699">mais</rdg>
+                        </app> cette nature, ou elle est seulement esprit ; et c’est <term
+                            type="#religion">Dieu</term> ; ou elle est matière, et ne peut par
+                        conséquent avoir créé mon esprit ; ou elle est un composé de matière et
+                        d’esprit, et alors <pb n="299" source="#Paris_1688"/> ce qui est esprit dans
+                        la nature, je l’appelle <term type="#religion">Dieu</term>.</p>
+                    <p source="#Paris_1688 #Paris_1691">Peut-être aussi que ce que j’appelle mon
+                        esprit n’est qu’une portion de matière qui existe par la force d’une nature
+                        universelle qui est aussi matière, qui a toujours été, et qui sera toujours
+                        telle que nous la voyons, et qui n’est point <term type="#religion"
+                            >Dieu</term>
+                        <note source="#Paris_1699" resp="#Jean_de_la_Bruyère"
+                            type="annotation" place="en marge droite">Influence des
+                        libertins</note>. Mais du moins faut-il m’accorder que ce que j’appelle
+                            <term type="#esprit">mon esprit</term>, quelque chose que ce puisse être, est une chose
+                        qui pense, et que s’il est matière, il est nécessairement une matière qui
+                        pense ; car l’on ne me persuadera point qu’il n’y ait pas en moi quelque
+                        chose qui pense pendant que je fais ce raisonnement. Or ce quelque chose qui
+                        est en moi et qui pense, s’il doit son être et sa conservation à une nature
+                        universelle qui a toujours été et qui sera <pb n="300" source="#Paris_1688"
+                        /> toujours, laquelle il reconnaisse comme sa cause, il faut
+                        indispensablement que ce soit à une nature universelle ou qui pense, ou qui
+                        soit plus noble et plus parfaite que ce qui pense ; et si cette nature ainsi
+                        faite est matière, l’on doit encore conclure que c’est une matière
+                        universelle qui pense, ou qui est plus noble et plus parfaite que ce qui
+                        pense. </p>
+                    <p source="#Paris_1688 #Paris_1691">Je continue et je dis : Cette matière telle
+                        qu’elle vient d’être supposée, si elle n’est pas un être chimérique, mais
+                        réel, n’est pas aussi imperceptible à tous les sens ; et si elle ne se
+                        découvre pas par elle-même, on la connaît du moins dans le divers
+                        arrangement de ses parties qui constitue les corps, et qui en fait la
+                        différence : elle est donc elle-même tous ces différents corps ; et comme el
+                            <pb n="301" source="#Paris_1688"/> le est une matière qui pense selon la
+                        supposition, ou qui vaut mieux que ce qui pense, il s’ensuit qu’elle est
+                        telle du moins selon quelques-uns de ces corps, et par suite nécessaire,
+                        selon tous ces corps, c’est-àdire qu’elle pense dans les pierres, dans les
+                        métaux, dans les mers, dans la terre, dans moi-même, qui ne suis qu’un
+                        corps, comme dans toutes les autres parties qui la composent. C’est donc à
+                        l’assemblage de ces parties si terrestres, si grossières, si corporelles,
+                        qui toutes ensemble sont la matière universelle ou ce monde visible, que je
+                        dois ce quelque chose qui est en moi, qui pense, et que j’appelle mon esprit
+                        : ce qui est absurde.</p>
+
+                    <p source="#Paris_1688 #Paris_1691">Si au contraire cette nature universelle,
+                        quelque chose que ce puisse être, ne peut pas être <pb n="302"
+                            source="#Paris_1688"/> tous ces corps, ni aucun de ces corps, il suit de
+                        là qu’elle n’est point matière, ni perceptible par aucun des sens ; si
+                        cependant elle pense, ou si elle est plus parfaite que ce qui pense, je
+                        conclus encore qu’elle est esprit, ou un être meilleur et plus accompli que
+                        ce qui est esprit. Si d’ailleurs il ne reste plus à ce qui pense en moi, et
+                        que j’appelle mon esprit, que cette nature universelle à laquelle il puisse
+                        remonter pour rencontrer sa première cause et son unique origine, parce
+                        qu’il ne trouve point son principe en soi, et qu’il le trouve encore moins
+                        dans la matière, ainsi qu’il a été démontré, alors je ne dispute point des
+                        noms ; mais cette source originaire de tout esprit, qui est esprit
+                        elle-même, et qui est plus excellente que tout esprit, je l’appelle <term
+                            type="#religion">Dieu</term>.</p>
+                    <pb n="303" source="#Paris_1688"/>
+
+                    <p source="#Paris_1688 #Paris_1691">En un mot, je pense, donc <term
+                            type="#religion">Dieu</term> existe ; car ce qui pense en moi, je ne le
+                        dois point à moi-même, parce qu’il n’a pas plus dépendu de moi de me le
+                        donner une première fois, qu’il dépend encore de moi de me le conserver un
+                        seul instant. Je ne le dois point à un être qui soit au-dessus de moi, et
+                        qui soit matière, puisqu’il est impossible que la matière soit au-dessus de
+                        ce qui pense : je le dois donc à un être qui est au-dessus de moi et qui
+                        n’est point matière ; et c’est <term type="#religion">Dieu</term>.</p>
                 </div2>
-                <div2 n="57" source="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                       <g ref="#pied_de_mouche_simple_avec_parenthese"></g>
-                        <g ref="#pied_de_mouche_simple"></g>Il est doux de voir ses <term ref="#amitié">amis</term> par <app><lem>goût</lem><rdg wit="#Paris_1696_9">gout</rdg></app> et par estime ; il est <term ref="#pénible">pénible</term> de <pb n="168" source="#Paris_1690_5"/> les
-                        cultiver par <app><lem><term>interêt</term></lem><rdg wit="#Paris_1690_5">interest</rdg></app>; c’est solliciter.</p>
+
+                <div2 n="37">
+                    <p source="#Paris_1688 #Paris_1691"><seg type="#pilcrow"/>De ce qu’une nature
+                        universelle qui pense exclut de soi généralement tout ce qui est matière, il
+                        suit nécessairement qu’un être particulier qui pense ne peut pas aussi
+                        admettre en soi la moindre matière ; car bien qu’un être universel <pb
+                            n="304" source="#Paris_1688"/> qui pense renferme dans son idée
+                        infiniment plus de grandeur, de puissance, d’indépendance et de capacité,
+                        qu’un être particulier qui pense, il ne renferme pas néanmoins une plus
+                        grande exclusion de matière, puisque cette exclusion dans l’un et l’autre de
+                        ces deux êtres est aussi grand qu’elle peut être et comme infinie, et qu’il
+                        est autant impossible que ce qui pense en moi soit matière, qu’il est
+                        inconcevable que <term type="#religion">Dieu</term> soit matière : ainsi,
+                        comme <term type="#religion">Dieu</term> est esprit, mon âme aussi est
+                        esprit. </p>
                 </div2>
-                <div2 n="58" source="#Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                        <g ref="pied_de_mouche_simple"></g>Il faut <app><lem><term ref="#briguer">briguer</term></lem><rdg wit="#Paris_1692_7">brigues</rdg></app> la <term ref="#faveur">faveur</term> de ceux à qui l’on veut du <term ref="#bien">bien</term>, <app><lem>plutôt</lem><rdg wit="#Paris_1696_9">plutost</rdg></app> <note resp="#EG">plûtôt <date ref="#ancêtre">ancêtre</date> du mot plutôt passant</note> que de ceux
-                        de qui l’on espère <note resp="#EG">absence d'accent</note> du <term ref="#bien">bien</term>. <pb n="78" source="#Paris_1696_9"/></p>
+
+                <div2 n="38">
+                    <p source="#Paris_1688 #Paris_1691"><seg type="#pilcrow"/>Je ne sais point si le
+                        chien choisit, s’il se ressouvient, s’il affectionne, s’il craint, s’il
+                        imagine, s’il pense : quand donc l’on me dit que toutes ces choses ne sont
+                        en lui ni passions, ni sentiment, mais l’effet naturel et nécessaire de la
+                        disposition de sa machine préparée <pb n="305" source="#Paris_1688"/> par le
+                        divers arrangement des parties de la matière, je puis au moins acquiescer à
+                        cette doctrine. Mais je pense, et je suis certain que je pense : or quelle
+                        proportion y a-t-il de tel ou de tel arrangement des parties de la matière,
+                        c’est-à-dire d’une étendue selon toutes ses dimensions, qui est longue,
+                        large et profonde, et qui est divisible dans tous ces sens, avec ce qui
+                        pense ? </p>
                 </div2>
-                <div2 n="59" source="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                        <g ref="#pied_de_mouche_simple"></g>
-                        <g ref="#pied_de_mouche_simple_avec_parenthese"></g> On ne vole point des <app><lem>mêmes</lem><rdg wit="#Paris_1690_5">mesme</rdg></app> ailes <pb n="179" source="#Paris_1694_8"/> <pb n="175" source="#Paris_1692_7"/> pour sa fortune que l’on fait pour des <pb n="124" source="#Paris_1699_10"/>
-                        choses frivoles et de <app><lem>fantaisie</lem><rdg wit="#Paris_1689_4">phantaisie</rdg></app> : il y a un sentiment de <app><lem>liberré</lem><rdg wit="#Paris_1689_4 #Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9"><term ref="#liberté">liberté</term></rdg></app> à suivre ses
-                        caprices, et tout au contraire de servitude à courir pour son établissement
-                        : <app><lem>il</lem><rdg wit="#Paris_1689_4">Il</rdg></app>il est naturel de le souhaiter beaucoup et d’y travailler peu, de se
-                        croire <term ref="#digne">digne</term> de le trouver sans l’avoir cherché.</p>
+
+                <div2 n="39">
+                    <p source="#Paris_1688 #Paris_1691"><seg type="#pilcrow"/>Si tout est matière, et
+                        si la pensée en moi, comme dans tous les autres hommes, n’est qu’un effet de
+                        l’arrangement des parties de la matière, qui a mis dans le monde toute autre
+                        idée que celle des choses matérielles ? La matière a-t-elle dans son fond
+                        une idée aussi pure, aussi simple, aussi immatérielle qu’est celle de
+                        l’esprit ? Comment peut-elle être le principe <pb n="306"
+                            source="#Paris_1688"/> de ce qui la nie et l’exclut de son propre être ?
+                        Comment est-elle dans l’homme ce qui pense, c’est-à-dire ce qui est à
+                        l’homme même une conviction qu’il n’est point matière ?</p>
                 </div2>
-                <div2 n="60" source="#Paris_1690_5 #Paris_1691_6 #Paris_1692_7 #Paris_1694_8 #Paris_1696_9 #Paris_1699_10">
-                    <p>
-                        <g ref=" #pied_de_mouche_simple_avec_double_parenthese"></g>
-                        <g ref="#pied_de_mouche_simple"></g> Celui <note resp="#EG">Dans les éditions de la Bruyère, il est écrit "celuy"</note> qui sait <note resp="#EG">Dans les éditions de la Bruyère, il est écrit "sçait"</note> attendre le <pb n="154" source="#Paris_1691_6"/> <term ref="#bien">bien</term> qu’il souhaite, ne prend pas le chemin de se
-                        <term ref="#désespérer">désespérer</term> s’il ne lui arrive pas ; et celui au contraire qui désire une
-                        chose avec une grande <term ref="#impatience">impatience</term> <app><lem>,</lem><rdg wit="#Paris_1690_5"> </rdg></app> y met trop du sien <app><lem> </lem><rdg wit="#Paris_1690_5 #Paris_1691_6">,</rdg></app> pour en <app><lem>estre</lem><rdg wit="#Paris_1692_7 #Paris_1694_8 #Paris_1696_9">être</rdg></app> assez
-                        <term ref="#récompensé">récompensé</term> par le <term ref="#succès">succès</term>.</p>
+
+                <div2 n="40">
+                    <p source="#Paris_1688 #Paris_1691"><seg type="#pilcrow"/>Il y a des êtres qui
+                        durent peu, parce qu’ils sont composés de choses très différentes et qui se
+                        nuisent réciproquement. Il y en a d’autres qui durent davantage, parce
+                        qu’ils sont plus simples ; mais ils périssent parce qu’ils ne laissent pas
+                        d’avoir des parties selon lesquelles ils peuvent être divisés. Ce qui pense
+                        en moi doit durer beaucoup, parce que c’est un être pur, exempt de tout
+                        mélange et de toute composition ; et il n’y a pas de raison qu’il doive
+                        périr, car qui peut corrompre ou séparer un être simple et qui n’a point de
+                        parties <app>
+                            <lem>?</lem>
+                            <rdg wit="#Paris_1688">.</rdg>
+                        </app>
+                    </p>
                 </div2>
+
             </div1>
+
         </body>
     </text>
 </TEI>
