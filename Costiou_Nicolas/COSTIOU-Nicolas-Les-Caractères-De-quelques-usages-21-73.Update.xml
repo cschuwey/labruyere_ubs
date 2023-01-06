@@ -64,22 +64,6 @@
                 </biblStruct>
     
 
-    <listPerson>
-        
-        <person xml:id=""> </person>
-        
-        <person xml:id=""> </person>
-        
-        <person xml:id="">
-            <idno></idno>
-            <occupation> 
-                
-            </desc>
-                
-            </occupation>
-            <birth></birth>
-            <death></death>
-                          
 </sourceDesc>
             
 </fileDesc>
@@ -117,10 +101,6 @@
                 <purpose/>
             </textDesc>
 
-<particDesc>
-    
- 
-</particDesc>
 
 </profileDesc>
 
@@ -158,10 +138,6 @@
 
                 <docDate when="1696" style="big">MDC XC</docDate>
 
-
-source="#Tours_1867, #Paris-1690, #Paris-1696"
-
-              
             </titlePage>
 
         </front>
